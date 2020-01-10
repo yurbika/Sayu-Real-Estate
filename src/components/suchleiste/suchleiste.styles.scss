@@ -4,7 +4,7 @@
   bottom: 0;
   right: 0;
   left: 0;
-  margin-top: 29vh;
+  margin-top: 22vh;
   z-index: 1;
   .suchleiste-hintergrund {
     position: relative;
@@ -13,8 +13,9 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    width: 60vw;
-    height: 43vh;
+    min-width: 60vw;
+    max-width: 65vw;
+    min-height: 50vh;
     overflow: hidden;
     background: hsla(0, 0%, 0%, 0.3) border-box;
     border-radius: 2.5em;
@@ -30,25 +31,35 @@
     z-index: -1;
     filter: blur(10px);
   }
+
   .input-container {
     position: relative;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
-    width: 38rem;
-    height: 5rem;
+    width: 50rem;
+    max-width: 60vw;
+    height: 8rem;
+    margin: 1rem;
+
     .input-container-reihe {
       display: flex;
+      &:last-child {
+        margin-top: 1rem;
+      }
     }
-    .input-container-reihe > * {
-      margin-right: 2rem;
+    .erste {
+      border-radius: 15px;
+      box-shadow: 3px 3px 10px #000;
     }
   }
 
   h1 {
-    font-size: 4.5rem;
+    font-size: 3rem;
   }
   p {
-    font-size: 2.2rem;
+    margin-top: 1rem;
+    font-size: 1.8rem;
   }
 }

@@ -10,19 +10,28 @@ const Suchleiste = () => (
     <div className="suchleiste-hintergrund">
       <p>Finden Sie Ihre neues Zuhause</p>
       <h1>Bereit zum Umziehen?</h1>
+
+      {/*buttons und inputs der suchleiste*/}
       <div className="input-container">
-        <div className="input-container-reihe">
-          <Input placeholder={"Ort"} />
-          <Button>Mieten</Button>
-          <Button>Haustyp</Button>
+        <div className="input-container-reihe erste">
+          <Input
+            className="input-startseite"
+            placeholder="Wo: Ort, Bundesland oder PLZ"
+          ></Input>
+          <Button className="normaler-button">Miete</Button>
+          <Button className="normaler-button">Haustyp</Button>
+          <Button className="such-button" arrow="no-arrow">
+            Suchen
+          </Button>
         </div>
         <div className="input-container-reihe">
-          <Button>Preis</Button>
-          <Button>Zimmer</Button>
-          <Button>Fläche</Button>
+          <Button className="secondary-button">Preis</Button>
+          <Button className="secondary-button">Zimmer</Button>
+          <Button className="secondary-button">Fläche</Button>
         </div>
-        <Button className="suchen">Suchen</Button>
       </div>
+
+      {/************/}
     </div>
   </div>
 );
