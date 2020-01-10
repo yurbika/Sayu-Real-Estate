@@ -3,8 +3,10 @@
   margin: 0;
   padding: 0;
   color: #fff7de;
+  font-family: "Lato", sans-serif;
 }
 
 body {
   background: #fff7de;
+  overflow-x: hidden;
 }
