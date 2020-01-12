@@ -1,13 +1,14 @@
 import React from "react";
-import "./button.styles.scss";
 
-const Button = ({ children, arrow, ...props }) => (
-  <button {...props}>
+import { CustomButtonContainer, ArrowContainer, Arrow } from "./button.styles";
+
+const Button = ({ children, ...props }) => (
+  <CustomButtonContainer {...props}>
     <span>{children}</span>
-    <div className="arrow-container">
-      <span className={"arrow " + arrow} />
-    </div>
-  </button>
+    <ArrowContainer {...props}>
+      <Arrow {...props} />
+    </ArrowContainer>
+  </CustomButtonContainer>
 );
 
 export default Button;

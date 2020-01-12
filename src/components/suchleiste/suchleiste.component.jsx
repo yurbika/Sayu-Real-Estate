@@ -15,19 +15,17 @@ const Suchleiste = () => (
       <div className="input-container">
         <div className="input-container-reihe erste">
           <Input
-            className="input-startseite"
+            inputStartseite
             placeholder="Wo: Ort, Bundesland oder PLZ"
           ></Input>
-          <Button className="normaler-button">Miete</Button>
-          <Button className="normaler-button">Haustyp</Button>
-          <Button className="such-button" arrow="no-arrow">
-            Suchen
-          </Button>
+          <Button normalerButton>Miete</Button>
+          <Button normalerButton>Haustyp</Button>
+          <Button suchButton>Suchen</Button>
         </div>
         <div className="input-container-reihe">
-          <Button className="secondary-button">Preis</Button>
-          <Button className="secondary-button">Zimmer</Button>
-          <Button className="secondary-button">Fläche</Button>
+          <Button sekundärerButton>Preis</Button>
+          <Button sekundärerButton>Zimmer</Button>
+          <Button sekundärerButton>Fläche</Button>
         </div>
       </div>
 

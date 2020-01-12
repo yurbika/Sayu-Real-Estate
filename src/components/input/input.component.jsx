@@ -1,5 +1,6 @@
 import React from "react";
-import "./input.styles.scss";
 
-const Input = ({ ...props }) => <input {...props} />;
+import InputStyled from "./input.styles";
+
+const Input = ({ ...props }) => <InputStyled {...props} />;
 export default Input;

@@ -1,25 +1,29 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 import { ReactComponent as Logo } from "../../assets/Sayu-Immo-Logo.svg";
 
-import "./header.styles.scss";
+import {
+  HeaderContainer,
+  LogoContainer,
+  OptionsContainer,
+  OptionLink
+} from "./header.styles";
 
 const Header = () => (
-  <div className="header-container">
-    <Link className="logo-container" to="/">
-      <Logo className="log" />
-    </Link>
-    <div className="options-container">
-      <Link to="/">Startseite</Link>
-      <Link to="/karte">Karte</Link>
-      <Link to="/inspiration">Inspiration</Link>
-      <Link to="/registrieren" className="registrieren">
+  <HeaderContainer>
+    <LogoContainer to="/">
+      <Logo className="logo" />
+    </LogoContainer>
+    <OptionsContainer>
+      <OptionLink to="/">Startseite</OptionLink>
+      <OptionLink to="/karte">Karte</OptionLink>
+      <OptionLink to="/inspiration">Inspiration</OptionLink>
+      <OptionLink to="/registrieren" className="registrieren">
         Registrieren
-      </Link>
-      <Link to="/anmelden">Anmelden</Link>
-    </div>
-  </div>
+      </OptionLink>
+      <OptionLink to="/anmelden">Anmelden</OptionLink>
+    </OptionsContainer>
+  </HeaderContainer>
 );
 
 export default Header;

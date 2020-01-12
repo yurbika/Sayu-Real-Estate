@@ -1,20 +1,26 @@
 import React from "react";
 
 import Button from "../../components/button/button.component";
-
-import "./startseite.styles.scss";
 import Suchleiste from "../../components/suchleiste/suchleiste.component";
 
+import {
+  StartseiteContainer,
+  ContainerSuchleiste,
+  BackgroundImageFilter,
+  StartseiteHintergrund,
+  Test
+} from "./startseite.styles";
+
 const Startseite = () => (
-  <div className="startseite">
-    <div className="container-suchleiste">
-      <div className="backgroundImage-filter" />
-      <div className="startseite-hintergrund" />
-      <Button className="scroll-button"></Button>
+  <StartseiteContainer>
+    <ContainerSuchleiste>
+      <BackgroundImageFilter />
+      <StartseiteHintergrund />
+      <Button scrollButton></Button>
       <Suchleiste />
-    </div>
-    <div className="test"></div>
-  </div>
+    </ContainerSuchleiste>
+    <Test></Test>
+  </StartseiteContainer>
 );
 
 export default Startseite;
