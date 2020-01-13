@@ -28,7 +28,7 @@ export const StartseiteHintergrund = styled.div`
   background-image: url(${theme.img});
 `;
 
-export const Test = styled.div`
+export const InspirationsSection = styled.div`
   width: 100%;
   height: 100%;
 `;

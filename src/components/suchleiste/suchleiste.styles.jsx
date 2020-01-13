@@ -30,7 +30,7 @@ min-width: 60vw;
 max-width: 65vw;
 min-height: 50vh;
 overflow: hidden;
-background: ${theme.colors.transBlack} border-box;
+background: ${theme.colors.hslaBlack} border-box;
 border-radius: 2.5em;
 
 &::before{

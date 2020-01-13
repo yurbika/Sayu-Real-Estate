@@ -9,7 +9,8 @@ const theme = {
     purple: "#A66ACC",
     black: "#4c4e50",
     transBlack: "rgba(76, 78, 80, 0.25)",
-    transDarkerBlack: "rgba(76, 78, 80, 0.75)"
+    transDarkerBlack: "rgba(76, 78, 80, 0.75)",
+    hslaBlack: "hsla(0, 0%, 0%, 0.3)"
   },
 
   img: `${img}`

@@ -8,7 +8,7 @@ import {
   ContainerSuchleiste,
   BackgroundImageFilter,
   StartseiteHintergrund,
-  Test
+  InspirationsSection
 } from "./startseite.styles";
 
 const Startseite = () => (
@@ -19,7 +19,7 @@ const Startseite = () => (
       <Button scrollButton></Button>
       <Suchleiste />
     </ContainerSuchleiste>
-    <Test></Test>
+    <InspirationsSection></InspirationsSection>
   </StartseiteContainer>
 );
 
