@@ -1,5 +1,4 @@
 import theme from "../../variablen-styles/theme";
-import img from "../../assets/startseiten_hintergrund.jpg";
 import styled from "styled-components";
 
 export const StartseiteContainer = styled.div`
@@ -26,7 +25,7 @@ export const StartseiteHintergrund = styled.div`
   width: 100%;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  background-image: url(${img});
+  background-image: url(${theme.img});
 `;
 
 export const Test = styled.div`

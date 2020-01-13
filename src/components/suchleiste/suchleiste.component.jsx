@@ -3,17 +3,22 @@ import React from "react";
 import Input from "../../components/input/input.component";
 import Button from "../../components/button/button.component";
 
-import "./suchleiste.styles.scss";
+import {
+  SuchleisteContainer,
+  SuchleisteHintergrund,
+  InputContainer,
+  InputContainerZeile
+} from "./suchleiste.styles";
 
 const Suchleiste = () => (
-  <div className="container-suchleiste-hintergrund">
-    <div className="suchleiste-hintergrund">
+  <SuchleisteContainer>
+    <SuchleisteHintergrund>
       <p>Finden Sie Ihre neues Zuhause</p>
       <h1>Bereit zum Umziehen?</h1>
 
       {/*buttons und inputs der suchleiste*/}
-      <div className="input-container">
-        <div className="input-container-reihe erste">
+      <InputContainer>
+        <InputContainerZeile>
           <Input
             inputStartseite
             placeholder="Wo: Ort, Bundesland oder PLZ"
@@ -21,17 +26,17 @@ const Suchleiste = () => (
           <Button normalerButton>Miete</Button>
           <Button normalerButton>Haustyp</Button>
           <Button suchButton>Suchen</Button>
-        </div>
-        <div className="input-container-reihe">
+        </InputContainerZeile>
+        <InputContainerZeile>
           <Button sekundärerButton>Preis</Button>
           <Button sekundärerButton>Zimmer</Button>
           <Button sekundärerButton>Fläche</Button>
-        </div>
-      </div>
+        </InputContainerZeile>
+      </InputContainer>
 
       {/************/}
-    </div>
-  </div>
+    </SuchleisteHintergrund>
+  </SuchleisteContainer>
 );
 
 export default Suchleiste;

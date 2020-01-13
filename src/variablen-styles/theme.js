@@ -1,3 +1,5 @@
+import img from "../assets/startseiten_hintergrund.jpg";
+
 const theme = {
   colors: {
     lightWhite: "#FFF7DE",
@@ -8,7 +10,9 @@ const theme = {
     black: "#4c4e50",
     transBlack: "rgba(76, 78, 80, 0.25)",
     transDarkerBlack: "rgba(76, 78, 80, 0.75)"
-  }
+  },
+
+  img: `${img}`
 };
 
 export default theme;
