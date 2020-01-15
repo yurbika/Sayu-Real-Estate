@@ -6,4 +6,10 @@
   height: 180px;
   margin-top: 15px;
   border: 1px solid black;
+  transition: all 3s linear;
+}
+
+.bilder-vorschau.big {
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 606px;
 }

@@ -10,25 +10,27 @@ import { toggleExpand } from "../../redux/inspiration-sketion/inspiration.action
 import "./inspiration.styles.scss";
 
 const InspirationContainer = ({ children, expand, toggleExpand }) => (
-  <div className="inspiration-container">
+  <div className={"inspiration-container " + (expand ? "big" : "")}>
     <div className="beschreibung">
       {children}
       <Link to="/inspiration">
         {/*dreieck */}Alle anzeigen{/*variabele Zahl*/}
       </Link>
     </div>
-    <BilderVorschauContainer expand={expand} />
+    {expand ? <BilderVorschauContainer expand /> : null}
+    {expand ? null : <BilderVorschauContainer />}
     <Button aktionsButton onClick={toggleExpand}>
       Mehr anzeigen
     </Button>
   </div>
 );
+
 const mapDispatchToProps = dispatch => ({
   toggleExpand: () => dispatch(toggleExpand())
 });
 
-const mapStateToProps = state => ({
-  expand: state.inspirationsSketion.expand
+const mapStateToProps = ({ inspirationsSketion: { expand } }) => ({
+  expand
 });
 
 export default connect(

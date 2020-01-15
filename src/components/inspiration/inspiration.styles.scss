@@ -8,6 +8,10 @@
   width: 960px;
   max-width: 50vw;
   height: 23.2rem;
+  transition: height 0.25s ease-in;
+  &.big {
+    height: 25rem;
+  }
   * {
     color: black;
   }

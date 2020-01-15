@@ -8,15 +8,17 @@ import "./bilder.style.scss";
 
 class BilderVorschauContainer extends React.Component {
   constructor(props) {
+    console.log("hi");
     super(props);
     this.state = {
       //immoData: IMMO_DATA
-      //expanded
+      expand: props.expand
     };
   }
+
   render() {
     return (
-      <div className="bilder-vorschau">
+      <div className={"bilder-vorschau" + (this.props.expand ? " big" : "")}>
         <BildPreview />
       </div>
     );
