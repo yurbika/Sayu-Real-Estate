@@ -1,1 +1,39 @@
-
+.inspiration-container {
+  position: relative;
+  border-bottom: 1px solid black;
+  margin-top: 75px;
+  margin-right: auto;
+  margin-left: auto;
+  min-width: 40vw;
+  width: 960px;
+  max-width: 50vw;
+  height: 23.2rem;
+  * {
+    color: black;
+  }
+  .beschreibung {
+    .first {
+      display: block;
+      font-family: "Lato", sans-serif;
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    a {
+      color: #cca96a;
+      float: right;
+      text-decoration: none;
+      margin-right: 2px;
+    }
+  }
+  button {
+    position: absolute;
+    width: 10rem;
+    margin-top: 35px;
+    right: 0;
+    left: 0;
+    bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

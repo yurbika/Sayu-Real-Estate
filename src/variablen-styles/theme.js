@@ -13,7 +13,10 @@ const theme = {
     hslaBlack: "hsla(0, 0%, 0%, 0.3)"
   },
 
-  img: `${img}`
+  img: `${img}`,
+
+  suchMinWidth: "min-width: 60vw;",
+  suchMaxWidth: "max-width: 65vw;"
 };
 
 export default theme;

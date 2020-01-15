@@ -17,7 +17,6 @@ const Header = () => (
     <OptionsContainer>
       <OptionLink to="/">Startseite</OptionLink>
       <OptionLink to="/karte">Karte</OptionLink>
-      <OptionLink to="/inspiration">Inspiration</OptionLink>
       <OptionLink to="/registrieren" className="registrieren">
         Registrieren
       </OptionLink>

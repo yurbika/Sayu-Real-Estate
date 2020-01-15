@@ -14,11 +14,11 @@ const normalerButton = css`
   }
 `;
 
-const suchButton = css`
+const aktionsButton = css`
   background: ${theme.colors.darkPurple};
   transition: all 0.3s ease;
   border-left: none;
-  border-radius: 0 15px 15px 0;
+  border-radius: 15px;
   max-width: 10vw;
   span {
     left: 2.5rem;
@@ -28,6 +28,11 @@ const suchButton = css`
     background: ${theme.colors.lightPurple};
     letter-spacing: 2px;
   }
+`;
+
+const suchButton = css`
+  ${aktionsButton};
+  border-radius: 0 15px 15px 0;
 `;
 
 const sekundärerButton = css`
@@ -72,6 +77,7 @@ const getButtonStyles = props => {
   if (props.scrollButton) return scrollButton;
   if (props.sekundärerButton) return sekundärerButton;
   if (props.suchButton) return suchButton;
+  if (props.aktionsButton) return aktionsButton;
   return normalerButton;
 };
 
@@ -116,7 +122,7 @@ const getArrowContainerStyles = props => {
       bottom: 1.9rem;
       right: 2.5rem;
     `;
-  if (props.suchButton)
+  if (props.suchButton || props.aktionsButton)
     return css`
       display: none;
     `;

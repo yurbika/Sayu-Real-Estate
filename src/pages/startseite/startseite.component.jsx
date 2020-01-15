@@ -2,6 +2,7 @@ import React from "react";
 
 import Button from "../../components/button/button.component";
 import Suchleiste from "../../components/suchleiste/suchleiste.component";
+import InspirationContainer from "../../components/inspiration/inspiration-container.component";
 
 import {
   StartseiteContainer,
@@ -19,7 +20,12 @@ const Startseite = () => (
       <Button scrollButton></Button>
       <Suchleiste />
     </ContainerSuchleiste>
-    <InspirationsSection></InspirationsSection>
+    <InspirationsSection>
+      <InspirationContainer>
+        <span className="first">Inspiration</span>
+        <span>Luxushäuser</span>
+      </InspirationContainer>
+    </InspirationsSection>
   </StartseiteContainer>
 );
 

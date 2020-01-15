@@ -1,0 +1,9 @@
+.bilder-vorschau {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 35px;
+  width: 100%;
+  height: 180px;
+  margin-top: 15px;
+  border: 1px solid black;
+}
