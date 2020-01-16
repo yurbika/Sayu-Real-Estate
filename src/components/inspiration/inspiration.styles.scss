@@ -4,13 +4,11 @@
   margin-top: 75px;
   margin-right: auto;
   margin-left: auto;
-  min-width: 40vw;
-  width: 960px;
-  max-width: 50vw;
-  height: 23.2rem;
-  transition: height 0.25s ease-in;
+  width: 939px;
+  height: 400px;
+  transition: height 0.45s ease-in;
   &.big {
-    height: 25rem;
+    height: 885px;
   }
   * {
     color: black;
@@ -32,12 +30,18 @@
   }
   button {
     position: absolute;
-    width: 10rem;
     margin-top: 35px;
     right: 0;
     left: 0;
     bottom: 50px;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media (max-width: 1024px) {
+  .inspiration-container {
+    width: 453px;
+    height: 40rem;
   }
 }

@@ -16,7 +16,9 @@ const theme = {
   img: `${img}`,
 
   suchMinWidth: "min-width: 60vw;",
-  suchMaxWidth: "max-width: 65vw;"
+  suchMaxWidth: "max-width: 65vw;",
+
+  transitionHeight: "transition: height 0.45s ease-in"
 };
 
 export default theme;

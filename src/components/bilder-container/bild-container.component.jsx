@@ -20,6 +20,10 @@ class BilderVorschauContainer extends React.Component {
     return (
       <div className={"bilder-vorschau" + (this.props.expand ? " big" : "")}>
         <BildPreview />
+        <BildPreview />
+        <BildPreview />
+        <BildPreview />
+        {this.state.expand ? [<BildPreview />, <BildPreview />] : null}
       </div>
     );
   }

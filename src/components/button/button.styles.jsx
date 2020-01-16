@@ -19,7 +19,8 @@ const aktionsButton = css`
   transition: all 0.3s ease;
   border-left: none;
   border-radius: 15px;
-  max-width: 10vw;
+  width: 10rem;
+  max-width: 12rem;
   span {
     left: 2.5rem;
     color: ${theme.colors.lightWhite};
