@@ -17,7 +17,9 @@ const InspirationContainer = ({ children, expand, toggleExpand }) => (
         {/*dreieck */}Alle anzeigen{/*variabele Zahl*/}
       </Link>
     </div>
+
     <BilderVorschauContainer expand={expand} />
+
     <Button aktionsButton onClick={toggleExpand}>
       Mehr anzeigen
     </Button>

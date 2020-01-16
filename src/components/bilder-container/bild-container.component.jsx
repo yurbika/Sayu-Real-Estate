@@ -8,22 +8,22 @@ import "./bilder.style.scss";
 
 class BilderVorschauContainer extends React.Component {
   constructor(props) {
-    console.log("hi");
     super(props);
     this.state = {
       //immoData: IMMO_DATA
-      expand: props.expand
+      expand: props.expand,
+      items: ["", "", "", "", "", "", "", "", "", "", "", ""]
     };
   }
 
   render() {
     return (
       <div className={"bilder-vorschau" + (this.props.expand ? " big" : "")}>
-        <BildPreview />
-        <BildPreview />
-        <BildPreview />
-        <BildPreview />
-        {this.state.expand ? [<BildPreview />, <BildPreview />] : null}
+        {this.state.items
+          .filter((item, idx) => idx < 12)
+          .map(itme => (
+            <BildPreview key={itme} />
+          ))}
       </div>
     );
   }

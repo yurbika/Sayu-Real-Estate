@@ -21,7 +21,7 @@ const Startseite = () => (
       <Suchleiste />
     </ContainerSuchleiste>
     <InspirationsSection>
-      <InspirationContainer>
+      <InspirationContainer num={1}>
         <span className="first">Inspiration</span>
         <span>Luxushäuser</span>
       </InspirationContainer>
