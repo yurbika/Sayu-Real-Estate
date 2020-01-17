@@ -25,6 +25,10 @@ const Startseite = () => (
         <span className="first">Inspiration</span>
         <span>Luxushäuser</span>
       </InspirationContainer>
+      <InspirationContainer num={3}>
+        <span className="first">Inspiration</span>
+        <span>Lea stinkt</span>
+      </InspirationContainer>
     </InspirationsSection>
   </StartseiteContainer>
 );
