@@ -6,7 +6,8 @@ import { CustomButtonContainer, ArrowContainer, Arrow } from "./button.styles";
 
 const toSection = refTo => {
   let getId = document.getElementById(refTo);
-  window.scrollTo(0, getId.offsetTop);
+  //Die minus 75 ist der Stylingabstand
+  window.scrollTo(0, getId.offsetTop - 75);
 };
 
 const Button = ({ children, scroll, refTo, ...props }) => (
