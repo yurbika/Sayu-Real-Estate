@@ -70,6 +70,11 @@ const scrollButton = css`
     right: 5.3rem;
     transform: rotate(45deg);
   }
+  &:hover {
+    background: ${theme.colors.darkPurple};
+    letter-spacing: 2px;
+    transition: all 0.3s ease-out;
+  }
 `;
 
 //entscheiden welche Styles angewendet werden soll
