@@ -1,7 +1,18 @@
 import React from "react";
+import { connect } from "react-redux";
+import { createStructuredSelector } from "reselect";
 
 import Input from "../../components/input/input.component";
 import Button from "../../components/button/button.component";
+
+import {
+  selectBezugsart,
+  selectHaustyp,
+  selectInput,
+  selectZimmerAnzahl,
+  selectPreis,
+  selectFläche
+} from "../../redux/filter/filter.selectors";
 
 import {
   SuchleisteContainer,
@@ -10,7 +21,14 @@ import {
   InputContainerZeile
 } from "./suchleiste.styles";
 
-const Suchleiste = () => (
+const Suchleiste = ({
+  bezugsart,
+  preis,
+  zimmerAnzahl,
+  haustype,
+  fläche,
+  input
+}) => (
   <SuchleisteContainer>
     <SuchleisteHintergrund>
       <p>Finden Sie Ihre neues Zuhause</p>
@@ -21,16 +39,17 @@ const Suchleiste = () => (
         <InputContainerZeile>
           <Input
             inputStartseite
+            type="search"
             placeholder="Wo: Ort, Bundesland oder PLZ"
-          ></Input>
-          <Button normalerButton>Miete</Button>
-          <Button normalerButton>Haustyp</Button>
+          />
+          <Button normalerButton>{bezugsart}</Button>
+          <Button normalerButton>{haustype}</Button>
           <Button suchButton>Suchen</Button>
         </InputContainerZeile>
         <InputContainerZeile>
-          <Button sekundärerButton>Preis</Button>
-          <Button sekundärerButton>Zimmer</Button>
-          <Button sekundärerButton>Fläche</Button>
+          <Button sekundärerButton>{preis}</Button>
+          <Button sekundärerButton>{zimmerAnzahl}</Button>
+          <Button sekundärerButton>{fläche}</Button>
         </InputContainerZeile>
       </InputContainer>
 
@@ -39,4 +58,13 @@ const Suchleiste = () => (
   </SuchleisteContainer>
 );
 
-export default Suchleiste;
+const mapStateToProps = createStructuredSelector({
+  bezugsart: selectBezugsart,
+  preis: selectPreis,
+  input: selectInput,
+  zimmerAnzahl: selectZimmerAnzahl,
+  fläche: selectFläche,
+  haustype: selectHaustyp
+});
+
+export default connect(mapStateToProps)(Suchleiste);

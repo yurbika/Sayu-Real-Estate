@@ -1,0 +1,10 @@
+const FilterActionTypes = {
+  SET_PREIS: "SET_PREIS",
+  SET_BEZUGSART: "SET_BEZUGSART",
+  SET_HAUSTYP: "SET_HAUSTYP",
+  SET_FLÄCHE: "SET_FLÄCHE",
+  SET_ZIMMERANZAHL: "SET_ZIMMERANZAHL",
+  SET_INPUT: "SET_INPUT"
+};
+
+export default FilterActionTypes;

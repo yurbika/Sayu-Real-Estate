@@ -2,6 +2,10 @@ import React from "react";
 
 import Input from "../../components/input/input.component";
 
+//input erlaubt nur zahlen und keine anderen zeichen 
+//max input wird generiert durch den inputt von min
+//es gibt eine zahl grenze für die eingebene zahlt und der input wird rot makiert 
+
 export const PreisDropdown = () => (
   <div className="dropdown-container">
     <Input placeholder="Min"></Input>
