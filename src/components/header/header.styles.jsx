@@ -26,6 +26,9 @@ export const OptionsContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  &.hidden {
+    display: none;
+  }
 `;
 
 export const OptionLink = styled(Link)`
@@ -33,21 +36,14 @@ export const OptionLink = styled(Link)`
   text-decoration: none;
   cursor: pointer;
 
-  &.home {
+  &.aktiv {
     & span {
       color: ${theme.colors.darkPurple};
       font-weight: bold;
       padding-bottom: 0.5rem;
       border-bottom: 2px solid ${theme.colors.darkPurple};
-    }
-  }
-
-  &.karte {
-    & span {
-      color: ${theme.colors.darkPurple};
-      font-weight: bold;
-      padding-bottom: 0.5rem;
-      border-bottom: 2px solid ${theme.colors.darkPurple};
+      letter-spacing: 0.5px;
+      transition: all 0.3s ease-in;
     }
   }
 

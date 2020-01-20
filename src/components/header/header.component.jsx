@@ -15,12 +15,20 @@ const Header = ({ location }) => (
     <LogoContainer to="/">
       <Logo className="logo" />
     </LogoContainer>
-    <OptionsContainer>
-      <OptionLink className={location.pathname === "/" ? "home" : ""} to="/">
+    <OptionsContainer
+      className={
+        location.pathname === "/registrieren"
+          ? "hidden"
+          : location.pathname === "/anmelden"
+          ? "hidden"
+          : ""
+      }
+    >
+      <OptionLink className={location.pathname === "/" ? "aktiv" : ""} to="/">
         <span>Startseite</span>
       </OptionLink>
       <OptionLink
-        className={location.pathname === "/karte" ? "karte" : ""}
+        className={location.pathname === "/karte" ? "aktiv" : ""}
         to="/karte"
       >
         <span>Karte</span>

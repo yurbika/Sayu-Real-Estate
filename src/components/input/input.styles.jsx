@@ -27,7 +27,7 @@ const InputStyled = styled.input`
   }
   &:focus {
     transition: all 0.3s ease;
-    background-color: #fff;
+    background-color: ${theme.colors.lightPurple};
   }
 
   ${getInputStyles}
