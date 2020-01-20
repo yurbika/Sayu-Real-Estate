@@ -1,4 +1,5 @@
 import React from "react";
+import { withRouter } from "react-router-dom";
 
 import { ReactComponent as Logo } from "../../assets/Sayu-Immo-Logo.svg";
 
@@ -9,14 +10,21 @@ import {
   OptionLink
 } from "./header.styles";
 
-const Header = () => (
+const Header = ({ location }) => (
   <HeaderContainer>
     <LogoContainer to="/">
       <Logo className="logo" />
     </LogoContainer>
     <OptionsContainer>
-      <OptionLink to="/">Startseite</OptionLink>
-      <OptionLink to="/karte">Karte</OptionLink>
+      <OptionLink className={location.pathname === "/" ? "home" : ""} to="/">
+        <span>Startseite</span>
+      </OptionLink>
+      <OptionLink
+        className={location.pathname === "/karte" ? "karte" : ""}
+        to="/karte"
+      >
+        <span>Karte</span>
+      </OptionLink>
       <OptionLink to="/registrieren" className="registrieren">
         Registrieren
       </OptionLink>
@@ -25,4 +33,4 @@ const Header = () => (
   </HeaderContainer>
 );
 
-export default Header;
+export default withRouter(Header);

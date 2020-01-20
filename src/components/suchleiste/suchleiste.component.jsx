@@ -21,14 +21,7 @@ import {
   InputContainerZeile
 } from "./suchleiste.styles";
 
-const Suchleiste = ({
-  bezugsart,
-  preis,
-  zimmerAnzahl,
-  haustype,
-  fläche,
-  input
-}) => (
+const Suchleiste = ({ bezugsart, preis, zimmerAnzahl, haustype, fläche }) => (
   <SuchleisteContainer>
     <SuchleisteHintergrund>
       <p>Finden Sie Ihre neues Zuhause</p>

@@ -33,6 +33,24 @@ export const OptionLink = styled(Link)`
   text-decoration: none;
   cursor: pointer;
 
+  &.home {
+    & span {
+      color: ${theme.colors.darkPurple};
+      font-weight: bold;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid ${theme.colors.darkPurple};
+    }
+  }
+
+  &.karte {
+    & span {
+      color: ${theme.colors.darkPurple};
+      font-weight: bold;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid ${theme.colors.darkPurple};
+    }
+  }
+
   &.registrieren {
     border-left: 2px solid ${theme.colors.lightWhite};
     margin-left: 2rem;
