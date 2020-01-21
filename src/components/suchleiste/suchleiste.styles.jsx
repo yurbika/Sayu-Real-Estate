@@ -12,24 +12,39 @@ export const SuchleisteContainer = styled.div`
 
   h1 {
     font-size: 3rem;
+    z-index: 1;
   }
   p {
     margin-top: 1rem;
     font-size: 1.8rem;
+    z-index: 1;
   }
 `;
 
-export const SuchleisteHintergrund = styled.div`
-position: relative;
+export const Filter = styled.div`
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  min-width: 60vw;
+  max-width: 65vw;
+  min-height: 50vh;
+  border-radius: 2.5em;
+`;
+
+export const Bild = styled.div`
+position: absolute;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 margin: 0 auto;
-min-width: 60vw;
-max-width: 65vw;
-min-height: 50vh;
-overflow: hidden;
+min-width: 65vw;
+max-width: 70vw;
+min-height: 40vh;
+overflow:hidden;
 background: ${theme.colors.hslaBlack} border-box;
 border-radius: 2.5em;
 
@@ -42,8 +57,7 @@ border-radius: 2.5em;
     background-repeat: no-repeat;
     background-image: url(${theme.img});
     z-index: -1;
-    filter: blur(10px);
-`;
+    filter: blur(10px);`;
 
 export const InputContainer = styled.div`
   position: relative;
@@ -66,4 +80,8 @@ export const InputContainerZeile = styled.div`
     border-radius: 15px;
     box-shadow: 3px 3px 10px ${theme.colors.black};
   }
+`;
+
+export const ButtonDropdownContainer = styled.div`
+  position: relative;
 `;

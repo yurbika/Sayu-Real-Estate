@@ -22,7 +22,7 @@ class BilderVorschauContainer extends React.Component {
         {this.state.items
           .filter((item, idx) => idx < 12)
           .map(itme => (
-            <BildPreview key={itme + Math.floor(Math.random() * 100)} />
+            <BildPreview key={itme + Math.floor(Math.random() * 1000000)} />
           ))}
       </div>
     );

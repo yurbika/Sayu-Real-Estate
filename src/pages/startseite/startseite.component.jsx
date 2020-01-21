@@ -3,6 +3,7 @@ import React from "react";
 import Button from "../../components/button/button.component";
 import Suchleiste from "../../components/suchleiste/suchleiste.component";
 import InspirationContainer from "../../components/inspiration/inspiration-container.component";
+import { toSection } from "../../components/button/button.utils";
 
 import {
   StartseiteContainer,
@@ -17,7 +18,11 @@ const Startseite = () => (
     <ContainerSuchleiste>
       <BackgroundImageFilter />
       <StartseiteHintergrund />
-      <Button scrollButton scroll refTo={"inspirations-section"}></Button>
+      <Button
+        scrollButton
+        scroll
+        onClick={() => toSection("inspirations-section")}
+      ></Button>
       <Suchleiste />
     </ContainerSuchleiste>
     <InspirationsSection id="inspirations-section">
