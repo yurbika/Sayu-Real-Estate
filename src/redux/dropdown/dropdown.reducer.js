@@ -35,6 +35,15 @@ const dropdownReducer = (state = INITIAL_STATE, action) => {
         ...state,
         zimmerDropdown: !state.zimmerDropdown
       };
+    case DropdownActionTypes.TOGGLE_ALL_DROPDOWNS_FALSE:
+      return {
+        ...state,
+        preisDropdown: false,
+        bezugsartDropdown: false,
+        immobilientypDropdown: false,
+        zimmerDropdown: false,
+        flächeDropdown: false
+      };
     default:
       return state;
   }

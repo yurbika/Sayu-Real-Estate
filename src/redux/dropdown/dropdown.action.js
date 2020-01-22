@@ -12,6 +12,10 @@ const toggleDropdown = buttonProp => {
       return { type: DropdownActionTypes.TOGGLE_BEZUGSARTDROPDOWN_HIDDEN };
     case "TOGGLE_IMMOBILIENTYPDROPDOWN_HIDDEN":
       return { type: DropdownActionTypes.TOGGLE_IMMOBILIENTYPDROPDOWN_HIDDEN };
+    case "TOGGLE_ALL_DROPDOWNS_FALSE":
+      return {
+        type: DropdownActionTypes.TOGGLE_ALL_DROPDOWNS_FALSE
+      };
     default:
       return null;
   }

@@ -76,6 +76,9 @@ const Suchleiste = ({
             onClick={() =>
               toggleDropdown(DropdownActionTypes.TOGGLE_PREISDROPDOWN_HIDDEN)
             }
+            onBlur={() =>
+              toggleDropdown(DropdownActionTypes.TOGGLE_ALL_DROPDOWNS_FALSE)
+            }
           >
             {preis}
           </Button>
