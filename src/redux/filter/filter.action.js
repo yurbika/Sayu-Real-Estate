@@ -5,4 +5,7 @@ export const setInput = input => ({
   payload: input.target.value
 });
 
-export const lol = 0;
+export const setArt = (text, type) => ({
+  type: type,
+  payload: text
+});

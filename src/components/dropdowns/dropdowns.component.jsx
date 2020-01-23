@@ -10,34 +10,22 @@ import "./dropdowns.styles.scss";
 
 export const PreisDropdown = () => (
   <div className="dropdown-container preis-dropdown">
-    <Input placeholder="Min" number></Input>
+    <Input placeholder="Min" dropdownInput number></Input>
     <div>
       <span></span>
     </div>
-    <Input placeholder="Max"></Input>
-  </div>
-);
-
-export const BezugsartDropdown = () => (
-  <div className="dropdown-container">
-    <div></div>
-  </div>
-);
-
-export const HaustypDropdown = () => (
-  <div className="dropdown-container">
-    <div></div>
+    <Input placeholder="Max" dropdownInput number></Input>
   </div>
 );
 
 export const ZimmerDropdown = () => (
-  <div className="dropdown-container">
+  <div className="dropdown-container zimmer-dropdown">
     <div></div>
   </div>
 );
 
-export const FlächeDropdown = () => (
-  <div className="dropdown-container">
+export const FlaecheDropdown = () => (
+  <div className="dropdown-container flaeche-dropdown">
     <div></div>
   </div>
 );

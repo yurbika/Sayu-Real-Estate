@@ -6,6 +6,12 @@ const getInputStyles = props => {
     return css`
       border-radius: 15px 0 0 15px;
     `;
+  if (props.dropdownInput) {
+    return css`
+      border-radius: 25px;
+      background: #cca96a;
+    `;
+  }
 };
 
 const InputStyled = styled.input`
@@ -27,7 +33,8 @@ const InputStyled = styled.input`
   }
   &:focus {
     transition: all 0.3s ease;
-    background-color: ${theme.colors.lightPurple};
+    border: 3px solid;
+    border-color: ${theme.colors.darkPurple};
   }
 
   ${getInputStyles}

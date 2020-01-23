@@ -1,9 +1,9 @@
 .dropdown-container {
   position: absolute;
   display: flex;
-  background-color: #eee;
+  background-color: #fff7de;
+  border-radius: 25px;
   width: 375px;
-  border-radius: 20px;
   padding: 10px 25px;
 }
 //das dreieck
@@ -11,10 +11,11 @@
 .dropdown-container:before {
   content: "";
   border-style: solid;
-  border-width: 0 0 35px 55px;
-  border-color: transparent transparent #eee transparent;
-  top: -17px;
-  right: 6%;
+  border-width: 0 15px 15px 15px;
+  border-color: transparent transparent #fff7de transparent;
+  top: -13px;
+
+  right: 50%;
   margin-right: -15px;
   position: absolute;
   z-index: -1;
@@ -22,7 +23,7 @@
 
 .preis-dropdown {
   //diese zeile lässt den dropdown unter dem button sein
-  transform: translate3d(-18.7rem, 145px, 0px) !important;
+  transform: translate3d(-11.9rem, 138px, 0px) !important;
 
   div {
     position: relative;
@@ -36,7 +37,37 @@
       right: 0;
       left: 0;
       margin: 0 auto;
-      border-bottom: 2px solid #000;
+      border-bottom: 2px solid #cca96a;
     }
   }
+}
+
+.auswahl-dropdown {
+  width: 8rem;
+  height: 2.5rem;
+  transform: translate3d(0.1rem, 70px, 0px) !important;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+
+  div {
+    cursor: pointer;
+    color: black;
+    &:hover {
+      color: #681899;
+      border-bottom: 1px solid #681899;
+    }
+  }
+}
+
+.haus {
+  transform: translate3d(8rem, 70px, 0px) !important;
+}
+
+.zimmer-dropdown {
+  transform: translate3d(-6.7rem, 145px, 0px) !important;
+}
+
+.flaeche-dropdown {
+  transform: translate3d(5.3rem, 145px, 0px) !important;
 }

@@ -5,12 +5,6 @@ import styled, { css } from "styled-components";
 
 const normalerButton = css`
   max-width: 13vw;
-  span {
-    position: absolute;
-    left: 1rem;
-    top: 0;
-    margin-top: 0.6rem;
-  }
   }
 `;
 
@@ -42,11 +36,11 @@ const sekundärerButton = css`
   background: none;
   width: 10rem;
   max-width: 17vw;
+  border-radius: 25px;
   border-left: none;
-  border-bottom: 2px solid ${theme.colors.lightWhite};
+  border: 2px solid ${theme.colors.lightWhite};
   span {
-    position: absolute;
-    left: 0;
+    margin-top: 1rem;
     color: ${theme.colors.lightWhite};
   }
   &:first-child {
@@ -128,20 +122,25 @@ const getArrowContainerStyles = props => {
       bottom: 1.9rem;
       right: 2.5rem;
     `;
-  if (props.suchButton || props.aktionsButton)
+  if (
+    props.suchButton ||
+    props.aktionsButton ||
+    props.normalerButton ||
+    props.sekundärerButton
+  )
     return css`
       display: none;
     `;
 };
 
 const getArrowStyles = props => {
-  if (props.normalerButton)
-    return css`
-      &:before,
-      &:after {
-        background-color: ${theme.colors.transDarkerBlack};
-      }
-    `;
+  // if (props.normalerButton)
+  //   return css`
+  //     &:before,
+  //     &:after {
+  //       background-color: ${theme.colors.transDarkerBlack};
+  //     }
+  //   `;
   if (props.scrollButton)
     return css`
       margin: -5px 0 0 -45px;

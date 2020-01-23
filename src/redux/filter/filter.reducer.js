@@ -2,7 +2,7 @@ import FilterActionTypes from "./filter.types";
 
 const INITIAL_STATE = {
   input: "",
-  bezugsart: "Miete",
+  bezugsart: "Mieten",
   haustyp: "Wohnung",
   preis: "Preis",
   zimmerAnzahl: "Zimmer",

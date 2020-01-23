@@ -6,8 +6,8 @@ const toggleDropdown = buttonProp => {
       return { type: DropdownActionTypes.TOGGLE_PREISDROPDOWN_HIDDEN };
     case "TOGGLE_ZIMMERDROPDOWN_HIDDEN":
       return { type: DropdownActionTypes.TOGGLE_ZIMMERDROPDOWN_HIDDEN };
-    case "TOGGLE_FlÄCHEDROPDOWN_HIDDEN":
-      return { type: DropdownActionTypes.TOGGLE_FlÄCHEDROPDOWN_HIDDEN };
+    case "TOGGLE_FLÄCHEDROPDOWN_HIDDEN":
+      return { type: DropdownActionTypes.TOGGLE_FLÄCHEDROPDOWN_HIDDEN };
     case "TOGGLE_BEZUGSARTDROPDOWN_HIDDEN":
       return { type: DropdownActionTypes.TOGGLE_BEZUGSARTDROPDOWN_HIDDEN };
     case "TOGGLE_IMMOBILIENTYPDROPDOWN_HIDDEN":

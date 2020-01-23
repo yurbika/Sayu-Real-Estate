@@ -6,7 +6,13 @@ import { createStructuredSelector } from "reselect";
 //Component imports
 import Input from "../../components/input/input.component";
 import Button from "../../components/button/button.component";
-import { PreisDropdown } from "../../components/dropdowns/dropdowns.component";
+import {
+  PreisDropdown,
+  ZimmerDropdown,
+  FlaecheDropdown
+} from "../../components/dropdowns/dropdowns.component";
+
+import AuswahlDropdown from "../dropdowns/auswahl-dropdown.component";
 
 //selektoren redux
 import {
@@ -64,8 +70,26 @@ const Suchleiste = ({
             type="search"
             placeholder="Wo: Ort, Bundesland oder PLZ"
           />
-          <Button normalerButton>{bezugsart}</Button>
-          <Button normalerButton>{haustype}</Button>
+          <Button
+            normalerButton
+            onClick={() =>
+              toggleDropdown(
+                DropdownActionTypes.TOGGLE_BEZUGSARTDROPDOWN_HIDDEN
+              )
+            }
+          >
+            {bezugsart}
+          </Button>
+          <Button
+            normalerButton
+            onClick={() =>
+              toggleDropdown(
+                DropdownActionTypes.TOGGLE_IMMOBILIENTYPDROPDOWN_HIDDEN
+              )
+            }
+          >
+            {haustype}
+          </Button>
           <Button suchButton>Suchen</Button>
         </InputContainerZeile>
         {/*zweite Reihe der Suchleiste*/}
@@ -76,17 +100,40 @@ const Suchleiste = ({
             onClick={() =>
               toggleDropdown(DropdownActionTypes.TOGGLE_PREISDROPDOWN_HIDDEN)
             }
-            onBlur={() =>
-              toggleDropdown(DropdownActionTypes.TOGGLE_ALL_DROPDOWNS_FALSE)
-            }
           >
             {preis}
           </Button>
-          <Button sekundärerButton>{zimmerAnzahl}</Button>
-          <Button sekundärerButton>{fläche}</Button>
+          <Button
+            sekundärerButton
+            onClick={() =>
+              toggleDropdown(DropdownActionTypes.TOGGLE_ZIMMERDROPDOWN_HIDDEN)
+            }
+          >
+            {zimmerAnzahl}
+          </Button>
+          <Button
+            sekundärerButton
+            onClick={() =>
+              toggleDropdown(DropdownActionTypes.TOGGLE_FLÄCHEDROPDOWN_HIDDEN)
+            }
+          >
+            {fläche}
+          </Button>
         </InputContainerZeile>
       </InputContainer>
       {preisDropdown ? <PreisDropdown /> : null}
+      {bezugsartDropdown ? (
+        <AuswahlDropdown>
+          {bezugsart === "Mieten" ? "Kaufen" : "Mieten"}
+        </AuswahlDropdown>
+      ) : null}
+      {immobilientypDropdown ? (
+        <AuswahlDropdown haus="haus">
+          {haustype === "Wohnung" ? "Haus" : "Wohnung"}
+        </AuswahlDropdown>
+      ) : null}
+      {zimmerDropdown ? <ZimmerDropdown /> : null}
+      {flächeDropdown ? <FlaecheDropdown /> : null}
       {/************/}
     </Filter>
   </SuchleisteContainer>
