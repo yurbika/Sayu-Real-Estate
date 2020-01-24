@@ -1,6 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import { setArt } from "../../redux/filter/filter.action";
+import { dropdownRef } from "../../redux/dropdown/dropdown.utils";
 
 import FilterActionTypes from "../../redux/filter/filter.types";
 
@@ -15,6 +16,7 @@ const AuswahlDropdown = ({ children, setArt, haus }) => {
     <div
       className={"dropdown-container auswahl-dropdown " + haus}
       onClick={() => setArt(children, type)}
+      ref={dropdownRef}
     >
       <div>{children}</div>
     </div>

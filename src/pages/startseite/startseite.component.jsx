@@ -1,10 +1,14 @@
 import React from "react";
 
+//import components
 import Button from "../../components/button/button.component";
 import Suchleiste from "../../components/suchleiste/suchleiste.component";
 import InspirationContainer from "../../components/inspiration/inspiration-container.component";
+
+//import funktion
 import { toSection } from "../../components/button/button.utils";
 
+//import styles
 import {
   StartseiteContainer,
   ContainerSuchleiste,
@@ -25,7 +29,6 @@ const Startseite = () => (
         onClick={() => toSection("inspirations-section")}
       />
     </ContainerSuchleiste>
-
     <InspirationsSection id="inspirations-section">
       <InspirationContainer num={1}>
         <span className="first">Inspiration</span>
@@ -40,7 +43,6 @@ const Startseite = () => (
         <span>Klassiker</span>
       </InspirationContainer>
     </InspirationsSection>
-    <div></div>
   </StartseiteContainer>
 );
 

@@ -2,8 +2,5 @@
 
 export const toSection = refTo => {
   let getId = document.getElementById(refTo);
-  //Die minus 75 ist der Stylingabstand
-  window.scrollTo(0, getId.offsetTop - 75);
+  window.scrollTo(0, getId.offsetTop);
 };
-
-export const lo = 0;

@@ -1,6 +1,7 @@
 import React from "react";
 
 import Input from "../input/input.component";
+import { dropdownRef } from "../../redux/dropdown/dropdown.utils";
 
 import "./dropdowns.styles.scss";
 
@@ -9,7 +10,7 @@ import "./dropdowns.styles.scss";
 //es gibt eine zahl grenze für die eingebene zahlt und der input wird rot makiert
 
 export const PreisDropdown = () => (
-  <div className="dropdown-container preis-dropdown">
+  <div className="dropdown-container preis-dropdown" ref={dropdownRef}>
     <div className="input-container">
       <Input
         placeholder="Min"

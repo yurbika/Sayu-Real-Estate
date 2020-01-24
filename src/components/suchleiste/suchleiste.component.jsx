@@ -43,6 +43,9 @@ import {
   Bild
 } from "./suchleiste.styles";
 
+//Button id ist hier notwendig damit die richtigen aktionen gefeuert werden damit ist es
+//möglich die dropdowns von überall zu schließen
+
 const Suchleiste = ({
   bezugsart,
   preis,
@@ -61,8 +64,7 @@ const Suchleiste = ({
       <Bild />
       <p>Finden Sie Ihre neues Zuhause</p>
       <h1>Bereit zum Umziehen?</h1>
-
-      {/*buttons,inputs und dropdowns der suchleiste*/}
+      {/*Buttons und Inputs*/}
       <InputContainer>
         <InputContainerZeile>
           <Input
@@ -77,6 +79,7 @@ const Suchleiste = ({
                 DropdownActionTypes.TOGGLE_BEZUGSARTDROPDOWN_HIDDEN
               )
             }
+            id="filter-button"
           >
             {bezugsart}
           </Button>
@@ -87,6 +90,7 @@ const Suchleiste = ({
                 DropdownActionTypes.TOGGLE_IMMOBILIENTYPDROPDOWN_HIDDEN
               )
             }
+            id="filter-button"
           >
             {haustype}
           </Button>
@@ -100,6 +104,7 @@ const Suchleiste = ({
             onClick={() =>
               toggleDropdown(DropdownActionTypes.TOGGLE_PREISDROPDOWN_HIDDEN)
             }
+            id="filter-button"
           >
             {preis}
           </Button>
@@ -108,6 +113,7 @@ const Suchleiste = ({
             onClick={() =>
               toggleDropdown(DropdownActionTypes.TOGGLE_ZIMMERDROPDOWN_HIDDEN)
             }
+            id="filter-button"
           >
             {zimmerAnzahl}
           </Button>
@@ -116,11 +122,15 @@ const Suchleiste = ({
             onClick={() =>
               toggleDropdown(DropdownActionTypes.TOGGLE_FLÄCHEDROPDOWN_HIDDEN)
             }
+            id="filter-button"
           >
             {fläche}
           </Button>
         </InputContainerZeile>
       </InputContainer>
+      {/***********************************
+       *        Die Dropdowns             *
+       ************************************/}
       {preisDropdown ? <PreisDropdown /> : null}
       {bezugsartDropdown ? (
         <AuswahlDropdown>
@@ -139,7 +149,10 @@ const Suchleiste = ({
   </SuchleisteContainer>
 );
 
+//Redux
+
 const mapStateToProps = createStructuredSelector({
+  //Filter States
   bezugsart: selectBezugsart,
   preis: selectPreis,
   input: selectInput,

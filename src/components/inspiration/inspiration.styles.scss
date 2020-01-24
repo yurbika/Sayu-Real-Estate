@@ -1,14 +1,14 @@
 .inspiration-container {
   position: relative;
   border-bottom: 1px solid rgba(76, 78, 80, 0.25);
-  margin-top: 75px;
+  padding-top: 75px;
   margin-right: auto;
   margin-left: auto;
   width: 939px;
-  height: 400px;
+  height: 465px;
   transition: height 0.45s ease-in;
   &.big {
-    height: 885px;
+    height: 948px;
   }
   * {
     color: black;
@@ -30,10 +30,9 @@
   }
   button {
     position: absolute;
-    margin-top: 35px;
     right: 0;
     left: 0;
-    bottom: 50px;
+    bottom: 35px;
     margin-left: auto;
     margin-right: auto;
   }

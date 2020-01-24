@@ -5,6 +5,11 @@ import styled, { css } from "styled-components";
 
 const normalerButton = css`
   max-width: 13vw;
+  &:active {
+    background: ${theme.colors.lightPurple};
+    span {
+      color: ${theme.colors.lightWhite};
+    }
   }
 `;
 
@@ -46,6 +51,12 @@ const sekundärerButton = css`
   &:first-child {
     margin-left: 0;
   }
+  &:active {
+    border-color: ${theme.colors.lightPurple};
+    span {
+      color: ${theme.colors.lightPurple};
+    }
+  }
 `;
 
 const scrollButton = css`
@@ -81,6 +92,8 @@ const getButtonStyles = props => {
 };
 
 //allgemeine Button-Styles
+//pointer-events ist auf none wegen den dropdowns damit sie von überall geschlossen
+//werden können und die spans nicht mehr anklickbar sind
 
 export const CustomButtonContainer = styled.button`
   cursor: pointer;
@@ -97,11 +110,13 @@ export const CustomButtonContainer = styled.button`
 
   span {
     color: rgb(0, 0, 0);
+    pointer-events: none;
   }
   ${getButtonStyles}
 `;
 
 //anwenden verschiedener Positionierungen der Dropdown-Pfeile
+//wurde rausgenommen jedoch die Funktionen sind immer noch drin
 
 const getArrowContainerStyles = props => {
   if (props.scrollButton)
@@ -116,30 +131,9 @@ const getArrowContainerStyles = props => {
       justify-content: center;
       left: 0;
     `;
-  if (props.normalerButton)
-    return css`
-      bottom: 1.9rem;
-      right: 2.5rem;
-    `;
-  if (
-    props.suchButton ||
-    props.aktionsButton ||
-    props.normalerButton ||
-    props.sekundärerButton
-  )
-    return css`
-      display: none;
-    `;
 };
 
 const getArrowStyles = props => {
-  // if (props.normalerButton)
-  //   return css`
-  //     &:before,
-  //     &:after {
-  //       background-color: ${theme.colors.transDarkerBlack};
-  //     }
-  //   `;
   if (props.scrollButton)
     return css`
       margin: -5px 0 0 -45px;

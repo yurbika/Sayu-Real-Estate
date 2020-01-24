@@ -10,6 +10,7 @@ import { toggleExpand } from "../../redux/inspiration-sketion/inspiration.action
 import "./inspiration.styles.scss";
 
 //expand ist ein state es müssen alle eingebunden werden damit entschieden werden kann welcher gebraucht wird
+//hier noch ein funktion schreiben damit es sauberer aussieht utils
 
 const InspirationContainer = ({
   children,
