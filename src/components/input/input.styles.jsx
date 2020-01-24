@@ -36,7 +36,6 @@ const InputStyled = styled.input`
     border: 3px solid;
     border-color: ${theme.colors.darkPurple};
   }
-
   ${getInputStyles}
 `;
 

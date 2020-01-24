@@ -10,11 +10,50 @@ import "./dropdowns.styles.scss";
 
 export const PreisDropdown = () => (
   <div className="dropdown-container preis-dropdown">
-    <Input placeholder="Min" dropdownInput number></Input>
+    <div className="input-container">
+      <Input
+        placeholder="Min"
+        dropdownInput
+        autoFocus
+        number
+        onClick={() => {
+          document.getElementById("preis-min").style.display = "block";
+          document.getElementById("preis-max").style.display = "none";
+        }}
+      />
+      <ul id="preis-min">
+        <li>0 €</li>
+        <li>0 €</li>
+        <li>0 €</li>
+        <li>0 €</li>
+        <li>0 €</li>
+        <li>0 €</li>
+        <li>0 €</li>
+      </ul>
+    </div>
     <div>
       <span></span>
     </div>
-    <Input placeholder="Max" dropdownInput number></Input>
+    <div className="input-container">
+      <Input
+        placeholder="Max"
+        dropdownInput
+        number
+        onClick={() => {
+          document.getElementById("preis-min").style.display = "none";
+          document.getElementById("preis-max").style.display = "block";
+        }}
+      />
+      <ul id="preis-max">
+        <li>0 €</li>
+        <li>0 €</li>
+        <li>0 €</li>
+        <li>0 €</li>
+        <li>0 €</li>
+        <li>0 €</li>
+        <li>0 €</li>
+      </ul>
+    </div>
   </div>
 );
 

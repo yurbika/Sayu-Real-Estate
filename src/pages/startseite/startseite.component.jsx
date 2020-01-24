@@ -18,13 +18,14 @@ const Startseite = () => (
     <ContainerSuchleiste>
       <BackgroundImageFilter />
       <StartseiteHintergrund />
+      <Suchleiste />
       <Button
         scrollButton
         scroll
         onClick={() => toSection("inspirations-section")}
-      ></Button>
-      <Suchleiste />
+      />
     </ContainerSuchleiste>
+
     <InspirationsSection id="inspirations-section">
       <InspirationContainer num={1}>
         <span className="first">Inspiration</span>

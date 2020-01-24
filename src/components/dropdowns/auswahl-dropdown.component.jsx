@@ -1,8 +1,5 @@
 import React from "react";
 import { connect } from "react-redux";
-import { createStructuredSelector } from "reselect";
-
-import { selectBezugsart } from "../../redux/filter/filter.selectors";
 import { setArt } from "../../redux/filter/filter.action";
 
 import FilterActionTypes from "../../redux/filter/filter.types";
@@ -24,12 +21,8 @@ const AuswahlDropdown = ({ children, setArt, haus }) => {
   );
 };
 
-const mapStateToProps = createStructuredSelector({
-  bezugsart: selectBezugsart
-});
-
 const mapDispatchToProps = dispatch => ({
   setArt: (text, type) => dispatch(setArt(text, type))
 });
 
-export default connect(mapStateToProps, mapDispatchToProps)(AuswahlDropdown);
+export default connect(null, mapDispatchToProps)(AuswahlDropdown);

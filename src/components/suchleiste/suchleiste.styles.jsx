@@ -8,8 +8,6 @@ export const SuchleisteContainer = styled.div`
   right: 0;
   left: 0;
   margin-top: 22vh;
-  z-index: 1;
-
   h1 {
     font-size: 3rem;
     z-index: 1;
@@ -32,6 +30,7 @@ export const Filter = styled.div`
   max-width: 65vw;
   min-height: 50vh;
   border-radius: 2.5em;
+  z-index: 3;
 `;
 
 export const Bild = styled.div`
@@ -47,7 +46,6 @@ min-height: 40vh;
 overflow:hidden;
 background: ${theme.colors.hslaBlack} border-box;
 border-radius: 2.5em;
-
 &::before{
     content: "";
     position: absolute;
@@ -80,8 +78,4 @@ export const InputContainerZeile = styled.div`
     border-radius: 15px;
     box-shadow: 3px 3px 10px ${theme.colors.black};
   }
-`;
-
-export const ButtonDropdownContainer = styled.div`
-  position: relative;
 `;
