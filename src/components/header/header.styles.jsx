@@ -35,8 +35,15 @@ export const OptionLink = styled(Link)`
   padding: 10px 15px;
   text-decoration: none;
   cursor: pointer;
+  &:hover {
+    color: ${theme.colors.lightPurple};
+    & span {
+      color: ${theme.colors.lightPurple};
+    }
+  }
 
   &.aktiv {
+    cursor: default;
     & span {
       color: ${theme.colors.darkPurple};
       font-weight: bold;
@@ -58,5 +65,8 @@ export const OptionLink = styled(Link)`
     border: 1px solid ${theme.colors.lightWhite};
     border-radius: 25px;
     margin-right: 50px;
+    &:hover {
+      border-color: ${theme.colors.lightPurple};
+    }
   }
 `;

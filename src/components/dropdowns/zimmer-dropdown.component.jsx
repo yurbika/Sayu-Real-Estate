@@ -2,6 +2,8 @@ import React from "react";
 import { dropdownRef } from "../../redux/dropdown/dropdown.utils";
 import { connect } from "react-redux";
 
+import { setArt } from "../../redux/filter/filter.action";
+
 const ZimmerDropdown = () => (
   <div className="dropdown-container zimmer-dropdown" ref={dropdownRef}>
     <ul>
@@ -14,4 +16,4 @@ const ZimmerDropdown = () => (
   </div>
 );
 
-export default ZimmerDropdown;
+export default connect(null)(ZimmerDropdown);

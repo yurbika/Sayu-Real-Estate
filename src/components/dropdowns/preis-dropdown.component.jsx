@@ -23,7 +23,14 @@ const PreisDropdown = () => (
         }}
       />
       <ul id="preis-min">
-        <li>0 €</li>
+        <li
+          onClick={() => {
+            document.getElementById("max-input").click();
+            document.getElementById("max-input").focus();
+          }}
+        >
+          0 €
+        </li>
         <li>0 €</li>
         <li>0 €</li>
         <li>0 €</li>
@@ -37,6 +44,7 @@ const PreisDropdown = () => (
     </div>
     <div className="input-container">
       <Input
+        id="max-input"
         placeholder="Max"
         dropdownInput
         number
