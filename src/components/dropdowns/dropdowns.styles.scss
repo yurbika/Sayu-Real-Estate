@@ -77,26 +77,20 @@
   height: 2.5rem;
   transform: translate3d(0.1rem, 70px, 0px) !important;
   display: flex;
-  align-self: center;
-  justify-content: center;
-
-  div {
-    cursor: pointer;
-    position: absolute;
-    display: flex;
-    align-self: center;
-    justify-content: center;
-    height: 1.5rem;
-    width: 80%;
-    span {
+  align-items: center;
+  ul {
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    li {
+      cursor: pointer;
+      width: 100%;
       color: black;
-    }
-    &:hover {
-      color: #681899;
-      border: 1px solid #681899;
-      border-radius: 25px;
-      & > * {
+      padding: 5px;
+      &:hover {
         color: #681899;
+        border: 1px solid #681899;
+        border-radius: 25px;
       }
     }
   }
@@ -109,49 +103,11 @@
 .zimmer-dropdown {
   transform: translate3d(0rem, 190px, 0px) !important;
   width: 8rem;
-  display: flex;
-  align-self: center;
-  justify-content: center;
-  ul {
-    list-style: none;
-    width: 100%;
-    text-align: center;
-    li {
-      cursor: pointer;
-      width: 100%;
-      padding: 5px;
-      color: black;
-      margin: 0;
-      &:hover {
-        color: #681899;
-        border: 1px solid #681899;
-        border-radius: 25px;
-      }
-    }
-  }
+  height: 10.2rem;
 }
 
 .flaeche-dropdown {
   transform: translate3d(12rem, 205px, 0px) !important;
   width: 8rem;
-  display: flex;
-  align-self: center;
-  justify-content: center;
-  ul {
-    list-style: none;
-    width: 100%;
-    text-align: center;
-    li {
-      cursor: pointer;
-      width: 100%;
-      padding: 5px;
-      color: black;
-      margin: 0;
-      &:hover {
-        color: #681899;
-        border: 1px solid #681899;
-        border-radius: 25px;
-      }
-    }
-  }
+  height: 12.2rem;
 }

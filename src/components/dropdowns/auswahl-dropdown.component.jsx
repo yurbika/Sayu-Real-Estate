@@ -1,36 +1,45 @@
 import React from "react";
 import { connect } from "react-redux";
 
+//redux
 import { setArt } from "../../redux/filter/filter.action";
-import { dropdownRef } from "../../redux/dropdown/dropdown.utils";
 
+import { dropdownRef } from "../../redux/dropdown/dropdown.utils";
 import toggleDropdown from "../../redux/dropdown/dropdown.action";
 import DropdownActionTypes from "../../redux/dropdown/dropdown.types";
 
-import FilterActionTypes from "../../redux/filter/filter.types";
+//utils
+import { typSetter } from "./dropdown.component.utils";
 
 import "./dropdowns.styles.scss";
 
-const AuswahlDropdown = ({ children, setArt, haus, toggleDropdown }) => {
-  let type = "";
-  //hier wird entschieden welcher setter benutz werden soll
-  //d.h. welcher button kommt gerade rein
-  if (children === "Mieten" || children === "Kaufen")
-    type = FilterActionTypes.SET_BEZUGSART;
-  else type = FilterActionTypes.SET_HAUSTYP;
-
+const AuswahlDropdown = ({
+  children,
+  setArt,
+  additionalStyle,
+  toggleDropdown
+}) => {
   return (
     <div
-      className={"dropdown-container auswahl-dropdown " + haus}
-      onClick={() => {
-        setArt(children, type);
-        toggleDropdown(DropdownActionTypes.TOGGLE_ALL_DROPDOWNS_FALSE);
-      }}
+      className={
+        "dropdown-container auswahl-dropdown " +
+        (additionalStyle !== undefined ? additionalStyle : "")
+      }
       ref={dropdownRef}
     >
-      <div>
-        <span>{children}</span>
-      </div>
+      <ul>
+        {children.map(child => (
+          <li
+            key={child}
+            onClick={() => {
+              setArt(child, typSetter(child));
+              toggleDropdown(DropdownActionTypes.TOGGLE_ALL_DROPDOWNS_FALSE);
+            }}
+          >
+            {child}
+          </li>
+        ))}
+      </ul>
     </div>
   );
 };

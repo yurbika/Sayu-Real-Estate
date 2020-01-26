@@ -8,8 +8,6 @@ import Input from "../../components/input/input.component";
 import Button from "../../components/button/button.component";
 
 import PreisDropdown from "../../components/dropdowns/preis-dropdown.component";
-import FlaecheDropdown from "../../components/dropdowns/flaeche-dropdown.component";
-import ZimmerDropdown from "../../components/dropdowns/zimmer-dropdown.component";
 import AuswahlDropdown from "../dropdowns/auswahl-dropdown.component";
 
 //selektoren redux
@@ -131,17 +129,28 @@ const Suchleiste = ({
        ************************************/}
       {preisDropdown ? <PreisDropdown /> : null}
       {bezugsartDropdown ? (
-        <AuswahlDropdown>
-          {bezugsart === "Mieten" ? "Kaufen" : "Mieten"}
-        </AuswahlDropdown>
+        <AuswahlDropdown
+          children={[bezugsart === "Mieten" ? "Kaufen" : "Mieten"]}
+        />
       ) : null}
       {immobilientypDropdown ? (
-        <AuswahlDropdown haus="haus">
-          {haustype === "Wohnung" ? "Haus" : "Wohnung"}
-        </AuswahlDropdown>
+        <AuswahlDropdown
+          additionalStyle="haus"
+          children={[haustype === "Wohnung" ? "Haus" : "Wohnung"]}
+        />
       ) : null}
-      {zimmerDropdown ? <ZimmerDropdown /> : null}
-      {flächeDropdown ? <FlaecheDropdown /> : null}
+      {zimmerDropdown ? (
+        <AuswahlDropdown
+          additionalStyle="zimmer-dropdown"
+          children={["1 +", "2 +", "3 +", "4 +", "5 +"]}
+        />
+      ) : null}
+      {flächeDropdown ? (
+        <AuswahlDropdown
+          additionalStyle="flaeche-dropdown"
+          children={["75 +", "100 +", "200 +", "300 +", "400 +", "500 +"]}
+        />
+      ) : null}
       {/************/}
     </Filter>
   </SuchleisteContainer>
