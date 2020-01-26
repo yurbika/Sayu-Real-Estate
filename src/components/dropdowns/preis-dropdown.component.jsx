@@ -9,7 +9,7 @@ import "./dropdowns.styles.scss";
 //max input wird generiert durch den inputt von min
 //es gibt eine zahl grenze für die eingebene zahlt und der input wird rot makiert
 
-export const PreisDropdown = () => (
+const PreisDropdown = () => (
   <div className="dropdown-container preis-dropdown" ref={dropdownRef}>
     <div className="input-container">
       <Input
@@ -58,14 +58,4 @@ export const PreisDropdown = () => (
   </div>
 );
 
-export const ZimmerDropdown = () => (
-  <div className="dropdown-container zimmer-dropdown">
-    <div></div>
-  </div>
-);
-
-export const FlaecheDropdown = () => (
-  <div className="dropdown-container flaeche-dropdown">
-    <div></div>
-  </div>
-);
+export default PreisDropdown;

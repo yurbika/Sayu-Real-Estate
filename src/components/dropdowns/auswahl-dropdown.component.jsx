@@ -9,16 +9,21 @@ import "./dropdowns.styles.scss";
 
 const AuswahlDropdown = ({ children, setArt, haus }) => {
   let type = "";
+  //hier wird entschieden welcher setter benutz werden soll
+  //d.h. welcher button kommt gerade rein
   if (children === "Mieten" || children === "Kaufen")
     type = FilterActionTypes.SET_BEZUGSART;
   else type = FilterActionTypes.SET_HAUSTYP;
+
   return (
     <div
       className={"dropdown-container auswahl-dropdown " + haus}
       onClick={() => setArt(children, type)}
       ref={dropdownRef}
     >
-      <div>{children}</div>
+      <div>
+        <span>{children}</span>
+      </div>
     </div>
   );
 };

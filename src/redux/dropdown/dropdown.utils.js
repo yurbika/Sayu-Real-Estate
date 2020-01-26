@@ -1,7 +1,7 @@
 import React from "react";
 
 //musst importiert werden damit handleClickOutside funktoniert
-//d.h. es muss ein ref={dropdownRef} gesetzt werden wo es gebraucht wird
+//d.h. es muss ein ref={dropdownRef} gesetzt werden bei den dropdowns
 
 export const dropdownRef = React.createRef();
 

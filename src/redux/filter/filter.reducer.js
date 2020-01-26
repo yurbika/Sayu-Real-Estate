@@ -5,8 +5,8 @@ const INITIAL_STATE = {
   bezugsart: "Mieten",
   haustyp: "Wohnung",
   preis: "Preis",
-  zimmerAnzahl: "Zimmer",
-  fläche: "Fläche"
+  zimmerAnzahl: "Zimmer ab",
+  fläche: "Fläche ab"
 };
 
 const filterReducer = (state = INITIAL_STATE, action) => {

@@ -6,12 +6,10 @@ import { createStructuredSelector } from "reselect";
 //Component imports
 import Input from "../../components/input/input.component";
 import Button from "../../components/button/button.component";
-import {
-  PreisDropdown,
-  ZimmerDropdown,
-  FlaecheDropdown
-} from "../../components/dropdowns/dropdowns.component";
 
+import PreisDropdown from "../../components/dropdowns/preis-dropdown.component";
+import FlaecheDropdown from "../../components/dropdowns/flaeche-dropdown.component";
+import ZimmerDropdown from "../../components/dropdowns/zimmer-dropdown.component";
 import AuswahlDropdown from "../dropdowns/auswahl-dropdown.component";
 
 //selektoren redux
