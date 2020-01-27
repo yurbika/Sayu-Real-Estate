@@ -5,13 +5,24 @@ import FilterActionTypes from "../../redux/filter/filter.types";
 export const typSetter = text => {
   switch (text) {
     case "Mieten":
-      return FilterActionTypes.SET_BEZUGSART;
     case "Kaufen":
       return FilterActionTypes.SET_BEZUGSART;
     case "Wohnung":
-      return FilterActionTypes.SET_HAUSTYP;
     case "Haus":
       return FilterActionTypes.SET_HAUSTYP;
+    case "1 +":
+    case "2 +":
+    case "3 +":
+    case "4 +":
+    case "5 +":
+      return FilterActionTypes.SET_ZIMMERANZAHL;
+    case "75 +":
+    case "100 +":
+    case "200 +":
+    case "300 +":
+    case "400 +":
+    case "500 +":
+      return FilterActionTypes.SET_FLÄCHE;
     default:
       return null;
   }
