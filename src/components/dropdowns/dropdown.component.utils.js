@@ -16,7 +16,7 @@ export const typSetter = text => {
     case "4 +":
     case "5 +":
       return FilterActionTypes.SET_ZIMMERANZAHL;
-    case "75 +":
+    case "70 +":
     case "100 +":
     case "200 +":
     case "300 +":

@@ -1,7 +1,7 @@
 import FilterActionTypes from "./filter.types";
 
 export const setInput = input => ({
-  type: FilterActionTypes.SET_INPUT,
+  type: FilterActionTypes.SET_SEARCHINPUT,
   payload: input.target.value
 });
 

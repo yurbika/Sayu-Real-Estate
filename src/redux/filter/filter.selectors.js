@@ -2,9 +2,9 @@ import { createSelector } from "reselect";
 
 const selectFilter = state => state.filter;
 
-export const selectInput = createSelector(
+export const selectSearchInput = createSelector(
   [selectFilter],
-  filter => filter.input
+  filter => filter.searchInput
 );
 
 export const selectBezugsart = createSelector(

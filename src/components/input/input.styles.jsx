@@ -26,6 +26,7 @@ const InputStyled = styled.input`
   color: #000000;
   background: ${theme.colors.lightWhite};
   padding-left: 1rem;
+  padding-right: 1rem;
   &::placeholder {
     color: #00000098;
     font-size: 1rem;
@@ -36,6 +37,7 @@ const InputStyled = styled.input`
     border: 3px solid;
     border-color: ${theme.colors.darkPurple};
   }
+
   ${getInputStyles}
 `;
 

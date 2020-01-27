@@ -1,7 +1,9 @@
 import FilterActionTypes from "./filter.types";
 
 const INITIAL_STATE = {
-  input: "",
+  searchInput: "",
+  minInput: "",
+  maxInput: "",
   bezugsart: "Mieten",
   haustyp: "Wohnung",
   preis: "Preis",
@@ -36,10 +38,20 @@ const filterReducer = (state = INITIAL_STATE, action) => {
         ...state,
         zimmerAnzahl: action.payload
       };
-    case FilterActionTypes.SET_INPUT:
+    case FilterActionTypes.SET_SEARCH_INPUT:
       return {
         ...state,
-        input: action.payload
+        searchInput: action.payload
+      };
+    case FilterActionTypes.SET_MINIMUM_INPUT:
+      return {
+        ...state,
+        minInput: action.payload
+      };
+    case FilterActionTypes.SET_MAXIMAL_INPUT:
+      return {
+        ...state,
+        maxInput: action.payload
       };
     default:
       return state;

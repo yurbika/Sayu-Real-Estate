@@ -16,7 +16,7 @@ const PreisDropdown = () => (
         placeholder="Min"
         dropdownInput
         autoFocus
-        number
+        inputType="number"
         onClick={() => {
           document.getElementById("preis-min").style.display = "block";
           document.getElementById("preis-max").style.display = "none";
@@ -47,7 +47,7 @@ const PreisDropdown = () => (
         id="max-input"
         placeholder="Max"
         dropdownInput
-        number
+        inputType="number"
         onClick={() => {
           document.getElementById("preis-min").style.display = "none";
           document.getElementById("preis-max").style.display = "block";

@@ -14,7 +14,7 @@ import AuswahlDropdown from "../dropdowns/auswahl-dropdown.component";
 import {
   selectBezugsart,
   selectHaustyp,
-  selectInput,
+  selectSearchInput,
   selectZimmerAnzahl,
   selectPreis,
   selectFläche
@@ -148,7 +148,7 @@ const Suchleiste = ({
       {flächeDropdown ? (
         <AuswahlDropdown
           additionalStyle="flaeche-dropdown"
-          children={["75 +", "100 +", "200 +", "300 +", "400 +", "500 +"]}
+          children={["70 +", "100 +", "200 +", "300 +", "400 +", "500 +"]}
         />
       ) : null}
       {/************/}
@@ -162,7 +162,7 @@ const mapStateToProps = createStructuredSelector({
   //Filter States
   bezugsart: selectBezugsart,
   preis: selectPreis,
-  input: selectInput,
+  input: selectSearchInput,
   zimmerAnzahl: selectZimmerAnzahl,
   fläche: selectFläche,
   haustype: selectHaustyp,
