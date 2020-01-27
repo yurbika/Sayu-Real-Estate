@@ -44,6 +44,7 @@ import {
 
 const Suchleiste = ({
   bezugsart,
+  input,
   preis,
   zimmerAnzahl,
   haustype,
@@ -65,7 +66,7 @@ const Suchleiste = ({
         <InputContainerZeile>
           <Input
             inputStartseite
-            type="search"
+            inputType="search"
             placeholder="Wo: Ort, Bundesland oder PLZ"
           />
           <Button

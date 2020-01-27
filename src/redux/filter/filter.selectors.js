@@ -7,6 +7,16 @@ export const selectSearchInput = createSelector(
   filter => filter.searchInput
 );
 
+export const selectMinInput = createSelector(
+  [selectFilter],
+  filter => filter.minInput
+);
+
+export const selectMaxInput = createSelector(
+  [selectFilter],
+  filter => filter.maxInput
+);
+
 export const selectBezugsart = createSelector(
   [selectFilter],
   filter => filter.bezugsart
