@@ -11,9 +11,9 @@ export const onlyNumberkey = e => {
   return true;
 };
 
-const removeDots = numberWithDots => {
+export const removeDots = numberWithDots => {
   var temp = numberWithDots;
-  temp = temp.replace(/\./g, "");
+  temp = temp.replace(/[^0-9]/g, "");
   return temp;
 };
 
@@ -40,3 +40,12 @@ export const numberWithDots = x => {
 // zahl groeßer als 5500 +1000
 // zahlen werden nur bis zu 10000 gerechnet
 // am schluss gibt es immer eine angabe mit egal
+
+/*
+es gibt immer 10 werte
+ist die zahl kleiner als 3500 wird die zahl auf 3000 gesetzt
+alles unter 3500 wird -200 subtrahiert
+es wird eine rundungsfunktion benutzt welche 2299 auf 2400 setzt
+2401 gerundet ergibt 2500
+
+*/
