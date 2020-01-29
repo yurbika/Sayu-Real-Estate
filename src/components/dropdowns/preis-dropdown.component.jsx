@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 
 //utils
-import { createLi } from "./dropdown.component.utils";
+import { createLiMietenMin, createLiMax } from "./dropdown.component.utils";
 
 //component imports
 import Input from "../input/input.component";
@@ -16,18 +16,12 @@ import { setInput } from "../../redux/filter/filter.action";
 
 import {
   selectMaxInput,
-  selectMinInput,
-  selectBezugsart
+  selectMinInput
 } from "../../redux/filter/filter.selectors";
 
 import "./dropdowns.styles.scss";
 
-//input erlaubt nur zahlen und keine anderen zeichen
-//max input wird generiert durch den inputt von min
-//es gibt eine zahl grenze für die eingebene zahlt und der input wird rot makiert
-//wenn der dropdown geschlossen wird muss der state gesettz werden
-
-const PreisDropdown = ({ maxInput, minInput, setInput, bezugsart }) => {
+const PreisDropdown = ({ maxInput, minInput, setInput }) => {
   return (
     <div className="dropdown-container preis-dropdown" ref={dropdownRef}>
       <div className="input-container">
@@ -46,7 +40,7 @@ const PreisDropdown = ({ maxInput, minInput, setInput, bezugsart }) => {
           onKeyPress={e => onlyNumberkey(e)}
         />
         <ul id="preis-min">
-          {createLi(10, maxInput, "max-input", "numberMin", setInput)}
+          {createLiMietenMin(10, maxInput, "max-input", "numberMin", setInput)}
         </ul>
       </div>
       <div>
@@ -66,7 +60,9 @@ const PreisDropdown = ({ maxInput, minInput, setInput, bezugsart }) => {
           onChange={e => setInput(numberWithDots(e.target.value), "numberMax")}
           onKeyPress={e => onlyNumberkey(e)}
         />
-        <ul id="preis-max">{/*funktion*/}</ul>
+        <ul id="preis-max">
+          {createLiMax(10, minInput, "numberMax", setInput)}
+        </ul>
       </div>
     </div>
   );
@@ -74,8 +70,7 @@ const PreisDropdown = ({ maxInput, minInput, setInput, bezugsart }) => {
 
 const mapStateToProps = createStructuredSelector({
   maxInput: selectMaxInput,
-  minInput: selectMinInput,
-  bezugsart: selectBezugsart
+  minInput: selectMinInput
 });
 
 const mapDispatchToProps = dispatch => ({

@@ -34,8 +34,8 @@ export const typSetter = text => {
   }
 };
 
-//dynamische werte fuer die liste der min preise
-export const createLi = (
+//dynamische werte fuer die preisauswahl
+export const createLiMietenMin = (
   n,
   oppositeInputState,
   oppositeInputName,
@@ -79,8 +79,8 @@ export const createLi = (
   }
   array.push(
     <li
-      onClick={e => {
-        setInput(e.currentTarget.textContent, inputName);
+      onClick={() => {
+        setInput("", inputName);
         document.getElementById(oppositeInputName).click();
         document.getElementById(oppositeInputName).focus();
       }}
@@ -90,4 +90,52 @@ export const createLi = (
     </li>
   );
   return array.reverse();
+};
+
+export const createLiMax = (n, oppositeInputState, inputName, setInput) => {
+  let i = 0;
+  let array = [];
+  let temp = 0;
+
+  //grenz werte fuer mieten
+  if (oppositeInputState.toString() === "") temp = 2000;
+  else if (Number(removeDots(oppositeInputState)) < 400) temp = 200;
+  else if (Number(removeDots(oppositeInputState)) >= 10000) i = n;
+  else temp = Number(removeDots(oppositeInputState));
+
+  //schritt weite der zahlen
+  while (i < n - 1) {
+    if (temp <= 3000) {
+      temp = Math.ceil(temp / 200) * 200;
+      temp += 200;
+    } else if (temp > 3000 && temp <= 6000) {
+      temp = Math.ceil(temp / 500) * 500;
+      temp += 500;
+    } else if (temp > 6000) {
+      temp = Math.ceil(temp / 1000) * 1000;
+      temp += 1000;
+    }
+    array.push(
+      <li
+        onClick={e => {
+          setInput(e.currentTarget.textContent, inputName);
+        }}
+        key={ID_GENERATOR("preis-dropdown-li-")}
+      >
+        {numberWithDots(temp.toString()) + "€"}
+      </li>
+    );
+    i++;
+  }
+  array.push(
+    <li
+      onClick={e => {
+        setInput(e.currentTarget.textContent, inputName);
+      }}
+      key={ID_GENERATOR("preis-dropdown-li-")}
+    >
+      Egal
+    </li>
+  );
+  return array;
 };
