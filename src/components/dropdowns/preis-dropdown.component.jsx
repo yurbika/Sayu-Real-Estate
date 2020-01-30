@@ -3,7 +3,12 @@ import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 
 //utils
-import { createLiMietenMin, createLiMax } from "./dropdown.component.utils";
+import {
+  createLiMietenMin,
+  createLiMietenMax,
+  createLiKaufenMin,
+  createLiKaufenMax
+} from "./dropdown.component.utils";
 
 //component imports
 import Input from "../input/input.component";
@@ -16,12 +21,13 @@ import { setInput } from "../../redux/filter/filter.action";
 
 import {
   selectMaxInput,
-  selectMinInput
+  selectMinInput,
+  selectBezugsart
 } from "../../redux/filter/filter.selectors";
 
 import "./dropdowns.styles.scss";
 
-const PreisDropdown = ({ maxInput, minInput, setInput }) => {
+const PreisDropdown = ({ maxInput, minInput, setInput, bezugsart }) => {
   return (
     <div className="dropdown-container preis-dropdown" ref={dropdownRef}>
       <div className="input-container">
@@ -40,7 +46,21 @@ const PreisDropdown = ({ maxInput, minInput, setInput }) => {
           onKeyPress={e => onlyNumberkey(e)}
         />
         <ul id="preis-min">
-          {createLiMietenMin(10, maxInput, "max-input", "numberMin", setInput)}
+          {bezugsart === "Mieten"
+            ? createLiMietenMin(
+                10,
+                maxInput,
+                "max-input",
+                "numberMin",
+                setInput
+              )
+            : createLiKaufenMin(
+                10,
+                maxInput,
+                "max-input",
+                "numberMin",
+                setInput
+              )}
         </ul>
       </div>
       <div>
@@ -61,7 +81,9 @@ const PreisDropdown = ({ maxInput, minInput, setInput }) => {
           onKeyPress={e => onlyNumberkey(e)}
         />
         <ul id="preis-max">
-          {createLiMax(10, minInput, "numberMax", setInput)}
+          {bezugsart === "Mieten"
+            ? createLiMietenMax(10, minInput, "numberMax", setInput)
+            : createLiKaufenMax(10, minInput, "numberMax", setInput)}
         </ul>
       </div>
     </div>
@@ -70,7 +92,8 @@ const PreisDropdown = ({ maxInput, minInput, setInput }) => {
 
 const mapStateToProps = createStructuredSelector({
   maxInput: selectMaxInput,
-  minInput: selectMinInput
+  minInput: selectMinInput,
+  bezugsart: selectBezugsart
 });
 
 const mapDispatchToProps = dispatch => ({
