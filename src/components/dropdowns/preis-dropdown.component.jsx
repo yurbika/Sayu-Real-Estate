@@ -16,6 +16,7 @@ import { numberWithDots, onlyNumberkey } from "../input/input.utils";
 
 //redux imports
 import { dropdownRef } from "../../redux/dropdown/dropdown.utils";
+import toggleDropdown from "../../redux/dropdown/dropdown.action";
 
 import { setInput } from "../../redux/filter/filter.action";
 
@@ -27,7 +28,13 @@ import {
 
 import "./dropdowns.styles.scss";
 
-const PreisDropdown = ({ maxInput, minInput, setInput, bezugsart }) => {
+const PreisDropdown = ({
+  maxInput,
+  minInput,
+  setInput,
+  bezugsart,
+  toggleDropdown
+}) => {
   return (
     <div className="dropdown-container preis-dropdown" ref={dropdownRef}>
       <div className="input-container">
@@ -82,8 +89,20 @@ const PreisDropdown = ({ maxInput, minInput, setInput, bezugsart }) => {
         />
         <ul id="preis-max">
           {bezugsart === "Mieten"
-            ? createLiMietenMax(10, minInput, "numberMax", setInput)
-            : createLiKaufenMax(10, minInput, "numberMax", setInput)}
+            ? createLiMietenMax(
+                10,
+                minInput,
+                "numberMax",
+                setInput,
+                toggleDropdown
+              )
+            : createLiKaufenMax(
+                10,
+                minInput,
+                "numberMax",
+                setInput,
+                toggleDropdown
+              )}
         </ul>
       </div>
     </div>
@@ -97,7 +116,8 @@ const mapStateToProps = createStructuredSelector({
 });
 
 const mapDispatchToProps = dispatch => ({
-  setInput: (event, prop) => dispatch(setInput(event, prop))
+  setInput: (event, prop) => dispatch(setInput(event, prop)),
+  toggleDropdown: type => dispatch(toggleDropdown(type))
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(PreisDropdown);

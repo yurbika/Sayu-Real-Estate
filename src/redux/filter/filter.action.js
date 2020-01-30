@@ -22,9 +22,9 @@ export const setInput = (event, prop) => {
   }
 };
 
-export const setPreis = (minInput, maxInput) => ({
+export const setPreis = payload => ({
   type: FilterActionTypes.SET_PREIS,
-  payload: `${minInput} - ${maxInput}`
+  payload: payload
 });
 
 //fuer bezugsart und immobilienart

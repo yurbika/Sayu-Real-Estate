@@ -5,6 +5,7 @@ import { numberWithDots, removeDots } from "../input/input.utils";
 import { ID_GENERATOR } from "../../uniqueKey";
 
 import FilterActionTypes from "../../redux/filter/filter.types";
+import DropdownActionTypes from "../../redux/dropdown/dropdown.types";
 
 //hier wird entschieden welcher setter benutz werden soll
 
@@ -98,7 +99,8 @@ export const createLiMietenMax = (
   n,
   oppositeInputState,
   inputName,
-  setInput
+  setInput,
+  toggleDropdown
 ) => {
   let i = 0;
   let array = [];
@@ -127,6 +129,7 @@ export const createLiMietenMax = (
       <li
         onClick={e => {
           setInput(e.currentTarget.textContent, inputName);
+          toggleDropdown(DropdownActionTypes.TOGGLE_PREISDROPDOWN_HIDDEN);
         }}
         key={ID_GENERATOR("preis-dropdown-li-")}
       >
@@ -139,6 +142,7 @@ export const createLiMietenMax = (
     <li
       onClick={e => {
         setInput(e.currentTarget.textContent, inputName);
+        toggleDropdown(DropdownActionTypes.TOGGLE_PREISDROPDOWN_HIDDEN);
       }}
       key={ID_GENERATOR("preis-dropdown-li-")}
     >
@@ -206,7 +210,8 @@ export const createLiKaufenMax = (
   n,
   oppositeInputState,
   inputName,
-  setInput
+  setInput,
+  toggleDropdown
 ) => {
   let i = 0;
   let array = [];
@@ -227,6 +232,7 @@ export const createLiKaufenMax = (
       <li
         onClick={e => {
           setInput(e.currentTarget.textContent, inputName);
+          toggleDropdown(DropdownActionTypes.TOGGLE_PREISDROPDOWN_HIDDEN);
         }}
         key={ID_GENERATOR("preis-dropdown-li-")}
       >
@@ -239,6 +245,7 @@ export const createLiKaufenMax = (
     <li
       onClick={e => {
         setInput(e.currentTarget.textContent, inputName);
+        toggleDropdown(DropdownActionTypes.TOGGLE_PREISDROPDOWN_HIDDEN);
       }}
       key={ID_GENERATOR("preis-dropdown-li-")}
     >
