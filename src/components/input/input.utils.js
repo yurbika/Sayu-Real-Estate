@@ -1,11 +1,10 @@
-//prueft die eingabe auf eine zahl
-
+//prüft die eingabe auf eine zahl
 export const onlyNumberkey = e => {
   var ASCIICode = e.which ? e.which : e.keyCode;
   //prüfen ob die erste zahl eine null ist
   if (e.target.value.length === 0 && ASCIICode === 48)
     return e.preventDefault();
-  //pruefen ob es eine zahl ist
+  //prüfen ob es eine zahl ist
   if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57))
     return e.preventDefault();
   return true;
@@ -25,11 +24,33 @@ export const numberWithDots = x => {
   return number.toString();
 };
 
+//abkürzungen für tausender stellen und millionen
+const abbreviateNumber = function(num) {
+  //test für grenz werte
+  if (num === null) return null;
+  if (num < 100000) return numberWithDots(num.toString());
+  if (num > 1500000) return;
+  //funktion
+  var b = num.toPrecision(2).split("e"), // anzahl der nuller
+    k = b.length === 1 ? 0 : Math.floor(Math.min(b[1].slice(1), 14) / 3), // floor at decimals, ceiling at trillions
+    c = k < 1 ? num.toFixed(0) : (num / Math.pow(10, k * 3)).toFixed(1), // diviert durch die anzahl der nuller
+    d = c < 0 ? c : Math.abs(c), // enforce -0 is 0
+    e = d + ["", "T", "M"][k];
+  return e;
+};
+
+//test ob es über 100000 ist
+const testInput = num => {
+  if (Number(removeDots(num)) >= 100000) return true;
+  else return false;
+};
+
 //der String Preis ist der standartwert
 export const checkInputValue = (minInput, maxInput) => {
+  console.log(abbreviateNumber(Number(removeDots(minInput))));
   //Preis ist 0 und egal
   if (minInput === "" && maxInput === "Egal") return "Preis";
-  //mininput ist groeßer als maxinput
+  //mininput ist größer als maxinput
   if (
     Number(removeDots(minInput)) > Number(removeDots(maxInput)) &&
     maxInput !== "" &&
@@ -38,14 +59,29 @@ export const checkInputValue = (minInput, maxInput) => {
     let temp = maxInput;
     maxInput = minInput;
     minInput = temp;
-    return `${removeDots(minInput)}€ - ${removeDots(maxInput)}€`;
+    //test für abbreviateNumber
+    if (testInput(minInput) || testInput(maxInput))
+      return `${abbreviateNumber(
+        Number(removeDots(minInput))
+      )}€ - ${abbreviateNumber(Number(removeDots(maxInput)))}€`;
+    //standart rückgabe
+    return `${numberWithDots(minInput)}€ - ${numberWithDots(maxInput)}€`;
   }
   //maxinput ist leer
   if (minInput !== "" && (maxInput === "" || maxInput === "Egal"))
-    return `ab ${removeDots(minInput)}€`;
+    return `ab ${numberWithDots(minInput)}€`;
   //mininput ist leer
-  if (minInput === "" && maxInput !== "") return `bis ${removeDots(maxInput)}€`;
-  if (minInput !== "" && maxInput !== "")
-    return `${removeDots(minInput)}€ - ${removeDots(maxInput)}€`;
+  if (minInput === "" && maxInput !== "")
+    return `bis ${numberWithDots(maxInput)}€`;
+  //standart ausgabe
+  if (minInput !== "" && maxInput !== "") {
+    //test für abbreviateNumber
+    if (testInput(minInput) || testInput(maxInput))
+      return `${abbreviateNumber(
+        Number(removeDots(minInput))
+      )}€ - ${abbreviateNumber(Number(removeDots(maxInput)))}€`;
+    //standart rückgabe
+    return `${numberWithDots(minInput)}€ - ${numberWithDots(maxInput)}€`;
+  }
   return "Preis";
 };
