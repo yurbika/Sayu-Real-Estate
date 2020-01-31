@@ -41,8 +41,7 @@ export const createLiMietenMin = (
   n,
   oppositeInputState,
   oppositeInputName,
-  inputName,
-  setInput
+  setInputMin
 ) => {
   let i = 0;
   let array = [];
@@ -69,7 +68,7 @@ export const createLiMietenMin = (
     array.push(
       <li
         onClick={e => {
-          setInput(e.currentTarget.textContent, inputName);
+          setInputMin(e.currentTarget.textContent);
           document.getElementById(oppositeInputName).click();
           document.getElementById(oppositeInputName).focus();
         }}
@@ -83,7 +82,7 @@ export const createLiMietenMin = (
   array.push(
     <li
       onClick={() => {
-        setInput("", inputName);
+        setInputMin("");
         document.getElementById(oppositeInputName).click();
         document.getElementById(oppositeInputName).focus();
       }}
@@ -98,8 +97,7 @@ export const createLiMietenMin = (
 export const createLiMietenMax = (
   n,
   oppositeInputState,
-  inputName,
-  setInput,
+  setInputMax,
   toggleDropdown
 ) => {
   let i = 0;
@@ -128,7 +126,7 @@ export const createLiMietenMax = (
     array.push(
       <li
         onClick={e => {
-          setInput(e.currentTarget.textContent, inputName);
+          setInputMax(e.currentTarget.textContent);
           toggleDropdown(DropdownActionTypes.TOGGLE_PREISDROPDOWN_HIDDEN);
         }}
         key={ID_GENERATOR("preis-dropdown-li-")}
@@ -141,7 +139,7 @@ export const createLiMietenMax = (
   array.push(
     <li
       onClick={e => {
-        setInput(e.currentTarget.textContent, inputName);
+        setInputMax(e.currentTarget.textContent);
         toggleDropdown(DropdownActionTypes.TOGGLE_PREISDROPDOWN_HIDDEN);
       }}
       key={ID_GENERATOR("preis-dropdown-li-")}
@@ -157,8 +155,7 @@ export const createLiKaufenMin = (
   n,
   oppositeInputState,
   oppositeInputName,
-  inputName,
-  setInput
+  setInputMin
 ) => {
   let i = 0;
   let array = [];
@@ -179,7 +176,7 @@ export const createLiKaufenMin = (
     array.push(
       <li
         onClick={e => {
-          setInput(e.currentTarget.textContent, inputName);
+          setInputMin(e.currentTarget.textContent);
           document.getElementById(oppositeInputName).click();
           document.getElementById(oppositeInputName).focus();
         }}
@@ -194,7 +191,7 @@ export const createLiKaufenMin = (
   array.push(
     <li
       onClick={() => {
-        setInput("", inputName);
+        setInputMin("");
         document.getElementById(oppositeInputName).click();
         document.getElementById(oppositeInputName).focus();
       }}
@@ -209,8 +206,7 @@ export const createLiKaufenMin = (
 export const createLiKaufenMax = (
   n,
   oppositeInputState,
-  inputName,
-  setInput,
+  setInputMax,
   toggleDropdown
 ) => {
   let i = 0;
@@ -231,7 +227,7 @@ export const createLiKaufenMax = (
     array.push(
       <li
         onClick={e => {
-          setInput(e.currentTarget.textContent, inputName);
+          setInputMax(e.currentTarget.textContent);
           toggleDropdown(DropdownActionTypes.TOGGLE_PREISDROPDOWN_HIDDEN);
         }}
         key={ID_GENERATOR("preis-dropdown-li-")}
@@ -244,7 +240,7 @@ export const createLiKaufenMax = (
   array.push(
     <li
       onClick={e => {
-        setInput(e.currentTarget.textContent, inputName);
+        setInputMax(e.currentTarget.textContent);
         toggleDropdown(DropdownActionTypes.TOGGLE_PREISDROPDOWN_HIDDEN);
       }}
       key={ID_GENERATOR("preis-dropdown-li-")}

@@ -16,6 +16,7 @@ import "./dropdowns.styles.scss";
 const AuswahlDropdown = ({
   children,
   setArt,
+
   additionalStyle,
   toggleDropdown
 }) => {

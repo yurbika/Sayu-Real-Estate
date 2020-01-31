@@ -18,7 +18,7 @@ import { numberWithDots, onlyNumberkey } from "../input/input.utils";
 import { dropdownRef } from "../../redux/dropdown/dropdown.utils";
 import toggleDropdown from "../../redux/dropdown/dropdown.action";
 
-import { setInput } from "../../redux/filter/filter.action";
+import { setInputMax, setInputMin } from "../../redux/filter/filter.action";
 
 import {
   selectMaxInput,
@@ -31,7 +31,8 @@ import "./dropdowns.styles.scss";
 const PreisDropdown = ({
   maxInput,
   minInput,
-  setInput,
+  setInputMax,
+  setInputMin,
   bezugsart,
   toggleDropdown
 }) => {
@@ -49,25 +50,13 @@ const PreisDropdown = ({
             document.getElementById("preis-max").style.display = "none";
           }}
           value={minInput}
-          onChange={e => setInput(numberWithDots(e.target.value), "numberMin")}
+          onChange={e => setInputMin(numberWithDots(e.target.value))}
           onKeyPress={e => onlyNumberkey(e)}
         />
         <ul id="preis-min">
           {bezugsart === "Mieten"
-            ? createLiMietenMin(
-                10,
-                maxInput,
-                "max-input",
-                "numberMin",
-                setInput
-              )
-            : createLiKaufenMin(
-                10,
-                maxInput,
-                "max-input",
-                "numberMin",
-                setInput
-              )}
+            ? createLiMietenMin(10, maxInput, "max-input", setInputMin)
+            : createLiKaufenMin(10, maxInput, "max-input", setInputMin)}
         </ul>
       </div>
       <div>
@@ -84,25 +73,13 @@ const PreisDropdown = ({
             document.getElementById("preis-max").style.display = "block";
           }}
           value={maxInput}
-          onChange={e => setInput(numberWithDots(e.target.value), "numberMax")}
+          onChange={e => setInputMax(numberWithDots(e.target.value))}
           onKeyPress={e => onlyNumberkey(e)}
         />
         <ul id="preis-max">
           {bezugsart === "Mieten"
-            ? createLiMietenMax(
-                10,
-                minInput,
-                "numberMax",
-                setInput,
-                toggleDropdown
-              )
-            : createLiKaufenMax(
-                10,
-                minInput,
-                "numberMax",
-                setInput,
-                toggleDropdown
-              )}
+            ? createLiMietenMax(10, minInput, setInputMax, toggleDropdown)
+            : createLiKaufenMax(10, minInput, setInputMax, toggleDropdown)}
         </ul>
       </div>
     </div>
@@ -116,7 +93,8 @@ const mapStateToProps = createStructuredSelector({
 });
 
 const mapDispatchToProps = dispatch => ({
-  setInput: (event, prop) => dispatch(setInput(event, prop)),
+  setInputMax: preis => dispatch(setInputMax(preis)),
+  setInputMin: preis => dispatch(setInputMin(preis)),
   toggleDropdown: type => dispatch(toggleDropdown(type))
 });
 
