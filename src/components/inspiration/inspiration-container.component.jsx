@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 
 import BilderVorschauContainer from "../bilder-container/bild-container.component";
@@ -34,12 +33,7 @@ const InspirationContainer = ({
         : "")
     }
   >
-    <div className="beschreibung">
-      {children}
-      <Link to="/inspiration">
-        {/*dreieck */}Alle anzeigen{/*variabele Zahl*/}
-      </Link>
-    </div>
+    <div className="beschreibung">{children}</div>
 
     <BilderVorschauContainer
       expand={

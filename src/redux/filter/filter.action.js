@@ -10,6 +10,16 @@ export const setInputMax = preis => ({
   payload: preis
 });
 
+export const resetInputMax = () => ({
+  type: FilterActionTypes.SET_MAXIMAL_INPUT,
+  payload: ""
+});
+
+export const resetInputMin = () => ({
+  type: FilterActionTypes.SET_MINIMUM_INPUT,
+  payload: ""
+});
+
 export const setPreis = payload => ({
   type: FilterActionTypes.SET_PREIS,
   payload: payload

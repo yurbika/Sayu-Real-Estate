@@ -23,7 +23,11 @@ import {
   selectMaxInput,
   selectMinInput
 } from "../../redux/filter/filter.selectors";
-import { setPreis } from "../../redux/filter/filter.action";
+import {
+  setPreis,
+  resetInputMax,
+  resetInputMin
+} from "../../redux/filter/filter.action";
 
 import {
   selectPreisDropdown,
@@ -49,8 +53,18 @@ werden damit ist es möglich die dropdowns von überall zu schließen*/
 
 class Suchleiste extends React.Component {
   componentDidUpdate(prevProps) {
-    const { maxInput, minInput, setPreis, bezugsart } = this.props;
-    if (prevProps.bezugsart !== bezugsart);
+    const {
+      maxInput,
+      minInput,
+      setPreis,
+      bezugsart,
+      resetInputMax,
+      resetInputMin
+    } = this.props;
+    if (prevProps.bezugsart !== bezugsart) {
+      resetInputMax();
+      resetInputMin();
+    }
     if (prevProps.minInput !== minInput || prevProps.maxInput !== maxInput)
       setPreis(checkInputValue(minInput, maxInput));
   }
@@ -203,7 +217,9 @@ const mapDispatchToProps = dispatch => ({
   //dropdown action
   toggleDropdown: toggle => dispatch(toggleDropdown(toggle)),
   //filter action
-  setPreis: x => dispatch(setPreis(x))
+  setPreis: preis => dispatch(setPreis(preis)),
+  resetInputMax: () => dispatch(resetInputMax()),
+  resetInputMin: () => dispatch(resetInputMin())
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Suchleiste);
