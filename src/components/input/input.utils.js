@@ -7,7 +7,8 @@ export const checkSearchInput = e => {
   if (
     (ASCIICode <= 90 && ASCIICode >= 65) ||
     (ASCIICode >= 97 && ASCIICode <= 122) ||
-    ASCIICode === 44
+    ASCIICode === 44 ||
+    ASCIICode === 32
   )
     return true;
   //schaut ob es zahlen sind

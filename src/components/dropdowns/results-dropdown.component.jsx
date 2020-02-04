@@ -27,17 +27,46 @@ import {
   selectSearchInput
 } from "../../redux/filter/filter.selectors";
 
-import immoData from "../../immo.data";
+import immoData from "../../immo-data/immo.data";
 
-const filterData = (data, query) => {
+const filterData = (data, query, search = "") => {
   let test = [];
-  for (let i in data) {
-    // console.log(data[i][query]["adresse"]["bundesland"]);
-    for (let query in data[i])
-      if (!test.includes(data[i][query]["adresse"]["bundesland"]))
-        test.push(data[i][query]["adresse"]["bundesland"]);
+  //eingabe wird separiert, wird gebraucht um die regex aufzustellen
+  let ruleArray = search.split(/[ ,]+/);
+  //entfernt alles leere
+  ruleArray = ruleArray.filter(i => i);
+  //eigentliche länge des inputs ohne komma und leerzeichen
+  let lengthInput = search.replace(/[ ,]/g, "").split("").length;
+  console.log(ruleArray);
+  //console.log(lengthInput);
+  //
+  let str = "(";
+  for (let i = 0; i < ruleArray.length; i++) {
+    console.log("hi");
+    str += ruleArray[i];
+    console.log(ruleArray[i]);
+    if (i < ruleArray.length - 1) str += "|";
   }
-  console.log(test);
+  str += ")";
+  let regex = new RegExp(`${str}`, "gi");
+  console.log(regex);
+  //wenn die länge größer gleich des strings ist dann ist es ein match
+  console.log(
+    "Schwarzwald-Baar-Kreis".match(regex)
+      ? "Schwarzwald-Baar-Kreis".match(regex).length
+      : null
+  );
+  for (let i in data) {
+    for (let query in data[i]) {
+      if (
+        !test.includes(data[i][query]["adresse"]["bundesland"]) &&
+        data[i][query]["adresse"]["bundesland"].match(regex) &&
+        search !== ""
+      )
+        test.push(data[i][query]["adresse"]["bundesland"]);
+    }
+  }
+  //console.log(test);
   let filteredData = data.filter((item, index) => {
     return item[query];
   });
@@ -45,10 +74,10 @@ const filterData = (data, query) => {
 };
 
 class Results extends React.Component {
-  componentDidMount() {
-    const { haustyp } = this.props;
+  componentDidUpdate() {
+    const { haustyp, input } = this.props;
 
-    const result = filterData(immoData, haustyp.toLowerCase());
+    const result = filterData(immoData, haustyp.toLowerCase(), input);
   }
   render() {
     return <div></div>;
