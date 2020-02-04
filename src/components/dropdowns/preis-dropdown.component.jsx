@@ -12,13 +12,18 @@ import {
 
 //component imports
 import Input from "../input/input.component";
-import { numberWithDots, onlyNumberkey } from "../input/input.utils";
+import { numberWithDots, onlyNumberkey, testNum } from "../input/input.utils";
 
 //redux imports
 import { dropdownRef } from "../../redux/dropdown/dropdown.utils";
 import toggleDropdown from "../../redux/dropdown/dropdown.action";
 
-import { setInputMax, setInputMin } from "../../redux/filter/filter.action";
+import {
+  setInputMax,
+  setInputMin,
+  resetInputMax,
+  resetInputMin
+} from "../../redux/filter/filter.action";
 
 import {
   selectMaxInput,
@@ -34,7 +39,9 @@ const PreisDropdown = ({
   setInputMax,
   setInputMin,
   bezugsart,
-  toggleDropdown
+  toggleDropdown,
+  resetInputMin,
+  resetInputMax
 }) => {
   return (
     <div className="dropdown-container preis-dropdown" ref={dropdownRef}>
@@ -49,7 +56,7 @@ const PreisDropdown = ({
             document.getElementById("preis-min").style.display = "block";
             document.getElementById("preis-max").style.display = "none";
           }}
-          value={minInput}
+          value={testNum(minInput) ? minInput : resetInputMin()}
           onChange={e => setInputMin(numberWithDots(e.target.value))}
           onKeyPress={e => onlyNumberkey(e)}
         />
@@ -72,7 +79,7 @@ const PreisDropdown = ({
             document.getElementById("preis-min").style.display = "none";
             document.getElementById("preis-max").style.display = "block";
           }}
-          value={maxInput}
+          value={testNum(maxInput) ? maxInput : resetInputMax()}
           onChange={e => setInputMax(numberWithDots(e.target.value))}
           onKeyPress={e => onlyNumberkey(e)}
         />
@@ -95,7 +102,9 @@ const mapStateToProps = createStructuredSelector({
 const mapDispatchToProps = dispatch => ({
   setInputMax: preis => dispatch(setInputMax(preis)),
   setInputMin: preis => dispatch(setInputMin(preis)),
-  toggleDropdown: type => dispatch(toggleDropdown(type))
+  toggleDropdown: type => dispatch(toggleDropdown(type)),
+  resetInputMax: () => dispatch(resetInputMax()),
+  resetInputMin: () => dispatch(resetInputMin())
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(PreisDropdown);

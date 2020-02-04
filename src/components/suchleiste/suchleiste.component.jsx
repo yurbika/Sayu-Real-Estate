@@ -5,12 +5,16 @@ import { createStructuredSelector } from "reselect";
 
 //Component imports
 import Input from "../../components/input/input.component";
-import { checkInputValue } from "../../components/input/input.utils";
+import {
+  checkInputValue,
+  checkSearchInput
+} from "../../components/input/input.utils";
 
 import Button from "../../components/button/button.component";
 
 import PreisDropdown from "../../components/dropdowns/preis-dropdown.component";
 import AuswahlDropdown from "../dropdowns/auswahl-dropdown.component";
+import Results from "../dropdowns/results-dropdown.component";
 
 //redux
 import {
@@ -26,7 +30,8 @@ import {
 import {
   setPreis,
   resetInputMax,
-  resetInputMin
+  resetInputMin,
+  setSearchInput
 } from "../../redux/filter/filter.action";
 
 import {
@@ -81,7 +86,8 @@ class Suchleiste extends React.Component {
       immobilientypDropdown,
       zimmerDropdown,
       flächeDropdown,
-      toggleDropdown
+      toggleDropdown,
+      setSearchInput
     } = this.props;
     return (
       <SuchleisteContainer>
@@ -96,6 +102,9 @@ class Suchleiste extends React.Component {
                 inputStartseite
                 inputType="search"
                 placeholder="Wo: Ort, Bundesland oder PLZ"
+                value={input}
+                onChange={e => setSearchInput(e.target.value)}
+                onKeyPress={e => checkSearchInput(e)}
               />
               <Button
                 normalerButton
@@ -162,6 +171,7 @@ class Suchleiste extends React.Component {
           {/***********************************
            *        Die Dropdowns             *
            ************************************/}
+          <Results></Results>
           {preisDropdown ? <PreisDropdown /> : null}
           {bezugsartDropdown ? (
             <AuswahlDropdown
@@ -219,7 +229,8 @@ const mapDispatchToProps = dispatch => ({
   //filter action
   setPreis: preis => dispatch(setPreis(preis)),
   resetInputMax: () => dispatch(resetInputMax()),
-  resetInputMin: () => dispatch(resetInputMin())
+  resetInputMin: () => dispatch(resetInputMin()),
+  setSearchInput: value => dispatch(setSearchInput(value))
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Suchleiste);

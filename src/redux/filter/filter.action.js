@@ -25,6 +25,11 @@ export const setPreis = payload => ({
   payload: payload
 });
 
+export const setSearchInput = value => ({
+  type: FilterActionTypes.SET_SEARCH_INPUT,
+  payload: value
+});
+
 //fuer bezugsart und immobilienart weil sie ein nur ein component haben
 export const setArt = (text, type) => ({
   type: type,

@@ -12,7 +12,7 @@ const IMMO_DATA = [
         grundstück: 1862,
         zimmer: 5,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Hedemannstasse 84",
           stadt: "Heimenkirch",
           postleitzahl: "88176",
@@ -50,7 +50,7 @@ const IMMO_DATA = [
         grundstück: 1175,
         zimmer: 6,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Kurfürstendamm 63",
           stadt: "Rostock",
           postleitzahl: "18134",
@@ -88,7 +88,7 @@ const IMMO_DATA = [
         grundstück: 881,
         zimmer: 4,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Rankestraße 65",
           stadt: "Pfaffenhofen",
           postleitzahl: "85265",
@@ -126,7 +126,7 @@ const IMMO_DATA = [
         grundstück: 1878,
         zimmer: 7,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Ellmenreichstrasse 46",
           stadt: "Kulmbach",
           postleitzahl: "95310",
@@ -164,7 +164,7 @@ const IMMO_DATA = [
         grundstück: 798,
         zimmer: 5,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Spresstrasse 11",
           stadt: "Bielefeld Lämershagen",
           postleitzahl: "33699",
@@ -202,7 +202,7 @@ const IMMO_DATA = [
         grundstück: 1968,
         zimmer: 7,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Waßmannsdorfer Chaussee 98",
           stadt: "Hamburg Altona-Altstadt",
           postleitzahl: "20359",
@@ -240,7 +240,7 @@ const IMMO_DATA = [
         grundstück: 956,
         zimmer: 3,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Bleibtreustrasse 44",
           stadt: "Paderborn Sande",
           postleitzahl: "33104",
@@ -278,7 +278,7 @@ const IMMO_DATA = [
         grundstück: 533,
         zimmer: 7,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Schillerstrasse 83",
           stadt: "Münsing",
           postleitzahl: "82539",
@@ -316,7 +316,7 @@ const IMMO_DATA = [
         grundstück: 229,
         zimmer: 4,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Güntzelstrasse 80",
           stadt: "Bettingen",
           postleitzahl: "54646",
@@ -354,7 +354,7 @@ const IMMO_DATA = [
         grundstück: 2039,
         zimmer: 7,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Koepenicker Str. 47",
           stadt: "Niederhosenbach",
           postleitzahl: "55758",
@@ -392,7 +392,7 @@ const IMMO_DATA = [
         grundstück: 891,
         zimmer: 7,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Alsterkrugchaussee 19",
           stadt: "Niederschönenfeld",
           postleitzahl: "86694",
@@ -430,7 +430,7 @@ const IMMO_DATA = [
         grundstück: 1733,
         zimmer: 6,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Inge Beisheim Platz 44",
           stadt: "Herzhorn",
           postleitzahl: "25379",
@@ -468,7 +468,7 @@ const IMMO_DATA = [
         grundstück: 638,
         zimmer: 2,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Lietzensee-Ufer 83",
           stadt: "Görlitz",
           postleitzahl: "02827",
@@ -506,7 +506,7 @@ const IMMO_DATA = [
         grundstück: 2319,
         zimmer: 5,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Hollander Strasse 63",
           stadt: "Weroth",
           postleitzahl: "56414",
@@ -544,7 +544,7 @@ const IMMO_DATA = [
         grundstück: 1992,
         zimmer: 3,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Ruschestrasse 47",
           stadt: "Birkholz",
           postleitzahl: "15748",
@@ -582,7 +582,7 @@ const IMMO_DATA = [
         grundstück: 593,
         zimmer: 2,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Kieler Strasse 49",
           stadt: "Polling",
           postleitzahl: "84570",
@@ -620,7 +620,7 @@ const IMMO_DATA = [
         grundstück: 1536,
         zimmer: 7,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Schoenebergerstrasse 30",
           stadt: "Ahrenshagen",
           postleitzahl: "18320",
@@ -658,7 +658,7 @@ const IMMO_DATA = [
         grundstück: 1509,
         zimmer: 6,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Flughafenstrasse 43",
           stadt: "Winklarn",
           postleitzahl: "92559",
@@ -696,7 +696,7 @@ const IMMO_DATA = [
         grundstück: 2387,
         zimmer: 6,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Storkower Strasse 67",
           stadt: "Maxsain",
           postleitzahl: "56244",
@@ -734,7 +734,7 @@ const IMMO_DATA = [
         grundstück: 1580,
         zimmer: 7,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Boxhagener Str. 59",
           stadt: "Hamburg Gut Moor",
           postleitzahl: "21079",
@@ -772,7 +772,7 @@ const IMMO_DATA = [
         grundstück: 1689,
         zimmer: 7,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Grosse Praesidenten Str. 4",
           stadt: "Geiselberg",
           postleitzahl: "67715",
@@ -810,7 +810,7 @@ const IMMO_DATA = [
         grundstück: 338,
         zimmer: 5,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Genslerstraße 52",
           stadt: "Berlin Schöneberg",
           postleitzahl: "10779",
@@ -848,7 +848,7 @@ const IMMO_DATA = [
         grundstück: 183,
         zimmer: 5,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Flughafenstrasse 3",
           stadt: "Amberg",
           postleitzahl: "92208",
@@ -886,7 +886,7 @@ const IMMO_DATA = [
         grundstück: 1994,
         zimmer: 4,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "An Der Urania 65",
           stadt: "Hemmingstedt",
           postleitzahl: "25770",
@@ -924,7 +924,7 @@ const IMMO_DATA = [
         grundstück: 296,
         zimmer: 4,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Buelowstrasse 55",
           stadt: "Unnau",
           postleitzahl: "57648",
@@ -962,7 +962,7 @@ const IMMO_DATA = [
         grundstück: 381,
         zimmer: 6,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "An der Alster 25",
           stadt: "Perleberg",
           postleitzahl: "19341",
@@ -1000,7 +1000,7 @@ const IMMO_DATA = [
         grundstück: 2086,
         zimmer: 5,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Hedemannstasse 6",
           stadt: "Aichstetten",
           postleitzahl: "88317",
@@ -1038,7 +1038,7 @@ const IMMO_DATA = [
         grundstück: 271,
         zimmer: 2,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Landsberger Allee 33",
           stadt: "München",
           postleitzahl: "80089",
@@ -1076,7 +1076,7 @@ const IMMO_DATA = [
         grundstück: 1593,
         zimmer: 2,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Karl-Liebknecht-Strasse 1",
           stadt: "Delmenhorst",
           postleitzahl: "27751",
@@ -1114,7 +1114,7 @@ const IMMO_DATA = [
         grundstück: 913,
         zimmer: 5,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Spresstrasse 40",
           stadt: "Heide",
           postleitzahl: "25735",
@@ -1152,7 +1152,7 @@ const IMMO_DATA = [
         grundstück: 2368,
         zimmer: 4,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Marseiller Strasse 23",
           stadt: "Bayersoien",
           postleitzahl: "82435",
@@ -1190,7 +1190,7 @@ const IMMO_DATA = [
         grundstück: 1364,
         zimmer: 4,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Michaelkirchstr. 62",
           stadt: "Natendorf",
           postleitzahl: "29587",
@@ -1228,7 +1228,7 @@ const IMMO_DATA = [
         grundstück: 2377,
         zimmer: 2,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Meinekestraße 56",
           stadt: "Mettingen",
           postleitzahl: "49497",
@@ -1266,7 +1266,7 @@ const IMMO_DATA = [
         grundstück: 2138,
         zimmer: 6,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Hedemannstasse 42",
           stadt: "Allmannsweiler",
           postleitzahl: "88348",
@@ -1304,7 +1304,7 @@ const IMMO_DATA = [
         grundstück: 1290,
         zimmer: 4,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Hollander Strasse 26",
           stadt: "Erlenbach bei Dahn",
           postleitzahl: "76891",
@@ -1342,7 +1342,7 @@ const IMMO_DATA = [
         grundstück: 916,
         zimmer: 7,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Mühlenstrasse 23",
           stadt: "Würzburg",
           postleitzahl: "97040",
@@ -1380,7 +1380,7 @@ const IMMO_DATA = [
         grundstück: 1795,
         zimmer: 7,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Hochstrasse 55",
           stadt: "List",
           postleitzahl: "25990",
@@ -1418,7 +1418,7 @@ const IMMO_DATA = [
         grundstück: 1386,
         zimmer: 2,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Rosenstrasse 5",
           stadt: "München",
           postleitzahl: "81667",
@@ -1456,7 +1456,7 @@ const IMMO_DATA = [
         grundstück: 1671,
         zimmer: 3,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Joachimstaler Str. 61",
           stadt: "Roth",
           postleitzahl: "56288",
@@ -1494,7 +1494,7 @@ const IMMO_DATA = [
         grundstück: 1414,
         zimmer: 4,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Fasanenstrasse 75",
           stadt: "Hamburg Niendorf",
           postleitzahl: "22529",
@@ -1532,7 +1532,7 @@ const IMMO_DATA = [
         grundstück: 2236,
         zimmer: 4,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Karl-Liebknecht-Strasse 61",
           stadt: "Kaltenkirchen",
           postleitzahl: "24559",
@@ -1570,7 +1570,7 @@ const IMMO_DATA = [
         grundstück: 1804,
         zimmer: 5,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Hans-Grade-Allee 79",
           stadt: "Bad Segeberg",
           postleitzahl: "23783",
@@ -1608,7 +1608,7 @@ const IMMO_DATA = [
         grundstück: 1294,
         zimmer: 6,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Rathausstrasse 62",
           stadt: "Fürth",
           postleitzahl: "90709",
@@ -1646,7 +1646,7 @@ const IMMO_DATA = [
         grundstück: 1786,
         zimmer: 3,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Genterstrasse 6",
           stadt: "Kiel",
           postleitzahl: "24100",
@@ -1684,7 +1684,7 @@ const IMMO_DATA = [
         grundstück: 1882,
         zimmer: 6,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Kirchenallee 59",
           stadt: "Otzing",
           postleitzahl: "94563",
@@ -1722,7 +1722,7 @@ const IMMO_DATA = [
         grundstück: 2135,
         zimmer: 5,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Fontenay 80",
           stadt: "Wilhelmsthal",
           postleitzahl: "96350",
@@ -1760,7 +1760,7 @@ const IMMO_DATA = [
         grundstück: 2395,
         zimmer: 4,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Flotowstr. 88",
           stadt: "Naumburg",
           postleitzahl: "06607",
@@ -1798,7 +1798,7 @@ const IMMO_DATA = [
         grundstück: 1192,
         zimmer: 7,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Budapester Straße 57",
           stadt: "Niederkumbd",
           postleitzahl: "55469",
@@ -1836,7 +1836,7 @@ const IMMO_DATA = [
         grundstück: 1884,
         zimmer: 2,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Gotthardstrasse 24",
           stadt: "Gera",
           postleitzahl: "07548",
@@ -1874,7 +1874,7 @@ const IMMO_DATA = [
         grundstück: 434,
         zimmer: 4,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Potsdamer Platz 12",
           stadt: "Wasserburg",
           postleitzahl: "83505",
@@ -1912,7 +1912,7 @@ const IMMO_DATA = [
         grundstück: 1075,
         zimmer: 6,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Augsburger Straße 50",
           stadt: "Lüdenscheid Freisenberg",
           postleitzahl: "58513",
@@ -1950,7 +1950,7 @@ const IMMO_DATA = [
         grundstück: 2388,
         zimmer: 4,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Ansbacher Strasse 76",
           stadt: "Gondenbrett",
           postleitzahl: "54595",
@@ -1988,7 +1988,7 @@ const IMMO_DATA = [
         grundstück: 806,
         zimmer: 5,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Kantstraße 31",
           stadt: "Auerbach",
           postleitzahl: "91274",
@@ -2026,7 +2026,7 @@ const IMMO_DATA = [
         grundstück: 1279,
         zimmer: 7,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Schoenebergerstrasse 64",
           stadt: "Wolgast",
           postleitzahl: "17431",
@@ -2064,7 +2064,7 @@ const IMMO_DATA = [
         grundstück: 2496,
         zimmer: 4,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Anhalter Strasse 57",
           stadt: "Dunzweiler",
           postleitzahl: "66916",
@@ -2102,7 +2102,7 @@ const IMMO_DATA = [
         grundstück: 2397,
         zimmer: 6,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Heiligengeistbrücke 22",
           stadt: "Feuchtwangen",
           postleitzahl: "91555",
@@ -2140,7 +2140,7 @@ const IMMO_DATA = [
         grundstück: 238,
         zimmer: 2,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Genterstrasse 58",
           stadt: "Kiel",
           postleitzahl: "24029",
@@ -2178,7 +2178,7 @@ const IMMO_DATA = [
         grundstück: 809,
         zimmer: 7,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Hans-Grade-Allee 73",
           stadt: "Mölln",
           postleitzahl: "23873",
@@ -2216,7 +2216,7 @@ const IMMO_DATA = [
         grundstück: 1594,
         zimmer: 2,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Mohrenstrasse 18",
           stadt: "Obermarchtal",
           postleitzahl: "89611",
@@ -2254,7 +2254,7 @@ const IMMO_DATA = [
         grundstück: 790,
         zimmer: 4,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Hedemannstasse 94",
           stadt: "Binzen",
           postleitzahl: "79589",
@@ -2292,7 +2292,7 @@ const IMMO_DATA = [
         grundstück: 1697,
         zimmer: 4,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Rudolstaedter Strasse 30",
           stadt: "Alzenau",
           postleitzahl: "63749",
@@ -2330,7 +2330,7 @@ const IMMO_DATA = [
         grundstück: 1685,
         zimmer: 5,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Leopoldstraße 1",
           stadt: "Bochum",
           postleitzahl: "44795",
@@ -2368,7 +2368,7 @@ const IMMO_DATA = [
         grundstück: 1252,
         zimmer: 5,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "An der Alster 43",
           stadt: "Ellenberg",
           postleitzahl: "73448",
@@ -2406,7 +2406,7 @@ const IMMO_DATA = [
         grundstück: 2035,
         zimmer: 4,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Ellmenreichstrasse 90",
           stadt: "Ahorntal",
           postleitzahl: "95491",
@@ -2444,7 +2444,7 @@ const IMMO_DATA = [
         grundstück: 2233,
         zimmer: 6,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Brandenburgische Str 24",
           stadt: "Otzweiler",
           postleitzahl: "55606",
@@ -2482,7 +2482,7 @@ const IMMO_DATA = [
         grundstück: 1693,
         zimmer: 3,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Knesebeckstraße 91",
           stadt: "Baesweiler",
           postleitzahl: "52499",
@@ -2520,7 +2520,7 @@ const IMMO_DATA = [
         grundstück: 734,
         zimmer: 7,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Leopoldstraße 50",
           stadt: "Berlin Heinersdorf",
           postleitzahl: "13089",
@@ -2558,7 +2558,7 @@ const IMMO_DATA = [
         grundstück: 1500,
         zimmer: 2,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Jahnstrasse 42",
           stadt: "Stephanskirchen",
           postleitzahl: "83071",
@@ -2596,7 +2596,7 @@ const IMMO_DATA = [
         grundstück: 2201,
         zimmer: 5,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Fischerinsel 41",
           stadt: "Mönchengladbach Poeth",
           postleitzahl: "41068",
@@ -2634,7 +2634,7 @@ const IMMO_DATA = [
         grundstück: 2046,
         zimmer: 6,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Fischerinsel 13",
           stadt: "Viersen Busch",
           postleitzahl: "41751",
@@ -2672,7 +2672,7 @@ const IMMO_DATA = [
         grundstück: 635,
         zimmer: 4,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Kurfuerstendamm 95",
           stadt: "Freiham",
           postleitzahl: "81249",
@@ -2710,7 +2710,7 @@ const IMMO_DATA = [
         grundstück: 1567,
         zimmer: 2,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Rhinstrasse 3",
           stadt: "München",
           postleitzahl: "80704",
@@ -2748,7 +2748,7 @@ const IMMO_DATA = [
         grundstück: 1179,
         zimmer: 4,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Kantstraße 97",
           stadt: "Bad Salzungen",
           postleitzahl: "36425",
@@ -2786,7 +2786,7 @@ const IMMO_DATA = [
         grundstück: 457,
         zimmer: 6,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Spresstrasse 61",
           stadt: "Bielefeld Babenhausen",
           postleitzahl: "33739",
@@ -2824,7 +2824,7 @@ const IMMO_DATA = [
         grundstück: 2236,
         zimmer: 5,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Kieler Strasse 60",
           stadt: "Hauzenberg",
           postleitzahl: "94051",
@@ -2862,7 +2862,7 @@ const IMMO_DATA = [
         grundstück: 631,
         zimmer: 3,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Heinrich Heine Platz 79",
           stadt: "Waltershausen",
           postleitzahl: "99875",
@@ -2900,7 +2900,7 @@ const IMMO_DATA = [
         grundstück: 2428,
         zimmer: 4,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Neuer Jungfernstieg 4",
           stadt: "Attenhofen",
           postleitzahl: "84091",
@@ -2938,7 +2938,7 @@ const IMMO_DATA = [
         grundstück: 248,
         zimmer: 5,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Brandenburgische Strasse 60",
           stadt: "Walsheim",
           postleitzahl: "76833",
@@ -2976,7 +2976,7 @@ const IMMO_DATA = [
         grundstück: 1945,
         zimmer: 4,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Schoenebergerstrasse 6",
           stadt: "Glauchau",
           postleitzahl: "08364",
@@ -3014,7 +3014,7 @@ const IMMO_DATA = [
         grundstück: 452,
         zimmer: 4,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Gubener Str. 84",
           stadt: "Rohrdorf",
           postleitzahl: "83099",
@@ -3052,7 +3052,7 @@ const IMMO_DATA = [
         grundstück: 1581,
         zimmer: 4,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Adenauerallee 67",
           stadt: "Dargun",
           postleitzahl: "17156",
@@ -3090,7 +3090,7 @@ const IMMO_DATA = [
         grundstück: 1302,
         zimmer: 4,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Unter den Linden 19",
           stadt: "Schwerin",
           postleitzahl: "19009",
@@ -3128,7 +3128,7 @@ const IMMO_DATA = [
         grundstück: 1524,
         zimmer: 3,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Karl-Liebknecht-Strasse 9",
           stadt: "Achim",
           postleitzahl: "28832",
@@ -3166,7 +3166,7 @@ const IMMO_DATA = [
         grundstück: 413,
         zimmer: 4,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "An der Alster 53",
           stadt: "Ackendorf",
           postleitzahl: "39343",
@@ -3204,7 +3204,7 @@ const IMMO_DATA = [
         grundstück: 804,
         zimmer: 3,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Grosse Praesidenten Str. 29",
           stadt: "Rimbach",
           postleitzahl: "93485",
@@ -3242,7 +3242,7 @@ const IMMO_DATA = [
         grundstück: 769,
         zimmer: 2,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Genterstrasse 28",
           stadt: "Kiel",
           postleitzahl: "24015",
@@ -3280,7 +3280,7 @@ const IMMO_DATA = [
         grundstück: 2033,
         zimmer: 3,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Kantstrasse 75",
           stadt: "Nürnberg",
           postleitzahl: "90478",
@@ -3318,7 +3318,7 @@ const IMMO_DATA = [
         grundstück: 684,
         zimmer: 4,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Bayreuther Strasse 78",
           stadt: "Reutlingen Römerschanze",
           postleitzahl: "72768",
@@ -3356,7 +3356,7 @@ const IMMO_DATA = [
         grundstück: 1865,
         zimmer: 5,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Messedamm 51",
           stadt: "Halle",
           postleitzahl: "06120",
@@ -3394,7 +3394,7 @@ const IMMO_DATA = [
         grundstück: 580,
         zimmer: 3,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Friedrichstrasse 94",
           stadt: "Düsseldorf Friedrichstadt",
           postleitzahl: "40217",
@@ -3432,7 +3432,7 @@ const IMMO_DATA = [
         grundstück: 2470,
         zimmer: 2,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Luetzowplatz 42",
           stadt: "Wallscheid",
           postleitzahl: "54531",
@@ -3470,7 +3470,7 @@ const IMMO_DATA = [
         grundstück: 1645,
         zimmer: 2,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Schaarsteinweg 53",
           stadt: "Schwandorf",
           postleitzahl: "92421",
@@ -3508,7 +3508,7 @@ const IMMO_DATA = [
         grundstück: 649,
         zimmer: 2,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Am Borsigturm 85",
           stadt: "Ratingen Schwarzbach",
           postleitzahl: "40882",
@@ -3546,7 +3546,7 @@ const IMMO_DATA = [
         grundstück: 1090,
         zimmer: 5,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Buelowstrasse 44",
           stadt: "Streithausen",
           postleitzahl: "57629",
@@ -3584,7 +3584,7 @@ const IMMO_DATA = [
         grundstück: 1469,
         zimmer: 6,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Lietzenburger Strasse 71",
           stadt: "Bergisch Gladbach Heidkamp",
           postleitzahl: "51469",
@@ -3622,7 +3622,7 @@ const IMMO_DATA = [
         grundstück: 1770,
         zimmer: 7,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Paderborner Strasse 92",
           stadt: "Mindelheim",
           postleitzahl: "87714",
@@ -3660,7 +3660,7 @@ const IMMO_DATA = [
         grundstück: 389,
         zimmer: 7,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Brandenburgische Str 14",
           stadt: "Reiffelbach",
           postleitzahl: "67829",
@@ -3698,7 +3698,7 @@ const IMMO_DATA = [
         grundstück: 1539,
         zimmer: 7,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Neuer Jungfernstieg 15",
           stadt: "Dreifaltigkeitsbg G Weng",
           postleitzahl: "84164",
@@ -3736,7 +3736,7 @@ const IMMO_DATA = [
         grundstück: 1504,
         zimmer: 2,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Bleibtreustraße 18",
           stadt: "Mühlhausen",
           postleitzahl: "92360",
@@ -3774,7 +3774,7 @@ const IMMO_DATA = [
         grundstück: 1146,
         zimmer: 7,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Jenaer Strasse 35",
           stadt: "Wuppertal Barmen",
           postleitzahl: "42277",
@@ -3812,7 +3812,7 @@ const IMMO_DATA = [
         grundstück: 245,
         zimmer: 6,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Grolmanstraße 74",
           stadt: "Bremen Arsten",
           postleitzahl: "28279",
@@ -3850,7 +3850,7 @@ const IMMO_DATA = [
         grundstück: 943,
         zimmer: 4,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Genslerstraße 16",
           stadt: "Berlin Spandau",
           postleitzahl: "13587",
@@ -3888,7 +3888,7 @@ const IMMO_DATA = [
         grundstück: 1022,
         zimmer: 3,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Brandenburgische Straße 94",
           stadt: "Berlin Kaulsdorf",
           postleitzahl: "12621",
@@ -3926,7 +3926,7 @@ const IMMO_DATA = [
         grundstück: 1593,
         zimmer: 7,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Paderborner Strasse 31",
           stadt: "Kleinaitingen",
           postleitzahl: "86507",
@@ -3964,7 +3964,7 @@ const IMMO_DATA = [
         grundstück: 1824,
         zimmer: 2,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Landhausstraße 20",
           stadt: "Eberswalde",
           postleitzahl: "16225",
@@ -4002,7 +4002,7 @@ const IMMO_DATA = [
         grundstück: 1929,
         zimmer: 4,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Alt-Moabit 91",
           stadt: "Ebersbach",
           postleitzahl: "73061",
@@ -4040,7 +4040,7 @@ const IMMO_DATA = [
         grundstück: 192,
         zimmer: 5,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Prager Str 25",
           stadt: "Alling",
           postleitzahl: "82239",
@@ -4078,7 +4078,7 @@ const IMMO_DATA = [
         grundstück: 664,
         zimmer: 2,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Stresemannstr. 4",
           stadt: "Nohfelden",
           postleitzahl: "66621",
@@ -4116,7 +4116,7 @@ const IMMO_DATA = [
         grundstück: 2029,
         zimmer: 4,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Rathausstrasse 26",
           stadt: "Nürnberg",
           postleitzahl: "90012",
@@ -4154,7 +4154,7 @@ const IMMO_DATA = [
         grundstück: 2321,
         zimmer: 6,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Lützowplatz 9",
           stadt: "Bruch",
           postleitzahl: "54518",
@@ -4192,7 +4192,7 @@ const IMMO_DATA = [
         grundstück: 571,
         zimmer: 3,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Charlottenstrasse 5",
           stadt: "Dresden",
           postleitzahl: "01244",
@@ -4230,7 +4230,7 @@ const IMMO_DATA = [
         grundstück: 623,
         zimmer: 4,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Lietzensee-Ufer 61",
           stadt: "Strehla",
           postleitzahl: "01614",
@@ -4268,7 +4268,7 @@ const IMMO_DATA = [
         grundstück: 1636,
         zimmer: 7,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Frankfurter Allee 35",
           stadt: "Karlsruhe Grötzingen",
           postleitzahl: "76228",
@@ -4306,7 +4306,7 @@ const IMMO_DATA = [
         grundstück: 1581,
         zimmer: 6,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Neuer Jungfernstieg 21",
           stadt: "Mallersdorf-Pfaffenberg",
           postleitzahl: "84062",
@@ -4344,7 +4344,7 @@ const IMMO_DATA = [
         grundstück: 229,
         zimmer: 4,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Grosse Praesidenten Str. 11",
           stadt: "Heddesbach",
           postleitzahl: "69434",
@@ -4382,7 +4382,7 @@ const IMMO_DATA = [
         grundstück: 505,
         zimmer: 3,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Kastanienallee 50",
           stadt: "Friedrichstadt",
           postleitzahl: "25838",
@@ -4420,7 +4420,7 @@ const IMMO_DATA = [
         grundstück: 175,
         zimmer: 6,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Gotthardstrasse 84",
           stadt: "Erfurt",
           postleitzahl: "99087",
@@ -4458,7 +4458,7 @@ const IMMO_DATA = [
         grundstück: 2098,
         zimmer: 7,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Leipziger Straße 9",
           stadt: "Wulften",
           postleitzahl: "37199",
@@ -4496,7 +4496,7 @@ const IMMO_DATA = [
         grundstück: 180,
         zimmer: 4,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Mollstrasse 27",
           stadt: "Schlangenbad",
           postleitzahl: "65388",
@@ -4534,7 +4534,7 @@ const IMMO_DATA = [
         grundstück: 681,
         zimmer: 4,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Brandenburgische Straße 60",
           stadt: "Berlin Lichterfelde",
           postleitzahl: "12209",
@@ -4572,7 +4572,7 @@ const IMMO_DATA = [
         grundstück: 1845,
         zimmer: 4,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Feldstrasse 6",
           stadt: "Wefensleben",
           postleitzahl: "39376",
@@ -4610,7 +4610,7 @@ const IMMO_DATA = [
         grundstück: 1573,
         zimmer: 2,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Inge Beisheim Platz 24",
           stadt: "Herzhorn",
           postleitzahl: "25379",
@@ -4648,7 +4648,7 @@ const IMMO_DATA = [
         grundstück: 1533,
         zimmer: 3,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Alsterkrugchaussee 61",
           stadt: "Bissingen",
           postleitzahl: "86656",
@@ -4686,7 +4686,7 @@ const IMMO_DATA = [
         grundstück: 590,
         zimmer: 5,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Kieler Strasse 33",
           stadt: "Tittmoning",
           postleitzahl: "84526",
@@ -4724,7 +4724,7 @@ const IMMO_DATA = [
         grundstück: 1292,
         zimmer: 3,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Luebeckertordamm 10",
           stadt: "Georgensgmünd",
           postleitzahl: "91166",
@@ -4762,7 +4762,7 @@ const IMMO_DATA = [
         grundstück: 526,
         zimmer: 7,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Hans-Grade-Allee 32",
           stadt: "Bahrenhof",
           postleitzahl: "23845",
@@ -4800,7 +4800,7 @@ const IMMO_DATA = [
         grundstück: 487,
         zimmer: 6,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Rhinstrasse 95",
           stadt: "München",
           postleitzahl: "80754",
@@ -4838,7 +4838,7 @@ const IMMO_DATA = [
         grundstück: 1262,
         zimmer: 5,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Landsberger Allee 67",
           stadt: "München",
           postleitzahl: "80672",
@@ -4876,7 +4876,7 @@ const IMMO_DATA = [
         grundstück: 1593,
         zimmer: 5,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Gruenauer Strasse 72",
           stadt: "Vierden",
           postleitzahl: "27419",
@@ -4914,7 +4914,7 @@ const IMMO_DATA = [
         grundstück: 311,
         zimmer: 5,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Albrechtstrasse 74",
           stadt: "Ingolstadt",
           postleitzahl: "85053",
@@ -4952,7 +4952,7 @@ const IMMO_DATA = [
         grundstück: 633,
         zimmer: 3,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "An der Schillingbrucke 45",
           stadt: "Bernstadt",
           postleitzahl: "02748",
@@ -4990,7 +4990,7 @@ const IMMO_DATA = [
         grundstück: 1050,
         zimmer: 6,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Esplanade 49",
           stadt: "Schwanfeld",
           postleitzahl: "97523",
@@ -5028,7 +5028,7 @@ const IMMO_DATA = [
         grundstück: 2166,
         zimmer: 6,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Rankestraße 40",
           stadt: "Gaimersheim",
           postleitzahl: "85080",
@@ -5066,7 +5066,7 @@ const IMMO_DATA = [
         grundstück: 1615,
         zimmer: 3,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Nuernbergerstrasse 84",
           stadt: "Altenkrempe",
           postleitzahl: "23730",
@@ -5104,7 +5104,7 @@ const IMMO_DATA = [
         grundstück: 943,
         zimmer: 4,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Eichendorffstr. 8",
           stadt: "Kißlegg",
           postleitzahl: "88353",
@@ -5142,7 +5142,7 @@ const IMMO_DATA = [
         grundstück: 924,
         zimmer: 2,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Koenigstrasse 48",
           stadt: "Niedersachswerfen",
           postleitzahl: "99761",
@@ -5180,7 +5180,7 @@ const IMMO_DATA = [
         grundstück: 1328,
         zimmer: 6,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Lützowplatz 48",
           stadt: "Großlittgen",
           postleitzahl: "54534",
@@ -5218,7 +5218,7 @@ const IMMO_DATA = [
         grundstück: 663,
         zimmer: 7,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Hedemannstasse 36",
           stadt: "Sauldorf",
           postleitzahl: "88605",
@@ -5256,7 +5256,7 @@ const IMMO_DATA = [
         grundstück: 975,
         zimmer: 7,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Grolmanstraße 87",
           stadt: "Bremen Oberneuland",
           postleitzahl: "28325",
@@ -5294,7 +5294,7 @@ const IMMO_DATA = [
         grundstück: 258,
         zimmer: 2,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Bleibtreustraße 68",
           stadt: "Neuried",
           postleitzahl: "77743",
@@ -5332,7 +5332,7 @@ const IMMO_DATA = [
         grundstück: 1864,
         zimmer: 7,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Leipziger Strasse 19",
           stadt: "Trier Kürenz",
           postleitzahl: "54296",
@@ -5370,7 +5370,7 @@ const IMMO_DATA = [
         grundstück: 1026,
         zimmer: 7,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Lietzensee-Ufer 74",
           stadt: "Pirna",
           postleitzahl: "01783",
@@ -5408,7 +5408,7 @@ const IMMO_DATA = [
         grundstück: 1012,
         zimmer: 5,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Alt-Moabit 90",
           stadt: "Oschatz",
           postleitzahl: "04754",
@@ -5446,7 +5446,7 @@ const IMMO_DATA = [
         grundstück: 1122,
         zimmer: 4,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Potsdamer Platz 68",
           stadt: "Lindau",
           postleitzahl: "88115",
@@ -5484,7 +5484,7 @@ const IMMO_DATA = [
         grundstück: 1573,
         zimmer: 6,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Pasewalker Straße 34",
           stadt: "Pforzheim Buckenberg",
           postleitzahl: "75175",
@@ -5522,7 +5522,7 @@ const IMMO_DATA = [
         grundstück: 1906,
         zimmer: 6,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Bayreuther Strasse 38",
           stadt: "Reutlingen Lerchenbuckel",
           postleitzahl: "72762",
@@ -5560,7 +5560,7 @@ const IMMO_DATA = [
         grundstück: 1747,
         zimmer: 4,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Gruenauer Strasse 60",
           stadt: "Garstedt",
           postleitzahl: "21441",
@@ -5598,7 +5598,7 @@ const IMMO_DATA = [
         grundstück: 157,
         zimmer: 6,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Flughafenstrasse 24",
           stadt: "Weiding",
           postleitzahl: "93495",
@@ -5636,7 +5636,7 @@ const IMMO_DATA = [
         grundstück: 1041,
         zimmer: 5,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Jahnstrasse 76",
           stadt: "Bad Aibling",
           postleitzahl: "83038",
@@ -5674,7 +5674,7 @@ const IMMO_DATA = [
         grundstück: 1419,
         zimmer: 7,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Rudower Chaussee 72",
           stadt: "Bamberg",
           postleitzahl: "96049",
@@ -5712,7 +5712,7 @@ const IMMO_DATA = [
         grundstück: 152,
         zimmer: 5,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Grosse Praesidenten Str. 54",
           stadt: "Neudenau",
           postleitzahl: "74861",
@@ -5750,7 +5750,7 @@ const IMMO_DATA = [
         grundstück: 1940,
         zimmer: 3,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Kurfürstenstraße 97",
           stadt: "Waldstetten",
           postleitzahl: "73550",
@@ -5788,7 +5788,7 @@ const IMMO_DATA = [
         grundstück: 309,
         zimmer: 6,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Grosse Praesidenten Str. 3",
           stadt: "Enkenbach-Alsenborn",
           postleitzahl: "67677",
@@ -5826,7 +5826,7 @@ const IMMO_DATA = [
         grundstück: 1468,
         zimmer: 4,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Nuernbergerstrasse 91",
           stadt: "Westerstede",
           postleitzahl: "26655",
@@ -5864,7 +5864,7 @@ const IMMO_DATA = [
         grundstück: 2431,
         zimmer: 2,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Knesebeckstrasse 17",
           stadt: "Sörth",
           postleitzahl: "57636",
@@ -5902,7 +5902,7 @@ const IMMO_DATA = [
         grundstück: 1888,
         zimmer: 6,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Lietzenburger Straße 92",
           stadt: "Karwitz",
           postleitzahl: "29481",
@@ -5940,7 +5940,7 @@ const IMMO_DATA = [
         grundstück: 1966,
         zimmer: 5,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Augsburger Straße 50",
           stadt: "Witten Rüdinghausen",
           postleitzahl: "58454",
@@ -5978,7 +5978,7 @@ const IMMO_DATA = [
         grundstück: 940,
         zimmer: 6,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Langenhorner Chaussee 38",
           stadt: "Chieming",
           postleitzahl: "83339",
@@ -6016,7 +6016,7 @@ const IMMO_DATA = [
         grundstück: 817,
         zimmer: 2,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Straße der Pariser Kommune 75",
           stadt: "Bonn",
           postleitzahl: "53111",
@@ -6054,7 +6054,7 @@ const IMMO_DATA = [
         grundstück: 2028,
         zimmer: 2,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Paderborner Strasse 29",
           stadt: "Ehekirchen",
           postleitzahl: "86676",
@@ -6092,7 +6092,7 @@ const IMMO_DATA = [
         grundstück: 1669,
         zimmer: 4,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Neuer Jungfernstieg 22",
           stadt: "Reisbach",
           postleitzahl: "94419",
@@ -6130,7 +6130,7 @@ const IMMO_DATA = [
         grundstück: 860,
         zimmer: 3,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Fugger Strasse 61",
           stadt: "Koblenz Arzheim",
           postleitzahl: "56077",
@@ -6168,7 +6168,7 @@ const IMMO_DATA = [
         grundstück: 1884,
         zimmer: 5,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Unter den Linden 8",
           stadt: "Magdeburg",
           postleitzahl: "39038",
@@ -6206,7 +6206,7 @@ const IMMO_DATA = [
         grundstück: 397,
         zimmer: 5,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Lietzensee-Ufer 36",
           stadt: "Strehla",
           postleitzahl: "01614",
@@ -6244,7 +6244,7 @@ const IMMO_DATA = [
         grundstück: 2383,
         zimmer: 2,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Joachimstaler Str. 54",
           stadt: "Hasselbach",
           postleitzahl: "56288",
@@ -6282,7 +6282,7 @@ const IMMO_DATA = [
         grundstück: 1238,
         zimmer: 4,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Buelowstrasse 2",
           stadt: "Bermel",
           postleitzahl: "56729",
@@ -6320,7 +6320,7 @@ const IMMO_DATA = [
         grundstück: 974,
         zimmer: 3,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Knesebeckstraße 3",
           stadt: "Havixbeck",
           postleitzahl: "48329",
@@ -6358,7 +6358,7 @@ const IMMO_DATA = [
         grundstück: 938,
         zimmer: 6,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Mühlenstrasse 2",
           stadt: "Regensburg",
           postleitzahl: "93026",
@@ -6396,7 +6396,7 @@ const IMMO_DATA = [
         grundstück: 1723,
         zimmer: 7,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Leopoldstraße 51",
           stadt: "Berlin Buchholz",
           postleitzahl: "13127",
@@ -6434,7 +6434,7 @@ const IMMO_DATA = [
         grundstück: 2396,
         zimmer: 2,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "An der Schillingbrucke 61",
           stadt: "Aalen Fachsenfeld",
           postleitzahl: "73434",
@@ -6472,7 +6472,7 @@ const IMMO_DATA = [
         grundstück: 2014,
         zimmer: 2,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Waldowstr. 46",
           stadt: "Mainhardt",
           postleitzahl: "74535",
@@ -6510,7 +6510,7 @@ const IMMO_DATA = [
         grundstück: 1788,
         zimmer: 3,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Schönhauser Allee 5",
           stadt: "Bad Krozingen",
           postleitzahl: "79189",
@@ -6548,7 +6548,7 @@ const IMMO_DATA = [
         grundstück: 490,
         zimmer: 4,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Augsburger Strasse 13",
           stadt: "Neunkirchen",
           postleitzahl: "91231",
@@ -6586,7 +6586,7 @@ const IMMO_DATA = [
         grundstück: 1406,
         zimmer: 4,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Genterstrasse 70",
           stadt: "Kiel",
           postleitzahl: "24143",
@@ -6624,7 +6624,7 @@ const IMMO_DATA = [
         grundstück: 1378,
         zimmer: 6,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Rudower Chaussee 48",
           stadt: "Ansbach",
           postleitzahl: "91503",
@@ -6662,7 +6662,7 @@ const IMMO_DATA = [
         grundstück: 1476,
         zimmer: 2,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Kirchenallee 8",
           stadt: "Drachselsried",
           postleitzahl: "94256",
@@ -6700,7 +6700,7 @@ const IMMO_DATA = [
         grundstück: 2313,
         zimmer: 6,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Brandenburgische Straße 16",
           stadt: "Berlin Lichtenrade",
           postleitzahl: "12307",
@@ -6738,7 +6738,7 @@ const IMMO_DATA = [
         grundstück: 1999,
         zimmer: 3,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Genslerstraße 21",
           stadt: "Berlin Tegel",
           postleitzahl: "13505",
@@ -6776,7 +6776,7 @@ const IMMO_DATA = [
         grundstück: 1083,
         zimmer: 7,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Leipziger Straße 69",
           stadt: "Golmbach",
           postleitzahl: "37640",
@@ -6814,7 +6814,7 @@ const IMMO_DATA = [
         grundstück: 2128,
         zimmer: 2,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Lange Strasse 79",
           stadt: "Unterföhring",
           postleitzahl: "85766",
@@ -6852,7 +6852,7 @@ const IMMO_DATA = [
         grundstück: 1438,
         zimmer: 2,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Schönwalder Allee 90",
           stadt: "Fleckeby",
           postleitzahl: "24355",
@@ -6890,7 +6890,7 @@ const IMMO_DATA = [
         grundstück: 991,
         zimmer: 2,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Ollenhauer Str. 37",
           stadt: "Stuttgart West",
           postleitzahl: "70174",
@@ -6928,7 +6928,7 @@ const IMMO_DATA = [
         grundstück: 1831,
         zimmer: 4,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Grolmanstraße 80",
           stadt: "Bremen Peterswerder",
           postleitzahl: "28205",
@@ -6966,7 +6966,7 @@ const IMMO_DATA = [
         grundstück: 1358,
         zimmer: 3,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Motzstr. 87",
           stadt: "Gau-Heppenheim",
           postleitzahl: "55234",
@@ -7004,7 +7004,7 @@ const IMMO_DATA = [
         grundstück: 1817,
         zimmer: 3,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Bleibtreustraße 7",
           stadt: "Weilheim",
           postleitzahl: "82354",
@@ -7042,7 +7042,7 @@ const IMMO_DATA = [
         grundstück: 2291,
         zimmer: 2,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Rhinstrasse 89",
           stadt: "München",
           postleitzahl: "80711",
@@ -7080,7 +7080,7 @@ const IMMO_DATA = [
         grundstück: 1544,
         zimmer: 6,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Koenigstrasse 68",
           stadt: "Worbis",
           postleitzahl: "37334",
@@ -7118,7 +7118,7 @@ const IMMO_DATA = [
         grundstück: 1234,
         zimmer: 2,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Gotzkowskystraße 15",
           stadt: "Moers",
           postleitzahl: "47447",
@@ -7156,7 +7156,7 @@ const IMMO_DATA = [
         grundstück: 1504,
         zimmer: 6,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Lützowplatz 74",
           stadt: "Trassem",
           postleitzahl: "54441",
@@ -7194,7 +7194,7 @@ const IMMO_DATA = [
         grundstück: 1535,
         zimmer: 5,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Nuernbergerstrasse 66",
           stadt: "Wilhelmshaven",
           postleitzahl: "26386",
@@ -7232,7 +7232,7 @@ const IMMO_DATA = [
         grundstück: 1750,
         zimmer: 6,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Hollander Strasse 35",
           stadt: "Münchweiler an der Rodalb",
           postleitzahl: "66981",
@@ -7270,7 +7270,7 @@ const IMMO_DATA = [
         grundstück: 501,
         zimmer: 6,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Ansbacher Strasse 19",
           stadt: "Nimshuscheid",
           postleitzahl: "54612",
@@ -7308,7 +7308,7 @@ const IMMO_DATA = [
         grundstück: 2406,
         zimmer: 2,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Rathausstrasse 97",
           stadt: "Nürnberg",
           postleitzahl: "90127",
@@ -7346,7 +7346,7 @@ const IMMO_DATA = [
         grundstück: 2228,
         zimmer: 6,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Rathausstrasse 13",
           stadt: "Donauwörth",
           postleitzahl: "86603",
@@ -7384,7 +7384,7 @@ const IMMO_DATA = [
         grundstück: 1066,
         zimmer: 2,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Unter den Linden 97",
           stadt: "Neubrandenburg",
           postleitzahl: "17001",
@@ -7422,7 +7422,7 @@ const IMMO_DATA = [
         grundstück: 1645,
         zimmer: 6,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Waßmannsdorfer Chaussee 98",
           stadt: "Hamburg Barmbek-Nord",
           postleitzahl: "22297",
@@ -7460,7 +7460,7 @@ const IMMO_DATA = [
         grundstück: 602,
         zimmer: 6,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Brandenburgische Str 68",
           stadt: "Kirschroth",
           postleitzahl: "55566",
@@ -7498,7 +7498,7 @@ const IMMO_DATA = [
         grundstück: 920,
         zimmer: 6,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Lietzensee-Ufer 39",
           stadt: "Großenhain",
           postleitzahl: "01558",
@@ -7536,7 +7536,7 @@ const IMMO_DATA = [
         grundstück: 503,
         zimmer: 3,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Paul-Nevermann-Platz 62",
           stadt: "Oberthulba",
           postleitzahl: "97721",
@@ -7574,7 +7574,7 @@ const IMMO_DATA = [
         grundstück: 1871,
         zimmer: 6,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Jahnstrasse 33",
           stadt: "Aying",
           postleitzahl: "85653",
@@ -7612,7 +7612,7 @@ const IMMO_DATA = [
         grundstück: 526,
         zimmer: 7,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Lietzensee-Ufer 37",
           stadt: "Weißwasser",
           postleitzahl: "02936",
@@ -7650,7 +7650,7 @@ const IMMO_DATA = [
         grundstück: 1222,
         zimmer: 6,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Rathausstrasse 59",
           stadt: "Heroldsberg",
           postleitzahl: "90560",
@@ -7688,7 +7688,7 @@ const IMMO_DATA = [
         grundstück: 484,
         zimmer: 3,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Friedrichstrasse 5",
           stadt: "Düsseldorf Angermund",
           postleitzahl: "40489",
@@ -7726,7 +7726,7 @@ const IMMO_DATA = [
         grundstück: 309,
         zimmer: 6,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Reeperbahn 86",
           stadt: "Barth",
           postleitzahl: "18351",
@@ -7764,7 +7764,7 @@ const IMMO_DATA = [
         grundstück: 819,
         zimmer: 6,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Landsberger Allee 30",
           stadt: "München",
           postleitzahl: "80637",
@@ -7802,7 +7802,7 @@ const IMMO_DATA = [
         grundstück: 756,
         zimmer: 6,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Inge Beisheim Platz 24",
           stadt: "Bokel",
           postleitzahl: "27616",
@@ -7840,7 +7840,7 @@ const IMMO_DATA = [
         grundstück: 2001,
         zimmer: 3,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Lietzensee-Ufer 16",
           stadt: "Kamenz",
           postleitzahl: "01911",
@@ -7878,7 +7878,7 @@ const IMMO_DATA = [
         grundstück: 1000,
         zimmer: 5,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Schönwalder Allee 44",
           stadt: "Rendsburg",
           postleitzahl: "24753",
@@ -7916,7 +7916,7 @@ const IMMO_DATA = [
         grundstück: 540,
         zimmer: 5,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Grosse Praesidenten Str. 88",
           stadt: "Olsbrücken",
           postleitzahl: "67737",
@@ -7954,7 +7954,7 @@ const IMMO_DATA = [
         grundstück: 599,
         zimmer: 5,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Genslerstraße 57",
           stadt: "Berlin Wannsee",
           postleitzahl: "14109",
@@ -7992,7 +7992,7 @@ const IMMO_DATA = [
         grundstück: 2163,
         zimmer: 5,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Lietzenburger Straße 39",
           stadt: "Quendorf",
           postleitzahl: "48465",
@@ -8030,7 +8030,7 @@ const IMMO_DATA = [
         grundstück: 795,
         zimmer: 5,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Ansbacher Strasse 30",
           stadt: "Platten",
           postleitzahl: "54518",
@@ -8068,7 +8068,7 @@ const IMMO_DATA = [
         grundstück: 2025,
         zimmer: 5,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "An der Alster 22",
           stadt: "Neustrelitz",
           postleitzahl: "17225",
@@ -8106,7 +8106,7 @@ const IMMO_DATA = [
         grundstück: 1336,
         zimmer: 7,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Fasanenstrasse 76",
           stadt: "Hamburg Neuland",
           postleitzahl: "21079",
@@ -8144,7 +8144,7 @@ const IMMO_DATA = [
         grundstück: 185,
         zimmer: 7,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Amsinckstrasse 23",
           stadt: "Doberlug-Kirchhain",
           postleitzahl: "03251",
@@ -8182,7 +8182,7 @@ const IMMO_DATA = [
         grundstück: 1664,
         zimmer: 4,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Schönhauser Allee 32",
           stadt: "Freiamt",
           postleitzahl: "79348",
@@ -8220,7 +8220,7 @@ const IMMO_DATA = [
         grundstück: 1123,
         zimmer: 7,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Flotowstr. 74",
           stadt: "Sangerhausen",
           postleitzahl: "06513",
@@ -8258,7 +8258,7 @@ const IMMO_DATA = [
         grundstück: 152,
         zimmer: 3,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Flotowstr. 66",
           stadt: "Aschersleben",
           postleitzahl: "06432",
@@ -8296,7 +8296,7 @@ const IMMO_DATA = [
         grundstück: 1057,
         zimmer: 4,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Hermannstrasse 15",
           stadt: "Spechbach",
           postleitzahl: "74937",
@@ -8334,7 +8334,7 @@ const IMMO_DATA = [
         grundstück: 2491,
         zimmer: 2,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Borstelmannsweg 89",
           stadt: "Michelau",
           postleitzahl: "96243",
@@ -8372,7 +8372,7 @@ const IMMO_DATA = [
         grundstück: 313,
         zimmer: 5,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Inge Beisheim Platz 56",
           stadt: "Heede",
           postleitzahl: "26892",
@@ -8410,7 +8410,7 @@ const IMMO_DATA = [
         grundstück: 1214,
         zimmer: 6,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Flotowstr. 2",
           stadt: "Bernburg",
           postleitzahl: "06393",
@@ -8448,7 +8448,7 @@ const IMMO_DATA = [
         grundstück: 796,
         zimmer: 3,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Gubener Str. 38",
           stadt: "Samerberg",
           postleitzahl: "83120",
@@ -8486,7 +8486,7 @@ const IMMO_DATA = [
         grundstück: 636,
         zimmer: 6,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Jenaer Strasse 18",
           stadt: "Essen",
           postleitzahl: "45257",
@@ -8524,7 +8524,7 @@ const IMMO_DATA = [
         grundstück: 1844,
         zimmer: 6,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Schmarjestrasse 83",
           stadt: "Rötz",
           postleitzahl: "92444",
@@ -8562,7 +8562,7 @@ const IMMO_DATA = [
         grundstück: 2436,
         zimmer: 4,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Hedemannstasse 72",
           stadt: "Hoßkirch",
           postleitzahl: "88374",
@@ -8600,7 +8600,7 @@ const IMMO_DATA = [
         grundstück: 167,
         zimmer: 7,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Grosse Praesidenten Str. 64",
           stadt: "Nerzweiler",
           postleitzahl: "67749",
@@ -8638,7 +8638,7 @@ const IMMO_DATA = [
         grundstück: 2053,
         zimmer: 6,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Güntzelstrasse 40",
           stadt: "Gemünd",
           postleitzahl: "54673",
@@ -8676,7 +8676,7 @@ const IMMO_DATA = [
         grundstück: 709,
         zimmer: 5,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Inge Beisheim Platz 9",
           stadt: "Elskop",
           postleitzahl: "25361",
@@ -8714,7 +8714,7 @@ const IMMO_DATA = [
         grundstück: 1151,
         zimmer: 5,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Prenzlauer Allee 87",
           stadt: "Leipzig",
           postleitzahl: "04189",
@@ -8752,7 +8752,7 @@ const IMMO_DATA = [
         grundstück: 1083,
         zimmer: 3,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Rankestraße 65",
           stadt: "Beilngries",
           postleitzahl: "92336",
@@ -8790,7 +8790,7 @@ const IMMO_DATA = [
         grundstück: 1390,
         zimmer: 5,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Borstelmannsweg 47",
           stadt: "Schnaittenbach",
           postleitzahl: "92253",
@@ -8828,7 +8828,7 @@ const IMMO_DATA = [
         grundstück: 1606,
         zimmer: 4,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Holstenwall 66",
           stadt: "Albersroda",
           postleitzahl: "06268",
@@ -8866,7 +8866,7 @@ const IMMO_DATA = [
         grundstück: 1461,
         zimmer: 5,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Kirchenallee 41",
           stadt: "Viechtach",
           postleitzahl: "94229",
@@ -8904,7 +8904,7 @@ const IMMO_DATA = [
         grundstück: 2277,
         zimmer: 4,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "An der Alster 75",
           stadt: "Kalbe",
           postleitzahl: "27419",
@@ -8942,7 +8942,7 @@ const IMMO_DATA = [
         grundstück: 187,
         zimmer: 4,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Flotowstr. 73",
           stadt: "Lengefeld",
           postleitzahl: "09512",
@@ -8980,7 +8980,7 @@ const IMMO_DATA = [
         grundstück: 2445,
         zimmer: 7,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Kastanienallee 29",
           stadt: "Walchum",
           postleitzahl: "26907",
@@ -9018,7 +9018,7 @@ const IMMO_DATA = [
         grundstück: 247,
         zimmer: 2,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Bissingzeile 6",
           stadt: "Ihlienworth",
           postleitzahl: "21775",
@@ -9056,7 +9056,7 @@ const IMMO_DATA = [
         grundstück: 2391,
         zimmer: 4,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Brandenburgische Str. 10",
           stadt: "Oberreichenbach",
           postleitzahl: "75394",
@@ -9094,7 +9094,7 @@ const IMMO_DATA = [
         grundstück: 2377,
         zimmer: 6,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Amsinckstrasse 96",
           stadt: "Stolpen",
           postleitzahl: "01831",
@@ -9132,7 +9132,7 @@ const IMMO_DATA = [
         grundstück: 242,
         zimmer: 3,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Hollander Strasse 6",
           stadt: "Geilnau",
           postleitzahl: "56379",
@@ -9170,7 +9170,7 @@ const IMMO_DATA = [
         grundstück: 1522,
         zimmer: 3,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Marseiller Strasse 66",
           stadt: "Großweil",
           postleitzahl: "82439",
@@ -9208,7 +9208,7 @@ const IMMO_DATA = [
         grundstück: 2026,
         zimmer: 3,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Wallstrasse 57",
           stadt: "Kalenborn",
           postleitzahl: "56759",
@@ -9246,7 +9246,7 @@ const IMMO_DATA = [
         grundstück: 476,
         zimmer: 3,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Borstelmannsweg 76",
           stadt: "Wernberg-Köblitz",
           postleitzahl: "92533",
@@ -9284,7 +9284,7 @@ const IMMO_DATA = [
         grundstück: 2272,
         zimmer: 5,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Michaelkirchstr. 85",
           stadt: "Minden Innenstadt",
           postleitzahl: "32429",
@@ -9322,7 +9322,7 @@ const IMMO_DATA = [
         grundstück: 322,
         zimmer: 3,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Fischerinsel 34",
           stadt: "Mönchengladbach Pesch",
           postleitzahl: "41065",
@@ -9360,7 +9360,7 @@ const IMMO_DATA = [
         grundstück: 462,
         zimmer: 3,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Schönwalder Allee 49",
           stadt: "Bovenau",
           postleitzahl: "24796",
@@ -9398,7 +9398,7 @@ const IMMO_DATA = [
         grundstück: 1116,
         zimmer: 2,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Stresemannstr. 31",
           stadt: "Rehlingen-Siersburg",
           postleitzahl: "66777",
@@ -9436,7 +9436,7 @@ const IMMO_DATA = [
         grundstück: 1830,
         zimmer: 6,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Budapester Strasse 76",
           stadt: "Adenstedt",
           postleitzahl: "31079",
@@ -9474,7 +9474,7 @@ const IMMO_DATA = [
         grundstück: 705,
         zimmer: 6,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Kantstrasse 93",
           stadt: "Bayreuth",
           postleitzahl: "95402",
@@ -9512,7 +9512,7 @@ const IMMO_DATA = [
         grundstück: 1299,
         zimmer: 3,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Bleibtreustraße 34",
           stadt: "Dettighofen",
           postleitzahl: "79802",
@@ -9550,7 +9550,7 @@ const IMMO_DATA = [
         grundstück: 1488,
         zimmer: 7,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Neuer Jungfernstieg 63",
           stadt: "Moosburg",
           postleitzahl: "85361",
@@ -9588,7 +9588,7 @@ const IMMO_DATA = [
         grundstück: 1004,
         zimmer: 2,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Straße der Pariser Kommune 80",
           stadt: "Dortmund",
           postleitzahl: "44359",
@@ -9626,7 +9626,7 @@ const IMMO_DATA = [
         grundstück: 2304,
         zimmer: 7,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Kastanienallee 45",
           stadt: "Lütjenwestedt",
           postleitzahl: "25585",
@@ -9664,7 +9664,7 @@ const IMMO_DATA = [
         grundstück: 2265,
         zimmer: 5,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Buelowstrasse 72",
           stadt: "Halbs",
           postleitzahl: "56457",
@@ -9702,7 +9702,7 @@ const IMMO_DATA = [
         grundstück: 397,
         zimmer: 2,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Hermannstrasse 92",
           stadt: "Worms Innenstadt",
           postleitzahl: "67549",
@@ -9740,7 +9740,7 @@ const IMMO_DATA = [
         grundstück: 886,
         zimmer: 7,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Inge Beisheim Platz 38",
           stadt: "Blomesche Wildnis",
           postleitzahl: "25348",
@@ -9778,7 +9778,7 @@ const IMMO_DATA = [
         grundstück: 168,
         zimmer: 4,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Michaelkirchstr. 39",
           stadt: "Oetzen",
           postleitzahl: "29588",
@@ -9816,7 +9816,7 @@ const IMMO_DATA = [
         grundstück: 1944,
         zimmer: 4,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Ruschestrasse 92",
           stadt: "Stendal",
           postleitzahl: "39554",
@@ -9854,7 +9854,7 @@ const IMMO_DATA = [
         grundstück: 1011,
         zimmer: 3,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Gotthardstrasse 38",
           stadt: "Erfurt",
           postleitzahl: "99094",
@@ -9892,7 +9892,7 @@ const IMMO_DATA = [
         grundstück: 2181,
         zimmer: 2,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Borstelmannsweg 89",
           stadt: "Grafenwöhr",
           postleitzahl: "92650",
@@ -9930,7 +9930,7 @@ const IMMO_DATA = [
         grundstück: 1479,
         zimmer: 7,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Oldesloer Strasse 75",
           stadt: "Rohr",
           postleitzahl: "91189",
@@ -9968,7 +9968,7 @@ const IMMO_DATA = [
         grundstück: 1026,
         zimmer: 3,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Leopoldstraße 92",
           stadt: "Bochum",
           postleitzahl: "44787",
@@ -10006,7 +10006,7 @@ const IMMO_DATA = [
         grundstück: 1863,
         zimmer: 5,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Albrechtstrasse 18",
           stadt: "Kempten",
           postleitzahl: "87411",
@@ -10044,7 +10044,7 @@ const IMMO_DATA = [
         grundstück: 1390,
         zimmer: 5,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Paderborner Strasse 45",
           stadt: "Kutzenhausen",
           postleitzahl: "86500",
@@ -10082,7 +10082,7 @@ const IMMO_DATA = [
         grundstück: 949,
         zimmer: 5,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Nuernbergerstrasse 6",
           stadt: "Pronstorf",
           postleitzahl: "23820",
@@ -10120,7 +10120,7 @@ const IMMO_DATA = [
         grundstück: 2325,
         zimmer: 5,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Leipziger Strasse 30",
           stadt: "Trier Mariahof",
           postleitzahl: "54293",
@@ -10158,7 +10158,7 @@ const IMMO_DATA = [
         grundstück: 845,
         zimmer: 6,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Hochstrasse 37",
           stadt: "Högel",
           postleitzahl: "25858",
@@ -10196,7 +10196,7 @@ const IMMO_DATA = [
         grundstück: 1588,
         zimmer: 4,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Alsterkrugchaussee 52",
           stadt: "Alerheim",
           postleitzahl: "86733",
@@ -10234,7 +10234,7 @@ const IMMO_DATA = [
         grundstück: 731,
         zimmer: 2,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Park Str. 61",
           stadt: "Düsseldorf Rath",
           postleitzahl: "40472",
@@ -10272,7 +10272,7 @@ const IMMO_DATA = [
         grundstück: 1246,
         zimmer: 6,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Koenigstrasse 85",
           stadt: "Gräfenroda",
           postleitzahl: "99328",
@@ -10310,7 +10310,7 @@ const IMMO_DATA = [
         grundstück: 2210,
         zimmer: 6,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Esplanade 64",
           stadt: "Röllbach",
           postleitzahl: "63934",
@@ -10348,7 +10348,7 @@ const IMMO_DATA = [
         grundstück: 2340,
         zimmer: 4,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Potsdamer Platz 64",
           stadt: "Lindau",
           postleitzahl: "88119",
@@ -10386,7 +10386,7 @@ const IMMO_DATA = [
         grundstück: 983,
         zimmer: 6,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Rudower Chaussee 52",
           stadt: "Lübeck",
           postleitzahl: "23554",
@@ -10424,7 +10424,7 @@ const IMMO_DATA = [
         grundstück: 1745,
         zimmer: 6,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Boxhagener Str. 79",
           stadt: "Hamburg Eimsbüttel",
           postleitzahl: "20257",
@@ -10462,7 +10462,7 @@ const IMMO_DATA = [
         grundstück: 1490,
         zimmer: 6,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Bleibtreustraße 63",
           stadt: "Rust",
           postleitzahl: "77977",
@@ -10500,7 +10500,7 @@ const IMMO_DATA = [
         grundstück: 622,
         zimmer: 2,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Bleibtreustraße 57",
           stadt: "Kappel-Grafenhausen",
           postleitzahl: "77966",
@@ -10538,7 +10538,7 @@ const IMMO_DATA = [
         grundstück: 2137,
         zimmer: 7,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Kurfuerstendamm 9",
           stadt: "Heilbronn Böckingen",
           postleitzahl: "74081",
@@ -10576,7 +10576,7 @@ const IMMO_DATA = [
         grundstück: 189,
         zimmer: 7,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Lietzenburger Strasse 27",
           stadt: "Bergisch Gladbach Gronau",
           postleitzahl: "51469",
@@ -10614,7 +10614,7 @@ const IMMO_DATA = [
         grundstück: 2173,
         zimmer: 7,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Oldesloer Strasse 56",
           stadt: "Seelingstädt",
           postleitzahl: "07583",
@@ -10652,7 +10652,7 @@ const IMMO_DATA = [
         grundstück: 1199,
         zimmer: 7,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Schoenebergerstrasse 47",
           stadt: "Neuenkirchen",
           postleitzahl: "25792",
@@ -10690,7 +10690,7 @@ const IMMO_DATA = [
         grundstück: 938,
         zimmer: 2,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Paul-Nevermann-Platz 30",
           stadt: "Gädheim",
           postleitzahl: "97503",
@@ -10728,7 +10728,7 @@ const IMMO_DATA = [
         grundstück: 1660,
         zimmer: 4,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Prager Str 69",
           stadt: "Gröbenzell",
           postleitzahl: "82184",
@@ -10766,7 +10766,7 @@ const IMMO_DATA = [
         grundstück: 1337,
         zimmer: 5,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Leipziger Strasse 38",
           stadt: "Kasel",
           postleitzahl: "54317",
@@ -10804,7 +10804,7 @@ const IMMO_DATA = [
         grundstück: 803,
         zimmer: 3,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Prenzlauer Allee 58",
           stadt: "Leipzig",
           postleitzahl: "04332",
@@ -10842,7 +10842,7 @@ const IMMO_DATA = [
         grundstück: 672,
         zimmer: 3,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Holstenwall 53",
           stadt: "Bad Frankenhausen",
           postleitzahl: "06567",
@@ -10880,7 +10880,7 @@ const IMMO_DATA = [
         grundstück: 340,
         zimmer: 6,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Luebeckertordamm 37",
           stadt: "Röttenbach",
           postleitzahl: "91341",
@@ -10918,7 +10918,7 @@ const IMMO_DATA = [
         grundstück: 697,
         zimmer: 7,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Waßmannsdorfer Chaussee 70",
           stadt: "Schönefeld",
           postleitzahl: "12529",
@@ -10956,7 +10956,7 @@ const IMMO_DATA = [
         grundstück: 494,
         zimmer: 6,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Hedemannstasse 18",
           stadt: "Sigmaringendorf",
           postleitzahl: "72517",
@@ -10994,7 +10994,7 @@ const IMMO_DATA = [
         grundstück: 787,
         zimmer: 2,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Pohlstrasse 71",
           stadt: "Jembke",
           postleitzahl: "38477",
@@ -11032,7 +11032,7 @@ const IMMO_DATA = [
         grundstück: 1434,
         zimmer: 2,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Rudower Chaussee 24",
           stadt: "Lübeck",
           postleitzahl: "23521",
@@ -11070,7 +11070,7 @@ const IMMO_DATA = [
         grundstück: 871,
         zimmer: 5,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Frankfurter Allee 69",
           stadt: "Neu-Ulm",
           postleitzahl: "89204",
@@ -11108,7 +11108,7 @@ const IMMO_DATA = [
         grundstück: 859,
         zimmer: 5,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Straße der Pariser Kommune 78",
           stadt: "Aachen",
           postleitzahl: "52074",
@@ -11146,7 +11146,7 @@ const IMMO_DATA = [
         grundstück: 2148,
         zimmer: 4,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Ufnau Strasse 48",
           stadt: "Nesselwang",
           postleitzahl: "87482",
@@ -11184,7 +11184,7 @@ const IMMO_DATA = [
         grundstück: 1987,
         zimmer: 5,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Kantstraße 6",
           stadt: "Pockau",
           postleitzahl: "09507",
@@ -11222,7 +11222,7 @@ const IMMO_DATA = [
         grundstück: 784,
         zimmer: 4,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Marseiller Strasse 1",
           stadt: "Eschenlohe",
           postleitzahl: "82438",
@@ -11260,7 +11260,7 @@ const IMMO_DATA = [
         grundstück: 2311,
         zimmer: 4,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Rudower Strasse 88",
           stadt: "Habscheid",
           postleitzahl: "54597",
@@ -11298,7 +11298,7 @@ const IMMO_DATA = [
         grundstück: 2475,
         zimmer: 7,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Pohlstrasse 10",
           stadt: "Liebenburg",
           postleitzahl: "38704",
@@ -11336,7 +11336,7 @@ const IMMO_DATA = [
         grundstück: 375,
         zimmer: 6,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Los-Angeles-Platz 66",
           stadt: "Hamburg Uhlenhorst",
           postleitzahl: "22087",
@@ -11374,7 +11374,7 @@ const IMMO_DATA = [
         grundstück: 1764,
         zimmer: 6,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Schmarjestrasse 78",
           stadt: "Belzig",
           postleitzahl: "14801",
@@ -11412,7 +11412,7 @@ const IMMO_DATA = [
         grundstück: 1482,
         zimmer: 7,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Alt-Moabit 54",
           stadt: "Luckenwalde",
           postleitzahl: "14933",
@@ -11450,7 +11450,7 @@ const IMMO_DATA = [
         grundstück: 1520,
         zimmer: 7,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "An der Schillingbrucke 6",
           stadt: "Weidenstetten",
           postleitzahl: "89197",
@@ -11488,7 +11488,7 @@ const IMMO_DATA = [
         grundstück: 338,
         zimmer: 7,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Billwerder Neuer Deich 9",
           stadt: "Kirchenlamitz",
           postleitzahl: "95154",
@@ -11526,7 +11526,7 @@ const IMMO_DATA = [
         grundstück: 2357,
         zimmer: 2,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Pasewalker Straße 97",
           stadt: "Pforzheim Brötzingen",
           postleitzahl: "75173",
@@ -11564,7 +11564,7 @@ const IMMO_DATA = [
         grundstück: 775,
         zimmer: 5,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Ellmenreichstrasse 9",
           stadt: "Hollfeld",
           postleitzahl: "96140",
@@ -11602,7 +11602,7 @@ const IMMO_DATA = [
         grundstück: 2132,
         zimmer: 6,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Schoenebergerstrasse 54",
           stadt: "Stralsund",
           postleitzahl: "18402",
@@ -11640,7 +11640,7 @@ const IMMO_DATA = [
         grundstück: 888,
         zimmer: 7,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Flughafenstrasse 94",
           stadt: "Wiesau",
           postleitzahl: "95673",
@@ -11678,7 +11678,7 @@ const IMMO_DATA = [
         grundstück: 955,
         zimmer: 3,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Büsingstrasse 27",
           stadt: "Markt Indersdorf",
           postleitzahl: "85229",
@@ -11716,7 +11716,7 @@ const IMMO_DATA = [
         grundstück: 1222,
         zimmer: 4,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Gotthardstrasse 15",
           stadt: "Chemnitz",
           postleitzahl: "09048",
@@ -11754,7 +11754,7 @@ const IMMO_DATA = [
         grundstück: 153,
         zimmer: 3,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Ansbacher Strasse 30",
           stadt: "Büchenbeuren",
           postleitzahl: "55491",
@@ -11792,7 +11792,7 @@ const IMMO_DATA = [
         grundstück: 2321,
         zimmer: 6,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Luckenwalder Strasse 13",
           stadt: "Schellerten",
           postleitzahl: "31174",
@@ -11830,7 +11830,7 @@ const IMMO_DATA = [
         grundstück: 548,
         zimmer: 3,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Schmarjestrasse 46",
           stadt: "Buckau",
           postleitzahl: "14793",
@@ -11868,7 +11868,7 @@ const IMMO_DATA = [
         grundstück: 1120,
         zimmer: 6,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Albrechtstrasse 84",
           stadt: "Ingolstadt",
           postleitzahl: "85019",
@@ -11906,7 +11906,7 @@ const IMMO_DATA = [
         grundstück: 171,
         zimmer: 4,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Gotthardstrasse 83",
           stadt: "Chemnitz",
           postleitzahl: "09029",
@@ -11944,7 +11944,7 @@ const IMMO_DATA = [
         grundstück: 1200,
         zimmer: 2,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Flotowstr. 54",
           stadt: "Leuna",
           postleitzahl: "06233",
@@ -11982,7 +11982,7 @@ const IMMO_DATA = [
         grundstück: 1604,
         zimmer: 5,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Bleibtreustraße 97",
           stadt: "Neuried",
           postleitzahl: "82059",
@@ -12020,7 +12020,7 @@ const IMMO_DATA = [
         grundstück: 2498,
         zimmer: 2,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Gotzkowskystraße 42",
           stadt: "Bad Laasphe",
           postleitzahl: "57334",
@@ -12058,7 +12058,7 @@ const IMMO_DATA = [
         grundstück: 431,
         zimmer: 4,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Hedemannstasse 90",
           stadt: "Buchenberg",
           postleitzahl: "87472",
@@ -12096,7 +12096,7 @@ const IMMO_DATA = [
         grundstück: 2082,
         zimmer: 5,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Straße der Pariser Kommune 51",
           stadt: "Köln Rodenkirchen",
           postleitzahl: "50969",
@@ -12134,7 +12134,7 @@ const IMMO_DATA = [
         grundstück: 160,
         zimmer: 2,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Rudower Strasse 32",
           stadt: "Badem",
           postleitzahl: "54657",
@@ -12172,7 +12172,7 @@ const IMMO_DATA = [
         grundstück: 2078,
         zimmer: 3,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Ziegelstr. 86",
           stadt: "Röhrnbach",
           postleitzahl: "94131",
@@ -12210,7 +12210,7 @@ const IMMO_DATA = [
         grundstück: 319,
         zimmer: 7,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Gotzkowskystraße 98",
           stadt: "Rheinberg",
           postleitzahl: "47495",
@@ -12248,7 +12248,7 @@ const IMMO_DATA = [
         grundstück: 194,
         zimmer: 5,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Rudower Strasse 94",
           stadt: "Utscheid",
           postleitzahl: "54675",
@@ -12286,7 +12286,7 @@ const IMMO_DATA = [
         grundstück: 1027,
         zimmer: 6,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Feldstrasse 81",
           stadt: "Barby",
           postleitzahl: "39249",
@@ -12324,7 +12324,7 @@ const IMMO_DATA = [
         grundstück: 314,
         zimmer: 4,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Scharnweberstrasse 15",
           stadt: "Edingen-Neckarhausen",
           postleitzahl: "68535",
@@ -12362,7 +12362,7 @@ const IMMO_DATA = [
         grundstück: 1601,
         zimmer: 6,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Rathausstrasse 30",
           stadt: "Nürnberg",
           postleitzahl: "90023",
@@ -12400,7 +12400,7 @@ const IMMO_DATA = [
         grundstück: 1805,
         zimmer: 6,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Am Borsigturm 71",
           stadt: "Dinslaken",
           postleitzahl: "46539",
@@ -12438,7 +12438,7 @@ const IMMO_DATA = [
         grundstück: 1697,
         zimmer: 3,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Motzstr. 64",
           stadt: "Rümmelsheim",
           postleitzahl: "55452",
@@ -12476,7 +12476,7 @@ const IMMO_DATA = [
         grundstück: 1307,
         zimmer: 6,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Alt Reinickendorf 11",
           stadt: "Laugna",
           postleitzahl: "86502",
@@ -12514,7 +12514,7 @@ const IMMO_DATA = [
         grundstück: 1457,
         zimmer: 5,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Friedrichstrasse 25",
           stadt: "Düsseldorf Düsseltal",
           postleitzahl: "40470",
@@ -12552,7 +12552,7 @@ const IMMO_DATA = [
         grundstück: 992,
         zimmer: 3,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Charlottenstrasse 2",
           stadt: "Dresden",
           postleitzahl: "01283",
@@ -12590,7 +12590,7 @@ const IMMO_DATA = [
         grundstück: 2191,
         zimmer: 7,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Schönwalder Allee 60",
           stadt: "Neukirchen",
           postleitzahl: "92259",
@@ -12628,7 +12628,7 @@ const IMMO_DATA = [
         grundstück: 2047,
         zimmer: 5,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Boxhagener Str. 5",
           stadt: "Hamburg Duvenstedt",
           postleitzahl: "22397",
@@ -12666,7 +12666,7 @@ const IMMO_DATA = [
         grundstück: 1950,
         zimmer: 5,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Kantstraße 41",
           stadt: "Rochlitz",
           postleitzahl: "09302",
@@ -12704,7 +12704,7 @@ const IMMO_DATA = [
         grundstück: 884,
         zimmer: 5,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Genterstrasse 31",
           stadt: "Kiel",
           postleitzahl: "24149",
@@ -12742,7 +12742,7 @@ const IMMO_DATA = [
         grundstück: 1841,
         zimmer: 7,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "An Der Urania 76",
           stadt: "Nortorf",
           postleitzahl: "24583",
@@ -12780,7 +12780,7 @@ const IMMO_DATA = [
         grundstück: 2243,
         zimmer: 4,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Charlottenstrasse 3",
           stadt: "Dresden",
           postleitzahl: "01281",
@@ -12818,7 +12818,7 @@ const IMMO_DATA = [
         grundstück: 1762,
         zimmer: 2,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Landhausstraße 21",
           stadt: "Fürstenwalde",
           postleitzahl: "15502",
@@ -12856,7 +12856,7 @@ const IMMO_DATA = [
         grundstück: 2040,
         zimmer: 3,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Alsterkrugchaussee 83",
           stadt: "Kammerstein",
           postleitzahl: "91126",
@@ -12894,7 +12894,7 @@ const IMMO_DATA = [
         grundstück: 2364,
         zimmer: 3,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Pohlstrasse 7",
           stadt: "Vordorf",
           postleitzahl: "38533",
@@ -12932,7 +12932,7 @@ const IMMO_DATA = [
         grundstück: 2182,
         zimmer: 6,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Charlottenstrasse 70",
           stadt: "Dresden",
           postleitzahl: "01283",
@@ -12970,7 +12970,7 @@ const IMMO_DATA = [
         grundstück: 2244,
         zimmer: 5,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "An Der Urania 33",
           stadt: "Breitenberg",
           postleitzahl: "25597",
@@ -13008,7 +13008,7 @@ const IMMO_DATA = [
         grundstück: 1260,
         zimmer: 4,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Alt-Moabit 84",
           stadt: "Rathenow",
           postleitzahl: "14704",
@@ -13046,7 +13046,7 @@ const IMMO_DATA = [
         grundstück: 1316,
         zimmer: 7,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Bleibtreustraße 67",
           stadt: "Haslach",
           postleitzahl: "77716",
@@ -13084,7 +13084,7 @@ const IMMO_DATA = [
         grundstück: 1286,
         zimmer: 7,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Budapester Straße 49",
           stadt: "Herl",
           postleitzahl: "54317",
@@ -13122,7 +13122,7 @@ const IMMO_DATA = [
         grundstück: 1920,
         zimmer: 4,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Fasanenstrasse 58",
           stadt: "Hamburg Schnelsen",
           postleitzahl: "22455",
@@ -13160,7 +13160,7 @@ const IMMO_DATA = [
         grundstück: 438,
         zimmer: 5,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Rudower Strasse 66",
           stadt: "Hersdorf",
           postleitzahl: "54597",
@@ -13198,7 +13198,7 @@ const IMMO_DATA = [
         grundstück: 1170,
         zimmer: 2,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Gotthardstrasse 92",
           stadt: "Erfurt",
           postleitzahl: "99097",
@@ -13236,7 +13236,7 @@ const IMMO_DATA = [
         grundstück: 284,
         zimmer: 6,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Rudower Chaussee 84",
           stadt: "Ansbach",
           postleitzahl: "91505",
@@ -13274,7 +13274,7 @@ const IMMO_DATA = [
         grundstück: 754,
         zimmer: 5,
         badezimmer: 3,
-        addresse: {
+        adresse: {
           straße: "Fasanenstrasse 78",
           stadt: "Hamburg Neuengamme",
           postleitzahl: "21037",
@@ -13312,7 +13312,7 @@ const IMMO_DATA = [
         grundstück: 508,
         zimmer: 5,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Alter Wall 63",
           stadt: "Arnstein",
           postleitzahl: "97450",
@@ -13350,7 +13350,7 @@ const IMMO_DATA = [
         grundstück: 778,
         zimmer: 6,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "An der Schillingbrucke 79",
           stadt: "Drackenstein",
           postleitzahl: "73345",
@@ -13388,7 +13388,7 @@ const IMMO_DATA = [
         grundstück: 2018,
         zimmer: 4,
         badezimmer: 1,
-        addresse: {
+        adresse: {
           straße: "Paderborner Strasse 86",
           stadt: "Gessertshausen",
           postleitzahl: "86457",
@@ -13426,7 +13426,7 @@ const IMMO_DATA = [
         grundstück: 941,
         zimmer: 5,
         badezimmer: 2,
-        addresse: {
+        adresse: {
           straße: "Amsinckstrasse 56",
           stadt: "Hirschfelde",
           postleitzahl: "02786",
@@ -13464,7 +13464,7 @@ const IMMO_DATA = [
         grundstück: 2037,
         zimmer: 6,
         badezimmer: 4,
-        addresse: {
+        adresse: {
           straße: "Augsburger Straße 91",
           stadt: "Hagen",
           postleitzahl: "58095",
@@ -13501,7 +13501,7 @@ const IMMO_DATA = [
          "grundstück":800,
          "zimmer":5,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Augsburger Straße 91",
             "stadt":"Hagen",
             "postleitzahl":"58095",
@@ -13532,7 +13532,7 @@ const IMMO_DATA = [
          "grundstück":162,
          "zimmer":4,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Alter Wall 69",
             "stadt":"Wartmannsroth",
             "postleitzahl":"97797",
@@ -13563,7 +13563,7 @@ const IMMO_DATA = [
          "grundstück":2041,
          "zimmer":3,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Büsingstrasse 62",
             "stadt":"Gilching",
             "postleitzahl":"82197",
@@ -13594,7 +13594,7 @@ const IMMO_DATA = [
          "grundstück":2160,
          "zimmer":6,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Mohrenstrasse 67",
             "stadt":"Alleshausen",
             "postleitzahl":"88422",
@@ -13625,7 +13625,7 @@ const IMMO_DATA = [
          "grundstück":1622,
          "zimmer":2,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"An der Schillingbrucke 73",
             "stadt":"Eberhardzell",
             "postleitzahl":"88436",
@@ -13656,7 +13656,7 @@ const IMMO_DATA = [
          "grundstück":653,
          "zimmer":5,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Flotowstr. 49",
             "stadt":"Bernburg",
             "postleitzahl":"06391",
@@ -13687,7 +13687,7 @@ const IMMO_DATA = [
          "grundstück":1555,
          "zimmer":7,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Holstenwall 11",
             "stadt":"Selbitz",
             "postleitzahl":"95152",
@@ -13718,7 +13718,7 @@ const IMMO_DATA = [
          "grundstück":2026,
          "zimmer":2,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Heiligengeistbrücke 39",
             "stadt":"Insingen",
             "postleitzahl":"91610",
@@ -13749,7 +13749,7 @@ const IMMO_DATA = [
          "grundstück":1383,
          "zimmer":2,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Luetzowplatz 8",
             "stadt":"Pickließem",
             "postleitzahl":"54647",
@@ -13780,7 +13780,7 @@ const IMMO_DATA = [
          "grundstück":439,
          "zimmer":3,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Budapester Strasse 29",
             "stadt":"Siedenburg",
             "postleitzahl":"27254",
@@ -13811,7 +13811,7 @@ const IMMO_DATA = [
          "grundstück":730,
          "zimmer":4,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Boxhagener Str. 27",
             "stadt":"Hamburg Harburg",
             "postleitzahl":"21075",
@@ -13842,7 +13842,7 @@ const IMMO_DATA = [
          "grundstück":1641,
          "zimmer":4,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Boxhagener Str. 99",
             "stadt":"Hamburg Groß Borstel",
             "postleitzahl":"22529",
@@ -13873,7 +13873,7 @@ const IMMO_DATA = [
          "grundstück":1963,
          "zimmer":4,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Esplanade 73",
             "stadt":"Rothenfels",
             "postleitzahl":"97851",
@@ -13904,7 +13904,7 @@ const IMMO_DATA = [
          "grundstück":1051,
          "zimmer":7,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Luetzowplatz 9",
             "stadt":"Oberweiler",
             "postleitzahl":"54636",
@@ -13935,7 +13935,7 @@ const IMMO_DATA = [
          "grundstück":827,
          "zimmer":2,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Paul-Nevermann-Platz 95",
             "stadt":"Burkardroth",
             "postleitzahl":"97703",
@@ -13966,7 +13966,7 @@ const IMMO_DATA = [
          "grundstück":395,
          "zimmer":3,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Eichendorffstr. 90",
             "stadt":"Konstanz Litzelstetten",
             "postleitzahl":"78464",
@@ -13997,7 +13997,7 @@ const IMMO_DATA = [
          "grundstück":2357,
          "zimmer":7,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"An der Schillingbrucke 51",
             "stadt":"Berghülen",
             "postleitzahl":"89180",
@@ -14028,7 +14028,7 @@ const IMMO_DATA = [
          "grundstück":1624,
          "zimmer":3,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Storkower Strasse 4",
             "stadt":"Brohl-Lützing",
             "postleitzahl":"56656",
@@ -14059,7 +14059,7 @@ const IMMO_DATA = [
          "grundstück":2311,
          "zimmer":7,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Inge Beisheim Platz 74",
             "stadt":"Südergellersen",
             "postleitzahl":"21394",
@@ -14090,7 +14090,7 @@ const IMMO_DATA = [
          "grundstück":2272,
          "zimmer":2,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Gruenauer Strasse 35",
             "stadt":"Neu Wulmstorf",
             "postleitzahl":"21629",
@@ -14121,7 +14121,7 @@ const IMMO_DATA = [
          "grundstück":150,
          "zimmer":3,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Grolmanstraße 52",
             "stadt":"Bremen Hulsberg",
             "postleitzahl":"28205",
@@ -14152,7 +14152,7 @@ const IMMO_DATA = [
          "grundstück":2300,
          "zimmer":5,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Budapester Strasse 6",
             "stadt":"Borstel",
             "postleitzahl":"27246",
@@ -14183,7 +14183,7 @@ const IMMO_DATA = [
          "grundstück":2103,
          "zimmer":7,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Schillerstrasse 92",
             "stadt":"Scherstetten",
             "postleitzahl":"86872",
@@ -14214,7 +14214,7 @@ const IMMO_DATA = [
          "grundstück":1029,
          "zimmer":5,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Luetzowplatz 47",
             "stadt":"Feilsdorf",
             "postleitzahl":"54636",
@@ -14245,7 +14245,7 @@ const IMMO_DATA = [
          "grundstück":2121,
          "zimmer":3,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Marseiller Strasse 12",
             "stadt":"Rottenbuch",
             "postleitzahl":"82401",
@@ -14276,7 +14276,7 @@ const IMMO_DATA = [
          "grundstück":590,
          "zimmer":5,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Lange Strasse 34",
             "stadt":"Unterhaching",
             "postleitzahl":"82002",
@@ -14307,7 +14307,7 @@ const IMMO_DATA = [
          "grundstück":252,
          "zimmer":6,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Koenigstrasse 30",
             "stadt":"Weingarten",
             "postleitzahl":"76356",
@@ -14338,7 +14338,7 @@ const IMMO_DATA = [
          "grundstück":1773,
          "zimmer":2,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Brandenburgische Str. 47",
             "stadt":"Lehrensteinsfeld",
             "postleitzahl":"74251",
@@ -14369,7 +14369,7 @@ const IMMO_DATA = [
          "grundstück":1021,
          "zimmer":2,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Flotowstr. 21",
             "stadt":"Sangerhausen",
             "postleitzahl":"06512",
@@ -14400,7 +14400,7 @@ const IMMO_DATA = [
          "grundstück":398,
          "zimmer":4,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Fischerinsel 6",
             "stadt":"Mönchengladbach Holt",
             "postleitzahl":"41069",
@@ -14431,7 +14431,7 @@ const IMMO_DATA = [
          "grundstück":1290,
          "zimmer":2,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Augsburger Strasse 68",
             "stadt":"Beinhausen",
             "postleitzahl":"54552",
@@ -14462,7 +14462,7 @@ const IMMO_DATA = [
          "grundstück":720,
          "zimmer":2,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Rankestraße 88",
             "stadt":"Beilngries",
             "postleitzahl":"92339",
@@ -14493,7 +14493,7 @@ const IMMO_DATA = [
          "grundstück":1993,
          "zimmer":5,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Gubener Str. 57",
             "stadt":"Hausham",
             "postleitzahl":"83732",
@@ -14524,7 +14524,7 @@ const IMMO_DATA = [
          "grundstück":705,
          "zimmer":5,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Landsberger Allee 78",
             "stadt":"München",
             "postleitzahl":"80604",
@@ -14555,7 +14555,7 @@ const IMMO_DATA = [
          "grundstück":1083,
          "zimmer":5,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Inge Beisheim Platz 13",
             "stadt":"Vastorf",
             "postleitzahl":"21397",
@@ -14586,7 +14586,7 @@ const IMMO_DATA = [
          "grundstück":1368,
          "zimmer":2,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Kastanienallee 53",
             "stadt":"Fresendelf",
             "postleitzahl":"25876",
@@ -14617,7 +14617,7 @@ const IMMO_DATA = [
          "grundstück":2296,
          "zimmer":5,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Rathausstrasse 17",
             "stadt":"Nürnberg",
             "postleitzahl":"90023",
@@ -14648,7 +14648,7 @@ const IMMO_DATA = [
          "grundstück":2109,
          "zimmer":4,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Rhinstrasse 39",
             "stadt":"München",
             "postleitzahl":"81214",
@@ -14679,7 +14679,7 @@ const IMMO_DATA = [
          "grundstück":2328,
          "zimmer":5,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Marseiller Strasse 60",
             "stadt":"Böbing",
             "postleitzahl":"82389",
@@ -14710,7 +14710,7 @@ const IMMO_DATA = [
          "grundstück":629,
          "zimmer":4,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Genterstrasse 31",
             "stadt":"Kiel",
             "postleitzahl":"24030",
@@ -14741,7 +14741,7 @@ const IMMO_DATA = [
          "grundstück":1112,
          "zimmer":7,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Inge Beisheim Platz 83",
             "stadt":"Echem",
             "postleitzahl":"21379",
@@ -14772,7 +14772,7 @@ const IMMO_DATA = [
          "grundstück":1111,
          "zimmer":4,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Lützowplatz 30",
             "stadt":"Dohm-Lammersdorf",
             "postleitzahl":"54576",
@@ -14803,7 +14803,7 @@ const IMMO_DATA = [
          "grundstück":2100,
          "zimmer":3,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Lange Strasse 43",
             "stadt":"Unterhaching",
             "postleitzahl":"82004",
@@ -14834,7 +14834,7 @@ const IMMO_DATA = [
          "grundstück":2020,
          "zimmer":4,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Alter Wall 59",
             "stadt":"Miltenberg",
             "postleitzahl":"63887",
@@ -14865,7 +14865,7 @@ const IMMO_DATA = [
          "grundstück":1069,
          "zimmer":7,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Fugger Strasse 36",
             "stadt":"Wesel",
             "postleitzahl":"46487",
@@ -14896,7 +14896,7 @@ const IMMO_DATA = [
          "grundstück":685,
          "zimmer":4,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Albrechtstrasse 27",
             "stadt":"Passau",
             "postleitzahl":"94011",
@@ -14927,7 +14927,7 @@ const IMMO_DATA = [
          "grundstück":1350,
          "zimmer":7,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Spresstrasse 43",
             "stadt":"Harrislee",
             "postleitzahl":"24950",
@@ -14958,7 +14958,7 @@ const IMMO_DATA = [
          "grundstück":1021,
          "zimmer":7,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Kurfürstenstraße 47",
             "stadt":"Heuchlingen",
             "postleitzahl":"73572",
@@ -14989,7 +14989,7 @@ const IMMO_DATA = [
          "grundstück":2088,
          "zimmer":7,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Rudolstaedter Strasse 40",
             "stadt":"Wiesthal",
             "postleitzahl":"97859",
@@ -15020,7 +15020,7 @@ const IMMO_DATA = [
          "grundstück":1640,
          "zimmer":2,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Kieler Strasse 6",
             "stadt":"Waldkraiburg",
             "postleitzahl":"84471",
@@ -15051,7 +15051,7 @@ const IMMO_DATA = [
          "grundstück":2028,
          "zimmer":6,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Landhausstraße 95",
             "stadt":"Angermünde",
             "postleitzahl":"16271",
@@ -15082,7 +15082,7 @@ const IMMO_DATA = [
          "grundstück":846,
          "zimmer":5,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Lietzenburger Straße 96",
             "stadt":"Gartow",
             "postleitzahl":"29471",
@@ -15113,7 +15113,7 @@ const IMMO_DATA = [
          "grundstück":2359,
          "zimmer":4,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Budapester Straße 92",
             "stadt":"Lohra",
             "postleitzahl":"35102",
@@ -15144,7 +15144,7 @@ const IMMO_DATA = [
          "grundstück":2293,
          "zimmer":4,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Rudolstaedter Strasse 60",
             "stadt":"Neuenkirchen",
             "postleitzahl":"48485",
@@ -15175,7 +15175,7 @@ const IMMO_DATA = [
          "grundstück":1410,
          "zimmer":2,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Leipziger Strasse 48",
             "stadt":"Wiesbaden",
             "postleitzahl":"65197",
@@ -15206,7 +15206,7 @@ const IMMO_DATA = [
          "grundstück":888,
          "zimmer":2,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Flotowstr. 15",
             "stadt":"Lutherstadt Eisleben",
             "postleitzahl":"06290",
@@ -15237,7 +15237,7 @@ const IMMO_DATA = [
          "grundstück":1743,
          "zimmer":3,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Buelowstrasse 75",
             "stadt":"Luxem",
             "postleitzahl":"56729",
@@ -15268,7 +15268,7 @@ const IMMO_DATA = [
          "grundstück":1833,
          "zimmer":4,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Messedamm 71",
             "stadt":"Halle",
             "postleitzahl":"49843",
@@ -15299,7 +15299,7 @@ const IMMO_DATA = [
          "grundstück":1665,
          "zimmer":7,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Koenigstrasse 43",
             "stadt":"Dietendorf",
             "postleitzahl":"06722",
@@ -15330,7 +15330,7 @@ const IMMO_DATA = [
          "grundstück":1069,
          "zimmer":5,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Hardenbergstraße 65",
             "stadt":"Hauenstein",
             "postleitzahl":"76846",
@@ -15361,7 +15361,7 @@ const IMMO_DATA = [
          "grundstück":569,
          "zimmer":5,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Kurfuerstendamm 32",
             "stadt":"Ulm Söflingen",
             "postleitzahl":"89075",
@@ -15392,7 +15392,7 @@ const IMMO_DATA = [
          "grundstück":2277,
          "zimmer":7,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Jenaer Strasse 5",
             "stadt":"Mülheim an der Ruhr",
             "postleitzahl":"45476",
@@ -15423,7 +15423,7 @@ const IMMO_DATA = [
          "grundstück":1705,
          "zimmer":5,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Lützowplatz 58",
             "stadt":"Schöndorf",
             "postleitzahl":"54316",
@@ -15454,7 +15454,7 @@ const IMMO_DATA = [
          "grundstück":2102,
          "zimmer":2,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Ellmenreichstrasse 60",
             "stadt":"Schlammersdorf",
             "postleitzahl":"95519",
@@ -15485,7 +15485,7 @@ const IMMO_DATA = [
          "grundstück":1016,
          "zimmer":3,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Lietzensee-Ufer 19",
             "stadt":"Calau",
             "postleitzahl":"03201",
@@ -15516,7 +15516,7 @@ const IMMO_DATA = [
          "grundstück":208,
          "zimmer":6,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Guentzelstrasse 98",
             "stadt":"Grebenau",
             "postleitzahl":"36323",
@@ -15547,7 +15547,7 @@ const IMMO_DATA = [
          "grundstück":2116,
          "zimmer":4,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Ellmenreichstrasse 3",
             "stadt":"Mistelgau",
             "postleitzahl":"95490",
@@ -15578,7 +15578,7 @@ const IMMO_DATA = [
          "grundstück":611,
          "zimmer":3,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Invalidenstrasse 63",
             "stadt":"Petersberg",
             "postleitzahl":"36100",
@@ -15609,7 +15609,7 @@ const IMMO_DATA = [
          "grundstück":934,
          "zimmer":2,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Luetzowplatz 71",
             "stadt":"Steineberg",
             "postleitzahl":"54552",
@@ -15640,7 +15640,7 @@ const IMMO_DATA = [
          "grundstück":1623,
          "zimmer":4,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Guentzelstrasse 67",
             "stadt":"Bad Salzschlirf",
             "postleitzahl":"36364",
@@ -15671,7 +15671,7 @@ const IMMO_DATA = [
          "grundstück":537,
          "zimmer":2,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Rankestraße 55",
             "stadt":"Neuburg",
             "postleitzahl":"86619",
@@ -15702,7 +15702,7 @@ const IMMO_DATA = [
          "grundstück":361,
          "zimmer":7,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Langenhorner Chaussee 84",
             "stadt":"Niederaichbach",
             "postleitzahl":"84100",
@@ -15733,7 +15733,7 @@ const IMMO_DATA = [
          "grundstück":241,
          "zimmer":5,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Gotthardstrasse 34",
             "stadt":"Chemnitz",
             "postleitzahl":"09123",
@@ -15764,7 +15764,7 @@ const IMMO_DATA = [
          "grundstück":728,
          "zimmer":7,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Inge Beisheim Platz 82",
             "stadt":"Reppenstedt",
             "postleitzahl":"21391",
@@ -15795,7 +15795,7 @@ const IMMO_DATA = [
          "grundstück":526,
          "zimmer":7,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Ellmenreichstrasse 77",
             "stadt":"Gößweinstein",
             "postleitzahl":"91326",
@@ -15826,7 +15826,7 @@ const IMMO_DATA = [
          "grundstück":1476,
          "zimmer":4,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Rohrdamm 83",
             "stadt":"Ahnsbeck",
             "postleitzahl":"29353",
@@ -15857,7 +15857,7 @@ const IMMO_DATA = [
          "grundstück":1495,
          "zimmer":4,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Pappelallee 45",
             "stadt":"Lugau",
             "postleitzahl":"09382",
@@ -15888,7 +15888,7 @@ const IMMO_DATA = [
          "grundstück":1265,
          "zimmer":3,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Fischerinsel 30",
             "stadt":"Remscheid Nord",
             "postleitzahl":"42853",
@@ -15919,7 +15919,7 @@ const IMMO_DATA = [
          "grundstück":1217,
          "zimmer":2,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Gubener Str. 93",
             "stadt":"Jachenau",
             "postleitzahl":"83676",
@@ -15950,7 +15950,7 @@ const IMMO_DATA = [
          "grundstück":1109,
          "zimmer":4,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Gubener Str. 12",
             "stadt":"Hausham",
             "postleitzahl":"83731",
@@ -15981,7 +15981,7 @@ const IMMO_DATA = [
          "grundstück":2367,
          "zimmer":2,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Prenzlauer Allee 53",
             "stadt":"Leipzig",
             "postleitzahl":"04253",
@@ -16012,7 +16012,7 @@ const IMMO_DATA = [
          "grundstück":1392,
          "zimmer":3,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Grolmanstraße 64",
             "stadt":"Bremen Regensburger Straße",
             "postleitzahl":"28215",
@@ -16043,7 +16043,7 @@ const IMMO_DATA = [
          "grundstück":1628,
          "zimmer":4,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Ellmenreichstrasse 38",
             "stadt":"Wiesenttal",
             "postleitzahl":"91346",
@@ -16074,7 +16074,7 @@ const IMMO_DATA = [
          "grundstück":259,
          "zimmer":2,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Jenaer Strasse 81",
             "stadt":"Königslutter am Elm",
             "postleitzahl":"38154",
@@ -16105,7 +16105,7 @@ const IMMO_DATA = [
          "grundstück":2115,
          "zimmer":6,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Frankfurter Allee 30",
             "stadt":"Karlsruhe Palmbach",
             "postleitzahl":"76228",
@@ -16136,7 +16136,7 @@ const IMMO_DATA = [
          "grundstück":2076,
          "zimmer":4,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Eichendorffstr. 26",
             "stadt":"Konstanz Dettingen",
             "postleitzahl":"78465",
@@ -16167,7 +16167,7 @@ const IMMO_DATA = [
          "grundstück":1186,
          "zimmer":5,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Fugger Strasse 82",
             "stadt":"Koblenz Lützel",
             "postleitzahl":"56070",
@@ -16198,7 +16198,7 @@ const IMMO_DATA = [
          "grundstück":1710,
          "zimmer":2,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Messedamm 2",
             "stadt":"Halle",
             "postleitzahl":"06039",
@@ -16229,7 +16229,7 @@ const IMMO_DATA = [
          "grundstück":1551,
          "zimmer":2,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Inge Beisheim Platz 26",
             "stadt":"Seestermühe",
             "postleitzahl":"25371",
@@ -16260,7 +16260,7 @@ const IMMO_DATA = [
          "grundstück":1982,
          "zimmer":4,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Kastanienallee 5",
             "stadt":"Christinenthal",
             "postleitzahl":"25593",
@@ -16291,7 +16291,7 @@ const IMMO_DATA = [
          "grundstück":475,
          "zimmer":2,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Heinrich Heine Platz 91",
             "stadt":"Eibau",
             "postleitzahl":"02739",
@@ -16322,7 +16322,7 @@ const IMMO_DATA = [
          "grundstück":853,
          "zimmer":2,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Gubener Str. 57",
             "stadt":"Emmering",
             "postleitzahl":"83550",
@@ -16353,7 +16353,7 @@ const IMMO_DATA = [
          "grundstück":2414,
          "zimmer":6,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Stresemannstr. 57",
             "stadt":"Ottweiler",
             "postleitzahl":"66564",
@@ -16384,7 +16384,7 @@ const IMMO_DATA = [
          "grundstück":399,
          "zimmer":6,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Charlottenstrasse 55",
             "stadt":"Cottbus",
             "postleitzahl":"03004",
@@ -16415,7 +16415,7 @@ const IMMO_DATA = [
          "grundstück":1574,
          "zimmer":7,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Meinekestraße 92",
             "stadt":"Moringen",
             "postleitzahl":"37186",
@@ -16446,7 +16446,7 @@ const IMMO_DATA = [
          "grundstück":2043,
          "zimmer":6,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Hardenbergstraße 99",
             "stadt":"Matzenbach",
             "postleitzahl":"66909",
@@ -16477,7 +16477,7 @@ const IMMO_DATA = [
          "grundstück":1183,
          "zimmer":2,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Heiligengeistbrücke 34",
             "stadt":"Rügland",
             "postleitzahl":"91622",
@@ -16508,7 +16508,7 @@ const IMMO_DATA = [
          "grundstück":1100,
          "zimmer":2,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Amsinckstrasse 16",
             "stadt":"Rückersdorf",
             "postleitzahl":"90604",
@@ -16539,7 +16539,7 @@ const IMMO_DATA = [
          "grundstück":357,
          "zimmer":5,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Augsburger Straße 16",
             "stadt":"Herne",
             "postleitzahl":"44627",
@@ -16570,7 +16570,7 @@ const IMMO_DATA = [
          "grundstück":579,
          "zimmer":6,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Stresemannstr. 19",
             "stadt":"Namborn",
             "postleitzahl":"66639",
@@ -16601,7 +16601,7 @@ const IMMO_DATA = [
          "grundstück":1224,
          "zimmer":6,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Ansbacher Strasse 47",
             "stadt":"Wintrich",
             "postleitzahl":"54487",
@@ -16632,7 +16632,7 @@ const IMMO_DATA = [
          "grundstück":1140,
          "zimmer":7,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Rudower Strasse 9",
             "stadt":"Lascheid",
             "postleitzahl":"54597",
@@ -16663,7 +16663,7 @@ const IMMO_DATA = [
          "grundstück":1480,
          "zimmer":2,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Knesebeckstraße 78",
             "stadt":"Hückelhoven",
             "postleitzahl":"41836",
@@ -16694,7 +16694,7 @@ const IMMO_DATA = [
          "grundstück":2396,
          "zimmer":5,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Hardenbergstraße 33",
             "stadt":"Brücken",
             "postleitzahl":"55767",
@@ -16725,7 +16725,7 @@ const IMMO_DATA = [
          "grundstück":691,
          "zimmer":2,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Feldstrasse 62",
             "stadt":"Wernigerode",
             "postleitzahl":"38841",
@@ -16756,7 +16756,7 @@ const IMMO_DATA = [
          "grundstück":2268,
          "zimmer":5,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Ufnau Strasse 65",
             "stadt":"Sontheim",
             "postleitzahl":"87776",
@@ -16787,7 +16787,7 @@ const IMMO_DATA = [
          "grundstück":1297,
          "zimmer":2,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Inge Beisheim Platz 54",
             "stadt":"Elskop",
             "postleitzahl":"25361",
@@ -16818,7 +16818,7 @@ const IMMO_DATA = [
          "grundstück":433,
          "zimmer":4,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Flughafenstrasse 11",
             "stadt":"Leonberg",
             "postleitzahl":"95666",
@@ -16849,7 +16849,7 @@ const IMMO_DATA = [
          "grundstück":1960,
          "zimmer":4,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Adenauerallee 28",
             "stadt":"Adamshoffnung",
             "postleitzahl":"17213",
@@ -16880,7 +16880,7 @@ const IMMO_DATA = [
          "grundstück":2424,
          "zimmer":4,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Knesebeckstraße 56",
             "stadt":"Linnich",
             "postleitzahl":"52441",
@@ -16911,7 +16911,7 @@ const IMMO_DATA = [
          "grundstück":1632,
          "zimmer":5,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Anhalter Strasse 56",
             "stadt":"Finkenbach-Gersweiler",
             "postleitzahl":"67822",
@@ -16942,7 +16942,7 @@ const IMMO_DATA = [
          "grundstück":1356,
          "zimmer":4,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Nuernbergerstrasse 42",
             "stadt":"Eutin",
             "postleitzahl":"23694",
@@ -16973,7 +16973,7 @@ const IMMO_DATA = [
          "grundstück":1992,
          "zimmer":4,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Marseiller Strasse 59",
             "stadt":"Murnau",
             "postleitzahl":"82411",
@@ -17004,7 +17004,7 @@ const IMMO_DATA = [
          "grundstück":176,
          "zimmer":2,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Paul-Nevermann-Platz 85",
             "stadt":"Grafenrheinfeld",
             "postleitzahl":"97506",
@@ -17035,7 +17035,7 @@ const IMMO_DATA = [
          "grundstück":815,
          "zimmer":7,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Kirchenallee 37",
             "stadt":"Plattling",
             "postleitzahl":"94447",
@@ -17066,7 +17066,7 @@ const IMMO_DATA = [
          "grundstück":814,
          "zimmer":7,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Los-Angeles-Platz 83",
             "stadt":"Hamburg Uhlenhorst",
             "postleitzahl":"22087",
@@ -17097,7 +17097,7 @@ const IMMO_DATA = [
          "grundstück":1869,
          "zimmer":4,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Eschenweg 42",
             "stadt":"Ilmenau",
             "postleitzahl":"98687",
@@ -17128,7 +17128,7 @@ const IMMO_DATA = [
          "grundstück":939,
          "zimmer":7,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Koepenicker Str. 25",
             "stadt":"Kasdorf",
             "postleitzahl":"56357",
@@ -17159,7 +17159,7 @@ const IMMO_DATA = [
          "grundstück":2255,
          "zimmer":3,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Schmarjestrasse 99",
             "stadt":"Ludwigsfelde",
             "postleitzahl":"14962",
@@ -17190,7 +17190,7 @@ const IMMO_DATA = [
          "grundstück":2456,
          "zimmer":3,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Leipziger Straße 57",
             "stadt":"Zierenberg",
             "postleitzahl":"34289",
@@ -17221,7 +17221,7 @@ const IMMO_DATA = [
          "grundstück":375,
          "zimmer":6,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Leopoldstraße 4",
             "stadt":"Berlin Grunewald",
             "postleitzahl":"10711",
@@ -17252,7 +17252,7 @@ const IMMO_DATA = [
          "grundstück":1505,
          "zimmer":5,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Luebecker Strasse 3",
             "stadt":"Ebern",
             "postleitzahl":"96106",
@@ -17283,7 +17283,7 @@ const IMMO_DATA = [
          "grundstück":1299,
          "zimmer":7,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"An Der Urania 36",
             "stadt":"Kleve",
             "postleitzahl":"25789",
@@ -17314,7 +17314,7 @@ const IMMO_DATA = [
          "grundstück":1615,
          "zimmer":5,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Karl-Liebknecht-Strasse 17",
             "stadt":"Buchholz in der Nordheide",
             "postleitzahl":"21244",
@@ -17345,7 +17345,7 @@ const IMMO_DATA = [
          "grundstück":943,
          "zimmer":2,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Rankestraße 25",
             "stadt":"Lenting",
             "postleitzahl":"85101",
@@ -17376,7 +17376,7 @@ const IMMO_DATA = [
          "grundstück":2232,
          "zimmer":5,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Park Str. 45",
             "stadt":"Solingen Solingen-Mitte",
             "postleitzahl":"42659",
@@ -17407,7 +17407,7 @@ const IMMO_DATA = [
          "grundstück":2452,
          "zimmer":2,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Koenigstrasse 42",
             "stadt":"Weimar",
             "postleitzahl":"99407",
@@ -17438,7 +17438,7 @@ const IMMO_DATA = [
          "grundstück":1790,
          "zimmer":7,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Hoheluftchaussee 24",
             "stadt":"Großkorbetha",
             "postleitzahl":"06688",
@@ -17469,7 +17469,7 @@ const IMMO_DATA = [
          "grundstück":1896,
          "zimmer":5,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Langenhorner Chaussee 83",
             "stadt":"Weihmichl",
             "postleitzahl":"84107",
@@ -17500,7 +17500,7 @@ const IMMO_DATA = [
          "grundstück":839,
          "zimmer":5,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Wallstrasse 65",
             "stadt":"Erpel",
             "postleitzahl":"53579",
@@ -17531,7 +17531,7 @@ const IMMO_DATA = [
          "grundstück":820,
          "zimmer":2,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Ansbacher Strasse 83",
             "stadt":"Schauren",
             "postleitzahl":"55758",
@@ -17562,7 +17562,7 @@ const IMMO_DATA = [
          "grundstück":1680,
          "zimmer":2,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Park Str. 75",
             "stadt":"Solingen Ohligs/ Aufderhöhe",
             "postleitzahl":"42699",
@@ -17593,7 +17593,7 @@ const IMMO_DATA = [
          "grundstück":1312,
          "zimmer":6,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Pasewalker Straße 46",
             "stadt":"Baden-Baden",
             "postleitzahl":"76530",
@@ -17624,7 +17624,7 @@ const IMMO_DATA = [
          "grundstück":2141,
          "zimmer":5,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Leipziger Strasse 77",
             "stadt":"Gießen",
             "postleitzahl":"35390",
@@ -17655,7 +17655,7 @@ const IMMO_DATA = [
          "grundstück":334,
          "zimmer":6,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Motzstr. 41",
             "stadt":"Ockenheim",
             "postleitzahl":"55437",
@@ -17686,7 +17686,7 @@ const IMMO_DATA = [
          "grundstück":272,
          "zimmer":7,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Landhausstraße 3",
             "stadt":"Falkensee",
             "postleitzahl":"14601",
@@ -17717,7 +17717,7 @@ const IMMO_DATA = [
          "grundstück":1068,
          "zimmer":3,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Borstelmannsweg 46",
             "stadt":"Coburg",
             "postleitzahl":"96416",
@@ -17748,7 +17748,7 @@ const IMMO_DATA = [
          "grundstück":2037,
          "zimmer":2,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Lietzenburger Strasse 77",
             "stadt":"Siegburg",
             "postleitzahl":"53721",
@@ -17779,7 +17779,7 @@ const IMMO_DATA = [
          "grundstück":792,
          "zimmer":7,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Invalidenstrasse 71",
             "stadt":"Altdorf",
             "postleitzahl":"67482",
@@ -17810,7 +17810,7 @@ const IMMO_DATA = [
          "grundstück":265,
          "zimmer":2,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Reeperbahn 69",
             "stadt":"Sagard",
             "postleitzahl":"18547",
@@ -17841,7 +17841,7 @@ const IMMO_DATA = [
          "grundstück":868,
          "zimmer":7,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Schmarjestrasse 20",
             "stadt":"Dürnberg",
             "postleitzahl":"93437",
@@ -17872,7 +17872,7 @@ const IMMO_DATA = [
          "grundstück":2353,
          "zimmer":6,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Kastanienallee 26",
             "stadt":"Grauel",
             "postleitzahl":"24594",
@@ -17903,7 +17903,7 @@ const IMMO_DATA = [
          "grundstück":1173,
          "zimmer":6,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Hans-Grade-Allee 96",
             "stadt":"Wahlstedt",
             "postleitzahl":"23808",
@@ -17934,7 +17934,7 @@ const IMMO_DATA = [
          "grundstück":939,
          "zimmer":7,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Charlottenstrasse 66",
             "stadt":"Dresden",
             "postleitzahl":"01291",
@@ -17965,7 +17965,7 @@ const IMMO_DATA = [
          "grundstück":251,
          "zimmer":3,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Waßmannsdorfer Chaussee 47",
             "stadt":"Hamburg Billbrook",
             "postleitzahl":"22111",
@@ -17996,7 +17996,7 @@ const IMMO_DATA = [
          "grundstück":507,
          "zimmer":6,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Luebecker Strasse 99",
             "stadt":"Wonfurt",
             "postleitzahl":"97539",
@@ -18027,7 +18027,7 @@ const IMMO_DATA = [
          "grundstück":2235,
          "zimmer":3,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Mollstrasse 11",
             "stadt":"Taunusstein",
             "postleitzahl":"65232",
@@ -18058,7 +18058,7 @@ const IMMO_DATA = [
          "grundstück":1696,
          "zimmer":7,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Kurfürstenstraße 49",
             "stadt":"Aichelberg",
             "postleitzahl":"73101",
@@ -18089,7 +18089,7 @@ const IMMO_DATA = [
          "grundstück":877,
          "zimmer":3,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Stresemannstr. 63",
             "stadt":"St Wendel",
             "postleitzahl":"66595",
@@ -18120,7 +18120,7 @@ const IMMO_DATA = [
          "grundstück":1937,
          "zimmer":4,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Invalidenstrasse 79",
             "stadt":"Lindenberg",
             "postleitzahl":"88152",
@@ -18151,7 +18151,7 @@ const IMMO_DATA = [
          "grundstück":2075,
          "zimmer":4,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Güntzelstrasse 53",
             "stadt":"Bollendorf",
             "postleitzahl":"54669",
@@ -18182,7 +18182,7 @@ const IMMO_DATA = [
          "grundstück":1676,
          "zimmer":6,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Stuttgarter Platz 78",
             "stadt":"Horstmar",
             "postleitzahl":"48612",
@@ -18213,7 +18213,7 @@ const IMMO_DATA = [
          "grundstück":1036,
          "zimmer":4,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Joachimstaler Str. 88",
             "stadt":"Gödenroth",
             "postleitzahl":"56290",
@@ -18244,7 +18244,7 @@ const IMMO_DATA = [
          "grundstück":1437,
          "zimmer":7,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Wallstrasse 15",
             "stadt":"Wehr",
             "postleitzahl":"79664",
@@ -18275,7 +18275,7 @@ const IMMO_DATA = [
          "grundstück":1021,
          "zimmer":5,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Leipziger Straße 3",
             "stadt":"Holzen",
             "postleitzahl":"37632",
@@ -18306,7 +18306,7 @@ const IMMO_DATA = [
          "grundstück":1759,
          "zimmer":4,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Invalidenstrasse 14",
             "stadt":"Forst an der Weinstraße",
             "postleitzahl":"67147",
@@ -18337,7 +18337,7 @@ const IMMO_DATA = [
          "grundstück":1918,
          "zimmer":2,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Kieler Strasse 53",
             "stadt":"Neumarkt-Sankt Veit",
             "postleitzahl":"84491",
@@ -18368,7 +18368,7 @@ const IMMO_DATA = [
          "grundstück":1907,
          "zimmer":2,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Leipziger Straße 83",
             "stadt":"Borgentreich",
             "postleitzahl":"34434",
@@ -18399,7 +18399,7 @@ const IMMO_DATA = [
          "grundstück":1224,
          "zimmer":4,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Joachimstaler Str. 38",
             "stadt":"Hecken",
             "postleitzahl":"55481",
@@ -18430,7 +18430,7 @@ const IMMO_DATA = [
          "grundstück":633,
          "zimmer":7,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Heiligengeistbrücke 3",
             "stadt":"Sachsen",
             "postleitzahl":"91623",
@@ -18461,7 +18461,7 @@ const IMMO_DATA = [
          "grundstück":1981,
          "zimmer":4,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Kastanienallee 40",
             "stadt":"Seefeld",
             "postleitzahl":"82229",
@@ -18492,7 +18492,7 @@ const IMMO_DATA = [
          "grundstück":2376,
          "zimmer":4,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Ufnau Strasse 51",
             "stadt":"Kaufbeuren",
             "postleitzahl":"87575",
@@ -18523,7 +18523,7 @@ const IMMO_DATA = [
          "grundstück":758,
          "zimmer":3,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Augsburger Straße 11",
             "stadt":"Witten Herbede",
             "postleitzahl":"58452",
@@ -18554,7 +18554,7 @@ const IMMO_DATA = [
          "grundstück":1550,
          "zimmer":7,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Kantstrasse 26",
             "stadt":"Nürnberg",
             "postleitzahl":"90253",
@@ -18585,7 +18585,7 @@ const IMMO_DATA = [
          "grundstück":2135,
          "zimmer":6,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Eschenweg 69",
             "stadt":"Ilmenau",
             "postleitzahl":"98681",
@@ -18616,7 +18616,7 @@ const IMMO_DATA = [
          "grundstück":1764,
          "zimmer":6,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Frankfurter Allee 13",
             "stadt":"Freiburg Stadt",
             "postleitzahl":"79098",
@@ -18647,7 +18647,7 @@ const IMMO_DATA = [
          "grundstück":770,
          "zimmer":3,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Kantstraße 2",
             "stadt":"Meiningen",
             "postleitzahl":"98606",
@@ -18678,7 +18678,7 @@ const IMMO_DATA = [
          "grundstück":2182,
          "zimmer":3,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Brandenburgische Straße 15",
             "stadt":"Berlin Neukölln",
             "postleitzahl":"10961",
@@ -18709,7 +18709,7 @@ const IMMO_DATA = [
          "grundstück":2279,
          "zimmer":6,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Oldesloer Strasse 13",
             "stadt":"Schwarza",
             "postleitzahl":"98545",
@@ -18740,7 +18740,7 @@ const IMMO_DATA = [
          "grundstück":458,
          "zimmer":3,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Lietzenburger Straße 66",
             "stadt":"Lemgow",
             "postleitzahl":"29485",
@@ -18771,7 +18771,7 @@ const IMMO_DATA = [
          "grundstück":550,
          "zimmer":4,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Pohlstrasse 3",
             "stadt":"Werlaburgdorf",
             "postleitzahl":"38315",
@@ -18802,7 +18802,7 @@ const IMMO_DATA = [
          "grundstück":1275,
          "zimmer":2,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Straße der Pariser Kommune 69",
             "stadt":"Münster",
             "postleitzahl":"48153",
@@ -18833,7 +18833,7 @@ const IMMO_DATA = [
          "grundstück":1893,
          "zimmer":3,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Pasewalker Straße 98",
             "stadt":"Leutenbach",
             "postleitzahl":"71397",
@@ -18864,7 +18864,7 @@ const IMMO_DATA = [
          "grundstück":1573,
          "zimmer":3,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Anhalter Strasse 99",
             "stadt":"Bechhofen",
             "postleitzahl":"66894",
@@ -18895,7 +18895,7 @@ const IMMO_DATA = [
          "grundstück":794,
          "zimmer":4,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Hedemannstasse 17",
             "stadt":"Weil",
             "postleitzahl":"79576",
@@ -18926,7 +18926,7 @@ const IMMO_DATA = [
          "grundstück":2295,
          "zimmer":3,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Grosse Praesidenten Str. 89",
             "stadt":"Sembach",
             "postleitzahl":"67681",
@@ -18957,7 +18957,7 @@ const IMMO_DATA = [
          "grundstück":1408,
          "zimmer":3,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Hardenbergstraße 26",
             "stadt":"Kusel",
             "postleitzahl":"66869",
@@ -18988,7 +18988,7 @@ const IMMO_DATA = [
          "grundstück":496,
          "zimmer":7,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Flughafenstrasse 49",
             "stadt":"Freihung",
             "postleitzahl":"92271",
@@ -19019,7 +19019,7 @@ const IMMO_DATA = [
          "grundstück":1621,
          "zimmer":6,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Rathausstrasse 12",
             "stadt":"Fürth",
             "postleitzahl":"90727",
@@ -19050,7 +19050,7 @@ const IMMO_DATA = [
          "grundstück":1928,
          "zimmer":6,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Mühlenstrasse 7",
             "stadt":"Regensburg",
             "postleitzahl":"93059",
@@ -19081,7 +19081,7 @@ const IMMO_DATA = [
          "grundstück":801,
          "zimmer":2,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Am Borsigturm 5",
             "stadt":"Bottrop Vonderort",
             "postleitzahl":"46242",
@@ -19112,7 +19112,7 @@ const IMMO_DATA = [
          "grundstück":865,
          "zimmer":6,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Ellmenreichstrasse 69",
             "stadt":"Postbauer-Heng",
             "postleitzahl":"92353",
@@ -19143,7 +19143,7 @@ const IMMO_DATA = [
          "grundstück":1808,
          "zimmer":7,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Rohrdamm 68",
             "stadt":"Bad Salzuflen Werl-Aspe",
             "postleitzahl":"32107",
@@ -19174,7 +19174,7 @@ const IMMO_DATA = [
          "grundstück":745,
          "zimmer":4,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Karl-Liebknecht-Strasse 17",
             "stadt":"Kaltenkirchen",
             "postleitzahl":"24560",
@@ -19205,7 +19205,7 @@ const IMMO_DATA = [
          "grundstück":2288,
          "zimmer":6,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Flotowstr. 59",
             "stadt":"Köthen",
             "postleitzahl":"06352",
@@ -19236,7 +19236,7 @@ const IMMO_DATA = [
          "grundstück":1642,
          "zimmer":5,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Guentzelstrasse 2",
             "stadt":"Hofbieber",
             "postleitzahl":"36145",
@@ -19267,7 +19267,7 @@ const IMMO_DATA = [
          "grundstück":1453,
          "zimmer":2,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Budapester Strasse 30",
             "stadt":"Groß Meckelsen",
             "postleitzahl":"27419",
@@ -19298,7 +19298,7 @@ const IMMO_DATA = [
          "grundstück":715,
          "zimmer":7,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Wallstrasse 77",
             "stadt":"Bell",
             "postleitzahl":"56745",
@@ -19329,7 +19329,7 @@ const IMMO_DATA = [
          "grundstück":1125,
          "zimmer":2,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Straße der Pariser Kommune 63",
             "stadt":"Dortmund",
             "postleitzahl":"44143",
@@ -19360,7 +19360,7 @@ const IMMO_DATA = [
          "grundstück":980,
          "zimmer":2,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Brandenburgische Straße 16",
             "stadt":"Berlin Lankwitz",
             "postleitzahl":"12247",
@@ -19391,7 +19391,7 @@ const IMMO_DATA = [
          "grundstück":2351,
          "zimmer":3,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Hoheluftchaussee 75",
             "stadt":"Ablaß",
             "postleitzahl":"04769",
@@ -19422,7 +19422,7 @@ const IMMO_DATA = [
          "grundstück":1865,
          "zimmer":2,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Kantstrasse 18",
             "stadt":"Bayreuth",
             "postleitzahl":"95407",
@@ -19453,7 +19453,7 @@ const IMMO_DATA = [
          "grundstück":1219,
          "zimmer":4,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Rankestraße 39",
             "stadt":"Rohrenfels",
             "postleitzahl":"86701",
@@ -19484,7 +19484,7 @@ const IMMO_DATA = [
          "grundstück":719,
          "zimmer":3,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Ellmenreichstrasse 54",
             "stadt":"Untersteinach",
             "postleitzahl":"95369",
@@ -19515,7 +19515,7 @@ const IMMO_DATA = [
          "grundstück":2148,
          "zimmer":6,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Hollander Strasse 21",
             "stadt":"Kirchhain",
             "postleitzahl":"35274",
@@ -19546,7 +19546,7 @@ const IMMO_DATA = [
          "grundstück":978,
          "zimmer":2,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Budapester Straße 58",
             "stadt":"Mittelfischbach",
             "postleitzahl":"56370",
@@ -19577,7 +19577,7 @@ const IMMO_DATA = [
          "grundstück":2202,
          "zimmer":6,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Amsinckstrasse 68",
             "stadt":"Pulsnitz",
             "postleitzahl":"01894",
@@ -19608,7 +19608,7 @@ const IMMO_DATA = [
          "grundstück":2462,
          "zimmer":7,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Meininger Strasse 72",
             "stadt":"Neunkirchen Innenstadt",
             "postleitzahl":"66538",
@@ -19639,7 +19639,7 @@ const IMMO_DATA = [
          "grundstück":1074,
          "zimmer":2,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Fasanenstrasse 87",
             "stadt":"Hamburg Neustadt",
             "postleitzahl":"20457",
@@ -19670,7 +19670,7 @@ const IMMO_DATA = [
          "grundstück":1904,
          "zimmer":2,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Fugger Strasse 48",
             "stadt":"Potsdam",
             "postleitzahl":"14439",
@@ -19701,7 +19701,7 @@ const IMMO_DATA = [
          "grundstück":1194,
          "zimmer":5,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Marseiller Strasse 85",
             "stadt":"Garmisch-Partenkirchen",
             "postleitzahl":"82451",
@@ -19732,7 +19732,7 @@ const IMMO_DATA = [
          "grundstück":2329,
          "zimmer":6,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Bissingzeile 29",
             "stadt":"Osten",
             "postleitzahl":"21756",
@@ -19763,7 +19763,7 @@ const IMMO_DATA = [
          "grundstück":2457,
          "zimmer":5,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Koepenicker Str. 3",
             "stadt":"Weiden",
             "postleitzahl":"92603",
@@ -19794,7 +19794,7 @@ const IMMO_DATA = [
          "grundstück":958,
          "zimmer":4,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Prenzlauer Allee 36",
             "stadt":"Leipzig",
             "postleitzahl":"04111",
@@ -19825,7 +19825,7 @@ const IMMO_DATA = [
          "grundstück":1870,
          "zimmer":4,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Paderborner Strasse 19",
             "stadt":"Buchloe",
             "postleitzahl":"86807",
@@ -19856,7 +19856,7 @@ const IMMO_DATA = [
          "grundstück":2248,
          "zimmer":5,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Hedemannstasse 79",
             "stadt":"Owingen",
             "postleitzahl":"88696",
@@ -19887,7 +19887,7 @@ const IMMO_DATA = [
          "grundstück":1239,
          "zimmer":2,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Hoheluftchaussee 15",
             "stadt":"Bad Kösen",
             "postleitzahl":"06625",
@@ -19918,7 +19918,7 @@ const IMMO_DATA = [
          "grundstück":1867,
          "zimmer":5,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Kantstrasse 72",
             "stadt":"Bayreuth",
             "postleitzahl":"95411",
@@ -19949,7 +19949,7 @@ const IMMO_DATA = [
          "grundstück":1263,
          "zimmer":2,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Amsinckstrasse 74",
             "stadt":"Briesen",
             "postleitzahl":"14662",
@@ -19980,7 +19980,7 @@ const IMMO_DATA = [
          "grundstück":2399,
          "zimmer":3,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Fugger Strasse 84",
             "stadt":"Koblenz Rübenach",
             "postleitzahl":"56070",
@@ -20011,7 +20011,7 @@ const IMMO_DATA = [
          "grundstück":1324,
          "zimmer":6,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Hochstrasse 11",
             "stadt":"Wenningstedt",
             "postleitzahl":"25993",
@@ -20042,7 +20042,7 @@ const IMMO_DATA = [
          "grundstück":2364,
          "zimmer":5,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Schillerstrasse 68",
             "stadt":"Prittriching",
             "postleitzahl":"86931",
@@ -20073,7 +20073,7 @@ const IMMO_DATA = [
          "grundstück":1168,
          "zimmer":7,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Waldowstr. 31",
             "stadt":"Nordrach",
             "postleitzahl":"77787",
@@ -20104,7 +20104,7 @@ const IMMO_DATA = [
          "grundstück":1430,
          "zimmer":6,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Sömmeringstr. 23",
             "stadt":"Waldbronn",
             "postleitzahl":"76337",
@@ -20135,7 +20135,7 @@ const IMMO_DATA = [
          "grundstück":2222,
          "zimmer":6,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Hochstrasse 67",
             "stadt":"Rüde",
             "postleitzahl":"24986",
@@ -20166,7 +20166,7 @@ const IMMO_DATA = [
          "grundstück":579,
          "zimmer":6,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Landhausstraße 48",
             "stadt":"Königs Wusterhausen",
             "postleitzahl":"15701",
@@ -20197,7 +20197,7 @@ const IMMO_DATA = [
          "grundstück":1074,
          "zimmer":2,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Hollander Strasse 51",
             "stadt":"Oberschlettenbach",
             "postleitzahl":"76889",
@@ -20228,7 +20228,7 @@ const IMMO_DATA = [
          "grundstück":1876,
          "zimmer":5,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Luckenwalder Strasse 13",
             "stadt":"Holle",
             "postleitzahl":"31188",
@@ -20259,7 +20259,7 @@ const IMMO_DATA = [
          "grundstück":1609,
          "zimmer":4,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Ollenhauer Str. 89",
             "stadt":"Stuttgart Rot",
             "postleitzahl":"70435",
@@ -20290,7 +20290,7 @@ const IMMO_DATA = [
          "grundstück":1270,
          "zimmer":5,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Joachimstaler Str. 35",
             "stadt":"Loreleystadt Sankt Goarshausen",
             "postleitzahl":"56346",
@@ -20321,7 +20321,7 @@ const IMMO_DATA = [
          "grundstück":1911,
          "zimmer":7,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Alt Reinickendorf 69",
             "stadt":"Fischen",
             "postleitzahl":"87536",
@@ -20352,7 +20352,7 @@ const IMMO_DATA = [
          "grundstück":997,
          "zimmer":4,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Luetzowplatz 15",
             "stadt":"Nattenheim",
             "postleitzahl":"54636",
@@ -20383,7 +20383,7 @@ const IMMO_DATA = [
          "grundstück":1406,
          "zimmer":2,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"An der Schillingbrucke 50",
             "stadt":"Breitingen",
             "postleitzahl":"89183",
@@ -20414,7 +20414,7 @@ const IMMO_DATA = [
          "grundstück":1818,
          "zimmer":7,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Schillerstrasse 45",
             "stadt":"Geltendorf",
             "postleitzahl":"82267",
@@ -20445,7 +20445,7 @@ const IMMO_DATA = [
          "grundstück":1584,
          "zimmer":6,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Ollenhauer Str. 70",
             "stadt":"Stuttgart West",
             "postleitzahl":"70178",
@@ -20476,7 +20476,7 @@ const IMMO_DATA = [
          "grundstück":478,
          "zimmer":5,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Oldesloer Strasse 39",
             "stadt":"Lichte",
             "postleitzahl":"98736",
@@ -20507,7 +20507,7 @@ const IMMO_DATA = [
          "grundstück":1859,
          "zimmer":6,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Fischerinsel 67",
             "stadt":"Viersen Bockert",
             "postleitzahl":"41748",
@@ -20538,7 +20538,7 @@ const IMMO_DATA = [
          "grundstück":535,
          "zimmer":6,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Michaelkirchstr. 4",
             "stadt":"Knüllwald",
             "postleitzahl":"34593",
@@ -20569,7 +20569,7 @@ const IMMO_DATA = [
          "grundstück":305,
          "zimmer":4,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Heinrich Heine Platz 76",
             "stadt":"Gotha",
             "postleitzahl":"99851",
@@ -20600,7 +20600,7 @@ const IMMO_DATA = [
          "grundstück":1288,
          "zimmer":7,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Heiligengeistbrücke 20",
             "stadt":"Uffenheim",
             "postleitzahl":"97210",
@@ -20631,7 +20631,7 @@ const IMMO_DATA = [
          "grundstück":591,
          "zimmer":4,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Joachimstaler Str. 8",
             "stadt":"Henau",
             "postleitzahl":"55490",
@@ -20662,7 +20662,7 @@ const IMMO_DATA = [
          "grundstück":752,
          "zimmer":4,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Eichendorffstr. 34",
             "stadt":"Rottenburg",
             "postleitzahl":"84052",
@@ -20693,7 +20693,7 @@ const IMMO_DATA = [
          "grundstück":1489,
          "zimmer":7,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Rudower Strasse 63",
             "stadt":"Emmelbaum",
             "postleitzahl":"54673",
@@ -20724,7 +20724,7 @@ const IMMO_DATA = [
          "grundstück":359,
          "zimmer":6,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Bleibtreustrasse 17",
             "stadt":"Dörentrup",
             "postleitzahl":"32694",
@@ -20755,7 +20755,7 @@ const IMMO_DATA = [
          "grundstück":1712,
          "zimmer":3,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Kurfürstendamm 50",
             "stadt":"Zwickau",
             "postleitzahl":"08001",
@@ -20786,7 +20786,7 @@ const IMMO_DATA = [
          "grundstück":2405,
          "zimmer":3,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Waldowstr. 89",
             "stadt":"Waakirchen",
             "postleitzahl":"83666",
@@ -20817,7 +20817,7 @@ const IMMO_DATA = [
          "grundstück":2104,
          "zimmer":6,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Heiligengeistbrücke 8",
             "stadt":"Colmberg",
             "postleitzahl":"91598",
@@ -20848,7 +20848,7 @@ const IMMO_DATA = [
          "grundstück":2489,
          "zimmer":3,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Am Borsigturm 32",
             "stadt":"Neuss Furth-Süd",
             "postleitzahl":"41462",
@@ -20879,7 +20879,7 @@ const IMMO_DATA = [
          "grundstück":1952,
          "zimmer":7,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Wallstrasse 91",
             "stadt":"Anhausen",
             "postleitzahl":"56584",
@@ -20910,7 +20910,7 @@ const IMMO_DATA = [
          "grundstück":801,
          "zimmer":4,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Rankestraße 23",
             "stadt":"Berching",
             "postleitzahl":"92334",
@@ -20941,7 +20941,7 @@ const IMMO_DATA = [
          "grundstück":773,
          "zimmer":7,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Meininger Strasse 16",
             "stadt":"Langweiler",
             "postleitzahl":"67746",
@@ -20972,7 +20972,7 @@ const IMMO_DATA = [
          "grundstück":1311,
          "zimmer":5,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Paul-Nevermann-Platz 39",
             "stadt":"Schweinfurt",
             "postleitzahl":"97405",
@@ -21003,7 +21003,7 @@ const IMMO_DATA = [
          "grundstück":555,
          "zimmer":7,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Augsburger Straße 59",
             "stadt":"Holzwickede",
             "postleitzahl":"59439",
@@ -21034,7 +21034,7 @@ const IMMO_DATA = [
          "grundstück":1541,
          "zimmer":4,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Kantstrasse 73",
             "stadt":"Nürnberg",
             "postleitzahl":"90431",
@@ -21065,7 +21065,7 @@ const IMMO_DATA = [
          "grundstück":622,
          "zimmer":7,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Gruenauer Strasse 60",
             "stadt":"Gödenstorf",
             "postleitzahl":"21376",
@@ -21096,7 +21096,7 @@ const IMMO_DATA = [
          "grundstück":296,
          "zimmer":3,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Luckenwalder Strasse 20",
             "stadt":"Sibbesse",
             "postleitzahl":"31079",
@@ -21127,7 +21127,7 @@ const IMMO_DATA = [
          "grundstück":396,
          "zimmer":6,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"An Der Urania 42",
             "stadt":"Elisabeth-Sophien-Koog",
             "postleitzahl":"25845",
@@ -21158,7 +21158,7 @@ const IMMO_DATA = [
          "grundstück":2338,
          "zimmer":3,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Genslerstraße 97",
             "stadt":"Berlin Schmargendorf",
             "postleitzahl":"14195",
@@ -21189,7 +21189,7 @@ const IMMO_DATA = [
          "grundstück":1630,
          "zimmer":6,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Gotzkowskystrasse 36",
             "stadt":"Schmitt",
             "postleitzahl":"56825",
@@ -21220,7 +21220,7 @@ const IMMO_DATA = [
          "grundstück":681,
          "zimmer":2,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Schillerstrasse 28",
             "stadt":"Neufahrn",
             "postleitzahl":"85375",
@@ -21251,7 +21251,7 @@ const IMMO_DATA = [
          "grundstück":1813,
          "zimmer":7,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Alt Reinickendorf 23",
             "stadt":"Bonstetten",
             "postleitzahl":"86486",
@@ -21282,7 +21282,7 @@ const IMMO_DATA = [
          "grundstück":2318,
          "zimmer":3,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Meininger Strasse 71",
             "stadt":"Merchweiler",
             "postleitzahl":"66584",
@@ -21313,7 +21313,7 @@ const IMMO_DATA = [
          "grundstück":2183,
          "zimmer":7,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Neue Roßstr. 64",
             "stadt":"Saarbrücken Burbach",
             "postleitzahl":"66113",
@@ -21344,7 +21344,7 @@ const IMMO_DATA = [
          "grundstück":2254,
          "zimmer":7,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Ansbacher Strasse 19",
             "stadt":"Blankenrath",
             "postleitzahl":"56865",
@@ -21375,7 +21375,7 @@ const IMMO_DATA = [
          "grundstück":2206,
          "zimmer":2,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Straße der Pariser Kommune 50",
             "stadt":"Köln Lindenthal",
             "postleitzahl":"50931",
@@ -21406,7 +21406,7 @@ const IMMO_DATA = [
          "grundstück":459,
          "zimmer":3,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Nuernbergerstrasse 1",
             "stadt":"Ahrensbök",
             "postleitzahl":"23621",
@@ -21437,7 +21437,7 @@ const IMMO_DATA = [
          "grundstück":538,
          "zimmer":3,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Guentzelstrasse 8",
             "stadt":"Grebenhain",
             "postleitzahl":"36355",
@@ -21468,7 +21468,7 @@ const IMMO_DATA = [
          "grundstück":1906,
          "zimmer":3,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Nuernbergerstrasse 78",
             "stadt":"Berne",
             "postleitzahl":"27804",
@@ -21499,7 +21499,7 @@ const IMMO_DATA = [
          "grundstück":1466,
          "zimmer":6,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Heinrich Heine Platz 51",
             "stadt":"Nordhausen",
             "postleitzahl":"99723",
@@ -21530,7 +21530,7 @@ const IMMO_DATA = [
          "grundstück":1604,
          "zimmer":3,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Hans-Grade-Allee 49",
             "stadt":"Hüttblek",
             "postleitzahl":"24641",
@@ -21561,7 +21561,7 @@ const IMMO_DATA = [
          "grundstück":970,
          "zimmer":6,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Budapester Straße 48",
             "stadt":"Bischoffen",
             "postleitzahl":"35649",
@@ -21592,7 +21592,7 @@ const IMMO_DATA = [
          "grundstück":1536,
          "zimmer":2,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Rosenstrasse 1",
             "stadt":"München",
             "postleitzahl":"81375",
@@ -21623,7 +21623,7 @@ const IMMO_DATA = [
          "grundstück":168,
          "zimmer":4,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Gotzkowskystraße 91",
             "stadt":"Wachtendonk",
             "postleitzahl":"47669",
@@ -21654,7 +21654,7 @@ const IMMO_DATA = [
          "grundstück":1543,
          "zimmer":4,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Reeperbahn 21",
             "stadt":"Klingenthal",
             "postleitzahl":"08242",
@@ -21685,7 +21685,7 @@ const IMMO_DATA = [
          "grundstück":944,
          "zimmer":3,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Hochstrasse 62",
             "stadt":"Hörup",
             "postleitzahl":"24980",
@@ -21716,7 +21716,7 @@ const IMMO_DATA = [
          "grundstück":595,
          "zimmer":7,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Hallesches Ufer 9",
             "stadt":"Grafenau",
             "postleitzahl":"94476",
@@ -21747,7 +21747,7 @@ const IMMO_DATA = [
          "grundstück":1752,
          "zimmer":2,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Rosenstrasse 47",
             "stadt":"München",
             "postleitzahl":"81312",
@@ -21778,7 +21778,7 @@ const IMMO_DATA = [
          "grundstück":555,
          "zimmer":7,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Potsdamer Platz 77",
             "stadt":"Wasserburg",
             "postleitzahl":"88140",
@@ -21809,7 +21809,7 @@ const IMMO_DATA = [
          "grundstück":2033,
          "zimmer":6,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Straße der Pariser Kommune 51",
             "stadt":"Dortmund",
             "postleitzahl":"44149",
@@ -21840,7 +21840,7 @@ const IMMO_DATA = [
          "grundstück":2188,
          "zimmer":4,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Chausseestr. 3",
             "stadt":"Pinneberg",
             "postleitzahl":"25403",
@@ -21871,7 +21871,7 @@ const IMMO_DATA = [
          "grundstück":502,
          "zimmer":5,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Jahnstrasse 82",
             "stadt":"Aying",
             "postleitzahl":"85653",
@@ -21902,7 +21902,7 @@ const IMMO_DATA = [
          "grundstück":2399,
          "zimmer":5,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Kurfuerstendamm 29",
             "stadt":"München",
             "postleitzahl":"80032",
@@ -21933,7 +21933,7 @@ const IMMO_DATA = [
          "grundstück":1269,
          "zimmer":5,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Meinekestraße 53",
             "stadt":"Göttingen",
             "postleitzahl":"37085",
@@ -21964,7 +21964,7 @@ const IMMO_DATA = [
          "grundstück":160,
          "zimmer":5,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Buelowstrasse 47",
             "stadt":"Boos",
             "postleitzahl":"87737",
@@ -21995,7 +21995,7 @@ const IMMO_DATA = [
          "grundstück":1551,
          "zimmer":2,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Brandenburgische Straße 49",
             "stadt":"Berlin Hohenschönhausen",
             "postleitzahl":"13051",
@@ -22026,7 +22026,7 @@ const IMMO_DATA = [
          "grundstück":1966,
          "zimmer":6,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Koepenicker Str. 84",
             "stadt":"Börfink",
             "postleitzahl":"54422",
@@ -22057,7 +22057,7 @@ const IMMO_DATA = [
          "grundstück":1739,
          "zimmer":5,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Prenzlauer Allee 39",
             "stadt":"Leipzig",
             "postleitzahl":"04157",
@@ -22088,7 +22088,7 @@ const IMMO_DATA = [
          "grundstück":1833,
          "zimmer":4,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Boxhagener Str. 82",
             "stadt":"Hamburg Groß Borstel",
             "postleitzahl":"22453",
@@ -22119,7 +22119,7 @@ const IMMO_DATA = [
          "grundstück":211,
          "zimmer":6,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Potsdamer Platz 9",
             "stadt":"Lindau",
             "postleitzahl":"88115",
@@ -22150,7 +22150,7 @@ const IMMO_DATA = [
          "grundstück":354,
          "zimmer":5,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Budapester Strasse 91",
             "stadt":"Bahrenborstel",
             "postleitzahl":"27245",
@@ -22181,7 +22181,7 @@ const IMMO_DATA = [
          "grundstück":1349,
          "zimmer":5,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Kantstraße 68",
             "stadt":"Elterlein",
             "postleitzahl":"09481",
@@ -22212,7 +22212,7 @@ const IMMO_DATA = [
          "grundstück":757,
          "zimmer":5,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Fontenay 14",
             "stadt":"Neuenmarkt",
             "postleitzahl":"95339",
@@ -22243,7 +22243,7 @@ const IMMO_DATA = [
          "grundstück":2403,
          "zimmer":2,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Brandenburgische Str. 20",
             "stadt":"Asperg",
             "postleitzahl":"71679",
@@ -22274,7 +22274,7 @@ const IMMO_DATA = [
          "grundstück":2244,
          "zimmer":2,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Budapester Strasse 48",
             "stadt":"Westensee",
             "postleitzahl":"24259",
@@ -22305,7 +22305,7 @@ const IMMO_DATA = [
          "grundstück":413,
          "zimmer":3,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Alsterkrugchaussee 57",
             "stadt":"Lauf",
             "postleitzahl":"91194",
@@ -22336,7 +22336,7 @@ const IMMO_DATA = [
          "grundstück":662,
          "zimmer":2,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Hollander Strasse 26",
             "stadt":"Rumbach",
             "postleitzahl":"76891",
@@ -22367,7 +22367,7 @@ const IMMO_DATA = [
          "grundstück":1271,
          "zimmer":5,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Straße der Pariser Kommune 79",
             "stadt":"Dortmund",
             "postleitzahl":"44149",
@@ -22398,7 +22398,7 @@ const IMMO_DATA = [
          "grundstück":677,
          "zimmer":6,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Storkower Strasse 1",
             "stadt":"Oberhaid",
             "postleitzahl":"56237",
@@ -22429,7 +22429,7 @@ const IMMO_DATA = [
          "grundstück":727,
          "zimmer":5,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Messedamm 78",
             "stadt":"Dresden",
             "postleitzahl":"01099",
@@ -22460,7 +22460,7 @@ const IMMO_DATA = [
          "grundstück":978,
          "zimmer":4,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Schaarsteinweg 50",
             "stadt":"Leiblfing",
             "postleitzahl":"94339",
@@ -22491,7 +22491,7 @@ const IMMO_DATA = [
          "grundstück":1868,
          "zimmer":4,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Rosenstrasse 45",
             "stadt":"München",
             "postleitzahl":"81671",
@@ -22522,7 +22522,7 @@ const IMMO_DATA = [
          "grundstück":1285,
          "zimmer":4,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Landsberger Allee 77",
             "stadt":"München",
             "postleitzahl":"80506",
@@ -22553,7 +22553,7 @@ const IMMO_DATA = [
          "grundstück":1578,
          "zimmer":5,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Michaelkirchstr. 20",
             "stadt":"Bad Arolsen",
             "postleitzahl":"34454",
@@ -22584,7 +22584,7 @@ const IMMO_DATA = [
          "grundstück":2438,
          "zimmer":2,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Waldowstr. 47",
             "stadt":"Rheinau",
             "postleitzahl":"77866",
@@ -22615,7 +22615,7 @@ const IMMO_DATA = [
          "grundstück":359,
          "zimmer":3,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"An der Alster 52",
             "stadt":"Langenhagen",
             "postleitzahl":"30855",
@@ -22646,7 +22646,7 @@ const IMMO_DATA = [
          "grundstück":555,
          "zimmer":4,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Marseiller Strasse 28",
             "stadt":"Wessobrunn",
             "postleitzahl":"82405",
@@ -22677,7 +22677,7 @@ const IMMO_DATA = [
          "grundstück":1775,
          "zimmer":5,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Alt-Moabit 99",
             "stadt":"Oschatz",
             "postleitzahl":"04752",
@@ -22708,7 +22708,7 @@ const IMMO_DATA = [
          "grundstück":276,
          "zimmer":7,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Pasewalker Straße 69",
             "stadt":"Rheinmünster",
             "postleitzahl":"77836",
@@ -22739,7 +22739,7 @@ const IMMO_DATA = [
          "grundstück":1664,
          "zimmer":5,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"An Der Urania 5",
             "stadt":"Itzehoe",
             "postleitzahl":"25506",
@@ -22770,7 +22770,7 @@ const IMMO_DATA = [
          "grundstück":1181,
          "zimmer":5,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Oldesloer Strasse 20",
             "stadt":"Lauscha",
             "postleitzahl":"98734",
@@ -22801,7 +22801,7 @@ const IMMO_DATA = [
          "grundstück":2276,
          "zimmer":4,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Chausseestr. 12",
             "stadt":"Malchin",
             "postleitzahl":"17131",
@@ -22832,7 +22832,7 @@ const IMMO_DATA = [
          "grundstück":1031,
          "zimmer":3,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Koenigstrasse 23",
             "stadt":"Blankenburg",
             "postleitzahl":"38883",
@@ -22863,7 +22863,7 @@ const IMMO_DATA = [
          "grundstück":1470,
          "zimmer":7,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Wallstrasse 26",
             "stadt":"Rheinbrohl",
             "postleitzahl":"56598",
@@ -22894,7 +22894,7 @@ const IMMO_DATA = [
          "grundstück":321,
          "zimmer":3,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Luebecker Strasse 36",
             "stadt":"Schmidmühlen",
             "postleitzahl":"92287",
@@ -22925,7 +22925,7 @@ const IMMO_DATA = [
          "grundstück":339,
          "zimmer":4,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Potsdamer Platz 28",
             "stadt":"Wellheim",
             "postleitzahl":"91809",
@@ -22956,7 +22956,7 @@ const IMMO_DATA = [
          "grundstück":576,
          "zimmer":4,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Nuernbergerstrasse 18",
             "stadt":"Colnrade",
             "postleitzahl":"27243",
@@ -22987,7 +22987,7 @@ const IMMO_DATA = [
          "grundstück":992,
          "zimmer":2,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Rohrdamm 15",
             "stadt":"Herford Innenstadt",
             "postleitzahl":"32051",
@@ -23018,7 +23018,7 @@ const IMMO_DATA = [
          "grundstück":854,
          "zimmer":3,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Rohrdamm 11",
             "stadt":"Schneverdingen",
             "postleitzahl":"29640",
@@ -23049,7 +23049,7 @@ const IMMO_DATA = [
          "grundstück":154,
          "zimmer":5,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Lützowplatz 39",
             "stadt":"Saarburg",
             "postleitzahl":"54439",
@@ -23080,7 +23080,7 @@ const IMMO_DATA = [
          "grundstück":553,
          "zimmer":2,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Schoenebergerstrasse 47",
             "stadt":"Dorf Mecklenburg",
             "postleitzahl":"23972",
@@ -23111,7 +23111,7 @@ const IMMO_DATA = [
          "grundstück":236,
          "zimmer":4,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"An der Alster 93",
             "stadt":"Brüel",
             "postleitzahl":"19410",
@@ -23142,7 +23142,7 @@ const IMMO_DATA = [
          "grundstück":2364,
          "zimmer":5,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Marseiller Strasse 10",
             "stadt":"Herrngiersdorf",
             "postleitzahl":"84097",
@@ -23173,7 +23173,7 @@ const IMMO_DATA = [
          "grundstück":2020,
          "zimmer":6,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Bleibtreustraße 5",
             "stadt":"Gütenbach",
             "postleitzahl":"78148",
@@ -23204,7 +23204,7 @@ const IMMO_DATA = [
          "grundstück":465,
          "zimmer":7,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Invalidenstrasse 82",
             "stadt":"Lindenberg",
             "postleitzahl":"67473",
@@ -23235,7 +23235,7 @@ const IMMO_DATA = [
          "grundstück":1502,
          "zimmer":3,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"An der Alster 74",
             "stadt":"Gommern",
             "postleitzahl":"39242",
@@ -23266,7 +23266,7 @@ const IMMO_DATA = [
          "grundstück":1463,
          "zimmer":5,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Rudower Strasse 7",
             "stadt":"Feuerscheid",
             "postleitzahl":"54597",
@@ -23297,7 +23297,7 @@ const IMMO_DATA = [
          "grundstück":1909,
          "zimmer":3,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Brandenburgische Str 89",
             "stadt":"Weiler bei Monzingen",
             "postleitzahl":"55627",
@@ -23328,7 +23328,7 @@ const IMMO_DATA = [
          "grundstück":1723,
          "zimmer":2,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Amsinckstrasse 91",
             "stadt":"Arnsdorf",
             "postleitzahl":"02633",
@@ -23359,7 +23359,7 @@ const IMMO_DATA = [
          "grundstück":2428,
          "zimmer":5,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Heinrich Heine Platz 41",
             "stadt":"Heilbad Heiligenstadt",
             "postleitzahl":"37301",
@@ -23390,7 +23390,7 @@ const IMMO_DATA = [
          "grundstück":1402,
          "zimmer":7,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Mollstrasse 43",
             "stadt":"Darmstadt",
             "postleitzahl":"64295",
@@ -23421,7 +23421,7 @@ const IMMO_DATA = [
          "grundstück":1951,
          "zimmer":2,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Brandenburgische Str 4",
             "stadt":"Kratzenburg",
             "postleitzahl":"56283",
@@ -23452,7 +23452,7 @@ const IMMO_DATA = [
          "grundstück":498,
          "zimmer":2,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Potsdamer Platz 25",
             "stadt":"Wasserburg",
             "postleitzahl":"88142",
@@ -23483,7 +23483,7 @@ const IMMO_DATA = [
          "grundstück":2185,
          "zimmer":2,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Schoenebergerstrasse 59",
             "stadt":"Grünhain",
             "postleitzahl":"08356",
@@ -23514,7 +23514,7 @@ const IMMO_DATA = [
          "grundstück":2483,
          "zimmer":7,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Kurfürstenstraße 44",
             "stadt":"Magstadt",
             "postleitzahl":"71106",
@@ -23545,7 +23545,7 @@ const IMMO_DATA = [
          "grundstück":452,
          "zimmer":7,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"An der Alster 5",
             "stadt":"Boizenburg",
             "postleitzahl":"19251",
@@ -23576,7 +23576,7 @@ const IMMO_DATA = [
          "grundstück":1501,
          "zimmer":5,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Straße der Pariser Kommune 4",
             "stadt":"Münster",
             "postleitzahl":"48151",
@@ -23607,7 +23607,7 @@ const IMMO_DATA = [
          "grundstück":503,
          "zimmer":5,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Reeperbahn 34",
             "stadt":"Neubukow",
             "postleitzahl":"18231",
@@ -23638,7 +23638,7 @@ const IMMO_DATA = [
          "grundstück":341,
          "zimmer":4,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Schönhauser Allee 71",
             "stadt":"Villingen-Schwenningen Zollhaus",
             "postleitzahl":"78052",
@@ -23669,7 +23669,7 @@ const IMMO_DATA = [
          "grundstück":1035,
          "zimmer":4,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Luckenwalder Strasse 97",
             "stadt":"Landesbergen",
             "postleitzahl":"31628",
@@ -23700,7 +23700,7 @@ const IMMO_DATA = [
          "grundstück":1555,
          "zimmer":4,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Paul-Nevermann-Platz 40",
             "stadt":"Wildflecken",
             "postleitzahl":"97772",
@@ -23731,7 +23731,7 @@ const IMMO_DATA = [
          "grundstück":1415,
          "zimmer":5,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Brandenburgische Strasse 80",
             "stadt":"Bad Bergzabern",
             "postleitzahl":"76887",
@@ -23762,7 +23762,7 @@ const IMMO_DATA = [
          "grundstück":322,
          "zimmer":2,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Straße der Pariser Kommune 96",
             "stadt":"Bonn",
             "postleitzahl":"53173",
@@ -23793,7 +23793,7 @@ const IMMO_DATA = [
          "grundstück":1149,
          "zimmer":7,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Amsinckstrasse 3",
             "stadt":"Hermsdorf",
             "postleitzahl":"07629",
@@ -23824,7 +23824,7 @@ const IMMO_DATA = [
          "grundstück":876,
          "zimmer":3,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Landsberger Allee 7",
             "stadt":"München",
             "postleitzahl":"80063",
@@ -23855,7 +23855,7 @@ const IMMO_DATA = [
          "grundstück":1215,
          "zimmer":5,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Pappelallee 72",
             "stadt":"Vacha",
             "postleitzahl":"36401",
@@ -23886,7 +23886,7 @@ const IMMO_DATA = [
          "grundstück":654,
          "zimmer":4,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Büsingstrasse 62",
             "stadt":"Wörth",
             "postleitzahl":"85457",
@@ -23917,7 +23917,7 @@ const IMMO_DATA = [
          "grundstück":1320,
          "zimmer":2,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Ansbacher Strasse 47",
             "stadt":"Raversbeuren",
             "postleitzahl":"56850",
@@ -23948,7 +23948,7 @@ const IMMO_DATA = [
          "grundstück":2129,
          "zimmer":2,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Schoenebergerstrasse 26",
             "stadt":"Schlema",
             "postleitzahl":"08298",
@@ -23979,7 +23979,7 @@ const IMMO_DATA = [
          "grundstück":288,
          "zimmer":3,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Schoenebergerstrasse 18",
             "stadt":"Schönberg",
             "postleitzahl":"54426",
@@ -24010,7 +24010,7 @@ const IMMO_DATA = [
          "grundstück":2452,
          "zimmer":6,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Michaelkirchstr. 93",
             "stadt":"Körle",
             "postleitzahl":"34327",
@@ -24041,7 +24041,7 @@ const IMMO_DATA = [
          "grundstück":1757,
          "zimmer":4,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"An der Alster 45",
             "stadt":"Neustrelitz",
             "postleitzahl":"17230",
@@ -24072,7 +24072,7 @@ const IMMO_DATA = [
          "grundstück":549,
          "zimmer":2,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Büsingstrasse 94",
             "stadt":"Grasbrunn",
             "postleitzahl":"85630",
@@ -24103,7 +24103,7 @@ const IMMO_DATA = [
          "grundstück":1541,
          "zimmer":6,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Frankfurter Allee 32",
             "stadt":"Karlsruhe Beiertheim-Bulach",
             "postleitzahl":"76185",
@@ -24134,7 +24134,7 @@ const IMMO_DATA = [
          "grundstück":2077,
          "zimmer":6,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Schoenebergerstrasse 82",
             "stadt":"Crimmitschau",
             "postleitzahl":"08451",
@@ -24165,7 +24165,7 @@ const IMMO_DATA = [
          "grundstück":191,
          "zimmer":2,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Invalidenstrasse 88",
             "stadt":"Friedelsheim",
             "postleitzahl":"67159",
@@ -24196,7 +24196,7 @@ const IMMO_DATA = [
          "grundstück":2445,
          "zimmer":6,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Augsburger Straße 90",
             "stadt":"Lüdenscheid Hellersen",
             "postleitzahl":"58515",
@@ -24227,7 +24227,7 @@ const IMMO_DATA = [
          "grundstück":1219,
          "zimmer":5,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Borstelmannsweg 84",
             "stadt":"Altenstadt",
             "postleitzahl":"92662",
@@ -24258,7 +24258,7 @@ const IMMO_DATA = [
          "grundstück":212,
          "zimmer":7,
          "badezimmer":3,
-         "addresse":{
+         "adresse":{
             "straße":"Invalidenstrasse 34",
             "stadt":"Lindenberg",
             "postleitzahl":"88151",
@@ -24289,7 +24289,7 @@ const IMMO_DATA = [
          "grundstück":1765,
          "zimmer":3,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Lietzensee-Ufer 49",
             "stadt":"Schwarze Pumpe",
             "postleitzahl":"03139",
@@ -24320,7 +24320,7 @@ const IMMO_DATA = [
          "grundstück":2158,
          "zimmer":3,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Budapester Straße 27",
             "stadt":"Thomm",
             "postleitzahl":"54317",
@@ -24351,7 +24351,7 @@ const IMMO_DATA = [
          "grundstück":709,
          "zimmer":6,
          "badezimmer":1,
-         "addresse":{
+         "adresse":{
             "straße":"Mohrenstrasse 28",
             "stadt":"Bösingen",
             "postleitzahl":"78662",
@@ -24382,7 +24382,7 @@ const IMMO_DATA = [
          "grundstück":969,
          "zimmer":5,
          "badezimmer":4,
-         "addresse":{
+         "adresse":{
             "straße":"Fischerinsel 41",
             "stadt":"Viersen Robend",
             "postleitzahl":"41748",
@@ -24413,7 +24413,7 @@ const IMMO_DATA = [
          "grundstück":1622,
          "zimmer":7,
          "badezimmer":2,
-         "addresse":{
+         "adresse":{
             "straße":"Stresemannstr. 30",
             "stadt":"Saarlouis",
             "postleitzahl":"66740",
@@ -24443,7 +24443,7 @@ const IMMO_DATA = [
       "wohnfläche":442,
       "zimmer":6,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Kastanienallee 8",
       "stadt":"Lunden",
       "postleitzahl":"25772",
@@ -24473,7 +24473,7 @@ const IMMO_DATA = [
       "wohnfläche":204,
       "zimmer":6,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Marseiller Strasse 26",
       "stadt":"Mertingen",
       "postleitzahl":"86690",
@@ -24503,7 +24503,7 @@ const IMMO_DATA = [
       "wohnfläche":213,
       "zimmer":6,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Joachimstaler Str. 37",
       "stadt":"Auel",
       "postleitzahl":"56357",
@@ -24533,7 +24533,7 @@ const IMMO_DATA = [
       "wohnfläche":534,
       "zimmer":7,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Brandenburgische Straße 27",
       "stadt":"Berlin Marienfelde",
       "postleitzahl":"12279",
@@ -24563,7 +24563,7 @@ const IMMO_DATA = [
       "wohnfläche":268,
       "zimmer":4,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Gotzkowskystrasse 44",
       "stadt":"Liebenscheid",
       "postleitzahl":"56479",
@@ -24593,7 +24593,7 @@ const IMMO_DATA = [
       "wohnfläche":296,
       "zimmer":4,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Anhalter Strasse 55",
       "stadt":"Reipoltskirchen",
       "postleitzahl":"67753",
@@ -24623,7 +24623,7 @@ const IMMO_DATA = [
       "wohnfläche":273,
       "zimmer":6,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Schönhauser Allee 22",
       "stadt":"Brigachtal",
       "postleitzahl":"78086",
@@ -24653,7 +24653,7 @@ const IMMO_DATA = [
       "wohnfläche":408,
       "zimmer":5,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Gotzkowskystraße 40",
       "stadt":"Möhnesee",
       "postleitzahl":"59519",
@@ -24683,7 +24683,7 @@ const IMMO_DATA = [
       "wohnfläche":235,
       "zimmer":5,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Schoenebergerstrasse 10",
       "stadt":"Schwarzenberg",
       "postleitzahl":"08335",
@@ -24713,7 +24713,7 @@ const IMMO_DATA = [
       "wohnfläche":351,
       "zimmer":7,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Landsberger Allee 2",
       "stadt":"München",
       "postleitzahl":"80558",
@@ -24743,7 +24743,7 @@ const IMMO_DATA = [
       "wohnfläche":317,
       "zimmer":2,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Alter Wall 3",
       "stadt":"Giebelstadt",
       "postleitzahl":"97231",
@@ -24773,7 +24773,7 @@ const IMMO_DATA = [
       "wohnfläche":139,
       "zimmer":2,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Michaelkirchstr. 78",
       "stadt":"Lindhorst",
       "postleitzahl":"31698",
@@ -24803,7 +24803,7 @@ const IMMO_DATA = [
       "wohnfläche":359,
       "zimmer":3,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Leipziger Strasse 81",
       "stadt":"Bielefeld Vilsendorf",
       "postleitzahl":"33739",
@@ -24833,7 +24833,7 @@ const IMMO_DATA = [
       "wohnfläche":286,
       "zimmer":6,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Joachimstaler Str. 41",
       "stadt":"Auel",
       "postleitzahl":"56357",
@@ -24863,7 +24863,7 @@ const IMMO_DATA = [
       "wohnfläche":127,
       "zimmer":6,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Budapester Straße 11",
       "stadt":"Villmar",
       "postleitzahl":"65606",
@@ -24893,7 +24893,7 @@ const IMMO_DATA = [
       "wohnfläche":596,
       "zimmer":4,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Fontenay 79",
       "stadt":"Marktleuthen",
       "postleitzahl":"95164",
@@ -24923,7 +24923,7 @@ const IMMO_DATA = [
       "wohnfläche":574,
       "zimmer":5,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Los-Angeles-Platz 8",
       "stadt":"Hamburg Sülldorf",
       "postleitzahl":"22589",
@@ -24953,7 +24953,7 @@ const IMMO_DATA = [
       "wohnfläche":103,
       "zimmer":5,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Jahnstrasse 35",
       "stadt":"Rechtmehring",
       "postleitzahl":"83562",
@@ -24983,7 +24983,7 @@ const IMMO_DATA = [
       "wohnfläche":318,
       "zimmer":5,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Ruschestrasse 3",
       "stadt":"Parchim",
       "postleitzahl":"19362",
@@ -25013,7 +25013,7 @@ const IMMO_DATA = [
       "wohnfläche":322,
       "zimmer":2,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Invalidenstrasse 75",
       "stadt":"Petersberg",
       "postleitzahl":"36100",
@@ -25043,7 +25043,7 @@ const IMMO_DATA = [
       "wohnfläche":290,
       "zimmer":6,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Mellingburgredder 77",
       "stadt":"Erlangen",
       "postleitzahl":"91058",
@@ -25073,7 +25073,7 @@ const IMMO_DATA = [
       "wohnfläche":572,
       "zimmer":7,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Brandenburgische Straße 87",
       "stadt":"Berlin Marienfelde",
       "postleitzahl":"12307",
@@ -25103,7 +25103,7 @@ const IMMO_DATA = [
       "wohnfläche":375,
       "zimmer":2,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Los-Angeles-Platz 75",
       "stadt":"Braunschweig",
       "postleitzahl":"38124",
@@ -25133,7 +25133,7 @@ const IMMO_DATA = [
       "wohnfläche":577,
       "zimmer":2,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Stresemannstr. 68",
       "stadt":"Saarwellingen",
       "postleitzahl":"66793",
@@ -25163,7 +25163,7 @@ const IMMO_DATA = [
       "wohnfläche":250,
       "zimmer":2,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Boxhagener Str. 18",
       "stadt":"Hamburg Hummelsbüttel",
       "postleitzahl":"22415",
@@ -25193,7 +25193,7 @@ const IMMO_DATA = [
       "wohnfläche":199,
       "zimmer":3,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Genslerstraße 53",
       "stadt":"Berlin Tiergarten",
       "postleitzahl":"10551",
@@ -25223,7 +25223,7 @@ const IMMO_DATA = [
       "wohnfläche":515,
       "zimmer":6,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Gotzkowskystrasse 65",
       "stadt":"Brieden",
       "postleitzahl":"56829",
@@ -25253,7 +25253,7 @@ const IMMO_DATA = [
       "wohnfläche":245,
       "zimmer":7,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Brandenburgische Str 16",
       "stadt":"Undenheim",
       "postleitzahl":"55278",
@@ -25283,7 +25283,7 @@ const IMMO_DATA = [
       "wohnfläche":386,
       "zimmer":6,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Spresstrasse 91",
       "stadt":"Bielefeld Großdornberg",
       "postleitzahl":"33619",
@@ -25313,7 +25313,7 @@ const IMMO_DATA = [
       "wohnfläche":124,
       "zimmer":5,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Kirchenallee 57",
       "stadt":"Eichendorf",
       "postleitzahl":"94425",
@@ -25343,7 +25343,7 @@ const IMMO_DATA = [
       "wohnfläche":202,
       "zimmer":4,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Rudolstaedter Strasse 54",
       "stadt":"Hösbach",
       "postleitzahl":"63766",
@@ -25373,7 +25373,7 @@ const IMMO_DATA = [
       "wohnfläche":272,
       "zimmer":2,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Guentzelstrasse 2",
       "stadt":"Hosenfeld",
       "postleitzahl":"36154",
@@ -25403,7 +25403,7 @@ const IMMO_DATA = [
       "wohnfläche":132,
       "zimmer":6,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Landsberger Allee 83",
       "stadt":"München",
       "postleitzahl":"80602",
@@ -25433,7 +25433,7 @@ const IMMO_DATA = [
       "wohnfläche":550,
       "zimmer":2,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Waldowstr. 79",
       "stadt":"Sasbachwalden",
       "postleitzahl":"77887",
@@ -25463,7 +25463,7 @@ const IMMO_DATA = [
       "wohnfläche":319,
       "zimmer":4,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Hoheluftchaussee 78",
       "stadt":"Tiefenbach",
       "postleitzahl":"93463",
@@ -25493,7 +25493,7 @@ const IMMO_DATA = [
       "wohnfläche":347,
       "zimmer":7,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Bleibtreustraße 17",
       "stadt":"Rielasingen-Worblingen",
       "postleitzahl":"78239",
@@ -25523,7 +25523,7 @@ const IMMO_DATA = [
       "wohnfläche":262,
       "zimmer":4,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Rosenstrasse 43",
       "stadt":"München",
       "postleitzahl":"81506",
@@ -25553,7 +25553,7 @@ const IMMO_DATA = [
       "wohnfläche":255,
       "zimmer":4,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Knesebeckstraße 74",
       "stadt":"Altenberg",
       "postleitzahl":"01771",
@@ -25583,7 +25583,7 @@ const IMMO_DATA = [
       "wohnfläche":246,
       "zimmer":4,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Genterstrasse 80",
       "stadt":"Kiel",
       "postleitzahl":"24044",
@@ -25613,7 +25613,7 @@ const IMMO_DATA = [
       "wohnfläche":406,
       "zimmer":4,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Kurfürstendamm 82",
       "stadt":"Rostock",
       "postleitzahl":"18076",
@@ -25643,7 +25643,7 @@ const IMMO_DATA = [
       "wohnfläche":492,
       "zimmer":5,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Bleibtreustrasse 86",
       "stadt":"Marienmünster",
       "postleitzahl":"37696",
@@ -25673,7 +25673,7 @@ const IMMO_DATA = [
       "wohnfläche":596,
       "zimmer":5,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"An der Alster 25",
       "stadt":"Calvörde",
       "postleitzahl":"39357",
@@ -25703,7 +25703,7 @@ const IMMO_DATA = [
       "wohnfläche":241,
       "zimmer":7,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Rathausstrasse 32",
       "stadt":"Nürnberg",
       "postleitzahl":"90012",
@@ -25733,7 +25733,7 @@ const IMMO_DATA = [
       "wohnfläche":518,
       "zimmer":4,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Jenaer Strasse 89",
       "stadt":"Duisburg",
       "postleitzahl":"47169",
@@ -25763,7 +25763,7 @@ const IMMO_DATA = [
       "wohnfläche":150,
       "zimmer":2,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Landhausstraße 88",
       "stadt":"Velten",
       "postleitzahl":"16721",
@@ -25793,7 +25793,7 @@ const IMMO_DATA = [
       "wohnfläche":256,
       "zimmer":7,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Schillerstrasse 45",
       "stadt":"Merching",
       "postleitzahl":"86504",
@@ -25823,7 +25823,7 @@ const IMMO_DATA = [
       "wohnfläche":328,
       "zimmer":5,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Kastanienallee 80",
       "stadt":"Osteel",
       "postleitzahl":"26529",
@@ -25853,7 +25853,7 @@ const IMMO_DATA = [
       "wohnfläche":98,
       "zimmer":2,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Ellmenreichstrasse 50",
       "stadt":"Stadtsteinach",
       "postleitzahl":"95343",
@@ -25883,7 +25883,7 @@ const IMMO_DATA = [
       "wohnfläche":191,
       "zimmer":7,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Alsterkrugchaussee 32",
       "stadt":"Wendelstein",
       "postleitzahl":"90526",
@@ -25913,7 +25913,7 @@ const IMMO_DATA = [
       "wohnfläche":79,
       "zimmer":5,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Heinrich Heine Platz 81",
       "stadt":"Waltershausen",
       "postleitzahl":"99875",
@@ -25943,7 +25943,7 @@ const IMMO_DATA = [
       "wohnfläche":559,
       "zimmer":3,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Storkower Strasse 63",
       "stadt":"Ellenhausen",
       "postleitzahl":"56242",
@@ -25973,7 +25973,7 @@ const IMMO_DATA = [
       "wohnfläche":323,
       "zimmer":3,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Unter den Linden 19",
       "stadt":"Magdeburg",
       "postleitzahl":"39018",
@@ -26003,7 +26003,7 @@ const IMMO_DATA = [
       "wohnfläche":263,
       "zimmer":3,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Pappelallee 20",
       "stadt":"Brand-Erbisdorf",
       "postleitzahl":"09618",
@@ -26033,7 +26033,7 @@ const IMMO_DATA = [
       "wohnfläche":94,
       "zimmer":6,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Schmarjestrasse 54",
       "stadt":"Amalienfelde",
       "postleitzahl":"16766",
@@ -26063,7 +26063,7 @@ const IMMO_DATA = [
       "wohnfläche":332,
       "zimmer":5,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Brandenburgische Str 87",
       "stadt":"Otzweiler",
       "postleitzahl":"55606",
@@ -26093,7 +26093,7 @@ const IMMO_DATA = [
       "wohnfläche":454,
       "zimmer":5,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Prenzlauer Allee 43",
       "stadt":"Leipzig",
       "postleitzahl":"04277",
@@ -26123,7 +26123,7 @@ const IMMO_DATA = [
       "wohnfläche":576,
       "zimmer":7,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Mohrenstrasse 78",
       "stadt":"Mehrstetten",
       "postleitzahl":"72537",
@@ -26153,7 +26153,7 @@ const IMMO_DATA = [
       "wohnfläche":516,
       "zimmer":5,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Langenhorner Chaussee 54",
       "stadt":"Baierbach",
       "postleitzahl":"84171",
@@ -26183,7 +26183,7 @@ const IMMO_DATA = [
       "wohnfläche":116,
       "zimmer":6,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Frankfurter Allee 77",
       "stadt":"Karlsruhe Weiherfeld-Dammerstock",
       "postleitzahl":"76199",
@@ -26213,7 +26213,7 @@ const IMMO_DATA = [
       "wohnfläche":587,
       "zimmer":3,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Holstenwall 75",
       "stadt":"Freist",
       "postleitzahl":"06347",
@@ -26243,7 +26243,7 @@ const IMMO_DATA = [
       "wohnfläche":596,
       "zimmer":3,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"An der Schillingbrucke 38",
       "stadt":"Mittelbiberach",
       "postleitzahl":"88441",
@@ -26273,7 +26273,7 @@ const IMMO_DATA = [
       "wohnfläche":554,
       "zimmer":5,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Pappelallee 92",
       "stadt":"Pausa",
       "postleitzahl":"07951",
@@ -26303,7 +26303,7 @@ const IMMO_DATA = [
       "wohnfläche":254,
       "zimmer":6,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Koepenicker Str. 71",
       "stadt":"Hattgenstein",
       "postleitzahl":"55767",
@@ -26333,7 +26333,7 @@ const IMMO_DATA = [
       "wohnfläche":211,
       "zimmer":5,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Esplanade 88",
       "stadt":"Wenzenbach",
       "postleitzahl":"93173",
@@ -26363,7 +26363,7 @@ const IMMO_DATA = [
       "wohnfläche":72,
       "zimmer":7,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Brandenburgische Strasse 66",
       "stadt":"Offenbach an der Queich",
       "postleitzahl":"76877",
@@ -26393,7 +26393,7 @@ const IMMO_DATA = [
       "wohnfläche":533,
       "zimmer":2,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Fasanenstrasse 45",
       "stadt":"Hamburg Lohbrügge",
       "postleitzahl":"21031",
@@ -26423,7 +26423,7 @@ const IMMO_DATA = [
       "wohnfläche":598,
       "zimmer":3,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"An der Schillingbrucke 78",
       "stadt":"Aalen Dewangen",
       "postleitzahl":"73434",
@@ -26453,7 +26453,7 @@ const IMMO_DATA = [
       "wohnfläche":571,
       "zimmer":5,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Langenhorner Chaussee 97",
       "stadt":"Burghausen",
       "postleitzahl":"84482",
@@ -26483,7 +26483,7 @@ const IMMO_DATA = [
       "wohnfläche":271,
       "zimmer":6,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Hallesches Ufer 19",
       "stadt":"Grafenau",
       "postleitzahl":"71120",
@@ -26513,7 +26513,7 @@ const IMMO_DATA = [
       "wohnfläche":315,
       "zimmer":2,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Schoenebergerstrasse 40",
       "stadt":"Netzschkau",
       "postleitzahl":"08487",
@@ -26543,7 +26543,7 @@ const IMMO_DATA = [
       "wohnfläche":477,
       "zimmer":5,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Kieler Strasse 56",
       "stadt":"Wegscheid",
       "postleitzahl":"94110",
@@ -26573,7 +26573,7 @@ const IMMO_DATA = [
       "wohnfläche":179,
       "zimmer":4,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Charlottenstrasse 5",
       "stadt":"Erfurt",
       "postleitzahl":"99001",
@@ -26603,7 +26603,7 @@ const IMMO_DATA = [
       "wohnfläche":205,
       "zimmer":7,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Hallesches Ufer 56",
       "stadt":"Simmozheim",
       "postleitzahl":"75397",
@@ -26633,7 +26633,7 @@ const IMMO_DATA = [
       "wohnfläche":195,
       "zimmer":6,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Michaelkirchstr. 38",
       "stadt":"Suhlendorf",
       "postleitzahl":"29562",
@@ -26663,7 +26663,7 @@ const IMMO_DATA = [
       "wohnfläche":174,
       "zimmer":7,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Esplanade 52",
       "stadt":"Obertraubling",
       "postleitzahl":"93083",
@@ -26693,7 +26693,7 @@ const IMMO_DATA = [
       "wohnfläche":134,
       "zimmer":3,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"An der Schillingbrucke 70",
       "stadt":"Westerheim",
       "postleitzahl":"87784",
@@ -26723,7 +26723,7 @@ const IMMO_DATA = [
       "wohnfläche":157,
       "zimmer":6,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Landsberger Allee 62",
       "stadt":"München",
       "postleitzahl":"80531",
@@ -26753,7 +26753,7 @@ const IMMO_DATA = [
       "wohnfläche":439,
       "zimmer":2,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Nuernbergerstrasse 53",
       "stadt":"Neuharlingersiel",
       "postleitzahl":"26427",
@@ -26783,7 +26783,7 @@ const IMMO_DATA = [
       "wohnfläche":504,
       "zimmer":2,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Knesebeckstraße 47",
       "stadt":"Marl",
       "postleitzahl":"45768",
@@ -26813,7 +26813,7 @@ const IMMO_DATA = [
       "wohnfläche":419,
       "zimmer":5,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Güntzelstrasse 54",
       "stadt":"Bausendorf",
       "postleitzahl":"54538",
@@ -26843,7 +26843,7 @@ const IMMO_DATA = [
       "wohnfläche":454,
       "zimmer":2,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Kantstraße 82",
       "stadt":"Annaberg-Buchholz",
       "postleitzahl":"09442",
@@ -26873,7 +26873,7 @@ const IMMO_DATA = [
       "wohnfläche":158,
       "zimmer":2,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Heinrich Heine Platz 16",
       "stadt":"Niesky",
       "postleitzahl":"02902",
@@ -26903,7 +26903,7 @@ const IMMO_DATA = [
       "wohnfläche":317,
       "zimmer":6,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Oldesloer Strasse 75",
       "stadt":"Birkigt",
       "postleitzahl":"07336",
@@ -26933,7 +26933,7 @@ const IMMO_DATA = [
       "wohnfläche":540,
       "zimmer":2,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Leipziger Strasse 15",
       "stadt":"Ludwigshafen am Rhein Edigheim",
       "postleitzahl":"67069",
@@ -26963,7 +26963,7 @@ const IMMO_DATA = [
       "wohnfläche":560,
       "zimmer":7,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Karl-Liebknecht-Strasse 41",
       "stadt":"Groß Ippener",
       "postleitzahl":"27243",
@@ -26993,7 +26993,7 @@ const IMMO_DATA = [
       "wohnfläche":81,
       "zimmer":5,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Pasewalker Straße 94",
       "stadt":"Baden-Baden",
       "postleitzahl":"76534",
@@ -27023,7 +27023,7 @@ const IMMO_DATA = [
       "wohnfläche":155,
       "zimmer":2,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Schönhauser Allee 92",
       "stadt":"Merdingen",
       "postleitzahl":"79291",
@@ -27053,7 +27053,7 @@ const IMMO_DATA = [
       "wohnfläche":186,
       "zimmer":2,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Esplanade 54",
       "stadt":"Gerolzhofen",
       "postleitzahl":"97441",
@@ -27083,7 +27083,7 @@ const IMMO_DATA = [
       "wohnfläche":459,
       "zimmer":7,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Sonnenallee 83",
       "stadt":"Augsburg",
       "postleitzahl":"86001",
@@ -27113,7 +27113,7 @@ const IMMO_DATA = [
       "wohnfläche":286,
       "zimmer":7,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Ollenhauer Str. 42",
       "stadt":"Stuttgart Degerloch",
       "postleitzahl":"70597",
@@ -27143,7 +27143,7 @@ const IMMO_DATA = [
       "wohnfläche":444,
       "zimmer":7,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Grosse Praesidenten Str. 37",
       "stadt":"Sembach",
       "postleitzahl":"67681",
@@ -27173,7 +27173,7 @@ const IMMO_DATA = [
       "wohnfläche":204,
       "zimmer":6,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Amsinckstrasse 63",
       "stadt":"Adelsdorf",
       "postleitzahl":"91325",
@@ -27203,7 +27203,7 @@ const IMMO_DATA = [
       "wohnfläche":358,
       "zimmer":5,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Hermannstrasse 23",
       "stadt":"Heuchelheim bei Frankenthal",
       "postleitzahl":"67259",
@@ -27233,7 +27233,7 @@ const IMMO_DATA = [
       "wohnfläche":128,
       "zimmer":5,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Friedrichstrasse 3",
       "stadt":"Düsseldorf Derendorf",
       "postleitzahl":"40468",
@@ -27263,7 +27263,7 @@ const IMMO_DATA = [
       "wohnfläche":300,
       "zimmer":3,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Augsburger Strasse 17",
       "stadt":"Lennestadt",
       "postleitzahl":"57368",
@@ -27293,7 +27293,7 @@ const IMMO_DATA = [
       "wohnfläche":328,
       "zimmer":7,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Ruschestrasse 2",
       "stadt":"Ludwigslust",
       "postleitzahl":"19282",
@@ -27323,7 +27323,7 @@ const IMMO_DATA = [
       "wohnfläche":409,
       "zimmer":6,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Eichendorffstr. 5",
       "stadt":"Horgenzell",
       "postleitzahl":"88263",
@@ -27353,7 +27353,7 @@ const IMMO_DATA = [
       "wohnfläche":343,
       "zimmer":3,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Grosse Praesidenten Str. 77",
       "stadt":"Rothselberg",
       "postleitzahl":"67753",
@@ -27383,7 +27383,7 @@ const IMMO_DATA = [
       "wohnfläche":533,
       "zimmer":2,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Rankestraße 49",
       "stadt":"Pocking",
       "postleitzahl":"94053",
@@ -27413,7 +27413,7 @@ const IMMO_DATA = [
       "wohnfläche":429,
       "zimmer":3,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Ruschestrasse 90",
       "stadt":"Genthin",
       "postleitzahl":"39302",
@@ -27443,7 +27443,7 @@ const IMMO_DATA = [
       "wohnfläche":316,
       "zimmer":7,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Bissingzeile 9",
       "stadt":"Helgoland",
       "postleitzahl":"27498",
@@ -27473,7 +27473,7 @@ const IMMO_DATA = [
       "wohnfläche":300,
       "zimmer":7,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Lietzenburger Strasse 2",
       "stadt":"Sankt Augustin",
       "postleitzahl":"53757",
@@ -27503,7 +27503,7 @@ const IMMO_DATA = [
       "wohnfläche":448,
       "zimmer":4,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Michaelkirchstr. 39",
       "stadt":"Haste",
       "postleitzahl":"31559",
@@ -27533,7 +27533,7 @@ const IMMO_DATA = [
       "wohnfläche":598,
       "zimmer":3,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Boxhagener Str. 87",
       "stadt":"Hamburg Harvestehude",
       "postleitzahl":"20144",
@@ -27563,7 +27563,7 @@ const IMMO_DATA = [
       "wohnfläche":72,
       "zimmer":7,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Schillerstrasse 70",
       "stadt":"Geretsried",
       "postleitzahl":"82525",
@@ -27593,7 +27593,7 @@ const IMMO_DATA = [
       "wohnfläche":110,
       "zimmer":6,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Scharnweberstrasse 47",
       "stadt":"Mannheim Innenstadt",
       "postleitzahl":"68159",
@@ -27623,7 +27623,7 @@ const IMMO_DATA = [
       "wohnfläche":254,
       "zimmer":3,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Boxhagener Str. 66",
       "stadt":"Hamburg Kirchwerder",
       "postleitzahl":"21037",
@@ -27653,7 +27653,7 @@ const IMMO_DATA = [
       "wohnfläche":338,
       "zimmer":3,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Mollstrasse 64",
       "stadt":"Darmstadt",
       "postleitzahl":"64297",
@@ -27683,7 +27683,7 @@ const IMMO_DATA = [
       "wohnfläche":74,
       "zimmer":6,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Kantstrasse 38",
       "stadt":"Nürnberg",
       "postleitzahl":"90253",
@@ -27713,7 +27713,7 @@ const IMMO_DATA = [
       "wohnfläche":278,
       "zimmer":5,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Paderborner Strasse 30",
       "stadt":"Bad Wörishofen",
       "postleitzahl":"86817",
@@ -27743,7 +27743,7 @@ const IMMO_DATA = [
       "wohnfläche":322,
       "zimmer":5,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Schönhauser Allee 45",
       "stadt":"Wutach",
       "postleitzahl":"79879",
@@ -27773,7 +27773,7 @@ const IMMO_DATA = [
       "wohnfläche":400,
       "zimmer":7,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Alt Reinickendorf 28",
       "stadt":"Thannhausen",
       "postleitzahl":"86467",
@@ -27803,7 +27803,7 @@ const IMMO_DATA = [
       "wohnfläche":338,
       "zimmer":7,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Bleibtreustraße 81",
       "stadt":"Mühlingen",
       "postleitzahl":"78357",
@@ -27833,7 +27833,7 @@ const IMMO_DATA = [
       "wohnfläche":226,
       "zimmer":7,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Holstenwall 49",
       "stadt":"Allstedt",
       "postleitzahl":"06539",
@@ -27863,7 +27863,7 @@ const IMMO_DATA = [
       "wohnfläche":200,
       "zimmer":7,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Invalidenstrasse 50",
       "stadt":"Meckenheim",
       "postleitzahl":"67149",
@@ -27893,7 +27893,7 @@ const IMMO_DATA = [
       "wohnfläche":299,
       "zimmer":7,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Ollenhauer Str. 39",
       "stadt":"Stuttgart Bergheim",
       "postleitzahl":"70499",
@@ -27923,7 +27923,7 @@ const IMMO_DATA = [
       "wohnfläche":299,
       "zimmer":6,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Eichendorffstr. 68",
       "stadt":"Jungingen",
       "postleitzahl":"72417",
@@ -27953,7 +27953,7 @@ const IMMO_DATA = [
       "wohnfläche":254,
       "zimmer":2,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Hans-Grade-Allee 58",
       "stadt":"Taarstedt",
       "postleitzahl":"24893",
@@ -27983,7 +27983,7 @@ const IMMO_DATA = [
       "wohnfläche":186,
       "zimmer":2,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Schönwalder Allee 81",
       "stadt":"Fockbek",
       "postleitzahl":"24785",
@@ -28013,7 +28013,7 @@ const IMMO_DATA = [
       "wohnfläche":509,
       "zimmer":2,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Amsinckstrasse 50",
       "stadt":"Hermsdorf",
       "postleitzahl":"07622",
@@ -28043,7 +28043,7 @@ const IMMO_DATA = [
       "wohnfläche":357,
       "zimmer":5,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Waßmannsdorfer Chaussee 34",
       "stadt":"Hamburg Altstadt",
       "postleitzahl":"20459",
@@ -28073,7 +28073,7 @@ const IMMO_DATA = [
       "wohnfläche":214,
       "zimmer":2,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Landhausstraße 92",
       "stadt":"Winterberg",
       "postleitzahl":"59955",
@@ -28103,7 +28103,7 @@ const IMMO_DATA = [
       "wohnfläche":398,
       "zimmer":6,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Alter Wall 63",
       "stadt":"Marktsteft",
       "postleitzahl":"97342",
@@ -28133,7 +28133,7 @@ const IMMO_DATA = [
       "wohnfläche":435,
       "zimmer":3,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Alsterkrugchaussee 56",
       "stadt":"Schwabach",
       "postleitzahl":"91107",
@@ -28163,7 +28163,7 @@ const IMMO_DATA = [
       "wohnfläche":226,
       "zimmer":6,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Schönwalder Allee 88",
       "stadt":"Großenbrode",
       "postleitzahl":"23775",
@@ -28193,7 +28193,7 @@ const IMMO_DATA = [
       "wohnfläche":435,
       "zimmer":7,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Paderborner Strasse 20",
       "stadt":"Altomünster",
       "postleitzahl":"85248",
@@ -28223,7 +28223,7 @@ const IMMO_DATA = [
       "wohnfläche":301,
       "zimmer":7,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Budapester Strasse 23",
       "stadt":"Bordesholm",
       "postleitzahl":"24577",
@@ -28253,7 +28253,7 @@ const IMMO_DATA = [
       "wohnfläche":265,
       "zimmer":3,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Ellmenreichstrasse 95",
       "stadt":"Gesees",
       "postleitzahl":"95494",
@@ -28283,7 +28283,7 @@ const IMMO_DATA = [
       "wohnfläche":312,
       "zimmer":3,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Knesebeckstrasse 68",
       "stadt":"Rettersen",
       "postleitzahl":"57635",
@@ -28313,7 +28313,7 @@ const IMMO_DATA = [
       "wohnfläche":305,
       "zimmer":6,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Mellingburgredder 56",
       "stadt":"Erlangen",
       "postleitzahl":"91016",
@@ -28343,7 +28343,7 @@ const IMMO_DATA = [
       "wohnfläche":478,
       "zimmer":7,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Gotzkowskystrasse 37",
       "stadt":"Berenbach",
       "postleitzahl":"56766",
@@ -28373,7 +28373,7 @@ const IMMO_DATA = [
       "wohnfläche":584,
       "zimmer":6,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Rohrdamm 99",
       "stadt":"Schneverdingen",
       "postleitzahl":"29640",
@@ -28403,7 +28403,7 @@ const IMMO_DATA = [
       "wohnfläche":183,
       "zimmer":4,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Kantstrasse 92",
       "stadt":"Nürnberg",
       "postleitzahl":"90243",
@@ -28433,7 +28433,7 @@ const IMMO_DATA = [
       "wohnfläche":297,
       "zimmer":6,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Schmarjestrasse 51",
       "stadt":"Althüttendorf",
       "postleitzahl":"16247",
@@ -28463,7 +28463,7 @@ const IMMO_DATA = [
       "wohnfläche":353,
       "zimmer":6,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Brandenburgische Str 11",
       "stadt":"Jeckenbach",
       "postleitzahl":"55592",
@@ -28493,7 +28493,7 @@ const IMMO_DATA = [
       "wohnfläche":505,
       "zimmer":4,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Budapester Straße 51",
       "stadt":"Burgwald",
       "postleitzahl":"35099",
@@ -28523,7 +28523,7 @@ const IMMO_DATA = [
       "wohnfläche":593,
       "zimmer":3,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Prager Str 85",
       "stadt":"Gröbenzell",
       "postleitzahl":"82179",
@@ -28553,7 +28553,7 @@ const IMMO_DATA = [
       "wohnfläche":434,
       "zimmer":7,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Hochstrasse 33",
       "stadt":"Schafflund",
       "postleitzahl":"24978",
@@ -28583,7 +28583,7 @@ const IMMO_DATA = [
       "wohnfläche":96,
       "zimmer":4,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Gruenauer Strasse 84",
       "stadt":"Büchen",
       "postleitzahl":"21510",
@@ -28613,7 +28613,7 @@ const IMMO_DATA = [
       "wohnfläche":566,
       "zimmer":7,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Knesebeckstrasse 21",
       "stadt":"Güllesheim",
       "postleitzahl":"56593",
@@ -28643,7 +28643,7 @@ const IMMO_DATA = [
       "wohnfläche":560,
       "zimmer":6,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Flughafenstrasse 17",
       "stadt":"Ursensollen",
       "postleitzahl":"92289",
@@ -28673,7 +28673,7 @@ const IMMO_DATA = [
       "wohnfläche":174,
       "zimmer":4,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Sömmeringstr. 9",
       "stadt":"Leimersheim",
       "postleitzahl":"76774",
@@ -28703,7 +28703,7 @@ const IMMO_DATA = [
       "wohnfläche":493,
       "zimmer":5,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Marseiller Strasse 86",
       "stadt":"Garmisch-Partenkirchen",
       "postleitzahl":"82467",
@@ -28733,7 +28733,7 @@ const IMMO_DATA = [
       "wohnfläche":238,
       "zimmer":4,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Bleibtreustraße 25",
       "stadt":"Mühlhausen",
       "postleitzahl":"92360",
@@ -28763,7 +28763,7 @@ const IMMO_DATA = [
       "wohnfläche":267,
       "zimmer":5,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Schönwalder Allee 60",
       "stadt":"Büdelsdorf",
       "postleitzahl":"24782",
@@ -28793,7 +28793,7 @@ const IMMO_DATA = [
       "wohnfläche":127,
       "zimmer":7,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Kantstrasse 25",
       "stadt":"Bayreuth",
       "postleitzahl":"95425",
@@ -28823,7 +28823,7 @@ const IMMO_DATA = [
       "wohnfläche":207,
       "zimmer":7,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Hardenbergstraße 83",
       "stadt":"Lauterecken",
       "postleitzahl":"67742",
@@ -28853,7 +28853,7 @@ const IMMO_DATA = [
       "wohnfläche":532,
       "zimmer":5,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Ufnau Strasse 26",
       "stadt":"Roßhaupten",
       "postleitzahl":"87672",
@@ -28883,7 +28883,7 @@ const IMMO_DATA = [
       "wohnfläche":376,
       "zimmer":5,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Buelowstrasse 15",
       "stadt":"Stahlhofen am Wiesensee",
       "postleitzahl":"56459",
@@ -28913,7 +28913,7 @@ const IMMO_DATA = [
       "wohnfläche":340,
       "zimmer":2,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Fugger Strasse 57",
       "stadt":"Dessau",
       "postleitzahl":"06846",
@@ -28943,7 +28943,7 @@ const IMMO_DATA = [
       "wohnfläche":444,
       "zimmer":4,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Leipziger Straße 78",
       "stadt":"Bad Lauterberg im Harz",
       "postleitzahl":"37431",
@@ -28973,7 +28973,7 @@ const IMMO_DATA = [
       "wohnfläche":308,
       "zimmer":5,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Rosenstrasse 19",
       "stadt":"München",
       "postleitzahl":"81619",
@@ -29003,7 +29003,7 @@ const IMMO_DATA = [
       "wohnfläche":144,
       "zimmer":4,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Fontenay 44",
       "stadt":"Schauenstein",
       "postleitzahl":"95197",
@@ -29033,7 +29033,7 @@ const IMMO_DATA = [
       "wohnfläche":428,
       "zimmer":3,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Grosse Praesidenten Str. 76",
       "stadt":"Weinolsheim",
       "postleitzahl":"55278",
@@ -29063,7 +29063,7 @@ const IMMO_DATA = [
       "wohnfläche":421,
       "zimmer":5,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Ruschestrasse 32",
       "stadt":"Ludwigslust",
       "postleitzahl":"19285",
@@ -29093,7 +29093,7 @@ const IMMO_DATA = [
       "wohnfläche":263,
       "zimmer":7,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Albrechtstrasse 55",
       "stadt":"Friedberg",
       "postleitzahl":"86302",
@@ -29123,7 +29123,7 @@ const IMMO_DATA = [
       "wohnfläche":289,
       "zimmer":6,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Joachimstaler Str. 15",
       "stadt":"Kirchberg",
       "postleitzahl":"08103",
@@ -29153,7 +29153,7 @@ const IMMO_DATA = [
       "wohnfläche":338,
       "zimmer":6,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Hollander Strasse 30",
       "stadt":"Schiesheim",
       "postleitzahl":"65623",
@@ -29183,7 +29183,7 @@ const IMMO_DATA = [
       "wohnfläche":91,
       "zimmer":3,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Knesebeckstrasse 23",
       "stadt":"Wölmersen",
       "postleitzahl":"57635",
@@ -29213,7 +29213,7 @@ const IMMO_DATA = [
       "wohnfläche":541,
       "zimmer":7,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Hedemannstasse 4",
       "stadt":"Bermatingen",
       "postleitzahl":"88697",
@@ -29243,7 +29243,7 @@ const IMMO_DATA = [
       "wohnfläche":432,
       "zimmer":2,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Augsburger Straße 95",
       "stadt":"Witten Rüdinghausen",
       "postleitzahl":"58454",
@@ -29273,7 +29273,7 @@ const IMMO_DATA = [
       "wohnfläche":460,
       "zimmer":2,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Bleibtreustraße 32",
       "stadt":"Meißenheim",
       "postleitzahl":"77974",
@@ -29303,7 +29303,7 @@ const IMMO_DATA = [
       "wohnfläche":77,
       "zimmer":5,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Rudower Chaussee 69",
       "stadt":"Bamberg",
       "postleitzahl":"96020",
@@ -29333,7 +29333,7 @@ const IMMO_DATA = [
       "wohnfläche":222,
       "zimmer":2,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Inge Beisheim Platz 18",
       "stadt":"Echem",
       "postleitzahl":"21379",
@@ -29363,7 +29363,7 @@ const IMMO_DATA = [
       "wohnfläche":543,
       "zimmer":4,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Kastanienallee 58",
       "stadt":"Landscheid",
       "postleitzahl":"54526",
@@ -29393,7 +29393,7 @@ const IMMO_DATA = [
       "wohnfläche":119,
       "zimmer":5,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Luebeckertordamm 27",
       "stadt":"Röttenbach",
       "postleitzahl":"91341",
@@ -29423,7 +29423,7 @@ const IMMO_DATA = [
       "wohnfläche":600,
       "zimmer":5,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Gotzkowskystraße 40",
       "stadt":"Mudersbach",
       "postleitzahl":"57555",
@@ -29453,7 +29453,7 @@ const IMMO_DATA = [
       "wohnfläche":138,
       "zimmer":5,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Gotzkowskystraße 93",
       "stadt":"Weitefeld",
       "postleitzahl":"57586",
@@ -29483,7 +29483,7 @@ const IMMO_DATA = [
       "wohnfläche":274,
       "zimmer":3,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Hoheluftchaussee 30",
       "stadt":"Dommitzsch",
       "postleitzahl":"04878",
@@ -29513,7 +29513,7 @@ const IMMO_DATA = [
       "wohnfläche":374,
       "zimmer":3,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Luetzowplatz 80",
       "stadt":"Strotzbüsch",
       "postleitzahl":"54552",
@@ -29543,7 +29543,7 @@ const IMMO_DATA = [
       "wohnfläche":464,
       "zimmer":7,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Motzstr. 86",
       "stadt":"Winterbach",
       "postleitzahl":"55595",
@@ -29573,7 +29573,7 @@ const IMMO_DATA = [
       "wohnfläche":250,
       "zimmer":6,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Guentzelstrasse 26",
       "stadt":"Weidenbach",
       "postleitzahl":"91746",
@@ -29603,7 +29603,7 @@ const IMMO_DATA = [
       "wohnfläche":261,
       "zimmer":7,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"An der Alster 49",
       "stadt":"Ahrensdorf",
       "postleitzahl":"14943",
@@ -29633,7 +29633,7 @@ const IMMO_DATA = [
       "wohnfläche":534,
       "zimmer":4,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Pohlstrasse 14",
       "stadt":"Clausthal-Zellerfeld",
       "postleitzahl":"38678",
@@ -29663,7 +29663,7 @@ const IMMO_DATA = [
       "wohnfläche":71,
       "zimmer":6,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Flughafenstrasse 68",
       "stadt":"Oberviechtach",
       "postleitzahl":"92523",
@@ -29693,7 +29693,7 @@ const IMMO_DATA = [
       "wohnfläche":469,
       "zimmer":2,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Luebeckertordamm 99",
       "stadt":"Groß-Gerau",
       "postleitzahl":"64521",
@@ -29723,7 +29723,7 @@ const IMMO_DATA = [
       "wohnfläche":376,
       "zimmer":6,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Knesebeckstraße 13",
       "stadt":"Marl",
       "postleitzahl":"49448",
@@ -29753,7 +29753,7 @@ const IMMO_DATA = [
       "wohnfläche":164,
       "zimmer":6,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Leipziger Strasse 82",
       "stadt":"Vellmar",
       "postleitzahl":"34246",
@@ -29783,7 +29783,7 @@ const IMMO_DATA = [
       "wohnfläche":216,
       "zimmer":3,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"An Der Urania 58",
       "stadt":"Hohenlockstedt",
       "postleitzahl":"25551",
@@ -29813,7 +29813,7 @@ const IMMO_DATA = [
       "wohnfläche":208,
       "zimmer":4,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Landsberger Allee 66",
       "stadt":"München",
       "postleitzahl":"80673",
@@ -29843,7 +29843,7 @@ const IMMO_DATA = [
       "wohnfläche":577,
       "zimmer":4,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Kirchenallee 67",
       "stadt":"Regen",
       "postleitzahl":"94201",
@@ -29873,7 +29873,7 @@ const IMMO_DATA = [
       "wohnfläche":126,
       "zimmer":4,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Fontenay 96",
       "stadt":"Kupferberg",
       "postleitzahl":"95362",
@@ -29903,7 +29903,7 @@ const IMMO_DATA = [
       "wohnfläche":516,
       "zimmer":7,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Koenigstrasse 18",
       "stadt":"Gräfenroda",
       "postleitzahl":"99328",
@@ -29933,7 +29933,7 @@ const IMMO_DATA = [
       "wohnfläche":336,
       "zimmer":5,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Brandenburgische Str. 67",
       "stadt":"Sternenfels",
       "postleitzahl":"75447",
@@ -29963,7 +29963,7 @@ const IMMO_DATA = [
       "wohnfläche":76,
       "zimmer":7,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Alt Reinickendorf 30",
       "stadt":"Salgen",
       "postleitzahl":"87775",
@@ -29993,7 +29993,7 @@ const IMMO_DATA = [
       "wohnfläche":515,
       "zimmer":3,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Ufnau Strasse 68",
       "stadt":"Memmingen",
       "postleitzahl":"87685",
@@ -30023,7 +30023,7 @@ const IMMO_DATA = [
       "wohnfläche":589,
       "zimmer":2,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Brandenburgische Strasse 81",
       "stadt":"Schweigen-Rechtenbach",
       "postleitzahl":"76889",
@@ -30053,7 +30053,7 @@ const IMMO_DATA = [
       "wohnfläche":271,
       "zimmer":2,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Unter den Linden 61",
       "stadt":"Magdeburg",
       "postleitzahl":"39047",
@@ -30083,7 +30083,7 @@ const IMMO_DATA = [
       "wohnfläche":584,
       "zimmer":5,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Lange Strasse 3",
       "stadt":"München",
       "postleitzahl":"81739",
@@ -30113,7 +30113,7 @@ const IMMO_DATA = [
       "wohnfläche":523,
       "zimmer":2,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Meinekestraße 37",
       "stadt":"Dissen am Teutoburger Wald",
       "postleitzahl":"49201",
@@ -30143,7 +30143,7 @@ const IMMO_DATA = [
       "wohnfläche":240,
       "zimmer":7,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Hedemannstasse 2",
       "stadt":"Heimenkirch",
       "postleitzahl":"88178",
@@ -30173,7 +30173,7 @@ const IMMO_DATA = [
       "wohnfläche":424,
       "zimmer":3,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Brandenburgische Straße 36",
       "stadt":"Berlin Neukölln",
       "postleitzahl":"12055",
@@ -30203,7 +30203,7 @@ const IMMO_DATA = [
       "wohnfläche":194,
       "zimmer":7,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Gubener Str. 12",
       "stadt":"Hausham",
       "postleitzahl":"83732",
@@ -30233,7 +30233,7 @@ const IMMO_DATA = [
       "wohnfläche":90,
       "zimmer":7,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"An der Schillingbrucke 63",
       "stadt":"Steinheim",
       "postleitzahl":"89555",
@@ -30263,7 +30263,7 @@ const IMMO_DATA = [
       "wohnfläche":529,
       "zimmer":2,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Sonnenallee 23",
       "stadt":"Augsburg",
       "postleitzahl":"86072",
@@ -30293,7 +30293,7 @@ const IMMO_DATA = [
       "wohnfläche":446,
       "zimmer":2,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Ruschestrasse 58",
       "stadt":"Haldensleben",
       "postleitzahl":"39331",
@@ -30323,7 +30323,7 @@ const IMMO_DATA = [
       "wohnfläche":370,
       "zimmer":2,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Anhalter Strasse 39",
       "stadt":"Winterborn",
       "postleitzahl":"67822",
@@ -30353,7 +30353,7 @@ const IMMO_DATA = [
       "wohnfläche":247,
       "zimmer":3,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Rudolstaedter Strasse 58",
       "stadt":"Obernburg",
       "postleitzahl":"63778",
@@ -30383,7 +30383,7 @@ const IMMO_DATA = [
       "wohnfläche":407,
       "zimmer":6,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Schoenebergerstrasse 66",
       "stadt":"Schönberg",
       "postleitzahl":"24215",
@@ -30413,7 +30413,7 @@ const IMMO_DATA = [
       "wohnfläche":534,
       "zimmer":7,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Messedamm 12",
       "stadt":"Dresden",
       "postleitzahl":"01069",
@@ -30443,7 +30443,7 @@ const IMMO_DATA = [
       "wohnfläche":402,
       "zimmer":6,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Leopoldstraße 71",
       "stadt":"Bochum",
       "postleitzahl":"44807",
@@ -30473,7 +30473,7 @@ const IMMO_DATA = [
       "wohnfläche":126,
       "zimmer":7,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Stresemannstr. 38",
       "stadt":"Überherrn",
       "postleitzahl":"66802",
@@ -30503,7 +30503,7 @@ const IMMO_DATA = [
       "wohnfläche":449,
       "zimmer":2,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Neuer Jungfernstieg 71",
       "stadt":"Arnstorf",
       "postleitzahl":"94424",
@@ -30533,7 +30533,7 @@ const IMMO_DATA = [
       "wohnfläche":427,
       "zimmer":7,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Pohlstrasse 25",
       "stadt":"Langelsheim",
       "postleitzahl":"38685",
@@ -30563,7 +30563,7 @@ const IMMO_DATA = [
       "wohnfläche":460,
       "zimmer":5,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Invalidenstrasse 5",
       "stadt":"Riedelberg",
       "postleitzahl":"66484",
@@ -30593,7 +30593,7 @@ const IMMO_DATA = [
       "wohnfläche":137,
       "zimmer":5,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Rudower Chaussee 87",
       "stadt":"Bottrop Boy",
       "postleitzahl":"46240",
@@ -30623,7 +30623,7 @@ const IMMO_DATA = [
       "wohnfläche":458,
       "zimmer":3,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Alt Reinickendorf 14",
       "stadt":"Adelsried",
       "postleitzahl":"86477",
@@ -30653,7 +30653,7 @@ const IMMO_DATA = [
       "wohnfläche":486,
       "zimmer":4,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Prenzlauer Allee 39",
       "stadt":"Leipzig",
       "postleitzahl":"04321",
@@ -30683,7 +30683,7 @@ const IMMO_DATA = [
       "wohnfläche":111,
       "zimmer":4,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Scharnweberstrasse 36",
       "stadt":"Mannheim Sandhofen",
       "postleitzahl":"68307",
@@ -30713,7 +30713,7 @@ const IMMO_DATA = [
       "wohnfläche":480,
       "zimmer":5,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Holstenwall 56",
       "stadt":"Schraplau",
       "postleitzahl":"06277",
@@ -30743,7 +30743,7 @@ const IMMO_DATA = [
       "wohnfläche":122,
       "zimmer":3,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Hans-Grade-Allee 36",
       "stadt":"Sieverstedt",
       "postleitzahl":"24885",
@@ -30773,7 +30773,7 @@ const IMMO_DATA = [
       "wohnfläche":589,
       "zimmer":7,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Güntzelstrasse 53",
       "stadt":"Gornhausen",
       "postleitzahl":"54472",
@@ -30803,7 +30803,7 @@ const IMMO_DATA = [
       "wohnfläche":573,
       "zimmer":2,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Esplanade 16",
       "stadt":"Regenstauf",
       "postleitzahl":"93123",
@@ -30833,7 +30833,7 @@ const IMMO_DATA = [
       "wohnfläche":432,
       "zimmer":3,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Eschenweg 95",
       "stadt":"Neundorf",
       "postleitzahl":"09488",
@@ -30863,7 +30863,7 @@ const IMMO_DATA = [
       "wohnfläche":469,
       "zimmer":6,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Lützowplatz 33",
       "stadt":"Zerf",
       "postleitzahl":"54314",
@@ -30893,7 +30893,7 @@ const IMMO_DATA = [
       "wohnfläche":509,
       "zimmer":7,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Pasewalker Straße 52",
       "stadt":"Karlsbad",
       "postleitzahl":"76307",
@@ -30923,7 +30923,7 @@ const IMMO_DATA = [
       "wohnfläche":355,
       "zimmer":5,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Augsburger Strasse 3",
       "stadt":"Lennestadt",
       "postleitzahl":"57368",
@@ -30953,7 +30953,7 @@ const IMMO_DATA = [
       "wohnfläche":361,
       "zimmer":7,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Kantstrasse 66",
       "stadt":"Nürnberg",
       "postleitzahl":"90271",
@@ -30983,7 +30983,7 @@ const IMMO_DATA = [
       "wohnfläche":196,
       "zimmer":4,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Unter den Linden 55",
       "stadt":"Neubrandenburg",
       "postleitzahl":"17005",
@@ -31013,7 +31013,7 @@ const IMMO_DATA = [
       "wohnfläche":563,
       "zimmer":3,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Bissingzeile 46",
       "stadt":"Mulsum",
       "postleitzahl":"27632",
@@ -31043,7 +31043,7 @@ const IMMO_DATA = [
       "wohnfläche":411,
       "zimmer":3,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Landhausstraße 48",
       "stadt":"Hennigsdorf",
       "postleitzahl":"16761",
@@ -31073,7 +31073,7 @@ const IMMO_DATA = [
       "wohnfläche":397,
       "zimmer":3,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Kieler Strasse 96",
       "stadt":"Erharting",
       "postleitzahl":"84513",
@@ -31103,7 +31103,7 @@ const IMMO_DATA = [
       "wohnfläche":552,
       "zimmer":7,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Fontenay 43",
       "stadt":"Helmbrechts",
       "postleitzahl":"95233",
@@ -31133,7 +31133,7 @@ const IMMO_DATA = [
       "wohnfläche":290,
       "zimmer":4,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Leipziger Strasse 91",
       "stadt":"Trier Innenstadt",
       "postleitzahl":"54290",
@@ -31163,7 +31163,7 @@ const IMMO_DATA = [
       "wohnfläche":422,
       "zimmer":7,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Genslerstraße 88",
       "stadt":"Berlin Treptow",
       "postleitzahl":"12435",
@@ -31193,7 +31193,7 @@ const IMMO_DATA = [
       "wohnfläche":318,
       "zimmer":3,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Alt Reinickendorf 53",
       "stadt":"Balderschwang",
       "postleitzahl":"87538",
@@ -31223,7 +31223,7 @@ const IMMO_DATA = [
       "wohnfläche":472,
       "zimmer":5,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Eichendorffstr. 42",
       "stadt":"Bisingen",
       "postleitzahl":"72406",
@@ -31253,7 +31253,7 @@ const IMMO_DATA = [
       "wohnfläche":232,
       "zimmer":7,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Rhinstrasse 43",
       "stadt":"München",
       "postleitzahl":"80740",
@@ -31283,7 +31283,7 @@ const IMMO_DATA = [
       "wohnfläche":425,
       "zimmer":5,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Konstanzer Strasse 20",
       "stadt":"Weilrod",
       "postleitzahl":"61276",
@@ -31313,7 +31313,7 @@ const IMMO_DATA = [
       "wohnfläche":396,
       "zimmer":2,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Meinekestraße 77",
       "stadt":"Bissendorf",
       "postleitzahl":"49143",
@@ -31343,7 +31343,7 @@ const IMMO_DATA = [
       "wohnfläche":172,
       "zimmer":6,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Güntzelstrasse 31",
       "stadt":"Rorodt",
       "postleitzahl":"54411",
@@ -31373,7 +31373,7 @@ const IMMO_DATA = [
       "wohnfläche":130,
       "zimmer":5,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Buelowstrasse 17",
       "stadt":"Gehlert",
       "postleitzahl":"57627",
@@ -31403,7 +31403,7 @@ const IMMO_DATA = [
       "wohnfläche":346,
       "zimmer":3,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Paul-Nevermann-Platz 98",
       "stadt":"Motten",
       "postleitzahl":"97786",
@@ -31433,7 +31433,7 @@ const IMMO_DATA = [
       "wohnfläche":237,
       "zimmer":2,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"An Der Urania 98",
       "stadt":"Brunsbüttel",
       "postleitzahl":"25541",
@@ -31463,7 +31463,7 @@ const IMMO_DATA = [
       "wohnfläche":377,
       "zimmer":5,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Grolmanstraße 79",
       "stadt":"Bremen Steintor",
       "postleitzahl":"28203",
@@ -31493,7 +31493,7 @@ const IMMO_DATA = [
       "wohnfläche":452,
       "zimmer":7,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Albrechtstrasse 18",
       "stadt":"Stadtbergen",
       "postleitzahl":"86382",
@@ -31523,7 +31523,7 @@ const IMMO_DATA = [
       "wohnfläche":542,
       "zimmer":3,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Luebeckertordamm 79",
       "stadt":"Markt Bibart",
       "postleitzahl":"91477",
@@ -31553,7 +31553,7 @@ const IMMO_DATA = [
       "wohnfläche":580,
       "zimmer":4,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Kurfürstenstraße 33",
       "stadt":"Hessigheim",
       "postleitzahl":"74394",
@@ -31583,7 +31583,7 @@ const IMMO_DATA = [
       "wohnfläche":597,
       "zimmer":2,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Frankfurter Allee 80",
       "stadt":"Neu-Ulm",
       "postleitzahl":"89215",
@@ -31613,7 +31613,7 @@ const IMMO_DATA = [
       "wohnfläche":381,
       "zimmer":3,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Schmarjestrasse 40",
       "stadt":"Dallgow",
       "postleitzahl":"14624",
@@ -31643,7 +31643,7 @@ const IMMO_DATA = [
       "wohnfläche":590,
       "zimmer":6,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Bayreuther Strasse 80",
       "stadt":"Frankfurt",
       "postleitzahl":"15229",
@@ -31673,7 +31673,7 @@ const IMMO_DATA = [
       "wohnfläche":470,
       "zimmer":6,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Lietzenburger Strasse 24",
       "stadt":"Bergisch Gladbach Bockenberg",
       "postleitzahl":"51429",
@@ -31703,7 +31703,7 @@ const IMMO_DATA = [
       "wohnfläche":365,
       "zimmer":2,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Kantstrasse 97",
       "stadt":"Bayreuth",
       "postleitzahl":"95445",
@@ -31733,7 +31733,7 @@ const IMMO_DATA = [
       "wohnfläche":84,
       "zimmer":2,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"An der Schillingbrucke 43",
       "stadt":"Aalen Dewangen",
       "postleitzahl":"73434",
@@ -31763,7 +31763,7 @@ const IMMO_DATA = [
       "wohnfläche":340,
       "zimmer":5,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Rudower Strasse 42",
       "stadt":"Orlenbach",
       "postleitzahl":"54595",
@@ -31793,7 +31793,7 @@ const IMMO_DATA = [
       "wohnfläche":341,
       "zimmer":5,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Alsterkrugchaussee 99",
       "stadt":"Munningen",
       "postleitzahl":"86754",
@@ -31823,7 +31823,7 @@ const IMMO_DATA = [
       "wohnfläche":494,
       "zimmer":4,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Rudolstaedter Strasse 86",
       "stadt":"Johannesberg",
       "postleitzahl":"63865",
@@ -31853,7 +31853,7 @@ const IMMO_DATA = [
       "wohnfläche":190,
       "zimmer":3,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Ansbacher Strasse 59",
       "stadt":"Stipshausen",
       "postleitzahl":"55758",
@@ -31883,7 +31883,7 @@ const IMMO_DATA = [
       "wohnfläche":178,
       "zimmer":2,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Schmarjestrasse 69",
       "stadt":"Ihlow",
       "postleitzahl":"26632",
@@ -31913,7 +31913,7 @@ const IMMO_DATA = [
       "wohnfläche":217,
       "zimmer":4,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Schoenebergerstrasse 4",
       "stadt":"Bockau",
       "postleitzahl":"08324",
@@ -31943,7 +31943,7 @@ const IMMO_DATA = [
       "wohnfläche":348,
       "zimmer":7,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Gruenauer Strasse 38",
       "stadt":"Geesthacht",
       "postleitzahl":"21496",
@@ -31973,7 +31973,7 @@ const IMMO_DATA = [
       "wohnfläche":537,
       "zimmer":6,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Neue Roßstr. 12",
       "stadt":"Trier Weismark-Feyen",
       "postleitzahl":"54295",
@@ -32003,7 +32003,7 @@ const IMMO_DATA = [
       "wohnfläche":268,
       "zimmer":5,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Kurfürstendamm 37",
       "stadt":"Seeheilbad Graal-Müritz",
       "postleitzahl":"18176",
@@ -32033,7 +32033,7 @@ const IMMO_DATA = [
       "wohnfläche":221,
       "zimmer":4,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Spresstrasse 10",
       "stadt":"Bielefeld Gadderbaum",
       "postleitzahl":"33617",
@@ -32063,7 +32063,7 @@ const IMMO_DATA = [
       "wohnfläche":250,
       "zimmer":7,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Paderborner Strasse 85",
       "stadt":"Mittelneufnach",
       "postleitzahl":"86868",
@@ -32093,7 +32093,7 @@ const IMMO_DATA = [
       "wohnfläche":262,
       "zimmer":3,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Ollenhauer Str. 93",
       "stadt":"Stuttgart Burgholzhof",
       "postleitzahl":"70376",
@@ -32123,7 +32123,7 @@ const IMMO_DATA = [
       "wohnfläche":255,
       "zimmer":5,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Gruenauer Strasse 54",
       "stadt":"Vögelsen",
       "postleitzahl":"21360",
@@ -32153,7 +32153,7 @@ const IMMO_DATA = [
       "wohnfläche":550,
       "zimmer":2,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Eschenweg 25",
       "stadt":"Schmalkalden",
       "postleitzahl":"98562",
@@ -32183,7 +32183,7 @@ const IMMO_DATA = [
       "wohnfläche":555,
       "zimmer":2,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Rhinstrasse 43",
       "stadt":"München",
       "postleitzahl":"80807",
@@ -32213,7 +32213,7 @@ const IMMO_DATA = [
       "wohnfläche":279,
       "zimmer":3,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Am Borsigturm 15",
       "stadt":"Neuss Westfeld",
       "postleitzahl":"41464",
@@ -32243,7 +32243,7 @@ const IMMO_DATA = [
       "wohnfläche":494,
       "zimmer":7,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Brandenburgische Str. 65",
       "stadt":"Loffenau",
       "postleitzahl":"76597",
@@ -32273,7 +32273,7 @@ const IMMO_DATA = [
       "wohnfläche":148,
       "zimmer":5,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Rudolstaedter Strasse 30",
       "stadt":"Elsenfeld",
       "postleitzahl":"63818",
@@ -32303,7 +32303,7 @@ const IMMO_DATA = [
       "wohnfläche":354,
       "zimmer":6,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Ansbacher Strasse 31",
       "stadt":"Wintrich",
       "postleitzahl":"54487",
@@ -32333,7 +32333,7 @@ const IMMO_DATA = [
       "wohnfläche":146,
       "zimmer":3,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Stuttgarter Platz 36",
       "stadt":"Arzbach",
       "postleitzahl":"56337",
@@ -32363,7 +32363,7 @@ const IMMO_DATA = [
       "wohnfläche":453,
       "zimmer":6,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Leipziger Strasse 91",
       "stadt":"Bielefeld Oldentrup",
       "postleitzahl":"33719",
@@ -32393,7 +32393,7 @@ const IMMO_DATA = [
       "wohnfläche":271,
       "zimmer":5,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Brandenburgische Strasse 5",
       "stadt":"Siebeldingen",
       "postleitzahl":"76833",
@@ -32423,7 +32423,7 @@ const IMMO_DATA = [
       "wohnfläche":460,
       "zimmer":7,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Scharnweberstrasse 52",
       "stadt":"Mannheim Kirschgartshausen",
       "postleitzahl":"68307",
@@ -32453,7 +32453,7 @@ const IMMO_DATA = [
       "wohnfläche":285,
       "zimmer":2,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Rudower Chaussee 91",
       "stadt":"Ansbach",
       "postleitzahl":"91503",
@@ -32483,7 +32483,7 @@ const IMMO_DATA = [
       "wohnfläche":274,
       "zimmer":3,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Luetzowplatz 13",
       "stadt":"Weidingen",
       "postleitzahl":"54636",
@@ -32513,7 +32513,7 @@ const IMMO_DATA = [
       "wohnfläche":146,
       "zimmer":6,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Wallstrasse 31",
       "stadt":"Breitscheid",
       "postleitzahl":"55422",
@@ -32543,7 +32543,7 @@ const IMMO_DATA = [
       "wohnfläche":181,
       "zimmer":2,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"An Der Urania 62",
       "stadt":"Brunsbüttel",
       "postleitzahl":"25535",
@@ -32573,7 +32573,7 @@ const IMMO_DATA = [
       "wohnfläche":185,
       "zimmer":7,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Eichendorffstr. 7",
       "stadt":"Konstanz Petershausen",
       "postleitzahl":"78464",
@@ -32603,7 +32603,7 @@ const IMMO_DATA = [
       "wohnfläche":185,
       "zimmer":4,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Straße der Pariser Kommune 88",
       "stadt":"Dortmund",
       "postleitzahl":"44359",
@@ -32633,7 +32633,7 @@ const IMMO_DATA = [
       "wohnfläche":562,
       "zimmer":7,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Brandenburgische Str 22",
       "stadt":"Merxheim",
       "postleitzahl":"55627",
@@ -32663,7 +32663,7 @@ const IMMO_DATA = [
       "wohnfläche":414,
       "zimmer":6,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Grosse Praesidenten Str. 95",
       "stadt":"Schmalenberg",
       "postleitzahl":"67718",
@@ -32693,7 +32693,7 @@ const IMMO_DATA = [
       "wohnfläche":223,
       "zimmer":7,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Billwerder Neuer Deich 41",
       "stadt":"Hof",
       "postleitzahl":"95032",
@@ -32723,7 +32723,7 @@ const IMMO_DATA = [
       "wohnfläche":326,
       "zimmer":3,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Kurfürstenstraße 30",
       "stadt":"Affalterbach",
       "postleitzahl":"71563",
@@ -32753,7 +32753,7 @@ const IMMO_DATA = [
       "wohnfläche":446,
       "zimmer":3,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Schönwalder Allee 75",
       "stadt":"Loose",
       "postleitzahl":"24366",
@@ -32783,7 +32783,7 @@ const IMMO_DATA = [
       "wohnfläche":397,
       "zimmer":2,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Alt Reinickendorf 69",
       "stadt":"Kraftisried",
       "postleitzahl":"87647",
@@ -32813,7 +32813,7 @@ const IMMO_DATA = [
       "wohnfläche":379,
       "zimmer":2,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Hallesches Ufer 28",
       "stadt":"Sulzbach/ Saar",
       "postleitzahl":"66280",
@@ -32843,7 +32843,7 @@ const IMMO_DATA = [
       "wohnfläche":148,
       "zimmer":4,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Kantstrasse 27",
       "stadt":"Nürnberg",
       "postleitzahl":"90239",
@@ -32873,7 +32873,7 @@ const IMMO_DATA = [
       "wohnfläche":353,
       "zimmer":6,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Ansbacher Strasse 80",
       "stadt":"Stipshausen",
       "postleitzahl":"55758",
@@ -32903,7 +32903,7 @@ const IMMO_DATA = [
       "wohnfläche":291,
       "zimmer":6,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Nuernbergerstrasse 15",
       "stadt":"Goldenstedt",
       "postleitzahl":"49424",
@@ -32933,7 +32933,7 @@ const IMMO_DATA = [
       "wohnfläche":425,
       "zimmer":4,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Amsinckstrasse 40",
       "stadt":"Lengenfeld",
       "postleitzahl":"08482",
@@ -32963,7 +32963,7 @@ const IMMO_DATA = [
       "wohnfläche":277,
       "zimmer":6,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Michaelkirchstr. 25",
       "stadt":"Lauenhagen",
       "postleitzahl":"31714",
@@ -32993,7 +32993,7 @@ const IMMO_DATA = [
       "wohnfläche":461,
       "zimmer":3,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Ufnau Strasse 38",
       "stadt":"Füssen",
       "postleitzahl":"87629",
@@ -33023,7 +33023,7 @@ const IMMO_DATA = [
       "wohnfläche":142,
       "zimmer":7,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Park Str. 73",
       "stadt":"Düsseldorf Pempelfort",
       "postleitzahl":"40476",
@@ -33053,7 +33053,7 @@ const IMMO_DATA = [
       "wohnfläche":308,
       "zimmer":5,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Billwerder Neuer Deich 52",
       "stadt":"Hof",
       "postleitzahl":"95014",
@@ -33083,7 +33083,7 @@ const IMMO_DATA = [
       "wohnfläche":244,
       "zimmer":6,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Oldesloer Strasse 86",
       "stadt":"Lobenstein",
       "postleitzahl":"07352",
@@ -33113,7 +33113,7 @@ const IMMO_DATA = [
       "wohnfläche":398,
       "zimmer":2,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Sonnenallee 66",
       "stadt":"Freiburg Stadt",
       "postleitzahl":"79104",
@@ -33143,7 +33143,7 @@ const IMMO_DATA = [
       "wohnfläche":126,
       "zimmer":5,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Neue Roßstr. 71",
       "stadt":"Bad Kreuznach Winzenheim",
       "postleitzahl":"55545",
@@ -33173,7 +33173,7 @@ const IMMO_DATA = [
       "wohnfläche":207,
       "zimmer":6,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Lietzenburger Strasse 63",
       "stadt":"Bergisch Gladbach Gladbach",
       "postleitzahl":"51467",
@@ -33203,7 +33203,7 @@ const IMMO_DATA = [
       "wohnfläche":492,
       "zimmer":7,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"An der Schillingbrucke 21",
       "stadt":"Steinheim",
       "postleitzahl":"32839",
@@ -33233,7 +33233,7 @@ const IMMO_DATA = [
       "wohnfläche":331,
       "zimmer":5,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"An Der Urania 41",
       "stadt":"Husum",
       "postleitzahl":"25804",
@@ -33263,7 +33263,7 @@ const IMMO_DATA = [
       "wohnfläche":379,
       "zimmer":3,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Knesebeckstrasse 89",
       "stadt":"Marzhausen",
       "postleitzahl":"57627",
@@ -33293,7 +33293,7 @@ const IMMO_DATA = [
       "wohnfläche":596,
       "zimmer":2,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Unter den Linden 65",
       "stadt":"Magdeburg",
       "postleitzahl":"39122",
@@ -33323,7 +33323,7 @@ const IMMO_DATA = [
       "wohnfläche":509,
       "zimmer":3,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Rankestraße 81",
       "stadt":"Fürstenzell",
       "postleitzahl":"94079",
@@ -33353,7 +33353,7 @@ const IMMO_DATA = [
       "wohnfläche":333,
       "zimmer":3,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Motzstr. 83",
       "stadt":"Bad Münster am Stein-Ebernburg",
       "postleitzahl":"55583",
@@ -33383,7 +33383,7 @@ const IMMO_DATA = [
       "wohnfläche":305,
       "zimmer":7,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Mohrenstrasse 99",
       "stadt":"Albstadt Burgfelden",
       "postleitzahl":"72459",
@@ -33413,7 +33413,7 @@ const IMMO_DATA = [
       "wohnfläche":190,
       "zimmer":5,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Alt-Moabit 43",
       "stadt":"Jütebog",
       "postleitzahl":"14901",
@@ -33443,7 +33443,7 @@ const IMMO_DATA = [
       "wohnfläche":279,
       "zimmer":2,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Pohlstrasse 5",
       "stadt":"Dettum",
       "postleitzahl":"38173",
@@ -33473,7 +33473,7 @@ const IMMO_DATA = [
       "wohnfläche":344,
       "zimmer":4,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Kieler Strasse 50",
       "stadt":"Trostberg",
       "postleitzahl":"83308",
@@ -33503,7 +33503,7 @@ const IMMO_DATA = [
       "wohnfläche":152,
       "zimmer":2,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Prenzlauer Allee 99",
       "stadt":"Leipzig",
       "postleitzahl":"04249",
@@ -33533,7 +33533,7 @@ const IMMO_DATA = [
       "wohnfläche":495,
       "zimmer":4,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"An der Schillingbrucke 37",
       "stadt":"Königsbronn",
       "postleitzahl":"89551",
@@ -33563,7 +33563,7 @@ const IMMO_DATA = [
       "wohnfläche":121,
       "zimmer":2,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Messedamm 77",
       "stadt":"Dresden",
       "postleitzahl":"01109",
@@ -33593,7 +33593,7 @@ const IMMO_DATA = [
       "wohnfläche":409,
       "zimmer":2,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Gotzkowskystraße 26",
       "stadt":"Moers",
       "postleitzahl":"47441",
@@ -33623,7 +33623,7 @@ const IMMO_DATA = [
       "wohnfläche":291,
       "zimmer":3,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Scharnweberstrasse 9",
       "stadt":"Mannheim Quadrate",
       "postleitzahl":"68159",
@@ -33653,7 +33653,7 @@ const IMMO_DATA = [
       "wohnfläche":103,
       "zimmer":6,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Feldstrasse 22",
       "stadt":"Niederndodeleben",
       "postleitzahl":"39165",
@@ -33683,7 +33683,7 @@ const IMMO_DATA = [
       "wohnfläche":111,
       "zimmer":5,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Schmarjestrasse 67",
       "stadt":"Neuhardenberg",
       "postleitzahl":"15318",
@@ -33713,7 +33713,7 @@ const IMMO_DATA = [
       "wohnfläche":491,
       "zimmer":6,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Schoenebergerstrasse 11",
       "stadt":"Lößnitz",
       "postleitzahl":"08290",
@@ -33743,7 +33743,7 @@ const IMMO_DATA = [
       "wohnfläche":375,
       "zimmer":5,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Luetzowplatz 24",
       "stadt":"Spangdahlem",
       "postleitzahl":"54529",
@@ -33773,7 +33773,7 @@ const IMMO_DATA = [
       "wohnfläche":97,
       "zimmer":2,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Genterstrasse 36",
       "stadt":"Kiel",
       "postleitzahl":"24124",
@@ -33803,7 +33803,7 @@ const IMMO_DATA = [
       "wohnfläche":469,
       "zimmer":3,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Gruenauer Strasse 84",
       "stadt":"Tostedt",
       "postleitzahl":"21255",
@@ -33833,7 +33833,7 @@ const IMMO_DATA = [
       "wohnfläche":445,
       "zimmer":3,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Hermannstrasse 8",
       "stadt":"Rauenberg",
       "postleitzahl":"69231",
@@ -33863,7 +33863,7 @@ const IMMO_DATA = [
       "wohnfläche":480,
       "zimmer":4,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Alsterkrugchaussee 3",
       "stadt":"Büchenbach",
       "postleitzahl":"91186",
@@ -33893,7 +33893,7 @@ const IMMO_DATA = [
       "wohnfläche":103,
       "zimmer":3,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Gubener Str. 40",
       "stadt":"Emmering",
       "postleitzahl":"83550",
@@ -33923,7 +33923,7 @@ const IMMO_DATA = [
       "wohnfläche":570,
       "zimmer":7,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Ufnau Strasse 15",
       "stadt":"Memmingen",
       "postleitzahl":"87686",
@@ -33953,7 +33953,7 @@ const IMMO_DATA = [
       "wohnfläche":363,
       "zimmer":7,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Michaelkirchstr. 96",
       "stadt":"Beckedorf",
       "postleitzahl":"31699",
@@ -33983,7 +33983,7 @@ const IMMO_DATA = [
       "wohnfläche":247,
       "zimmer":7,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Alt Reinickendorf 53",
       "stadt":"Ziemetshausen",
       "postleitzahl":"86471",
@@ -34013,7 +34013,7 @@ const IMMO_DATA = [
       "wohnfläche":342,
       "zimmer":2,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Unter den Linden 36",
       "stadt":"Magdeburg",
       "postleitzahl":"39032",
@@ -34043,7 +34043,7 @@ const IMMO_DATA = [
       "wohnfläche":368,
       "zimmer":3,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Boxhagener Str. 32",
       "stadt":"Hamburg Bramfeld",
       "postleitzahl":"22159",
@@ -34073,7 +34073,7 @@ const IMMO_DATA = [
       "wohnfläche":578,
       "zimmer":2,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Frankfurter Allee 84",
       "stadt":"Karlsruhe Oststadt",
       "postleitzahl":"76131",
@@ -34103,7 +34103,7 @@ const IMMO_DATA = [
       "wohnfläche":438,
       "zimmer":7,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Spresstrasse 40",
       "stadt":"Flensburg",
       "postleitzahl":"24909",
@@ -34133,7 +34133,7 @@ const IMMO_DATA = [
       "wohnfläche":531,
       "zimmer":4,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Paderborner Strasse 76",
       "stadt":"Breitenbrunn",
       "postleitzahl":"92363",
@@ -34163,7 +34163,7 @@ const IMMO_DATA = [
       "wohnfläche":115,
       "zimmer":4,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Neuer Jungfernstieg 43",
       "stadt":"Malgersdorf",
       "postleitzahl":"84333",
@@ -34193,7 +34193,7 @@ const IMMO_DATA = [
       "wohnfläche":81,
       "zimmer":2,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Scharnweberstrasse 7",
       "stadt":"Mannheim Vogelstang",
       "postleitzahl":"68309",
@@ -34223,7 +34223,7 @@ const IMMO_DATA = [
       "wohnfläche":499,
       "zimmer":5,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Lietzenburger Straße 8",
       "stadt":"Karwitz",
       "postleitzahl":"29481",
@@ -34253,7 +34253,7 @@ const IMMO_DATA = [
       "wohnfläche":311,
       "zimmer":3,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Fugger Strasse 36",
       "stadt":"Koblenz Lützel",
       "postleitzahl":"56070",
@@ -34283,7 +34283,7 @@ const IMMO_DATA = [
       "wohnfläche":110,
       "zimmer":6,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Luebecker Strasse 84",
       "stadt":"Burgpreppach",
       "postleitzahl":"97496",
@@ -34313,7 +34313,7 @@ const IMMO_DATA = [
       "wohnfläche":226,
       "zimmer":3,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Kastanienallee 67",
       "stadt":"Garding",
       "postleitzahl":"25836",
@@ -34343,7 +34343,7 @@ const IMMO_DATA = [
       "wohnfläche":93,
       "zimmer":6,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Kieler Strasse 27",
       "stadt":"Unterwössen",
       "postleitzahl":"83246",
@@ -34373,7 +34373,7 @@ const IMMO_DATA = [
       "wohnfläche":344,
       "zimmer":5,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Kurfuerstendamm 25",
       "stadt":"München",
       "postleitzahl":"80011",
@@ -34403,7 +34403,7 @@ const IMMO_DATA = [
       "wohnfläche":249,
       "zimmer":5,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Pappelallee 71",
       "stadt":"Markneukirchen",
       "postleitzahl":"08255",
@@ -34433,7 +34433,7 @@ const IMMO_DATA = [
       "wohnfläche":129,
       "zimmer":5,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Fischerinsel 57",
       "stadt":"Remscheid Innen",
       "postleitzahl":"42857",
@@ -34463,7 +34463,7 @@ const IMMO_DATA = [
       "wohnfläche":469,
       "zimmer":6,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Ellmenreichstrasse 61",
       "stadt":"Weismain",
       "postleitzahl":"96260",
@@ -34493,7 +34493,7 @@ const IMMO_DATA = [
       "wohnfläche":353,
       "zimmer":3,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Mellingburgredder 46",
       "stadt":"Erlangen",
       "postleitzahl":"91015",
@@ -34523,7 +34523,7 @@ const IMMO_DATA = [
       "wohnfläche":367,
       "zimmer":4,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Mühlenstrasse 38",
       "stadt":"Würzburg",
       "postleitzahl":"97015",
@@ -34553,7 +34553,7 @@ const IMMO_DATA = [
       "wohnfläche":130,
       "zimmer":6,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Hallesches Ufer 82",
       "stadt":"Eberdingen",
       "postleitzahl":"71735",
@@ -34583,7 +34583,7 @@ const IMMO_DATA = [
       "wohnfläche":284,
       "zimmer":4,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Ziegelstr. 59",
       "stadt":"Hohenau",
       "postleitzahl":"94545",
@@ -34613,7 +34613,7 @@ const IMMO_DATA = [
       "wohnfläche":511,
       "zimmer":7,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Jenaer Strasse 1",
       "stadt":"Wuppertal Vohwinkel",
       "postleitzahl":"42329",
@@ -34643,7 +34643,7 @@ const IMMO_DATA = [
       "wohnfläche":168,
       "zimmer":4,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Chausseestr. 83",
       "stadt":"Malchin",
       "postleitzahl":"17131",
@@ -34673,7 +34673,7 @@ const IMMO_DATA = [
       "wohnfläche":495,
       "zimmer":2,
       "badezimmer":2,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Gotzkowskystrasse 85",
       "stadt":"Kettenhausen",
       "postleitzahl":"57612",
@@ -34703,7 +34703,7 @@ const IMMO_DATA = [
       "wohnfläche":430,
       "zimmer":3,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Hedemannstasse 24",
       "stadt":"Oberteuringen",
       "postleitzahl":"88094",
@@ -34733,7 +34733,7 @@ const IMMO_DATA = [
       "wohnfläche":155,
       "zimmer":3,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Schaarsteinweg 98",
       "stadt":"Stulln",
       "postleitzahl":"92551",
@@ -34763,7 +34763,7 @@ const IMMO_DATA = [
       "wohnfläche":428,
       "zimmer":2,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Friedrichstrasse 88",
       "stadt":"Düsseldorf Hassels",
       "postleitzahl":"40597",
@@ -34793,7 +34793,7 @@ const IMMO_DATA = [
       "wohnfläche":117,
       "zimmer":3,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Buelowstrasse 18",
       "stadt":"Kempenich",
       "postleitzahl":"56746",
@@ -34823,7 +34823,7 @@ const IMMO_DATA = [
       "wohnfläche":468,
       "zimmer":6,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Sonnenallee 74",
       "stadt":"Augsburg",
       "postleitzahl":"86031",
@@ -34853,7 +34853,7 @@ const IMMO_DATA = [
       "wohnfläche":360,
       "zimmer":2,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Mellingburgredder 74",
       "stadt":"Happurg",
       "postleitzahl":"91228",
@@ -34883,7 +34883,7 @@ const IMMO_DATA = [
       "wohnfläche":266,
       "zimmer":5,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Brandenburgische Str. 39",
       "stadt":"Bad Liebenzell",
       "postleitzahl":"75378",
@@ -34913,7 +34913,7 @@ const IMMO_DATA = [
       "wohnfläche":395,
       "zimmer":7,
       "badezimmer":1,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Luckenwalder Strasse 51",
       "stadt":"Lauenau",
       "postleitzahl":"31867",
@@ -34943,7 +34943,7 @@ const IMMO_DATA = [
       "wohnfläche":345,
       "zimmer":3,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Hoheluftchaussee 33",
       "stadt":"Rackwitz",
       "postleitzahl":"04519",
@@ -34973,7 +34973,7 @@ const IMMO_DATA = [
       "wohnfläche":363,
       "zimmer":2,
       "badezimmer":4,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Ansbacher Strasse 6",
       "stadt":"Preischeid",
       "postleitzahl":"54689",
@@ -35003,7 +35003,7 @@ const IMMO_DATA = [
       "wohnfläche":153,
       "zimmer":6,
       "badezimmer":3,
-      "addresse":{ 
+      "adresse":{ 
       "straße":"Ufnau Strasse 75",
       "stadt":"Nesselwang",
       "postleitzahl":"87482",
@@ -35033,7 +35033,7 @@ const IMMO_DATA = [
           "wohnfläche":515,
           "zimmer":7,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Rankestraße 59",
           "stadt":"Berg",
           "postleitzahl":"83362",
@@ -35063,7 +35063,7 @@ const IMMO_DATA = [
           "wohnfläche":344,
           "zimmer":5,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Leipziger Straße 43",
           "stadt":"Wanfried",
           "postleitzahl":"37281",
@@ -35093,7 +35093,7 @@ const IMMO_DATA = [
           "wohnfläche":441,
           "zimmer":2,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Amsinckstrasse 59",
           "stadt":"Großschönau",
           "postleitzahl":"02777",
@@ -35123,7 +35123,7 @@ const IMMO_DATA = [
           "wohnfläche":266,
           "zimmer":7,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Stuttgarter Platz 53",
           "stadt":"Beckum",
           "postleitzahl":"59269",
@@ -35153,7 +35153,7 @@ const IMMO_DATA = [
           "wohnfläche":292,
           "zimmer":4,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Unter den Linden 67",
           "stadt":"Magdeburg",
           "postleitzahl":"39050",
@@ -35183,7 +35183,7 @@ const IMMO_DATA = [
           "wohnfläche":549,
           "zimmer":5,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Augsburger Strasse 63",
           "stadt":"Mauden",
           "postleitzahl":"57520",
@@ -35213,7 +35213,7 @@ const IMMO_DATA = [
           "wohnfläche":128,
           "zimmer":7,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Schönhauser Allee 23",
           "stadt":"Breisach",
           "postleitzahl":"79206",
@@ -35243,7 +35243,7 @@ const IMMO_DATA = [
           "wohnfläche":115,
           "zimmer":2,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Eichendorffstr. 87",
           "stadt":"Fronreute",
           "postleitzahl":"88273",
@@ -35273,7 +35273,7 @@ const IMMO_DATA = [
           "wohnfläche":203,
           "zimmer":3,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Motzstr. 4",
           "stadt":"Framersheim",
           "postleitzahl":"55234",
@@ -35303,7 +35303,7 @@ const IMMO_DATA = [
           "wohnfläche":165,
           "zimmer":4,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Ziegelstr. 25",
           "stadt":"Freyung",
           "postleitzahl":"94078",
@@ -35333,7 +35333,7 @@ const IMMO_DATA = [
           "wohnfläche":185,
           "zimmer":7,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Brandenburgische Strasse 70",
           "stadt":"Eschbach",
           "postleitzahl":"76831",
@@ -35363,7 +35363,7 @@ const IMMO_DATA = [
           "wohnfläche":346,
           "zimmer":7,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Rathausstrasse 12",
           "stadt":"Nürnberg",
           "postleitzahl":"90122",
@@ -35393,7 +35393,7 @@ const IMMO_DATA = [
           "wohnfläche":223,
           "zimmer":2,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Jenaer Strasse 48",
           "stadt":"Oberhausen Alstaden",
           "postleitzahl":"46049",
@@ -35423,7 +35423,7 @@ const IMMO_DATA = [
           "wohnfläche":170,
           "zimmer":6,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Budapester Straße 37",
           "stadt":"Lichtenfels",
           "postleitzahl":"96203",
@@ -35453,7 +35453,7 @@ const IMMO_DATA = [
           "wohnfläche":278,
           "zimmer":2,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Luebeckertordamm 91",
           "stadt":"Burgthann",
           "postleitzahl":"90557",
@@ -35483,7 +35483,7 @@ const IMMO_DATA = [
           "wohnfläche":450,
           "zimmer":6,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Alter Wall 1",
           "stadt":"Kitzingen",
           "postleitzahl":"97304",
@@ -35513,7 +35513,7 @@ const IMMO_DATA = [
           "wohnfläche":539,
           "zimmer":5,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Brandenburgische Str. 83",
           "stadt":"Deckenpfronn",
           "postleitzahl":"75392",
@@ -35543,7 +35543,7 @@ const IMMO_DATA = [
           "wohnfläche":457,
           "zimmer":3,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Frankfurter Allee 8",
           "stadt":"Karlsruhe Daxlanden",
           "postleitzahl":"76185",
@@ -35573,7 +35573,7 @@ const IMMO_DATA = [
           "wohnfläche":346,
           "zimmer":3,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Rankestraße 42",
           "stadt":"Untergriesbach",
           "postleitzahl":"94105",
@@ -35603,7 +35603,7 @@ const IMMO_DATA = [
           "wohnfläche":459,
           "zimmer":3,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Neue Roßstr. 83",
           "stadt":"Trier Trier-Ost",
           "postleitzahl":"54295",
@@ -35633,7 +35633,7 @@ const IMMO_DATA = [
           "wohnfläche":199,
           "zimmer":3,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Storkower Strasse 65",
           "stadt":"Deesen",
           "postleitzahl":"56237",
@@ -35663,7 +35663,7 @@ const IMMO_DATA = [
           "wohnfläche":345,
           "zimmer":3,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Gubener Str. 6",
           "stadt":"Bernau",
           "postleitzahl":"83231",
@@ -35693,7 +35693,7 @@ const IMMO_DATA = [
           "wohnfläche":395,
           "zimmer":6,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Rudower Strasse 92",
           "stadt":"Kinzenburg",
           "postleitzahl":"54597",
@@ -35723,7 +35723,7 @@ const IMMO_DATA = [
           "wohnfläche":249,
           "zimmer":2,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Am Borsigturm 61",
           "stadt":"Neuss Furth-Mitte",
           "postleitzahl":"41462",
@@ -35753,7 +35753,7 @@ const IMMO_DATA = [
           "wohnfläche":108,
           "zimmer":4,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Jahnstrasse 84",
           "stadt":"Höslwang",
           "postleitzahl":"83129",
@@ -35783,7 +35783,7 @@ const IMMO_DATA = [
           "wohnfläche":232,
           "zimmer":7,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Messedamm 48",
           "stadt":"Halle",
           "postleitzahl":"06038",
@@ -35813,7 +35813,7 @@ const IMMO_DATA = [
           "wohnfläche":160,
           "zimmer":6,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Alt Reinickendorf 5",
           "stadt":"Ehingen",
           "postleitzahl":"89584",
@@ -35843,7 +35843,7 @@ const IMMO_DATA = [
           "wohnfläche":395,
           "zimmer":3,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Alt Reinickendorf 9",
           "stadt":"Heretsried",
           "postleitzahl":"86465",
@@ -35873,7 +35873,7 @@ const IMMO_DATA = [
           "wohnfläche":401,
           "zimmer":6,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Bleibtreustraße 74",
           "stadt":"Mühlhausen",
           "postleitzahl":"69242",
@@ -35903,7 +35903,7 @@ const IMMO_DATA = [
           "wohnfläche":86,
           "zimmer":2,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Lietzenburger Strasse 57",
           "stadt":"Bergisch Gladbach Herrenstrunden",
           "postleitzahl":"51429",
@@ -35933,7 +35933,7 @@ const IMMO_DATA = [
           "wohnfläche":286,
           "zimmer":6,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Rosenstrasse 65",
           "stadt":"München",
           "postleitzahl":"81634",
@@ -35963,7 +35963,7 @@ const IMMO_DATA = [
           "wohnfläche":194,
           "zimmer":5,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Waßmannsdorfer Chaussee 43",
           "stadt":"Hamburg Billbrook",
           "postleitzahl":"22113",
@@ -35993,7 +35993,7 @@ const IMMO_DATA = [
           "wohnfläche":121,
           "zimmer":7,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Brandenburgische Str 7",
           "stadt":"Weitersborn",
           "postleitzahl":"55629",
@@ -36023,7 +36023,7 @@ const IMMO_DATA = [
           "wohnfläche":93,
           "zimmer":5,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Koenigstrasse 54",
           "stadt":"Bischofferode",
           "postleitzahl":"37345",
@@ -36053,7 +36053,7 @@ const IMMO_DATA = [
           "wohnfläche":248,
           "zimmer":2,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Guentzelstrasse 23",
           "stadt":"Weidenbach",
           "postleitzahl":"56355",
@@ -36083,7 +36083,7 @@ const IMMO_DATA = [
           "wohnfläche":342,
           "zimmer":6,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Gotzkowskystrasse 3",
           "stadt":"Mammelzen",
           "postleitzahl":"57636",
@@ -36113,7 +36113,7 @@ const IMMO_DATA = [
           "wohnfläche":430,
           "zimmer":4,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"An Der Urania 20",
           "stadt":"Albersdorf",
           "postleitzahl":"25767",
@@ -36143,7 +36143,7 @@ const IMMO_DATA = [
           "wohnfläche":424,
           "zimmer":6,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Ellmenreichstrasse 11",
           "stadt":"Ebermannstadt",
           "postleitzahl":"91317",
@@ -36173,7 +36173,7 @@ const IMMO_DATA = [
           "wohnfläche":447,
           "zimmer":7,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Landhausstraße 87",
           "stadt":"Teltow",
           "postleitzahl":"14505",
@@ -36203,7 +36203,7 @@ const IMMO_DATA = [
           "wohnfläche":237,
           "zimmer":7,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Büsingstrasse 26",
           "stadt":"Vaterstetten",
           "postleitzahl":"85588",
@@ -36233,7 +36233,7 @@ const IMMO_DATA = [
           "wohnfläche":393,
           "zimmer":6,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Holstenwall 35",
           "stadt":"Braunsbedra",
           "postleitzahl":"06239",
@@ -36263,7 +36263,7 @@ const IMMO_DATA = [
           "wohnfläche":249,
           "zimmer":7,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Feldstrasse 47",
           "stadt":"Eggesin",
           "postleitzahl":"17364",
@@ -36293,7 +36293,7 @@ const IMMO_DATA = [
           "wohnfläche":155,
           "zimmer":4,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Messedamm 91",
           "stadt":"Halle",
           "postleitzahl":"06120",
@@ -36323,7 +36323,7 @@ const IMMO_DATA = [
           "wohnfläche":398,
           "zimmer":2,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Fischerinsel 75",
           "stadt":"Mönchengladbach Bettrath",
           "postleitzahl":"41066",
@@ -36353,7 +36353,7 @@ const IMMO_DATA = [
           "wohnfläche":476,
           "zimmer":4,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"An Der Urania 80",
           "stadt":"Christianslust",
           "postleitzahl":"25693",
@@ -36383,7 +36383,7 @@ const IMMO_DATA = [
           "wohnfläche":297,
           "zimmer":3,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Straße der Pariser Kommune 32",
           "stadt":"Dortmund",
           "postleitzahl":"44225",
@@ -36413,7 +36413,7 @@ const IMMO_DATA = [
           "wohnfläche":589,
           "zimmer":6,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Meininger Strasse 14",
           "stadt":"Neunkirchen Kohlhof",
           "postleitzahl":"66539",
@@ -36443,7 +36443,7 @@ const IMMO_DATA = [
           "wohnfläche":110,
           "zimmer":7,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Inge Beisheim Platz 92",
           "stadt":"Vastorf",
           "postleitzahl":"21397",
@@ -36473,7 +36473,7 @@ const IMMO_DATA = [
           "wohnfläche":245,
           "zimmer":7,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Hedemannstasse 47",
           "stadt":"Isny",
           "postleitzahl":"88316",
@@ -36503,7 +36503,7 @@ const IMMO_DATA = [
           "wohnfläche":389,
           "zimmer":6,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Schaarsteinweg 4",
           "stadt":"Biburg",
           "postleitzahl":"93354",
@@ -36533,7 +36533,7 @@ const IMMO_DATA = [
           "wohnfläche":319,
           "zimmer":2,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Prenzlauer Allee 48",
           "stadt":"Leipzig",
           "postleitzahl":"04231",
@@ -36563,7 +36563,7 @@ const IMMO_DATA = [
           "wohnfläche":215,
           "zimmer":4,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Prenzlauer Allee 67",
           "stadt":"Markkleeberg",
           "postleitzahl":"04410",
@@ -36593,7 +36593,7 @@ const IMMO_DATA = [
           "wohnfläche":582,
           "zimmer":4,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Messedamm 13",
           "stadt":"Dresden",
           "postleitzahl":"01111",
@@ -36623,7 +36623,7 @@ const IMMO_DATA = [
           "wohnfläche":358,
           "zimmer":2,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Jenaer Strasse 8",
           "stadt":"Duisburg",
           "postleitzahl":"47058",
@@ -36653,7 +36653,7 @@ const IMMO_DATA = [
           "wohnfläche":490,
           "zimmer":7,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Gotthardstrasse 35",
           "stadt":"Kirchheim",
           "postleitzahl":"85544",
@@ -36683,7 +36683,7 @@ const IMMO_DATA = [
           "wohnfläche":579,
           "zimmer":3,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Koepenicker Str. 73",
           "stadt":"Mettweiler",
           "postleitzahl":"55777",
@@ -36713,7 +36713,7 @@ const IMMO_DATA = [
           "wohnfläche":198,
           "zimmer":2,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Michaelkirchstr. 76",
           "stadt":"Bad Oeynhausen Innenstadt",
           "postleitzahl":"32549",
@@ -36743,7 +36743,7 @@ const IMMO_DATA = [
           "wohnfläche":534,
           "zimmer":2,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Spresstrasse 22",
           "stadt":"Bielefeld Deppendorf",
           "postleitzahl":"33739",
@@ -36773,7 +36773,7 @@ const IMMO_DATA = [
           "wohnfläche":516,
           "zimmer":3,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Bleibtreustrasse 14",
           "stadt":"Extertal",
           "postleitzahl":"32699",
@@ -36803,7 +36803,7 @@ const IMMO_DATA = [
           "wohnfläche":459,
           "zimmer":5,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Paderborner Strasse 69",
           "stadt":"Aichen",
           "postleitzahl":"86479",
@@ -36833,7 +36833,7 @@ const IMMO_DATA = [
           "wohnfläche":309,
           "zimmer":4,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Jenaer Strasse 72",
           "stadt":"Essen",
           "postleitzahl":"45134",
@@ -36863,7 +36863,7 @@ const IMMO_DATA = [
           "wohnfläche":453,
           "zimmer":2,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Holstenwall 69",
           "stadt":"Bad Lauchstädt",
           "postleitzahl":"06244",
@@ -36893,7 +36893,7 @@ const IMMO_DATA = [
           "wohnfläche":558,
           "zimmer":7,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Bayreuther Strasse 88",
           "stadt":"Reutlingen Degerschlacht",
           "postleitzahl":"72768",
@@ -36923,7 +36923,7 @@ const IMMO_DATA = [
           "wohnfläche":415,
           "zimmer":7,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"An der Alster 83",
           "stadt":"Neukloster",
           "postleitzahl":"23990",
@@ -36953,7 +36953,7 @@ const IMMO_DATA = [
           "wohnfläche":104,
           "zimmer":4,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Bleibtreustrasse 63",
           "stadt":"Paderborn Marienloh",
           "postleitzahl":"33104",
@@ -36983,7 +36983,7 @@ const IMMO_DATA = [
           "wohnfläche":183,
           "zimmer":2,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Borstelmannsweg 93",
           "stadt":"Weiherhammer",
           "postleitzahl":"92729",
@@ -37013,7 +37013,7 @@ const IMMO_DATA = [
           "wohnfläche":506,
           "zimmer":3,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Stuttgarter Platz 7",
           "stadt":"Saerbeck",
           "postleitzahl":"48369",
@@ -37043,7 +37043,7 @@ const IMMO_DATA = [
           "wohnfläche":314,
           "zimmer":2,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Gruenauer Strasse 32",
           "stadt":"Horneburg",
           "postleitzahl":"21640",
@@ -37073,7 +37073,7 @@ const IMMO_DATA = [
           "wohnfläche":374,
           "zimmer":4,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Mühlenstrasse 64",
           "stadt":"Regensburg",
           "postleitzahl":"93051",
@@ -37103,7 +37103,7 @@ const IMMO_DATA = [
           "wohnfläche":243,
           "zimmer":3,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Lange Strasse 98",
           "stadt":"Pilsting",
           "postleitzahl":"94429",
@@ -37133,7 +37133,7 @@ const IMMO_DATA = [
           "wohnfläche":571,
           "zimmer":2,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Mühlenstrasse 51",
           "stadt":"Regensburg",
           "postleitzahl":"93027",
@@ -37163,7 +37163,7 @@ const IMMO_DATA = [
           "wohnfläche":324,
           "zimmer":4,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Frankfurter Allee 19",
           "stadt":"Karlsruhe Hagsfeld",
           "postleitzahl":"76131",
@@ -37193,7 +37193,7 @@ const IMMO_DATA = [
           "wohnfläche":403,
           "zimmer":4,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Spresstrasse 24",
           "stadt":"Bremerhaven Lehe",
           "postleitzahl":"27568",
@@ -37223,7 +37223,7 @@ const IMMO_DATA = [
           "wohnfläche":590,
           "zimmer":4,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Hermannstrasse 66",
           "stadt":"Guntersblum",
           "postleitzahl":"67583",
@@ -37253,7 +37253,7 @@ const IMMO_DATA = [
           "wohnfläche":112,
           "zimmer":7,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Fischerinsel 1",
           "stadt":"Kempen",
           "postleitzahl":"47906",
@@ -37283,7 +37283,7 @@ const IMMO_DATA = [
           "wohnfläche":402,
           "zimmer":3,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Brandenburgische Straße 23",
           "stadt":"Berlin Neukölln",
           "postleitzahl":"12045",
@@ -37313,7 +37313,7 @@ const IMMO_DATA = [
           "wohnfläche":186,
           "zimmer":7,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Neue Roßstr. 83",
           "stadt":"Fulda",
           "postleitzahl":"36043",
@@ -37343,7 +37343,7 @@ const IMMO_DATA = [
           "wohnfläche":491,
           "zimmer":4,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Kieler Strasse 69",
           "stadt":"Reit im Winkl",
           "postleitzahl":"83237",
@@ -37373,7 +37373,7 @@ const IMMO_DATA = [
           "wohnfläche":544,
           "zimmer":7,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Alt Reinickendorf 50",
           "stadt":"Meitingen",
           "postleitzahl":"86401",
@@ -37403,7 +37403,7 @@ const IMMO_DATA = [
           "wohnfläche":456,
           "zimmer":3,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Genslerstraße 47",
           "stadt":"Berlin Tegel",
           "postleitzahl":"13505",
@@ -37433,7 +37433,7 @@ const IMMO_DATA = [
           "wohnfläche":139,
           "zimmer":7,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Ansbacher Strasse 71",
           "stadt":"Niedersohren",
           "postleitzahl":"55487",
@@ -37463,7 +37463,7 @@ const IMMO_DATA = [
           "wohnfläche":414,
           "zimmer":4,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Motzstr. 4",
           "stadt":"Flomborn",
           "postleitzahl":"55234",
@@ -37493,7 +37493,7 @@ const IMMO_DATA = [
           "wohnfläche":128,
           "zimmer":4,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Lietzenburger Strasse 40",
           "stadt":"Eitorf",
           "postleitzahl":"53783",
@@ -37523,7 +37523,7 @@ const IMMO_DATA = [
           "wohnfläche":575,
           "zimmer":3,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Alt Reinickendorf 50",
           "stadt":"Thierhaupten",
           "postleitzahl":"86672",
@@ -37553,7 +37553,7 @@ const IMMO_DATA = [
           "wohnfläche":154,
           "zimmer":5,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Grosse Praesidenten Str. 97",
           "stadt":"Alsbach-Hähnlein",
           "postleitzahl":"64665",
@@ -37583,7 +37583,7 @@ const IMMO_DATA = [
           "wohnfläche":501,
           "zimmer":4,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Rosenstrasse 54",
           "stadt":"München",
           "postleitzahl":"81511",
@@ -37613,7 +37613,7 @@ const IMMO_DATA = [
           "wohnfläche":539,
           "zimmer":7,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Waßmannsdorfer Chaussee 64",
           "stadt":"Eichwalde",
           "postleitzahl":"15732",
@@ -37643,7 +37643,7 @@ const IMMO_DATA = [
           "wohnfläche":424,
           "zimmer":4,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Rudolstaedter Strasse 65",
           "stadt":"Schöllkrippen",
           "postleitzahl":"63821",
@@ -37673,7 +37673,7 @@ const IMMO_DATA = [
           "wohnfläche":577,
           "zimmer":2,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Knesebeckstrasse 96",
           "stadt":"Marzhausen",
           "postleitzahl":"57627",
@@ -37703,7 +37703,7 @@ const IMMO_DATA = [
           "wohnfläche":514,
           "zimmer":4,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Buelowstrasse 68",
           "stadt":"Kaden",
           "postleitzahl":"56459",
@@ -37733,7 +37733,7 @@ const IMMO_DATA = [
           "wohnfläche":514,
           "zimmer":7,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Rudolstaedter Strasse 32",
           "stadt":"Breddenberg",
           "postleitzahl":"26897",
@@ -37763,7 +37763,7 @@ const IMMO_DATA = [
           "wohnfläche":225,
           "zimmer":6,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Kurfuerstendamm 50",
           "stadt":"Ulm Oststadt",
           "postleitzahl":"89081",
@@ -37793,7 +37793,7 @@ const IMMO_DATA = [
           "wohnfläche":182,
           "zimmer":6,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Schillerstrasse 16",
           "stadt":"Großaitingen",
           "postleitzahl":"86843",
@@ -37823,7 +37823,7 @@ const IMMO_DATA = [
           "wohnfläche":552,
           "zimmer":6,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Jenaer Strasse 39",
           "stadt":"Duisburg",
           "postleitzahl":"47279",
@@ -37853,7 +37853,7 @@ const IMMO_DATA = [
           "wohnfläche":257,
           "zimmer":7,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Grolmanstraße 2",
           "stadt":"Bremen Gröpelingen",
           "postleitzahl":"28237",
@@ -37883,7 +37883,7 @@ const IMMO_DATA = [
           "wohnfläche":352,
           "zimmer":7,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Eschenweg 78",
           "stadt":"Greiz",
           "postleitzahl":"07962",
@@ -37913,7 +37913,7 @@ const IMMO_DATA = [
           "wohnfläche":510,
           "zimmer":7,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Hans-Grade-Allee 48",
           "stadt":"Schleswig",
           "postleitzahl":"24830",
@@ -37943,7 +37943,7 @@ const IMMO_DATA = [
           "wohnfläche":509,
           "zimmer":7,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Amsinckstrasse 71",
           "stadt":"Aupitz",
           "postleitzahl":"06679",
@@ -37973,7 +37973,7 @@ const IMMO_DATA = [
           "wohnfläche":335,
           "zimmer":5,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Invalidenstrasse 44",
           "stadt":"Neidenfels",
           "postleitzahl":"67468",
@@ -38003,7 +38003,7 @@ const IMMO_DATA = [
           "wohnfläche":457,
           "zimmer":6,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Luckenwalder Strasse 38",
           "stadt":"Auetal",
           "postleitzahl":"31749",
@@ -38033,7 +38033,7 @@ const IMMO_DATA = [
           "wohnfläche":176,
           "zimmer":3,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Knesebeckstrasse 3",
           "stadt":"Mudenbach",
           "postleitzahl":"57614",
@@ -38063,7 +38063,7 @@ const IMMO_DATA = [
           "wohnfläche":424,
           "zimmer":7,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Landhausstraße 50",
           "stadt":"Zehdenick",
           "postleitzahl":"16786",
@@ -38093,7 +38093,7 @@ const IMMO_DATA = [
           "wohnfläche":586,
           "zimmer":6,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Hans-Grade-Allee 30",
           "stadt":"Todendorf",
           "postleitzahl":"22965",
@@ -38123,7 +38123,7 @@ const IMMO_DATA = [
           "wohnfläche":391,
           "zimmer":3,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Rudower Strasse 7",
           "stadt":"Neuheilenbach",
           "postleitzahl":"54597",
@@ -38153,7 +38153,7 @@ const IMMO_DATA = [
           "wohnfläche":253,
           "zimmer":3,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Sömmeringstr. 70",
           "stadt":"Hambrücken",
           "postleitzahl":"76707",
@@ -38183,7 +38183,7 @@ const IMMO_DATA = [
           "wohnfläche":402,
           "zimmer":2,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Gotthardstrasse 61",
           "stadt":"Gera",
           "postleitzahl":"07549",
@@ -38213,7 +38213,7 @@ const IMMO_DATA = [
           "wohnfläche":355,
           "zimmer":4,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Pohlstrasse 3",
           "stadt":"Altenau",
           "postleitzahl":"38707",
@@ -38243,7 +38243,7 @@ const IMMO_DATA = [
           "wohnfläche":207,
           "zimmer":6,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Alsterkrugchaussee 11",
           "stadt":"Schwabach",
           "postleitzahl":"91109",
@@ -38273,7 +38273,7 @@ const IMMO_DATA = [
           "wohnfläche":439,
           "zimmer":2,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Messedamm 22",
           "stadt":"Halle",
           "postleitzahl":"06128",
@@ -38303,7 +38303,7 @@ const IMMO_DATA = [
           "wohnfläche":263,
           "zimmer":4,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Alter Wall 3",
           "stadt":"Lohr",
           "postleitzahl":"97805",
@@ -38333,7 +38333,7 @@ const IMMO_DATA = [
           "wohnfläche":412,
           "zimmer":5,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Kieler Strasse 22",
           "stadt":"Burgkirchen",
           "postleitzahl":"84508",
@@ -38363,7 +38363,7 @@ const IMMO_DATA = [
           "wohnfläche":129,
           "zimmer":4,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Gubener Str. 12",
           "stadt":"Edling",
           "postleitzahl":"83531",
@@ -38393,7 +38393,7 @@ const IMMO_DATA = [
           "wohnfläche":358,
           "zimmer":6,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Brandenburgische Str 56",
           "stadt":"Bickenbach",
           "postleitzahl":"56291",
@@ -38423,7 +38423,7 @@ const IMMO_DATA = [
           "wohnfläche":340,
           "zimmer":4,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Anhalter Strasse 56",
           "stadt":"Bissersheim",
           "postleitzahl":"67281",
@@ -38453,7 +38453,7 @@ const IMMO_DATA = [
           "wohnfläche":463,
           "zimmer":5,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Marseiller Strasse 29",
           "stadt":"Burggen",
           "postleitzahl":"86977",
@@ -38483,7 +38483,7 @@ const IMMO_DATA = [
           "wohnfläche":457,
           "zimmer":4,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Genterstrasse 22",
           "stadt":"Kiel",
           "postleitzahl":"24028",
@@ -38513,7 +38513,7 @@ const IMMO_DATA = [
           "wohnfläche":196,
           "zimmer":4,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Luetzowplatz 37",
           "stadt":"Hüttingen bei Lahr",
           "postleitzahl":"54675",
@@ -38543,7 +38543,7 @@ const IMMO_DATA = [
           "wohnfläche":230,
           "zimmer":5,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Prager Str 18",
           "stadt":"Seewiesen",
           "postleitzahl":"82319",
@@ -38573,7 +38573,7 @@ const IMMO_DATA = [
           "wohnfläche":401,
           "zimmer":2,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Schaarsteinweg 90",
           "stadt":"Hunderdorf",
           "postleitzahl":"94336",
@@ -38603,7 +38603,7 @@ const IMMO_DATA = [
           "wohnfläche":579,
           "zimmer":2,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Inge Beisheim Platz 76",
           "stadt":"Glückstadt",
           "postleitzahl":"25344",
@@ -38633,7 +38633,7 @@ const IMMO_DATA = [
           "wohnfläche":465,
           "zimmer":2,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Fasanenstrasse 92",
           "stadt":"Hamburg Sankt Pauli",
           "postleitzahl":"20354",
@@ -38663,7 +38663,7 @@ const IMMO_DATA = [
           "wohnfläche":240,
           "zimmer":2,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Bleibtreustraße 44",
           "stadt":"Friesenheim",
           "postleitzahl":"77948",
@@ -38693,7 +38693,7 @@ const IMMO_DATA = [
           "wohnfläche":567,
           "zimmer":7,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Am Borsigturm 78",
           "stadt":"Neuss Pomona",
           "postleitzahl":"41464",
@@ -38723,7 +38723,7 @@ const IMMO_DATA = [
           "wohnfläche":314,
           "zimmer":3,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Motzstr. 70",
           "stadt":"Sankt Katharinen",
           "postleitzahl":"55595",
@@ -38753,7 +38753,7 @@ const IMMO_DATA = [
           "wohnfläche":117,
           "zimmer":5,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Alter Wall 59",
           "stadt":"Kitzingen",
           "postleitzahl":"97307",
@@ -38783,7 +38783,7 @@ const IMMO_DATA = [
           "wohnfläche":531,
           "zimmer":6,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Stuttgarter Platz 42",
           "stadt":"Staudt",
           "postleitzahl":"56424",
@@ -38813,7 +38813,7 @@ const IMMO_DATA = [
           "wohnfläche":165,
           "zimmer":6,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Flotowstr. 47",
           "stadt":"Merseburg",
           "postleitzahl":"06204",
@@ -38843,7 +38843,7 @@ const IMMO_DATA = [
           "wohnfläche":108,
           "zimmer":7,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Frankfurter Allee 59",
           "stadt":"Karlsruhe Durlach",
           "postleitzahl":"76227",
@@ -38873,7 +38873,7 @@ const IMMO_DATA = [
           "wohnfläche":259,
           "zimmer":6,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Messedamm 44",
           "stadt":"Halle",
           "postleitzahl":"37620",
@@ -38903,7 +38903,7 @@ const IMMO_DATA = [
           "wohnfläche":462,
           "zimmer":6,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Esplanade 81",
           "stadt":"Esselbach",
           "postleitzahl":"97839",
@@ -38933,7 +38933,7 @@ const IMMO_DATA = [
           "wohnfläche":376,
           "zimmer":5,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Billwerder Neuer Deich 80",
           "stadt":"Küps",
           "postleitzahl":"96325",
@@ -38963,7 +38963,7 @@ const IMMO_DATA = [
           "wohnfläche":308,
           "zimmer":4,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Fasanenstrasse 71",
           "stadt":"Hamburg Ottensen",
           "postleitzahl":"22763",
@@ -38993,7 +38993,7 @@ const IMMO_DATA = [
           "wohnfläche":332,
           "zimmer":7,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Jenaer Strasse 98",
           "stadt":"Wuppertal Ronsdorf",
           "postleitzahl":"42369",
@@ -39023,7 +39023,7 @@ const IMMO_DATA = [
           "wohnfläche":190,
           "zimmer":6,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Lietzenburger Straße 50",
           "stadt":"Gorleben",
           "postleitzahl":"29475",
@@ -39053,7 +39053,7 @@ const IMMO_DATA = [
           "wohnfläche":597,
           "zimmer":2,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Rhinstrasse 95",
           "stadt":"München",
           "postleitzahl":"80791",
@@ -39083,7 +39083,7 @@ const IMMO_DATA = [
           "wohnfläche":331,
           "zimmer":6,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Stresemannstr. 58",
           "stadt":"Namborn",
           "postleitzahl":"66640",
@@ -39113,7 +39113,7 @@ const IMMO_DATA = [
           "wohnfläche":327,
           "zimmer":6,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Schaarsteinweg 2",
           "stadt":"Cham",
           "postleitzahl":"93413",
@@ -39143,7 +39143,7 @@ const IMMO_DATA = [
           "wohnfläche":418,
           "zimmer":2,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Michaelkirchstr. 64",
           "stadt":"Bad Oeynhausen Wulferdingsen",
           "postleitzahl":"32549",
@@ -39173,7 +39173,7 @@ const IMMO_DATA = [
           "wohnfläche":546,
           "zimmer":5,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Hermannstrasse 91",
           "stadt":"Bobenheim-Roxheim",
           "postleitzahl":"67240",
@@ -39203,7 +39203,7 @@ const IMMO_DATA = [
           "wohnfläche":176,
           "zimmer":5,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Ziegelstr. 16",
           "stadt":"Philippsreut",
           "postleitzahl":"94158",
@@ -39233,7 +39233,7 @@ const IMMO_DATA = [
           "wohnfläche":329,
           "zimmer":2,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Grosse Praesidenten Str. 15",
           "stadt":"Kreimbach-Kaulbach",
           "postleitzahl":"67757",
@@ -39263,7 +39263,7 @@ const IMMO_DATA = [
           "wohnfläche":105,
           "zimmer":7,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Waßmannsdorfer Chaussee 14",
           "stadt":"Hamburg Barmbek-Nord",
           "postleitzahl":"22305",
@@ -39293,7 +39293,7 @@ const IMMO_DATA = [
           "wohnfläche":155,
           "zimmer":6,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Anhalter Strasse 21",
           "stadt":"Bissersheim",
           "postleitzahl":"67281",
@@ -39323,7 +39323,7 @@ const IMMO_DATA = [
           "wohnfläche":536,
           "zimmer":7,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Los-Angeles-Platz 28",
           "stadt":"Norderstedt",
           "postleitzahl":"22809",
@@ -39353,7 +39353,7 @@ const IMMO_DATA = [
           "wohnfläche":438,
           "zimmer":3,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Sonnenallee 5",
           "stadt":"Augsburg",
           "postleitzahl":"86183",
@@ -39383,7 +39383,7 @@ const IMMO_DATA = [
           "wohnfläche":247,
           "zimmer":4,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Sömmeringstr. 4",
           "stadt":"Vöhringen",
           "postleitzahl":"72189",
@@ -39413,7 +39413,7 @@ const IMMO_DATA = [
           "wohnfläche":238,
           "zimmer":6,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Waldowstr. 73",
           "stadt":"Igersheim",
           "postleitzahl":"97999",
@@ -39443,7 +39443,7 @@ const IMMO_DATA = [
           "wohnfläche":130,
           "zimmer":7,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Stuttgarter Platz 94",
           "stadt":"Isenburg",
           "postleitzahl":"56271",
@@ -39473,7 +39473,7 @@ const IMMO_DATA = [
           "wohnfläche":400,
           "zimmer":7,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Heinrich Heine Platz 70",
           "stadt":"Waltershausen",
           "postleitzahl":"99874",
@@ -39503,7 +39503,7 @@ const IMMO_DATA = [
           "wohnfläche":541,
           "zimmer":4,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Billwerder Neuer Deich 17",
           "stadt":"Oberkotzau",
           "postleitzahl":"95141",
@@ -39533,7 +39533,7 @@ const IMMO_DATA = [
           "wohnfläche":401,
           "zimmer":2,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Paderborner Strasse 68",
           "stadt":"Aresing",
           "postleitzahl":"86561",
@@ -39563,7 +39563,7 @@ const IMMO_DATA = [
           "wohnfläche":322,
           "zimmer":5,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Frankfurter Allee 87",
           "stadt":"Karlsruhe Grötzingen",
           "postleitzahl":"76228",
@@ -39593,7 +39593,7 @@ const IMMO_DATA = [
           "wohnfläche":71,
           "zimmer":4,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Hermannstrasse 8",
           "stadt":"Worms Ibersheim",
           "postleitzahl":"67550",
@@ -39623,7 +39623,7 @@ const IMMO_DATA = [
           "wohnfläche":196,
           "zimmer":2,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Rudolstaedter Strasse 64",
           "stadt":"Rheine",
           "postleitzahl":"48429",
@@ -39653,7 +39653,7 @@ const IMMO_DATA = [
           "wohnfläche":104,
           "zimmer":3,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Schmarjestrasse 6",
           "stadt":"Haselbach",
           "postleitzahl":"94354",
@@ -39683,7 +39683,7 @@ const IMMO_DATA = [
           "wohnfläche":410,
           "zimmer":6,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Invalidenstrasse 92",
           "stadt":"Petersberg",
           "postleitzahl":"36100",
@@ -39713,7 +39713,7 @@ const IMMO_DATA = [
           "wohnfläche":333,
           "zimmer":5,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Hardenbergstraße 60",
           "stadt":"Dimbach",
           "postleitzahl":"76848",
@@ -39743,7 +39743,7 @@ const IMMO_DATA = [
           "wohnfläche":395,
           "zimmer":4,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Messedamm 79",
           "stadt":"Halle",
           "postleitzahl":"06040",
@@ -39773,7 +39773,7 @@ const IMMO_DATA = [
           "wohnfläche":517,
           "zimmer":3,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Lietzenburger Straße 50",
           "stadt":"Twist",
           "postleitzahl":"49767",
@@ -39803,7 +39803,7 @@ const IMMO_DATA = [
           "wohnfläche":203,
           "zimmer":4,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Mohrenstrasse 84",
           "stadt":"Loßburg",
           "postleitzahl":"72290",
@@ -39833,7 +39833,7 @@ const IMMO_DATA = [
           "wohnfläche":375,
           "zimmer":6,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Buelowstrasse 3",
           "stadt":"Arbach",
           "postleitzahl":"56769",
@@ -39863,7 +39863,7 @@ const IMMO_DATA = [
           "wohnfläche":181,
           "zimmer":6,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Leopoldstraße 39",
           "stadt":"Siegen",
           "postleitzahl":"57074",
@@ -39893,7 +39893,7 @@ const IMMO_DATA = [
           "wohnfläche":78,
           "zimmer":6,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Eschenweg 69",
           "stadt":"Saalfeld",
           "postleitzahl":"07301",
@@ -39923,7 +39923,7 @@ const IMMO_DATA = [
           "wohnfläche":534,
           "zimmer":5,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Ziegelstr. 70",
           "stadt":"Hebertsfelden",
           "postleitzahl":"84330",
@@ -39953,7 +39953,7 @@ const IMMO_DATA = [
           "wohnfläche":276,
           "zimmer":5,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Prager Str 97",
           "stadt":"Gröbenzell",
           "postleitzahl":"82184",
@@ -39983,7 +39983,7 @@ const IMMO_DATA = [
           "wohnfläche":585,
           "zimmer":3,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Ruschestrasse 62",
           "stadt":"Sternberg",
           "postleitzahl":"19402",
@@ -40013,7 +40013,7 @@ const IMMO_DATA = [
           "wohnfläche":361,
           "zimmer":7,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Chausseestr. 68",
           "stadt":"Reinbek",
           "postleitzahl":"21453",
@@ -40043,7 +40043,7 @@ const IMMO_DATA = [
           "wohnfläche":457,
           "zimmer":7,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Billwerder Neuer Deich 80",
           "stadt":"Oberkotzau",
           "postleitzahl":"95145",
@@ -40073,7 +40073,7 @@ const IMMO_DATA = [
           "wohnfläche":174,
           "zimmer":4,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Luckenwalder Strasse 98",
           "stadt":"Despetal",
           "postleitzahl":"31035",
@@ -40103,7 +40103,7 @@ const IMMO_DATA = [
           "wohnfläche":292,
           "zimmer":6,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Lietzenburger Straße 60",
           "stadt":"Jameln",
           "postleitzahl":"29479",
@@ -40133,7 +40133,7 @@ const IMMO_DATA = [
           "wohnfläche":113,
           "zimmer":7,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Mollstrasse 49",
           "stadt":"Raunheim",
           "postleitzahl":"65479",
@@ -40163,7 +40163,7 @@ const IMMO_DATA = [
           "wohnfläche":307,
           "zimmer":5,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Ansbacher Strasse 17",
           "stadt":"Kommen",
           "postleitzahl":"54472",
@@ -40193,7 +40193,7 @@ const IMMO_DATA = [
           "wohnfläche":503,
           "zimmer":4,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Fugger Strasse 18",
           "stadt":"Koblenz Stadtmitte",
           "postleitzahl":"56075",
@@ -40223,7 +40223,7 @@ const IMMO_DATA = [
           "wohnfläche":185,
           "zimmer":5,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Lützowplatz 38",
           "stadt":"Großlittgen",
           "postleitzahl":"54534",
@@ -40253,7 +40253,7 @@ const IMMO_DATA = [
           "wohnfläche":567,
           "zimmer":3,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Leipziger Straße 21",
           "stadt":"Warburg",
           "postleitzahl":"34414",
@@ -40283,7 +40283,7 @@ const IMMO_DATA = [
           "wohnfläche":87,
           "zimmer":3,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Schönwalder Allee 79",
           "stadt":"Hütten",
           "postleitzahl":"54673",
@@ -40313,7 +40313,7 @@ const IMMO_DATA = [
           "wohnfläche":206,
           "zimmer":5,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Frankfurter Allee 48",
           "stadt":"Karlsruhe Neureut",
           "postleitzahl":"76149",
@@ -40343,7 +40343,7 @@ const IMMO_DATA = [
           "wohnfläche":575,
           "zimmer":5,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Gubener Str. 46",
           "stadt":"Rosenheim",
           "postleitzahl":"83004",
@@ -40373,7 +40373,7 @@ const IMMO_DATA = [
           "wohnfläche":562,
           "zimmer":3,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Motzstr. 18",
           "stadt":"Oestrich-Winkel",
           "postleitzahl":"65375",
@@ -40403,7 +40403,7 @@ const IMMO_DATA = [
           "wohnfläche":581,
           "zimmer":4,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Stuttgarter Platz 54",
           "stadt":"Ochtrup",
           "postleitzahl":"48607",
@@ -40433,7 +40433,7 @@ const IMMO_DATA = [
           "wohnfläche":376,
           "zimmer":2,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Luebecker Strasse 27",
           "stadt":"Burglengenfeld",
           "postleitzahl":"93133",
@@ -40463,7 +40463,7 @@ const IMMO_DATA = [
           "wohnfläche":463,
           "zimmer":3,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Luebecker Strasse 28",
           "stadt":"Wattendorf",
           "postleitzahl":"96196",
@@ -40493,7 +40493,7 @@ const IMMO_DATA = [
           "wohnfläche":153,
           "zimmer":5,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Charlottenstrasse 61",
           "stadt":"Dresden",
           "postleitzahl":"01287",
@@ -40523,7 +40523,7 @@ const IMMO_DATA = [
           "wohnfläche":548,
           "zimmer":6,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Bayreuther Strasse 92",
           "stadt":"Ulm Ermingen",
           "postleitzahl":"89081",
@@ -40553,7 +40553,7 @@ const IMMO_DATA = [
           "wohnfläche":443,
           "zimmer":6,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Frankfurter Allee 90",
           "stadt":"Karlsruhe Weststadt",
           "postleitzahl":"76149",
@@ -40583,7 +40583,7 @@ const IMMO_DATA = [
           "wohnfläche":139,
           "zimmer":2,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Budapester Straße 63",
           "stadt":"Butzbach",
           "postleitzahl":"35510",
@@ -40613,7 +40613,7 @@ const IMMO_DATA = [
           "wohnfläche":268,
           "zimmer":7,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Hoheluftchaussee 67",
           "stadt":"Pretzsch",
           "postleitzahl":"06906",
@@ -40643,7 +40643,7 @@ const IMMO_DATA = [
           "wohnfläche":300,
           "zimmer":7,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Paul-Nevermann-Platz 50",
           "stadt":"Hammelburg",
           "postleitzahl":"97756",
@@ -40673,7 +40673,7 @@ const IMMO_DATA = [
           "wohnfläche":154,
           "zimmer":5,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Rankestraße 39",
           "stadt":"Inning",
           "postleitzahl":"82266",
@@ -40703,7 +40703,7 @@ const IMMO_DATA = [
           "wohnfläche":415,
           "zimmer":3,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Gotzkowskystraße 10",
           "stadt":"Wachtendonk",
           "postleitzahl":"47669",
@@ -40733,7 +40733,7 @@ const IMMO_DATA = [
           "wohnfläche":473,
           "zimmer":5,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Koenigstrasse 29",
           "stadt":"Hohenstein",
           "postleitzahl":"72531",
@@ -40763,7 +40763,7 @@ const IMMO_DATA = [
           "wohnfläche":532,
           "zimmer":2,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Landhausstraße 79",
           "stadt":"Teltow",
           "postleitzahl":"14505",
@@ -40793,7 +40793,7 @@ const IMMO_DATA = [
           "wohnfläche":369,
           "zimmer":7,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Billwerder Neuer Deich 34",
           "stadt":"Speichersdorf",
           "postleitzahl":"95467",
@@ -40823,7 +40823,7 @@ const IMMO_DATA = [
           "wohnfläche":72,
           "zimmer":4,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Hoheluftchaussee 7",
           "stadt":"Hartha",
           "postleitzahl":"04744",
@@ -40853,7 +40853,7 @@ const IMMO_DATA = [
           "wohnfläche":197,
           "zimmer":6,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Karl-Liebknecht-Strasse 20",
           "stadt":"Bad Bramstedt",
           "postleitzahl":"24571",
@@ -40883,7 +40883,7 @@ const IMMO_DATA = [
           "wohnfläche":558,
           "zimmer":7,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Fontenay 95",
           "stadt":"Kronach",
           "postleitzahl":"96307",
@@ -40913,7 +40913,7 @@ const IMMO_DATA = [
           "wohnfläche":316,
           "zimmer":5,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Rathausstrasse 84",
           "stadt":"Nürnberg",
           "postleitzahl":"90102",
@@ -40943,7 +40943,7 @@ const IMMO_DATA = [
           "wohnfläche":182,
           "zimmer":3,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Hermannstrasse 7",
           "stadt":"Osthofen",
           "postleitzahl":"67574",
@@ -40973,7 +40973,7 @@ const IMMO_DATA = [
           "wohnfläche":114,
           "zimmer":3,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Frankfurter Allee 22",
           "stadt":"Karlsruhe Nordweststadt",
           "postleitzahl":"76187",
@@ -41003,7 +41003,7 @@ const IMMO_DATA = [
           "wohnfläche":213,
           "zimmer":5,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Knesebeckstrasse 71",
           "stadt":"Hümmerich",
           "postleitzahl":"53547",
@@ -41033,7 +41033,7 @@ const IMMO_DATA = [
           "wohnfläche":456,
           "zimmer":7,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Storkower Strasse 62",
           "stadt":"Hilgert",
           "postleitzahl":"56206",
@@ -41063,7 +41063,7 @@ const IMMO_DATA = [
           "wohnfläche":322,
           "zimmer":5,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Michaelkirchstr. 96",
           "stadt":"Bad Oeynhausen Werste",
           "postleitzahl":"32549",
@@ -41093,7 +41093,7 @@ const IMMO_DATA = [
           "wohnfläche":86,
           "zimmer":5,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Am Borsigturm 48",
           "stadt":"Meerbusch Osterath",
           "postleitzahl":"40670",
@@ -41123,7 +41123,7 @@ const IMMO_DATA = [
           "wohnfläche":262,
           "zimmer":5,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Scharnweberstrasse 37",
           "stadt":"Mannheim Gartenstadt",
           "postleitzahl":"68305",
@@ -41153,7 +41153,7 @@ const IMMO_DATA = [
           "wohnfläche":423,
           "zimmer":6,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Borstelmannsweg 70",
           "stadt":"Ebrach",
           "postleitzahl":"96157",
@@ -41183,7 +41183,7 @@ const IMMO_DATA = [
           "wohnfläche":180,
           "zimmer":3,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Gruenauer Strasse 17",
           "stadt":"Büchen",
           "postleitzahl":"21510",
@@ -41213,7 +41213,7 @@ const IMMO_DATA = [
           "wohnfläche":457,
           "zimmer":7,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Kirchenallee 59",
           "stadt":"Drachselsried",
           "postleitzahl":"94256",
@@ -41243,7 +41243,7 @@ const IMMO_DATA = [
           "wohnfläche":310,
           "zimmer":7,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Kurfuerstendamm 87",
           "stadt":"Garching",
           "postleitzahl":"85742",
@@ -41273,7 +41273,7 @@ const IMMO_DATA = [
           "wohnfläche":391,
           "zimmer":2,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Joachimstaler Str. 11",
           "stadt":"Hainau",
           "postleitzahl":"56357",
@@ -41303,7 +41303,7 @@ const IMMO_DATA = [
           "wohnfläche":189,
           "zimmer":3,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Amsinckstrasse 21",
           "stadt":"Berthelsdorf",
           "postleitzahl":"01825",
@@ -41333,7 +41333,7 @@ const IMMO_DATA = [
           "wohnfläche":273,
           "zimmer":6,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Prager Str 23",
           "stadt":"Mammendorf",
           "postleitzahl":"82291",
@@ -41363,7 +41363,7 @@ const IMMO_DATA = [
           "wohnfläche":529,
           "zimmer":6,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Luebeckertordamm 55",
           "stadt":"Pyrbaum",
           "postleitzahl":"90600",
@@ -41393,7 +41393,7 @@ const IMMO_DATA = [
           "wohnfläche":217,
           "zimmer":3,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Fontenay 95",
           "stadt":"Pottenstein",
           "postleitzahl":"91276",
@@ -41423,7 +41423,7 @@ const IMMO_DATA = [
           "wohnfläche":362,
           "zimmer":3,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Stuttgarter Platz 35",
           "stadt":"Dienethal",
           "postleitzahl":"56379",
@@ -41453,7 +41453,7 @@ const IMMO_DATA = [
           "wohnfläche":287,
           "zimmer":7,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Stuttgarter Platz 35",
           "stadt":"Moschheim",
           "postleitzahl":"56424",
@@ -41483,7 +41483,7 @@ const IMMO_DATA = [
           "wohnfläche":77,
           "zimmer":6,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Gotthardstrasse 96",
           "stadt":"Erfurt",
           "postleitzahl":"99092",
@@ -41513,7 +41513,7 @@ const IMMO_DATA = [
           "wohnfläche":210,
           "zimmer":7,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Kantstraße 14",
           "stadt":"Meiningen",
           "postleitzahl":"98604",
@@ -41543,7 +41543,7 @@ const IMMO_DATA = [
           "wohnfläche":452,
           "zimmer":4,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Alsterkrugchaussee 39",
           "stadt":"Rain",
           "postleitzahl":"86641",
@@ -41573,7 +41573,7 @@ const IMMO_DATA = [
           "wohnfläche":306,
           "zimmer":7,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Schaarsteinweg 54",
           "stadt":"Ascha",
           "postleitzahl":"94347",
@@ -41603,7 +41603,7 @@ const IMMO_DATA = [
           "wohnfläche":465,
           "zimmer":3,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Ufnau Strasse 79",
           "stadt":"Sontheim",
           "postleitzahl":"87776",
@@ -41633,7 +41633,7 @@ const IMMO_DATA = [
           "wohnfläche":300,
           "zimmer":5,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Luetzowplatz 63",
           "stadt":"Lahr",
           "postleitzahl":"77933",
@@ -41663,7 +41663,7 @@ const IMMO_DATA = [
           "wohnfläche":535,
           "zimmer":4,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Konstanzer Strasse 74",
           "stadt":"Niddatal",
           "postleitzahl":"61194",
@@ -41693,7 +41693,7 @@ const IMMO_DATA = [
           "wohnfläche":488,
           "zimmer":6,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Brandenburgische Strasse 50",
           "stadt":"Orbis",
           "postleitzahl":"67294",
@@ -41723,7 +41723,7 @@ const IMMO_DATA = [
           "wohnfläche":323,
           "zimmer":2,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"An Der Urania 3",
           "stadt":"Beldorf",
           "postleitzahl":"25557",
@@ -41753,7 +41753,7 @@ const IMMO_DATA = [
           "wohnfläche":365,
           "zimmer":5,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Koenigstrasse 57",
           "stadt":"Geschwenda",
           "postleitzahl":"98718",
@@ -41783,7 +41783,7 @@ const IMMO_DATA = [
           "wohnfläche":272,
           "zimmer":3,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Bissingzeile 54",
           "stadt":"Otterndorf",
           "postleitzahl":"21762",
@@ -41813,7 +41813,7 @@ const IMMO_DATA = [
           "wohnfläche":135,
           "zimmer":5,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Kantstrasse 33",
           "stadt":"Nürnberg",
           "postleitzahl":"90473",
@@ -41843,7 +41843,7 @@ const IMMO_DATA = [
           "wohnfläche":118,
           "zimmer":5,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Fischerinsel 85",
           "stadt":"Viersen Lind",
           "postleitzahl":"41751",
@@ -41873,7 +41873,7 @@ const IMMO_DATA = [
           "wohnfläche":105,
           "zimmer":4,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Prager Str 22",
           "stadt":"Gröbenzell",
           "postleitzahl":"82180",
@@ -41903,7 +41903,7 @@ const IMMO_DATA = [
           "wohnfläche":339,
           "zimmer":5,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Genterstrasse 77",
           "stadt":"Kiel",
           "postleitzahl":"24012",
@@ -41933,7 +41933,7 @@ const IMMO_DATA = [
           "wohnfläche":281,
           "zimmer":5,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Mollstrasse 84",
           "stadt":"Hattersheim am Main",
           "postleitzahl":"65795",
@@ -41963,7 +41963,7 @@ const IMMO_DATA = [
           "wohnfläche":77,
           "zimmer":2,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Hermannstrasse 48",
           "stadt":"Worms Herrnsheim",
           "postleitzahl":"67550",
@@ -41993,7 +41993,7 @@ const IMMO_DATA = [
           "wohnfläche":393,
           "zimmer":6,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Luetzowplatz 59",
           "stadt":"Schwarzenborn",
           "postleitzahl":"54533",
@@ -42023,7 +42023,7 @@ const IMMO_DATA = [
           "wohnfläche":380,
           "zimmer":3,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Mohrenstrasse 33",
           "stadt":"Unterwachingen",
           "postleitzahl":"89597",
@@ -42053,7 +42053,7 @@ const IMMO_DATA = [
           "wohnfläche":341,
           "zimmer":3,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Gubener Str. 69",
           "stadt":"Emmering",
           "postleitzahl":"83550",
@@ -42083,7 +42083,7 @@ const IMMO_DATA = [
           "wohnfläche":432,
           "zimmer":2,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Kieler Strasse 49",
           "stadt":"Unterwössen",
           "postleitzahl":"83243",
@@ -42113,7 +42113,7 @@ const IMMO_DATA = [
           "wohnfläche":593,
           "zimmer":7,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Paul-Nevermann-Platz 88",
           "stadt":"Schweinfurt",
           "postleitzahl":"97408",
@@ -42143,7 +42143,7 @@ const IMMO_DATA = [
           "wohnfläche":81,
           "zimmer":3,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Storkower Strasse 27",
           "stadt":"Quirnbach",
           "postleitzahl":"56242",
@@ -42173,7 +42173,7 @@ const IMMO_DATA = [
           "wohnfläche":198,
           "zimmer":3,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Lange Strasse 1",
           "stadt":"Neubiberg",
           "postleitzahl":"85579",
@@ -42203,7 +42203,7 @@ const IMMO_DATA = [
           "wohnfläche":293,
           "zimmer":5,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Güntzelstrasse 52",
           "stadt":"Hetzerath",
           "postleitzahl":"54523",
@@ -42233,7 +42233,7 @@ const IMMO_DATA = [
           "wohnfläche":511,
           "zimmer":7,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Koepenicker Str. 3",
           "stadt":"Weiden",
           "postleitzahl":"92610",
@@ -42263,7 +42263,7 @@ const IMMO_DATA = [
           "wohnfläche":567,
           "zimmer":4,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Stuttgarter Platz 11",
           "stadt":"Steinfurt",
           "postleitzahl":"48565",
@@ -42293,7 +42293,7 @@ const IMMO_DATA = [
           "wohnfläche":419,
           "zimmer":3,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Karl-Liebknecht-Strasse 60",
           "stadt":"Blender",
           "postleitzahl":"27337",
@@ -42323,7 +42323,7 @@ const IMMO_DATA = [
           "wohnfläche":81,
           "zimmer":2,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Langenhorner Chaussee 89",
           "stadt":"Chieming",
           "postleitzahl":"83339",
@@ -42353,7 +42353,7 @@ const IMMO_DATA = [
           "wohnfläche":546,
           "zimmer":3,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Hedemannstasse 19",
           "stadt":"Moosburg",
           "postleitzahl":"88422",
@@ -42383,7 +42383,7 @@ const IMMO_DATA = [
           "wohnfläche":346,
           "zimmer":7,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Borstelmannsweg 78",
           "stadt":"Coburg",
           "postleitzahl":"96407",
@@ -42413,7 +42413,7 @@ const IMMO_DATA = [
           "wohnfläche":198,
           "zimmer":4,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Rohrdamm 48",
           "stadt":"Häuslingen",
           "postleitzahl":"27336",
@@ -42443,7 +42443,7 @@ const IMMO_DATA = [
           "wohnfläche":223,
           "zimmer":2,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Fasanenstrasse 1",
           "stadt":"Hamburg Niendorf",
           "postleitzahl":"22529",
@@ -42473,7 +42473,7 @@ const IMMO_DATA = [
           "wohnfläche":123,
           "zimmer":5,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Amsinckstrasse 3",
           "stadt":"Lichtenberg",
           "postleitzahl":"09638",
@@ -42503,7 +42503,7 @@ const IMMO_DATA = [
           "wohnfläche":290,
           "zimmer":6,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Waldowstr. 11",
           "stadt":"Obersontheim",
           "postleitzahl":"74423",
@@ -42533,7 +42533,7 @@ const IMMO_DATA = [
           "wohnfläche":290,
           "zimmer":5,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Rhinstrasse 44",
           "stadt":"München",
           "postleitzahl":"80743",
@@ -42563,7 +42563,7 @@ const IMMO_DATA = [
           "wohnfläche":457,
           "zimmer":7,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Lietzensee-Ufer 8",
           "stadt":"Nossen",
           "postleitzahl":"01681",
@@ -42593,7 +42593,7 @@ const IMMO_DATA = [
           "wohnfläche":217,
           "zimmer":5,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Genslerstraße 77",
           "stadt":"Berlin Wedding",
           "postleitzahl":"13349",
@@ -42623,7 +42623,7 @@ const IMMO_DATA = [
           "wohnfläche":379,
           "zimmer":6,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Amsinckstrasse 92",
           "stadt":"Lauta",
           "postleitzahl":"02989",
@@ -42653,7 +42653,7 @@ const IMMO_DATA = [
           "wohnfläche":192,
           "zimmer":4,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Prager Str 91",
           "stadt":"Gauting",
           "postleitzahl":"82116",
@@ -42683,7 +42683,7 @@ const IMMO_DATA = [
           "wohnfläche":533,
           "zimmer":3,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Hermannstrasse 79",
           "stadt":"Leimen",
           "postleitzahl":"66978",
@@ -42713,7 +42713,7 @@ const IMMO_DATA = [
           "wohnfläche":464,
           "zimmer":2,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Fasanenstrasse 9",
           "stadt":"Hamburg Neuengamme",
           "postleitzahl":"21039",
@@ -42743,7 +42743,7 @@ const IMMO_DATA = [
           "wohnfläche":346,
           "zimmer":6,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Motzstr. 29",
           "stadt":"Waldalgesheim",
           "postleitzahl":"55425",
@@ -42773,7 +42773,7 @@ const IMMO_DATA = [
           "wohnfläche":142,
           "zimmer":6,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Knesebeckstrasse 87",
           "stadt":"Schürdt",
           "postleitzahl":"57632",
@@ -42803,7 +42803,7 @@ const IMMO_DATA = [
           "wohnfläche":313,
           "zimmer":3,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Mühlenstrasse 87",
           "stadt":"Regensburg",
           "postleitzahl":"93001",
@@ -42833,7 +42833,7 @@ const IMMO_DATA = [
           "wohnfläche":199,
           "zimmer":5,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Billwerder Neuer Deich 8",
           "stadt":"Bad Berneck",
           "postleitzahl":"95456",
@@ -42863,7 +42863,7 @@ const IMMO_DATA = [
           "wohnfläche":465,
           "zimmer":4,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Brandenburgische Str. 85",
           "stadt":"Pfaffenhofen",
           "postleitzahl":"89282",
@@ -42893,7 +42893,7 @@ const IMMO_DATA = [
           "wohnfläche":347,
           "zimmer":5,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Rudolstaedter Strasse 6",
           "stadt":"Aschaffenburg",
           "postleitzahl":"63718",
@@ -42923,7 +42923,7 @@ const IMMO_DATA = [
           "wohnfläche":574,
           "zimmer":3,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Alsterkrugchaussee 66",
           "stadt":"Leinburg",
           "postleitzahl":"91225",
@@ -42953,7 +42953,7 @@ const IMMO_DATA = [
           "wohnfläche":509,
           "zimmer":7,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Mohrenstrasse 40",
           "stadt":"Unterstadion",
           "postleitzahl":"89619",
@@ -42983,7 +42983,7 @@ const IMMO_DATA = [
           "wohnfläche":93,
           "zimmer":7,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Spresstrasse 91",
           "stadt":"Flensburg",
           "postleitzahl":"24915",
@@ -43013,7 +43013,7 @@ const IMMO_DATA = [
           "wohnfläche":358,
           "zimmer":5,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Alt Reinickendorf 2",
           "stadt":"Sonthofen",
           "postleitzahl":"87516",
@@ -43043,7 +43043,7 @@ const IMMO_DATA = [
           "wohnfläche":391,
           "zimmer":7,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Knesebeckstrasse 34",
           "stadt":"Flammersfeld",
           "postleitzahl":"57632",
@@ -43073,7 +43073,7 @@ const IMMO_DATA = [
           "wohnfläche":131,
           "zimmer":3,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Schaarsteinweg 95",
           "stadt":"Kelheim",
           "postleitzahl":"93306",
@@ -43103,7 +43103,7 @@ const IMMO_DATA = [
           "wohnfläche":495,
           "zimmer":7,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Sömmeringstr. 53",
           "stadt":"Weißenhorn",
           "postleitzahl":"89258",
@@ -43133,7 +43133,7 @@ const IMMO_DATA = [
           "wohnfläche":152,
           "zimmer":3,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Marseiller Strasse 91",
           "stadt":"Garmisch-Partenkirchen",
           "postleitzahl":"82457",
@@ -43163,7 +43163,7 @@ const IMMO_DATA = [
           "wohnfläche":373,
           "zimmer":5,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Langenhorner Chaussee 95",
           "stadt":"Altötting",
           "postleitzahl":"84503",
@@ -43193,7 +43193,7 @@ const IMMO_DATA = [
           "wohnfläche":243,
           "zimmer":2,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Leipziger Straße 87",
           "stadt":"Hattorf",
           "postleitzahl":"37197",
@@ -43223,7 +43223,7 @@ const IMMO_DATA = [
           "wohnfläche":418,
           "zimmer":7,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Chausseestr. 9",
           "stadt":"Ellerau",
           "postleitzahl":"25476",
@@ -43253,7 +43253,7 @@ const IMMO_DATA = [
           "wohnfläche":346,
           "zimmer":4,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Feldstrasse 84",
           "stadt":"Atzendorf",
           "postleitzahl":"06217",
@@ -43283,7 +43283,7 @@ const IMMO_DATA = [
           "wohnfläche":338,
           "zimmer":3,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Rosenstrasse 9",
           "stadt":"München",
           "postleitzahl":"81541",
@@ -43313,7 +43313,7 @@ const IMMO_DATA = [
           "wohnfläche":127,
           "zimmer":7,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Michaelkirchstr. 41",
           "stadt":"Bad Oeynhausen Werste",
           "postleitzahl":"32549",
@@ -43343,7 +43343,7 @@ const IMMO_DATA = [
           "wohnfläche":408,
           "zimmer":6,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Kastanienallee 61",
           "stadt":"Wohlde",
           "postleitzahl":"24899",
@@ -43373,7 +43373,7 @@ const IMMO_DATA = [
           "wohnfläche":143,
           "zimmer":2,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Invalidenstrasse 34",
           "stadt":"Lindenberg",
           "postleitzahl":"88152",
@@ -43403,7 +43403,7 @@ const IMMO_DATA = [
           "wohnfläche":169,
           "zimmer":7,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Budapester Strasse 22",
           "stadt":"Gyhum",
           "postleitzahl":"27404",
@@ -43433,7 +43433,7 @@ const IMMO_DATA = [
           "wohnfläche":232,
           "zimmer":6,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Kurfuerstendamm 80",
           "stadt":"München",
           "postleitzahl":"80016",
@@ -43463,7 +43463,7 @@ const IMMO_DATA = [
           "wohnfläche":188,
           "zimmer":4,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Güntzelstrasse 96",
           "stadt":"Welschbillig",
           "postleitzahl":"54298",
@@ -43493,7 +43493,7 @@ const IMMO_DATA = [
           "wohnfläche":505,
           "zimmer":5,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Frankfurter Allee 60",
           "stadt":"Neu-Ulm",
           "postleitzahl":"89214",
@@ -43523,7 +43523,7 @@ const IMMO_DATA = [
           "wohnfläche":151,
           "zimmer":6,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Guentzelstrasse 76",
           "stadt":"Wöllstein",
           "postleitzahl":"55597",
@@ -43553,7 +43553,7 @@ const IMMO_DATA = [
           "wohnfläche":185,
           "zimmer":2,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Gubener Str. 29",
           "stadt":"Raubling",
           "postleitzahl":"83060",
@@ -43583,7 +43583,7 @@ const IMMO_DATA = [
           "wohnfläche":239,
           "zimmer":2,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Luebecker Strasse 14",
           "stadt":"Hirschaid",
           "postleitzahl":"96112",
@@ -43613,7 +43613,7 @@ const IMMO_DATA = [
           "wohnfläche":565,
           "zimmer":6,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Budapester Straße 23",
           "stadt":"Angelburg",
           "postleitzahl":"35719",
@@ -43643,7 +43643,7 @@ const IMMO_DATA = [
           "wohnfläche":97,
           "zimmer":3,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Lietzenburger Straße 64",
           "stadt":"Hoogstede",
           "postleitzahl":"49846",
@@ -43673,7 +43673,7 @@ const IMMO_DATA = [
           "wohnfläche":549,
           "zimmer":3,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Rudower Chaussee 33",
           "stadt":"Ansbach",
           "postleitzahl":"91505",
@@ -43703,7 +43703,7 @@ const IMMO_DATA = [
           "wohnfläche":353,
           "zimmer":2,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Kurfürstendamm 18",
           "stadt":"Rostock",
           "postleitzahl":"18090",
@@ -43733,7 +43733,7 @@ const IMMO_DATA = [
           "wohnfläche":98,
           "zimmer":3,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Ansbacher Strasse 49",
           "stadt":"Brauneberg",
           "postleitzahl":"54472",
@@ -43763,7 +43763,7 @@ const IMMO_DATA = [
           "wohnfläche":219,
           "zimmer":4,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Ufnau Strasse 84",
           "stadt":"Stöttwang",
           "postleitzahl":"87677",
@@ -43793,7 +43793,7 @@ const IMMO_DATA = [
           "wohnfläche":552,
           "zimmer":5,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Eichendorffstr. 76",
           "stadt":"Hagnau",
           "postleitzahl":"88709",
@@ -43823,7 +43823,7 @@ const IMMO_DATA = [
           "wohnfläche":262,
           "zimmer":6,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Gubener Str. 27",
           "stadt":"Kolbermoor",
           "postleitzahl":"83054",
@@ -43853,7 +43853,7 @@ const IMMO_DATA = [
           "wohnfläche":311,
           "zimmer":6,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Schoenebergerstrasse 23",
           "stadt":"Erlabrunn",
           "postleitzahl":"97250",
@@ -43883,7 +43883,7 @@ const IMMO_DATA = [
           "wohnfläche":558,
           "zimmer":5,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Rathausstrasse 70",
           "stadt":"Fürth",
           "postleitzahl":"90717",
@@ -43913,7 +43913,7 @@ const IMMO_DATA = [
           "wohnfläche":241,
           "zimmer":6,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Pasewalker Straße 17",
           "stadt":"Leutenbach",
           "postleitzahl":"71397",
@@ -43943,7 +43943,7 @@ const IMMO_DATA = [
           "wohnfläche":346,
           "zimmer":7,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Langenhorner Chaussee 42",
           "stadt":"Übersee",
           "postleitzahl":"83236",
@@ -43973,7 +43973,7 @@ const IMMO_DATA = [
           "wohnfläche":432,
           "zimmer":6,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Motzstr. 43",
           "stadt":"Dorn-Dürkheim",
           "postleitzahl":"67585",
@@ -44003,7 +44003,7 @@ const IMMO_DATA = [
           "wohnfläche":220,
           "zimmer":6,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Bayreuther Strasse 4",
           "stadt":"Offenbach am Main",
           "postleitzahl":"63067",
@@ -44033,7 +44033,7 @@ const IMMO_DATA = [
           "wohnfläche":259,
           "zimmer":2,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Gotthardstrasse 69",
           "stadt":"Gera",
           "postleitzahl":"07545",
@@ -44063,7 +44063,7 @@ const IMMO_DATA = [
           "wohnfläche":493,
           "zimmer":4,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Prenzlauer Allee 48",
           "stadt":"Leipzig",
           "postleitzahl":"04107",
@@ -44093,7 +44093,7 @@ const IMMO_DATA = [
           "wohnfläche":124,
           "zimmer":3,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Lietzensee-Ufer 93",
           "stadt":"Pirna",
           "postleitzahl":"01787",
@@ -44123,7 +44123,7 @@ const IMMO_DATA = [
           "wohnfläche":437,
           "zimmer":3,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Nuernbergerstrasse 45",
           "stadt":"Berne",
           "postleitzahl":"27804",
@@ -44153,7 +44153,7 @@ const IMMO_DATA = [
           "wohnfläche":334,
           "zimmer":6,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Grolmanstraße 46",
           "stadt":"Bremen Utbremen",
           "postleitzahl":"28217",
@@ -44183,7 +44183,7 @@ const IMMO_DATA = [
           "wohnfläche":488,
           "zimmer":3,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Schmarjestrasse 87",
           "stadt":"Bensdorf",
           "postleitzahl":"14789",
@@ -44213,7 +44213,7 @@ const IMMO_DATA = [
           "wohnfläche":129,
           "zimmer":6,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Fontenay 95",
           "stadt":"Schauenstein",
           "postleitzahl":"95197",
@@ -44243,7 +44243,7 @@ const IMMO_DATA = [
           "wohnfläche":274,
           "zimmer":7,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Nuernbergerstrasse 13",
           "stadt":"Boostedt",
           "postleitzahl":"24598",
@@ -44273,7 +44273,7 @@ const IMMO_DATA = [
           "wohnfläche":367,
           "zimmer":2,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Prager Str 92",
           "stadt":"Röhrmoos",
           "postleitzahl":"85242",
@@ -44303,7 +44303,7 @@ const IMMO_DATA = [
           "wohnfläche":399,
           "zimmer":6,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Lützowplatz 30",
           "stadt":"Pelm",
           "postleitzahl":"54570",
@@ -44333,7 +44333,7 @@ const IMMO_DATA = [
           "wohnfläche":497,
           "zimmer":5,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Rudower Strasse 39",
           "stadt":"Orlenbach",
           "postleitzahl":"54595",
@@ -44363,7 +44363,7 @@ const IMMO_DATA = [
           "wohnfläche":339,
           "zimmer":3,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Rankestraße 30",
           "stadt":"Baar-Ebenhausen",
           "postleitzahl":"85105",
@@ -44393,7 +44393,7 @@ const IMMO_DATA = [
           "wohnfläche":307,
           "zimmer":5,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Alsterkrugchaussee 56",
           "stadt":"Wilhermsdorf",
           "postleitzahl":"91450",
@@ -44423,7 +44423,7 @@ const IMMO_DATA = [
           "wohnfläche":396,
           "zimmer":3,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Budapester Straße 71",
           "stadt":"Villmar",
           "postleitzahl":"65606",
@@ -44453,7 +44453,7 @@ const IMMO_DATA = [
           "wohnfläche":304,
           "zimmer":3,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Nuernbergerstrasse 1",
           "stadt":"Molbergen",
           "postleitzahl":"49696",
@@ -44483,7 +44483,7 @@ const IMMO_DATA = [
           "wohnfläche":225,
           "zimmer":7,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Frankfurter Allee 23",
           "stadt":"Karlsruhe Hagsfeld",
           "postleitzahl":"76131",
@@ -44513,7 +44513,7 @@ const IMMO_DATA = [
           "wohnfläche":454,
           "zimmer":5,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Borstelmannsweg 8",
           "stadt":"Coburg",
           "postleitzahl":"96406",
@@ -44543,7 +44543,7 @@ const IMMO_DATA = [
           "wohnfläche":210,
           "zimmer":7,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Stuttgarter Platz 73",
           "stadt":"Kemmenau",
           "postleitzahl":"56132",
@@ -44573,7 +44573,7 @@ const IMMO_DATA = [
           "wohnfläche":227,
           "zimmer":2,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Güntzelstrasse 15",
           "stadt":"Bettingen",
           "postleitzahl":"54646",
@@ -44603,7 +44603,7 @@ const IMMO_DATA = [
           "wohnfläche":439,
           "zimmer":5,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Ansbacher Strasse 30",
           "stadt":"Sohren",
           "postleitzahl":"55487",
@@ -44633,7 +44633,7 @@ const IMMO_DATA = [
           "wohnfläche":449,
           "zimmer":7,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Ziegelstr. 35",
           "stadt":"Aidenbach",
           "postleitzahl":"94497",
@@ -44663,7 +44663,7 @@ const IMMO_DATA = [
           "wohnfläche":502,
           "zimmer":3,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Sonnenallee 79",
           "stadt":"Augsburg",
           "postleitzahl":"86135",
@@ -44693,7 +44693,7 @@ const IMMO_DATA = [
           "wohnfläche":283,
           "zimmer":2,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Eichendorffstr. 59",
           "stadt":"Wolpertswende",
           "postleitzahl":"88284",
@@ -44723,7 +44723,7 @@ const IMMO_DATA = [
           "wohnfläche":129,
           "zimmer":6,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Pappelallee 52",
           "stadt":"Rittersgrün",
           "postleitzahl":"08353",
@@ -44753,7 +44753,7 @@ const IMMO_DATA = [
           "wohnfläche":378,
           "zimmer":5,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Motzstr. 75",
           "stadt":"Feilbingert",
           "postleitzahl":"67824",
@@ -44783,7 +44783,7 @@ const IMMO_DATA = [
           "wohnfläche":113,
           "zimmer":2,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Kantstraße 88",
           "stadt":"Pockau",
           "postleitzahl":"09507",
@@ -44813,7 +44813,7 @@ const IMMO_DATA = [
           "wohnfläche":300,
           "zimmer":6,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Alter Wall 17",
           "stadt":"Zellingen",
           "postleitzahl":"97223",
@@ -44843,7 +44843,7 @@ const IMMO_DATA = [
           "wohnfläche":366,
           "zimmer":3,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Bleibtreustrasse 56",
           "stadt":"Detmold Barkhausen",
           "postleitzahl":"32758",
@@ -44873,7 +44873,7 @@ const IMMO_DATA = [
           "wohnfläche":170,
           "zimmer":7,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Heiligengeistbrücke 6",
           "stadt":"Langfurth",
           "postleitzahl":"91731",
@@ -44903,7 +44903,7 @@ const IMMO_DATA = [
           "wohnfläche":74,
           "zimmer":4,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Unter den Linden 66",
           "stadt":"Magdeburg",
           "postleitzahl":"39128",
@@ -44933,7 +44933,7 @@ const IMMO_DATA = [
           "wohnfläche":90,
           "zimmer":7,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Spresstrasse 72",
           "stadt":"Flensburg",
           "postleitzahl":"24944",
@@ -44963,7 +44963,7 @@ const IMMO_DATA = [
           "wohnfläche":175,
           "zimmer":6,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Kurfuerstendamm 47",
           "stadt":"Garching",
           "postleitzahl":"85740",
@@ -44993,7 +44993,7 @@ const IMMO_DATA = [
           "wohnfläche":509,
           "zimmer":6,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Flotowstr. 29",
           "stadt":"Leuna",
           "postleitzahl":"06233",
@@ -45023,7 +45023,7 @@ const IMMO_DATA = [
           "wohnfläche":209,
           "zimmer":3,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Leipziger Strasse 77",
           "stadt":"Wiesbaden",
           "postleitzahl":"65185",
@@ -45053,7 +45053,7 @@ const IMMO_DATA = [
           "wohnfläche":198,
           "zimmer":5,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Jenaer Strasse 90",
           "stadt":"Wuppertal Elberfeld",
           "postleitzahl":"42119",
@@ -45083,7 +45083,7 @@ const IMMO_DATA = [
           "wohnfläche":542,
           "zimmer":7,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Kurfuerstendamm 95",
           "stadt":"Heilbronn Kirchhausen",
           "postleitzahl":"74078",
@@ -45113,7 +45113,7 @@ const IMMO_DATA = [
           "wohnfläche":323,
           "zimmer":7,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Lützowplatz 74",
           "stadt":"Hinzenburg",
           "postleitzahl":"54316",
@@ -45143,7 +45143,7 @@ const IMMO_DATA = [
           "wohnfläche":591,
           "zimmer":5,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Nuernbergerstrasse 59",
           "stadt":"Scharbeutz",
           "postleitzahl":"23684",
@@ -45173,7 +45173,7 @@ const IMMO_DATA = [
           "wohnfläche":257,
           "zimmer":6,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Michaelkirchstr. 29",
           "stadt":"Frielendorf",
           "postleitzahl":"34621",
@@ -45203,7 +45203,7 @@ const IMMO_DATA = [
           "wohnfläche":504,
           "zimmer":3,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Michaelkirchstr. 59",
           "stadt":"Bad Oeynhausen Dehme",
           "postleitzahl":"32549",
@@ -45233,7 +45233,7 @@ const IMMO_DATA = [
           "wohnfläche":469,
           "zimmer":3,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Hermannstrasse 97",
           "stadt":"Leimen",
           "postleitzahl":"66978",
@@ -45263,7 +45263,7 @@ const IMMO_DATA = [
           "wohnfläche":230,
           "zimmer":6,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Ollenhauer Str. 21",
           "stadt":"Stuttgart Nord",
           "postleitzahl":"70174",
@@ -45293,7 +45293,7 @@ const IMMO_DATA = [
           "wohnfläche":115,
           "zimmer":2,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Albrechtstrasse 89",
           "stadt":"Kempten",
           "postleitzahl":"87415",
@@ -45323,7 +45323,7 @@ const IMMO_DATA = [
           "wohnfläche":577,
           "zimmer":5,
           "badezimmer":2,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Budapester Straße 81",
           "stadt":"Ohlweiler",
           "postleitzahl":"55469",
@@ -45353,7 +45353,7 @@ const IMMO_DATA = [
           "wohnfläche":114,
           "zimmer":3,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Schillerstrasse 9",
           "stadt":"Egling",
           "postleitzahl":"82542",
@@ -45383,7 +45383,7 @@ const IMMO_DATA = [
           "wohnfläche":364,
           "zimmer":2,
           "badezimmer":3,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Lange Strasse 81",
           "stadt":"Puchheim",
           "postleitzahl":"82168",
@@ -45413,7 +45413,7 @@ const IMMO_DATA = [
           "wohnfläche":172,
           "zimmer":3,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Scharnweberstrasse 68",
           "stadt":"Kahl",
           "postleitzahl":"63796",
@@ -45443,7 +45443,7 @@ const IMMO_DATA = [
           "wohnfläche":83,
           "zimmer":6,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Lützowplatz 68",
           "stadt":"Betteldorf",
           "postleitzahl":"54570",
@@ -45473,7 +45473,7 @@ const IMMO_DATA = [
           "wohnfläche":307,
           "zimmer":3,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Waßmannsdorfer Chaussee 23",
           "stadt":"Hamburg Alsterdorf",
           "postleitzahl":"20251",
@@ -45503,7 +45503,7 @@ const IMMO_DATA = [
           "wohnfläche":571,
           "zimmer":4,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Jenaer Strasse 54",
           "stadt":"Wuppertal Elberfeld",
           "postleitzahl":"42109",
@@ -45533,7 +45533,7 @@ const IMMO_DATA = [
           "wohnfläche":365,
           "zimmer":3,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Luckenwalder Strasse 99",
           "stadt":"Haßbergen",
           "postleitzahl":"31626",
@@ -45563,7 +45563,7 @@ const IMMO_DATA = [
           "wohnfläche":364,
           "zimmer":3,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Mollstrasse 38",
           "stadt":"Stadecken-Elsheim",
           "postleitzahl":"55271",
@@ -45593,7 +45593,7 @@ const IMMO_DATA = [
           "wohnfläche":242,
           "zimmer":6,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Alt Reinickendorf 52",
           "stadt":"Meitingen",
           "postleitzahl":"86405",
@@ -45623,7 +45623,7 @@ const IMMO_DATA = [
           "wohnfläche":497,
           "zimmer":7,
           "badezimmer":4,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Prenzlauer Allee 88",
           "stadt":"Leipzig",
           "postleitzahl":"04289",
@@ -45653,7 +45653,7 @@ const IMMO_DATA = [
           "wohnfläche":207,
           "zimmer":7,
           "badezimmer":1,
-          "addresse":{ 
+          "adresse":{ 
           "straße":"Kantstrasse 41",
           "stadt":"Nürnberg",
           "postleitzahl":"90234",

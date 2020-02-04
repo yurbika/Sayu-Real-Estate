@@ -14,12 +14,12 @@ import Startseite from "./pages/startseite/startseite.component";
 //import styles
 import "./App.css";
 
-//onClick wird gebraucht wegen den dropdowns
+//onMouseDown wird gebraucht um die dropdowns von überall schließen zu können
 
 const App = ({ toggleDropdown }) => {
   return (
     <div
-      onClick={e =>
+      onMouseDown={e =>
         handleClickOutside(e)
           ? toggleDropdown(DropdownActionTypes.TOGGLE_ALL_DROPDOWNS_FALSE)
           : null

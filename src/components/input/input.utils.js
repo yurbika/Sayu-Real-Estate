@@ -1,3 +1,20 @@
+//funktionen für die inputeingaben
+
+//prüft ob die eingabe sonderzeichen hat
+export const checkSearchInput = e => {
+  var ASCIICode = e.which ? e.which : e.keyCode;
+  //prüft ob es klein/großbuchstaben sind oder ein komma
+  if (
+    (ASCIICode <= 90 && ASCIICode >= 65) ||
+    (ASCIICode >= 97 && ASCIICode <= 122) ||
+    ASCIICode === 44
+  )
+    return true;
+  //schaut ob es zahlen sind
+  if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57))
+    return e.preventDefault();
+};
+
 //prüft die eingabe auf eine zahl
 export const onlyNumberkey = e => {
   var ASCIICode = e.which ? e.which : e.keyCode;
@@ -14,6 +31,8 @@ export const onlyNumberkey = e => {
 export const removeDots = numberWithDots => {
   var temp = numberWithDots;
   temp = temp.replace(/[^0-9]/g, "");
+  //wenn die erste zahl mit null anfängt es war noch möglich nachdem makieren ein 0 zu setzen
+  temp = temp.replace(/\b0/, "");
   return temp;
 };
 
@@ -29,7 +48,6 @@ const abbreviateNumber = function(num) {
   //test für grenz werte
   if (num === null) return null;
   if (num < 100000) return numberWithDots(num.toString());
-  if (num > 1500000) return;
   //funktion
   var b = num.toPrecision(2).split("e"), // anzahl der nuller
     k = b.length === 1 ? 0 : Math.floor(Math.min(b[1].slice(1), 14) / 3), // floor at decimals, ceiling at trillions
@@ -39,15 +57,16 @@ const abbreviateNumber = function(num) {
   return e;
 };
 
-//test ob es über 100000 ist
-const testInput = num => {
-  if (Number(removeDots(num)) >= 100000) return true;
+//max num
+export const testNum = num => {
+  if (Number(removeDots(num)) <= 1500000) return true;
   else return false;
 };
 
 //der String Preis ist der standartwert
 export const checkInputValue = (minInput, maxInput) => {
-  console.log(abbreviateNumber(Number(removeDots(minInput))));
+  if (!testNum(minInput)) minInput = "";
+  if (!testNum(maxInput)) maxInput = "";
   //Preis ist 0 und egal
   if (minInput === "" && maxInput === "Egal") return "Preis";
   //mininput ist größer als maxinput
@@ -60,7 +79,7 @@ export const checkInputValue = (minInput, maxInput) => {
     maxInput = minInput;
     minInput = temp;
     //test für abbreviateNumber
-    if (testInput(minInput) || testInput(maxInput))
+    if (testNum(minInput) || testNum(maxInput))
       return `${abbreviateNumber(
         Number(removeDots(minInput))
       )}€ - ${abbreviateNumber(Number(removeDots(maxInput)))}€`;
@@ -68,7 +87,10 @@ export const checkInputValue = (minInput, maxInput) => {
     return `${numberWithDots(minInput)}€ - ${numberWithDots(maxInput)}€`;
   }
   //maxinput ist leer
-  if (minInput !== "" && (maxInput === "" || maxInput === "Egal"))
+  if (
+    minInput !== "" &&
+    (maxInput === "" || maxInput === "Egal" || maxInput === minInput)
+  )
     return `ab ${numberWithDots(minInput)}€`;
   //mininput ist leer
   if (minInput === "" && maxInput !== "")
@@ -76,7 +98,7 @@ export const checkInputValue = (minInput, maxInput) => {
   //standart ausgabe
   if (minInput !== "" && maxInput !== "") {
     //test für abbreviateNumber
-    if (testInput(minInput) || testInput(maxInput))
+    if (testNum(minInput) || testNum(maxInput))
       return `${abbreviateNumber(
         Number(removeDots(minInput))
       )}€ - ${abbreviateNumber(Number(removeDots(maxInput)))}€`;

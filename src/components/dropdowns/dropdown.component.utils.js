@@ -1,3 +1,5 @@
+//funktionen für die dropdowns
+
 import React from "react";
 
 import { numberWithDots, removeDots } from "../input/input.utils";
