@@ -3,7 +3,6 @@
 //prüft ob die eingabe sonderzeichen hat
 export const checkSearchInput = e => {
   var ASCIICode = e.which ? e.which : e.keyCode;
-  console.log(ASCIICode);
   //prüft ob es klein/großbuchstaben sind oder ein komma
   if (
     (ASCIICode <= 90 && ASCIICode >= 65) ||
