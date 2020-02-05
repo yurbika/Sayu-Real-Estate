@@ -1,0 +1,8 @@
+const ResultsActionTypes = {
+  SET_BUNDESLÄNDER: "SET_BUNDESLÄNDER",
+  SET_STÄDTE_ORTE: "SET_STÄDTE_ORTE",
+  SET_STRAßEN_PLZ_ORTE: "SET_STRAßEN_PLZ_ORTE",
+  SET_SUCHTREFFER: "SET_SUCHTREFFER"
+};
+
+export default ResultsActionTypes;
