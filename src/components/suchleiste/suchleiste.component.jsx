@@ -39,10 +39,13 @@ import {
   selectBezugsartDropdown,
   selectImmobilientypDropdown,
   selectZimmerDropdown,
-  selectFlächeDropdown
+  selectFlächeDropdown,
+  selectResultsDropdown
 } from "../../redux/dropdown/dropdown.selectors";
 import toggleDropdown from "../../redux/dropdown/dropdown.action";
 import DropdownActionTypes from "../../redux/dropdown/dropdown.types";
+
+import { selectSuchtreffer } from "../../redux/results-dropdown/results.selectors";
 
 //styles
 import {
@@ -87,7 +90,9 @@ class Suchleiste extends React.Component {
       zimmerDropdown,
       flächeDropdown,
       toggleDropdown,
-      setSearchInput
+      setSearchInput,
+      resultsDropdown,
+      suchtreffer
     } = this.props;
     return (
       <SuchleisteContainer>
@@ -103,7 +108,11 @@ class Suchleiste extends React.Component {
                 inputType="search"
                 placeholder="Wo: Ort, Bundesland oder PLZ"
                 value={input}
-                onChange={e => setSearchInput(e.target.value)}
+                onChange={e => {
+                  setSearchInput(e.target.value);
+                  if (!!input)
+                    toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
+                }}
                 onKeyPress={e => checkSearchInput(e)}
               />
               <Button
@@ -171,7 +180,7 @@ class Suchleiste extends React.Component {
           {/***********************************
            *        Die Dropdowns             *
            ************************************/}
-          <Results></Results>
+          {(resultsDropdown && !!suchtreffer) || !!input ? <Results /> : null}
           {preisDropdown ? <PreisDropdown /> : null}
           {bezugsartDropdown ? (
             <AuswahlDropdown
@@ -220,7 +229,10 @@ const mapStateToProps = createStructuredSelector({
   bezugsartDropdown: selectBezugsartDropdown,
   immobilientypDropdown: selectImmobilientypDropdown,
   zimmerDropdown: selectZimmerDropdown,
-  flächeDropdown: selectFlächeDropdown
+  flächeDropdown: selectFlächeDropdown,
+  resultsDropdown: selectResultsDropdown,
+  //Results States
+  suchtreffer: selectSuchtreffer
 });
 
 const mapDispatchToProps = dispatch => ({

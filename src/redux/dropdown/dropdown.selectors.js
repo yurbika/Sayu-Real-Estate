@@ -22,3 +22,8 @@ export const selectFlächeDropdown = createSelector(
   [selectDropdown],
   dropdown => dropdown.flächeDropdown
 );
+
+export const selectResultsDropdown = createSelector(
+  [selectDropdown],
+  dropdown => dropdown.resultsDropdown
+);

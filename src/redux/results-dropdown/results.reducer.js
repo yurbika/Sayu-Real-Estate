@@ -4,7 +4,7 @@ const INITIAL_STATE = {
   bundesländer: [],
   städteOrte: [],
   straßenPlzOrte: [],
-  suchTreffer: 0
+  suchtreffer: 0
 };
 
 const resultReducer = (state = INITIAL_STATE, action) => {
@@ -27,7 +27,7 @@ const resultReducer = (state = INITIAL_STATE, action) => {
     case ResultsActionTypes.SET_SUCHTREFFER:
       return {
         ...state,
-        suchTreffer: action.payload
+        suchtreffer: action.payload
       };
     default:
       return state;

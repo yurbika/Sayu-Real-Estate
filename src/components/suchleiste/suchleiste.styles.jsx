@@ -77,5 +77,6 @@ export const InputContainerZeile = styled.div`
   &:first-child {
     border-radius: 15px;
     box-shadow: 3px 3px 10px ${theme.colors.black};
+    z-index: 1;
   }
 `;

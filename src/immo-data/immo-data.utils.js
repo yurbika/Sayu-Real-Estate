@@ -10,45 +10,48 @@ const createRegex = splitedStr => {
 };
 
 export const filterDatas = (data, haustyp, search) => {
-  let bundesländer = [];
-  let städteOrte = [];
+  let bundeslaender = [];
+  let staedteOrte = [];
   let straßenPlzOrt = [];
   let suchTreffer = 0;
+  let totalArrayLength = 0;
   let splitedStr = search.split(/[ ,]+/);
   //entfernt alles leere
   splitedStr = splitedStr.filter(i => i);
   let regex = createRegex(splitedStr);
   for (let i in data) {
-    if (data[i][haustyp] === undefined) continue;
-    let allArrayLength =
-      bundesländer.length + städteOrte.length + städteOrte.length;
+    if (!!!data[i][haustyp]) continue;
     if (
-      !bundesländer.includes(data[i][haustyp]["adresse"]["bundesland"]) &&
-      data[i][haustyp]["adresse"]["bundesland"].match(regex) !== null &&
+      !bundeslaender.includes(data[i][haustyp]["adresse"]["bundesland"]) &&
+      !!data[i][haustyp]["adresse"]["bundesland"].match(regex) &&
       data[i][haustyp]["adresse"]["bundesland"].match(regex).length >=
         splitedStr.length &&
-      bundesländer.length < 4 &&
+      bundeslaender.length < 4 &&
       search !== ""
     )
-      bundesländer.push(data[i][haustyp]["adresse"]["bundesland"]);
+      bundeslaender.push(data[i][haustyp]["adresse"]["bundesland"]);
     if (
-      !städteOrte.includes(
+      !staedteOrte.includes(
         data[i][haustyp]["adresse"]["stadt"] +
           " - " +
           data[i][haustyp]["adresse"]["bundesland"]
       ) &&
-      data[i][haustyp]["adresse"]["stadt"].match(regex) !== null &&
+      !!data[i][haustyp]["adresse"]["stadt"].match(regex) &&
       data[i][haustyp]["adresse"]["stadt"].match(regex).length >=
         splitedStr.length &&
-      städteOrte.length < 4 &&
+      staedteOrte.length < 4 &&
       search !== ""
     )
-      städteOrte.push(
+      staedteOrte.push(
         data[i][haustyp]["adresse"]["stadt"] +
           " - " +
           data[i][haustyp]["adresse"]["bundesland"]
       );
-    //hier wird die straße geprüft
+  }
+  totalArrayLength = 12 - (bundeslaender.length + staedteOrte.length);
+  //hier wird die straße/plz geprüft
+  for (let i in data) {
+    if (!!!data[i][haustyp]) continue;
     if (
       !straßenPlzOrt.includes(
         data[i][haustyp]["adresse"]["straße"] +
@@ -57,12 +60,12 @@ export const filterDatas = (data, haustyp, search) => {
           " - " +
           data[i][haustyp]["adresse"]["bundesland"]
       ) &&
-      data[i][haustyp]["adresse"]["straße"].match(regex) !== null &&
+      !!data[i][haustyp]["adresse"]["straße"].match(regex) &&
       data[i][haustyp]["adresse"]["straße"].match(regex).length >=
         splitedStr.length &&
       search !== ""
     ) {
-      if (allArrayLength < 12) {
+      if (straßenPlzOrt.length < totalArrayLength) {
         straßenPlzOrt.push(
           data[i][haustyp]["adresse"]["straße"] +
             ", " +
@@ -73,7 +76,6 @@ export const filterDatas = (data, haustyp, search) => {
       }
       suchTreffer++;
     }
-    //hier wird die plz geprüft
     //splitedStr.length wird um eins subtrahiert um die resultate zu erhöhen
     if (
       !straßenPlzOrt.includes(
@@ -83,12 +85,12 @@ export const filterDatas = (data, haustyp, search) => {
           " - " +
           data[i][haustyp]["adresse"]["bundesland"]
       ) &&
-      data[i][haustyp]["adresse"]["postleitzahl"].match(regex) !== null &&
+      !!data[i][haustyp]["adresse"]["postleitzahl"].match(regex) &&
       data[i][haustyp]["adresse"]["postleitzahl"].match(regex).length >=
         splitedStr.length - 1 &&
       search !== ""
     ) {
-      if (allArrayLength < 12) {
+      if (straßenPlzOrt.length < totalArrayLength) {
         straßenPlzOrt.push(
           data[i][haustyp]["adresse"]["straße"] +
             ", " +
@@ -100,6 +102,5 @@ export const filterDatas = (data, haustyp, search) => {
       suchTreffer++;
     }
   }
-  // console.log(bundesländer, städteOrte, straßenPlzOrt);
-  return { bundesländer, städteOrte, straßenPlzOrt, suchTreffer };
+  return { bundeslaender, staedteOrte, straßenPlzOrt, suchTreffer };
 };

@@ -14,10 +14,10 @@ export const selectStädteOrte = createSelector(
 
 export const selectStraßenPlzOrt = createSelector(
   [selectResults],
-  results => results.straßenPlzOrt
+  results => results.straßenPlzOrte
 );
 
-export const selectSuchTreffer = createSelector(
+export const selectSuchtreffer = createSelector(
   [selectResults],
-  results => results.suchTreffer
+  results => results.suchtreffer
 );
