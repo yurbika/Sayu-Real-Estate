@@ -28,8 +28,10 @@ export const filterDatas = (data, haustyp, search) => {
         splitedStr.length &&
       bundeslaender.length < 4 &&
       search !== ""
-    )
+    ) {
       bundeslaender.push(data[i][haustyp]["adresse"]["bundesland"]);
+      suchTreffer++;
+    }
     if (
       !staedteOrte.includes(
         data[i][haustyp]["adresse"]["stadt"] +
@@ -41,12 +43,14 @@ export const filterDatas = (data, haustyp, search) => {
         splitedStr.length &&
       staedteOrte.length < 4 &&
       search !== ""
-    )
+    ) {
       staedteOrte.push(
         data[i][haustyp]["adresse"]["stadt"] +
           " - " +
           data[i][haustyp]["adresse"]["bundesland"]
       );
+      suchTreffer++;
+    }
   }
   totalArrayLength = 12 - (bundeslaender.length + staedteOrte.length);
   //hier wird die straße/plz geprüft

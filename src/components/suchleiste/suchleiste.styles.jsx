@@ -71,12 +71,13 @@ export const InputContainer = styled.div`
 
 export const InputContainerZeile = styled.div`
   display: flex;
+  z-index: 1;
   &:last-child {
     margin-top: 1rem;
   }
   &:first-child {
     border-radius: 15px;
     box-shadow: 3px 3px 10px ${theme.colors.black};
-    z-index: 1;
+    z-index: 3;
   }
 `;

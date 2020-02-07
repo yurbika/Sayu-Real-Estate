@@ -45,8 +45,8 @@ export const removeDots = numberWithDots => {
 };
 
 //tausender punkte format
-export const numberWithDots = x => {
-  var number = removeDots(x);
+export const numberWithDots = str => {
+  var number = removeDots(str);
   number = number.replace(/\B(?=(\d{3})+(?!\d))/g, ".");
   return number.toString();
 };

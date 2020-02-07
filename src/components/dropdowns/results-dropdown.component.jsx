@@ -29,6 +29,9 @@ import {
 } from "../../redux/filter/filter.selectors";
 
 import { dropdownRef } from "../../redux/dropdown/dropdown.utils";
+import toggleDropdown from "../../redux/dropdown/dropdown.action.js";
+import { selectResultsDropdown } from "../../redux/dropdown/dropdown.selectors";
+import DropdownActionTypes from "../../redux/dropdown/dropdown.types";
 
 class Results extends React.Component {
   componentDidMount() {
@@ -46,7 +49,6 @@ class Results extends React.Component {
       straßenPlzOrt,
       suchTreffer
     } = filterDatas(immoData, haustyp.toLowerCase(), input);
-
     setBundesländer(bundeslaender);
     setStraßenPlzOrte(straßenPlzOrt);
     setStädteOrte(staedteOrte);
@@ -67,6 +69,7 @@ class Results extends React.Component {
       straßenPlzOrt,
       suchTreffer
     } = filterDatas(immoData, haustyp.toLowerCase(), input);
+    //leerer dropdown wird nicht angezeigt
 
     if (prevProps.input !== this.props.input) {
       setBundesländer(bundeslaender);
@@ -74,7 +77,6 @@ class Results extends React.Component {
       setStädteOrte(staedteOrte);
       setSuchtreffer(suchTreffer);
     }
-    // console.log(bundeslaender, staedteOrte, straßenPlzOrt, suchTreffer);
   }
   render() {
     const { bundeslaender, staedteOrte, straßenPlzOrt } = this.props;
@@ -120,7 +122,9 @@ const mapStateToProps = createStructuredSelector({
   bundeslaender: selectBundesländer,
   staedteOrte: selectStädteOrte,
   straßenPlzOrt: selectStraßenPlzOrt,
-  suchtreffer: selectSuchtreffer
+  suchtreffer: selectSuchtreffer,
+  //Dropdown
+  resultsDropdown: selectResultsDropdown
 });
 
 const mapDispatchToProps = dispatch => ({
@@ -129,7 +133,8 @@ const mapDispatchToProps = dispatch => ({
   setStädteOrte: städteOrteArray => dispatch(setStädteOrte(städteOrteArray)),
   setStraßenPlzOrte: straßenPlzOrteArray =>
     dispatch(setStraßenPlzOrte(straßenPlzOrteArray)),
-  setSuchtreffer: num => dispatch(setSuchtreffer(num))
+  setSuchtreffer: num => dispatch(setSuchtreffer(num)),
+  toggleDropdown: type => dispatch(toggleDropdown(type))
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Results);

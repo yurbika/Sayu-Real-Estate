@@ -7,7 +7,8 @@ import { createStructuredSelector } from "reselect";
 import Input from "../../components/input/input.component";
 import {
   checkInputValue,
-  checkSearchInput
+  checkSearchInput,
+  numberWithDots
 } from "../../components/input/input.utils";
 
 import Button from "../../components/button/button.component";
@@ -56,7 +57,7 @@ import {
   Bild
 } from "./suchleiste.styles";
 
-/*Button id ist hier notwendig damit die richtigen aktionen gefeuert 
+/*Button id = filter-button ist hier notwendig damit die richtigen aktionen gefeuert 
 werden damit ist es möglich die dropdowns von überall zu schließen*/
 
 class Suchleiste extends React.Component {
@@ -67,8 +68,13 @@ class Suchleiste extends React.Component {
       setPreis,
       bezugsart,
       resetInputMax,
-      resetInputMin
+      resetInputMin,
+      input,
+      toggleDropdown,
+      resultsDropdown
     } = this.props;
+    if (!!input && prevProps.input !== input && !resultsDropdown)
+      toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
     if (prevProps.bezugsart !== bezugsart) {
       resetInputMax();
       resetInputMin();
@@ -89,10 +95,10 @@ class Suchleiste extends React.Component {
       immobilientypDropdown,
       zimmerDropdown,
       flächeDropdown,
+      suchtreffer,
       toggleDropdown,
       setSearchInput,
-      resultsDropdown,
-      suchtreffer
+      resultsDropdown
     } = this.props;
     return (
       <SuchleisteContainer>
@@ -105,12 +111,24 @@ class Suchleiste extends React.Component {
             <InputContainerZeile>
               <Input
                 inputStartseite
+                id="filter-button"
                 inputType="search"
                 placeholder="Wo: Ort, Bundesland oder PLZ"
                 value={input}
-                onChange={e => {
-                  setSearchInput(e.target.value);
-                  if (!!input)
+                onChange={e => setSearchInput(e.target.value)}
+                onFocus={() => {
+                  if (
+                    (preisDropdown ||
+                      bezugsartDropdown ||
+                      immobilientypDropdown ||
+                      zimmerDropdown ||
+                      flächeDropdown) &&
+                    !!!input
+                  )
+                    toggleDropdown(
+                      DropdownActionTypes.TOGGLE_ALL_DROPDOWNS_FALSE
+                    );
+                  if (!!input && suchtreffer > 0 && !resultsDropdown)
                     toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
                 }}
                 onKeyPress={e => checkSearchInput(e)}
@@ -137,7 +155,11 @@ class Suchleiste extends React.Component {
               >
                 {haustype}
               </Button>
-              <Button suchButton>Suchen</Button>
+              <Button suchButton>
+                {suchtreffer > 0 && !!input
+                  ? `${numberWithDots(suchtreffer.toString())} Treffer`
+                  : "Suchen"}
+              </Button>
             </InputContainerZeile>
             {/*zweite Reihe der Suchleiste*/}
             <InputContainerZeile>
@@ -180,7 +202,7 @@ class Suchleiste extends React.Component {
           {/***********************************
            *        Die Dropdowns             *
            ************************************/}
-          {(resultsDropdown && !!suchtreffer) || !!input ? <Results /> : null}
+          {!!input && resultsDropdown ? <Results /> : null}
           {preisDropdown ? <PreisDropdown /> : null}
           {bezugsartDropdown ? (
             <AuswahlDropdown

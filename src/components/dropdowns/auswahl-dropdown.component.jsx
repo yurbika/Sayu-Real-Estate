@@ -16,31 +16,32 @@ import "./dropdowns.styles.scss";
 const AuswahlDropdown = ({
   children,
   setArt,
-
   additionalStyle,
   toggleDropdown
 }) => {
   return (
-    <div
-      className={
-        "dropdown-container auswahl-dropdown " +
-        (additionalStyle !== undefined ? additionalStyle : "")
-      }
-      ref={dropdownRef}
-    >
-      <ul>
-        {children.map(child => (
-          <li
-            key={child}
-            onClick={() => {
-              setArt(child, typSetter(child));
-              toggleDropdown(DropdownActionTypes.TOGGLE_ALL_DROPDOWNS_FALSE);
-            }}
-          >
-            {child}
-          </li>
-        ))}
-      </ul>
+    <div className="auswahl-dropdown-container">
+      <div
+        className={
+          "dropdown-container auswahl-dropdown " +
+          (additionalStyle !== undefined ? additionalStyle : "")
+        }
+        ref={dropdownRef}
+      >
+        <ul>
+          {children.map(child => (
+            <li
+              key={child}
+              onClick={() => {
+                setArt(child, typSetter(child));
+                toggleDropdown(DropdownActionTypes.TOGGLE_ALL_DROPDOWNS_FALSE);
+              }}
+            >
+              {child}
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 };
