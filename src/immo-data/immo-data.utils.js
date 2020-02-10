@@ -18,7 +18,7 @@ export const filterDatas = (data, haustyp, search) => {
   let splitedStr = search.split(/[ ,]+/);
   //entfernt alles leere
   splitedStr = splitedStr.filter(i => i);
-  let regex = createRegex(splitedStr);
+  let regex = splitedStr.length > 0 ? createRegex(splitedStr) : null;
   for (let i in data) {
     if (!!!data[i][haustyp]) continue;
     if (

@@ -49,10 +49,10 @@ class Results extends React.Component {
       straßenPlzOrt,
       suchTreffer
     } = filterDatas(immoData, haustyp.toLowerCase(), input);
+    setSuchtreffer(suchTreffer);
     setBundesländer(bundeslaender);
     setStraßenPlzOrte(straßenPlzOrt);
     setStädteOrte(staedteOrte);
-    setSuchtreffer(suchTreffer);
   }
   componentDidUpdate(prevProps) {
     const {
@@ -69,13 +69,12 @@ class Results extends React.Component {
       straßenPlzOrt,
       suchTreffer
     } = filterDatas(immoData, haustyp.toLowerCase(), input);
-    //leerer dropdown wird nicht angezeigt
 
     if (prevProps.input !== this.props.input) {
+      setSuchtreffer(suchTreffer);
       setBundesländer(bundeslaender);
       setStraßenPlzOrte(straßenPlzOrt);
       setStädteOrte(staedteOrte);
-      setSuchtreffer(suchTreffer);
     }
   }
   render() {

@@ -69,11 +69,18 @@ class Suchleiste extends React.Component {
       bezugsart,
       resetInputMax,
       resetInputMin,
-      input,
-      toggleDropdown,
-      resultsDropdown
+      suchtreffer,
+      resultsDropdown,
+      toggleDropdown
     } = this.props;
-    if (!!input && prevProps.input !== input && !resultsDropdown)
+    if (
+      suchtreffer !== prevProps.suchtreffer &&
+      suchtreffer > 0 &&
+      !resultsDropdown
+    )
+      toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
+
+    if (suchtreffer === 0 && resultsDropdown)
       toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
     if (prevProps.bezugsart !== bezugsart) {
       resetInputMax();
@@ -115,7 +122,14 @@ class Suchleiste extends React.Component {
                 inputType="search"
                 placeholder="Wo: Ort, Bundesland oder PLZ"
                 value={input}
-                onChange={e => setSearchInput(e.target.value)}
+                onChange={e => {
+                  setSearchInput(e.target.value);
+                  if (suchtreffer > 0 && !resultsDropdown) {
+                    toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
+                    console.log("his");
+                  } else if (!resultsDropdown)
+                    toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
+                }}
                 onFocus={() => {
                   if (
                     (preisDropdown ||
@@ -202,7 +216,8 @@ class Suchleiste extends React.Component {
           {/***********************************
            *        Die Dropdowns             *
            ************************************/}
-          {!!input && resultsDropdown ? <Results /> : null}
+          {resultsDropdown ? <Results /> : null}
+
           {preisDropdown ? <PreisDropdown /> : null}
           {bezugsartDropdown ? (
             <AuswahlDropdown
@@ -227,6 +242,7 @@ class Suchleiste extends React.Component {
               children={["70 +", "100 +", "200 +", "300 +", "400 +", "500 +"]}
             />
           ) : null}
+
           {/************/}
         </Filter>
       </SuchleisteContainer>

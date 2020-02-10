@@ -22,7 +22,7 @@
 
 .preis-dropdown {
   //diese zeile lässt den dropdown unter dem button sein
-  transform: translate3d(-3rem, 284px, 0px) !important;
+  transform: translate3d(-3rem, 283px, 0px) !important;
   height: 360px;
 
   .input-container {
@@ -73,9 +73,9 @@
 }
 .auswahl-dropdown-container {
   position: absolute;
-  transform: translate3d(0, 60px, 0px) !important;
-  z-index: 1;
   .auswahl-dropdown {
+    transform: translate3d(0, 60px, 0px) !important;
+    z-index: 1;
     width: 7.93rem;
     height: 2.5rem;
     padding-top: 60px;
@@ -104,7 +104,7 @@
     }
   }
   .flaeche-dropdown {
-    transform: translate3d(12rem, 141px, 0px) !important;
+    transform: translate3d(12rem, 200px, 0px) !important;
     border-radius: 0 15px 15px 15px;
     width: 8rem;
     min-height: 12.2rem;
@@ -114,7 +114,7 @@
     }
   }
   .zimmer-dropdown {
-    transform: translate3d(0, 125px, 0px) !important;
+    transform: translate3d(0, 185px, 0px) !important;
     border-radius: 0 15px 15px 15px;
     width: 8rem;
     height: 10.2rem;
@@ -123,10 +123,9 @@
       top: 5%;
     }
   }
-}
-
-.haus {
-  transform: translate3d(8.05rem, 0px, 0px) !important;
+  .haus {
+    transform: translate3d(8.05rem, 60px, 0px) !important;
+  }
 }
 
 .results-container {

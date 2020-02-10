@@ -4,7 +4,7 @@ const INITIAL_STATE = {
   bundesländer: [],
   städteOrte: [],
   straßenPlzOrte: [],
-  suchtreffer: 0
+  suchtreffer: null
 };
 
 const resultReducer = (state = INITIAL_STATE, action) => {
