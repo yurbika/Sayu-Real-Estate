@@ -79,7 +79,6 @@ class Suchleiste extends React.Component {
       !resultsDropdown
     )
       toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
-
     if (suchtreffer === 0 && resultsDropdown)
       toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
     if (prevProps.bezugsart !== bezugsart) {

@@ -47,9 +47,9 @@ class Results extends React.Component {
       bundeslaender,
       staedteOrte,
       straßenPlzOrt,
-      suchTreffer
+      suchtreffer
     } = filterDatas(immoData, haustyp.toLowerCase(), input);
-    setSuchtreffer(suchTreffer);
+    setSuchtreffer(suchtreffer);
     setBundesländer(bundeslaender);
     setStraßenPlzOrte(straßenPlzOrt);
     setStädteOrte(staedteOrte);
@@ -67,11 +67,11 @@ class Results extends React.Component {
       bundeslaender,
       staedteOrte,
       straßenPlzOrt,
-      suchTreffer
+      suchtreffer
     } = filterDatas(immoData, haustyp.toLowerCase(), input);
 
     if (prevProps.input !== this.props.input) {
-      setSuchtreffer(suchTreffer);
+      setSuchtreffer(suchtreffer);
       setBundesländer(bundeslaender);
       setStraßenPlzOrte(straßenPlzOrt);
       setStädteOrte(staedteOrte);

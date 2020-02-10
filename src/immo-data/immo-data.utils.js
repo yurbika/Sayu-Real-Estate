@@ -13,7 +13,7 @@ export const filterDatas = (data, haustyp, search) => {
   let bundeslaender = [];
   let staedteOrte = [];
   let straßenPlzOrt = [];
-  let suchTreffer = 0;
+  let suchtreffer = 0;
   let totalArrayLength = 0;
   let splitedStr = search.split(/[ ,]+/);
   //entfernt alles leere
@@ -30,7 +30,7 @@ export const filterDatas = (data, haustyp, search) => {
       search !== ""
     ) {
       bundeslaender.push(data[i][haustyp]["adresse"]["bundesland"]);
-      suchTreffer++;
+      suchtreffer++;
     }
     if (
       !staedteOrte.includes(
@@ -38,9 +38,12 @@ export const filterDatas = (data, haustyp, search) => {
           " - " +
           data[i][haustyp]["adresse"]["bundesland"]
       ) &&
-      !!data[i][haustyp]["adresse"]["stadt"].match(regex) &&
-      data[i][haustyp]["adresse"]["stadt"].match(regex).length >=
-        splitedStr.length &&
+      ((!!data[i][haustyp]["adresse"]["stadt"].match(regex) &&
+        data[i][haustyp]["adresse"]["stadt"].match(regex).length >=
+          splitedStr.length) ||
+        (!!data[i][haustyp]["adresse"]["bundesland"].match(regex) &&
+          data[i][haustyp]["adresse"]["bundesland"].match(regex).length >=
+            splitedStr.length)) &&
       staedteOrte.length < 4 &&
       search !== ""
     ) {
@@ -49,7 +52,7 @@ export const filterDatas = (data, haustyp, search) => {
           " - " +
           data[i][haustyp]["adresse"]["bundesland"]
       );
-      suchTreffer++;
+      suchtreffer++;
     }
   }
   totalArrayLength = 12 - (bundeslaender.length + staedteOrte.length);
@@ -62,11 +65,19 @@ export const filterDatas = (data, haustyp, search) => {
           ", " +
           data[i][haustyp]["adresse"]["postleitzahl"] +
           " - " +
+          data[i][haustyp]["adresse"]["stadt"] +
+          " - " +
           data[i][haustyp]["adresse"]["bundesland"]
       ) &&
-      !!data[i][haustyp]["adresse"]["straße"].match(regex) &&
-      data[i][haustyp]["adresse"]["straße"].match(regex).length >=
-        splitedStr.length &&
+      ((!!data[i][haustyp]["adresse"]["straße"].match(regex) &&
+        data[i][haustyp]["adresse"]["straße"].match(regex).length >=
+          splitedStr.length) ||
+        (!!data[i][haustyp]["adresse"]["stadt"].match(regex) &&
+          data[i][haustyp]["adresse"]["stadt"].match(regex).length >=
+            splitedStr.length) ||
+        (!!data[i][haustyp]["adresse"]["bundesland"].match(regex) &&
+          data[i][haustyp]["adresse"]["bundesland"].match(regex).length >=
+            splitedStr.length)) &&
       search !== ""
     ) {
       if (straßenPlzOrt.length < totalArrayLength) {
@@ -75,10 +86,12 @@ export const filterDatas = (data, haustyp, search) => {
             ", " +
             data[i][haustyp]["adresse"]["postleitzahl"] +
             " - " +
+            data[i][haustyp]["adresse"]["stadt"] +
+            " - " +
             data[i][haustyp]["adresse"]["bundesland"]
         );
       }
-      suchTreffer++;
+      suchtreffer++;
     }
     //splitedStr.length wird um eins subtrahiert um die resultate zu erhöhen
     if (
@@ -86,6 +99,8 @@ export const filterDatas = (data, haustyp, search) => {
         data[i][haustyp]["adresse"]["straße"] +
           ", " +
           data[i][haustyp]["adresse"]["postleitzahl"] +
+          " - " +
+          data[i][haustyp]["adresse"]["stadt"] +
           " - " +
           data[i][haustyp]["adresse"]["bundesland"]
       ) &&
@@ -100,11 +115,13 @@ export const filterDatas = (data, haustyp, search) => {
             ", " +
             data[i][haustyp]["adresse"]["postleitzahl"] +
             " - " +
+            data[i][haustyp]["adresse"]["stadt"] +
+            " - " +
             data[i][haustyp]["adresse"]["bundesland"]
         );
       }
-      suchTreffer++;
+      suchtreffer++;
     }
   }
-  return { bundeslaender, staedteOrte, straßenPlzOrt, suchTreffer };
+  return { bundeslaender, staedteOrte, straßenPlzOrt, suchtreffer };
 };
