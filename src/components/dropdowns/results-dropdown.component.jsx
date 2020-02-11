@@ -28,6 +28,8 @@ import {
   selectSearchInput
 } from "../../redux/filter/filter.selectors";
 
+import { setSearchInput } from "../../redux/filter/filter.action";
+
 import { dropdownRef } from "../../redux/dropdown/dropdown.utils";
 import toggleDropdown from "../../redux/dropdown/dropdown.action.js";
 import { selectResultsDropdown } from "../../redux/dropdown/dropdown.selectors";
@@ -41,18 +43,24 @@ class Results extends React.Component {
       setBundesländer,
       setStraßenPlzOrte,
       setStädteOrte,
-      setSuchtreffer
+      setSuchtreffer,
+      bezugsart
     } = this.props;
     const {
-      bundeslaender,
-      staedteOrte,
-      straßenPlzOrt,
+      bundeslaenderArray,
+      staedteOrteArray,
+      straßenPlzOrtArray,
       suchtreffer
-    } = filterDatas(immoData, haustyp.toLowerCase(), input);
+    } = filterDatas(
+      immoData,
+      haustyp.toLowerCase(),
+      bezugsart.toLowerCase(),
+      input
+    );
     setSuchtreffer(suchtreffer);
-    setBundesländer(bundeslaender);
-    setStraßenPlzOrte(straßenPlzOrt);
-    setStädteOrte(staedteOrte);
+    setBundesländer(bundeslaenderArray);
+    setStraßenPlzOrte(straßenPlzOrtArray);
+    setStädteOrte(staedteOrteArray);
   }
   componentDidUpdate(prevProps) {
     const {
@@ -61,40 +69,68 @@ class Results extends React.Component {
       setBundesländer,
       setStraßenPlzOrte,
       setStädteOrte,
-      setSuchtreffer
+      setSuchtreffer,
+      bezugsart
     } = this.props;
     const {
-      bundeslaender,
-      staedteOrte,
-      straßenPlzOrt,
+      bundeslaenderArray,
+      staedteOrteArray,
+      straßenPlzOrtArray,
       suchtreffer
-    } = filterDatas(immoData, haustyp.toLowerCase(), input);
+    } = filterDatas(
+      immoData,
+      haustyp.toLowerCase(),
+      bezugsart.toLowerCase(),
+      input
+    );
 
     if (prevProps.input !== this.props.input) {
       setSuchtreffer(suchtreffer);
-      setBundesländer(bundeslaender);
-      setStraßenPlzOrte(straßenPlzOrt);
-      setStädteOrte(staedteOrte);
+      setBundesländer(bundeslaenderArray);
+      setStraßenPlzOrte(straßenPlzOrtArray);
+      setStädteOrte(staedteOrteArray);
     }
   }
   render() {
-    const { bundeslaender, staedteOrte, straßenPlzOrt } = this.props;
+    const {
+      bundeslaenderArray,
+      staedteOrteArray,
+      straßenPlzOrt,
+      setSearchInput,
+      toggleDropdown
+    } = this.props;
     return (
       <div className="results-container" ref={dropdownRef}>
         <div className="dropdown-container results">
-          {!!bundeslaender.length ? <h4>Bundesländer</h4> : null}
-          {!!bundeslaender.length ? (
+          {!!bundeslaenderArray.length ? <h4>Bundesländer</h4> : null}
+          {!!bundeslaenderArray.length ? (
             <ul>
-              {bundeslaender.map(item => (
-                <li key={ID_GENERATOR("bundeslaender-")}>{item}</li>
+              {bundeslaenderArray.map(item => (
+                <li
+                  key={ID_GENERATOR("bundeslaenderArray-")}
+                  onClick={e => {
+                    setSearchInput(e.currentTarget.textContent);
+                    toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
+                  }}
+                >
+                  {item}
+                </li>
               ))}
             </ul>
           ) : null}
-          {!!staedteOrte.length ? <h4>Ortschaften</h4> : null}
-          {!!staedteOrte.length ? (
+          {!!staedteOrteArray.length ? <h4>Ortschaften</h4> : null}
+          {!!staedteOrteArray.length ? (
             <ul>
-              {staedteOrte.map(item => (
-                <li key={ID_GENERATOR("staedteOrte-")}>{item}</li>
+              {staedteOrteArray.map(item => (
+                <li
+                  key={ID_GENERATOR("staedteOrteArray-")}
+                  onClick={e => {
+                    setSearchInput(e.currentTarget.textContent);
+                    toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
+                  }}
+                >
+                  {item}
+                </li>
               ))}
             </ul>
           ) : null}
@@ -102,7 +138,15 @@ class Results extends React.Component {
           {!!straßenPlzOrt.length ? (
             <ul>
               {straßenPlzOrt.map(item => (
-                <li key={ID_GENERATOR("straßenPlzOrt-")}>{item}</li>
+                <li
+                  key={ID_GENERATOR("straßenPlzOrt-")}
+                  onClick={e => {
+                    setSearchInput(e.currentTarget.textContent);
+                    toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
+                  }}
+                >
+                  {item}
+                </li>
               ))}
             </ul>
           ) : null}
@@ -118,8 +162,8 @@ const mapStateToProps = createStructuredSelector({
   input: selectSearchInput,
   haustyp: selectHaustyp,
   //Result States
-  bundeslaender: selectBundesländer,
-  staedteOrte: selectStädteOrte,
+  bundeslaenderArray: selectBundesländer,
+  staedteOrteArray: selectStädteOrte,
   straßenPlzOrt: selectStraßenPlzOrt,
   suchtreffer: selectSuchtreffer,
   //Dropdown
@@ -133,7 +177,8 @@ const mapDispatchToProps = dispatch => ({
   setStraßenPlzOrte: straßenPlzOrteArray =>
     dispatch(setStraßenPlzOrte(straßenPlzOrteArray)),
   setSuchtreffer: num => dispatch(setSuchtreffer(num)),
-  toggleDropdown: type => dispatch(toggleDropdown(type))
+  toggleDropdown: type => dispatch(toggleDropdown(type)),
+  setSearchInput: text => dispatch(setSearchInput(text))
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Results);

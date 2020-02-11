@@ -16,7 +16,7 @@ const IMMO_DATA = [
         straße: "Hedemannstasse 84",
         stadt: "Heimenkirch",
         postleitzahl: "88176",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.65926",
         longitude: "9.897969"
       },
@@ -92,7 +92,7 @@ const IMMO_DATA = [
         straße: "Rankestraße 65",
         stadt: "Pfaffenhofen",
         postleitzahl: "85265",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.333546",
         longitude: "10.175544"
       },
@@ -127,10 +127,10 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 2,
       adresse: {
-        straße: "Ellmenreichstrasse 46",
+        straße: "Ellmenreichstraße 46",
         stadt: "Kulmbach",
         postleitzahl: "95310",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.023734",
         longitude: "11.461961"
       },
@@ -165,7 +165,7 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 4,
       adresse: {
-        straße: "Spresstrasse 11",
+        straße: "Spresstraße 11",
         stadt: "Bielefeld Lämershagen",
         postleitzahl: "33699",
         bundesland: "Nordrhein-Westfalen",
@@ -241,7 +241,7 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 2,
       adresse: {
-        straße: "Bleibtreustrasse 44",
+        straße: "Bleibtreustraße 44",
         stadt: "Paderborn Sande",
         postleitzahl: "33104",
         bundesland: "Nordrhein-Westfalen",
@@ -279,10 +279,10 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 3,
       adresse: {
-        straße: "Schillerstrasse 83",
+        straße: "Schillerstraße 83",
         stadt: "Münsing",
         postleitzahl: "82539",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.977882",
         longitude: "11.402016"
       },
@@ -317,7 +317,7 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 2,
       adresse: {
-        straße: "Güntzelstrasse 80",
+        straße: "Güntzelstraße 80",
         stadt: "Bettingen",
         postleitzahl: "54646",
         bundesland: "Rheinland-Pfalz",
@@ -396,7 +396,7 @@ const IMMO_DATA = [
         straße: "Alsterkrugchaussee 19",
         stadt: "Niederschönenfeld",
         postleitzahl: "86694",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.812961",
         longitude: "10.94673"
       },
@@ -472,7 +472,7 @@ const IMMO_DATA = [
         straße: "Lietzensee-Ufer 83",
         stadt: "Görlitz",
         postleitzahl: "02827",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "51.112753",
         longitude: "15.042015"
       },
@@ -545,7 +545,7 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 2,
       adresse: {
-        straße: "Ruschestrasse 47",
+        straße: "Ruschestraße 47",
         stadt: "Birkholz",
         postleitzahl: "15748",
         bundesland: "Brandenburg",
@@ -586,7 +586,7 @@ const IMMO_DATA = [
         straße: "Kieler Strasse 49",
         stadt: "Polling",
         postleitzahl: "84570",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.197592",
         longitude: "12.536652"
       },
@@ -621,7 +621,7 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 1,
       adresse: {
-        straße: "Schoenebergerstrasse 30",
+        straße: "Schoenebergerstraße 30",
         stadt: "Ahrenshagen",
         postleitzahl: "18320",
         bundesland: "Mecklenburg-Vorpommern",
@@ -659,10 +659,10 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 3,
       adresse: {
-        straße: "Flughafenstrasse 43",
+        straße: "Flughafenstraße 43",
         stadt: "Winklarn",
         postleitzahl: "92559",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.416671",
         longitude: "12.467753"
       },
@@ -849,10 +849,10 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 3,
       adresse: {
-        straße: "Flughafenstrasse 3",
+        straße: "Flughafenstraße 3",
         stadt: "Amberg",
         postleitzahl: "92208",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.536406",
         longitude: "11.859009"
       },
@@ -925,7 +925,7 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 2,
       adresse: {
-        straße: "Buelowstrasse 55",
+        straße: "Buelowstraße 55",
         stadt: "Unnau",
         postleitzahl: "57648",
         bundesland: "Rheinland-Pfalz",
@@ -1042,7 +1042,7 @@ const IMMO_DATA = [
         straße: "Landsberger Allee 33",
         stadt: "München",
         postleitzahl: "80089",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.159063",
         longitude: "11.518031"
       },
@@ -1115,7 +1115,7 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 3,
       adresse: {
-        straße: "Spresstrasse 40",
+        straße: "Spresstraße 40",
         stadt: "Heide",
         postleitzahl: "25735",
         bundesland: "Schleswig-Holstein",
@@ -1156,7 +1156,7 @@ const IMMO_DATA = [
         straße: "Marseiller Strasse 23",
         stadt: "Bayersoien",
         postleitzahl: "82435",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.767384",
         longitude: "10.916899"
       },
@@ -1191,7 +1191,7 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 1,
       adresse: {
-        straße: "Michaelkirchstr. 62",
+        straße: "Michaelkirchstraße 62",
         stadt: "Natendorf",
         postleitzahl: "29587",
         bundesland: "Niedersachsen",
@@ -1343,10 +1343,10 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 3,
       adresse: {
-        straße: "Mühlenstrasse 23",
+        straße: "Mühlenstraße 23",
         stadt: "Würzburg",
         postleitzahl: "97040",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.739829",
         longitude: "9.947126"
       },
@@ -1381,7 +1381,7 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 4,
       adresse: {
-        straße: "Hochstrasse 55",
+        straße: "Hochstraße 55",
         stadt: "List",
         postleitzahl: "25990",
         bundesland: "Schleswig-Holstein",
@@ -1419,10 +1419,10 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 2,
       adresse: {
-        straße: "Rosenstrasse 5",
+        straße: "Rosenstraße 5",
         stadt: "München",
         postleitzahl: "81667",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.028484",
         longitude: "11.558848"
       },
@@ -1495,7 +1495,7 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 2,
       adresse: {
-        straße: "Fasanenstrasse 75",
+        straße: "Fasanenstraße 75",
         stadt: "Hamburg Niendorf",
         postleitzahl: "22529",
         bundesland: "Hamburg",
@@ -1609,10 +1609,10 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 4,
       adresse: {
-        straße: "Rathausstrasse 62",
+        straße: "Rathausstraße 62",
         stadt: "Fürth",
         postleitzahl: "90709",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.54458",
         longitude: "11.959141"
       },
@@ -1647,7 +1647,7 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 1,
       adresse: {
-        straße: "Genterstrasse 6",
+        straße: "Genterstraße 6",
         stadt: "Kiel",
         postleitzahl: "24100",
         bundesland: "Schleswig-Holstein",
@@ -1688,7 +1688,7 @@ const IMMO_DATA = [
         straße: "Kirchenallee 59",
         stadt: "Otzing",
         postleitzahl: "94563",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.681867",
         longitude: "12.904473"
       },
@@ -1726,7 +1726,7 @@ const IMMO_DATA = [
         straße: "Fontenay 80",
         stadt: "Wilhelmsthal",
         postleitzahl: "96350",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.40563",
         longitude: "11.451017"
       },
@@ -1761,7 +1761,7 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 1,
       adresse: {
-        straße: "Flotowstr. 88",
+        straße: "Flotowstraße 88",
         stadt: "Naumburg",
         postleitzahl: "06607",
         bundesland: "Sachsen-Anhalt",
@@ -1837,10 +1837,10 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 3,
       adresse: {
-        straße: "Gotthardstrasse 24",
+        straße: "Gotthardstraße 24",
         stadt: "Gera",
         postleitzahl: "07548",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "50.829476",
         longitude: "12.014042"
       },
@@ -1878,7 +1878,7 @@ const IMMO_DATA = [
         straße: "Potsdamer Platz 12",
         stadt: "Wasserburg",
         postleitzahl: "83505",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.132452",
         longitude: "12.29547"
       },
@@ -1992,7 +1992,7 @@ const IMMO_DATA = [
         straße: "Kantstraße 31",
         stadt: "Auerbach",
         postleitzahl: "91274",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.7498",
         longitude: "13.088248"
       },
@@ -2027,7 +2027,7 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 2,
       adresse: {
-        straße: "Schoenebergerstrasse 64",
+        straße: "Schoenebergerstraße 64",
         stadt: "Wolgast",
         postleitzahl: "17431",
         bundesland: "Mecklenburg-Vorpommern",
@@ -2106,7 +2106,7 @@ const IMMO_DATA = [
         straße: "Heiligengeistbrücke 22",
         stadt: "Feuchtwangen",
         postleitzahl: "91555",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.103919",
         longitude: "10.234715"
       },
@@ -2141,7 +2141,7 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 3,
       adresse: {
-        straße: "Genterstrasse 58",
+        straße: "Genterstraße 58",
         stadt: "Kiel",
         postleitzahl: "24029",
         bundesland: "Schleswig-Holstein",
@@ -2217,7 +2217,7 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 4,
       adresse: {
-        straße: "Mohrenstrasse 18",
+        straße: "Mohrenstraße 18",
         stadt: "Obermarchtal",
         postleitzahl: "89611",
         bundesland: "Baden-Württemberg",
@@ -2296,7 +2296,7 @@ const IMMO_DATA = [
         straße: "Rudolstaedter Strasse 30",
         stadt: "Alzenau",
         postleitzahl: "63749",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.000942",
         longitude: "9.144743"
       },
@@ -2407,10 +2407,10 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 3,
       adresse: {
-        straße: "Ellmenreichstrasse 90",
+        straße: "Ellmenreichstraße 90",
         stadt: "Ahorntal",
         postleitzahl: "95491",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.792772",
         longitude: "11.404578"
       },
@@ -2559,10 +2559,10 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 1,
       adresse: {
-        straße: "Jahnstrasse 42",
+        straße: "Jahnstraße 42",
         stadt: "Stephanskirchen",
         postleitzahl: "83071",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.913519",
         longitude: "12.181023"
       },
@@ -2676,7 +2676,7 @@ const IMMO_DATA = [
         straße: "Kurfuerstendamm 95",
         stadt: "Freiham",
         postleitzahl: "81249",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.085218",
         longitude: "11.56993"
       },
@@ -2711,10 +2711,10 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 2,
       adresse: {
-        straße: "Rhinstrasse 3",
+        straße: "Rhinstraße 3",
         stadt: "München",
         postleitzahl: "80704",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.152948",
         longitude: "11.61816"
       },
@@ -2752,7 +2752,7 @@ const IMMO_DATA = [
         straße: "Kantstraße 97",
         stadt: "Bad Salzungen",
         postleitzahl: "36425",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "50.801115",
         longitude: "10.277543"
       },
@@ -2787,7 +2787,7 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 3,
       adresse: {
-        straße: "Spresstrasse 61",
+        straße: "Spresstraße 61",
         stadt: "Bielefeld Babenhausen",
         postleitzahl: "33739",
         bundesland: "Nordrhein-Westfalen",
@@ -2828,7 +2828,7 @@ const IMMO_DATA = [
         straße: "Kieler Strasse 60",
         stadt: "Hauzenberg",
         postleitzahl: "94051",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.699531",
         longitude: "13.680399"
       },
@@ -2866,7 +2866,7 @@ const IMMO_DATA = [
         straße: "Heinrich Heine Platz 79",
         stadt: "Waltershausen",
         postleitzahl: "99875",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "50.942696",
         longitude: "10.628301"
       },
@@ -2904,7 +2904,7 @@ const IMMO_DATA = [
         straße: "Neuer Jungfernstieg 4",
         stadt: "Attenhofen",
         postleitzahl: "84091",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.66083",
         longitude: "11.843509"
       },
@@ -2977,10 +2977,10 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 3,
       adresse: {
-        straße: "Schoenebergerstrasse 6",
+        straße: "Schoenebergerstraße 6",
         stadt: "Glauchau",
         postleitzahl: "08364",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "50.73949",
         longitude: "12.570461"
       },
@@ -3018,7 +3018,7 @@ const IMMO_DATA = [
         straße: "Gubener Str. 84",
         stadt: "Rohrdorf",
         postleitzahl: "83099",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.88261",
         longitude: "12.124628"
       },
@@ -3208,7 +3208,7 @@ const IMMO_DATA = [
         straße: "Grosse Praesidenten Str. 29",
         stadt: "Rimbach",
         postleitzahl: "93485",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.201437",
         longitude: "12.789166"
       },
@@ -3243,7 +3243,7 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 1,
       adresse: {
-        straße: "Genterstrasse 28",
+        straße: "Genterstraße 28",
         stadt: "Kiel",
         postleitzahl: "24015",
         bundesland: "Schleswig-Holstein",
@@ -3281,10 +3281,10 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 4,
       adresse: {
-        straße: "Kantstrasse 75",
+        straße: "Kantstraße 75",
         stadt: "Nürnberg",
         postleitzahl: "90478",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.464044",
         longitude: "11.167668"
       },
@@ -3395,7 +3395,7 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 2,
       adresse: {
-        straße: "Friedrichstrasse 94",
+        straße: "Friedrichstraße 94",
         stadt: "Düsseldorf Friedrichstadt",
         postleitzahl: "40217",
         bundesland: "Nordrhein-Westfalen",
@@ -3474,7 +3474,7 @@ const IMMO_DATA = [
         straße: "Schaarsteinweg 53",
         stadt: "Schwandorf",
         postleitzahl: "92421",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.276015",
         longitude: "12.126569"
       },
@@ -3547,7 +3547,7 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 1,
       adresse: {
-        straße: "Buelowstrasse 44",
+        straße: "Buelowstraße 44",
         stadt: "Streithausen",
         postleitzahl: "57629",
         bundesland: "Rheinland-Pfalz",
@@ -3626,7 +3626,7 @@ const IMMO_DATA = [
         straße: "Paderborner Strasse 92",
         stadt: "Mindelheim",
         postleitzahl: "87714",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.958513",
         longitude: "10.592207"
       },
@@ -3702,7 +3702,7 @@ const IMMO_DATA = [
         straße: "Neuer Jungfernstieg 15",
         stadt: "Dreifaltigkeitsbg G Weng",
         postleitzahl: "84164",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.590823",
         longitude: "12.524093"
       },
@@ -3740,7 +3740,7 @@ const IMMO_DATA = [
         straße: "Bleibtreustraße 18",
         stadt: "Mühlhausen",
         postleitzahl: "92360",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.178801",
         longitude: "11.433203"
       },
@@ -3930,7 +3930,7 @@ const IMMO_DATA = [
         straße: "Paderborner Strasse 31",
         stadt: "Kleinaitingen",
         postleitzahl: "86507",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.152104",
         longitude: "10.908701"
       },
@@ -4044,7 +4044,7 @@ const IMMO_DATA = [
         straße: "Prager Str 25",
         stadt: "Alling",
         postleitzahl: "82239",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.102725",
         longitude: "11.328958"
       },
@@ -4079,10 +4079,10 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 3,
       adresse: {
-        straße: "Stresemannstr. 4",
+        straße: "Stresemannstraße 4",
         stadt: "Nohfelden",
         postleitzahl: "66621",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "49.563085",
         longitude: "7.206625"
       },
@@ -4117,10 +4117,10 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 3,
       adresse: {
-        straße: "Rathausstrasse 26",
+        straße: "Rathausstraße 26",
         stadt: "Nürnberg",
         postleitzahl: "90012",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.441922",
         longitude: "11.032098"
       },
@@ -4193,10 +4193,10 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 4,
       adresse: {
-        straße: "Charlottenstrasse 5",
+        straße: "Charlottenstraße 5",
         stadt: "Dresden",
         postleitzahl: "01244",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "51.091908",
         longitude: "13.844255"
       },
@@ -4234,7 +4234,7 @@ const IMMO_DATA = [
         straße: "Lietzensee-Ufer 61",
         stadt: "Strehla",
         postleitzahl: "01614",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "51.298655",
         longitude: "13.142032"
       },
@@ -4310,7 +4310,7 @@ const IMMO_DATA = [
         straße: "Neuer Jungfernstieg 21",
         stadt: "Mallersdorf-Pfaffenberg",
         postleitzahl: "84062",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.674134",
         longitude: "12.198682"
       },
@@ -4421,10 +4421,10 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 1,
       adresse: {
-        straße: "Gotthardstrasse 84",
+        straße: "Gotthardstraße 84",
         stadt: "Erfurt",
         postleitzahl: "99087",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "50.939482",
         longitude: "10.994149"
       },
@@ -4497,7 +4497,7 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 3,
       adresse: {
-        straße: "Mollstrasse 27",
+        straße: "Mollstraße 27",
         stadt: "Schlangenbad",
         postleitzahl: "65388",
         bundesland: "Hessen",
@@ -4573,7 +4573,7 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 3,
       adresse: {
-        straße: "Feldstrasse 6",
+        straße: "Feldstraße 6",
         stadt: "Wefensleben",
         postleitzahl: "39376",
         bundesland: "Sachsen-Anhalt",
@@ -4652,7 +4652,7 @@ const IMMO_DATA = [
         straße: "Alsterkrugchaussee 61",
         stadt: "Bissingen",
         postleitzahl: "86656",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.69647",
         longitude: "10.713514"
       },
@@ -4690,7 +4690,7 @@ const IMMO_DATA = [
         straße: "Kieler Strasse 33",
         stadt: "Tittmoning",
         postleitzahl: "84526",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.040864",
         longitude: "12.843989"
       },
@@ -4728,7 +4728,7 @@ const IMMO_DATA = [
         straße: "Luebeckertordamm 10",
         stadt: "Georgensgmünd",
         postleitzahl: "91166",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.258735",
         longitude: "10.925201"
       },
@@ -4801,10 +4801,10 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 1,
       adresse: {
-        straße: "Rhinstrasse 95",
+        straße: "Rhinstraße 95",
         stadt: "München",
         postleitzahl: "80754",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.068542",
         longitude: "11.497648"
       },
@@ -4842,7 +4842,7 @@ const IMMO_DATA = [
         straße: "Landsberger Allee 67",
         stadt: "München",
         postleitzahl: "80672",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.138346",
         longitude: "11.678061"
       },
@@ -4915,10 +4915,10 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 2,
       adresse: {
-        straße: "Albrechtstrasse 74",
+        straße: "Albrechtstraße 74",
         stadt: "Ingolstadt",
         postleitzahl: "85053",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.738938",
         longitude: "11.442245"
       },
@@ -4956,7 +4956,7 @@ const IMMO_DATA = [
         straße: "An der Schillingbrucke 45",
         stadt: "Bernstadt",
         postleitzahl: "02748",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "51.063364",
         longitude: "14.752628"
       },
@@ -4994,7 +4994,7 @@ const IMMO_DATA = [
         straße: "Esplanade 49",
         stadt: "Schwanfeld",
         postleitzahl: "97523",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.97677",
         longitude: "10.122582"
       },
@@ -5032,7 +5032,7 @@ const IMMO_DATA = [
         straße: "Rankestraße 40",
         stadt: "Gaimersheim",
         postleitzahl: "85080",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.822099",
         longitude: "11.424363"
       },
@@ -5067,7 +5067,7 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 4,
       adresse: {
-        straße: "Nuernbergerstrasse 84",
+        straße: "Nuernbergerstraße 84",
         stadt: "Altenkrempe",
         postleitzahl: "23730",
         bundesland: "Schleswig-Holstein",
@@ -5105,7 +5105,7 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 3,
       adresse: {
-        straße: "Eichendorffstr. 8",
+        straße: "Eichendorffstraße 8",
         stadt: "Kißlegg",
         postleitzahl: "88353",
         bundesland: "Baden-Württemberg",
@@ -5143,10 +5143,10 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 3,
       adresse: {
-        straße: "Koenigstrasse 48",
+        straße: "Koenigstraße 48",
         stadt: "Niedersachswerfen",
         postleitzahl: "99761",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "51.509748",
         longitude: "10.786293"
       },
@@ -5374,7 +5374,7 @@ const IMMO_DATA = [
         straße: "Lietzensee-Ufer 74",
         stadt: "Pirna",
         postleitzahl: "01783",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "51.037883",
         longitude: "14.015629"
       },
@@ -5412,7 +5412,7 @@ const IMMO_DATA = [
         straße: "Alt-Moabit 90",
         stadt: "Oschatz",
         postleitzahl: "04754",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "51.311369",
         longitude: "13.161844"
       },
@@ -5450,7 +5450,7 @@ const IMMO_DATA = [
         straße: "Potsdamer Platz 68",
         stadt: "Lindau",
         postleitzahl: "88115",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.46761",
         longitude: "9.656982"
       },
@@ -5599,10 +5599,10 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 2,
       adresse: {
-        straße: "Flughafenstrasse 24",
+        straße: "Flughafenstraße 24",
         stadt: "Weiding",
         postleitzahl: "93495",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.291329",
         longitude: "12.687586"
       },
@@ -5637,10 +5637,10 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 4,
       adresse: {
-        straße: "Jahnstrasse 76",
+        straße: "Jahnstraße 76",
         stadt: "Bad Aibling",
         postleitzahl: "83038",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.894775",
         longitude: "12.08322"
       },
@@ -5678,7 +5678,7 @@ const IMMO_DATA = [
         straße: "Rudower Chaussee 72",
         stadt: "Bamberg",
         postleitzahl: "96049",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.883222",
         longitude: "10.872668"
       },
@@ -5827,7 +5827,7 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 1,
       adresse: {
-        straße: "Nuernbergerstrasse 91",
+        straße: "Nuernbergerstraße 91",
         stadt: "Westerstede",
         postleitzahl: "26655",
         bundesland: "Niedersachsen",
@@ -5865,7 +5865,7 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 1,
       adresse: {
-        straße: "Knesebeckstrasse 17",
+        straße: "Knesebeckstraße 17",
         stadt: "Sörth",
         postleitzahl: "57636",
         bundesland: "Rheinland-Pfalz",
@@ -5982,7 +5982,7 @@ const IMMO_DATA = [
         straße: "Langenhorner Chaussee 38",
         stadt: "Chieming",
         postleitzahl: "83339",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.950113",
         longitude: "12.565312"
       },
@@ -6058,7 +6058,7 @@ const IMMO_DATA = [
         straße: "Paderborner Strasse 29",
         stadt: "Ehekirchen",
         postleitzahl: "86676",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.654502",
         longitude: "11.177029"
       },
@@ -6096,7 +6096,7 @@ const IMMO_DATA = [
         straße: "Neuer Jungfernstieg 22",
         stadt: "Reisbach",
         postleitzahl: "94419",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.561859",
         longitude: "12.557592"
       },
@@ -6210,7 +6210,7 @@ const IMMO_DATA = [
         straße: "Lietzensee-Ufer 36",
         stadt: "Strehla",
         postleitzahl: "01614",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "51.382254",
         longitude: "13.185236"
       },
@@ -6283,7 +6283,7 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 2,
       adresse: {
-        straße: "Buelowstrasse 2",
+        straße: "Buelowstraße 2",
         stadt: "Bermel",
         postleitzahl: "56729",
         bundesland: "Rheinland-Pfalz",
@@ -6359,10 +6359,10 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 4,
       adresse: {
-        straße: "Mühlenstrasse 2",
+        straße: "Mühlenstraße 2",
         stadt: "Regensburg",
         postleitzahl: "93026",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.074709",
         longitude: "12.181686"
       },
@@ -6473,7 +6473,7 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 3,
       adresse: {
-        straße: "Waldowstr. 46",
+        straße: "Waldowstraße 46",
         stadt: "Mainhardt",
         postleitzahl: "74535",
         bundesland: "Baden-Württemberg",
@@ -6552,7 +6552,7 @@ const IMMO_DATA = [
         straße: "Augsburger Strasse 13",
         stadt: "Neunkirchen",
         postleitzahl: "91231",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.806898",
         longitude: "9.320166"
       },
@@ -6587,7 +6587,7 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 1,
       adresse: {
-        straße: "Genterstrasse 70",
+        straße: "Genterstraße 70",
         stadt: "Kiel",
         postleitzahl: "24143",
         bundesland: "Schleswig-Holstein",
@@ -6628,7 +6628,7 @@ const IMMO_DATA = [
         straße: "Rudower Chaussee 48",
         stadt: "Ansbach",
         postleitzahl: "91503",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.276635",
         longitude: "10.611113"
       },
@@ -6666,7 +6666,7 @@ const IMMO_DATA = [
         straße: "Kirchenallee 8",
         stadt: "Drachselsried",
         postleitzahl: "94256",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.069412",
         longitude: "12.962695"
       },
@@ -6818,7 +6818,7 @@ const IMMO_DATA = [
         straße: "Lange Strasse 79",
         stadt: "Unterföhring",
         postleitzahl: "85766",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.152723",
         longitude: "11.616605"
       },
@@ -6967,7 +6967,7 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 1,
       adresse: {
-        straße: "Motzstr. 87",
+        straße: "Motzstraße 87",
         stadt: "Gau-Heppenheim",
         postleitzahl: "55234",
         bundesland: "Rheinland-Pfalz",
@@ -7008,7 +7008,7 @@ const IMMO_DATA = [
         straße: "Bleibtreustraße 7",
         stadt: "Weilheim",
         postleitzahl: "82354",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.893385",
         longitude: "11.105825"
       },
@@ -7043,10 +7043,10 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 2,
       adresse: {
-        straße: "Rhinstrasse 89",
+        straße: "Rhinstraße 89",
         stadt: "München",
         postleitzahl: "80711",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.147404",
         longitude: "11.59792"
       },
@@ -7081,10 +7081,10 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 1,
       adresse: {
-        straße: "Koenigstrasse 68",
+        straße: "Koenigstraße 68",
         stadt: "Worbis",
         postleitzahl: "37334",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "51.510436",
         longitude: "10.290137"
       },
@@ -7195,7 +7195,7 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 1,
       adresse: {
-        straße: "Nuernbergerstrasse 66",
+        straße: "Nuernbergerstraße 66",
         stadt: "Wilhelmshaven",
         postleitzahl: "26386",
         bundesland: "Niedersachsen",
@@ -7309,10 +7309,10 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 2,
       adresse: {
-        straße: "Rathausstrasse 97",
+        straße: "Rathausstraße 97",
         stadt: "Nürnberg",
         postleitzahl: "90127",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.349171",
         longitude: "10.98472"
       },
@@ -7347,10 +7347,10 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 1,
       adresse: {
-        straße: "Rathausstrasse 13",
+        straße: "Rathausstraße 13",
         stadt: "Donauwörth",
         postleitzahl: "86603",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.695555",
         longitude: "10.75712"
       },
@@ -7502,7 +7502,7 @@ const IMMO_DATA = [
         straße: "Lietzensee-Ufer 39",
         stadt: "Großenhain",
         postleitzahl: "01558",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "51.199064",
         longitude: "13.580749"
       },
@@ -7540,7 +7540,7 @@ const IMMO_DATA = [
         straße: "Paul-Nevermann-Platz 62",
         stadt: "Oberthulba",
         postleitzahl: "97721",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.198094",
         longitude: "9.915526"
       },
@@ -7575,10 +7575,10 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 4,
       adresse: {
-        straße: "Jahnstrasse 33",
+        straße: "Jahnstraße 33",
         stadt: "Aying",
         postleitzahl: "85653",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.009462",
         longitude: "11.877802"
       },
@@ -7616,7 +7616,7 @@ const IMMO_DATA = [
         straße: "Lietzensee-Ufer 37",
         stadt: "Weißwasser",
         postleitzahl: "02936",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "51.612136",
         longitude: "14.587301"
       },
@@ -7651,10 +7651,10 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 2,
       adresse: {
-        straße: "Rathausstrasse 59",
+        straße: "Rathausstraße 59",
         stadt: "Heroldsberg",
         postleitzahl: "90560",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.450483",
         longitude: "11.11981"
       },
@@ -7689,7 +7689,7 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 3,
       adresse: {
-        straße: "Friedrichstrasse 5",
+        straße: "Friedrichstraße 5",
         stadt: "Düsseldorf Angermund",
         postleitzahl: "40489",
         bundesland: "Nordrhein-Westfalen",
@@ -7768,7 +7768,7 @@ const IMMO_DATA = [
         straße: "Landsberger Allee 30",
         stadt: "München",
         postleitzahl: "80637",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.252595",
         longitude: "11.603721"
       },
@@ -7844,7 +7844,7 @@ const IMMO_DATA = [
         straße: "Lietzensee-Ufer 16",
         stadt: "Kamenz",
         postleitzahl: "01911",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "51.185427",
         longitude: "14.099652"
       },
@@ -8107,7 +8107,7 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 2,
       adresse: {
-        straße: "Fasanenstrasse 76",
+        straße: "Fasanenstraße 76",
         stadt: "Hamburg Neuland",
         postleitzahl: "21079",
         bundesland: "Hamburg",
@@ -8145,7 +8145,7 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 1,
       adresse: {
-        straße: "Amsinckstrasse 23",
+        straße: "Amsinckstraße 23",
         stadt: "Doberlug-Kirchhain",
         postleitzahl: "03251",
         bundesland: "Brandenburg",
@@ -8221,7 +8221,7 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 4,
       adresse: {
-        straße: "Flotowstr. 74",
+        straße: "Flotowstraße 74",
         stadt: "Sangerhausen",
         postleitzahl: "06513",
         bundesland: "Sachsen-Anhalt",
@@ -8259,7 +8259,7 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 1,
       adresse: {
-        straße: "Flotowstr. 66",
+        straße: "Flotowstraße 66",
         stadt: "Aschersleben",
         postleitzahl: "06432",
         bundesland: "Sachsen-Anhalt",
@@ -8297,7 +8297,7 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 3,
       adresse: {
-        straße: "Hermannstrasse 15",
+        straße: "Hermannstraße 15",
         stadt: "Spechbach",
         postleitzahl: "74937",
         bundesland: "Baden-Württemberg",
@@ -8338,7 +8338,7 @@ const IMMO_DATA = [
         straße: "Borstelmannsweg 89",
         stadt: "Michelau",
         postleitzahl: "96243",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.16305",
         longitude: "11.069747"
       },
@@ -8411,7 +8411,7 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 1,
       adresse: {
-        straße: "Flotowstr. 2",
+        straße: "Flotowstraße 2",
         stadt: "Bernburg",
         postleitzahl: "06393",
         bundesland: "Sachsen-Anhalt",
@@ -8452,7 +8452,7 @@ const IMMO_DATA = [
         straße: "Gubener Str. 38",
         stadt: "Samerberg",
         postleitzahl: "83120",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.679281",
         longitude: "12.132186"
       },
@@ -8525,10 +8525,10 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 3,
       adresse: {
-        straße: "Schmarjestrasse 83",
+        straße: "Schmarjestraße 83",
         stadt: "Rötz",
         postleitzahl: "92444",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.280632",
         longitude: "12.60321"
       },
@@ -8639,7 +8639,7 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 2,
       adresse: {
-        straße: "Güntzelstrasse 40",
+        straße: "Güntzelstraße 40",
         stadt: "Gemünd",
         postleitzahl: "54673",
         bundesland: "Rheinland-Pfalz",
@@ -8718,7 +8718,7 @@ const IMMO_DATA = [
         straße: "Prenzlauer Allee 87",
         stadt: "Leipzig",
         postleitzahl: "04189",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "51.268088",
         longitude: "12.464731"
       },
@@ -8756,7 +8756,7 @@ const IMMO_DATA = [
         straße: "Rankestraße 65",
         stadt: "Beilngries",
         postleitzahl: "92336",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.934702",
         longitude: "11.525567"
       },
@@ -8794,7 +8794,7 @@ const IMMO_DATA = [
         straße: "Borstelmannsweg 47",
         stadt: "Schnaittenbach",
         postleitzahl: "92253",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.490408",
         longitude: "12.085486"
       },
@@ -8870,7 +8870,7 @@ const IMMO_DATA = [
         straße: "Kirchenallee 41",
         stadt: "Viechtach",
         postleitzahl: "94229",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.045765",
         longitude: "12.939972"
       },
@@ -8943,10 +8943,10 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 3,
       adresse: {
-        straße: "Flotowstr. 73",
+        straße: "Flotowstraße 73",
         stadt: "Lengefeld",
         postleitzahl: "09512",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "50.74524",
         longitude: "13.249108"
       },
@@ -9095,10 +9095,10 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 3,
       adresse: {
-        straße: "Amsinckstrasse 96",
+        straße: "Amsinckstraße 96",
         stadt: "Stolpen",
         postleitzahl: "01831",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "50.981013",
         longitude: "14.064887"
       },
@@ -9174,7 +9174,7 @@ const IMMO_DATA = [
         straße: "Marseiller Strasse 66",
         stadt: "Großweil",
         postleitzahl: "82439",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.714586",
         longitude: "11.325936"
       },
@@ -9209,7 +9209,7 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 4,
       adresse: {
-        straße: "Wallstrasse 57",
+        straße: "Wallstraße 57",
         stadt: "Kalenborn",
         postleitzahl: "56759",
         bundesland: "Rheinland-Pfalz",
@@ -9250,7 +9250,7 @@ const IMMO_DATA = [
         straße: "Borstelmannsweg 76",
         stadt: "Wernberg-Köblitz",
         postleitzahl: "92533",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.487504",
         longitude: "12.233274"
       },
@@ -9285,7 +9285,7 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 2,
       adresse: {
-        straße: "Michaelkirchstr. 85",
+        straße: "Michaelkirchstraße 85",
         stadt: "Minden Innenstadt",
         postleitzahl: "32429",
         bundesland: "Nordrhein-Westfalen",
@@ -9399,10 +9399,10 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 1,
       adresse: {
-        straße: "Stresemannstr. 31",
+        straße: "Stresemannstraße 31",
         stadt: "Rehlingen-Siersburg",
         postleitzahl: "66777",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "49.457159",
         longitude: "6.644956"
       },
@@ -9475,10 +9475,10 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 3,
       adresse: {
-        straße: "Kantstrasse 93",
+        straße: "Kantstraße 93",
         stadt: "Bayreuth",
         postleitzahl: "95402",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.90747",
         longitude: "11.647513"
       },
@@ -9554,7 +9554,7 @@ const IMMO_DATA = [
         straße: "Neuer Jungfernstieg 63",
         stadt: "Moosburg",
         postleitzahl: "85361",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.523955",
         longitude: "11.891018"
       },
@@ -9665,7 +9665,7 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 4,
       adresse: {
-        straße: "Buelowstrasse 72",
+        straße: "Buelowstraße 72",
         stadt: "Halbs",
         postleitzahl: "56457",
         bundesland: "Rheinland-Pfalz",
@@ -9703,7 +9703,7 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 3,
       adresse: {
-        straße: "Hermannstrasse 92",
+        straße: "Hermannstraße 92",
         stadt: "Worms Innenstadt",
         postleitzahl: "67549",
         bundesland: "Rheinland-Pfalz",
@@ -9779,7 +9779,7 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 4,
       adresse: {
-        straße: "Michaelkirchstr. 39",
+        straße: "Michaelkirchstraße 39",
         stadt: "Oetzen",
         postleitzahl: "29588",
         bundesland: "Niedersachsen",
@@ -9817,7 +9817,7 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 4,
       adresse: {
-        straße: "Ruschestrasse 92",
+        straße: "Ruschestraße 92",
         stadt: "Stendal",
         postleitzahl: "39554",
         bundesland: "Sachsen-Anhalt",
@@ -9855,10 +9855,10 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 3,
       adresse: {
-        straße: "Gotthardstrasse 38",
+        straße: "Gotthardstraße 38",
         stadt: "Erfurt",
         postleitzahl: "99094",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "50.957744",
         longitude: "11.02715"
       },
@@ -9896,7 +9896,7 @@ const IMMO_DATA = [
         straße: "Borstelmannsweg 89",
         stadt: "Grafenwöhr",
         postleitzahl: "92650",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.783074",
         longitude: "12.000553"
       },
@@ -9934,7 +9934,7 @@ const IMMO_DATA = [
         straße: "Oldesloer Strasse 75",
         stadt: "Rohr",
         postleitzahl: "91189",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.401841",
         longitude: "10.955868"
       },
@@ -10007,10 +10007,10 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 1,
       adresse: {
-        straße: "Albrechtstrasse 18",
+        straße: "Albrechtstraße 18",
         stadt: "Kempten",
         postleitzahl: "87411",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.731565",
         longitude: "10.342273"
       },
@@ -10048,7 +10048,7 @@ const IMMO_DATA = [
         straße: "Paderborner Strasse 45",
         stadt: "Kutzenhausen",
         postleitzahl: "86500",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.240649",
         longitude: "10.752204"
       },
@@ -10083,7 +10083,7 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 1,
       adresse: {
-        straße: "Nuernbergerstrasse 6",
+        straße: "Nuernbergerstraße 6",
         stadt: "Pronstorf",
         postleitzahl: "23820",
         bundesland: "Schleswig-Holstein",
@@ -10159,7 +10159,7 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 1,
       adresse: {
-        straße: "Hochstrasse 37",
+        straße: "Hochstraße 37",
         stadt: "Högel",
         postleitzahl: "25858",
         bundesland: "Schleswig-Holstein",
@@ -10200,7 +10200,7 @@ const IMMO_DATA = [
         straße: "Alsterkrugchaussee 52",
         stadt: "Alerheim",
         postleitzahl: "86733",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.799377",
         longitude: "10.567516"
       },
@@ -10273,10 +10273,10 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 4,
       adresse: {
-        straße: "Koenigstrasse 85",
+        straße: "Koenigstraße 85",
         stadt: "Gräfenroda",
         postleitzahl: "99328",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "50.792366",
         longitude: "10.868088"
       },
@@ -10314,7 +10314,7 @@ const IMMO_DATA = [
         straße: "Esplanade 64",
         stadt: "Röllbach",
         postleitzahl: "63934",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.674468",
         longitude: "9.275241"
       },
@@ -10352,7 +10352,7 @@ const IMMO_DATA = [
         straße: "Potsdamer Platz 64",
         stadt: "Lindau",
         postleitzahl: "88119",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.525134",
         longitude: "9.778627"
       },
@@ -10618,7 +10618,7 @@ const IMMO_DATA = [
         straße: "Oldesloer Strasse 56",
         stadt: "Seelingstädt",
         postleitzahl: "07583",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "50.76169",
         longitude: "12.309848"
       },
@@ -10653,7 +10653,7 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 2,
       adresse: {
-        straße: "Schoenebergerstrasse 47",
+        straße: "Schoenebergerstraße 47",
         stadt: "Neuenkirchen",
         postleitzahl: "25792",
         bundesland: "Schleswig-Holstein",
@@ -10694,7 +10694,7 @@ const IMMO_DATA = [
         straße: "Paul-Nevermann-Platz 30",
         stadt: "Gädheim",
         postleitzahl: "97503",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.125176",
         longitude: "10.347561"
       },
@@ -10732,7 +10732,7 @@ const IMMO_DATA = [
         straße: "Prager Str 69",
         stadt: "Gröbenzell",
         postleitzahl: "82184",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.104547",
         longitude: "11.316353"
       },
@@ -10808,7 +10808,7 @@ const IMMO_DATA = [
         straße: "Prenzlauer Allee 58",
         stadt: "Leipzig",
         postleitzahl: "04332",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "51.264011",
         longitude: "12.373865"
       },
@@ -10846,7 +10846,7 @@ const IMMO_DATA = [
         straße: "Holstenwall 53",
         stadt: "Bad Frankenhausen",
         postleitzahl: "06567",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "51.316616",
         longitude: "11.004636"
       },
@@ -10884,7 +10884,7 @@ const IMMO_DATA = [
         straße: "Luebeckertordamm 37",
         stadt: "Röttenbach",
         postleitzahl: "91341",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.692059",
         longitude: "10.904844"
       },
@@ -10995,7 +10995,7 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 4,
       adresse: {
-        straße: "Pohlstrasse 71",
+        straße: "Pohlstraße 71",
         stadt: "Jembke",
         postleitzahl: "38477",
         bundesland: "Niedersachsen",
@@ -11074,7 +11074,7 @@ const IMMO_DATA = [
         straße: "Frankfurter Allee 69",
         stadt: "Neu-Ulm",
         postleitzahl: "89204",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.3917",
         longitude: "9.98383"
       },
@@ -11150,7 +11150,7 @@ const IMMO_DATA = [
         straße: "Ufnau Strasse 48",
         stadt: "Nesselwang",
         postleitzahl: "87482",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.599309",
         longitude: "10.407509"
       },
@@ -11188,7 +11188,7 @@ const IMMO_DATA = [
         straße: "Kantstraße 6",
         stadt: "Pockau",
         postleitzahl: "09507",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "50.686637",
         longitude: "13.220296"
       },
@@ -11226,7 +11226,7 @@ const IMMO_DATA = [
         straße: "Marseiller Strasse 1",
         stadt: "Eschenlohe",
         postleitzahl: "82438",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.546914",
         longitude: "11.26496"
       },
@@ -11299,7 +11299,7 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 2,
       adresse: {
-        straße: "Pohlstrasse 10",
+        straße: "Pohlstraße 10",
         stadt: "Liebenburg",
         postleitzahl: "38704",
         bundesland: "Niedersachsen",
@@ -11375,7 +11375,7 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 2,
       adresse: {
-        straße: "Schmarjestrasse 78",
+        straße: "Schmarjestraße 78",
         stadt: "Belzig",
         postleitzahl: "14801",
         bundesland: "Brandenburg",
@@ -11492,7 +11492,7 @@ const IMMO_DATA = [
         straße: "Billwerder Neuer Deich 9",
         stadt: "Kirchenlamitz",
         postleitzahl: "95154",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.138097",
         longitude: "12.041959"
       },
@@ -11565,10 +11565,10 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 1,
       adresse: {
-        straße: "Ellmenreichstrasse 9",
+        straße: "Ellmenreichstraße 9",
         stadt: "Hollfeld",
         postleitzahl: "96140",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.952344",
         longitude: "11.246264"
       },
@@ -11603,7 +11603,7 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 1,
       adresse: {
-        straße: "Schoenebergerstrasse 54",
+        straße: "Schoenebergerstraße 54",
         stadt: "Stralsund",
         postleitzahl: "18402",
         bundesland: "Mecklenburg-Vorpommern",
@@ -11641,10 +11641,10 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 1,
       adresse: {
-        straße: "Flughafenstrasse 94",
+        straße: "Flughafenstraße 94",
         stadt: "Wiesau",
         postleitzahl: "95673",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.880971",
         longitude: "12.211402"
       },
@@ -11679,10 +11679,10 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 4,
       adresse: {
-        straße: "Büsingstrasse 27",
+        straße: "Büsingstraße 27",
         stadt: "Markt Indersdorf",
         postleitzahl: "85229",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.408295",
         longitude: "11.316474"
       },
@@ -11717,10 +11717,10 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 2,
       adresse: {
-        straße: "Gotthardstrasse 15",
+        straße: "Gotthardstraße 15",
         stadt: "Chemnitz",
         postleitzahl: "09048",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "50.882233",
         longitude: "12.988222"
       },
@@ -11831,7 +11831,7 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 1,
       adresse: {
-        straße: "Schmarjestrasse 46",
+        straße: "Schmarjestraße 46",
         stadt: "Buckau",
         postleitzahl: "14793",
         bundesland: "Brandenburg",
@@ -11869,10 +11869,10 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 3,
       adresse: {
-        straße: "Albrechtstrasse 84",
+        straße: "Albrechtstraße 84",
         stadt: "Ingolstadt",
         postleitzahl: "85019",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.83616",
         longitude: "11.409185"
       },
@@ -11907,10 +11907,10 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 1,
       adresse: {
-        straße: "Gotthardstrasse 83",
+        straße: "Gotthardstraße 83",
         stadt: "Chemnitz",
         postleitzahl: "09029",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "50.80353",
         longitude: "12.846523"
       },
@@ -11945,7 +11945,7 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 2,
       adresse: {
-        straße: "Flotowstr. 54",
+        straße: "Flotowstraße 54",
         stadt: "Leuna",
         postleitzahl: "06233",
         bundesland: "Sachsen-Anhalt",
@@ -11986,7 +11986,7 @@ const IMMO_DATA = [
         straße: "Bleibtreustraße 97",
         stadt: "Neuried",
         postleitzahl: "82059",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.129855",
         longitude: "11.430312"
       },
@@ -12062,7 +12062,7 @@ const IMMO_DATA = [
         straße: "Hedemannstasse 90",
         stadt: "Buchenberg",
         postleitzahl: "87472",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.708312",
         longitude: "10.166513"
       },
@@ -12173,10 +12173,10 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 2,
       adresse: {
-        straße: "Ziegelstr. 86",
+        straße: "Ziegelstraße 86",
         stadt: "Röhrnbach",
         postleitzahl: "94131",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.681327",
         longitude: "13.633089"
       },
@@ -12287,7 +12287,7 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 4,
       adresse: {
-        straße: "Feldstrasse 81",
+        straße: "Feldstraße 81",
         stadt: "Barby",
         postleitzahl: "39249",
         bundesland: "Sachsen-Anhalt",
@@ -12325,7 +12325,7 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 2,
       adresse: {
-        straße: "Scharnweberstrasse 15",
+        straße: "Scharnweberstraße 15",
         stadt: "Edingen-Neckarhausen",
         postleitzahl: "68535",
         bundesland: "Baden-Württemberg",
@@ -12363,10 +12363,10 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 1,
       adresse: {
-        straße: "Rathausstrasse 30",
+        straße: "Rathausstraße 30",
         stadt: "Nürnberg",
         postleitzahl: "90023",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.418398",
         longitude: "11.083615"
       },
@@ -12439,7 +12439,7 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 2,
       adresse: {
-        straße: "Motzstr. 64",
+        straße: "Motzstraße 64",
         stadt: "Rümmelsheim",
         postleitzahl: "55452",
         bundesland: "Rheinland-Pfalz",
@@ -12480,7 +12480,7 @@ const IMMO_DATA = [
         straße: "Alt Reinickendorf 11",
         stadt: "Laugna",
         postleitzahl: "86502",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.521752",
         longitude: "10.673267"
       },
@@ -12515,7 +12515,7 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 3,
       adresse: {
-        straße: "Friedrichstrasse 25",
+        straße: "Friedrichstraße 25",
         stadt: "Düsseldorf Düsseltal",
         postleitzahl: "40470",
         bundesland: "Nordrhein-Westfalen",
@@ -12553,10 +12553,10 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 2,
       adresse: {
-        straße: "Charlottenstrasse 2",
+        straße: "Charlottenstraße 2",
         stadt: "Dresden",
         postleitzahl: "01283",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "51.072315",
         longitude: "13.795178"
       },
@@ -12594,7 +12594,7 @@ const IMMO_DATA = [
         straße: "Schönwalder Allee 60",
         stadt: "Neukirchen",
         postleitzahl: "92259",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.478219",
         longitude: "11.563348"
       },
@@ -12670,7 +12670,7 @@ const IMMO_DATA = [
         straße: "Kantstraße 41",
         stadt: "Rochlitz",
         postleitzahl: "09302",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "50.966444",
         longitude: "12.769401"
       },
@@ -12705,7 +12705,7 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 1,
       adresse: {
-        straße: "Genterstrasse 31",
+        straße: "Genterstraße 31",
         stadt: "Kiel",
         postleitzahl: "24149",
         bundesland: "Schleswig-Holstein",
@@ -12781,10 +12781,10 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 2,
       adresse: {
-        straße: "Charlottenstrasse 3",
+        straße: "Charlottenstraße 3",
         stadt: "Dresden",
         postleitzahl: "01281",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "50.973707",
         longitude: "13.673543"
       },
@@ -12860,7 +12860,7 @@ const IMMO_DATA = [
         straße: "Alsterkrugchaussee 83",
         stadt: "Kammerstein",
         postleitzahl: "91126",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.297224",
         longitude: "10.988449"
       },
@@ -12895,7 +12895,7 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 4,
       adresse: {
-        straße: "Pohlstrasse 7",
+        straße: "Pohlstraße 7",
         stadt: "Vordorf",
         postleitzahl: "38533",
         bundesland: "Niedersachsen",
@@ -12933,10 +12933,10 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 2,
       adresse: {
-        straße: "Charlottenstrasse 70",
+        straße: "Charlottenstraße 70",
         stadt: "Dresden",
         postleitzahl: "01283",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "51.033163",
         longitude: "13.796106"
       },
@@ -13123,7 +13123,7 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 3,
       adresse: {
-        straße: "Fasanenstrasse 58",
+        straße: "Fasanenstraße 58",
         stadt: "Hamburg Schnelsen",
         postleitzahl: "22455",
         bundesland: "Hamburg",
@@ -13199,10 +13199,10 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 2,
       adresse: {
-        straße: "Gotthardstrasse 92",
+        straße: "Gotthardstraße 92",
         stadt: "Erfurt",
         postleitzahl: "99097",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "50.931152",
         longitude: "11.002954"
       },
@@ -13240,7 +13240,7 @@ const IMMO_DATA = [
         straße: "Rudower Chaussee 84",
         stadt: "Ansbach",
         postleitzahl: "91505",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.294199",
         longitude: "10.580715"
       },
@@ -13275,7 +13275,7 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 1,
       adresse: {
-        straße: "Fasanenstrasse 78",
+        straße: "Fasanenstraße 78",
         stadt: "Hamburg Neuengamme",
         postleitzahl: "21037",
         bundesland: "Hamburg",
@@ -13316,7 +13316,7 @@ const IMMO_DATA = [
         straße: "Alter Wall 63",
         stadt: "Arnstein",
         postleitzahl: "97450",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.882555",
         longitude: "10.054065"
       },
@@ -13392,7 +13392,7 @@ const IMMO_DATA = [
         straße: "Paderborner Strasse 86",
         stadt: "Gessertshausen",
         postleitzahl: "86457",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.381805",
         longitude: "10.815231"
       },
@@ -13427,10 +13427,10 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 3,
       adresse: {
-        straße: "Amsinckstrasse 56",
+        straße: "Amsinckstraße 56",
         stadt: "Hirschfelde",
         postleitzahl: "02786",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "51.065506",
         longitude: "14.869089"
       },
@@ -13489,7 +13489,7 @@ const IMMO_DATA = [
       vergangeneTageSeitVeröffentlichung: 302
     }
   },
-  
+
   {
     haus: {
       id: "355002",
@@ -13507,7 +13507,7 @@ const IMMO_DATA = [
         straße: "Alter Wall 69",
         stadt: "Wartmannsroth",
         postleitzahl: "97797",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.21388",
         longitude: "9.739609"
       },
@@ -13542,10 +13542,10 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 2,
       adresse: {
-        straße: "Büsingstrasse 62",
+        straße: "Büsingstraße 62",
         stadt: "Gilching",
         postleitzahl: "82197",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.051241",
         longitude: "11.271448"
       },
@@ -13580,7 +13580,7 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 1,
       adresse: {
-        straße: "Mohrenstrasse 67",
+        straße: "Mohrenstraße 67",
         stadt: "Alleshausen",
         postleitzahl: "88422",
         bundesland: "Baden-Württemberg",
@@ -13656,7 +13656,7 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 3,
       adresse: {
-        straße: "Flotowstr. 49",
+        straße: "Flotowstraße 49",
         stadt: "Bernburg",
         postleitzahl: "06391",
         bundesland: "Sachsen-Anhalt",
@@ -13697,7 +13697,7 @@ const IMMO_DATA = [
         straße: "Holstenwall 11",
         stadt: "Selbitz",
         postleitzahl: "95152",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.388101",
         longitude: "11.742342"
       },
@@ -13735,7 +13735,7 @@ const IMMO_DATA = [
         straße: "Heiligengeistbrücke 39",
         stadt: "Insingen",
         postleitzahl: "91610",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.355471",
         longitude: "10.1548"
       },
@@ -13925,7 +13925,7 @@ const IMMO_DATA = [
         straße: "Esplanade 73",
         stadt: "Rothenfels",
         postleitzahl: "97851",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.927791",
         longitude: "9.593084"
       },
@@ -14001,7 +14001,7 @@ const IMMO_DATA = [
         straße: "Paul-Nevermann-Platz 95",
         stadt: "Burkardroth",
         postleitzahl: "97703",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.363646",
         longitude: "10.049003"
       },
@@ -14036,7 +14036,7 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 4,
       adresse: {
-        straße: "Eichendorffstr. 90",
+        straße: "Eichendorffstraße 90",
         stadt: "Konstanz Litzelstetten",
         postleitzahl: "78464",
         bundesland: "Baden-Württemberg",
@@ -14302,10 +14302,10 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 1,
       adresse: {
-        straße: "Schillerstrasse 92",
+        straße: "Schillerstraße 92",
         stadt: "Scherstetten",
         postleitzahl: "86872",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.215803",
         longitude: "10.611014"
       },
@@ -14381,7 +14381,7 @@ const IMMO_DATA = [
         straße: "Marseiller Strasse 12",
         stadt: "Rottenbuch",
         postleitzahl: "82401",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.633582",
         longitude: "10.932348"
       },
@@ -14419,7 +14419,7 @@ const IMMO_DATA = [
         straße: "Lange Strasse 34",
         stadt: "Unterhaching",
         postleitzahl: "82002",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.12932",
         longitude: "11.625877"
       },
@@ -14454,7 +14454,7 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 3,
       adresse: {
-        straße: "Koenigstrasse 30",
+        straße: "Koenigstraße 30",
         stadt: "Weingarten",
         postleitzahl: "76356",
         bundesland: "Baden-Württemberg",
@@ -14530,7 +14530,7 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 3,
       adresse: {
-        straße: "Flotowstr. 21",
+        straße: "Flotowstraße 21",
         stadt: "Sangerhausen",
         postleitzahl: "06512",
         bundesland: "Sachsen-Anhalt",
@@ -14647,7 +14647,7 @@ const IMMO_DATA = [
         straße: "Rankestraße 88",
         stadt: "Beilngries",
         postleitzahl: "92339",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.946365",
         longitude: "11.424244"
       },
@@ -14685,7 +14685,7 @@ const IMMO_DATA = [
         straße: "Gubener Str. 57",
         stadt: "Hausham",
         postleitzahl: "83732",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.706618",
         longitude: "11.750662"
       },
@@ -14723,7 +14723,7 @@ const IMMO_DATA = [
         straße: "Landsberger Allee 78",
         stadt: "München",
         postleitzahl: "80604",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.050912",
         longitude: "11.658501"
       },
@@ -14834,10 +14834,10 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 1,
       adresse: {
-        straße: "Rathausstrasse 17",
+        straße: "Rathausstraße 17",
         stadt: "Nürnberg",
         postleitzahl: "90023",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.354348",
         longitude: "10.990073"
       },
@@ -14872,10 +14872,10 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 4,
       adresse: {
-        straße: "Rhinstrasse 39",
+        straße: "Rhinstraße 39",
         stadt: "München",
         postleitzahl: "81214",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.157683",
         longitude: "11.509265"
       },
@@ -14913,7 +14913,7 @@ const IMMO_DATA = [
         straße: "Marseiller Strasse 60",
         stadt: "Böbing",
         postleitzahl: "82389",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.78933",
         longitude: "11.020231"
       },
@@ -14948,7 +14948,7 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 1,
       adresse: {
-        straße: "Genterstrasse 31",
+        straße: "Genterstraße 31",
         stadt: "Kiel",
         postleitzahl: "24030",
         bundesland: "Schleswig-Holstein",
@@ -15065,7 +15065,7 @@ const IMMO_DATA = [
         straße: "Lange Strasse 43",
         stadt: "Unterhaching",
         postleitzahl: "82004",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.042957",
         longitude: "11.578628"
       },
@@ -15103,7 +15103,7 @@ const IMMO_DATA = [
         straße: "Alter Wall 59",
         stadt: "Miltenberg",
         postleitzahl: "63887",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.737502",
         longitude: "9.281136"
       },
@@ -15176,10 +15176,10 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 3,
       adresse: {
-        straße: "Albrechtstrasse 27",
+        straße: "Albrechtstraße 27",
         stadt: "Passau",
         postleitzahl: "94011",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.567113",
         longitude: "13.3537"
       },
@@ -15214,7 +15214,7 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 1,
       adresse: {
-        straße: "Spresstrasse 43",
+        straße: "Spresstraße 43",
         stadt: "Harrislee",
         postleitzahl: "24950",
         bundesland: "Schleswig-Holstein",
@@ -15293,7 +15293,7 @@ const IMMO_DATA = [
         straße: "Rudolstaedter Strasse 40",
         stadt: "Wiesthal",
         postleitzahl: "97859",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.984417",
         longitude: "9.516319"
       },
@@ -15331,7 +15331,7 @@ const IMMO_DATA = [
         straße: "Kieler Strasse 6",
         stadt: "Waldkraiburg",
         postleitzahl: "84471",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.294594",
         longitude: "12.502845"
       },
@@ -15556,7 +15556,7 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 2,
       adresse: {
-        straße: "Flotowstr. 15",
+        straße: "Flotowstraße 15",
         stadt: "Lutherstadt Eisleben",
         postleitzahl: "06290",
         bundesland: "Sachsen-Anhalt",
@@ -15594,7 +15594,7 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 3,
       adresse: {
-        straße: "Buelowstrasse 75",
+        straße: "Buelowstraße 75",
         stadt: "Luxem",
         postleitzahl: "56729",
         bundesland: "Rheinland-Pfalz",
@@ -15670,7 +15670,7 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 3,
       adresse: {
-        straße: "Koenigstrasse 43",
+        straße: "Koenigstraße 43",
         stadt: "Dietendorf",
         postleitzahl: "06722",
         bundesland: "Sachsen-Anhalt",
@@ -15860,10 +15860,10 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 1,
       adresse: {
-        straße: "Ellmenreichstrasse 60",
+        straße: "Ellmenreichstraße 60",
         stadt: "Schlammersdorf",
         postleitzahl: "95519",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.79926",
         longitude: "11.711637"
       },
@@ -15936,7 +15936,7 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 3,
       adresse: {
-        straße: "Guentzelstrasse 98",
+        straße: "Guentzelstraße 98",
         stadt: "Grebenau",
         postleitzahl: "36323",
         bundesland: "Hessen",
@@ -15974,10 +15974,10 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 4,
       adresse: {
-        straße: "Ellmenreichstrasse 3",
+        straße: "Ellmenreichstraße 3",
         stadt: "Mistelgau",
         postleitzahl: "95490",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.906371",
         longitude: "11.393073"
       },
@@ -16012,7 +16012,7 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 3,
       adresse: {
-        straße: "Invalidenstrasse 63",
+        straße: "Invalidenstraße 63",
         stadt: "Petersberg",
         postleitzahl: "36100",
         bundesland: "Hessen",
@@ -16088,7 +16088,7 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 3,
       adresse: {
-        straße: "Guentzelstrasse 67",
+        straße: "Guentzelstraße 67",
         stadt: "Bad Salzschlirf",
         postleitzahl: "36364",
         bundesland: "Hessen",
@@ -16129,7 +16129,7 @@ const IMMO_DATA = [
         straße: "Rankestraße 55",
         stadt: "Neuburg",
         postleitzahl: "86619",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.280081",
         longitude: "9.534439"
       },
@@ -16167,7 +16167,7 @@ const IMMO_DATA = [
         straße: "Langenhorner Chaussee 84",
         stadt: "Niederaichbach",
         postleitzahl: "84100",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.678587",
         longitude: "12.25237"
       },
@@ -16202,10 +16202,10 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 3,
       adresse: {
-        straße: "Gotthardstrasse 34",
+        straße: "Gotthardstraße 34",
         stadt: "Chemnitz",
         postleitzahl: "09123",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "50.803241",
         longitude: "12.888099"
       },
@@ -16278,10 +16278,10 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 4,
       adresse: {
-        straße: "Ellmenreichstrasse 77",
+        straße: "Ellmenreichstraße 77",
         stadt: "Gößweinstein",
         postleitzahl: "91326",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.698391",
         longitude: "11.344431"
       },
@@ -16357,7 +16357,7 @@ const IMMO_DATA = [
         straße: "Pappelallee 45",
         stadt: "Lugau",
         postleitzahl: "09382",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "50.79688",
         longitude: "12.702203"
       },
@@ -16433,7 +16433,7 @@ const IMMO_DATA = [
         straße: "Gubener Str. 93",
         stadt: "Jachenau",
         postleitzahl: "83676",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.574061",
         longitude: "11.368976"
       },
@@ -16471,7 +16471,7 @@ const IMMO_DATA = [
         straße: "Gubener Str. 12",
         stadt: "Hausham",
         postleitzahl: "83731",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.794528",
         longitude: "11.921012"
       },
@@ -16509,7 +16509,7 @@ const IMMO_DATA = [
         straße: "Prenzlauer Allee 53",
         stadt: "Leipzig",
         postleitzahl: "04253",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "51.256817",
         longitude: "12.422169"
       },
@@ -16582,10 +16582,10 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 1,
       adresse: {
-        straße: "Ellmenreichstrasse 38",
+        straße: "Ellmenreichstraße 38",
         stadt: "Wiesenttal",
         postleitzahl: "91346",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.826646",
         longitude: "11.332499"
       },
@@ -16696,7 +16696,7 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 1,
       adresse: {
-        straße: "Eichendorffstr. 26",
+        straße: "Eichendorffstraße 26",
         stadt: "Konstanz Dettingen",
         postleitzahl: "78465",
         bundesland: "Baden-Württemberg",
@@ -16889,7 +16889,7 @@ const IMMO_DATA = [
         straße: "Heinrich Heine Platz 91",
         stadt: "Eibau",
         postleitzahl: "02739",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "50.950046",
         longitude: "14.602809"
       },
@@ -16927,7 +16927,7 @@ const IMMO_DATA = [
         straße: "Gubener Str. 57",
         stadt: "Emmering",
         postleitzahl: "83550",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.954835",
         longitude: "12.055916"
       },
@@ -16962,7 +16962,7 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 3,
       adresse: {
-        straße: "Stresemannstr. 57",
+        straße: "Stresemannstraße 57",
         stadt: "Ottweiler",
         postleitzahl: "66564",
         bundesland: "Saarland",
@@ -17000,7 +17000,7 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 3,
       adresse: {
-        straße: "Charlottenstrasse 55",
+        straße: "Charlottenstraße 55",
         stadt: "Cottbus",
         postleitzahl: "03004",
         bundesland: "Brandenburg",
@@ -17117,7 +17117,7 @@ const IMMO_DATA = [
         straße: "Heiligengeistbrücke 34",
         stadt: "Rügland",
         postleitzahl: "91622",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.434656",
         longitude: "10.582534"
       },
@@ -17152,10 +17152,10 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 2,
       adresse: {
-        straße: "Amsinckstrasse 16",
+        straße: "Amsinckstraße 16",
         stadt: "Rückersdorf",
         postleitzahl: "90604",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.328887",
         longitude: "10.827976"
       },
@@ -17228,10 +17228,10 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 1,
       adresse: {
-        straße: "Stresemannstr. 19",
+        straße: "Stresemannstraße 19",
         stadt: "Namborn",
         postleitzahl: "66639",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "49.584547",
         longitude: "7.114646"
       },
@@ -17418,7 +17418,7 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 1,
       adresse: {
-        straße: "Feldstrasse 62",
+        straße: "Feldstraße 62",
         stadt: "Wernigerode",
         postleitzahl: "38841",
         bundesland: "Sachsen-Anhalt",
@@ -17459,7 +17459,7 @@ const IMMO_DATA = [
         straße: "Ufnau Strasse 65",
         stadt: "Sontheim",
         postleitzahl: "87776",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.038881",
         longitude: "10.297675"
       },
@@ -17532,10 +17532,10 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 2,
       adresse: {
-        straße: "Flughafenstrasse 11",
+        straße: "Flughafenstraße 11",
         stadt: "Leonberg",
         postleitzahl: "95666",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.870137",
         longitude: "12.179241"
       },
@@ -17684,7 +17684,7 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 3,
       adresse: {
-        straße: "Nuernbergerstrasse 42",
+        straße: "Nuernbergerstraße 42",
         stadt: "Eutin",
         postleitzahl: "23694",
         bundesland: "Schleswig-Holstein",
@@ -17725,7 +17725,7 @@ const IMMO_DATA = [
         straße: "Marseiller Strasse 59",
         stadt: "Murnau",
         postleitzahl: "82411",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.776109",
         longitude: "11.171258"
       },
@@ -17763,7 +17763,7 @@ const IMMO_DATA = [
         straße: "Paul-Nevermann-Platz 85",
         stadt: "Grafenrheinfeld",
         postleitzahl: "97506",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.983034",
         longitude: "10.113304"
       },
@@ -17801,7 +17801,7 @@ const IMMO_DATA = [
         straße: "Kirchenallee 37",
         stadt: "Plattling",
         postleitzahl: "94447",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.730656",
         longitude: "12.881354"
       },
@@ -17877,7 +17877,7 @@ const IMMO_DATA = [
         straße: "Eschenweg 42",
         stadt: "Ilmenau",
         postleitzahl: "98687",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "50.672465",
         longitude: "10.962442"
       },
@@ -17950,7 +17950,7 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 2,
       adresse: {
-        straße: "Schmarjestrasse 99",
+        straße: "Schmarjestraße 99",
         stadt: "Ludwigsfelde",
         postleitzahl: "14962",
         bundesland: "Brandenburg",
@@ -18067,7 +18067,7 @@ const IMMO_DATA = [
         straße: "Luebecker Strasse 3",
         stadt: "Ebern",
         postleitzahl: "96106",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.033148",
         longitude: "10.881408"
       },
@@ -18181,7 +18181,7 @@ const IMMO_DATA = [
         straße: "Rankestraße 25",
         stadt: "Lenting",
         postleitzahl: "85101",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.778487",
         longitude: "11.437536"
       },
@@ -18254,10 +18254,10 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 3,
       adresse: {
-        straße: "Koenigstrasse 42",
+        straße: "Koenigstraße 42",
         stadt: "Weimar",
         postleitzahl: "99407",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "50.982765",
         longitude: "11.28933"
       },
@@ -18333,7 +18333,7 @@ const IMMO_DATA = [
         straße: "Langenhorner Chaussee 83",
         stadt: "Weihmichl",
         postleitzahl: "84107",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.639104",
         longitude: "12.0813"
       },
@@ -18368,7 +18368,7 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 2,
       adresse: {
-        straße: "Wallstrasse 65",
+        straße: "Wallstraße 65",
         stadt: "Erpel",
         postleitzahl: "53579",
         bundesland: "Rheinland-Pfalz",
@@ -18558,7 +18558,7 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 2,
       adresse: {
-        straße: "Motzstr. 41",
+        straße: "Motzstraße 41",
         stadt: "Ockenheim",
         postleitzahl: "55437",
         bundesland: "Rheinland-Pfalz",
@@ -18637,7 +18637,7 @@ const IMMO_DATA = [
         straße: "Borstelmannsweg 46",
         stadt: "Coburg",
         postleitzahl: "96416",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.26719",
         longitude: "11.042349"
       },
@@ -18710,7 +18710,7 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 2,
       adresse: {
-        straße: "Invalidenstrasse 71",
+        straße: "Invalidenstraße 71",
         stadt: "Altdorf",
         postleitzahl: "67482",
         bundesland: "Rheinland-Pfalz",
@@ -18786,10 +18786,10 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 1,
       adresse: {
-        straße: "Schmarjestrasse 20",
+        straße: "Schmarjestraße 20",
         stadt: "Dürnberg",
         postleitzahl: "93437",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.400761",
         longitude: "12.901584"
       },
@@ -18900,10 +18900,10 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 4,
       adresse: {
-        straße: "Charlottenstrasse 66",
+        straße: "Charlottenstraße 66",
         stadt: "Dresden",
         postleitzahl: "01291",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "51.003003",
         longitude: "13.66056"
       },
@@ -18979,7 +18979,7 @@ const IMMO_DATA = [
         straße: "Luebecker Strasse 99",
         stadt: "Wonfurt",
         postleitzahl: "97539",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.106586",
         longitude: "10.495845"
       },
@@ -19014,7 +19014,7 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 3,
       adresse: {
-        straße: "Mollstrasse 11",
+        straße: "Mollstraße 11",
         stadt: "Taunusstein",
         postleitzahl: "65232",
         bundesland: "Hessen",
@@ -19090,10 +19090,10 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 3,
       adresse: {
-        straße: "Stresemannstr. 63",
+        straße: "Stresemannstraße 63",
         stadt: "St Wendel",
         postleitzahl: "66595",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "50.832722",
         longitude: "11.689964"
       },
@@ -19128,10 +19128,10 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 1,
       adresse: {
-        straße: "Invalidenstrasse 79",
+        straße: "Invalidenstraße 79",
         stadt: "Lindenberg",
         postleitzahl: "88152",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.572107",
         longitude: "9.812405"
       },
@@ -19166,7 +19166,7 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 1,
       adresse: {
-        straße: "Güntzelstrasse 53",
+        straße: "Güntzelstraße 53",
         stadt: "Bollendorf",
         postleitzahl: "54669",
         bundesland: "Rheinland-Pfalz",
@@ -19280,7 +19280,7 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 2,
       adresse: {
-        straße: "Wallstrasse 15",
+        straße: "Wallstraße 15",
         stadt: "Wehr",
         postleitzahl: "79664",
         bundesland: "Baden-Württemberg",
@@ -19356,7 +19356,7 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 2,
       adresse: {
-        straße: "Invalidenstrasse 14",
+        straße: "Invalidenstraße 14",
         stadt: "Forst an der Weinstraße",
         postleitzahl: "67147",
         bundesland: "Rheinland-Pfalz",
@@ -19397,7 +19397,7 @@ const IMMO_DATA = [
         straße: "Kieler Strasse 53",
         stadt: "Neumarkt-Sankt Veit",
         postleitzahl: "84491",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.364241",
         longitude: "12.517343"
       },
@@ -19511,7 +19511,7 @@ const IMMO_DATA = [
         straße: "Heiligengeistbrücke 3",
         stadt: "Sachsen",
         postleitzahl: "91623",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.31825",
         longitude: "10.57233"
       },
@@ -19549,7 +19549,7 @@ const IMMO_DATA = [
         straße: "Kastanienallee 40",
         stadt: "Seefeld",
         postleitzahl: "82229",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.029173",
         longitude: "11.170453"
       },
@@ -19587,7 +19587,7 @@ const IMMO_DATA = [
         straße: "Ufnau Strasse 51",
         stadt: "Kaufbeuren",
         postleitzahl: "87575",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.881002",
         longitude: "10.599865"
       },
@@ -19660,10 +19660,10 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 1,
       adresse: {
-        straße: "Kantstrasse 26",
+        straße: "Kantstraße 26",
         stadt: "Nürnberg",
         postleitzahl: "90253",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.372255",
         longitude: "11.10368"
       },
@@ -19701,7 +19701,7 @@ const IMMO_DATA = [
         straße: "Eschenweg 69",
         stadt: "Ilmenau",
         postleitzahl: "98681",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "50.663295",
         longitude: "10.917822"
       },
@@ -19777,7 +19777,7 @@ const IMMO_DATA = [
         straße: "Kantstraße 2",
         stadt: "Meiningen",
         postleitzahl: "98606",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "50.61326",
         longitude: "10.444485"
       },
@@ -19853,7 +19853,7 @@ const IMMO_DATA = [
         straße: "Oldesloer Strasse 13",
         stadt: "Schwarza",
         postleitzahl: "98545",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "50.596651",
         longitude: "10.550624"
       },
@@ -19926,7 +19926,7 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 4,
       adresse: {
-        straße: "Pohlstrasse 3",
+        straße: "Pohlstraße 3",
         stadt: "Werlaburgdorf",
         postleitzahl: "38315",
         bundesland: "Niedersachsen",
@@ -20192,10 +20192,10 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 1,
       adresse: {
-        straße: "Flughafenstrasse 49",
+        straße: "Flughafenstraße 49",
         stadt: "Freihung",
         postleitzahl: "92271",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.524759",
         longitude: "11.852016"
       },
@@ -20230,10 +20230,10 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 3,
       adresse: {
-        straße: "Rathausstrasse 12",
+        straße: "Rathausstraße 12",
         stadt: "Fürth",
         postleitzahl: "90727",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.557199",
         longitude: "12.060731"
       },
@@ -20268,10 +20268,10 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 1,
       adresse: {
-        straße: "Mühlenstrasse 7",
+        straße: "Mühlenstraße 7",
         stadt: "Regensburg",
         postleitzahl: "93059",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.022305",
         longitude: "12.15221"
       },
@@ -20344,10 +20344,10 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 4,
       adresse: {
-        straße: "Ellmenreichstrasse 69",
+        straße: "Ellmenreichstraße 69",
         stadt: "Postbauer-Heng",
         postleitzahl: "92353",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.228848",
         longitude: "11.437535"
       },
@@ -20458,7 +20458,7 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 2,
       adresse: {
-        straße: "Flotowstr. 59",
+        straße: "Flotowstraße 59",
         stadt: "Köthen",
         postleitzahl: "06352",
         bundesland: "Sachsen-Anhalt",
@@ -20496,7 +20496,7 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 1,
       adresse: {
-        straße: "Guentzelstrasse 2",
+        straße: "Guentzelstraße 2",
         stadt: "Hofbieber",
         postleitzahl: "36145",
         bundesland: "Hessen",
@@ -20572,7 +20572,7 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 4,
       adresse: {
-        straße: "Wallstrasse 77",
+        straße: "Wallstraße 77",
         stadt: "Bell",
         postleitzahl: "56745",
         bundesland: "Rheinland-Pfalz",
@@ -20689,7 +20689,7 @@ const IMMO_DATA = [
         straße: "Hoheluftchaussee 75",
         stadt: "Ablaß",
         postleitzahl: "04769",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "51.171912",
         longitude: "12.986894"
       },
@@ -20724,10 +20724,10 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 1,
       adresse: {
-        straße: "Kantstrasse 18",
+        straße: "Kantstraße 18",
         stadt: "Bayreuth",
         postleitzahl: "95407",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.986697",
         longitude: "11.536948"
       },
@@ -20765,7 +20765,7 @@ const IMMO_DATA = [
         straße: "Rankestraße 39",
         stadt: "Rohrenfels",
         postleitzahl: "86701",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.736875",
         longitude: "11.22208"
       },
@@ -20800,10 +20800,10 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 2,
       adresse: {
-        straße: "Ellmenreichstrasse 54",
+        straße: "Ellmenreichstraße 54",
         stadt: "Untersteinach",
         postleitzahl: "95369",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.076871",
         longitude: "11.534114"
       },
@@ -20914,10 +20914,10 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 2,
       adresse: {
-        straße: "Amsinckstrasse 68",
+        straße: "Amsinckstraße 68",
         stadt: "Pulsnitz",
         postleitzahl: "01894",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "51.276453",
         longitude: "14.041978"
       },
@@ -20990,7 +20990,7 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 4,
       adresse: {
-        straße: "Fasanenstrasse 87",
+        straße: "Fasanenstraße 87",
         stadt: "Hamburg Neustadt",
         postleitzahl: "20457",
         bundesland: "Hamburg",
@@ -21069,7 +21069,7 @@ const IMMO_DATA = [
         straße: "Marseiller Strasse 85",
         stadt: "Garmisch-Partenkirchen",
         postleitzahl: "82451",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.461549",
         longitude: "11.138167"
       },
@@ -21145,7 +21145,7 @@ const IMMO_DATA = [
         straße: "Koepenicker Str. 3",
         stadt: "Weiden",
         postleitzahl: "92603",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.620725",
         longitude: "12.073665"
       },
@@ -21183,7 +21183,7 @@ const IMMO_DATA = [
         straße: "Prenzlauer Allee 36",
         stadt: "Leipzig",
         postleitzahl: "04111",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "51.398508",
         longitude: "12.281082"
       },
@@ -21221,7 +21221,7 @@ const IMMO_DATA = [
         straße: "Paderborner Strasse 19",
         stadt: "Buchloe",
         postleitzahl: "86807",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.097197",
         longitude: "10.71798"
       },
@@ -21332,10 +21332,10 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 3,
       adresse: {
-        straße: "Kantstrasse 72",
+        straße: "Kantstraße 72",
         stadt: "Bayreuth",
         postleitzahl: "95411",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.016935",
         longitude: "11.618634"
       },
@@ -21370,7 +21370,7 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 3,
       adresse: {
-        straße: "Amsinckstrasse 74",
+        straße: "Amsinckstraße 74",
         stadt: "Briesen",
         postleitzahl: "14662",
         bundesland: "Brandenburg",
@@ -21446,7 +21446,7 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 2,
       adresse: {
-        straße: "Hochstrasse 11",
+        straße: "Hochstraße 11",
         stadt: "Wenningstedt",
         postleitzahl: "25993",
         bundesland: "Schleswig-Holstein",
@@ -21484,10 +21484,10 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 2,
       adresse: {
-        straße: "Schillerstrasse 68",
+        straße: "Schillerstraße 68",
         stadt: "Prittriching",
         postleitzahl: "86931",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.235825",
         longitude: "10.95496"
       },
@@ -21522,7 +21522,7 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 2,
       adresse: {
-        straße: "Waldowstr. 31",
+        straße: "Waldowstraße 31",
         stadt: "Nordrach",
         postleitzahl: "77787",
         bundesland: "Baden-Württemberg",
@@ -21560,7 +21560,7 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 1,
       adresse: {
-        straße: "Sömmeringstr. 23",
+        straße: "Sömmeringstraße 23",
         stadt: "Waldbronn",
         postleitzahl: "76337",
         bundesland: "Baden-Württemberg",
@@ -21598,7 +21598,7 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 3,
       adresse: {
-        straße: "Hochstrasse 67",
+        straße: "Hochstraße 67",
         stadt: "Rüde",
         postleitzahl: "24986",
         bundesland: "Schleswig-Holstein",
@@ -21829,7 +21829,7 @@ const IMMO_DATA = [
         straße: "Alt Reinickendorf 69",
         stadt: "Fischen",
         postleitzahl: "87536",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.522044",
         longitude: "10.333438"
       },
@@ -21940,10 +21940,10 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 4,
       adresse: {
-        straße: "Schillerstrasse 45",
+        straße: "Schillerstraße 45",
         stadt: "Geltendorf",
         postleitzahl: "82267",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.122927",
         longitude: "10.999134"
       },
@@ -22019,7 +22019,7 @@ const IMMO_DATA = [
         straße: "Oldesloer Strasse 39",
         stadt: "Lichte",
         postleitzahl: "98736",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "50.510034",
         longitude: "11.080541"
       },
@@ -22092,7 +22092,7 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 4,
       adresse: {
-        straße: "Michaelkirchstr. 4",
+        straße: "Michaelkirchstraße 4",
         stadt: "Knüllwald",
         postleitzahl: "34593",
         bundesland: "Hessen",
@@ -22133,7 +22133,7 @@ const IMMO_DATA = [
         straße: "Heinrich Heine Platz 76",
         stadt: "Gotha",
         postleitzahl: "99851",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "50.996435",
         longitude: "10.736188"
       },
@@ -22171,7 +22171,7 @@ const IMMO_DATA = [
         straße: "Heiligengeistbrücke 20",
         stadt: "Uffenheim",
         postleitzahl: "97210",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.445771",
         longitude: "10.250374"
       },
@@ -22244,10 +22244,10 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 3,
       adresse: {
-        straße: "Eichendorffstr. 34",
+        straße: "Eichendorffstraße 34",
         stadt: "Rottenburg",
         postleitzahl: "84052",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.43136",
         longitude: "8.901331"
       },
@@ -22320,7 +22320,7 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 1,
       adresse: {
-        straße: "Bleibtreustrasse 17",
+        straße: "Bleibtreustraße 17",
         stadt: "Dörentrup",
         postleitzahl: "32694",
         bundesland: "Nordrhein-Westfalen",
@@ -22361,7 +22361,7 @@ const IMMO_DATA = [
         straße: "Kurfürstendamm 50",
         stadt: "Zwickau",
         postleitzahl: "08001",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "50.765894",
         longitude: "12.532117"
       },
@@ -22396,10 +22396,10 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 2,
       adresse: {
-        straße: "Waldowstr. 89",
+        straße: "Waldowstraße 89",
         stadt: "Waakirchen",
         postleitzahl: "83666",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.797421",
         longitude: "11.749496"
       },
@@ -22437,7 +22437,7 @@ const IMMO_DATA = [
         straße: "Heiligengeistbrücke 8",
         stadt: "Colmberg",
         postleitzahl: "91598",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.433366",
         longitude: "10.415589"
       },
@@ -22510,7 +22510,7 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 1,
       adresse: {
-        straße: "Wallstrasse 91",
+        straße: "Wallstraße 91",
         stadt: "Anhausen",
         postleitzahl: "56584",
         bundesland: "Rheinland-Pfalz",
@@ -22551,7 +22551,7 @@ const IMMO_DATA = [
         straße: "Rankestraße 23",
         stadt: "Berching",
         postleitzahl: "92334",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.205305",
         longitude: "11.463141"
       },
@@ -22627,7 +22627,7 @@ const IMMO_DATA = [
         straße: "Paul-Nevermann-Platz 39",
         stadt: "Schweinfurt",
         postleitzahl: "97405",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.097295",
         longitude: "10.185536"
       },
@@ -22700,10 +22700,10 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 1,
       adresse: {
-        straße: "Kantstrasse 73",
+        straße: "Kantstraße 73",
         stadt: "Nürnberg",
         postleitzahl: "90431",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.487561",
         longitude: "10.948075"
       },
@@ -22890,7 +22890,7 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 4,
       adresse: {
-        straße: "Gotzkowskystrasse 36",
+        straße: "Gotzkowskystraße 36",
         stadt: "Schmitt",
         postleitzahl: "56825",
         bundesland: "Rheinland-Pfalz",
@@ -22928,10 +22928,10 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 1,
       adresse: {
-        straße: "Schillerstrasse 28",
+        straße: "Schillerstraße 28",
         stadt: "Neufahrn",
         postleitzahl: "85375",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.319057",
         longitude: "11.677815"
       },
@@ -22969,7 +22969,7 @@ const IMMO_DATA = [
         straße: "Alt Reinickendorf 23",
         stadt: "Bonstetten",
         postleitzahl: "86486",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.51827",
         longitude: "10.634904"
       },
@@ -23007,7 +23007,7 @@ const IMMO_DATA = [
         straße: "Meininger Strasse 71",
         stadt: "Merchweiler",
         postleitzahl: "66584",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "49.279433",
         longitude: "6.975084"
       },
@@ -23042,7 +23042,7 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 4,
       adresse: {
-        straße: "Neue Roßstr. 64",
+        straße: "Neue Roßstraße 64",
         stadt: "Saarbrücken Burbach",
         postleitzahl: "66113",
         bundesland: "Saarland",
@@ -23156,7 +23156,7 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 3,
       adresse: {
-        straße: "Nuernbergerstrasse 1",
+        straße: "Nuernbergerstraße 1",
         stadt: "Ahrensbök",
         postleitzahl: "23621",
         bundesland: "Schleswig-Holstein",
@@ -23194,7 +23194,7 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 4,
       adresse: {
-        straße: "Guentzelstrasse 8",
+        straße: "Guentzelstraße 8",
         stadt: "Grebenhain",
         postleitzahl: "36355",
         bundesland: "Hessen",
@@ -23232,7 +23232,7 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 2,
       adresse: {
-        straße: "Nuernbergerstrasse 78",
+        straße: "Nuernbergerstraße 78",
         stadt: "Berne",
         postleitzahl: "27804",
         bundesland: "Niedersachsen",
@@ -23273,7 +23273,7 @@ const IMMO_DATA = [
         straße: "Heinrich Heine Platz 51",
         stadt: "Nordhausen",
         postleitzahl: "99723",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "51.420853",
         longitude: "10.717723"
       },
@@ -23384,10 +23384,10 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 4,
       adresse: {
-        straße: "Rosenstrasse 1",
+        straße: "Rosenstraße 1",
         stadt: "München",
         postleitzahl: "81375",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.195607",
         longitude: "11.572879"
       },
@@ -23463,7 +23463,7 @@ const IMMO_DATA = [
         straße: "Reeperbahn 21",
         stadt: "Klingenthal",
         postleitzahl: "08242",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "50.421155",
         longitude: "12.443179"
       },
@@ -23498,7 +23498,7 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 3,
       adresse: {
-        straße: "Hochstrasse 62",
+        straße: "Hochstraße 62",
         stadt: "Hörup",
         postleitzahl: "24980",
         bundesland: "Schleswig-Holstein",
@@ -23539,7 +23539,7 @@ const IMMO_DATA = [
         straße: "Hallesches Ufer 9",
         stadt: "Grafenau",
         postleitzahl: "94476",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.779753",
         longitude: "13.31624"
       },
@@ -23574,10 +23574,10 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 1,
       adresse: {
-        straße: "Rosenstrasse 47",
+        straße: "Rosenstraße 47",
         stadt: "München",
         postleitzahl: "81312",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.056268",
         longitude: "11.636379"
       },
@@ -23615,7 +23615,7 @@ const IMMO_DATA = [
         straße: "Potsdamer Platz 77",
         stadt: "Wasserburg",
         postleitzahl: "88140",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.157282",
         longitude: "12.256526"
       },
@@ -23688,7 +23688,7 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 4,
       adresse: {
-        straße: "Chausseestr. 3",
+        straße: "Chausseestraße 3",
         stadt: "Pinneberg",
         postleitzahl: "25403",
         bundesland: "Schleswig-Holstein",
@@ -23726,10 +23726,10 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 2,
       adresse: {
-        straße: "Jahnstrasse 82",
+        straße: "Jahnstraße 82",
         stadt: "Aying",
         postleitzahl: "85653",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.056979",
         longitude: "11.793142"
       },
@@ -23767,7 +23767,7 @@ const IMMO_DATA = [
         straße: "Kurfuerstendamm 29",
         stadt: "München",
         postleitzahl: "80032",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.054073",
         longitude: "11.634587"
       },
@@ -23840,10 +23840,10 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 2,
       adresse: {
-        straße: "Buelowstrasse 47",
+        straße: "Buelowstraße 47",
         stadt: "Boos",
         postleitzahl: "87737",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.136793",
         longitude: "10.270413"
       },
@@ -23957,7 +23957,7 @@ const IMMO_DATA = [
         straße: "Prenzlauer Allee 39",
         stadt: "Leipzig",
         postleitzahl: "04157",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "51.315598",
         longitude: "12.426237"
       },
@@ -24033,7 +24033,7 @@ const IMMO_DATA = [
         straße: "Potsdamer Platz 9",
         stadt: "Lindau",
         postleitzahl: "88115",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.531591",
         longitude: "9.759372"
       },
@@ -24109,7 +24109,7 @@ const IMMO_DATA = [
         straße: "Kantstraße 68",
         stadt: "Elterlein",
         postleitzahl: "09481",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "50.670525",
         longitude: "12.82999"
       },
@@ -24147,7 +24147,7 @@ const IMMO_DATA = [
         straße: "Fontenay 14",
         stadt: "Neuenmarkt",
         postleitzahl: "95339",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.174669",
         longitude: "11.574501"
       },
@@ -24261,7 +24261,7 @@ const IMMO_DATA = [
         straße: "Alsterkrugchaussee 57",
         stadt: "Lauf",
         postleitzahl: "91194",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.695199",
         longitude: "8.120497"
       },
@@ -24413,7 +24413,7 @@ const IMMO_DATA = [
         straße: "Messedamm 78",
         stadt: "Dresden",
         postleitzahl: "01099",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "51.087946",
         longitude: "13.810664"
       },
@@ -24451,7 +24451,7 @@ const IMMO_DATA = [
         straße: "Schaarsteinweg 50",
         stadt: "Leiblfing",
         postleitzahl: "94339",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.700725",
         longitude: "12.563009"
       },
@@ -24486,10 +24486,10 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 4,
       adresse: {
-        straße: "Rosenstrasse 45",
+        straße: "Rosenstraße 45",
         stadt: "München",
         postleitzahl: "81671",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.099998",
         longitude: "11.634985"
       },
@@ -24527,7 +24527,7 @@ const IMMO_DATA = [
         straße: "Landsberger Allee 77",
         stadt: "München",
         postleitzahl: "80506",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.187083",
         longitude: "11.553166"
       },
@@ -24562,7 +24562,7 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 4,
       adresse: {
-        straße: "Michaelkirchstr. 20",
+        straße: "Michaelkirchstraße 20",
         stadt: "Bad Arolsen",
         postleitzahl: "34454",
         bundesland: "Hessen",
@@ -24600,7 +24600,7 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 4,
       adresse: {
-        straße: "Waldowstr. 47",
+        straße: "Waldowstraße 47",
         stadt: "Rheinau",
         postleitzahl: "77866",
         bundesland: "Baden-Württemberg",
@@ -24679,7 +24679,7 @@ const IMMO_DATA = [
         straße: "Marseiller Strasse 28",
         stadt: "Wessobrunn",
         postleitzahl: "82405",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.931853",
         longitude: "10.983176"
       },
@@ -24717,7 +24717,7 @@ const IMMO_DATA = [
         straße: "Alt-Moabit 99",
         stadt: "Oschatz",
         postleitzahl: "04752",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "51.316604",
         longitude: "13.163554"
       },
@@ -24831,7 +24831,7 @@ const IMMO_DATA = [
         straße: "Oldesloer Strasse 20",
         stadt: "Lauscha",
         postleitzahl: "98734",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "50.402315",
         longitude: "11.20488"
       },
@@ -24866,7 +24866,7 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 1,
       adresse: {
-        straße: "Chausseestr. 12",
+        straße: "Chausseestraße 12",
         stadt: "Malchin",
         postleitzahl: "17131",
         bundesland: "Mecklenburg-Vorpommern",
@@ -24904,7 +24904,7 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 4,
       adresse: {
-        straße: "Koenigstrasse 23",
+        straße: "Koenigstraße 23",
         stadt: "Blankenburg",
         postleitzahl: "38883",
         bundesland: "Sachsen-Anhalt",
@@ -24942,7 +24942,7 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 1,
       adresse: {
-        straße: "Wallstrasse 26",
+        straße: "Wallstraße 26",
         stadt: "Rheinbrohl",
         postleitzahl: "56598",
         bundesland: "Rheinland-Pfalz",
@@ -24983,7 +24983,7 @@ const IMMO_DATA = [
         straße: "Luebecker Strasse 36",
         stadt: "Schmidmühlen",
         postleitzahl: "92287",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.225481",
         longitude: "12.006738"
       },
@@ -25021,7 +25021,7 @@ const IMMO_DATA = [
         straße: "Potsdamer Platz 28",
         stadt: "Wellheim",
         postleitzahl: "91809",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.834962",
         longitude: "11.142219"
       },
@@ -25056,7 +25056,7 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 4,
       adresse: {
-        straße: "Nuernbergerstrasse 18",
+        straße: "Nuernbergerstraße 18",
         stadt: "Colnrade",
         postleitzahl: "27243",
         bundesland: "Niedersachsen",
@@ -25208,7 +25208,7 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 3,
       adresse: {
-        straße: "Schoenebergerstrasse 47",
+        straße: "Schoenebergerstraße 47",
         stadt: "Dorf Mecklenburg",
         postleitzahl: "23972",
         bundesland: "Mecklenburg-Vorpommern",
@@ -25287,7 +25287,7 @@ const IMMO_DATA = [
         straße: "Marseiller Strasse 10",
         stadt: "Herrngiersdorf",
         postleitzahl: "84097",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.708751",
         longitude: "12.097944"
       },
@@ -25360,7 +25360,7 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 4,
       adresse: {
-        straße: "Invalidenstrasse 82",
+        straße: "Invalidenstraße 82",
         stadt: "Lindenberg",
         postleitzahl: "67473",
         bundesland: "Rheinland-Pfalz",
@@ -25512,10 +25512,10 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 2,
       adresse: {
-        straße: "Amsinckstrasse 91",
+        straße: "Amsinckstraße 91",
         stadt: "Arnsdorf",
         postleitzahl: "02633",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "51.265119",
         longitude: "14.310546"
       },
@@ -25553,7 +25553,7 @@ const IMMO_DATA = [
         straße: "Heinrich Heine Platz 41",
         stadt: "Heilbad Heiligenstadt",
         postleitzahl: "37301",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "51.2801",
         longitude: "10.232987"
       },
@@ -25588,7 +25588,7 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 1,
       adresse: {
-        straße: "Mollstrasse 43",
+        straße: "Mollstraße 43",
         stadt: "Darmstadt",
         postleitzahl: "64295",
         bundesland: "Hessen",
@@ -25667,7 +25667,7 @@ const IMMO_DATA = [
         straße: "Potsdamer Platz 25",
         stadt: "Wasserburg",
         postleitzahl: "88142",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.61442",
         longitude: "9.581701"
       },
@@ -25702,10 +25702,10 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 1,
       adresse: {
-        straße: "Schoenebergerstrasse 59",
+        straße: "Schoenebergerstraße 59",
         stadt: "Grünhain",
         postleitzahl: "08356",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "50.527354",
         longitude: "12.835883"
       },
@@ -25971,7 +25971,7 @@ const IMMO_DATA = [
         straße: "Paul-Nevermann-Platz 40",
         stadt: "Wildflecken",
         postleitzahl: "97772",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.40681",
         longitude: "9.885078"
       },
@@ -26082,10 +26082,10 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 4,
       adresse: {
-        straße: "Amsinckstrasse 3",
+        straße: "Amsinckstraße 3",
         stadt: "Hermsdorf",
         postleitzahl: "07629",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "50.798502",
         longitude: "11.851925"
       },
@@ -26123,7 +26123,7 @@ const IMMO_DATA = [
         straße: "Landsberger Allee 7",
         stadt: "München",
         postleitzahl: "80063",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.059925",
         longitude: "11.670862"
       },
@@ -26161,7 +26161,7 @@ const IMMO_DATA = [
         straße: "Pappelallee 72",
         stadt: "Vacha",
         postleitzahl: "36401",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "50.874101",
         longitude: "10.059236"
       },
@@ -26196,10 +26196,10 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 4,
       adresse: {
-        straße: "Büsingstrasse 62",
+        straße: "Büsingstraße 62",
         stadt: "Wörth",
         postleitzahl: "85457",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.200349",
         longitude: "11.863034"
       },
@@ -26272,10 +26272,10 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 3,
       adresse: {
-        straße: "Schoenebergerstrasse 26",
+        straße: "Schoenebergerstraße 26",
         stadt: "Schlema",
         postleitzahl: "08298",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "50.674448",
         longitude: "12.683306"
       },
@@ -26310,7 +26310,7 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 3,
       adresse: {
-        straße: "Schoenebergerstrasse 18",
+        straße: "Schoenebergerstraße 18",
         stadt: "Schönberg",
         postleitzahl: "54426",
         bundesland: "Rheinland-Pfalz",
@@ -26348,7 +26348,7 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 2,
       adresse: {
-        straße: "Michaelkirchstr. 93",
+        straße: "Michaelkirchstraße 93",
         stadt: "Körle",
         postleitzahl: "34327",
         bundesland: "Hessen",
@@ -26424,10 +26424,10 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 1,
       adresse: {
-        straße: "Büsingstrasse 94",
+        straße: "Büsingstraße 94",
         stadt: "Grasbrunn",
         postleitzahl: "85630",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.087118",
         longitude: "11.832397"
       },
@@ -26500,10 +26500,10 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 4,
       adresse: {
-        straße: "Schoenebergerstrasse 82",
+        straße: "Schoenebergerstraße 82",
         stadt: "Crimmitschau",
         postleitzahl: "08451",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "50.734828",
         longitude: "12.306543"
       },
@@ -26538,7 +26538,7 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 3,
       adresse: {
-        straße: "Invalidenstrasse 88",
+        straße: "Invalidenstraße 88",
         stadt: "Friedelsheim",
         postleitzahl: "67159",
         bundesland: "Rheinland-Pfalz",
@@ -26617,7 +26617,7 @@ const IMMO_DATA = [
         straße: "Borstelmannsweg 84",
         stadt: "Altenstadt",
         postleitzahl: "92662",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.848934",
         longitude: "10.768281"
       },
@@ -26652,10 +26652,10 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 3,
       adresse: {
-        straße: "Invalidenstrasse 34",
+        straße: "Invalidenstraße 34",
         stadt: "Lindenberg",
         postleitzahl: "88151",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.559997",
         longitude: "9.899376"
       },
@@ -26766,7 +26766,7 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 3,
       adresse: {
-        straße: "Mohrenstrasse 28",
+        straße: "Mohrenstraße 28",
         stadt: "Bösingen",
         postleitzahl: "78662",
         bundesland: "Baden-Württemberg",
@@ -26842,10 +26842,10 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 3,
       adresse: {
-        straße: "Stresemannstr. 30",
+        straße: "Stresemannstraße 30",
         stadt: "Saarlouis",
         postleitzahl: "66740",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "49.406501",
         longitude: "6.788306"
       },
@@ -26921,7 +26921,7 @@ const IMMO_DATA = [
         straße: "Marseiller Strasse 26",
         stadt: "Mertingen",
         postleitzahl: "86690",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.709245",
         longitude: "10.709775"
       },
@@ -26980,7 +26980,7 @@ const IMMO_DATA = [
       vergangeneTageSeitVeröffentlichung: 256
     }
   },
-  
+
   {
     wohnung: {
       id: "710003",
@@ -27031,7 +27031,7 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 3,
       adresse: {
-        straße: "Gotzkowskystrasse 44",
+        straße: "Gotzkowskystraße 44",
         stadt: "Liebenscheid",
         postleitzahl: "56479",
         bundesland: "Rheinland-Pfalz",
@@ -27179,10 +27179,10 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 2,
       adresse: {
-        straße: "Schoenebergerstrasse 10",
+        straße: "Schoenebergerstraße 10",
         stadt: "Schwarzenberg",
         postleitzahl: "08335",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "50.464498",
         longitude: "12.803554"
       },
@@ -27219,7 +27219,7 @@ const IMMO_DATA = [
         straße: "Landsberger Allee 2",
         stadt: "München",
         postleitzahl: "80558",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.208686",
         longitude: "11.502714"
       },
@@ -27256,7 +27256,7 @@ const IMMO_DATA = [
         straße: "Alter Wall 3",
         stadt: "Giebelstadt",
         postleitzahl: "97231",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.560769",
         longitude: "9.926857"
       },
@@ -27290,7 +27290,7 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 3,
       adresse: {
-        straße: "Michaelkirchstr. 78",
+        straße: "Michaelkirchstraße 78",
         stadt: "Lindhorst",
         postleitzahl: "31698",
         bundesland: "Niedersachsen",
@@ -27441,7 +27441,7 @@ const IMMO_DATA = [
         straße: "Fontenay 79",
         stadt: "Marktleuthen",
         postleitzahl: "95164",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.172442",
         longitude: "12.08395"
       },
@@ -27512,10 +27512,10 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 4,
       adresse: {
-        straße: "Jahnstrasse 35",
+        straße: "Jahnstraße 35",
         stadt: "Rechtmehring",
         postleitzahl: "83562",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.149187",
         longitude: "12.22616"
       },
@@ -27549,7 +27549,7 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 2,
       adresse: {
-        straße: "Ruschestrasse 3",
+        straße: "Ruschestraße 3",
         stadt: "Parchim",
         postleitzahl: "19362",
         bundesland: "Mecklenburg-Vorpommern",
@@ -27586,7 +27586,7 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 4,
       adresse: {
-        straße: "Invalidenstrasse 75",
+        straße: "Invalidenstraße 75",
         stadt: "Petersberg",
         postleitzahl: "36100",
         bundesland: "Hessen",
@@ -27626,7 +27626,7 @@ const IMMO_DATA = [
         straße: "Mellingburgredder 77",
         stadt: "Erlangen",
         postleitzahl: "91058",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.558066",
         longitude: "11.074547"
       },
@@ -27734,10 +27734,10 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 4,
       adresse: {
-        straße: "Stresemannstr. 68",
+        straße: "Stresemannstraße 68",
         stadt: "Saarwellingen",
         postleitzahl: "66793",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "49.320307",
         longitude: "6.849344"
       },
@@ -27845,7 +27845,7 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 3,
       adresse: {
-        straße: "Gotzkowskystrasse 65",
+        straße: "Gotzkowskystraße 65",
         stadt: "Brieden",
         postleitzahl: "56829",
         bundesland: "Rheinland-Pfalz",
@@ -27919,7 +27919,7 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 3,
       adresse: {
-        straße: "Spresstrasse 91",
+        straße: "Spresstraße 91",
         stadt: "Bielefeld Großdornberg",
         postleitzahl: "33619",
         bundesland: "Nordrhein-Westfalen",
@@ -27959,7 +27959,7 @@ const IMMO_DATA = [
         straße: "Kirchenallee 57",
         stadt: "Eichendorf",
         postleitzahl: "94425",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.595725",
         longitude: "12.792712"
       },
@@ -27996,7 +27996,7 @@ const IMMO_DATA = [
         straße: "Rudolstaedter Strasse 54",
         stadt: "Hösbach",
         postleitzahl: "63766",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.057073",
         longitude: "9.170236"
       },
@@ -28030,7 +28030,7 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 4,
       adresse: {
-        straße: "Guentzelstrasse 2",
+        straße: "Guentzelstraße 2",
         stadt: "Hosenfeld",
         postleitzahl: "36154",
         bundesland: "Hessen",
@@ -28070,7 +28070,7 @@ const IMMO_DATA = [
         straße: "Landsberger Allee 83",
         stadt: "München",
         postleitzahl: "80602",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.061246",
         longitude: "11.682058"
       },
@@ -28104,7 +28104,7 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 4,
       adresse: {
-        straße: "Waldowstr. 79",
+        straße: "Waldowstraße 79",
         stadt: "Sasbachwalden",
         postleitzahl: "77887",
         bundesland: "Baden-Württemberg",
@@ -28144,7 +28144,7 @@ const IMMO_DATA = [
         straße: "Hoheluftchaussee 78",
         stadt: "Tiefenbach",
         postleitzahl: "93463",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.435317",
         longitude: "12.108473"
       },
@@ -28215,10 +28215,10 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 2,
       adresse: {
-        straße: "Rosenstrasse 43",
+        straße: "Rosenstraße 43",
         stadt: "München",
         postleitzahl: "81506",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.110038",
         longitude: "11.653489"
       },
@@ -28255,7 +28255,7 @@ const IMMO_DATA = [
         straße: "Knesebeckstraße 74",
         stadt: "Altenberg",
         postleitzahl: "01771",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "50.786613",
         longitude: "13.82095"
       },
@@ -28289,7 +28289,7 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 1,
       adresse: {
-        straße: "Genterstrasse 80",
+        straße: "Genterstraße 80",
         stadt: "Kiel",
         postleitzahl: "24044",
         bundesland: "Schleswig-Holstein",
@@ -28363,7 +28363,7 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 1,
       adresse: {
-        straße: "Bleibtreustrasse 86",
+        straße: "Bleibtreustraße 86",
         stadt: "Marienmünster",
         postleitzahl: "37696",
         bundesland: "Nordrhein-Westfalen",
@@ -28437,10 +28437,10 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 3,
       adresse: {
-        straße: "Rathausstrasse 32",
+        straße: "Rathausstraße 32",
         stadt: "Nürnberg",
         postleitzahl: "90012",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.522801",
         longitude: "11.055642"
       },
@@ -28548,10 +28548,10 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 2,
       adresse: {
-        straße: "Schillerstrasse 45",
+        straße: "Schillerstraße 45",
         stadt: "Merching",
         postleitzahl: "86504",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.24379",
         longitude: "10.984411"
       },
@@ -28622,10 +28622,10 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 1,
       adresse: {
-        straße: "Ellmenreichstrasse 50",
+        straße: "Ellmenreichstraße 50",
         stadt: "Stadtsteinach",
         postleitzahl: "95343",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.210185",
         longitude: "11.540319"
       },
@@ -28662,7 +28662,7 @@ const IMMO_DATA = [
         straße: "Alsterkrugchaussee 32",
         stadt: "Wendelstein",
         postleitzahl: "90526",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.399338",
         longitude: "11.089165"
       },
@@ -28699,7 +28699,7 @@ const IMMO_DATA = [
         straße: "Heinrich Heine Platz 81",
         stadt: "Waltershausen",
         postleitzahl: "99875",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "51.001112",
         longitude: "10.559301"
       },
@@ -28810,7 +28810,7 @@ const IMMO_DATA = [
         straße: "Pappelallee 20",
         stadt: "Brand-Erbisdorf",
         postleitzahl: "09618",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "50.777295",
         longitude: "13.421551"
       },
@@ -28844,7 +28844,7 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 2,
       adresse: {
-        straße: "Schmarjestrasse 54",
+        straße: "Schmarjestraße 54",
         stadt: "Amalienfelde",
         postleitzahl: "16766",
         bundesland: "Brandenburg",
@@ -28921,7 +28921,7 @@ const IMMO_DATA = [
         straße: "Prenzlauer Allee 43",
         stadt: "Leipzig",
         postleitzahl: "04277",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "51.410363",
         longitude: "12.415323"
       },
@@ -28955,7 +28955,7 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 4,
       adresse: {
-        straße: "Mohrenstrasse 78",
+        straße: "Mohrenstraße 78",
         stadt: "Mehrstetten",
         postleitzahl: "72537",
         bundesland: "Baden-Württemberg",
@@ -28995,7 +28995,7 @@ const IMMO_DATA = [
         straße: "Langenhorner Chaussee 54",
         stadt: "Baierbach",
         postleitzahl: "84171",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.441739",
         longitude: "12.134541"
       },
@@ -29143,7 +29143,7 @@ const IMMO_DATA = [
         straße: "Pappelallee 92",
         stadt: "Pausa",
         postleitzahl: "07951",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "50.577014",
         longitude: "12.075962"
       },
@@ -29217,7 +29217,7 @@ const IMMO_DATA = [
         straße: "Esplanade 88",
         stadt: "Wenzenbach",
         postleitzahl: "93173",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.142891",
         longitude: "12.266612"
       },
@@ -29288,7 +29288,7 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 2,
       adresse: {
-        straße: "Fasanenstrasse 45",
+        straße: "Fasanenstraße 45",
         stadt: "Hamburg Lohbrügge",
         postleitzahl: "21031",
         bundesland: "Hamburg",
@@ -29365,7 +29365,7 @@ const IMMO_DATA = [
         straße: "Langenhorner Chaussee 97",
         stadt: "Burghausen",
         postleitzahl: "84482",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.098009",
         longitude: "12.765789"
       },
@@ -29436,10 +29436,10 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 2,
       adresse: {
-        straße: "Schoenebergerstrasse 40",
+        straße: "Schoenebergerstraße 40",
         stadt: "Netzschkau",
         postleitzahl: "08487",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "50.623178",
         longitude: "12.254535"
       },
@@ -29476,7 +29476,7 @@ const IMMO_DATA = [
         straße: "Kieler Strasse 56",
         stadt: "Wegscheid",
         postleitzahl: "94110",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.669763",
         longitude: "13.69111"
       },
@@ -29510,10 +29510,10 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 3,
       adresse: {
-        straße: "Charlottenstrasse 5",
+        straße: "Charlottenstraße 5",
         stadt: "Erfurt",
         postleitzahl: "99001",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "51.021894",
         longitude: "11.119386"
       },
@@ -29584,7 +29584,7 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 3,
       adresse: {
-        straße: "Michaelkirchstr. 38",
+        straße: "Michaelkirchstraße 38",
         stadt: "Suhlendorf",
         postleitzahl: "29562",
         bundesland: "Niedersachsen",
@@ -29624,7 +29624,7 @@ const IMMO_DATA = [
         straße: "Esplanade 52",
         stadt: "Obertraubling",
         postleitzahl: "93083",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.993016",
         longitude: "12.16336"
       },
@@ -29661,7 +29661,7 @@ const IMMO_DATA = [
         straße: "An der Schillingbrucke 70",
         stadt: "Westerheim",
         postleitzahl: "87784",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.076543",
         longitude: "10.245725"
       },
@@ -29698,7 +29698,7 @@ const IMMO_DATA = [
         straße: "Landsberger Allee 62",
         stadt: "München",
         postleitzahl: "80531",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.061629",
         longitude: "11.554197"
       },
@@ -29732,7 +29732,7 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 3,
       adresse: {
-        straße: "Nuernbergerstrasse 53",
+        straße: "Nuernbergerstraße 53",
         stadt: "Neuharlingersiel",
         postleitzahl: "26427",
         bundesland: "Niedersachsen",
@@ -29806,7 +29806,7 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 4,
       adresse: {
-        straße: "Güntzelstrasse 54",
+        straße: "Güntzelstraße 54",
         stadt: "Bausendorf",
         postleitzahl: "54538",
         bundesland: "Rheinland-Pfalz",
@@ -29846,7 +29846,7 @@ const IMMO_DATA = [
         straße: "Kantstraße 82",
         stadt: "Annaberg-Buchholz",
         postleitzahl: "09442",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "50.630507",
         longitude: "13.081943"
       },
@@ -29883,7 +29883,7 @@ const IMMO_DATA = [
         straße: "Heinrich Heine Platz 16",
         stadt: "Niesky",
         postleitzahl: "02902",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "51.246812",
         longitude: "14.773059"
       },
@@ -29920,7 +29920,7 @@ const IMMO_DATA = [
         straße: "Oldesloer Strasse 75",
         stadt: "Birkigt",
         postleitzahl: "07336",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "50.591342",
         longitude: "11.470799"
       },
@@ -30105,7 +30105,7 @@ const IMMO_DATA = [
         straße: "Esplanade 54",
         stadt: "Gerolzhofen",
         postleitzahl: "97441",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.858135",
         longitude: "10.326379"
       },
@@ -30142,7 +30142,7 @@ const IMMO_DATA = [
         straße: "Sonnenallee 83",
         stadt: "Augsburg",
         postleitzahl: "86001",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.370464",
         longitude: "10.924679"
       },
@@ -30250,10 +30250,10 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 1,
       adresse: {
-        straße: "Amsinckstrasse 63",
+        straße: "Amsinckstraße 63",
         stadt: "Adelsdorf",
         postleitzahl: "91325",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.641664",
         longitude: "10.979758"
       },
@@ -30287,7 +30287,7 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 1,
       adresse: {
-        straße: "Hermannstrasse 23",
+        straße: "Hermannstraße 23",
         stadt: "Heuchelheim bei Frankenthal",
         postleitzahl: "67259",
         bundesland: "Rheinland-Pfalz",
@@ -30324,7 +30324,7 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 2,
       adresse: {
-        straße: "Friedrichstrasse 3",
+        straße: "Friedrichstraße 3",
         stadt: "Düsseldorf Derendorf",
         postleitzahl: "40468",
         bundesland: "Nordrhein-Westfalen",
@@ -30398,7 +30398,7 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 3,
       adresse: {
-        straße: "Ruschestrasse 2",
+        straße: "Ruschestraße 2",
         stadt: "Ludwigslust",
         postleitzahl: "19282",
         bundesland: "Mecklenburg-Vorpommern",
@@ -30435,7 +30435,7 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 1,
       adresse: {
-        straße: "Eichendorffstr. 5",
+        straße: "Eichendorffstraße 5",
         stadt: "Horgenzell",
         postleitzahl: "88263",
         bundesland: "Baden-Württemberg",
@@ -30512,7 +30512,7 @@ const IMMO_DATA = [
         straße: "Rankestraße 49",
         stadt: "Pocking",
         postleitzahl: "94053",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.429241",
         longitude: "13.349968"
       },
@@ -30546,7 +30546,7 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 1,
       adresse: {
-        straße: "Ruschestrasse 90",
+        straße: "Ruschestraße 90",
         stadt: "Genthin",
         postleitzahl: "39302",
         bundesland: "Sachsen-Anhalt",
@@ -30657,7 +30657,7 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 2,
       adresse: {
-        straße: "Michaelkirchstr. 39",
+        straße: "Michaelkirchstraße 39",
         stadt: "Haste",
         postleitzahl: "31559",
         bundesland: "Niedersachsen",
@@ -30731,10 +30731,10 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 1,
       adresse: {
-        straße: "Schillerstrasse 70",
+        straße: "Schillerstraße 70",
         stadt: "Geretsried",
         postleitzahl: "82525",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.951477",
         longitude: "11.477093"
       },
@@ -30768,7 +30768,7 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 4,
       adresse: {
-        straße: "Scharnweberstrasse 47",
+        straße: "Scharnweberstraße 47",
         stadt: "Mannheim Innenstadt",
         postleitzahl: "68159",
         bundesland: "Baden-Württemberg",
@@ -30842,7 +30842,7 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 2,
       adresse: {
-        straße: "Mollstrasse 64",
+        straße: "Mollstraße 64",
         stadt: "Darmstadt",
         postleitzahl: "64297",
         bundesland: "Hessen",
@@ -30879,10 +30879,10 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 3,
       adresse: {
-        straße: "Kantstrasse 38",
+        straße: "Kantstraße 38",
         stadt: "Nürnberg",
         postleitzahl: "90253",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.454419",
         longitude: "11.155803"
       },
@@ -30919,7 +30919,7 @@ const IMMO_DATA = [
         straße: "Paderborner Strasse 30",
         stadt: "Bad Wörishofen",
         postleitzahl: "86817",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.950627",
         longitude: "10.605102"
       },
@@ -30993,7 +30993,7 @@ const IMMO_DATA = [
         straße: "Alt Reinickendorf 28",
         stadt: "Thannhausen",
         postleitzahl: "86467",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.201729",
         longitude: "10.417596"
       },
@@ -31101,7 +31101,7 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 4,
       adresse: {
-        straße: "Invalidenstrasse 50",
+        straße: "Invalidenstraße 50",
         stadt: "Meckenheim",
         postleitzahl: "67149",
         bundesland: "Rheinland-Pfalz",
@@ -31175,7 +31175,7 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 4,
       adresse: {
-        straße: "Eichendorffstr. 68",
+        straße: "Eichendorffstraße 68",
         stadt: "Jungingen",
         postleitzahl: "72417",
         bundesland: "Baden-Württemberg",
@@ -31286,10 +31286,10 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 3,
       adresse: {
-        straße: "Amsinckstrasse 50",
+        straße: "Amsinckstraße 50",
         stadt: "Hermsdorf",
         postleitzahl: "07622",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "50.96329",
         longitude: "11.958839"
       },
@@ -31400,7 +31400,7 @@ const IMMO_DATA = [
         straße: "Alter Wall 63",
         stadt: "Marktsteft",
         postleitzahl: "97342",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.628029",
         longitude: "10.169182"
       },
@@ -31437,7 +31437,7 @@ const IMMO_DATA = [
         straße: "Alsterkrugchaussee 56",
         stadt: "Schwabach",
         postleitzahl: "91107",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.39146",
         longitude: "10.991043"
       },
@@ -31511,7 +31511,7 @@ const IMMO_DATA = [
         straße: "Paderborner Strasse 20",
         stadt: "Altomünster",
         postleitzahl: "85248",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.39314",
         longitude: "11.204241"
       },
@@ -31582,10 +31582,10 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 2,
       adresse: {
-        straße: "Ellmenreichstrasse 95",
+        straße: "Ellmenreichstraße 95",
         stadt: "Gesees",
         postleitzahl: "95494",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.865656",
         longitude: "11.481796"
       },
@@ -31619,7 +31619,7 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 1,
       adresse: {
-        straße: "Knesebeckstrasse 68",
+        straße: "Knesebeckstraße 68",
         stadt: "Rettersen",
         postleitzahl: "57635",
         bundesland: "Rheinland-Pfalz",
@@ -31659,7 +31659,7 @@ const IMMO_DATA = [
         straße: "Mellingburgredder 56",
         stadt: "Erlangen",
         postleitzahl: "91016",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.560037",
         longitude: "11.052358"
       },
@@ -31693,7 +31693,7 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 1,
       adresse: {
-        straße: "Gotzkowskystrasse 37",
+        straße: "Gotzkowskystraße 37",
         stadt: "Berenbach",
         postleitzahl: "56766",
         bundesland: "Rheinland-Pfalz",
@@ -31767,10 +31767,10 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 3,
       adresse: {
-        straße: "Kantstrasse 92",
+        straße: "Kantstraße 92",
         stadt: "Nürnberg",
         postleitzahl: "90243",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.483867",
         longitude: "11.089965"
       },
@@ -31804,7 +31804,7 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 3,
       adresse: {
-        straße: "Schmarjestrasse 51",
+        straße: "Schmarjestraße 51",
         stadt: "Althüttendorf",
         postleitzahl: "16247",
         bundesland: "Brandenburg",
@@ -31918,7 +31918,7 @@ const IMMO_DATA = [
         straße: "Prager Str 85",
         stadt: "Gröbenzell",
         postleitzahl: "82179",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.225387",
         longitude: "11.448313"
       },
@@ -31952,7 +31952,7 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 2,
       adresse: {
-        straße: "Hochstrasse 33",
+        straße: "Hochstraße 33",
         stadt: "Schafflund",
         postleitzahl: "24978",
         bundesland: "Schleswig-Holstein",
@@ -32026,7 +32026,7 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 2,
       adresse: {
-        straße: "Knesebeckstrasse 21",
+        straße: "Knesebeckstraße 21",
         stadt: "Güllesheim",
         postleitzahl: "56593",
         bundesland: "Rheinland-Pfalz",
@@ -32063,10 +32063,10 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 4,
       adresse: {
-        straße: "Flughafenstrasse 17",
+        straße: "Flughafenstraße 17",
         stadt: "Ursensollen",
         postleitzahl: "92289",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.331637",
         longitude: "11.744733"
       },
@@ -32100,7 +32100,7 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 3,
       adresse: {
-        straße: "Sömmeringstr. 9",
+        straße: "Sömmeringstraße 9",
         stadt: "Leimersheim",
         postleitzahl: "76774",
         bundesland: "Rheinland-Pfalz",
@@ -32140,7 +32140,7 @@ const IMMO_DATA = [
         straße: "Marseiller Strasse 86",
         stadt: "Garmisch-Partenkirchen",
         postleitzahl: "82467",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.447258",
         longitude: "11.189822"
       },
@@ -32177,7 +32177,7 @@ const IMMO_DATA = [
         straße: "Bleibtreustraße 25",
         stadt: "Mühlhausen",
         postleitzahl: "92360",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.179693",
         longitude: "11.534965"
       },
@@ -32248,10 +32248,10 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 3,
       adresse: {
-        straße: "Kantstrasse 25",
+        straße: "Kantstraße 25",
         stadt: "Bayreuth",
         postleitzahl: "95425",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.978465",
         longitude: "11.584149"
       },
@@ -32325,7 +32325,7 @@ const IMMO_DATA = [
         straße: "Ufnau Strasse 26",
         stadt: "Roßhaupten",
         postleitzahl: "87672",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.592196",
         longitude: "10.688342"
       },
@@ -32359,7 +32359,7 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 3,
       adresse: {
-        straße: "Buelowstrasse 15",
+        straße: "Buelowstraße 15",
         stadt: "Stahlhofen am Wiesensee",
         postleitzahl: "56459",
         bundesland: "Rheinland-Pfalz",
@@ -32470,10 +32470,10 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 1,
       adresse: {
-        straße: "Rosenstrasse 19",
+        straße: "Rosenstraße 19",
         stadt: "München",
         postleitzahl: "81619",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.166941",
         longitude: "11.636487"
       },
@@ -32510,7 +32510,7 @@ const IMMO_DATA = [
         straße: "Fontenay 44",
         stadt: "Schauenstein",
         postleitzahl: "95197",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.223253",
         longitude: "11.821125"
       },
@@ -32581,7 +32581,7 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 1,
       adresse: {
-        straße: "Ruschestrasse 32",
+        straße: "Ruschestraße 32",
         stadt: "Ludwigslust",
         postleitzahl: "19285",
         bundesland: "Mecklenburg-Vorpommern",
@@ -32618,10 +32618,10 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 1,
       adresse: {
-        straße: "Albrechtstrasse 55",
+        straße: "Albrechtstraße 55",
         stadt: "Friedberg",
         postleitzahl: "86302",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.328682",
         longitude: "10.935884"
       },
@@ -32658,7 +32658,7 @@ const IMMO_DATA = [
         straße: "Joachimstaler Str. 15",
         stadt: "Kirchberg",
         postleitzahl: "08103",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "50.520265",
         longitude: "12.517782"
       },
@@ -32729,7 +32729,7 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 4,
       adresse: {
-        straße: "Knesebeckstrasse 23",
+        straße: "Knesebeckstraße 23",
         stadt: "Wölmersen",
         postleitzahl: "57635",
         bundesland: "Rheinland-Pfalz",
@@ -32880,7 +32880,7 @@ const IMMO_DATA = [
         straße: "Rudower Chaussee 69",
         stadt: "Bamberg",
         postleitzahl: "96020",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.885137",
         longitude: "10.922073"
       },
@@ -32991,7 +32991,7 @@ const IMMO_DATA = [
         straße: "Luebeckertordamm 27",
         stadt: "Röttenbach",
         postleitzahl: "91341",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.718817",
         longitude: "10.874397"
       },
@@ -33102,7 +33102,7 @@ const IMMO_DATA = [
         straße: "Hoheluftchaussee 30",
         stadt: "Dommitzsch",
         postleitzahl: "04878",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "51.573419",
         longitude: "12.961431"
       },
@@ -33173,7 +33173,7 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 4,
       adresse: {
-        straße: "Motzstr. 86",
+        straße: "Motzstraße 86",
         stadt: "Winterbach",
         postleitzahl: "55595",
         bundesland: "Rheinland-Pfalz",
@@ -33210,10 +33210,10 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 1,
       adresse: {
-        straße: "Guentzelstrasse 26",
+        straße: "Guentzelstraße 26",
         stadt: "Weidenbach",
         postleitzahl: "91746",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.142336",
         longitude: "10.584543"
       },
@@ -33284,7 +33284,7 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 2,
       adresse: {
-        straße: "Pohlstrasse 14",
+        straße: "Pohlstraße 14",
         stadt: "Clausthal-Zellerfeld",
         postleitzahl: "38678",
         bundesland: "Niedersachsen",
@@ -33321,10 +33321,10 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 3,
       adresse: {
-        straße: "Flughafenstrasse 68",
+        straße: "Flughafenstraße 68",
         stadt: "Oberviechtach",
         postleitzahl: "92523",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.371043",
         longitude: "12.360043"
       },
@@ -33509,7 +33509,7 @@ const IMMO_DATA = [
         straße: "Landsberger Allee 66",
         stadt: "München",
         postleitzahl: "80673",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.069447",
         longitude: "11.501563"
       },
@@ -33546,7 +33546,7 @@ const IMMO_DATA = [
         straße: "Kirchenallee 67",
         stadt: "Regen",
         postleitzahl: "94201",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.043213",
         longitude: "13.065549"
       },
@@ -33583,7 +33583,7 @@ const IMMO_DATA = [
         straße: "Fontenay 96",
         stadt: "Kupferberg",
         postleitzahl: "95362",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.07608",
         longitude: "11.627638"
       },
@@ -33617,10 +33617,10 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 2,
       adresse: {
-        straße: "Koenigstrasse 18",
+        straße: "Koenigstraße 18",
         stadt: "Gräfenroda",
         postleitzahl: "99328",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "50.700466",
         longitude: "10.767979"
       },
@@ -33694,7 +33694,7 @@ const IMMO_DATA = [
         straße: "Alt Reinickendorf 30",
         stadt: "Salgen",
         postleitzahl: "87775",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.095277",
         longitude: "10.413065"
       },
@@ -33731,7 +33731,7 @@ const IMMO_DATA = [
         straße: "Ufnau Strasse 68",
         stadt: "Memmingen",
         postleitzahl: "87685",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.919372",
         longitude: "10.203516"
       },
@@ -33842,7 +33842,7 @@ const IMMO_DATA = [
         straße: "Lange Strasse 3",
         stadt: "München",
         postleitzahl: "81739",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.104313",
         longitude: "11.669399"
       },
@@ -33916,7 +33916,7 @@ const IMMO_DATA = [
         straße: "Hedemannstasse 2",
         stadt: "Heimenkirch",
         postleitzahl: "88178",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.560316",
         longitude: "9.893608"
       },
@@ -33990,7 +33990,7 @@ const IMMO_DATA = [
         straße: "Gubener Str. 12",
         stadt: "Hausham",
         postleitzahl: "83732",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.768668",
         longitude: "11.755969"
       },
@@ -34064,7 +34064,7 @@ const IMMO_DATA = [
         straße: "Sonnenallee 23",
         stadt: "Augsburg",
         postleitzahl: "86072",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.46595",
         longitude: "10.825351"
       },
@@ -34098,7 +34098,7 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 3,
       adresse: {
-        straße: "Ruschestrasse 58",
+        straße: "Ruschestraße 58",
         stadt: "Haldensleben",
         postleitzahl: "39331",
         bundesland: "Sachsen-Anhalt",
@@ -34175,7 +34175,7 @@ const IMMO_DATA = [
         straße: "Rudolstaedter Strasse 58",
         stadt: "Obernburg",
         postleitzahl: "63778",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.8312",
         longitude: "9.215214"
       },
@@ -34209,7 +34209,7 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 2,
       adresse: {
-        straße: "Schoenebergerstrasse 66",
+        straße: "Schoenebergerstraße 66",
         stadt: "Schönberg",
         postleitzahl: "24215",
         bundesland: "Schleswig-Holstein",
@@ -34249,7 +34249,7 @@ const IMMO_DATA = [
         straße: "Messedamm 12",
         stadt: "Dresden",
         postleitzahl: "01069",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "51.040888",
         longitude: "13.668885"
       },
@@ -34320,7 +34320,7 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 3,
       adresse: {
-        straße: "Stresemannstr. 38",
+        straße: "Stresemannstraße 38",
         stadt: "Überherrn",
         postleitzahl: "66802",
         bundesland: "Saarland",
@@ -34360,7 +34360,7 @@ const IMMO_DATA = [
         straße: "Neuer Jungfernstieg 71",
         stadt: "Arnstorf",
         postleitzahl: "94424",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.512056",
         longitude: "12.726399"
       },
@@ -34394,7 +34394,7 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 3,
       adresse: {
-        straße: "Pohlstrasse 25",
+        straße: "Pohlstraße 25",
         stadt: "Langelsheim",
         postleitzahl: "38685",
         bundesland: "Niedersachsen",
@@ -34431,7 +34431,7 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 4,
       adresse: {
-        straße: "Invalidenstrasse 5",
+        straße: "Invalidenstraße 5",
         stadt: "Riedelberg",
         postleitzahl: "66484",
         bundesland: "Rheinland-Pfalz",
@@ -34508,7 +34508,7 @@ const IMMO_DATA = [
         straße: "Alt Reinickendorf 14",
         stadt: "Adelsried",
         postleitzahl: "86477",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.452368",
         longitude: "10.61908"
       },
@@ -34545,7 +34545,7 @@ const IMMO_DATA = [
         straße: "Prenzlauer Allee 39",
         stadt: "Leipzig",
         postleitzahl: "04321",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "51.367567",
         longitude: "12.363844"
       },
@@ -34579,7 +34579,7 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 3,
       adresse: {
-        straße: "Scharnweberstrasse 36",
+        straße: "Scharnweberstraße 36",
         stadt: "Mannheim Sandhofen",
         postleitzahl: "68307",
         bundesland: "Baden-Württemberg",
@@ -34690,7 +34690,7 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 3,
       adresse: {
-        straße: "Güntzelstrasse 53",
+        straße: "Güntzelstraße 53",
         stadt: "Gornhausen",
         postleitzahl: "54472",
         bundesland: "Rheinland-Pfalz",
@@ -34730,7 +34730,7 @@ const IMMO_DATA = [
         straße: "Esplanade 16",
         stadt: "Regenstauf",
         postleitzahl: "93123",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.14174",
         longitude: "12.037024"
       },
@@ -34767,7 +34767,7 @@ const IMMO_DATA = [
         straße: "Eschenweg 95",
         stadt: "Neundorf",
         postleitzahl: "09488",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "50.674049",
         longitude: "12.987217"
       },
@@ -34912,10 +34912,10 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 4,
       adresse: {
-        straße: "Kantstrasse 66",
+        straße: "Kantstraße 66",
         stadt: "Nürnberg",
         postleitzahl: "90271",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.474095",
         longitude: "11.120991"
       },
@@ -35063,7 +35063,7 @@ const IMMO_DATA = [
         straße: "Kieler Strasse 96",
         stadt: "Erharting",
         postleitzahl: "84513",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.359766",
         longitude: "12.655954"
       },
@@ -35100,7 +35100,7 @@ const IMMO_DATA = [
         straße: "Fontenay 43",
         stadt: "Helmbrechts",
         postleitzahl: "95233",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.235832",
         longitude: "11.698214"
       },
@@ -35211,7 +35211,7 @@ const IMMO_DATA = [
         straße: "Alt Reinickendorf 53",
         stadt: "Balderschwang",
         postleitzahl: "87538",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.538828",
         longitude: "10.304653"
       },
@@ -35245,7 +35245,7 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 1,
       adresse: {
-        straße: "Eichendorffstr. 42",
+        straße: "Eichendorffstraße 42",
         stadt: "Bisingen",
         postleitzahl: "72406",
         bundesland: "Baden-Württemberg",
@@ -35282,10 +35282,10 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 3,
       adresse: {
-        straße: "Rhinstrasse 43",
+        straße: "Rhinstraße 43",
         stadt: "München",
         postleitzahl: "80740",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.161736",
         longitude: "11.650938"
       },
@@ -35393,7 +35393,7 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 3,
       adresse: {
-        straße: "Güntzelstrasse 31",
+        straße: "Güntzelstraße 31",
         stadt: "Rorodt",
         postleitzahl: "54411",
         bundesland: "Rheinland-Pfalz",
@@ -35430,7 +35430,7 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 3,
       adresse: {
-        straße: "Buelowstrasse 17",
+        straße: "Buelowstraße 17",
         stadt: "Gehlert",
         postleitzahl: "57627",
         bundesland: "Rheinland-Pfalz",
@@ -35470,7 +35470,7 @@ const IMMO_DATA = [
         straße: "Paul-Nevermann-Platz 98",
         stadt: "Motten",
         postleitzahl: "97786",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.420027",
         longitude: "9.691026"
       },
@@ -35578,10 +35578,10 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 3,
       adresse: {
-        straße: "Albrechtstrasse 18",
+        straße: "Albrechtstraße 18",
         stadt: "Stadtbergen",
         postleitzahl: "86382",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.282261",
         longitude: "10.921406"
       },
@@ -35618,7 +35618,7 @@ const IMMO_DATA = [
         straße: "Luebeckertordamm 79",
         stadt: "Markt Bibart",
         postleitzahl: "91477",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.722789",
         longitude: "10.376949"
       },
@@ -35692,7 +35692,7 @@ const IMMO_DATA = [
         straße: "Frankfurter Allee 80",
         stadt: "Neu-Ulm",
         postleitzahl: "89215",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.476009",
         longitude: "10.041902"
       },
@@ -35726,7 +35726,7 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 1,
       adresse: {
-        straße: "Schmarjestrasse 40",
+        straße: "Schmarjestraße 40",
         stadt: "Dallgow",
         postleitzahl: "14624",
         bundesland: "Brandenburg",
@@ -35837,10 +35837,10 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 2,
       adresse: {
-        straße: "Kantstrasse 97",
+        straße: "Kantstraße 97",
         stadt: "Bayreuth",
         postleitzahl: "95445",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.985741",
         longitude: "11.531975"
       },
@@ -35951,7 +35951,7 @@ const IMMO_DATA = [
         straße: "Alsterkrugchaussee 99",
         stadt: "Munningen",
         postleitzahl: "86754",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.916847",
         longitude: "10.529471"
       },
@@ -35988,7 +35988,7 @@ const IMMO_DATA = [
         straße: "Rudolstaedter Strasse 86",
         stadt: "Johannesberg",
         postleitzahl: "63865",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.057931",
         longitude: "9.139183"
       },
@@ -36059,7 +36059,7 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 3,
       adresse: {
-        straße: "Schmarjestrasse 69",
+        straße: "Schmarjestraße 69",
         stadt: "Ihlow",
         postleitzahl: "26632",
         bundesland: "Niedersachsen",
@@ -36096,10 +36096,10 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 3,
       adresse: {
-        straße: "Schoenebergerstrasse 4",
+        straße: "Schoenebergerstraße 4",
         stadt: "Bockau",
         postleitzahl: "08324",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "50.623207",
         longitude: "12.60298"
       },
@@ -36170,7 +36170,7 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 2,
       adresse: {
-        straße: "Neue Roßstr. 12",
+        straße: "Neue Roßstraße 12",
         stadt: "Trier Weismark-Feyen",
         postleitzahl: "54295",
         bundesland: "Rheinland-Pfalz",
@@ -36244,7 +36244,7 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 4,
       adresse: {
-        straße: "Spresstrasse 10",
+        straße: "Spresstraße 10",
         stadt: "Bielefeld Gadderbaum",
         postleitzahl: "33617",
         bundesland: "Nordrhein-Westfalen",
@@ -36284,7 +36284,7 @@ const IMMO_DATA = [
         straße: "Paderborner Strasse 85",
         stadt: "Mittelneufnach",
         postleitzahl: "86868",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.087345",
         longitude: "10.571569"
       },
@@ -36395,7 +36395,7 @@ const IMMO_DATA = [
         straße: "Eschenweg 25",
         stadt: "Schmalkalden",
         postleitzahl: "98562",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "50.805546",
         longitude: "10.512172"
       },
@@ -36429,10 +36429,10 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 1,
       adresse: {
-        straße: "Rhinstrasse 43",
+        straße: "Rhinstraße 43",
         stadt: "München",
         postleitzahl: "80807",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.175051",
         longitude: "11.602194"
       },
@@ -36543,7 +36543,7 @@ const IMMO_DATA = [
         straße: "Rudolstaedter Strasse 30",
         stadt: "Elsenfeld",
         postleitzahl: "63818",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.856246",
         longitude: "9.181366"
       },
@@ -36725,7 +36725,7 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 1,
       adresse: {
-        straße: "Scharnweberstrasse 52",
+        straße: "Scharnweberstraße 52",
         stadt: "Mannheim Kirschgartshausen",
         postleitzahl: "68307",
         bundesland: "Baden-Württemberg",
@@ -36765,7 +36765,7 @@ const IMMO_DATA = [
         straße: "Rudower Chaussee 91",
         stadt: "Ansbach",
         postleitzahl: "91503",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.254732",
         longitude: "10.608353"
       },
@@ -36836,7 +36836,7 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 4,
       adresse: {
-        straße: "Wallstrasse 31",
+        straße: "Wallstraße 31",
         stadt: "Breitscheid",
         postleitzahl: "55422",
         bundesland: "Rheinland-Pfalz",
@@ -36910,7 +36910,7 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 1,
       adresse: {
-        straße: "Eichendorffstr. 7",
+        straße: "Eichendorffstraße 7",
         stadt: "Konstanz Petershausen",
         postleitzahl: "78464",
         bundesland: "Baden-Württemberg",
@@ -37061,7 +37061,7 @@ const IMMO_DATA = [
         straße: "Billwerder Neuer Deich 41",
         stadt: "Hof",
         postleitzahl: "95032",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.308747",
         longitude: "11.974402"
       },
@@ -37172,7 +37172,7 @@ const IMMO_DATA = [
         straße: "Alt Reinickendorf 69",
         stadt: "Kraftisried",
         postleitzahl: "87647",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.689537",
         longitude: "10.433516"
       },
@@ -37243,10 +37243,10 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 2,
       adresse: {
-        straße: "Kantstrasse 27",
+        straße: "Kantstraße 27",
         stadt: "Nürnberg",
         postleitzahl: "90239",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.411686",
         longitude: "11.07573"
       },
@@ -37317,7 +37317,7 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 1,
       adresse: {
-        straße: "Nuernbergerstrasse 15",
+        straße: "Nuernbergerstraße 15",
         stadt: "Goldenstedt",
         postleitzahl: "49424",
         bundesland: "Niedersachsen",
@@ -37354,10 +37354,10 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 1,
       adresse: {
-        straße: "Amsinckstrasse 40",
+        straße: "Amsinckstraße 40",
         stadt: "Lengenfeld",
         postleitzahl: "08482",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "50.652375",
         longitude: "12.393293"
       },
@@ -37391,7 +37391,7 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 2,
       adresse: {
-        straße: "Michaelkirchstr. 25",
+        straße: "Michaelkirchstraße 25",
         stadt: "Lauenhagen",
         postleitzahl: "31714",
         bundesland: "Niedersachsen",
@@ -37431,7 +37431,7 @@ const IMMO_DATA = [
         straße: "Ufnau Strasse 38",
         stadt: "Füssen",
         postleitzahl: "87629",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.656456",
         longitude: "10.674342"
       },
@@ -37505,7 +37505,7 @@ const IMMO_DATA = [
         straße: "Billwerder Neuer Deich 52",
         stadt: "Hof",
         postleitzahl: "95014",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.402444",
         longitude: "11.860059"
       },
@@ -37542,7 +37542,7 @@ const IMMO_DATA = [
         straße: "Oldesloer Strasse 86",
         stadt: "Lobenstein",
         postleitzahl: "07352",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "50.476428",
         longitude: "11.507328"
       },
@@ -37613,7 +37613,7 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 4,
       adresse: {
-        straße: "Neue Roßstr. 71",
+        straße: "Neue Roßstraße 71",
         stadt: "Bad Kreuznach Winzenheim",
         postleitzahl: "55545",
         bundesland: "Rheinland-Pfalz",
@@ -37761,7 +37761,7 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 3,
       adresse: {
-        straße: "Knesebeckstrasse 89",
+        straße: "Knesebeckstraße 89",
         stadt: "Marzhausen",
         postleitzahl: "57627",
         bundesland: "Rheinland-Pfalz",
@@ -37838,7 +37838,7 @@ const IMMO_DATA = [
         straße: "Rankestraße 81",
         stadt: "Fürstenzell",
         postleitzahl: "94079",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.50193",
         longitude: "13.342742"
       },
@@ -37872,7 +37872,7 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 4,
       adresse: {
-        straße: "Motzstr. 83",
+        straße: "Motzstraße 83",
         stadt: "Bad Münster am Stein-Ebernburg",
         postleitzahl: "55583",
         bundesland: "Rheinland-Pfalz",
@@ -37909,7 +37909,7 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 3,
       adresse: {
-        straße: "Mohrenstrasse 99",
+        straße: "Mohrenstraße 99",
         stadt: "Albstadt Burgfelden",
         postleitzahl: "72459",
         bundesland: "Baden-Württemberg",
@@ -37983,7 +37983,7 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 4,
       adresse: {
-        straße: "Pohlstrasse 5",
+        straße: "Pohlstraße 5",
         stadt: "Dettum",
         postleitzahl: "38173",
         bundesland: "Niedersachsen",
@@ -38023,7 +38023,7 @@ const IMMO_DATA = [
         straße: "Kieler Strasse 50",
         stadt: "Trostberg",
         postleitzahl: "83308",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.103079",
         longitude: "12.46628"
       },
@@ -38060,7 +38060,7 @@ const IMMO_DATA = [
         straße: "Prenzlauer Allee 99",
         stadt: "Leipzig",
         postleitzahl: "04249",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "51.268105",
         longitude: "12.42591"
       },
@@ -38134,7 +38134,7 @@ const IMMO_DATA = [
         straße: "Messedamm 77",
         stadt: "Dresden",
         postleitzahl: "01109",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "51.028205",
         longitude: "13.842006"
       },
@@ -38205,7 +38205,7 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 4,
       adresse: {
-        straße: "Scharnweberstrasse 9",
+        straße: "Scharnweberstraße 9",
         stadt: "Mannheim Quadrate",
         postleitzahl: "68159",
         bundesland: "Baden-Württemberg",
@@ -38242,7 +38242,7 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 2,
       adresse: {
-        straße: "Feldstrasse 22",
+        straße: "Feldstraße 22",
         stadt: "Niederndodeleben",
         postleitzahl: "39165",
         bundesland: "Sachsen-Anhalt",
@@ -38279,7 +38279,7 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 3,
       adresse: {
-        straße: "Schmarjestrasse 67",
+        straße: "Schmarjestraße 67",
         stadt: "Neuhardenberg",
         postleitzahl: "15318",
         bundesland: "Brandenburg",
@@ -38316,10 +38316,10 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 3,
       adresse: {
-        straße: "Schoenebergerstrasse 11",
+        straße: "Schoenebergerstraße 11",
         stadt: "Lößnitz",
         postleitzahl: "08290",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "50.876047",
         longitude: "11.496342"
       },
@@ -38390,7 +38390,7 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 1,
       adresse: {
-        straße: "Genterstrasse 36",
+        straße: "Genterstraße 36",
         stadt: "Kiel",
         postleitzahl: "24124",
         bundesland: "Schleswig-Holstein",
@@ -38464,7 +38464,7 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 2,
       adresse: {
-        straße: "Hermannstrasse 8",
+        straße: "Hermannstraße 8",
         stadt: "Rauenberg",
         postleitzahl: "69231",
         bundesland: "Baden-Württemberg",
@@ -38504,7 +38504,7 @@ const IMMO_DATA = [
         straße: "Alsterkrugchaussee 3",
         stadt: "Büchenbach",
         postleitzahl: "91186",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.286724",
         longitude: "11.048216"
       },
@@ -38541,7 +38541,7 @@ const IMMO_DATA = [
         straße: "Gubener Str. 40",
         stadt: "Emmering",
         postleitzahl: "83550",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.98155",
         longitude: "12.02461"
       },
@@ -38578,7 +38578,7 @@ const IMMO_DATA = [
         straße: "Ufnau Strasse 15",
         stadt: "Memmingen",
         postleitzahl: "87686",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.955805",
         longitude: "10.154082"
       },
@@ -38612,7 +38612,7 @@ const IMMO_DATA = [
       zimmer: 5,
       badezimmer: 1,
       adresse: {
-        straße: "Michaelkirchstr. 96",
+        straße: "Michaelkirchstraße 96",
         stadt: "Beckedorf",
         postleitzahl: "31699",
         bundesland: "Niedersachsen",
@@ -38652,7 +38652,7 @@ const IMMO_DATA = [
         straße: "Alt Reinickendorf 53",
         stadt: "Ziemetshausen",
         postleitzahl: "86471",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.39573",
         longitude: "10.454126"
       },
@@ -38797,7 +38797,7 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 3,
       adresse: {
-        straße: "Spresstrasse 40",
+        straße: "Spresstraße 40",
         stadt: "Flensburg",
         postleitzahl: "24909",
         bundesland: "Schleswig-Holstein",
@@ -38837,7 +38837,7 @@ const IMMO_DATA = [
         straße: "Paderborner Strasse 76",
         stadt: "Breitenbrunn",
         postleitzahl: "92363",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.179062",
         longitude: "11.608501"
       },
@@ -38874,7 +38874,7 @@ const IMMO_DATA = [
         straße: "Neuer Jungfernstieg 43",
         stadt: "Malgersdorf",
         postleitzahl: "84333",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.451516",
         longitude: "12.837724"
       },
@@ -38908,7 +38908,7 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 3,
       adresse: {
-        straße: "Scharnweberstrasse 7",
+        straße: "Scharnweberstraße 7",
         stadt: "Mannheim Vogelstang",
         postleitzahl: "68309",
         bundesland: "Baden-Württemberg",
@@ -39022,7 +39022,7 @@ const IMMO_DATA = [
         straße: "Luebecker Strasse 84",
         stadt: "Burgpreppach",
         postleitzahl: "97496",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.208157",
         longitude: "10.66495"
       },
@@ -39096,7 +39096,7 @@ const IMMO_DATA = [
         straße: "Kieler Strasse 27",
         stadt: "Unterwössen",
         postleitzahl: "83246",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.822145",
         longitude: "12.36758"
       },
@@ -39133,7 +39133,7 @@ const IMMO_DATA = [
         straße: "Kurfuerstendamm 25",
         stadt: "München",
         postleitzahl: "80011",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.188587",
         longitude: "11.623996"
       },
@@ -39170,7 +39170,7 @@ const IMMO_DATA = [
         straße: "Pappelallee 71",
         stadt: "Markneukirchen",
         postleitzahl: "08255",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "50.408283",
         longitude: "12.430344"
       },
@@ -39241,10 +39241,10 @@ const IMMO_DATA = [
       zimmer: 7,
       badezimmer: 3,
       adresse: {
-        straße: "Ellmenreichstrasse 61",
+        straße: "Ellmenreichstraße 61",
         stadt: "Weismain",
         postleitzahl: "96260",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.057094",
         longitude: "11.278743"
       },
@@ -39281,7 +39281,7 @@ const IMMO_DATA = [
         straße: "Mellingburgredder 46",
         stadt: "Erlangen",
         postleitzahl: "91015",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.668203",
         longitude: "11.053114"
       },
@@ -39315,10 +39315,10 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 4,
       adresse: {
-        straße: "Mühlenstrasse 38",
+        straße: "Mühlenstraße 38",
         stadt: "Würzburg",
         postleitzahl: "97015",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.776003",
         longitude: "9.867107"
       },
@@ -39389,10 +39389,10 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 2,
       adresse: {
-        straße: "Ziegelstr. 59",
+        straße: "Ziegelstraße 59",
         stadt: "Hohenau",
         postleitzahl: "94545",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.897133",
         longitude: "13.54747"
       },
@@ -39463,7 +39463,7 @@ const IMMO_DATA = [
       zimmer: 3,
       badezimmer: 1,
       adresse: {
-        straße: "Chausseestr. 83",
+        straße: "Chausseestraße 83",
         stadt: "Malchin",
         postleitzahl: "17131",
         bundesland: "Mecklenburg-Vorpommern",
@@ -39500,7 +39500,7 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 3,
       adresse: {
-        straße: "Gotzkowskystrasse 85",
+        straße: "Gotzkowskystraße 85",
         stadt: "Kettenhausen",
         postleitzahl: "57612",
         bundesland: "Rheinland-Pfalz",
@@ -39577,7 +39577,7 @@ const IMMO_DATA = [
         straße: "Schaarsteinweg 98",
         stadt: "Stulln",
         postleitzahl: "92551",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.513592",
         longitude: "12.054734"
       },
@@ -39611,7 +39611,7 @@ const IMMO_DATA = [
       zimmer: 2,
       badezimmer: 1,
       adresse: {
-        straße: "Friedrichstrasse 88",
+        straße: "Friedrichstraße 88",
         stadt: "Düsseldorf Hassels",
         postleitzahl: "40597",
         bundesland: "Nordrhein-Westfalen",
@@ -39648,7 +39648,7 @@ const IMMO_DATA = [
       zimmer: 6,
       badezimmer: 2,
       adresse: {
-        straße: "Buelowstrasse 18",
+        straße: "Buelowstraße 18",
         stadt: "Kempenich",
         postleitzahl: "56746",
         bundesland: "Rheinland-Pfalz",
@@ -39688,7 +39688,7 @@ const IMMO_DATA = [
         straße: "Sonnenallee 74",
         stadt: "Augsburg",
         postleitzahl: "86031",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.462983",
         longitude: "10.940042"
       },
@@ -39725,7 +39725,7 @@ const IMMO_DATA = [
         straße: "Mellingburgredder 74",
         stadt: "Happurg",
         postleitzahl: "91228",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.527496",
         longitude: "11.49371"
       },
@@ -39836,7 +39836,7 @@ const IMMO_DATA = [
         straße: "Hoheluftchaussee 33",
         stadt: "Rackwitz",
         postleitzahl: "04519",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "51.426713",
         longitude: "12.458702"
       },
@@ -39910,7 +39910,7 @@ const IMMO_DATA = [
         straße: "Ufnau Strasse 75",
         stadt: "Nesselwang",
         postleitzahl: "87482",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.584521",
         longitude: "10.558079"
       },
@@ -39947,7 +39947,7 @@ const IMMO_DATA = [
         straße: "Rankestraße 59",
         stadt: "Berg",
         postleitzahl: "83362",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.849331",
         longitude: "12.63861"
       },
@@ -40018,10 +40018,10 @@ const IMMO_DATA = [
       zimmer: 4,
       badezimmer: 1,
       adresse: {
-        straße: "Amsinckstrasse 59",
+        straße: "Amsinckstraße 59",
         stadt: "Großschönau",
         postleitzahl: "02777",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "50.983517",
         longitude: "14.745434"
       },
@@ -40124,11 +40124,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 901323,
-      bezugsart: "kaufen",
-      wohnfläche: 243,
-      zimmer: 5,
-      badezimmer: 3,
+      preis: 3242,
+      bezugsart: "mieten",
+      wohnfläche: 497,
+      zimmer: 4,
+      badezimmer: 4,
       adresse: {
         straße: "Augsburger Strasse 63",
         stadt: "Mauden",
@@ -40151,7 +40151,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 357
+      vergangeneTageSeitVeröffentlichung: 257
     }
   },
   {
@@ -40161,11 +40161,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 386998,
-      bezugsart: "kaufen",
-      wohnfläche: 352,
-      zimmer: 6,
-      badezimmer: 3,
+      preis: 2769,
+      bezugsart: "mieten",
+      wohnfläche: 541,
+      zimmer: 4,
+      badezimmer: 4,
       adresse: {
         straße: "Schönhauser Allee 23",
         stadt: "Breisach",
@@ -40188,7 +40188,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 158
+      vergangeneTageSeitVeröffentlichung: 192
     }
   },
   {
@@ -40198,13 +40198,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1211618,
-      bezugsart: "kaufen",
-      wohnfläche: 196,
-      zimmer: 6,
-      badezimmer: 3,
+      preis: 1367,
+      bezugsart: "mieten",
+      wohnfläche: 154,
+      zimmer: 2,
+      badezimmer: 1,
       adresse: {
-        straße: "Eichendorffstr. 87",
+        straße: "Eichendorffstraße 87",
         stadt: "Fronreute",
         postleitzahl: "88273",
         bundesland: "Baden-Württemberg",
@@ -40225,7 +40225,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 331
+      vergangeneTageSeitVeröffentlichung: 155
     }
   },
   {
@@ -40235,13 +40235,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 648748,
-      bezugsart: "kaufen",
-      wohnfläche: 82,
+      preis: 1024,
+      bezugsart: "mieten",
+      wohnfläche: 234,
       zimmer: 3,
-      badezimmer: 3,
+      badezimmer: 1,
       adresse: {
-        straße: "Motzstr. 4",
+        straße: "Motzstraße 4",
         stadt: "Framersheim",
         postleitzahl: "55234",
         bundesland: "Rheinland-Pfalz",
@@ -40262,7 +40262,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 292
+      vergangeneTageSeitVeröffentlichung: 162
     }
   },
   {
@@ -40272,16 +40272,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1088302,
-      bezugsart: "kaufen",
-      wohnfläche: 507,
+      preis: 1858,
+      bezugsart: "mieten",
+      wohnfläche: 539,
       zimmer: 6,
       badezimmer: 2,
       adresse: {
-        straße: "Ziegelstr. 25",
+        straße: "Ziegelstraße 25",
         stadt: "Freyung",
         postleitzahl: "94078",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.847773",
         longitude: "13.596993"
       },
@@ -40299,7 +40299,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 60
+      vergangeneTageSeitVeröffentlichung: 74
     }
   },
   {
@@ -40309,11 +40309,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 948615,
-      bezugsart: "kaufen",
-      wohnfläche: 125,
-      zimmer: 4,
-      badezimmer: 1,
+      preis: 1766,
+      bezugsart: "mieten",
+      wohnfläche: 234,
+      zimmer: 6,
+      badezimmer: 4,
       adresse: {
         straße: "Brandenburgische Strasse 70",
         stadt: "Eschbach",
@@ -40336,7 +40336,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 197
+      vergangeneTageSeitVeröffentlichung: 316
     }
   },
   {
@@ -40346,16 +40346,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1049007,
-      bezugsart: "kaufen",
-      wohnfläche: 376,
-      zimmer: 6,
-      badezimmer: 4,
+      preis: 2780,
+      bezugsart: "mieten",
+      wohnfläche: 264,
+      zimmer: 3,
+      badezimmer: 2,
       adresse: {
-        straße: "Rathausstrasse 12",
+        straße: "Rathausstraße 12",
         stadt: "Nürnberg",
         postleitzahl: "90122",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.387887",
         longitude: "11.122881"
       },
@@ -40373,7 +40373,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 307
+      vergangeneTageSeitVeröffentlichung: 52
     }
   },
   {
@@ -40383,11 +40383,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1235267,
-      bezugsart: "kaufen",
-      wohnfläche: 451,
+      preis: 1327,
+      bezugsart: "mieten",
+      wohnfläche: 352,
       zimmer: 4,
-      badezimmer: 1,
+      badezimmer: 4,
       adresse: {
         straße: "Jenaer Strasse 48",
         stadt: "Oberhausen Alstaden",
@@ -40410,7 +40410,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 239
+      vergangeneTageSeitVeröffentlichung: 91
     }
   },
   {
@@ -40420,16 +40420,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1158344,
-      bezugsart: "kaufen",
-      wohnfläche: 438,
+      preis: 2017,
+      bezugsart: "mieten",
+      wohnfläche: 485,
       zimmer: 3,
-      badezimmer: 4,
+      badezimmer: 2,
       adresse: {
         straße: "Budapester Straße 37",
         stadt: "Lichtenfels",
         postleitzahl: "96203",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.138467",
         longitude: "11.079739"
       },
@@ -40447,7 +40447,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 79
+      vergangeneTageSeitVeröffentlichung: 306
     }
   },
   {
@@ -40457,16 +40457,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1151671,
-      bezugsart: "kaufen",
-      wohnfläche: 433,
-      zimmer: 3,
-      badezimmer: 1,
+      preis: 2718,
+      bezugsart: "mieten",
+      wohnfläche: 242,
+      zimmer: 4,
+      badezimmer: 3,
       adresse: {
         straße: "Luebeckertordamm 91",
         stadt: "Burgthann",
         postleitzahl: "90557",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.384944",
         longitude: "11.383528"
       },
@@ -40484,7 +40484,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 207
+      vergangeneTageSeitVeröffentlichung: 46
     }
   },
   {
@@ -40494,16 +40494,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1126630,
-      bezugsart: "kaufen",
-      wohnfläche: 287,
-      zimmer: 7,
-      badezimmer: 2,
+      preis: 3379,
+      bezugsart: "mieten",
+      wohnfläche: 556,
+      zimmer: 6,
+      badezimmer: 4,
       adresse: {
         straße: "Alter Wall 1",
         stadt: "Kitzingen",
         postleitzahl: "97304",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.693783",
         longitude: "10.214662"
       },
@@ -40521,7 +40521,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 267
+      vergangeneTageSeitVeröffentlichung: 45
     }
   },
   {
@@ -40531,11 +40531,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 390971,
-      bezugsart: "kaufen",
-      wohnfläche: 388,
-      zimmer: 6,
-      badezimmer: 1,
+      preis: 2552,
+      bezugsart: "mieten",
+      wohnfläche: 468,
+      zimmer: 7,
+      badezimmer: 4,
       adresse: {
         straße: "Brandenburgische Str. 83",
         stadt: "Deckenpfronn",
@@ -40558,7 +40558,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 124
+      vergangeneTageSeitVeröffentlichung: 67
     }
   },
   {
@@ -40568,11 +40568,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 727926,
-      bezugsart: "kaufen",
-      wohnfläche: 187,
-      zimmer: 4,
-      badezimmer: 3,
+      preis: 2859,
+      bezugsart: "mieten",
+      wohnfläche: 471,
+      zimmer: 5,
+      badezimmer: 1,
       adresse: {
         straße: "Frankfurter Allee 8",
         stadt: "Karlsruhe Daxlanden",
@@ -40595,7 +40595,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 113
+      vergangeneTageSeitVeröffentlichung: 312
     }
   },
   {
@@ -40605,16 +40605,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 310895,
-      bezugsart: "kaufen",
-      wohnfläche: 78,
-      zimmer: 6,
+      preis: 2007,
+      bezugsart: "mieten",
+      wohnfläche: 491,
+      zimmer: 5,
       badezimmer: 1,
       adresse: {
         straße: "Rankestraße 42",
         stadt: "Untergriesbach",
         postleitzahl: "94105",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.496165",
         longitude: "13.577412"
       },
@@ -40632,7 +40632,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 314
+      vergangeneTageSeitVeröffentlichung: 58
     }
   },
   {
@@ -40642,13 +40642,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 628145,
-      bezugsart: "kaufen",
-      wohnfläche: 271,
-      zimmer: 7,
-      badezimmer: 4,
+      preis: 2265,
+      bezugsart: "mieten",
+      wohnfläche: 515,
+      zimmer: 6,
+      badezimmer: 2,
       adresse: {
-        straße: "Neue Roßstr. 83",
+        straße: "Neue Roßstraße 83",
         stadt: "Trier Trier-Ost",
         postleitzahl: "54295",
         bundesland: "Rheinland-Pfalz",
@@ -40669,7 +40669,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 84
+      vergangeneTageSeitVeröffentlichung: 335
     }
   },
   {
@@ -40679,11 +40679,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 426752,
-      bezugsart: "kaufen",
-      wohnfläche: 447,
-      zimmer: 2,
-      badezimmer: 4,
+      preis: 3455,
+      bezugsart: "mieten",
+      wohnfläche: 154,
+      zimmer: 3,
+      badezimmer: 3,
       adresse: {
         straße: "Storkower Strasse 65",
         stadt: "Deesen",
@@ -40706,7 +40706,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 89
+      vergangeneTageSeitVeröffentlichung: 214
     }
   },
   {
@@ -40716,16 +40716,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 319766,
-      bezugsart: "kaufen",
-      wohnfläche: 415,
-      zimmer: 7,
-      badezimmer: 4,
+      preis: 2800,
+      bezugsart: "mieten",
+      wohnfläche: 476,
+      zimmer: 4,
+      badezimmer: 3,
       adresse: {
         straße: "Gubener Str. 6",
         stadt: "Bernau",
         postleitzahl: "83231",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.646478",
         longitude: "9.68404"
       },
@@ -40743,7 +40743,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 268
+      vergangeneTageSeitVeröffentlichung: 30
     }
   },
   {
@@ -40753,11 +40753,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 792201,
-      bezugsart: "kaufen",
-      wohnfläche: 360,
-      zimmer: 3,
-      badezimmer: 2,
+      preis: 2604,
+      bezugsart: "mieten",
+      wohnfläche: 444,
+      zimmer: 4,
+      badezimmer: 3,
       adresse: {
         straße: "Rudower Strasse 92",
         stadt: "Kinzenburg",
@@ -40780,7 +40780,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 16
+      vergangeneTageSeitVeröffentlichung: 207
     }
   },
   {
@@ -40790,11 +40790,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 756320,
-      bezugsart: "kaufen",
-      wohnfläche: 238,
-      zimmer: 2,
-      badezimmer: 2,
+      preis: 2641,
+      bezugsart: "mieten",
+      wohnfläche: 170,
+      zimmer: 3,
+      badezimmer: 1,
       adresse: {
         straße: "Am Borsigturm 61",
         stadt: "Neuss Furth-Mitte",
@@ -40817,7 +40817,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 54
+      vergangeneTageSeitVeröffentlichung: 106
     }
   },
   {
@@ -40827,16 +40827,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1188187,
-      bezugsart: "kaufen",
-      wohnfläche: 391,
-      zimmer: 6,
+      preis: 2131,
+      bezugsart: "mieten",
+      wohnfläche: 466,
+      zimmer: 4,
       badezimmer: 1,
       adresse: {
-        straße: "Jahnstrasse 84",
+        straße: "Jahnstraße 84",
         stadt: "Höslwang",
         postleitzahl: "83129",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.011197",
         longitude: "12.236504"
       },
@@ -40854,7 +40854,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 287
+      vergangeneTageSeitVeröffentlichung: 273
     }
   },
   {
@@ -40864,11 +40864,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 446879,
-      bezugsart: "kaufen",
-      wohnfläche: 586,
-      zimmer: 7,
-      badezimmer: 4,
+      preis: 2653,
+      bezugsart: "mieten",
+      wohnfläche: 109,
+      zimmer: 2,
+      badezimmer: 3,
       adresse: {
         straße: "Messedamm 48",
         stadt: "Halle",
@@ -40891,7 +40891,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 333
+      vergangeneTageSeitVeröffentlichung: 111
     }
   },
   {
@@ -40901,11 +40901,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 978261,
-      bezugsart: "kaufen",
-      wohnfläche: 279,
-      zimmer: 2,
-      badezimmer: 3,
+      preis: 3354,
+      bezugsart: "mieten",
+      wohnfläche: 402,
+      zimmer: 5,
+      badezimmer: 2,
       adresse: {
         straße: "Alt Reinickendorf 5",
         stadt: "Ehingen",
@@ -40928,7 +40928,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 348
+      vergangeneTageSeitVeröffentlichung: 322
     }
   },
   {
@@ -40938,16 +40938,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 508005,
-      bezugsart: "kaufen",
-      wohnfläche: 566,
-      zimmer: 7,
+      preis: 1044,
+      bezugsart: "mieten",
+      wohnfläche: 427,
+      zimmer: 5,
       badezimmer: 1,
       adresse: {
         straße: "Alt Reinickendorf 9",
         stadt: "Heretsried",
         postleitzahl: "86465",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.543471",
         longitude: "10.825991"
       },
@@ -40965,7 +40965,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 279
+      vergangeneTageSeitVeröffentlichung: 20
     }
   },
   {
@@ -40975,11 +40975,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1126543,
-      bezugsart: "kaufen",
-      wohnfläche: 83,
-      zimmer: 5,
-      badezimmer: 2,
+      preis: 2072,
+      bezugsart: "mieten",
+      wohnfläche: 360,
+      zimmer: 4,
+      badezimmer: 4,
       adresse: {
         straße: "Bleibtreustraße 74",
         stadt: "Mühlhausen",
@@ -41002,7 +41002,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 193
+      vergangeneTageSeitVeröffentlichung: 169
     }
   },
   {
@@ -41012,11 +41012,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 860949,
-      bezugsart: "kaufen",
-      wohnfläche: 171,
-      zimmer: 4,
-      badezimmer: 1,
+      preis: 2182,
+      bezugsart: "mieten",
+      wohnfläche: 242,
+      zimmer: 2,
+      badezimmer: 4,
       adresse: {
         straße: "Lietzenburger Strasse 57",
         stadt: "Bergisch Gladbach Herrenstrunden",
@@ -41039,7 +41039,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 38
+      vergangeneTageSeitVeröffentlichung: 37
     }
   },
   {
@@ -41049,16 +41049,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 301800,
-      bezugsart: "kaufen",
-      wohnfläche: 70,
-      zimmer: 2,
-      badezimmer: 2,
+      preis: 3458,
+      bezugsart: "mieten",
+      wohnfläche: 173,
+      zimmer: 4,
+      badezimmer: 3,
       adresse: {
-        straße: "Rosenstrasse 65",
+        straße: "Rosenstraße 65",
         stadt: "München",
         postleitzahl: "81634",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.097317",
         longitude: "11.66199"
       },
@@ -41076,7 +41076,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 251
+      vergangeneTageSeitVeröffentlichung: 245
     }
   },
   {
@@ -41086,11 +41086,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1453990,
-      bezugsart: "kaufen",
-      wohnfläche: 154,
-      zimmer: 4,
-      badezimmer: 2,
+      preis: 2220,
+      bezugsart: "mieten",
+      wohnfläche: 476,
+      zimmer: 5,
+      badezimmer: 3,
       adresse: {
         straße: "Waßmannsdorfer Chaussee 43",
         stadt: "Hamburg Billbrook",
@@ -41113,7 +41113,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 141
+      vergangeneTageSeitVeröffentlichung: 353
     }
   },
   {
@@ -41123,11 +41123,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 982807,
-      bezugsart: "kaufen",
-      wohnfläche: 531,
-      zimmer: 5,
-      badezimmer: 4,
+      preis: 1016,
+      bezugsart: "mieten",
+      wohnfläche: 442,
+      zimmer: 6,
+      badezimmer: 3,
       adresse: {
         straße: "Brandenburgische Str 7",
         stadt: "Weitersborn",
@@ -41150,7 +41150,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 350
+      vergangeneTageSeitVeröffentlichung: 344
     }
   },
   {
@@ -41160,16 +41160,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1066254,
-      bezugsart: "kaufen",
-      wohnfläche: 456,
-      zimmer: 7,
-      badezimmer: 1,
+      preis: 1739,
+      bezugsart: "mieten",
+      wohnfläche: 95,
+      zimmer: 4,
+      badezimmer: 3,
       adresse: {
-        straße: "Koenigstrasse 54",
+        straße: "Koenigstraße 54",
         stadt: "Bischofferode",
         postleitzahl: "37345",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "51.543164",
         longitude: "10.390968"
       },
@@ -41187,7 +41187,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 353
+      vergangeneTageSeitVeröffentlichung: 104
     }
   },
   {
@@ -41197,13 +41197,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 801453,
-      bezugsart: "kaufen",
-      wohnfläche: 139,
+      preis: 3558,
+      bezugsart: "mieten",
+      wohnfläche: 135,
       zimmer: 5,
-      badezimmer: 3,
+      badezimmer: 4,
       adresse: {
-        straße: "Guentzelstrasse 23",
+        straße: "Guentzelstraße 23",
         stadt: "Weidenbach",
         postleitzahl: "56355",
         bundesland: "Rheinland-Pfalz",
@@ -41224,7 +41224,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 168
+      vergangeneTageSeitVeröffentlichung: 15
     }
   },
   {
@@ -41234,13 +41234,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1042603,
-      bezugsart: "kaufen",
-      wohnfläche: 532,
+      preis: 2580,
+      bezugsart: "mieten",
+      wohnfläche: 306,
       zimmer: 7,
       badezimmer: 1,
       adresse: {
-        straße: "Gotzkowskystrasse 3",
+        straße: "Gotzkowskystraße 3",
         stadt: "Mammelzen",
         postleitzahl: "57636",
         bundesland: "Rheinland-Pfalz",
@@ -41261,7 +41261,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 7
+      vergangeneTageSeitVeröffentlichung: 330
     }
   },
   {
@@ -41271,11 +41271,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1374011,
-      bezugsart: "kaufen",
-      wohnfläche: 167,
-      zimmer: 7,
-      badezimmer: 2,
+      preis: 1239,
+      bezugsart: "mieten",
+      wohnfläche: 284,
+      zimmer: 6,
+      badezimmer: 4,
       adresse: {
         straße: "An Der Urania 20",
         stadt: "Albersdorf",
@@ -41298,7 +41298,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 335
+      vergangeneTageSeitVeröffentlichung: 306
     }
   },
   {
@@ -41308,16 +41308,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 574920,
-      bezugsart: "kaufen",
-      wohnfläche: 333,
-      zimmer: 2,
-      badezimmer: 3,
+      preis: 3337,
+      bezugsart: "mieten",
+      wohnfläche: 596,
+      zimmer: 3,
+      badezimmer: 1,
       adresse: {
-        straße: "Ellmenreichstrasse 11",
+        straße: "Ellmenreichstraße 11",
         stadt: "Ebermannstadt",
         postleitzahl: "91317",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.746701",
         longitude: "11.194361"
       },
@@ -41335,7 +41335,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 352
+      vergangeneTageSeitVeröffentlichung: 285
     }
   },
   {
@@ -41345,10 +41345,10 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1293341,
-      bezugsart: "kaufen",
-      wohnfläche: 140,
-      zimmer: 2,
+      preis: 3453,
+      bezugsart: "mieten",
+      wohnfläche: 304,
+      zimmer: 6,
       badezimmer: 3,
       adresse: {
         straße: "Landhausstraße 87",
@@ -41372,7 +41372,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 329
+      vergangeneTageSeitVeröffentlichung: 275
     }
   },
   {
@@ -41382,16 +41382,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 688907,
-      bezugsart: "kaufen",
-      wohnfläche: 590,
-      zimmer: 2,
-      badezimmer: 4,
+      preis: 1405,
+      bezugsart: "mieten",
+      wohnfläche: 199,
+      zimmer: 5,
+      badezimmer: 3,
       adresse: {
-        straße: "Büsingstrasse 26",
+        straße: "Büsingstraße 26",
         stadt: "Vaterstetten",
         postleitzahl: "85588",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.096436",
         longitude: "11.713173"
       },
@@ -41409,7 +41409,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 64
+      vergangeneTageSeitVeröffentlichung: 290
     }
   },
   {
@@ -41419,11 +41419,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1352698,
-      bezugsart: "kaufen",
-      wohnfläche: 461,
-      zimmer: 4,
-      badezimmer: 3,
+      preis: 3634,
+      bezugsart: "mieten",
+      wohnfläche: 327,
+      zimmer: 5,
+      badezimmer: 1,
       adresse: {
         straße: "Holstenwall 35",
         stadt: "Braunsbedra",
@@ -41446,7 +41446,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 343
+      vergangeneTageSeitVeröffentlichung: 192
     }
   },
   {
@@ -41456,13 +41456,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1015635,
-      bezugsart: "kaufen",
-      wohnfläche: 595,
+      preis: 3785,
+      bezugsart: "mieten",
+      wohnfläche: 192,
       zimmer: 6,
-      badezimmer: 1,
+      badezimmer: 3,
       adresse: {
-        straße: "Feldstrasse 47",
+        straße: "Feldstraße 47",
         stadt: "Eggesin",
         postleitzahl: "17364",
         bundesland: "Mecklenburg-Vorpommern",
@@ -41483,7 +41483,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 75
+      vergangeneTageSeitVeröffentlichung: 183
     }
   },
   {
@@ -41493,10 +41493,10 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1239985,
-      bezugsart: "kaufen",
-      wohnfläche: 266,
-      zimmer: 6,
+      preis: 1061,
+      bezugsart: "mieten",
+      wohnfläche: 255,
+      zimmer: 7,
       badezimmer: 2,
       adresse: {
         straße: "Messedamm 91",
@@ -41520,7 +41520,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 10
+      vergangeneTageSeitVeröffentlichung: 75
     }
   },
   {
@@ -41530,10 +41530,10 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 816975,
-      bezugsart: "kaufen",
-      wohnfläche: 219,
-      zimmer: 6,
+      preis: 2846,
+      bezugsart: "mieten",
+      wohnfläche: 373,
+      zimmer: 7,
       badezimmer: 2,
       adresse: {
         straße: "Fischerinsel 75",
@@ -41557,7 +41557,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 49
+      vergangeneTageSeitVeröffentlichung: 32
     }
   },
   {
@@ -41567,11 +41567,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 533907,
-      bezugsart: "kaufen",
-      wohnfläche: 591,
-      zimmer: 4,
-      badezimmer: 3,
+      preis: 3494,
+      bezugsart: "mieten",
+      wohnfläche: 99,
+      zimmer: 5,
+      badezimmer: 4,
       adresse: {
         straße: "An Der Urania 80",
         stadt: "Christianslust",
@@ -41594,7 +41594,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 21
+      vergangeneTageSeitVeröffentlichung: 229
     }
   },
   {
@@ -41604,9 +41604,9 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1173569,
-      bezugsart: "kaufen",
-      wohnfläche: 474,
+      preis: 1379,
+      bezugsart: "mieten",
+      wohnfläche: 565,
       zimmer: 3,
       badezimmer: 2,
       adresse: {
@@ -41631,7 +41631,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 69
+      vergangeneTageSeitVeröffentlichung: 319
     }
   },
   {
@@ -41641,11 +41641,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 506608,
-      bezugsart: "kaufen",
-      wohnfläche: 383,
-      zimmer: 5,
-      badezimmer: 1,
+      preis: 2815,
+      bezugsart: "mieten",
+      wohnfläche: 105,
+      zimmer: 7,
+      badezimmer: 4,
       adresse: {
         straße: "Meininger Strasse 14",
         stadt: "Neunkirchen Kohlhof",
@@ -41668,7 +41668,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 310
+      vergangeneTageSeitVeröffentlichung: 108
     }
   },
   {
@@ -41678,11 +41678,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1469113,
-      bezugsart: "kaufen",
-      wohnfläche: 480,
-      zimmer: 2,
-      badezimmer: 4,
+      preis: 1962,
+      bezugsart: "mieten",
+      wohnfläche: 561,
+      zimmer: 3,
+      badezimmer: 3,
       adresse: {
         straße: "Inge Beisheim Platz 92",
         stadt: "Vastorf",
@@ -41705,7 +41705,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 344
+      vergangeneTageSeitVeröffentlichung: 75
     }
   },
   {
@@ -41715,11 +41715,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1039463,
-      bezugsart: "kaufen",
-      wohnfläche: 522,
-      zimmer: 4,
-      badezimmer: 3,
+      preis: 3070,
+      bezugsart: "mieten",
+      wohnfläche: 388,
+      zimmer: 3,
+      badezimmer: 1,
       adresse: {
         straße: "Hedemannstasse 47",
         stadt: "Isny",
@@ -41742,7 +41742,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 233
+      vergangeneTageSeitVeröffentlichung: 163
     }
   },
   {
@@ -41752,16 +41752,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1192078,
-      bezugsart: "kaufen",
-      wohnfläche: 560,
+      preis: 2239,
+      bezugsart: "mieten",
+      wohnfläche: 111,
       zimmer: 6,
-      badezimmer: 4,
+      badezimmer: 3,
       adresse: {
         straße: "Schaarsteinweg 4",
         stadt: "Biburg",
         postleitzahl: "93354",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.881991",
         longitude: "11.795125"
       },
@@ -41779,7 +41779,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 184
+      vergangeneTageSeitVeröffentlichung: 219
     }
   },
   {
@@ -41789,16 +41789,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 418561,
-      bezugsart: "kaufen",
-      wohnfläche: 516,
-      zimmer: 3,
-      badezimmer: 1,
+      preis: 2975,
+      bezugsart: "mieten",
+      wohnfläche: 496,
+      zimmer: 7,
+      badezimmer: 4,
       adresse: {
         straße: "Prenzlauer Allee 48",
         stadt: "Leipzig",
         postleitzahl: "04231",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "51.437635",
         longitude: "12.451825"
       },
@@ -41826,16 +41826,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 562843,
-      bezugsart: "kaufen",
-      wohnfläche: 506,
-      zimmer: 4,
+      preis: 1359,
+      bezugsart: "mieten",
+      wohnfläche: 599,
+      zimmer: 3,
       badezimmer: 2,
       adresse: {
         straße: "Prenzlauer Allee 67",
         stadt: "Markkleeberg",
         postleitzahl: "04410",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "51.345251",
         longitude: "12.299764"
       },
@@ -41853,7 +41853,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 187
+      vergangeneTageSeitVeröffentlichung: 200
     }
   },
   {
@@ -41863,16 +41863,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1434393,
-      bezugsart: "kaufen",
-      wohnfläche: 278,
-      zimmer: 2,
-      badezimmer: 2,
+      preis: 1559,
+      bezugsart: "mieten",
+      wohnfläche: 547,
+      zimmer: 3,
+      badezimmer: 1,
       adresse: {
         straße: "Messedamm 13",
         stadt: "Dresden",
         postleitzahl: "01111",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "51.132559",
         longitude: "13.782723"
       },
@@ -41890,7 +41890,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 342
+      vergangeneTageSeitVeröffentlichung: 127
     }
   },
   {
@@ -41900,9 +41900,9 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1240215,
-      bezugsart: "kaufen",
-      wohnfläche: 545,
+      preis: 2776,
+      bezugsart: "mieten",
+      wohnfläche: 119,
       zimmer: 5,
       badezimmer: 4,
       adresse: {
@@ -41927,7 +41927,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 262
+      vergangeneTageSeitVeröffentlichung: 337
     }
   },
   {
@@ -41937,16 +41937,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 446779,
-      bezugsart: "kaufen",
-      wohnfläche: 465,
-      zimmer: 6,
-      badezimmer: 2,
+      preis: 3090,
+      bezugsart: "mieten",
+      wohnfläche: 506,
+      zimmer: 3,
+      badezimmer: 3,
       adresse: {
-        straße: "Gotthardstrasse 35",
+        straße: "Gotthardstraße 35",
         stadt: "Kirchheim",
         postleitzahl: "85544",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.709715",
         longitude: "9.845303"
       },
@@ -41964,7 +41964,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 63
+      vergangeneTageSeitVeröffentlichung: 233
     }
   },
   {
@@ -41974,11 +41974,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 888230,
-      bezugsart: "kaufen",
-      wohnfläche: 243,
+      preis: 2192,
+      bezugsart: "mieten",
+      wohnfläche: 351,
       zimmer: 3,
-      badezimmer: 3,
+      badezimmer: 4,
       adresse: {
         straße: "Koepenicker Str. 73",
         stadt: "Mettweiler",
@@ -42001,7 +42001,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 72
+      vergangeneTageSeitVeröffentlichung: 282
     }
   },
   {
@@ -42011,13 +42011,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 531046,
-      bezugsart: "kaufen",
-      wohnfläche: 293,
-      zimmer: 5,
-      badezimmer: 2,
+      preis: 2005,
+      bezugsart: "mieten",
+      wohnfläche: 277,
+      zimmer: 3,
+      badezimmer: 4,
       adresse: {
-        straße: "Michaelkirchstr. 76",
+        straße: "Michaelkirchstraße 76",
         stadt: "Bad Oeynhausen Innenstadt",
         postleitzahl: "32549",
         bundesland: "Nordrhein-Westfalen",
@@ -42038,7 +42038,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 262
+      vergangeneTageSeitVeröffentlichung: 359
     }
   },
   {
@@ -42048,13 +42048,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 353772,
-      bezugsart: "kaufen",
-      wohnfläche: 351,
-      zimmer: 6,
+      preis: 3404,
+      bezugsart: "mieten",
+      wohnfläche: 469,
+      zimmer: 2,
       badezimmer: 3,
       adresse: {
-        straße: "Spresstrasse 22",
+        straße: "Spresstraße 22",
         stadt: "Bielefeld Deppendorf",
         postleitzahl: "33739",
         bundesland: "Nordrhein-Westfalen",
@@ -42075,7 +42075,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 126
+      vergangeneTageSeitVeröffentlichung: 40
     }
   },
   {
@@ -42085,13 +42085,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1289011,
-      bezugsart: "kaufen",
-      wohnfläche: 150,
-      zimmer: 3,
-      badezimmer: 2,
+      preis: 1991,
+      bezugsart: "mieten",
+      wohnfläche: 390,
+      zimmer: 7,
+      badezimmer: 4,
       adresse: {
-        straße: "Bleibtreustrasse 14",
+        straße: "Bleibtreustraße 14",
         stadt: "Extertal",
         postleitzahl: "32699",
         bundesland: "Nordrhein-Westfalen",
@@ -42112,7 +42112,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 316
+      vergangeneTageSeitVeröffentlichung: 237
     }
   },
   {
@@ -42122,16 +42122,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 544649,
-      bezugsart: "kaufen",
-      wohnfläche: 357,
-      zimmer: 7,
-      badezimmer: 3,
+      preis: 1443,
+      bezugsart: "mieten",
+      wohnfläche: 349,
+      zimmer: 5,
+      badezimmer: 4,
       adresse: {
         straße: "Paderborner Strasse 69",
         stadt: "Aichen",
         postleitzahl: "86479",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.147193",
         longitude: "10.520342"
       },
@@ -42149,7 +42149,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 97
+      vergangeneTageSeitVeröffentlichung: 51
     }
   },
   {
@@ -42159,11 +42159,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 286379,
-      bezugsart: "kaufen",
-      wohnfläche: 518,
-      zimmer: 6,
-      badezimmer: 2,
+      preis: 2102,
+      bezugsart: "mieten",
+      wohnfläche: 253,
+      zimmer: 2,
+      badezimmer: 4,
       adresse: {
         straße: "Jenaer Strasse 72",
         stadt: "Essen",
@@ -42186,7 +42186,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 197
+      vergangeneTageSeitVeröffentlichung: 154
     }
   },
   {
@@ -42196,11 +42196,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1233971,
-      bezugsart: "kaufen",
-      wohnfläche: 190,
-      zimmer: 2,
-      badezimmer: 3,
+      preis: 1275,
+      bezugsart: "mieten",
+      wohnfläche: 562,
+      zimmer: 4,
+      badezimmer: 4,
       adresse: {
         straße: "Holstenwall 69",
         stadt: "Bad Lauchstädt",
@@ -42223,7 +42223,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 118
+      vergangeneTageSeitVeröffentlichung: 44
     }
   },
   {
@@ -42233,11 +42233,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1287901,
-      bezugsart: "kaufen",
-      wohnfläche: 426,
-      zimmer: 3,
-      badezimmer: 3,
+      preis: 2746,
+      bezugsart: "mieten",
+      wohnfläche: 167,
+      zimmer: 2,
+      badezimmer: 4,
       adresse: {
         straße: "Bayreuther Strasse 88",
         stadt: "Reutlingen Degerschlacht",
@@ -42260,7 +42260,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 116
+      vergangeneTageSeitVeröffentlichung: 303
     }
   },
   {
@@ -42270,11 +42270,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 841751,
-      bezugsart: "kaufen",
-      wohnfläche: 483,
-      zimmer: 5,
-      badezimmer: 1,
+      preis: 1781,
+      bezugsart: "mieten",
+      wohnfläche: 159,
+      zimmer: 6,
+      badezimmer: 2,
       adresse: {
         straße: "An der Alster 83",
         stadt: "Neukloster",
@@ -42297,7 +42297,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 125
+      vergangeneTageSeitVeröffentlichung: 61
     }
   },
   {
@@ -42307,13 +42307,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 938708,
-      bezugsart: "kaufen",
-      wohnfläche: 145,
-      zimmer: 6,
-      badezimmer: 2,
+      preis: 2146,
+      bezugsart: "mieten",
+      wohnfläche: 177,
+      zimmer: 7,
+      badezimmer: 4,
       adresse: {
-        straße: "Bleibtreustrasse 63",
+        straße: "Bleibtreustraße 63",
         stadt: "Paderborn Marienloh",
         postleitzahl: "33104",
         bundesland: "Nordrhein-Westfalen",
@@ -42334,7 +42334,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 336
+      vergangeneTageSeitVeröffentlichung: 163
     }
   },
   {
@@ -42344,16 +42344,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 419617,
-      bezugsart: "kaufen",
-      wohnfläche: 373,
-      zimmer: 2,
+      preis: 2158,
+      bezugsart: "mieten",
+      wohnfläche: 527,
+      zimmer: 4,
       badezimmer: 1,
       adresse: {
         straße: "Borstelmannsweg 93",
         stadt: "Weiherhammer",
         postleitzahl: "92729",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.628018",
         longitude: "11.998361"
       },
@@ -42371,7 +42371,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 231
+      vergangeneTageSeitVeröffentlichung: 346
     }
   },
   {
@@ -42381,11 +42381,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 267793,
-      bezugsart: "kaufen",
-      wohnfläche: 349,
+      preis: 3117,
+      bezugsart: "mieten",
+      wohnfläche: 245,
       zimmer: 4,
-      badezimmer: 2,
+      badezimmer: 3,
       adresse: {
         straße: "Stuttgarter Platz 7",
         stadt: "Saerbeck",
@@ -42408,7 +42408,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 6
+      vergangeneTageSeitVeröffentlichung: 350
     }
   },
   {
@@ -42418,11 +42418,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 324499,
-      bezugsart: "kaufen",
-      wohnfläche: 393,
-      zimmer: 3,
-      badezimmer: 3,
+      preis: 1266,
+      bezugsart: "mieten",
+      wohnfläche: 587,
+      zimmer: 7,
+      badezimmer: 4,
       adresse: {
         straße: "Gruenauer Strasse 32",
         stadt: "Horneburg",
@@ -42445,7 +42445,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 92
+      vergangeneTageSeitVeröffentlichung: 299
     }
   },
   {
@@ -42455,16 +42455,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1133559,
-      bezugsart: "kaufen",
-      wohnfläche: 145,
-      zimmer: 3,
-      badezimmer: 1,
+      preis: 1207,
+      bezugsart: "mieten",
+      wohnfläche: 286,
+      zimmer: 6,
+      badezimmer: 3,
       adresse: {
-        straße: "Mühlenstrasse 64",
+        straße: "Mühlenstraße 64",
         stadt: "Regensburg",
         postleitzahl: "93051",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.02659",
         longitude: "12.019566"
       },
@@ -42482,7 +42482,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 98
+      vergangeneTageSeitVeröffentlichung: 13
     }
   },
   {
@@ -42492,16 +42492,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1065795,
-      bezugsart: "kaufen",
-      wohnfläche: 295,
-      zimmer: 5,
+      preis: 3522,
+      bezugsart: "mieten",
+      wohnfläche: 364,
+      zimmer: 4,
       badezimmer: 3,
       adresse: {
         straße: "Lange Strasse 98",
         stadt: "Pilsting",
         postleitzahl: "94429",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.722359",
         longitude: "12.750773"
       },
@@ -42519,7 +42519,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 299
+      vergangeneTageSeitVeröffentlichung: 278
     }
   },
   {
@@ -42529,16 +42529,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1325591,
-      bezugsart: "kaufen",
-      wohnfläche: 88,
-      zimmer: 2,
+      preis: 3369,
+      bezugsart: "mieten",
+      wohnfläche: 128,
+      zimmer: 5,
       badezimmer: 2,
       adresse: {
-        straße: "Mühlenstrasse 51",
+        straße: "Mühlenstraße 51",
         stadt: "Regensburg",
         postleitzahl: "93027",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.996342",
         longitude: "12.12268"
       },
@@ -42556,7 +42556,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 93
+      vergangeneTageSeitVeröffentlichung: 198
     }
   },
   {
@@ -42566,9 +42566,9 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 790407,
-      bezugsart: "kaufen",
-      wohnfläche: 233,
+      preis: 1297,
+      bezugsart: "mieten",
+      wohnfläche: 251,
       zimmer: 4,
       badezimmer: 2,
       adresse: {
@@ -42593,7 +42593,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 321
+      vergangeneTageSeitVeröffentlichung: 358
     }
   },
   {
@@ -42603,13 +42603,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1490428,
-      bezugsart: "kaufen",
-      wohnfläche: 350,
-      zimmer: 5,
-      badezimmer: 4,
+      preis: 2159,
+      bezugsart: "mieten",
+      wohnfläche: 153,
+      zimmer: 7,
+      badezimmer: 1,
       adresse: {
-        straße: "Spresstrasse 24",
+        straße: "Spresstraße 24",
         stadt: "Bremerhaven Lehe",
         postleitzahl: "27568",
         bundesland: "Freie Hansestadt Bremen",
@@ -42630,7 +42630,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 205
+      vergangeneTageSeitVeröffentlichung: 49
     }
   },
   {
@@ -42640,13 +42640,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 450668,
-      bezugsart: "kaufen",
-      wohnfläche: 479,
-      zimmer: 5,
-      badezimmer: 2,
+      preis: 2673,
+      bezugsart: "mieten",
+      wohnfläche: 126,
+      zimmer: 6,
+      badezimmer: 4,
       adresse: {
-        straße: "Hermannstrasse 66",
+        straße: "Hermannstraße 66",
         stadt: "Guntersblum",
         postleitzahl: "67583",
         bundesland: "Rheinland-Pfalz",
@@ -42667,7 +42667,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 346
+      vergangeneTageSeitVeröffentlichung: 201
     }
   },
   {
@@ -42677,11 +42677,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 361572,
-      bezugsart: "kaufen",
-      wohnfläche: 568,
-      zimmer: 2,
-      badezimmer: 4,
+      preis: 3294,
+      bezugsart: "mieten",
+      wohnfläche: 567,
+      zimmer: 3,
+      badezimmer: 1,
       adresse: {
         straße: "Fischerinsel 1",
         stadt: "Kempen",
@@ -42704,7 +42704,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 105
+      vergangeneTageSeitVeröffentlichung: 217
     }
   },
   {
@@ -42714,11 +42714,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 258624,
-      bezugsart: "kaufen",
-      wohnfläche: 590,
-      zimmer: 4,
-      badezimmer: 1,
+      preis: 3329,
+      bezugsart: "mieten",
+      wohnfläche: 335,
+      zimmer: 2,
+      badezimmer: 3,
       adresse: {
         straße: "Brandenburgische Straße 23",
         stadt: "Berlin Neukölln",
@@ -42741,7 +42741,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 279
+      vergangeneTageSeitVeröffentlichung: 272
     }
   },
   {
@@ -42751,13 +42751,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 649347,
-      bezugsart: "kaufen",
-      wohnfläche: 242,
-      zimmer: 3,
-      badezimmer: 3,
+      preis: 1232,
+      bezugsart: "mieten",
+      wohnfläche: 281,
+      zimmer: 7,
+      badezimmer: 4,
       adresse: {
-        straße: "Neue Roßstr. 83",
+        straße: "Neue Roßstraße 83",
         stadt: "Fulda",
         postleitzahl: "36043",
         bundesland: "Hessen",
@@ -42778,7 +42778,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 245
+      vergangeneTageSeitVeröffentlichung: 118
     }
   },
   {
@@ -42788,16 +42788,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 687792,
-      bezugsart: "kaufen",
-      wohnfläche: 458,
-      zimmer: 7,
+      preis: 2631,
+      bezugsart: "mieten",
+      wohnfläche: 261,
+      zimmer: 3,
       badezimmer: 1,
       adresse: {
         straße: "Kieler Strasse 69",
         stadt: "Reit im Winkl",
         postleitzahl: "83237",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.659082",
         longitude: "12.476522"
       },
@@ -42815,7 +42815,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 6
+      vergangeneTageSeitVeröffentlichung: 294
     }
   },
   {
@@ -42825,16 +42825,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 638557,
-      bezugsart: "kaufen",
-      wohnfläche: 220,
-      zimmer: 6,
-      badezimmer: 1,
+      preis: 1628,
+      bezugsart: "mieten",
+      wohnfläche: 92,
+      zimmer: 5,
+      badezimmer: 2,
       adresse: {
         straße: "Alt Reinickendorf 50",
         stadt: "Meitingen",
         postleitzahl: "86401",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.466199",
         longitude: "10.938952"
       },
@@ -42852,7 +42852,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 343
+      vergangeneTageSeitVeröffentlichung: 165
     }
   },
   {
@@ -42862,11 +42862,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 252637,
-      bezugsart: "kaufen",
-      wohnfläche: 279,
-      zimmer: 7,
-      badezimmer: 1,
+      preis: 3120,
+      bezugsart: "mieten",
+      wohnfläche: 228,
+      zimmer: 5,
+      badezimmer: 3,
       adresse: {
         straße: "Genslerstraße 47",
         stadt: "Berlin Tegel",
@@ -42889,7 +42889,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 9
+      vergangeneTageSeitVeröffentlichung: 65
     }
   },
   {
@@ -42899,10 +42899,10 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1037230,
-      bezugsart: "kaufen",
-      wohnfläche: 292,
-      zimmer: 3,
+      preis: 1931,
+      bezugsart: "mieten",
+      wohnfläche: 302,
+      zimmer: 7,
       badezimmer: 4,
       adresse: {
         straße: "Ansbacher Strasse 71",
@@ -42926,7 +42926,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 80
+      vergangeneTageSeitVeröffentlichung: 46
     }
   },
   {
@@ -42936,13 +42936,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1342271,
-      bezugsart: "kaufen",
-      wohnfläche: 515,
+      preis: 2342,
+      bezugsart: "mieten",
+      wohnfläche: 249,
       zimmer: 7,
-      badezimmer: 1,
+      badezimmer: 4,
       adresse: {
-        straße: "Motzstr. 4",
+        straße: "Motzstraße 4",
         stadt: "Flomborn",
         postleitzahl: "55234",
         bundesland: "Rheinland-Pfalz",
@@ -42963,7 +42963,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 307
+      vergangeneTageSeitVeröffentlichung: 163
     }
   },
   {
@@ -42973,11 +42973,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 849528,
-      bezugsart: "kaufen",
-      wohnfläche: 566,
-      zimmer: 3,
-      badezimmer: 2,
+      preis: 3017,
+      bezugsart: "mieten",
+      wohnfläche: 144,
+      zimmer: 4,
+      badezimmer: 1,
       adresse: {
         straße: "Lietzenburger Strasse 40",
         stadt: "Eitorf",
@@ -43000,7 +43000,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 71
+      vergangeneTageSeitVeröffentlichung: 304
     }
   },
   {
@@ -43010,16 +43010,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 900332,
-      bezugsart: "kaufen",
-      wohnfläche: 366,
-      zimmer: 4,
-      badezimmer: 1,
+      preis: 3040,
+      bezugsart: "mieten",
+      wohnfläche: 551,
+      zimmer: 3,
+      badezimmer: 3,
       adresse: {
         straße: "Alt Reinickendorf 50",
         stadt: "Thierhaupten",
         postleitzahl: "86672",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.539674",
         longitude: "10.840561"
       },
@@ -43037,7 +43037,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 154
+      vergangeneTageSeitVeröffentlichung: 128
     }
   },
   {
@@ -43047,11 +43047,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 774737,
-      bezugsart: "kaufen",
-      wohnfläche: 267,
-      zimmer: 4,
-      badezimmer: 1,
+      preis: 1679,
+      bezugsart: "mieten",
+      wohnfläche: 510,
+      zimmer: 6,
+      badezimmer: 4,
       adresse: {
         straße: "Grosse Praesidenten Str. 97",
         stadt: "Alsbach-Hähnlein",
@@ -43074,7 +43074,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 332
+      vergangeneTageSeitVeröffentlichung: 142
     }
   },
   {
@@ -43084,16 +43084,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 315955,
-      bezugsart: "kaufen",
-      wohnfläche: 225,
-      zimmer: 7,
-      badezimmer: 2,
+      preis: 3322,
+      bezugsart: "mieten",
+      wohnfläche: 529,
+      zimmer: 2,
+      badezimmer: 4,
       adresse: {
-        straße: "Rosenstrasse 54",
+        straße: "Rosenstraße 54",
         stadt: "München",
         postleitzahl: "81511",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.108567",
         longitude: "11.547303"
       },
@@ -43111,7 +43111,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 40
+      vergangeneTageSeitVeröffentlichung: 170
     }
   },
   {
@@ -43121,11 +43121,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 526290,
-      bezugsart: "kaufen",
-      wohnfläche: 221,
-      zimmer: 6,
-      badezimmer: 2,
+      preis: 3163,
+      bezugsart: "mieten",
+      wohnfläche: 533,
+      zimmer: 4,
+      badezimmer: 4,
       adresse: {
         straße: "Waßmannsdorfer Chaussee 64",
         stadt: "Eichwalde",
@@ -43148,7 +43148,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 289
+      vergangeneTageSeitVeröffentlichung: 77
     }
   },
   {
@@ -43158,16 +43158,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 459921,
-      bezugsart: "kaufen",
-      wohnfläche: 558,
-      zimmer: 6,
-      badezimmer: 3,
+      preis: 3107,
+      bezugsart: "mieten",
+      wohnfläche: 462,
+      zimmer: 2,
+      badezimmer: 4,
       adresse: {
         straße: "Rudolstaedter Strasse 65",
         stadt: "Schöllkrippen",
         postleitzahl: "63821",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.008914",
         longitude: "9.312312"
       },
@@ -43185,7 +43185,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 26
+      vergangeneTageSeitVeröffentlichung: 189
     }
   },
   {
@@ -43195,13 +43195,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1058728,
-      bezugsart: "kaufen",
-      wohnfläche: 403,
-      zimmer: 7,
-      badezimmer: 4,
+      preis: 2726,
+      bezugsart: "mieten",
+      wohnfläche: 200,
+      zimmer: 4,
+      badezimmer: 2,
       adresse: {
-        straße: "Knesebeckstrasse 96",
+        straße: "Knesebeckstraße 96",
         stadt: "Marzhausen",
         postleitzahl: "57627",
         bundesland: "Rheinland-Pfalz",
@@ -43222,7 +43222,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 242
+      vergangeneTageSeitVeröffentlichung: 36
     }
   },
   {
@@ -43232,13 +43232,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 595135,
-      bezugsart: "kaufen",
-      wohnfläche: 321,
+      preis: 2329,
+      bezugsart: "mieten",
+      wohnfläche: 126,
       zimmer: 7,
       badezimmer: 4,
       adresse: {
-        straße: "Buelowstrasse 68",
+        straße: "Buelowstraße 68",
         stadt: "Kaden",
         postleitzahl: "56459",
         bundesland: "Rheinland-Pfalz",
@@ -43259,7 +43259,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 160
+      vergangeneTageSeitVeröffentlichung: 293
     }
   },
   {
@@ -43269,11 +43269,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1175177,
-      bezugsart: "kaufen",
-      wohnfläche: 286,
-      zimmer: 2,
-      badezimmer: 4,
+      preis: 3271,
+      bezugsart: "mieten",
+      wohnfläche: 251,
+      zimmer: 5,
+      badezimmer: 3,
       adresse: {
         straße: "Rudolstaedter Strasse 32",
         stadt: "Breddenberg",
@@ -43296,7 +43296,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 178
+      vergangeneTageSeitVeröffentlichung: 25
     }
   },
   {
@@ -43306,11 +43306,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 795614,
-      bezugsart: "kaufen",
-      wohnfläche: 486,
-      zimmer: 2,
-      badezimmer: 1,
+      preis: 3095,
+      bezugsart: "mieten",
+      wohnfläche: 234,
+      zimmer: 5,
+      badezimmer: 3,
       adresse: {
         straße: "Kurfuerstendamm 50",
         stadt: "Ulm Oststadt",
@@ -43333,7 +43333,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 153
+      vergangeneTageSeitVeröffentlichung: 215
     }
   },
   {
@@ -43343,16 +43343,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1428274,
-      bezugsart: "kaufen",
-      wohnfläche: 358,
+      preis: 3089,
+      bezugsart: "mieten",
+      wohnfläche: 336,
       zimmer: 2,
-      badezimmer: 1,
+      badezimmer: 3,
       adresse: {
-        straße: "Schillerstrasse 16",
+        straße: "Schillerstraße 16",
         stadt: "Großaitingen",
         postleitzahl: "86843",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.197644",
         longitude: "10.727956"
       },
@@ -43370,7 +43370,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 178
+      vergangeneTageSeitVeröffentlichung: 49
     }
   },
   {
@@ -43380,11 +43380,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 500030,
-      bezugsart: "kaufen",
-      wohnfläche: 127,
-      zimmer: 5,
-      badezimmer: 1,
+      preis: 3609,
+      bezugsart: "mieten",
+      wohnfläche: 574,
+      zimmer: 2,
+      badezimmer: 3,
       adresse: {
         straße: "Jenaer Strasse 39",
         stadt: "Duisburg",
@@ -43407,7 +43407,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 277
+      vergangeneTageSeitVeröffentlichung: 289
     }
   },
   {
@@ -43417,11 +43417,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 743849,
-      bezugsart: "kaufen",
-      wohnfläche: 380,
-      zimmer: 4,
-      badezimmer: 4,
+      preis: 3493,
+      bezugsart: "mieten",
+      wohnfläche: 287,
+      zimmer: 2,
+      badezimmer: 2,
       adresse: {
         straße: "Grolmanstraße 2",
         stadt: "Bremen Gröpelingen",
@@ -43444,7 +43444,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 258
+      vergangeneTageSeitVeröffentlichung: 270
     }
   },
   {
@@ -43454,16 +43454,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 608981,
-      bezugsart: "kaufen",
-      wohnfläche: 88,
-      zimmer: 6,
-      badezimmer: 1,
+      preis: 1571,
+      bezugsart: "mieten",
+      wohnfläche: 167,
+      zimmer: 4,
+      badezimmer: 3,
       adresse: {
         straße: "Eschenweg 78",
         stadt: "Greiz",
         postleitzahl: "07962",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "50.588338",
         longitude: "12.276058"
       },
@@ -43481,7 +43481,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 292
+      vergangeneTageSeitVeröffentlichung: 174
     }
   },
   {
@@ -43491,11 +43491,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 404774,
-      bezugsart: "kaufen",
-      wohnfläche: 268,
-      zimmer: 6,
-      badezimmer: 1,
+      preis: 1804,
+      bezugsart: "mieten",
+      wohnfläche: 496,
+      zimmer: 3,
+      badezimmer: 3,
       adresse: {
         straße: "Hans-Grade-Allee 48",
         stadt: "Schleswig",
@@ -43518,7 +43518,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 98
+      vergangeneTageSeitVeröffentlichung: 64
     }
   },
   {
@@ -43528,13 +43528,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 503757,
-      bezugsart: "kaufen",
-      wohnfläche: 295,
+      preis: 1603,
+      bezugsart: "mieten",
+      wohnfläche: 298,
       zimmer: 4,
-      badezimmer: 1,
+      badezimmer: 4,
       adresse: {
-        straße: "Amsinckstrasse 71",
+        straße: "Amsinckstraße 71",
         stadt: "Aupitz",
         postleitzahl: "06679",
         bundesland: "Sachsen-Anhalt",
@@ -43555,7 +43555,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 228
+      vergangeneTageSeitVeröffentlichung: 365
     }
   },
   {
@@ -43565,13 +43565,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1065913,
-      bezugsart: "kaufen",
-      wohnfläche: 217,
-      zimmer: 4,
+      preis: 2426,
+      bezugsart: "mieten",
+      wohnfläche: 403,
+      zimmer: 3,
       badezimmer: 1,
       adresse: {
-        straße: "Invalidenstrasse 44",
+        straße: "Invalidenstraße 44",
         stadt: "Neidenfels",
         postleitzahl: "67468",
         bundesland: "Rheinland-Pfalz",
@@ -43592,7 +43592,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 104
+      vergangeneTageSeitVeröffentlichung: 289
     }
   },
   {
@@ -43602,11 +43602,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1163132,
-      bezugsart: "kaufen",
-      wohnfläche: 515,
-      zimmer: 3,
-      badezimmer: 2,
+      preis: 2682,
+      bezugsart: "mieten",
+      wohnfläche: 530,
+      zimmer: 5,
+      badezimmer: 3,
       adresse: {
         straße: "Luckenwalder Strasse 38",
         stadt: "Auetal",
@@ -43629,7 +43629,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 45
+      vergangeneTageSeitVeröffentlichung: 363
     }
   },
   {
@@ -43639,13 +43639,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1489946,
-      bezugsart: "kaufen",
-      wohnfläche: 296,
-      zimmer: 5,
-      badezimmer: 3,
+      preis: 3679,
+      bezugsart: "mieten",
+      wohnfläche: 384,
+      zimmer: 2,
+      badezimmer: 4,
       adresse: {
-        straße: "Knesebeckstrasse 3",
+        straße: "Knesebeckstraße 3",
         stadt: "Mudenbach",
         postleitzahl: "57614",
         bundesland: "Rheinland-Pfalz",
@@ -43666,7 +43666,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 137
+      vergangeneTageSeitVeröffentlichung: 55
     }
   },
   {
@@ -43676,11 +43676,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 856614,
-      bezugsart: "kaufen",
-      wohnfläche: 470,
-      zimmer: 4,
-      badezimmer: 3,
+      preis: 3562,
+      bezugsart: "mieten",
+      wohnfläche: 400,
+      zimmer: 2,
+      badezimmer: 1,
       adresse: {
         straße: "Landhausstraße 50",
         stadt: "Zehdenick",
@@ -43703,7 +43703,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 83
+      vergangeneTageSeitVeröffentlichung: 254
     }
   },
   {
@@ -43713,11 +43713,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 721686,
-      bezugsart: "kaufen",
-      wohnfläche: 389,
+      preis: 1022,
+      bezugsart: "mieten",
+      wohnfläche: 303,
       zimmer: 4,
-      badezimmer: 2,
+      badezimmer: 3,
       adresse: {
         straße: "Hans-Grade-Allee 30",
         stadt: "Todendorf",
@@ -43740,7 +43740,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 360
+      vergangeneTageSeitVeröffentlichung: 21
     }
   },
   {
@@ -43750,11 +43750,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 432084,
-      bezugsart: "kaufen",
-      wohnfläche: 564,
-      zimmer: 7,
-      badezimmer: 1,
+      preis: 3504,
+      bezugsart: "mieten",
+      wohnfläche: 259,
+      zimmer: 4,
+      badezimmer: 3,
       adresse: {
         straße: "Rudower Strasse 7",
         stadt: "Neuheilenbach",
@@ -43777,7 +43777,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 133
+      vergangeneTageSeitVeröffentlichung: 121
     }
   },
   {
@@ -43787,13 +43787,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 583502,
-      bezugsart: "kaufen",
-      wohnfläche: 126,
+      preis: 2663,
+      bezugsart: "mieten",
+      wohnfläche: 330,
       zimmer: 5,
       badezimmer: 1,
       adresse: {
-        straße: "Sömmeringstr. 70",
+        straße: "Sömmeringstraße 70",
         stadt: "Hambrücken",
         postleitzahl: "76707",
         bundesland: "Baden-Württemberg",
@@ -43814,7 +43814,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 346
+      vergangeneTageSeitVeröffentlichung: 205
     }
   },
   {
@@ -43824,16 +43824,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1281200,
-      bezugsart: "kaufen",
-      wohnfläche: 493,
-      zimmer: 6,
-      badezimmer: 3,
+      preis: 2997,
+      bezugsart: "mieten",
+      wohnfläche: 89,
+      zimmer: 2,
+      badezimmer: 4,
       adresse: {
-        straße: "Gotthardstrasse 61",
+        straße: "Gotthardstraße 61",
         stadt: "Gera",
         postleitzahl: "07549",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "50.83517",
         longitude: "12.116099"
       },
@@ -43851,7 +43851,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 34
+      vergangeneTageSeitVeröffentlichung: 324
     }
   },
   {
@@ -43861,13 +43861,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 327141,
-      bezugsart: "kaufen",
-      wohnfläche: 107,
-      zimmer: 5,
+      preis: 3791,
+      bezugsart: "mieten",
+      wohnfläche: 161,
+      zimmer: 4,
       badezimmer: 1,
       adresse: {
-        straße: "Pohlstrasse 3",
+        straße: "Pohlstraße 3",
         stadt: "Altenau",
         postleitzahl: "38707",
         bundesland: "Niedersachsen",
@@ -43888,7 +43888,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 350
+      vergangeneTageSeitVeröffentlichung: 109
     }
   },
   {
@@ -43898,16 +43898,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 266795,
-      bezugsart: "kaufen",
-      wohnfläche: 202,
-      zimmer: 6,
-      badezimmer: 4,
+      preis: 2501,
+      bezugsart: "mieten",
+      wohnfläche: 292,
+      zimmer: 3,
+      badezimmer: 1,
       adresse: {
         straße: "Alsterkrugchaussee 11",
         stadt: "Schwabach",
         postleitzahl: "91109",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.338993",
         longitude: "10.974747"
       },
@@ -43925,7 +43925,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 201
+      vergangeneTageSeitVeröffentlichung: 99
     }
   },
   {
@@ -43935,11 +43935,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 837693,
-      bezugsart: "kaufen",
-      wohnfläche: 87,
-      zimmer: 4,
-      badezimmer: 2,
+      preis: 1549,
+      bezugsart: "mieten",
+      wohnfläche: 466,
+      zimmer: 3,
+      badezimmer: 4,
       adresse: {
         straße: "Messedamm 22",
         stadt: "Halle",
@@ -43962,7 +43962,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 250
+      vergangeneTageSeitVeröffentlichung: 112
     }
   },
   {
@@ -43972,16 +43972,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 632259,
-      bezugsart: "kaufen",
-      wohnfläche: 553,
-      zimmer: 5,
-      badezimmer: 3,
+      preis: 1860,
+      bezugsart: "mieten",
+      wohnfläche: 158,
+      zimmer: 7,
+      badezimmer: 2,
       adresse: {
         straße: "Alter Wall 3",
         stadt: "Lohr",
         postleitzahl: "97805",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.954861",
         longitude: "9.649094"
       },
@@ -43999,7 +43999,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 313
+      vergangeneTageSeitVeröffentlichung: 217
     }
   },
   {
@@ -44009,16 +44009,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 824930,
-      bezugsart: "kaufen",
-      wohnfläche: 469,
+      preis: 2649,
+      bezugsart: "mieten",
+      wohnfläche: 369,
       zimmer: 6,
-      badezimmer: 2,
+      badezimmer: 4,
       adresse: {
         straße: "Kieler Strasse 22",
         stadt: "Burgkirchen",
         postleitzahl: "84508",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.209668",
         longitude: "12.811973"
       },
@@ -44036,7 +44036,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 38
+      vergangeneTageSeitVeröffentlichung: 180
     }
   },
   {
@@ -44046,16 +44046,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1166032,
-      bezugsart: "kaufen",
-      wohnfläche: 500,
-      zimmer: 5,
+      preis: 2275,
+      bezugsart: "mieten",
+      wohnfläche: 362,
+      zimmer: 7,
       badezimmer: 3,
       adresse: {
         straße: "Gubener Str. 12",
         stadt: "Edling",
         postleitzahl: "83531",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.153694",
         longitude: "12.118453"
       },
@@ -44073,7 +44073,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 180
+      vergangeneTageSeitVeröffentlichung: 118
     }
   },
   {
@@ -44083,11 +44083,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 383228,
-      bezugsart: "kaufen",
-      wohnfläche: 383,
-      zimmer: 5,
-      badezimmer: 1,
+      preis: 1485,
+      bezugsart: "mieten",
+      wohnfläche: 405,
+      zimmer: 2,
+      badezimmer: 3,
       adresse: {
         straße: "Brandenburgische Str 56",
         stadt: "Bickenbach",
@@ -44110,7 +44110,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 155
+      vergangeneTageSeitVeröffentlichung: 53
     }
   },
   {
@@ -44120,11 +44120,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 431506,
-      bezugsart: "kaufen",
-      wohnfläche: 129,
-      zimmer: 2,
-      badezimmer: 2,
+      preis: 2272,
+      bezugsart: "mieten",
+      wohnfläche: 196,
+      zimmer: 3,
+      badezimmer: 3,
       adresse: {
         straße: "Anhalter Strasse 56",
         stadt: "Bissersheim",
@@ -44147,7 +44147,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 277
+      vergangeneTageSeitVeröffentlichung: 354
     }
   },
   {
@@ -44157,16 +44157,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1352069,
-      bezugsart: "kaufen",
-      wohnfläche: 412,
-      zimmer: 5,
-      badezimmer: 3,
+      preis: 2645,
+      bezugsart: "mieten",
+      wohnfläche: 598,
+      zimmer: 3,
+      badezimmer: 2,
       adresse: {
         straße: "Marseiller Strasse 29",
         stadt: "Burggen",
         postleitzahl: "86977",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.777215",
         longitude: "10.72201"
       },
@@ -44184,7 +44184,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 19
+      vergangeneTageSeitVeröffentlichung: 317
     }
   },
   {
@@ -44194,13 +44194,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 694196,
-      bezugsart: "kaufen",
-      wohnfläche: 272,
-      zimmer: 3,
-      badezimmer: 4,
+      preis: 3680,
+      bezugsart: "mieten",
+      wohnfläche: 596,
+      zimmer: 4,
+      badezimmer: 2,
       adresse: {
-        straße: "Genterstrasse 22",
+        straße: "Genterstraße 22",
         stadt: "Kiel",
         postleitzahl: "24028",
         bundesland: "Schleswig-Holstein",
@@ -44221,7 +44221,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 330
+      vergangeneTageSeitVeröffentlichung: 88
     }
   },
   {
@@ -44231,11 +44231,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1457252,
-      bezugsart: "kaufen",
-      wohnfläche: 308,
-      zimmer: 6,
-      badezimmer: 4,
+      preis: 2035,
+      bezugsart: "mieten",
+      wohnfläche: 219,
+      zimmer: 4,
+      badezimmer: 2,
       adresse: {
         straße: "Luetzowplatz 37",
         stadt: "Hüttingen bei Lahr",
@@ -44258,7 +44258,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 197
+      vergangeneTageSeitVeröffentlichung: 128
     }
   },
   {
@@ -44268,16 +44268,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1284310,
-      bezugsart: "kaufen",
-      wohnfläche: 117,
-      zimmer: 7,
+      preis: 2318,
+      bezugsart: "mieten",
+      wohnfläche: 174,
+      zimmer: 2,
       badezimmer: 2,
       adresse: {
         straße: "Prager Str 18",
         stadt: "Seewiesen",
         postleitzahl: "82319",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.056305",
         longitude: "11.41683"
       },
@@ -44295,7 +44295,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 174
+      vergangeneTageSeitVeröffentlichung: 165
     }
   },
   {
@@ -44305,16 +44305,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 316241,
-      bezugsart: "kaufen",
-      wohnfläche: 332,
+      preis: 1022,
+      bezugsart: "mieten",
+      wohnfläche: 565,
       zimmer: 3,
       badezimmer: 1,
       adresse: {
         straße: "Schaarsteinweg 90",
         stadt: "Hunderdorf",
         postleitzahl: "94336",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.983713",
         longitude: "12.697852"
       },
@@ -44332,7 +44332,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 346
+      vergangeneTageSeitVeröffentlichung: 320
     }
   },
   {
@@ -44342,11 +44342,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1300358,
-      bezugsart: "kaufen",
-      wohnfläche: 332,
-      zimmer: 4,
-      badezimmer: 4,
+      preis: 3207,
+      bezugsart: "mieten",
+      wohnfläche: 91,
+      zimmer: 2,
+      badezimmer: 1,
       adresse: {
         straße: "Inge Beisheim Platz 76",
         stadt: "Glückstadt",
@@ -44369,7 +44369,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 173
+      vergangeneTageSeitVeröffentlichung: 82
     }
   },
   {
@@ -44379,13 +44379,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1379428,
-      bezugsart: "kaufen",
-      wohnfläche: 579,
+      preis: 1261,
+      bezugsart: "mieten",
+      wohnfläche: 300,
       zimmer: 7,
-      badezimmer: 4,
+      badezimmer: 1,
       adresse: {
-        straße: "Fasanenstrasse 92",
+        straße: "Fasanenstraße 92",
         stadt: "Hamburg Sankt Pauli",
         postleitzahl: "20354",
         bundesland: "Hamburg",
@@ -44406,7 +44406,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 351
+      vergangeneTageSeitVeröffentlichung: 284
     }
   },
   {
@@ -44416,11 +44416,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 885640,
-      bezugsart: "kaufen",
-      wohnfläche: 413,
-      zimmer: 5,
-      badezimmer: 3,
+      preis: 3225,
+      bezugsart: "mieten",
+      wohnfläche: 266,
+      zimmer: 2,
+      badezimmer: 4,
       adresse: {
         straße: "Bleibtreustraße 44",
         stadt: "Friesenheim",
@@ -44443,7 +44443,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 147
+      vergangeneTageSeitVeröffentlichung: 142
     }
   },
   {
@@ -44453,11 +44453,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 948882,
-      bezugsart: "kaufen",
-      wohnfläche: 204,
-      zimmer: 3,
-      badezimmer: 4,
+      preis: 1923,
+      bezugsart: "mieten",
+      wohnfläche: 462,
+      zimmer: 5,
+      badezimmer: 2,
       adresse: {
         straße: "Am Borsigturm 78",
         stadt: "Neuss Pomona",
@@ -44480,7 +44480,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 179
+      vergangeneTageSeitVeröffentlichung: 305
     }
   },
   {
@@ -44490,13 +44490,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1164576,
-      bezugsart: "kaufen",
-      wohnfläche: 251,
-      zimmer: 3,
-      badezimmer: 2,
+      preis: 2796,
+      bezugsart: "mieten",
+      wohnfläche: 346,
+      zimmer: 7,
+      badezimmer: 4,
       adresse: {
-        straße: "Motzstr. 70",
+        straße: "Motzstraße 70",
         stadt: "Sankt Katharinen",
         postleitzahl: "55595",
         bundesland: "Rheinland-Pfalz",
@@ -44517,7 +44517,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 282
+      vergangeneTageSeitVeröffentlichung: 172
     }
   },
   {
@@ -44527,16 +44527,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 689279,
-      bezugsart: "kaufen",
-      wohnfläche: 506,
-      zimmer: 3,
-      badezimmer: 1,
+      preis: 3409,
+      bezugsart: "mieten",
+      wohnfläche: 411,
+      zimmer: 5,
+      badezimmer: 3,
       adresse: {
         straße: "Alter Wall 59",
         stadt: "Kitzingen",
         postleitzahl: "97307",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.749757",
         longitude: "10.177579"
       },
@@ -44554,7 +44554,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 250
+      vergangeneTageSeitVeröffentlichung: 325
     }
   },
   {
@@ -44564,10 +44564,10 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 721527,
-      bezugsart: "kaufen",
-      wohnfläche: 174,
-      zimmer: 4,
+      preis: 1906,
+      bezugsart: "mieten",
+      wohnfläche: 321,
+      zimmer: 2,
       badezimmer: 3,
       adresse: {
         straße: "Stuttgarter Platz 42",
@@ -44591,7 +44591,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 283
+      vergangeneTageSeitVeröffentlichung: 314
     }
   },
   {
@@ -44601,13 +44601,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1041005,
-      bezugsart: "kaufen",
-      wohnfläche: 515,
-      zimmer: 5,
-      badezimmer: 1,
+      preis: 1203,
+      bezugsart: "mieten",
+      wohnfläche: 479,
+      zimmer: 7,
+      badezimmer: 2,
       adresse: {
-        straße: "Flotowstr. 47",
+        straße: "Flotowstraße 47",
         stadt: "Merseburg",
         postleitzahl: "06204",
         bundesland: "Sachsen-Anhalt",
@@ -44628,7 +44628,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 5
+      vergangeneTageSeitVeröffentlichung: 31
     }
   },
   {
@@ -44638,11 +44638,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 823891,
-      bezugsart: "kaufen",
-      wohnfläche: 417,
-      zimmer: 5,
-      badezimmer: 1,
+      preis: 1126,
+      bezugsart: "mieten",
+      wohnfläche: 396,
+      zimmer: 7,
+      badezimmer: 4,
       adresse: {
         straße: "Frankfurter Allee 59",
         stadt: "Karlsruhe Durlach",
@@ -44665,7 +44665,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 148
+      vergangeneTageSeitVeröffentlichung: 345
     }
   },
   {
@@ -44675,10 +44675,10 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 683371,
-      bezugsart: "kaufen",
-      wohnfläche: 315,
-      zimmer: 6,
+      preis: 1611,
+      bezugsart: "mieten",
+      wohnfläche: 409,
+      zimmer: 3,
       badezimmer: 1,
       adresse: {
         straße: "Messedamm 44",
@@ -44702,7 +44702,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 200
+      vergangeneTageSeitVeröffentlichung: 333
     }
   },
   {
@@ -44712,16 +44712,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1354111,
-      bezugsart: "kaufen",
-      wohnfläche: 131,
+      preis: 2906,
+      bezugsart: "mieten",
+      wohnfläche: 73,
       zimmer: 6,
       badezimmer: 4,
       adresse: {
         straße: "Esplanade 81",
         stadt: "Esselbach",
         postleitzahl: "97839",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.852198",
         longitude: "9.613348"
       },
@@ -44739,7 +44739,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 319
+      vergangeneTageSeitVeröffentlichung: 255
     }
   },
   {
@@ -44749,16 +44749,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1098651,
-      bezugsart: "kaufen",
-      wohnfläche: 434,
+      preis: 2719,
+      bezugsart: "mieten",
+      wohnfläche: 391,
       zimmer: 3,
-      badezimmer: 3,
+      badezimmer: 1,
       adresse: {
         straße: "Billwerder Neuer Deich 80",
         stadt: "Küps",
         postleitzahl: "96325",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.267138",
         longitude: "11.323859"
       },
@@ -44776,7 +44776,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 138
+      vergangeneTageSeitVeröffentlichung: 118
     }
   },
   {
@@ -44786,13 +44786,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1363230,
-      bezugsart: "kaufen",
-      wohnfläche: 503,
+      preis: 3312,
+      bezugsart: "mieten",
+      wohnfläche: 97,
       zimmer: 6,
       badezimmer: 1,
       adresse: {
-        straße: "Fasanenstrasse 71",
+        straße: "Fasanenstraße 71",
         stadt: "Hamburg Ottensen",
         postleitzahl: "22763",
         bundesland: "Hamburg",
@@ -44813,7 +44813,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 134
+      vergangeneTageSeitVeröffentlichung: 306
     }
   },
   {
@@ -44823,10 +44823,10 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1237386,
-      bezugsart: "kaufen",
-      wohnfläche: 111,
-      zimmer: 3,
+      preis: 1660,
+      bezugsart: "mieten",
+      wohnfläche: 208,
+      zimmer: 7,
       badezimmer: 3,
       adresse: {
         straße: "Jenaer Strasse 98",
@@ -44850,7 +44850,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 301
+      vergangeneTageSeitVeröffentlichung: 212
     }
   },
   {
@@ -44860,11 +44860,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 359544,
-      bezugsart: "kaufen",
-      wohnfläche: 283,
-      zimmer: 6,
-      badezimmer: 2,
+      preis: 1373,
+      bezugsart: "mieten",
+      wohnfläche: 461,
+      zimmer: 5,
+      badezimmer: 4,
       adresse: {
         straße: "Lietzenburger Straße 50",
         stadt: "Gorleben",
@@ -44887,7 +44887,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 171
+      vergangeneTageSeitVeröffentlichung: 224
     }
   },
   {
@@ -44897,16 +44897,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1167548,
-      bezugsart: "kaufen",
-      wohnfläche: 521,
-      zimmer: 4,
-      badezimmer: 3,
+      preis: 3078,
+      bezugsart: "mieten",
+      wohnfläche: 248,
+      zimmer: 3,
+      badezimmer: 2,
       adresse: {
-        straße: "Rhinstrasse 95",
+        straße: "Rhinstraße 95",
         stadt: "München",
         postleitzahl: "80791",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.244282",
         longitude: "11.483914"
       },
@@ -44924,7 +44924,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 306
+      vergangeneTageSeitVeröffentlichung: 84
     }
   },
   {
@@ -44934,16 +44934,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 364223,
-      bezugsart: "kaufen",
-      wohnfläche: 350,
-      zimmer: 7,
+      preis: 3358,
+      bezugsart: "mieten",
+      wohnfläche: 574,
+      zimmer: 4,
       badezimmer: 2,
       adresse: {
-        straße: "Stresemannstr. 58",
+        straße: "Stresemannstraße 58",
         stadt: "Namborn",
         postleitzahl: "66640",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "49.505795",
         longitude: "7.123907"
       },
@@ -44961,7 +44961,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 271
+      vergangeneTageSeitVeröffentlichung: 146
     }
   },
   {
@@ -44971,16 +44971,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1032858,
-      bezugsart: "kaufen",
-      wohnfläche: 299,
-      zimmer: 7,
+      preis: 1612,
+      bezugsart: "mieten",
+      wohnfläche: 146,
+      zimmer: 4,
       badezimmer: 1,
       adresse: {
         straße: "Schaarsteinweg 2",
         stadt: "Cham",
         postleitzahl: "93413",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.120819",
         longitude: "12.665672"
       },
@@ -44998,7 +44998,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 5
+      vergangeneTageSeitVeröffentlichung: 276
     }
   },
   {
@@ -45008,13 +45008,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1328486,
-      bezugsart: "kaufen",
-      wohnfläche: 302,
-      zimmer: 7,
-      badezimmer: 2,
+      preis: 3181,
+      bezugsart: "mieten",
+      wohnfläche: 169,
+      zimmer: 6,
+      badezimmer: 1,
       adresse: {
-        straße: "Michaelkirchstr. 64",
+        straße: "Michaelkirchstraße 64",
         stadt: "Bad Oeynhausen Wulferdingsen",
         postleitzahl: "32549",
         bundesland: "Nordrhein-Westfalen",
@@ -45035,7 +45035,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 53
+      vergangeneTageSeitVeröffentlichung: 189
     }
   },
   {
@@ -45045,13 +45045,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 369420,
-      bezugsart: "kaufen",
-      wohnfläche: 369,
-      zimmer: 2,
+      preis: 3226,
+      bezugsart: "mieten",
+      wohnfläche: 125,
+      zimmer: 6,
       badezimmer: 3,
       adresse: {
-        straße: "Hermannstrasse 91",
+        straße: "Hermannstraße 91",
         stadt: "Bobenheim-Roxheim",
         postleitzahl: "67240",
         bundesland: "Rheinland-Pfalz",
@@ -45072,7 +45072,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 281
+      vergangeneTageSeitVeröffentlichung: 47
     }
   },
   {
@@ -45082,16 +45082,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 638588,
-      bezugsart: "kaufen",
-      wohnfläche: 372,
-      zimmer: 3,
-      badezimmer: 3,
+      preis: 1035,
+      bezugsart: "mieten",
+      wohnfläche: 226,
+      zimmer: 4,
+      badezimmer: 1,
       adresse: {
-        straße: "Ziegelstr. 16",
+        straße: "Ziegelstraße 16",
         stadt: "Philippsreut",
         postleitzahl: "94158",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.86168",
         longitude: "13.663656"
       },
@@ -45109,7 +45109,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 82
+      vergangeneTageSeitVeröffentlichung: 345
     }
   },
   {
@@ -45119,11 +45119,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1201538,
-      bezugsart: "kaufen",
-      wohnfläche: 245,
-      zimmer: 3,
-      badezimmer: 2,
+      preis: 2558,
+      bezugsart: "mieten",
+      wohnfläche: 247,
+      zimmer: 7,
+      badezimmer: 4,
       adresse: {
         straße: "Grosse Praesidenten Str. 15",
         stadt: "Kreimbach-Kaulbach",
@@ -45146,7 +45146,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 343
+      vergangeneTageSeitVeröffentlichung: 121
     }
   },
   {
@@ -45156,11 +45156,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 632862,
-      bezugsart: "kaufen",
-      wohnfläche: 277,
-      zimmer: 7,
-      badezimmer: 1,
+      preis: 1356,
+      bezugsart: "mieten",
+      wohnfläche: 78,
+      zimmer: 2,
+      badezimmer: 4,
       adresse: {
         straße: "Waßmannsdorfer Chaussee 14",
         stadt: "Hamburg Barmbek-Nord",
@@ -45183,7 +45183,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 72
+      vergangeneTageSeitVeröffentlichung: 160
     }
   },
   {
@@ -45193,11 +45193,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1311164,
-      bezugsart: "kaufen",
-      wohnfläche: 572,
-      zimmer: 2,
-      badezimmer: 4,
+      preis: 2310,
+      bezugsart: "mieten",
+      wohnfläche: 429,
+      zimmer: 4,
+      badezimmer: 1,
       adresse: {
         straße: "Anhalter Strasse 21",
         stadt: "Bissersheim",
@@ -45220,7 +45220,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 26
+      vergangeneTageSeitVeröffentlichung: 41
     }
   },
   {
@@ -45230,11 +45230,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 754114,
-      bezugsart: "kaufen",
-      wohnfläche: 233,
-      zimmer: 5,
-      badezimmer: 2,
+      preis: 2109,
+      bezugsart: "mieten",
+      wohnfläche: 480,
+      zimmer: 6,
+      badezimmer: 1,
       adresse: {
         straße: "Los-Angeles-Platz 28",
         stadt: "Norderstedt",
@@ -45257,7 +45257,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 57
+      vergangeneTageSeitVeröffentlichung: 239
     }
   },
   {
@@ -45267,16 +45267,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1004445,
-      bezugsart: "kaufen",
-      wohnfläche: 485,
-      zimmer: 2,
+      preis: 3380,
+      bezugsart: "mieten",
+      wohnfläche: 90,
+      zimmer: 6,
       badezimmer: 3,
       adresse: {
         straße: "Sonnenallee 5",
         stadt: "Augsburg",
         postleitzahl: "86183",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.42999",
         longitude: "10.813087"
       },
@@ -45294,7 +45294,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 323
+      vergangeneTageSeitVeröffentlichung: 358
     }
   },
   {
@@ -45304,13 +45304,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1213998,
-      bezugsart: "kaufen",
-      wohnfläche: 228,
+      preis: 2654,
+      bezugsart: "mieten",
+      wohnfläche: 360,
       zimmer: 7,
-      badezimmer: 3,
+      badezimmer: 1,
       adresse: {
-        straße: "Sömmeringstr. 4",
+        straße: "Sömmeringstraße 4",
         stadt: "Vöhringen",
         postleitzahl: "72189",
         bundesland: "Baden-Württemberg",
@@ -45331,7 +45331,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 78
+      vergangeneTageSeitVeröffentlichung: 191
     }
   },
   {
@@ -45341,13 +45341,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 552170,
-      bezugsart: "kaufen",
-      wohnfläche: 82,
-      zimmer: 6,
+      preis: 2959,
+      bezugsart: "mieten",
+      wohnfläche: 167,
+      zimmer: 4,
       badezimmer: 4,
       adresse: {
-        straße: "Waldowstr. 73",
+        straße: "Waldowstraße 73",
         stadt: "Igersheim",
         postleitzahl: "97999",
         bundesland: "Baden-Württemberg",
@@ -45368,7 +45368,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 108
+      vergangeneTageSeitVeröffentlichung: 180
     }
   },
   {
@@ -45378,11 +45378,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1079964,
-      bezugsart: "kaufen",
-      wohnfläche: 288,
+      preis: 2721,
+      bezugsart: "mieten",
+      wohnfläche: 593,
       zimmer: 2,
-      badezimmer: 4,
+      badezimmer: 2,
       adresse: {
         straße: "Stuttgarter Platz 94",
         stadt: "Isenburg",
@@ -45405,7 +45405,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 321
+      vergangeneTageSeitVeröffentlichung: 276
     }
   },
   {
@@ -45415,16 +45415,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 583816,
-      bezugsart: "kaufen",
-      wohnfläche: 508,
+      preis: 2603,
+      bezugsart: "mieten",
+      wohnfläche: 145,
       zimmer: 2,
-      badezimmer: 2,
+      badezimmer: 3,
       adresse: {
         straße: "Heinrich Heine Platz 70",
         stadt: "Waltershausen",
         postleitzahl: "99874",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "50.983889",
         longitude: "10.562207"
       },
@@ -45442,7 +45442,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 299
+      vergangeneTageSeitVeröffentlichung: 197
     }
   },
   {
@@ -45452,16 +45452,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1092064,
-      bezugsart: "kaufen",
-      wohnfläche: 368,
-      zimmer: 3,
+      preis: 3756,
+      bezugsart: "mieten",
+      wohnfläche: 92,
+      zimmer: 5,
       badezimmer: 4,
       adresse: {
         straße: "Billwerder Neuer Deich 17",
         stadt: "Oberkotzau",
         postleitzahl: "95141",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.192158",
         longitude: "11.933339"
       },
@@ -45479,7 +45479,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 358
+      vergangeneTageSeitVeröffentlichung: 195
     }
   },
   {
@@ -45489,16 +45489,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 411005,
-      bezugsart: "kaufen",
-      wohnfläche: 96,
-      zimmer: 2,
-      badezimmer: 1,
+      preis: 3144,
+      bezugsart: "mieten",
+      wohnfläche: 581,
+      zimmer: 4,
+      badezimmer: 4,
       adresse: {
         straße: "Paderborner Strasse 68",
         stadt: "Aresing",
         postleitzahl: "86561",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.55056",
         longitude: "11.303199"
       },
@@ -45516,7 +45516,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 246
+      vergangeneTageSeitVeröffentlichung: 363
     }
   },
   {
@@ -45526,11 +45526,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 274400,
-      bezugsart: "kaufen",
-      wohnfläche: 95,
-      zimmer: 3,
-      badezimmer: 4,
+      preis: 2528,
+      bezugsart: "mieten",
+      wohnfläche: 470,
+      zimmer: 5,
+      badezimmer: 1,
       adresse: {
         straße: "Frankfurter Allee 87",
         stadt: "Karlsruhe Grötzingen",
@@ -45553,7 +45553,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 137
+      vergangeneTageSeitVeröffentlichung: 23
     }
   },
   {
@@ -45563,13 +45563,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 342007,
-      bezugsart: "kaufen",
-      wohnfläche: 503,
+      preis: 2724,
+      bezugsart: "mieten",
+      wohnfläche: 308,
       zimmer: 7,
-      badezimmer: 4,
+      badezimmer: 1,
       adresse: {
-        straße: "Hermannstrasse 8",
+        straße: "Hermannstraße 8",
         stadt: "Worms Ibersheim",
         postleitzahl: "67550",
         bundesland: "Rheinland-Pfalz",
@@ -45590,7 +45590,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 72
+      vergangeneTageSeitVeröffentlichung: 204
     }
   },
   {
@@ -45600,10 +45600,10 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1340941,
-      bezugsart: "kaufen",
-      wohnfläche: 182,
-      zimmer: 7,
+      preis: 1678,
+      bezugsart: "mieten",
+      wohnfläche: 391,
+      zimmer: 5,
       badezimmer: 4,
       adresse: {
         straße: "Rudolstaedter Strasse 64",
@@ -45627,7 +45627,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 357
+      vergangeneTageSeitVeröffentlichung: 328
     }
   },
   {
@@ -45637,16 +45637,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1368086,
-      bezugsart: "kaufen",
-      wohnfläche: 463,
-      zimmer: 2,
-      badezimmer: 3,
+      preis: 3364,
+      bezugsart: "mieten",
+      wohnfläche: 365,
+      zimmer: 6,
+      badezimmer: 1,
       adresse: {
-        straße: "Schmarjestrasse 6",
+        straße: "Schmarjestraße 6",
         stadt: "Haselbach",
         postleitzahl: "94354",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.922114",
         longitude: "12.653267"
       },
@@ -45664,7 +45664,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 217
+      vergangeneTageSeitVeröffentlichung: 32
     }
   },
   {
@@ -45674,13 +45674,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1178870,
-      bezugsart: "kaufen",
-      wohnfläche: 563,
-      zimmer: 4,
-      badezimmer: 1,
+      preis: 1044,
+      bezugsart: "mieten",
+      wohnfläche: 556,
+      zimmer: 6,
+      badezimmer: 4,
       adresse: {
-        straße: "Invalidenstrasse 92",
+        straße: "Invalidenstraße 92",
         stadt: "Petersberg",
         postleitzahl: "36100",
         bundesland: "Hessen",
@@ -45701,7 +45701,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 137
+      vergangeneTageSeitVeröffentlichung: 185
     }
   },
   {
@@ -45711,11 +45711,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 991508,
-      bezugsart: "kaufen",
-      wohnfläche: 183,
+      preis: 1610,
+      bezugsart: "mieten",
+      wohnfläche: 298,
       zimmer: 7,
-      badezimmer: 1,
+      badezimmer: 2,
       adresse: {
         straße: "Hardenbergstraße 60",
         stadt: "Dimbach",
@@ -45738,7 +45738,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 101
+      vergangeneTageSeitVeröffentlichung: 123
     }
   },
   {
@@ -45748,10 +45748,10 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 447809,
-      bezugsart: "kaufen",
+      preis: 3527,
+      bezugsart: "mieten",
       wohnfläche: 128,
-      zimmer: 3,
+      zimmer: 7,
       badezimmer: 1,
       adresse: {
         straße: "Messedamm 79",
@@ -45775,7 +45775,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 89
+      vergangeneTageSeitVeröffentlichung: 173
     }
   },
   {
@@ -45785,11 +45785,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 418604,
-      bezugsart: "kaufen",
-      wohnfläche: 587,
-      zimmer: 4,
-      badezimmer: 2,
+      preis: 1185,
+      bezugsart: "mieten",
+      wohnfläche: 494,
+      zimmer: 2,
+      badezimmer: 1,
       adresse: {
         straße: "Lietzenburger Straße 50",
         stadt: "Twist",
@@ -45812,7 +45812,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 97
+      vergangeneTageSeitVeröffentlichung: 10
     }
   },
   {
@@ -45822,13 +45822,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 545924,
-      bezugsart: "kaufen",
-      wohnfläche: 94,
+      preis: 2648,
+      bezugsart: "mieten",
+      wohnfläche: 324,
       zimmer: 2,
-      badezimmer: 2,
+      badezimmer: 3,
       adresse: {
-        straße: "Mohrenstrasse 84",
+        straße: "Mohrenstraße 84",
         stadt: "Loßburg",
         postleitzahl: "72290",
         bundesland: "Baden-Württemberg",
@@ -45849,7 +45849,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 137
+      vergangeneTageSeitVeröffentlichung: 295
     }
   },
   {
@@ -45859,13 +45859,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 369690,
-      bezugsart: "kaufen",
-      wohnfläche: 536,
-      zimmer: 7,
-      badezimmer: 1,
+      preis: 2205,
+      bezugsart: "mieten",
+      wohnfläche: 351,
+      zimmer: 2,
+      badezimmer: 4,
       adresse: {
-        straße: "Buelowstrasse 3",
+        straße: "Buelowstraße 3",
         stadt: "Arbach",
         postleitzahl: "56769",
         bundesland: "Rheinland-Pfalz",
@@ -45886,7 +45886,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 67
+      vergangeneTageSeitVeröffentlichung: 37
     }
   },
   {
@@ -45896,11 +45896,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 358686,
-      bezugsart: "kaufen",
-      wohnfläche: 390,
-      zimmer: 3,
-      badezimmer: 2,
+      preis: 1727,
+      bezugsart: "mieten",
+      wohnfläche: 92,
+      zimmer: 5,
+      badezimmer: 3,
       adresse: {
         straße: "Leopoldstraße 39",
         stadt: "Siegen",
@@ -45923,7 +45923,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 63
+      vergangeneTageSeitVeröffentlichung: 169
     }
   },
   {
@@ -45933,16 +45933,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 455257,
-      bezugsart: "kaufen",
-      wohnfläche: 472,
-      zimmer: 2,
-      badezimmer: 3,
+      preis: 1329,
+      bezugsart: "mieten",
+      wohnfläche: 223,
+      zimmer: 7,
+      badezimmer: 1,
       adresse: {
         straße: "Eschenweg 69",
         stadt: "Saalfeld",
         postleitzahl: "07301",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "50.677102",
         longitude: "11.44748"
       },
@@ -45960,7 +45960,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 158
+      vergangeneTageSeitVeröffentlichung: 215
     }
   },
   {
@@ -45970,16 +45970,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1304301,
-      bezugsart: "kaufen",
-      wohnfläche: 131,
-      zimmer: 6,
+      preis: 3171,
+      bezugsart: "mieten",
+      wohnfläche: 381,
+      zimmer: 5,
       badezimmer: 2,
       adresse: {
-        straße: "Ziegelstr. 70",
+        straße: "Ziegelstraße 70",
         stadt: "Hebertsfelden",
         postleitzahl: "84330",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.312086",
         longitude: "12.722788"
       },
@@ -45997,7 +45997,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 213
+      vergangeneTageSeitVeröffentlichung: 209
     }
   },
   {
@@ -46007,16 +46007,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 799195,
-      bezugsart: "kaufen",
-      wohnfläche: 303,
-      zimmer: 2,
-      badezimmer: 4,
+      preis: 2454,
+      bezugsart: "mieten",
+      wohnfläche: 429,
+      zimmer: 7,
+      badezimmer: 1,
       adresse: {
         straße: "Prager Str 97",
         stadt: "Gröbenzell",
         postleitzahl: "82184",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.190853",
         longitude: "11.365482"
       },
@@ -46034,7 +46034,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 323
+      vergangeneTageSeitVeröffentlichung: 74
     }
   },
   {
@@ -46044,13 +46044,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 883032,
-      bezugsart: "kaufen",
-      wohnfläche: 133,
-      zimmer: 7,
-      badezimmer: 2,
+      preis: 1388,
+      bezugsart: "mieten",
+      wohnfläche: 158,
+      zimmer: 3,
+      badezimmer: 4,
       adresse: {
-        straße: "Ruschestrasse 62",
+        straße: "Ruschestraße 62",
         stadt: "Sternberg",
         postleitzahl: "19402",
         bundesland: "Mecklenburg-Vorpommern",
@@ -46071,7 +46071,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 119
+      vergangeneTageSeitVeröffentlichung: 213
     }
   },
   {
@@ -46081,13 +46081,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1269812,
-      bezugsart: "kaufen",
-      wohnfläche: 182,
-      zimmer: 6,
+      preis: 2561,
+      bezugsart: "mieten",
+      wohnfläche: 415,
+      zimmer: 5,
       badezimmer: 1,
       adresse: {
-        straße: "Chausseestr. 68",
+        straße: "Chausseestraße 68",
         stadt: "Reinbek",
         postleitzahl: "21453",
         bundesland: "Schleswig-Holstein",
@@ -46108,7 +46108,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 330
+      vergangeneTageSeitVeröffentlichung: 85
     }
   },
   {
@@ -46118,16 +46118,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 945844,
-      bezugsart: "kaufen",
-      wohnfläche: 563,
+      preis: 2187,
+      bezugsart: "mieten",
+      wohnfläche: 191,
       zimmer: 2,
-      badezimmer: 4,
+      badezimmer: 2,
       adresse: {
         straße: "Billwerder Neuer Deich 80",
         stadt: "Oberkotzau",
         postleitzahl: "95145",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.189461",
         longitude: "11.845111"
       },
@@ -46145,7 +46145,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 334
+      vergangeneTageSeitVeröffentlichung: 144
     }
   },
   {
@@ -46155,11 +46155,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 439985,
-      bezugsart: "kaufen",
-      wohnfläche: 410,
-      zimmer: 4,
-      badezimmer: 4,
+      preis: 2366,
+      bezugsart: "mieten",
+      wohnfläche: 253,
+      zimmer: 7,
+      badezimmer: 1,
       adresse: {
         straße: "Luckenwalder Strasse 98",
         stadt: "Despetal",
@@ -46182,7 +46182,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 349
+      vergangeneTageSeitVeröffentlichung: 193
     }
   },
   {
@@ -46192,11 +46192,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1174764,
-      bezugsart: "kaufen",
-      wohnfläche: 285,
-      zimmer: 5,
-      badezimmer: 4,
+      preis: 1266,
+      bezugsart: "mieten",
+      wohnfläche: 451,
+      zimmer: 7,
+      badezimmer: 1,
       adresse: {
         straße: "Lietzenburger Straße 60",
         stadt: "Jameln",
@@ -46219,7 +46219,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 244
+      vergangeneTageSeitVeröffentlichung: 8
     }
   },
   {
@@ -46229,13 +46229,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 500837,
-      bezugsart: "kaufen",
-      wohnfläche: 565,
-      zimmer: 3,
-      badezimmer: 1,
+      preis: 2234,
+      bezugsart: "mieten",
+      wohnfläche: 536,
+      zimmer: 6,
+      badezimmer: 4,
       adresse: {
-        straße: "Mollstrasse 49",
+        straße: "Mollstraße 49",
         stadt: "Raunheim",
         postleitzahl: "65479",
         bundesland: "Hessen",
@@ -46256,7 +46256,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 46
+      vergangeneTageSeitVeröffentlichung: 290
     }
   },
   {
@@ -46266,11 +46266,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 905705,
-      bezugsart: "kaufen",
-      wohnfläche: 256,
-      zimmer: 6,
-      badezimmer: 3,
+      preis: 1543,
+      bezugsart: "mieten",
+      wohnfläche: 253,
+      zimmer: 7,
+      badezimmer: 2,
       adresse: {
         straße: "Ansbacher Strasse 17",
         stadt: "Kommen",
@@ -46293,7 +46293,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 95
+      vergangeneTageSeitVeröffentlichung: 82
     }
   },
   {
@@ -46303,10 +46303,10 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 721275,
-      bezugsart: "kaufen",
-      wohnfläche: 278,
-      zimmer: 4,
+      preis: 1656,
+      bezugsart: "mieten",
+      wohnfläche: 522,
+      zimmer: 5,
       badezimmer: 3,
       adresse: {
         straße: "Fugger Strasse 18",
@@ -46330,7 +46330,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 312
+      vergangeneTageSeitVeröffentlichung: 247
     }
   },
   {
@@ -46340,9 +46340,9 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1405744,
-      bezugsart: "kaufen",
-      wohnfläche: 91,
+      preis: 1932,
+      bezugsart: "mieten",
+      wohnfläche: 234,
       zimmer: 2,
       badezimmer: 4,
       adresse: {
@@ -46367,7 +46367,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 282
+      vergangeneTageSeitVeröffentlichung: 254
     }
   },
   {
@@ -46377,11 +46377,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1374341,
-      bezugsart: "kaufen",
-      wohnfläche: 498,
+      preis: 3294,
+      bezugsart: "mieten",
+      wohnfläche: 472,
       zimmer: 3,
-      badezimmer: 2,
+      badezimmer: 1,
       adresse: {
         straße: "Leipziger Straße 21",
         stadt: "Warburg",
@@ -46404,7 +46404,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 257
+      vergangeneTageSeitVeröffentlichung: 318
     }
   },
   {
@@ -46414,10 +46414,10 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 799256,
-      bezugsart: "kaufen",
-      wohnfläche: 441,
-      zimmer: 3,
+      preis: 3036,
+      bezugsart: "mieten",
+      wohnfläche: 328,
+      zimmer: 6,
       badezimmer: 3,
       adresse: {
         straße: "Schönwalder Allee 79",
@@ -46441,7 +46441,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 180
+      vergangeneTageSeitVeröffentlichung: 333
     }
   },
   {
@@ -46451,11 +46451,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 548450,
-      bezugsart: "kaufen",
-      wohnfläche: 116,
-      zimmer: 6,
-      badezimmer: 1,
+      preis: 2435,
+      bezugsart: "mieten",
+      wohnfläche: 96,
+      zimmer: 5,
+      badezimmer: 3,
       adresse: {
         straße: "Frankfurter Allee 48",
         stadt: "Karlsruhe Neureut",
@@ -46478,7 +46478,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 339
+      vergangeneTageSeitVeröffentlichung: 76
     }
   },
   {
@@ -46488,16 +46488,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1295633,
-      bezugsart: "kaufen",
-      wohnfläche: 225,
-      zimmer: 5,
-      badezimmer: 4,
+      preis: 3351,
+      bezugsart: "mieten",
+      wohnfläche: 535,
+      zimmer: 3,
+      badezimmer: 2,
       adresse: {
         straße: "Gubener Str. 46",
         stadt: "Rosenheim",
         postleitzahl: "83004",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.827108",
         longitude: "12.085062"
       },
@@ -46515,7 +46515,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 279
+      vergangeneTageSeitVeröffentlichung: 203
     }
   },
   {
@@ -46525,13 +46525,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1140806,
-      bezugsart: "kaufen",
-      wohnfläche: 468,
-      zimmer: 3,
-      badezimmer: 1,
+      preis: 1059,
+      bezugsart: "mieten",
+      wohnfläche: 146,
+      zimmer: 6,
+      badezimmer: 3,
       adresse: {
-        straße: "Motzstr. 18",
+        straße: "Motzstraße 18",
         stadt: "Oestrich-Winkel",
         postleitzahl: "65375",
         bundesland: "Hessen",
@@ -46552,7 +46552,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 28
+      vergangeneTageSeitVeröffentlichung: 359
     }
   },
   {
@@ -46562,11 +46562,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 962107,
-      bezugsart: "kaufen",
-      wohnfläche: 472,
+      preis: 3153,
+      bezugsart: "mieten",
+      wohnfläche: 183,
       zimmer: 7,
-      badezimmer: 1,
+      badezimmer: 4,
       adresse: {
         straße: "Stuttgarter Platz 54",
         stadt: "Ochtrup",
@@ -46589,7 +46589,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 48
+      vergangeneTageSeitVeröffentlichung: 46
     }
   },
   {
@@ -46599,16 +46599,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1017930,
-      bezugsart: "kaufen",
-      wohnfläche: 439,
-      zimmer: 6,
-      badezimmer: 1,
+      preis: 3067,
+      bezugsart: "mieten",
+      wohnfläche: 203,
+      zimmer: 7,
+      badezimmer: 4,
       adresse: {
         straße: "Luebecker Strasse 27",
         stadt: "Burglengenfeld",
         postleitzahl: "93133",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.301042",
         longitude: "12.107825"
       },
@@ -46626,7 +46626,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 243
+      vergangeneTageSeitVeröffentlichung: 244
     }
   },
   {
@@ -46636,16 +46636,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 914723,
-      bezugsart: "kaufen",
-      wohnfläche: 288,
-      zimmer: 2,
-      badezimmer: 3,
+      preis: 1812,
+      bezugsart: "mieten",
+      wohnfläche: 293,
+      zimmer: 3,
+      badezimmer: 4,
       adresse: {
         straße: "Luebecker Strasse 28",
         stadt: "Wattendorf",
         postleitzahl: "96196",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.04883",
         longitude: "11.207539"
       },
@@ -46663,7 +46663,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 39
+      vergangeneTageSeitVeröffentlichung: 353
     }
   },
   {
@@ -46673,16 +46673,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 507137,
-      bezugsart: "kaufen",
-      wohnfläche: 129,
-      zimmer: 4,
-      badezimmer: 4,
+      preis: 1994,
+      bezugsart: "mieten",
+      wohnfläche: 384,
+      zimmer: 5,
+      badezimmer: 1,
       adresse: {
-        straße: "Charlottenstrasse 61",
+        straße: "Charlottenstraße 61",
         stadt: "Dresden",
         postleitzahl: "01287",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "51.013083",
         longitude: "13.685166"
       },
@@ -46700,7 +46700,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 362
+      vergangeneTageSeitVeröffentlichung: 180
     }
   },
   {
@@ -46710,11 +46710,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 548527,
-      bezugsart: "kaufen",
-      wohnfläche: 175,
-      zimmer: 5,
-      badezimmer: 2,
+      preis: 2091,
+      bezugsart: "mieten",
+      wohnfläche: 109,
+      zimmer: 7,
+      badezimmer: 4,
       adresse: {
         straße: "Bayreuther Strasse 92",
         stadt: "Ulm Ermingen",
@@ -46737,7 +46737,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 128
+      vergangeneTageSeitVeröffentlichung: 125
     }
   },
   {
@@ -46747,11 +46747,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1145004,
-      bezugsart: "kaufen",
-      wohnfläche: 409,
+      preis: 3209,
+      bezugsart: "mieten",
+      wohnfläche: 186,
       zimmer: 3,
-      badezimmer: 3,
+      badezimmer: 4,
       adresse: {
         straße: "Frankfurter Allee 90",
         stadt: "Karlsruhe Weststadt",
@@ -46774,7 +46774,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 163
+      vergangeneTageSeitVeröffentlichung: 140
     }
   },
   {
@@ -46784,11 +46784,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1422371,
-      bezugsart: "kaufen",
-      wohnfläche: 287,
-      zimmer: 2,
-      badezimmer: 2,
+      preis: 1113,
+      bezugsart: "mieten",
+      wohnfläche: 541,
+      zimmer: 6,
+      badezimmer: 1,
       adresse: {
         straße: "Budapester Straße 63",
         stadt: "Butzbach",
@@ -46811,7 +46811,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 13
+      vergangeneTageSeitVeröffentlichung: 90
     }
   },
   {
@@ -46821,10 +46821,10 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 341672,
-      bezugsart: "kaufen",
-      wohnfläche: 360,
-      zimmer: 4,
+      preis: 3550,
+      bezugsart: "mieten",
+      wohnfläche: 464,
+      zimmer: 7,
       badezimmer: 4,
       adresse: {
         straße: "Hoheluftchaussee 67",
@@ -46848,7 +46848,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 117
+      vergangeneTageSeitVeröffentlichung: 346
     }
   },
   {
@@ -46858,16 +46858,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 402205,
-      bezugsart: "kaufen",
-      wohnfläche: 237,
-      zimmer: 4,
-      badezimmer: 1,
+      preis: 1834,
+      bezugsart: "mieten",
+      wohnfläche: 122,
+      zimmer: 7,
+      badezimmer: 3,
       adresse: {
         straße: "Paul-Nevermann-Platz 50",
         stadt: "Hammelburg",
         postleitzahl: "97756",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.169633",
         longitude: "9.912417"
       },
@@ -46885,7 +46885,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 172
+      vergangeneTageSeitVeröffentlichung: 203
     }
   },
   {
@@ -46895,16 +46895,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1439898,
-      bezugsart: "kaufen",
-      wohnfläche: 340,
-      zimmer: 7,
-      badezimmer: 1,
+      preis: 2094,
+      bezugsart: "mieten",
+      wohnfläche: 503,
+      zimmer: 5,
+      badezimmer: 2,
       adresse: {
         straße: "Rankestraße 39",
         stadt: "Inning",
         postleitzahl: "82266",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.013821",
         longitude: "11.219113"
       },
@@ -46922,7 +46922,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 93
+      vergangeneTageSeitVeröffentlichung: 36
     }
   },
   {
@@ -46932,11 +46932,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1218819,
-      bezugsart: "kaufen",
-      wohnfläche: 306,
-      zimmer: 4,
-      badezimmer: 3,
+      preis: 2257,
+      bezugsart: "mieten",
+      wohnfläche: 456,
+      zimmer: 5,
+      badezimmer: 4,
       adresse: {
         straße: "Gotzkowskystraße 10",
         stadt: "Wachtendonk",
@@ -46959,7 +46959,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 96
+      vergangeneTageSeitVeröffentlichung: 44
     }
   },
   {
@@ -46969,13 +46969,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 623825,
-      bezugsart: "kaufen",
-      wohnfläche: 285,
-      zimmer: 6,
+      preis: 1079,
+      bezugsart: "mieten",
+      wohnfläche: 512,
+      zimmer: 5,
       badezimmer: 2,
       adresse: {
-        straße: "Koenigstrasse 29",
+        straße: "Koenigstraße 29",
         stadt: "Hohenstein",
         postleitzahl: "72531",
         bundesland: "Baden-Württemberg",
@@ -46996,7 +46996,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 98
+      vergangeneTageSeitVeröffentlichung: 80
     }
   },
   {
@@ -47006,10 +47006,10 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1346817,
-      bezugsart: "kaufen",
-      wohnfläche: 240,
-      zimmer: 4,
+      preis: 1777,
+      bezugsart: "mieten",
+      wohnfläche: 477,
+      zimmer: 7,
       badezimmer: 3,
       adresse: {
         straße: "Landhausstraße 79",
@@ -47033,7 +47033,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 176
+      vergangeneTageSeitVeröffentlichung: 266
     }
   },
   {
@@ -47043,16 +47043,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1252255,
-      bezugsart: "kaufen",
-      wohnfläche: 577,
-      zimmer: 6,
-      badezimmer: 4,
+      preis: 1926,
+      bezugsart: "mieten",
+      wohnfläche: 78,
+      zimmer: 5,
+      badezimmer: 2,
       adresse: {
         straße: "Billwerder Neuer Deich 34",
         stadt: "Speichersdorf",
         postleitzahl: "95467",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.869332",
         longitude: "11.733893"
       },
@@ -47070,7 +47070,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 125
+      vergangeneTageSeitVeröffentlichung: 218
     }
   },
   {
@@ -47080,16 +47080,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 273169,
-      bezugsart: "kaufen",
-      wohnfläche: 162,
-      zimmer: 3,
-      badezimmer: 2,
+      preis: 3655,
+      bezugsart: "mieten",
+      wohnfläche: 429,
+      zimmer: 2,
+      badezimmer: 4,
       adresse: {
         straße: "Hoheluftchaussee 7",
         stadt: "Hartha",
         postleitzahl: "04744",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "51.034646",
         longitude: "12.875899"
       },
@@ -47107,7 +47107,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 49
+      vergangeneTageSeitVeröffentlichung: 161
     }
   },
   {
@@ -47117,9 +47117,9 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 783818,
-      bezugsart: "kaufen",
-      wohnfläche: 123,
+      preis: 2483,
+      bezugsart: "mieten",
+      wohnfläche: 597,
       zimmer: 2,
       badezimmer: 1,
       adresse: {
@@ -47144,7 +47144,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 13
+      vergangeneTageSeitVeröffentlichung: 303
     }
   },
   {
@@ -47154,16 +47154,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 887522,
-      bezugsart: "kaufen",
-      wohnfläche: 218,
+      preis: 1890,
+      bezugsart: "mieten",
+      wohnfläche: 454,
       zimmer: 5,
-      badezimmer: 4,
+      badezimmer: 3,
       adresse: {
         straße: "Fontenay 95",
         stadt: "Kronach",
         postleitzahl: "96307",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.177336",
         longitude: "11.344607"
       },
@@ -47181,7 +47181,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 201
+      vergangeneTageSeitVeröffentlichung: 320
     }
   },
   {
@@ -47191,16 +47191,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 995829,
-      bezugsart: "kaufen",
-      wohnfläche: 364,
-      zimmer: 2,
-      badezimmer: 2,
+      preis: 3734,
+      bezugsart: "mieten",
+      wohnfläche: 442,
+      zimmer: 7,
+      badezimmer: 1,
       adresse: {
-        straße: "Rathausstrasse 84",
+        straße: "Rathausstraße 84",
         stadt: "Nürnberg",
         postleitzahl: "90102",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.541248",
         longitude: "11.009782"
       },
@@ -47218,7 +47218,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 55
+      vergangeneTageSeitVeröffentlichung: 308
     }
   },
   {
@@ -47228,13 +47228,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 937508,
-      bezugsart: "kaufen",
-      wohnfläche: 358,
-      zimmer: 5,
+      preis: 3701,
+      bezugsart: "mieten",
+      wohnfläche: 176,
+      zimmer: 4,
       badezimmer: 3,
       adresse: {
-        straße: "Hermannstrasse 7",
+        straße: "Hermannstraße 7",
         stadt: "Osthofen",
         postleitzahl: "67574",
         bundesland: "Rheinland-Pfalz",
@@ -47255,7 +47255,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 38
+      vergangeneTageSeitVeröffentlichung: 139
     }
   },
   {
@@ -47265,11 +47265,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 852229,
-      bezugsart: "kaufen",
-      wohnfläche: 270,
+      preis: 2553,
+      bezugsart: "mieten",
+      wohnfläche: 543,
       zimmer: 6,
-      badezimmer: 4,
+      badezimmer: 3,
       adresse: {
         straße: "Frankfurter Allee 22",
         stadt: "Karlsruhe Nordweststadt",
@@ -47292,7 +47292,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 287
+      vergangeneTageSeitVeröffentlichung: 348
     }
   },
   {
@@ -47302,13 +47302,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 291570,
-      bezugsart: "kaufen",
-      wohnfläche: 518,
-      zimmer: 2,
-      badezimmer: 4,
+      preis: 1885,
+      bezugsart: "mieten",
+      wohnfläche: 91,
+      zimmer: 4,
+      badezimmer: 1,
       adresse: {
-        straße: "Knesebeckstrasse 71",
+        straße: "Knesebeckstraße 71",
         stadt: "Hümmerich",
         postleitzahl: "53547",
         bundesland: "Rheinland-Pfalz",
@@ -47329,7 +47329,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 67
+      vergangeneTageSeitVeröffentlichung: 120
     }
   },
   {
@@ -47339,11 +47339,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 885449,
-      bezugsart: "kaufen",
-      wohnfläche: 519,
-      zimmer: 5,
-      badezimmer: 4,
+      preis: 2899,
+      bezugsart: "mieten",
+      wohnfläche: 261,
+      zimmer: 6,
+      badezimmer: 1,
       adresse: {
         straße: "Storkower Strasse 62",
         stadt: "Hilgert",
@@ -47366,7 +47366,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 155
+      vergangeneTageSeitVeröffentlichung: 225
     }
   },
   {
@@ -47376,13 +47376,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 262114,
-      bezugsart: "kaufen",
-      wohnfläche: 455,
-      zimmer: 7,
+      preis: 1353,
+      bezugsart: "mieten",
+      wohnfläche: 510,
+      zimmer: 6,
       badezimmer: 3,
       adresse: {
-        straße: "Michaelkirchstr. 96",
+        straße: "Michaelkirchstraße 96",
         stadt: "Bad Oeynhausen Werste",
         postleitzahl: "32549",
         bundesland: "Nordrhein-Westfalen",
@@ -47403,7 +47403,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 314
+      vergangeneTageSeitVeröffentlichung: 34
     }
   },
   {
@@ -47413,11 +47413,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1498303,
-      bezugsart: "kaufen",
-      wohnfläche: 584,
-      zimmer: 2,
-      badezimmer: 2,
+      preis: 3337,
+      bezugsart: "mieten",
+      wohnfläche: 520,
+      zimmer: 3,
+      badezimmer: 3,
       adresse: {
         straße: "Am Borsigturm 48",
         stadt: "Meerbusch Osterath",
@@ -47440,7 +47440,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 68
+      vergangeneTageSeitVeröffentlichung: 129
     }
   },
   {
@@ -47450,13 +47450,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1322462,
-      bezugsart: "kaufen",
-      wohnfläche: 526,
+      preis: 2322,
+      bezugsart: "mieten",
+      wohnfläche: 117,
       zimmer: 4,
       badezimmer: 4,
       adresse: {
-        straße: "Scharnweberstrasse 37",
+        straße: "Scharnweberstraße 37",
         stadt: "Mannheim Gartenstadt",
         postleitzahl: "68305",
         bundesland: "Baden-Württemberg",
@@ -47477,7 +47477,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 199
+      vergangeneTageSeitVeröffentlichung: 102
     }
   },
   {
@@ -47487,16 +47487,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1289115,
-      bezugsart: "kaufen",
-      wohnfläche: 384,
-      zimmer: 5,
+      preis: 2339,
+      bezugsart: "mieten",
+      wohnfläche: 133,
+      zimmer: 6,
       badezimmer: 4,
       adresse: {
         straße: "Borstelmannsweg 70",
         stadt: "Ebrach",
         postleitzahl: "96157",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.919152",
         longitude: "10.542854"
       },
@@ -47514,7 +47514,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 215
+      vergangeneTageSeitVeröffentlichung: 109
     }
   },
   {
@@ -47524,11 +47524,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1348914,
-      bezugsart: "kaufen",
-      wohnfläche: 452,
-      zimmer: 7,
-      badezimmer: 3,
+      preis: 1033,
+      bezugsart: "mieten",
+      wohnfläche: 588,
+      zimmer: 3,
+      badezimmer: 2,
       adresse: {
         straße: "Gruenauer Strasse 17",
         stadt: "Büchen",
@@ -47551,7 +47551,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 352
+      vergangeneTageSeitVeröffentlichung: 173
     }
   },
   {
@@ -47561,16 +47561,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 893536,
-      bezugsart: "kaufen",
-      wohnfläche: 414,
-      zimmer: 3,
-      badezimmer: 1,
+      preis: 1924,
+      bezugsart: "mieten",
+      wohnfläche: 395,
+      zimmer: 4,
+      badezimmer: 2,
       adresse: {
         straße: "Kirchenallee 59",
         stadt: "Drachselsried",
         postleitzahl: "94256",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.092034",
         longitude: "13.025017"
       },
@@ -47588,7 +47588,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 148
+      vergangeneTageSeitVeröffentlichung: 329
     }
   },
   {
@@ -47598,16 +47598,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1201310,
-      bezugsart: "kaufen",
-      wohnfläche: 481,
-      zimmer: 3,
-      badezimmer: 3,
+      preis: 1963,
+      bezugsart: "mieten",
+      wohnfläche: 315,
+      zimmer: 2,
+      badezimmer: 2,
       adresse: {
         straße: "Kurfuerstendamm 87",
         stadt: "Garching",
         postleitzahl: "85742",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.238251",
         longitude: "11.731477"
       },
@@ -47625,7 +47625,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 357
+      vergangeneTageSeitVeröffentlichung: 38
     }
   },
   {
@@ -47635,11 +47635,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1053182,
-      bezugsart: "kaufen",
-      wohnfläche: 280,
-      zimmer: 5,
-      badezimmer: 1,
+      preis: 1649,
+      bezugsart: "mieten",
+      wohnfläche: 495,
+      zimmer: 6,
+      badezimmer: 2,
       adresse: {
         straße: "Joachimstaler Str. 11",
         stadt: "Hainau",
@@ -47662,7 +47662,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 249
+      vergangeneTageSeitVeröffentlichung: 98
     }
   },
   {
@@ -47672,16 +47672,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1442440,
-      bezugsart: "kaufen",
-      wohnfläche: 286,
+      preis: 2013,
+      bezugsart: "mieten",
+      wohnfläche: 79,
       zimmer: 3,
-      badezimmer: 1,
+      badezimmer: 3,
       adresse: {
-        straße: "Amsinckstrasse 21",
+        straße: "Amsinckstraße 21",
         stadt: "Berthelsdorf",
         postleitzahl: "01825",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "50.892855",
         longitude: "13.962301"
       },
@@ -47699,7 +47699,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 63
+      vergangeneTageSeitVeröffentlichung: 363
     }
   },
   {
@@ -47709,16 +47709,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1323010,
-      bezugsart: "kaufen",
-      wohnfläche: 278,
-      zimmer: 5,
-      badezimmer: 2,
+      preis: 1186,
+      bezugsart: "mieten",
+      wohnfläche: 335,
+      zimmer: 4,
+      badezimmer: 1,
       adresse: {
         straße: "Prager Str 23",
         stadt: "Mammendorf",
         postleitzahl: "82291",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.284894",
         longitude: "11.066044"
       },
@@ -47736,7 +47736,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 82
+      vergangeneTageSeitVeröffentlichung: 159
     }
   },
   {
@@ -47746,16 +47746,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 858490,
-      bezugsart: "kaufen",
-      wohnfläche: 517,
-      zimmer: 4,
+      preis: 2846,
+      bezugsart: "mieten",
+      wohnfläche: 443,
+      zimmer: 5,
       badezimmer: 2,
       adresse: {
         straße: "Luebeckertordamm 55",
         stadt: "Pyrbaum",
         postleitzahl: "90600",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.258232",
         longitude: "11.223758"
       },
@@ -47773,7 +47773,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 151
+      vergangeneTageSeitVeröffentlichung: 30
     }
   },
   {
@@ -47783,16 +47783,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1088071,
-      bezugsart: "kaufen",
-      wohnfläche: 513,
-      zimmer: 7,
+      preis: 3635,
+      bezugsart: "mieten",
+      wohnfläche: 327,
+      zimmer: 3,
       badezimmer: 2,
       adresse: {
         straße: "Fontenay 95",
         stadt: "Pottenstein",
         postleitzahl: "91276",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.840902",
         longitude: "11.479671"
       },
@@ -47810,7 +47810,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 128
+      vergangeneTageSeitVeröffentlichung: 59
     }
   },
   {
@@ -47820,11 +47820,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 810429,
-      bezugsart: "kaufen",
-      wohnfläche: 319,
-      zimmer: 3,
-      badezimmer: 3,
+      preis: 2450,
+      bezugsart: "mieten",
+      wohnfläche: 107,
+      zimmer: 4,
+      badezimmer: 4,
       adresse: {
         straße: "Stuttgarter Platz 35",
         stadt: "Dienethal",
@@ -47847,7 +47847,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 203
+      vergangeneTageSeitVeröffentlichung: 225
     }
   },
   {
@@ -47857,11 +47857,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 366895,
-      bezugsart: "kaufen",
-      wohnfläche: 140,
-      zimmer: 4,
-      badezimmer: 3,
+      preis: 1873,
+      bezugsart: "mieten",
+      wohnfläche: 486,
+      zimmer: 2,
+      badezimmer: 4,
       adresse: {
         straße: "Stuttgarter Platz 35",
         stadt: "Moschheim",
@@ -47884,7 +47884,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 72
+      vergangeneTageSeitVeröffentlichung: 19
     }
   },
   {
@@ -47894,16 +47894,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 524483,
-      bezugsart: "kaufen",
-      wohnfläche: 479,
+      preis: 3596,
+      bezugsart: "mieten",
+      wohnfläche: 222,
       zimmer: 4,
-      badezimmer: 1,
+      badezimmer: 4,
       adresse: {
-        straße: "Gotthardstrasse 96",
+        straße: "Gotthardstraße 96",
         stadt: "Erfurt",
         postleitzahl: "99092",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "50.897398",
         longitude: "10.887095"
       },
@@ -47921,7 +47921,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 61
+      vergangeneTageSeitVeröffentlichung: 71
     }
   },
   {
@@ -47931,16 +47931,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 289464,
-      bezugsart: "kaufen",
-      wohnfläche: 529,
-      zimmer: 5,
-      badezimmer: 2,
+      preis: 1143,
+      bezugsart: "mieten",
+      wohnfläche: 198,
+      zimmer: 3,
+      badezimmer: 4,
       adresse: {
         straße: "Kantstraße 14",
         stadt: "Meiningen",
         postleitzahl: "98604",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "50.663971",
         longitude: "10.44258"
       },
@@ -47958,7 +47958,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 13
+      vergangeneTageSeitVeröffentlichung: 171
     }
   },
   {
@@ -47968,16 +47968,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1466181,
-      bezugsart: "kaufen",
-      wohnfläche: 470,
-      zimmer: 4,
-      badezimmer: 1,
+      preis: 2398,
+      bezugsart: "mieten",
+      wohnfläche: 73,
+      zimmer: 7,
+      badezimmer: 3,
       adresse: {
         straße: "Alsterkrugchaussee 39",
         stadt: "Rain",
         postleitzahl: "86641",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.610407",
         longitude: "10.957419"
       },
@@ -47995,7 +47995,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 82
+      vergangeneTageSeitVeröffentlichung: 156
     }
   },
   {
@@ -48005,16 +48005,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1051280,
-      bezugsart: "kaufen",
-      wohnfläche: 578,
-      zimmer: 5,
-      badezimmer: 1,
+      preis: 1984,
+      bezugsart: "mieten",
+      wohnfläche: 445,
+      zimmer: 2,
+      badezimmer: 2,
       adresse: {
         straße: "Schaarsteinweg 54",
         stadt: "Ascha",
         postleitzahl: "94347",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.978739",
         longitude: "12.625242"
       },
@@ -48032,7 +48032,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 61
+      vergangeneTageSeitVeröffentlichung: 115
     }
   },
   {
@@ -48042,16 +48042,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1089560,
-      bezugsart: "kaufen",
-      wohnfläche: 307,
+      preis: 3206,
+      bezugsart: "mieten",
+      wohnfläche: 357,
       zimmer: 2,
       badezimmer: 3,
       adresse: {
         straße: "Ufnau Strasse 79",
         stadt: "Sontheim",
         postleitzahl: "87776",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.072754",
         longitude: "10.305465"
       },
@@ -48069,7 +48069,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 108
+      vergangeneTageSeitVeröffentlichung: 288
     }
   },
   {
@@ -48079,10 +48079,10 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 454497,
-      bezugsart: "kaufen",
-      wohnfläche: 294,
-      zimmer: 7,
+      preis: 1979,
+      bezugsart: "mieten",
+      wohnfläche: 158,
+      zimmer: 6,
       badezimmer: 4,
       adresse: {
         straße: "Luetzowplatz 63",
@@ -48106,7 +48106,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 322
+      vergangeneTageSeitVeröffentlichung: 207
     }
   },
   {
@@ -48116,11 +48116,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1082326,
-      bezugsart: "kaufen",
-      wohnfläche: 355,
+      preis: 2862,
+      bezugsart: "mieten",
+      wohnfläche: 277,
       zimmer: 3,
-      badezimmer: 1,
+      badezimmer: 3,
       adresse: {
         straße: "Konstanzer Strasse 74",
         stadt: "Niddatal",
@@ -48143,7 +48143,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 263
+      vergangeneTageSeitVeröffentlichung: 103
     }
   },
   {
@@ -48153,11 +48153,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1188660,
-      bezugsart: "kaufen",
-      wohnfläche: 312,
-      zimmer: 2,
-      badezimmer: 1,
+      preis: 3626,
+      bezugsart: "mieten",
+      wohnfläche: 558,
+      zimmer: 5,
+      badezimmer: 4,
       adresse: {
         straße: "Brandenburgische Strasse 50",
         stadt: "Orbis",
@@ -48180,7 +48180,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 220
+      vergangeneTageSeitVeröffentlichung: 179
     }
   },
   {
@@ -48190,11 +48190,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 999622,
-      bezugsart: "kaufen",
-      wohnfläche: 138,
-      zimmer: 6,
-      badezimmer: 1,
+      preis: 3268,
+      bezugsart: "mieten",
+      wohnfläche: 203,
+      zimmer: 7,
+      badezimmer: 2,
       adresse: {
         straße: "An Der Urania 3",
         stadt: "Beldorf",
@@ -48217,7 +48217,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 108
+      vergangeneTageSeitVeröffentlichung: 153
     }
   },
   {
@@ -48227,16 +48227,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 624424,
-      bezugsart: "kaufen",
-      wohnfläche: 524,
-      zimmer: 4,
-      badezimmer: 3,
+      preis: 1473,
+      bezugsart: "mieten",
+      wohnfläche: 279,
+      zimmer: 6,
+      badezimmer: 1,
       adresse: {
-        straße: "Koenigstrasse 57",
+        straße: "Koenigstraße 57",
         stadt: "Geschwenda",
         postleitzahl: "98718",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "50.647164",
         longitude: "10.894839"
       },
@@ -48254,7 +48254,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 92
+      vergangeneTageSeitVeröffentlichung: 204
     }
   },
   {
@@ -48264,11 +48264,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 489208,
-      bezugsart: "kaufen",
-      wohnfläche: 289,
-      zimmer: 5,
-      badezimmer: 2,
+      preis: 2786,
+      bezugsart: "mieten",
+      wohnfläche: 245,
+      zimmer: 4,
+      badezimmer: 1,
       adresse: {
         straße: "Bissingzeile 54",
         stadt: "Otterndorf",
@@ -48291,7 +48291,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 242
+      vergangeneTageSeitVeröffentlichung: 40
     }
   },
   {
@@ -48301,16 +48301,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1213864,
-      bezugsart: "kaufen",
-      wohnfläche: 582,
-      zimmer: 7,
-      badezimmer: 1,
+      preis: 2500,
+      bezugsart: "mieten",
+      wohnfläche: 169,
+      zimmer: 2,
+      badezimmer: 4,
       adresse: {
-        straße: "Kantstrasse 33",
+        straße: "Kantstraße 33",
         stadt: "Nürnberg",
         postleitzahl: "90473",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.346702",
         longitude: "11.105996"
       },
@@ -48328,7 +48328,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 325
+      vergangeneTageSeitVeröffentlichung: 140
     }
   },
   {
@@ -48338,11 +48338,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 888736,
-      bezugsart: "kaufen",
-      wohnfläche: 378,
+      preis: 2403,
+      bezugsart: "mieten",
+      wohnfläche: 599,
       zimmer: 6,
-      badezimmer: 3,
+      badezimmer: 2,
       adresse: {
         straße: "Fischerinsel 85",
         stadt: "Viersen Lind",
@@ -48365,7 +48365,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 114
+      vergangeneTageSeitVeröffentlichung: 209
     }
   },
   {
@@ -48375,16 +48375,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 662637,
-      bezugsart: "kaufen",
-      wohnfläche: 95,
-      zimmer: 3,
-      badezimmer: 1,
+      preis: 2092,
+      bezugsart: "mieten",
+      wohnfläche: 366,
+      zimmer: 4,
+      badezimmer: 4,
       adresse: {
         straße: "Prager Str 22",
         stadt: "Gröbenzell",
         postleitzahl: "82180",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.210016",
         longitude: "11.339476"
       },
@@ -48402,7 +48402,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 122
+      vergangeneTageSeitVeröffentlichung: 105
     }
   },
   {
@@ -48412,13 +48412,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 685187,
-      bezugsart: "kaufen",
-      wohnfläche: 485,
-      zimmer: 6,
-      badezimmer: 3,
+      preis: 2897,
+      bezugsart: "mieten",
+      wohnfläche: 130,
+      zimmer: 3,
+      badezimmer: 2,
       adresse: {
-        straße: "Genterstrasse 77",
+        straße: "Genterstraße 77",
         stadt: "Kiel",
         postleitzahl: "24012",
         bundesland: "Schleswig-Holstein",
@@ -48439,7 +48439,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 20
+      vergangeneTageSeitVeröffentlichung: 70
     }
   },
   {
@@ -48449,13 +48449,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 990079,
-      bezugsart: "kaufen",
-      wohnfläche: 511,
-      zimmer: 7,
+      preis: 1702,
+      bezugsart: "mieten",
+      wohnfläche: 398,
+      zimmer: 3,
       badezimmer: 4,
       adresse: {
-        straße: "Mollstrasse 84",
+        straße: "Mollstraße 84",
         stadt: "Hattersheim am Main",
         postleitzahl: "65795",
         bundesland: "Hessen",
@@ -48476,7 +48476,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 244
+      vergangeneTageSeitVeröffentlichung: 267
     }
   },
   {
@@ -48486,13 +48486,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1350264,
-      bezugsart: "kaufen",
-      wohnfläche: 511,
+      preis: 3276,
+      bezugsart: "mieten",
+      wohnfläche: 374,
       zimmer: 6,
       badezimmer: 3,
       adresse: {
-        straße: "Hermannstrasse 48",
+        straße: "Hermannstraße 48",
         stadt: "Worms Herrnsheim",
         postleitzahl: "67550",
         bundesland: "Rheinland-Pfalz",
@@ -48513,7 +48513,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 51
+      vergangeneTageSeitVeröffentlichung: 112
     }
   },
   {
@@ -48523,11 +48523,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 633115,
-      bezugsart: "kaufen",
-      wohnfläche: 104,
+      preis: 3570,
+      bezugsart: "mieten",
+      wohnfläche: 87,
       zimmer: 6,
-      badezimmer: 4,
+      badezimmer: 2,
       adresse: {
         straße: "Luetzowplatz 59",
         stadt: "Schwarzenborn",
@@ -48550,7 +48550,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 328
+      vergangeneTageSeitVeröffentlichung: 179
     }
   },
   {
@@ -48560,13 +48560,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1220563,
-      bezugsart: "kaufen",
-      wohnfläche: 404,
-      zimmer: 7,
-      badezimmer: 3,
+      preis: 2462,
+      bezugsart: "mieten",
+      wohnfläche: 562,
+      zimmer: 4,
+      badezimmer: 1,
       adresse: {
-        straße: "Mohrenstrasse 33",
+        straße: "Mohrenstraße 33",
         stadt: "Unterwachingen",
         postleitzahl: "89597",
         bundesland: "Baden-Württemberg",
@@ -48587,7 +48587,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 141
+      vergangeneTageSeitVeröffentlichung: 327
     }
   },
   {
@@ -48597,16 +48597,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1225574,
-      bezugsart: "kaufen",
-      wohnfläche: 498,
-      zimmer: 2,
-      badezimmer: 2,
+      preis: 3607,
+      bezugsart: "mieten",
+      wohnfläche: 346,
+      zimmer: 6,
+      badezimmer: 1,
       adresse: {
         straße: "Gubener Str. 69",
         stadt: "Emmering",
         postleitzahl: "83550",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.950239",
         longitude: "12.084407"
       },
@@ -48624,7 +48624,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 238
+      vergangeneTageSeitVeröffentlichung: 363
     }
   },
   {
@@ -48634,16 +48634,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 928436,
-      bezugsart: "kaufen",
-      wohnfläche: 223,
-      zimmer: 5,
+      preis: 2506,
+      bezugsart: "mieten",
+      wohnfläche: 415,
+      zimmer: 4,
       badezimmer: 3,
       adresse: {
         straße: "Kieler Strasse 49",
         stadt: "Unterwössen",
         postleitzahl: "83243",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.825716",
         longitude: "12.515876"
       },
@@ -48661,7 +48661,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 120
+      vergangeneTageSeitVeröffentlichung: 312
     }
   },
   {
@@ -48671,16 +48671,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1160264,
-      bezugsart: "kaufen",
-      wohnfläche: 459,
-      zimmer: 6,
-      badezimmer: 2,
+      preis: 1015,
+      bezugsart: "mieten",
+      wohnfläche: 150,
+      zimmer: 4,
+      badezimmer: 1,
       adresse: {
         straße: "Paul-Nevermann-Platz 88",
         stadt: "Schweinfurt",
         postleitzahl: "97408",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.01066",
         longitude: "10.219765"
       },
@@ -48698,7 +48698,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 326
+      vergangeneTageSeitVeröffentlichung: 342
     }
   },
   {
@@ -48708,11 +48708,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1485334,
-      bezugsart: "kaufen",
-      wohnfläche: 224,
+      preis: 1653,
+      bezugsart: "mieten",
+      wohnfläche: 89,
       zimmer: 5,
-      badezimmer: 4,
+      badezimmer: 3,
       adresse: {
         straße: "Storkower Strasse 27",
         stadt: "Quirnbach",
@@ -48735,7 +48735,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 69
+      vergangeneTageSeitVeröffentlichung: 28
     }
   },
   {
@@ -48745,16 +48745,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 334386,
-      bezugsart: "kaufen",
-      wohnfläche: 361,
-      zimmer: 6,
-      badezimmer: 3,
+      preis: 3758,
+      bezugsart: "mieten",
+      wohnfläche: 517,
+      zimmer: 5,
+      badezimmer: 1,
       adresse: {
         straße: "Lange Strasse 1",
         stadt: "Neubiberg",
         postleitzahl: "85579",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.054729",
         longitude: "11.691783"
       },
@@ -48772,7 +48772,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 144
+      vergangeneTageSeitVeröffentlichung: 242
     }
   },
   {
@@ -48782,13 +48782,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1250221,
-      bezugsart: "kaufen",
-      wohnfläche: 551,
-      zimmer: 5,
+      preis: 3641,
+      bezugsart: "mieten",
+      wohnfläche: 277,
+      zimmer: 3,
       badezimmer: 1,
       adresse: {
-        straße: "Güntzelstrasse 52",
+        straße: "Güntzelstraße 52",
         stadt: "Hetzerath",
         postleitzahl: "54523",
         bundesland: "Rheinland-Pfalz",
@@ -48809,7 +48809,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 362
+      vergangeneTageSeitVeröffentlichung: 173
     }
   },
   {
@@ -48819,16 +48819,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 797273,
-      bezugsart: "kaufen",
-      wohnfläche: 241,
-      zimmer: 2,
-      badezimmer: 1,
+      preis: 3760,
+      bezugsart: "mieten",
+      wohnfläche: 491,
+      zimmer: 3,
+      badezimmer: 4,
       adresse: {
         straße: "Koepenicker Str. 3",
         stadt: "Weiden",
         postleitzahl: "92610",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.709763",
         longitude: "12.148342"
       },
@@ -48846,7 +48846,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 149
+      vergangeneTageSeitVeröffentlichung: 131
     }
   },
   {
@@ -48856,11 +48856,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 520481,
-      bezugsart: "kaufen",
-      wohnfläche: 172,
-      zimmer: 6,
-      badezimmer: 3,
+      preis: 2122,
+      bezugsart: "mieten",
+      wohnfläche: 427,
+      zimmer: 7,
+      badezimmer: 4,
       adresse: {
         straße: "Stuttgarter Platz 11",
         stadt: "Steinfurt",
@@ -48883,7 +48883,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 220
+      vergangeneTageSeitVeröffentlichung: 211
     }
   },
   {
@@ -48893,11 +48893,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 286511,
-      bezugsart: "kaufen",
-      wohnfläche: 245,
-      zimmer: 2,
-      badezimmer: 3,
+      preis: 1353,
+      bezugsart: "mieten",
+      wohnfläche: 526,
+      zimmer: 7,
+      badezimmer: 1,
       adresse: {
         straße: "Karl-Liebknecht-Strasse 60",
         stadt: "Blender",
@@ -48920,7 +48920,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 214
+      vergangeneTageSeitVeröffentlichung: 155
     }
   },
   {
@@ -48930,16 +48930,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 873734,
-      bezugsart: "kaufen",
-      wohnfläche: 452,
-      zimmer: 7,
-      badezimmer: 4,
+      preis: 3636,
+      bezugsart: "mieten",
+      wohnfläche: 522,
+      zimmer: 6,
+      badezimmer: 1,
       adresse: {
         straße: "Langenhorner Chaussee 89",
         stadt: "Chieming",
         postleitzahl: "83339",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.830353",
         longitude: "12.535624"
       },
@@ -48957,7 +48957,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 82
+      vergangeneTageSeitVeröffentlichung: 103
     }
   },
   {
@@ -48967,10 +48967,10 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1062082,
-      bezugsart: "kaufen",
-      wohnfläche: 219,
-      zimmer: 2,
+      preis: 1074,
+      bezugsart: "mieten",
+      wohnfläche: 466,
+      zimmer: 4,
       badezimmer: 1,
       adresse: {
         straße: "Hedemannstasse 19",
@@ -48994,7 +48994,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 284
+      vergangeneTageSeitVeröffentlichung: 216
     }
   },
   {
@@ -49004,16 +49004,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1027267,
-      bezugsart: "kaufen",
-      wohnfläche: 344,
-      zimmer: 3,
-      badezimmer: 1,
+      preis: 3652,
+      bezugsart: "mieten",
+      wohnfläche: 379,
+      zimmer: 6,
+      badezimmer: 4,
       adresse: {
         straße: "Borstelmannsweg 78",
         stadt: "Coburg",
         postleitzahl: "96407",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.186957",
         longitude: "11.021647"
       },
@@ -49031,7 +49031,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 225
+      vergangeneTageSeitVeröffentlichung: 119
     }
   },
   {
@@ -49041,11 +49041,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 815716,
-      bezugsart: "kaufen",
-      wohnfläche: 474,
-      zimmer: 4,
-      badezimmer: 1,
+      preis: 2618,
+      bezugsart: "mieten",
+      wohnfläche: 154,
+      zimmer: 6,
+      badezimmer: 2,
       adresse: {
         straße: "Rohrdamm 48",
         stadt: "Häuslingen",
@@ -49068,7 +49068,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 198
+      vergangeneTageSeitVeröffentlichung: 75
     }
   },
   {
@@ -49078,13 +49078,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 765121,
-      bezugsart: "kaufen",
-      wohnfläche: 105,
-      zimmer: 5,
-      badezimmer: 1,
+      preis: 2685,
+      bezugsart: "mieten",
+      wohnfläche: 271,
+      zimmer: 3,
+      badezimmer: 3,
       adresse: {
-        straße: "Fasanenstrasse 1",
+        straße: "Fasanenstraße 1",
         stadt: "Hamburg Niendorf",
         postleitzahl: "22529",
         bundesland: "Hamburg",
@@ -49105,7 +49105,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 342
+      vergangeneTageSeitVeröffentlichung: 348
     }
   },
   {
@@ -49115,16 +49115,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 644787,
-      bezugsart: "kaufen",
-      wohnfläche: 113,
-      zimmer: 3,
-      badezimmer: 4,
+      preis: 1886,
+      bezugsart: "mieten",
+      wohnfläche: 191,
+      zimmer: 5,
+      badezimmer: 3,
       adresse: {
-        straße: "Amsinckstrasse 3",
+        straße: "Amsinckstraße 3",
         stadt: "Lichtenberg",
         postleitzahl: "09638",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "50.802121",
         longitude: "13.394279"
       },
@@ -49142,7 +49142,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 262
+      vergangeneTageSeitVeröffentlichung: 193
     }
   },
   {
@@ -49152,13 +49152,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 264612,
-      bezugsart: "kaufen",
-      wohnfläche: 122,
-      zimmer: 6,
-      badezimmer: 1,
+      preis: 2369,
+      bezugsart: "mieten",
+      wohnfläche: 221,
+      zimmer: 3,
+      badezimmer: 3,
       adresse: {
-        straße: "Waldowstr. 11",
+        straße: "Waldowstraße 11",
         stadt: "Obersontheim",
         postleitzahl: "74423",
         bundesland: "Baden-Württemberg",
@@ -49179,7 +49179,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 156
+      vergangeneTageSeitVeröffentlichung: 41
     }
   },
   {
@@ -49189,16 +49189,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1035969,
-      bezugsart: "kaufen",
-      wohnfläche: 398,
+      preis: 1077,
+      bezugsart: "mieten",
+      wohnfläche: 282,
       zimmer: 4,
-      badezimmer: 4,
+      badezimmer: 3,
       adresse: {
-        straße: "Rhinstrasse 44",
+        straße: "Rhinstraße 44",
         stadt: "München",
         postleitzahl: "80743",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.080552",
         longitude: "11.588561"
       },
@@ -49216,7 +49216,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 70
+      vergangeneTageSeitVeröffentlichung: 191
     }
   },
   {
@@ -49226,16 +49226,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 806831,
-      bezugsart: "kaufen",
-      wohnfläche: 346,
-      zimmer: 2,
-      badezimmer: 4,
+      preis: 1012,
+      bezugsart: "mieten",
+      wohnfläche: 219,
+      zimmer: 6,
+      badezimmer: 2,
       adresse: {
         straße: "Lietzensee-Ufer 8",
         stadt: "Nossen",
         postleitzahl: "01681",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "51.012481",
         longitude: "13.418381"
       },
@@ -49253,7 +49253,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 297
+      vergangeneTageSeitVeröffentlichung: 48
     }
   },
   {
@@ -49263,11 +49263,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1455142,
-      bezugsart: "kaufen",
-      wohnfläche: 505,
-      zimmer: 5,
-      badezimmer: 3,
+      preis: 1712,
+      bezugsart: "mieten",
+      wohnfläche: 244,
+      zimmer: 2,
+      badezimmer: 4,
       adresse: {
         straße: "Genslerstraße 77",
         stadt: "Berlin Wedding",
@@ -49290,7 +49290,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 83
+      vergangeneTageSeitVeröffentlichung: 135
     }
   },
   {
@@ -49300,16 +49300,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1130688,
-      bezugsart: "kaufen",
-      wohnfläche: 249,
-      zimmer: 5,
+      preis: 1696,
+      bezugsart: "mieten",
+      wohnfläche: 415,
+      zimmer: 6,
       badezimmer: 1,
       adresse: {
-        straße: "Amsinckstrasse 92",
+        straße: "Amsinckstraße 92",
         stadt: "Lauta",
         postleitzahl: "02989",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "51.428853",
         longitude: "14.093605"
       },
@@ -49327,7 +49327,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 3
+      vergangeneTageSeitVeröffentlichung: 252
     }
   },
   {
@@ -49337,16 +49337,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1442338,
-      bezugsart: "kaufen",
-      wohnfläche: 362,
-      zimmer: 7,
-      badezimmer: 4,
+      preis: 2222,
+      bezugsart: "mieten",
+      wohnfläche: 431,
+      zimmer: 4,
+      badezimmer: 2,
       adresse: {
         straße: "Prager Str 91",
         stadt: "Gauting",
         postleitzahl: "82116",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.085468",
         longitude: "11.338397"
       },
@@ -49364,7 +49364,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 195
+      vergangeneTageSeitVeröffentlichung: 143
     }
   },
   {
@@ -49374,13 +49374,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1436290,
-      bezugsart: "kaufen",
-      wohnfläche: 570,
-      zimmer: 7,
-      badezimmer: 1,
+      preis: 2941,
+      bezugsart: "mieten",
+      wohnfläche: 267,
+      zimmer: 5,
+      badezimmer: 2,
       adresse: {
-        straße: "Hermannstrasse 79",
+        straße: "Hermannstraße 79",
         stadt: "Leimen",
         postleitzahl: "66978",
         bundesland: "Rheinland-Pfalz",
@@ -49401,7 +49401,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 248
+      vergangeneTageSeitVeröffentlichung: 6
     }
   },
   {
@@ -49411,13 +49411,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1427574,
-      bezugsart: "kaufen",
-      wohnfläche: 588,
-      zimmer: 3,
-      badezimmer: 2,
+      preis: 1542,
+      bezugsart: "mieten",
+      wohnfläche: 237,
+      zimmer: 6,
+      badezimmer: 3,
       adresse: {
-        straße: "Fasanenstrasse 9",
+        straße: "Fasanenstraße 9",
         stadt: "Hamburg Neuengamme",
         postleitzahl: "21039",
         bundesland: "Hamburg",
@@ -49438,7 +49438,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 207
+      vergangeneTageSeitVeröffentlichung: 74
     }
   },
   {
@@ -49448,13 +49448,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1227697,
-      bezugsart: "kaufen",
-      wohnfläche: 508,
-      zimmer: 5,
-      badezimmer: 3,
+      preis: 1972,
+      bezugsart: "mieten",
+      wohnfläche: 472,
+      zimmer: 6,
+      badezimmer: 2,
       adresse: {
-        straße: "Motzstr. 29",
+        straße: "Motzstraße 29",
         stadt: "Waldalgesheim",
         postleitzahl: "55425",
         bundesland: "Rheinland-Pfalz",
@@ -49475,7 +49475,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 108
+      vergangeneTageSeitVeröffentlichung: 32
     }
   },
   {
@@ -49485,13 +49485,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1201757,
-      bezugsart: "kaufen",
-      wohnfläche: 447,
+      preis: 1358,
+      bezugsart: "mieten",
+      wohnfläche: 481,
       zimmer: 6,
       badezimmer: 3,
       adresse: {
-        straße: "Knesebeckstrasse 87",
+        straße: "Knesebeckstraße 87",
         stadt: "Schürdt",
         postleitzahl: "57632",
         bundesland: "Rheinland-Pfalz",
@@ -49512,7 +49512,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 105
+      vergangeneTageSeitVeröffentlichung: 361
     }
   },
   {
@@ -49522,16 +49522,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 394334,
-      bezugsart: "kaufen",
-      wohnfläche: 124,
-      zimmer: 4,
-      badezimmer: 3,
+      preis: 2627,
+      bezugsart: "mieten",
+      wohnfläche: 508,
+      zimmer: 3,
+      badezimmer: 2,
       adresse: {
-        straße: "Mühlenstrasse 87",
+        straße: "Mühlenstraße 87",
         stadt: "Regensburg",
         postleitzahl: "93001",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.023974",
         longitude: "12.022064"
       },
@@ -49549,7 +49549,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 359
+      vergangeneTageSeitVeröffentlichung: 87
     }
   },
   {
@@ -49559,16 +49559,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 738402,
-      bezugsart: "kaufen",
-      wohnfläche: 600,
-      zimmer: 2,
-      badezimmer: 3,
+      preis: 1284,
+      bezugsart: "mieten",
+      wohnfläche: 430,
+      zimmer: 7,
+      badezimmer: 2,
       adresse: {
         straße: "Billwerder Neuer Deich 8",
         stadt: "Bad Berneck",
         postleitzahl: "95456",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.111492",
         longitude: "11.607383"
       },
@@ -49586,7 +49586,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 65
+      vergangeneTageSeitVeröffentlichung: 327
     }
   },
   {
@@ -49596,16 +49596,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1436191,
-      bezugsart: "kaufen",
-      wohnfläche: 596,
-      zimmer: 5,
-      badezimmer: 4,
+      preis: 3570,
+      bezugsart: "mieten",
+      wohnfläche: 105,
+      zimmer: 7,
+      badezimmer: 1,
       adresse: {
         straße: "Brandenburgische Str. 85",
         stadt: "Pfaffenhofen",
         postleitzahl: "89282",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.430862",
         longitude: "10.193109"
       },
@@ -49623,7 +49623,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 180
+      vergangeneTageSeitVeröffentlichung: 187
     }
   },
   {
@@ -49633,16 +49633,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 332147,
-      bezugsart: "kaufen",
-      wohnfläche: 282,
-      zimmer: 4,
-      badezimmer: 3,
+      preis: 3314,
+      bezugsart: "mieten",
+      wohnfläche: 283,
+      zimmer: 6,
+      badezimmer: 1,
       adresse: {
         straße: "Rudolstaedter Strasse 6",
         stadt: "Aschaffenburg",
         postleitzahl: "63718",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.010027",
         longitude: "9.219832"
       },
@@ -49660,7 +49660,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 206
+      vergangeneTageSeitVeröffentlichung: 220
     }
   },
   {
@@ -49670,16 +49670,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1290587,
-      bezugsart: "kaufen",
-      wohnfläche: 355,
-      zimmer: 5,
-      badezimmer: 4,
+      preis: 2821,
+      bezugsart: "mieten",
+      wohnfläche: 103,
+      zimmer: 3,
+      badezimmer: 2,
       adresse: {
         straße: "Alsterkrugchaussee 66",
         stadt: "Leinburg",
         postleitzahl: "91225",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.482193",
         longitude: "11.352216"
       },
@@ -49697,7 +49697,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 100
+      vergangeneTageSeitVeröffentlichung: 363
     }
   },
   {
@@ -49707,13 +49707,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1224084,
-      bezugsart: "kaufen",
-      wohnfläche: 363,
-      zimmer: 4,
-      badezimmer: 2,
+      preis: 2667,
+      bezugsart: "mieten",
+      wohnfläche: 600,
+      zimmer: 7,
+      badezimmer: 3,
       adresse: {
-        straße: "Mohrenstrasse 40",
+        straße: "Mohrenstraße 40",
         stadt: "Unterstadion",
         postleitzahl: "89619",
         bundesland: "Baden-Württemberg",
@@ -49734,7 +49734,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 343
+      vergangeneTageSeitVeröffentlichung: 159
     }
   },
   {
@@ -49744,13 +49744,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 581858,
-      bezugsart: "kaufen",
-      wohnfläche: 127,
-      zimmer: 4,
-      badezimmer: 1,
+      preis: 1902,
+      bezugsart: "mieten",
+      wohnfläche: 480,
+      zimmer: 6,
+      badezimmer: 4,
       adresse: {
-        straße: "Spresstrasse 91",
+        straße: "Spresstraße 91",
         stadt: "Flensburg",
         postleitzahl: "24915",
         bundesland: "Schleswig-Holstein",
@@ -49771,7 +49771,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 200
+      vergangeneTageSeitVeröffentlichung: 137
     }
   },
   {
@@ -49781,16 +49781,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1130884,
-      bezugsart: "kaufen",
-      wohnfläche: 460,
-      zimmer: 6,
-      badezimmer: 1,
+      preis: 1563,
+      bezugsart: "mieten",
+      wohnfläche: 424,
+      zimmer: 5,
+      badezimmer: 4,
       adresse: {
         straße: "Alt Reinickendorf 2",
         stadt: "Sonthofen",
         postleitzahl: "87516",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.590464",
         longitude: "10.271195"
       },
@@ -49808,7 +49808,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 358
+      vergangeneTageSeitVeröffentlichung: 62
     }
   },
   {
@@ -49818,13 +49818,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1384459,
-      bezugsart: "kaufen",
-      wohnfläche: 449,
+      preis: 2558,
+      bezugsart: "mieten",
+      wohnfläche: 479,
       zimmer: 4,
       badezimmer: 2,
       adresse: {
-        straße: "Knesebeckstrasse 34",
+        straße: "Knesebeckstraße 34",
         stadt: "Flammersfeld",
         postleitzahl: "57632",
         bundesland: "Rheinland-Pfalz",
@@ -49845,7 +49845,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 84
+      vergangeneTageSeitVeröffentlichung: 217
     }
   },
   {
@@ -49855,16 +49855,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1342238,
-      bezugsart: "kaufen",
-      wohnfläche: 184,
-      zimmer: 7,
-      badezimmer: 3,
+      preis: 1599,
+      bezugsart: "mieten",
+      wohnfläche: 190,
+      zimmer: 5,
+      badezimmer: 2,
       adresse: {
         straße: "Schaarsteinweg 95",
         stadt: "Kelheim",
         postleitzahl: "93306",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.830424",
         longitude: "11.838692"
       },
@@ -49882,7 +49882,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 186
+      vergangeneTageSeitVeröffentlichung: 16
     }
   },
   {
@@ -49892,16 +49892,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1267827,
-      bezugsart: "kaufen",
-      wohnfläche: 242,
-      zimmer: 5,
-      badezimmer: 4,
+      preis: 2586,
+      bezugsart: "mieten",
+      wohnfläche: 585,
+      zimmer: 2,
+      badezimmer: 3,
       adresse: {
-        straße: "Sömmeringstr. 53",
+        straße: "Sömmeringstraße 53",
         stadt: "Weißenhorn",
         postleitzahl: "89258",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.339618",
         longitude: "10.172877"
       },
@@ -49919,7 +49919,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 145
+      vergangeneTageSeitVeröffentlichung: 56
     }
   },
   {
@@ -49929,16 +49929,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1316878,
-      bezugsart: "kaufen",
-      wohnfläche: 324,
-      zimmer: 6,
-      badezimmer: 4,
+      preis: 3302,
+      bezugsart: "mieten",
+      wohnfläche: 578,
+      zimmer: 2,
+      badezimmer: 1,
       adresse: {
         straße: "Marseiller Strasse 91",
         stadt: "Garmisch-Partenkirchen",
         postleitzahl: "82457",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.471621",
         longitude: "11.085421"
       },
@@ -49956,7 +49956,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 5
+      vergangeneTageSeitVeröffentlichung: 220
     }
   },
   {
@@ -49966,16 +49966,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1243716,
-      bezugsart: "kaufen",
-      wohnfläche: 449,
-      zimmer: 7,
-      badezimmer: 1,
+      preis: 3236,
+      bezugsart: "mieten",
+      wohnfläche: 141,
+      zimmer: 4,
+      badezimmer: 4,
       adresse: {
         straße: "Langenhorner Chaussee 95",
         stadt: "Altötting",
         postleitzahl: "84503",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.320089",
         longitude: "12.642681"
       },
@@ -49993,7 +49993,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 334
+      vergangeneTageSeitVeröffentlichung: 166
     }
   },
   {
@@ -50003,11 +50003,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 723041,
-      bezugsart: "kaufen",
-      wohnfläche: 99,
-      zimmer: 6,
-      badezimmer: 1,
+      preis: 1238,
+      bezugsart: "mieten",
+      wohnfläche: 523,
+      zimmer: 4,
+      badezimmer: 2,
       adresse: {
         straße: "Leipziger Straße 87",
         stadt: "Hattorf",
@@ -50030,7 +50030,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 359
+      vergangeneTageSeitVeröffentlichung: 165
     }
   },
   {
@@ -50040,13 +50040,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 476521,
-      bezugsart: "kaufen",
-      wohnfläche: 483,
+      preis: 2582,
+      bezugsart: "mieten",
+      wohnfläche: 392,
       zimmer: 2,
-      badezimmer: 2,
+      badezimmer: 1,
       adresse: {
-        straße: "Chausseestr. 9",
+        straße: "Chausseestraße 9",
         stadt: "Ellerau",
         postleitzahl: "25476",
         bundesland: "Schleswig-Holstein",
@@ -50067,7 +50067,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 195
+      vergangeneTageSeitVeröffentlichung: 342
     }
   },
   {
@@ -50077,13 +50077,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 353612,
-      bezugsart: "kaufen",
-      wohnfläche: 407,
-      zimmer: 5,
-      badezimmer: 3,
+      preis: 1508,
+      bezugsart: "mieten",
+      wohnfläche: 183,
+      zimmer: 7,
+      badezimmer: 2,
       adresse: {
-        straße: "Feldstrasse 84",
+        straße: "Feldstraße 84",
         stadt: "Atzendorf",
         postleitzahl: "06217",
         bundesland: "Sachsen-Anhalt",
@@ -50104,7 +50104,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 306
+      vergangeneTageSeitVeröffentlichung: 154
     }
   },
   {
@@ -50114,16 +50114,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 346687,
-      bezugsart: "kaufen",
-      wohnfläche: 233,
-      zimmer: 4,
-      badezimmer: 2,
+      preis: 1028,
+      bezugsart: "mieten",
+      wohnfläche: 210,
+      zimmer: 7,
+      badezimmer: 4,
       adresse: {
-        straße: "Rosenstrasse 9",
+        straße: "Rosenstraße 9",
         stadt: "München",
         postleitzahl: "81541",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.061268",
         longitude: "11.667959"
       },
@@ -50141,7 +50141,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 2
+      vergangeneTageSeitVeröffentlichung: 21
     }
   },
   {
@@ -50151,13 +50151,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 747657,
-      bezugsart: "kaufen",
-      wohnfläche: 373,
-      zimmer: 7,
-      badezimmer: 4,
+      preis: 1452,
+      bezugsart: "mieten",
+      wohnfläche: 294,
+      zimmer: 5,
+      badezimmer: 3,
       adresse: {
-        straße: "Michaelkirchstr. 41",
+        straße: "Michaelkirchstraße 41",
         stadt: "Bad Oeynhausen Werste",
         postleitzahl: "32549",
         bundesland: "Nordrhein-Westfalen",
@@ -50178,7 +50178,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 322
+      vergangeneTageSeitVeröffentlichung: 296
     }
   },
   {
@@ -50188,10 +50188,10 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 570040,
-      bezugsart: "kaufen",
-      wohnfläche: 420,
-      zimmer: 3,
+      preis: 3343,
+      bezugsart: "mieten",
+      wohnfläche: 425,
+      zimmer: 6,
       badezimmer: 4,
       adresse: {
         straße: "Kastanienallee 61",
@@ -50215,7 +50215,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 114
+      vergangeneTageSeitVeröffentlichung: 133
     }
   },
   {
@@ -50225,16 +50225,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1081087,
-      bezugsart: "kaufen",
-      wohnfläche: 599,
+      preis: 2870,
+      bezugsart: "mieten",
+      wohnfläche: 587,
       zimmer: 7,
-      badezimmer: 4,
+      badezimmer: 2,
       adresse: {
-        straße: "Invalidenstrasse 34",
+        straße: "Invalidenstraße 34",
         stadt: "Lindenberg",
         postleitzahl: "88152",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.571328",
         longitude: "9.835603"
       },
@@ -50252,7 +50252,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 260
+      vergangeneTageSeitVeröffentlichung: 225
     }
   },
   {
@@ -50262,11 +50262,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1282898,
-      bezugsart: "kaufen",
-      wohnfläche: 596,
+      preis: 2957,
+      bezugsart: "mieten",
+      wohnfläche: 575,
       zimmer: 4,
-      badezimmer: 4,
+      badezimmer: 1,
       adresse: {
         straße: "Budapester Strasse 22",
         stadt: "Gyhum",
@@ -50289,7 +50289,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 134
+      vergangeneTageSeitVeröffentlichung: 326
     }
   },
   {
@@ -50299,16 +50299,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 939676,
-      bezugsart: "kaufen",
-      wohnfläche: 296,
-      zimmer: 3,
+      preis: 2077,
+      bezugsart: "mieten",
+      wohnfläche: 535,
+      zimmer: 7,
       badezimmer: 4,
       adresse: {
         straße: "Kurfuerstendamm 80",
         stadt: "München",
         postleitzahl: "80016",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.058021",
         longitude: "11.629619"
       },
@@ -50326,7 +50326,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 314
+      vergangeneTageSeitVeröffentlichung: 67
     }
   },
   {
@@ -50336,13 +50336,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1120062,
-      bezugsart: "kaufen",
-      wohnfläche: 191,
-      zimmer: 4,
+      preis: 1016,
+      bezugsart: "mieten",
+      wohnfläche: 99,
+      zimmer: 3,
       badezimmer: 3,
       adresse: {
-        straße: "Güntzelstrasse 96",
+        straße: "Güntzelstraße 96",
         stadt: "Welschbillig",
         postleitzahl: "54298",
         bundesland: "Rheinland-Pfalz",
@@ -50363,7 +50363,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 252
+      vergangeneTageSeitVeröffentlichung: 58
     }
   },
   {
@@ -50373,16 +50373,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1154506,
-      bezugsart: "kaufen",
-      wohnfläche: 99,
-      zimmer: 5,
-      badezimmer: 3,
+      preis: 1152,
+      bezugsart: "mieten",
+      wohnfläche: 329,
+      zimmer: 3,
+      badezimmer: 2,
       adresse: {
         straße: "Frankfurter Allee 60",
         stadt: "Neu-Ulm",
         postleitzahl: "89214",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.454939",
         longitude: "10.019687"
       },
@@ -50400,7 +50400,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 159
+      vergangeneTageSeitVeröffentlichung: 289
     }
   },
   {
@@ -50410,13 +50410,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 861028,
-      bezugsart: "kaufen",
-      wohnfläche: 500,
-      zimmer: 2,
-      badezimmer: 3,
+      preis: 1167,
+      bezugsart: "mieten",
+      wohnfläche: 242,
+      zimmer: 3,
+      badezimmer: 1,
       adresse: {
-        straße: "Guentzelstrasse 76",
+        straße: "Guentzelstraße 76",
         stadt: "Wöllstein",
         postleitzahl: "55597",
         bundesland: "Rheinland-Pfalz",
@@ -50437,7 +50437,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 153
+      vergangeneTageSeitVeröffentlichung: 23
     }
   },
   {
@@ -50447,16 +50447,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1234807,
-      bezugsart: "kaufen",
-      wohnfläche: 461,
-      zimmer: 7,
-      badezimmer: 1,
+      preis: 2686,
+      bezugsart: "mieten",
+      wohnfläche: 402,
+      zimmer: 2,
+      badezimmer: 2,
       adresse: {
         straße: "Gubener Str. 29",
         stadt: "Raubling",
         postleitzahl: "83060",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.880302",
         longitude: "12.106984"
       },
@@ -50474,7 +50474,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 64
+      vergangeneTageSeitVeröffentlichung: 103
     }
   },
   {
@@ -50484,16 +50484,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1174920,
-      bezugsart: "kaufen",
-      wohnfläche: 561,
-      zimmer: 2,
+      preis: 1145,
+      bezugsart: "mieten",
+      wohnfläche: 123,
+      zimmer: 5,
       badezimmer: 3,
       adresse: {
         straße: "Luebecker Strasse 14",
         stadt: "Hirschaid",
         postleitzahl: "96112",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.849877",
         longitude: "11.060282"
       },
@@ -50511,7 +50511,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 25
+      vergangeneTageSeitVeröffentlichung: 333
     }
   },
   {
@@ -50521,11 +50521,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 697228,
-      bezugsart: "kaufen",
-      wohnfläche: 127,
-      zimmer: 6,
-      badezimmer: 3,
+      preis: 1064,
+      bezugsart: "mieten",
+      wohnfläche: 312,
+      zimmer: 4,
+      badezimmer: 1,
       adresse: {
         straße: "Budapester Straße 23",
         stadt: "Angelburg",
@@ -50548,7 +50548,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 104
+      vergangeneTageSeitVeröffentlichung: 181
     }
   },
   {
@@ -50558,11 +50558,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1174728,
-      bezugsart: "kaufen",
-      wohnfläche: 493,
-      zimmer: 4,
-      badezimmer: 2,
+      preis: 3588,
+      bezugsart: "mieten",
+      wohnfläche: 582,
+      zimmer: 6,
+      badezimmer: 1,
       adresse: {
         straße: "Lietzenburger Straße 64",
         stadt: "Hoogstede",
@@ -50585,7 +50585,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 222
+      vergangeneTageSeitVeröffentlichung: 17
     }
   },
   {
@@ -50595,16 +50595,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 889448,
-      bezugsart: "kaufen",
-      wohnfläche: 577,
-      zimmer: 3,
-      badezimmer: 2,
+      preis: 2757,
+      bezugsart: "mieten",
+      wohnfläche: 113,
+      zimmer: 4,
+      badezimmer: 3,
       adresse: {
         straße: "Rudower Chaussee 33",
         stadt: "Ansbach",
         postleitzahl: "91505",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.252375",
         longitude: "10.55035"
       },
@@ -50622,7 +50622,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 359
+      vergangeneTageSeitVeröffentlichung: 178
     }
   },
   {
@@ -50632,11 +50632,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1385528,
-      bezugsart: "kaufen",
-      wohnfläche: 477,
-      zimmer: 4,
-      badezimmer: 4,
+      preis: 3234,
+      bezugsart: "mieten",
+      wohnfläche: 289,
+      zimmer: 7,
+      badezimmer: 2,
       adresse: {
         straße: "Kurfürstendamm 18",
         stadt: "Rostock",
@@ -50659,7 +50659,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 337
+      vergangeneTageSeitVeröffentlichung: 214
     }
   },
   {
@@ -50669,11 +50669,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 999305,
-      bezugsart: "kaufen",
-      wohnfläche: 538,
-      zimmer: 3,
-      badezimmer: 1,
+      preis: 2639,
+      bezugsart: "mieten",
+      wohnfläche: 213,
+      zimmer: 4,
+      badezimmer: 3,
       adresse: {
         straße: "Ansbacher Strasse 49",
         stadt: "Brauneberg",
@@ -50696,7 +50696,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 151
+      vergangeneTageSeitVeröffentlichung: 342
     }
   },
   {
@@ -50706,16 +50706,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1197666,
-      bezugsart: "kaufen",
-      wohnfläche: 517,
-      zimmer: 4,
-      badezimmer: 1,
+      preis: 1840,
+      bezugsart: "mieten",
+      wohnfläche: 248,
+      zimmer: 3,
+      badezimmer: 3,
       adresse: {
         straße: "Ufnau Strasse 84",
         stadt: "Stöttwang",
         postleitzahl: "87677",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.788902",
         longitude: "10.674295"
       },
@@ -50733,7 +50733,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 224
+      vergangeneTageSeitVeröffentlichung: 296
     }
   },
   {
@@ -50743,13 +50743,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1332293,
-      bezugsart: "kaufen",
-      wohnfläche: 419,
-      zimmer: 4,
+      preis: 2967,
+      bezugsart: "mieten",
+      wohnfläche: 370,
+      zimmer: 5,
       badezimmer: 2,
       adresse: {
-        straße: "Eichendorffstr. 76",
+        straße: "Eichendorffstraße 76",
         stadt: "Hagnau",
         postleitzahl: "88709",
         bundesland: "Baden-Württemberg",
@@ -50770,7 +50770,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 336
+      vergangeneTageSeitVeröffentlichung: 9
     }
   },
   {
@@ -50780,16 +50780,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 783719,
-      bezugsart: "kaufen",
-      wohnfläche: 213,
-      zimmer: 4,
+      preis: 3326,
+      bezugsart: "mieten",
+      wohnfläche: 262,
+      zimmer: 2,
       badezimmer: 4,
       adresse: {
         straße: "Gubener Str. 27",
         stadt: "Kolbermoor",
         postleitzahl: "83054",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.815912",
         longitude: "12.082419"
       },
@@ -50807,7 +50807,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 282
+      vergangeneTageSeitVeröffentlichung: 351
     }
   },
   {
@@ -50817,16 +50817,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1394057,
-      bezugsart: "kaufen",
-      wohnfläche: 161,
-      zimmer: 5,
-      badezimmer: 1,
+      preis: 1883,
+      bezugsart: "mieten",
+      wohnfläche: 381,
+      zimmer: 7,
+      badezimmer: 3,
       adresse: {
-        straße: "Schoenebergerstrasse 23",
+        straße: "Schoenebergerstraße 23",
         stadt: "Erlabrunn",
         postleitzahl: "97250",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.824978",
         longitude: "9.828768"
       },
@@ -50844,7 +50844,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 149
+      vergangeneTageSeitVeröffentlichung: 12
     }
   },
   {
@@ -50854,16 +50854,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1484072,
-      bezugsart: "kaufen",
-      wohnfläche: 217,
+      preis: 1135,
+      bezugsart: "mieten",
+      wohnfläche: 295,
       zimmer: 4,
-      badezimmer: 3,
+      badezimmer: 4,
       adresse: {
-        straße: "Rathausstrasse 70",
+        straße: "Rathausstraße 70",
         stadt: "Fürth",
         postleitzahl: "90717",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.612128",
         longitude: "12.103722"
       },
@@ -50881,7 +50881,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 206
+      vergangeneTageSeitVeröffentlichung: 340
     }
   },
   {
@@ -50891,10 +50891,10 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1122570,
-      bezugsart: "kaufen",
-      wohnfläche: 75,
-      zimmer: 2,
+      preis: 2586,
+      bezugsart: "mieten",
+      wohnfläche: 494,
+      zimmer: 5,
       badezimmer: 4,
       adresse: {
         straße: "Pasewalker Straße 17",
@@ -50918,7 +50918,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 309
+      vergangeneTageSeitVeröffentlichung: 69
     }
   },
   {
@@ -50928,16 +50928,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1266644,
-      bezugsart: "kaufen",
-      wohnfläche: 526,
-      zimmer: 2,
-      badezimmer: 4,
+      preis: 1426,
+      bezugsart: "mieten",
+      wohnfläche: 73,
+      zimmer: 6,
+      badezimmer: 3,
       adresse: {
         straße: "Langenhorner Chaussee 42",
         stadt: "Übersee",
         postleitzahl: "83236",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.89595",
         longitude: "12.534368"
       },
@@ -50955,7 +50955,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 305
+      vergangeneTageSeitVeröffentlichung: 204
     }
   },
   {
@@ -50965,13 +50965,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 928030,
-      bezugsart: "kaufen",
-      wohnfläche: 94,
-      zimmer: 5,
+      preis: 2103,
+      bezugsart: "mieten",
+      wohnfläche: 274,
+      zimmer: 3,
       badezimmer: 2,
       adresse: {
-        straße: "Motzstr. 43",
+        straße: "Motzstraße 43",
         stadt: "Dorn-Dürkheim",
         postleitzahl: "67585",
         bundesland: "Rheinland-Pfalz",
@@ -50992,7 +50992,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 96
+      vergangeneTageSeitVeröffentlichung: 31
     }
   },
   {
@@ -51002,11 +51002,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 712781,
-      bezugsart: "kaufen",
-      wohnfläche: 155,
-      zimmer: 2,
-      badezimmer: 1,
+      preis: 2584,
+      bezugsart: "mieten",
+      wohnfläche: 468,
+      zimmer: 6,
+      badezimmer: 3,
       adresse: {
         straße: "Bayreuther Strasse 4",
         stadt: "Offenbach am Main",
@@ -51029,7 +51029,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 63
+      vergangeneTageSeitVeröffentlichung: 211
     }
   },
   {
@@ -51039,16 +51039,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 476631,
-      bezugsart: "kaufen",
-      wohnfläche: 163,
-      zimmer: 3,
-      badezimmer: 4,
+      preis: 3001,
+      bezugsart: "mieten",
+      wohnfläche: 470,
+      zimmer: 5,
+      badezimmer: 3,
       adresse: {
-        straße: "Gotthardstrasse 69",
+        straße: "Gotthardstraße 69",
         stadt: "Gera",
         postleitzahl: "07545",
-        bundesland: "Freistaat Thüringen",
+        bundesland: "Thüringen",
         latitude: "50.787402",
         longitude: "12.047237"
       },
@@ -51066,7 +51066,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 188
+      vergangeneTageSeitVeröffentlichung: 212
     }
   },
   {
@@ -51076,16 +51076,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1352469,
-      bezugsart: "kaufen",
-      wohnfläche: 478,
-      zimmer: 6,
-      badezimmer: 2,
+      preis: 2486,
+      bezugsart: "mieten",
+      wohnfläche: 373,
+      zimmer: 2,
+      badezimmer: 4,
       adresse: {
         straße: "Prenzlauer Allee 48",
         stadt: "Leipzig",
         postleitzahl: "04107",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "51.454408",
         longitude: "12.422525"
       },
@@ -51103,7 +51103,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 150
+      vergangeneTageSeitVeröffentlichung: 176
     }
   },
   {
@@ -51113,16 +51113,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1172961,
-      bezugsart: "kaufen",
-      wohnfläche: 387,
-      zimmer: 4,
+      preis: 3394,
+      bezugsart: "mieten",
+      wohnfläche: 312,
+      zimmer: 5,
       badezimmer: 4,
       adresse: {
         straße: "Lietzensee-Ufer 93",
         stadt: "Pirna",
         postleitzahl: "01787",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "50.971463",
         longitude: "13.833859"
       },
@@ -51140,7 +51140,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 71
+      vergangeneTageSeitVeröffentlichung: 245
     }
   },
   {
@@ -51150,13 +51150,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1129833,
-      bezugsart: "kaufen",
-      wohnfläche: 102,
-      zimmer: 4,
+      preis: 3150,
+      bezugsart: "mieten",
+      wohnfläche: 294,
+      zimmer: 2,
       badezimmer: 4,
       adresse: {
-        straße: "Nuernbergerstrasse 45",
+        straße: "Nuernbergerstraße 45",
         stadt: "Berne",
         postleitzahl: "27804",
         bundesland: "Niedersachsen",
@@ -51177,7 +51177,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 21
+      vergangeneTageSeitVeröffentlichung: 11
     }
   },
   {
@@ -51187,11 +51187,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 861493,
-      bezugsart: "kaufen",
-      wohnfläche: 564,
+      preis: 1225,
+      bezugsart: "mieten",
+      wohnfläche: 234,
       zimmer: 2,
-      badezimmer: 3,
+      badezimmer: 1,
       adresse: {
         straße: "Grolmanstraße 46",
         stadt: "Bremen Utbremen",
@@ -51214,7 +51214,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 201
+      vergangeneTageSeitVeröffentlichung: 300
     }
   },
   {
@@ -51224,13 +51224,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1400658,
-      bezugsart: "kaufen",
-      wohnfläche: 318,
-      zimmer: 6,
+      preis: 1696,
+      bezugsart: "mieten",
+      wohnfläche: 290,
+      zimmer: 5,
       badezimmer: 1,
       adresse: {
-        straße: "Schmarjestrasse 87",
+        straße: "Schmarjestraße 87",
         stadt: "Bensdorf",
         postleitzahl: "14789",
         bundesland: "Brandenburg",
@@ -51251,7 +51251,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 196
+      vergangeneTageSeitVeröffentlichung: 147
     }
   },
   {
@@ -51261,16 +51261,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 987475,
-      bezugsart: "kaufen",
-      wohnfläche: 566,
-      zimmer: 7,
-      badezimmer: 3,
+      preis: 1463,
+      bezugsart: "mieten",
+      wohnfläche: 415,
+      zimmer: 5,
+      badezimmer: 4,
       adresse: {
         straße: "Fontenay 95",
         stadt: "Schauenstein",
         postleitzahl: "95197",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.277048",
         longitude: "11.749306"
       },
@@ -51288,7 +51288,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 17
+      vergangeneTageSeitVeröffentlichung: 117
     }
   },
   {
@@ -51298,13 +51298,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1096830,
-      bezugsart: "kaufen",
-      wohnfläche: 585,
-      zimmer: 7,
+      preis: 2883,
+      bezugsart: "mieten",
+      wohnfläche: 428,
+      zimmer: 6,
       badezimmer: 4,
       adresse: {
-        straße: "Nuernbergerstrasse 13",
+        straße: "Nuernbergerstraße 13",
         stadt: "Boostedt",
         postleitzahl: "24598",
         bundesland: "Schleswig-Holstein",
@@ -51325,7 +51325,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 305
+      vergangeneTageSeitVeröffentlichung: 26
     }
   },
   {
@@ -51335,16 +51335,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 578371,
-      bezugsart: "kaufen",
-      wohnfläche: 541,
-      zimmer: 7,
-      badezimmer: 1,
+      preis: 1110,
+      bezugsart: "mieten",
+      wohnfläche: 222,
+      zimmer: 5,
+      badezimmer: 4,
       adresse: {
         straße: "Prager Str 92",
         stadt: "Röhrmoos",
         postleitzahl: "85242",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.409462",
         longitude: "11.390969"
       },
@@ -51362,7 +51362,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 335
+      vergangeneTageSeitVeröffentlichung: 39
     }
   },
   {
@@ -51372,11 +51372,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1424910,
-      bezugsart: "kaufen",
-      wohnfläche: 324,
-      zimmer: 3,
-      badezimmer: 3,
+      preis: 1293,
+      bezugsart: "mieten",
+      wohnfläche: 156,
+      zimmer: 2,
+      badezimmer: 4,
       adresse: {
         straße: "Lützowplatz 30",
         stadt: "Pelm",
@@ -51399,7 +51399,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 32
+      vergangeneTageSeitVeröffentlichung: 243
     }
   },
   {
@@ -51409,10 +51409,10 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1310472,
-      bezugsart: "kaufen",
-      wohnfläche: 200,
-      zimmer: 6,
+      preis: 1960,
+      bezugsart: "mieten",
+      wohnfläche: 81,
+      zimmer: 4,
       badezimmer: 4,
       adresse: {
         straße: "Rudower Strasse 39",
@@ -51436,7 +51436,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 235
+      vergangeneTageSeitVeröffentlichung: 72
     }
   },
   {
@@ -51446,16 +51446,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1064041,
-      bezugsart: "kaufen",
-      wohnfläche: 431,
-      zimmer: 5,
+      preis: 1832,
+      bezugsart: "mieten",
+      wohnfläche: 302,
+      zimmer: 7,
       badezimmer: 3,
       adresse: {
         straße: "Rankestraße 30",
         stadt: "Baar-Ebenhausen",
         postleitzahl: "85105",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.619538",
         longitude: "11.481313"
       },
@@ -51473,7 +51473,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 197
+      vergangeneTageSeitVeröffentlichung: 349
     }
   },
   {
@@ -51483,16 +51483,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1262056,
-      bezugsart: "kaufen",
-      wohnfläche: 106,
-      zimmer: 4,
-      badezimmer: 4,
+      preis: 1085,
+      bezugsart: "mieten",
+      wohnfläche: 531,
+      zimmer: 2,
+      badezimmer: 2,
       adresse: {
         straße: "Alsterkrugchaussee 56",
         stadt: "Wilhermsdorf",
         postleitzahl: "91450",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.525284",
         longitude: "10.723512"
       },
@@ -51510,7 +51510,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 26
+      vergangeneTageSeitVeröffentlichung: 177
     }
   },
   {
@@ -51520,11 +51520,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 681405,
-      bezugsart: "kaufen",
-      wohnfläche: 306,
+      preis: 2341,
+      bezugsart: "mieten",
+      wohnfläche: 341,
       zimmer: 3,
-      badezimmer: 1,
+      badezimmer: 4,
       adresse: {
         straße: "Budapester Straße 71",
         stadt: "Villmar",
@@ -51547,7 +51547,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 134
+      vergangeneTageSeitVeröffentlichung: 248
     }
   },
   {
@@ -51557,13 +51557,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1304198,
-      bezugsart: "kaufen",
-      wohnfläche: 417,
-      zimmer: 2,
+      preis: 1908,
+      bezugsart: "mieten",
+      wohnfläche: 474,
+      zimmer: 3,
       badezimmer: 1,
       adresse: {
-        straße: "Nuernbergerstrasse 1",
+        straße: "Nuernbergerstraße 1",
         stadt: "Molbergen",
         postleitzahl: "49696",
         bundesland: "Niedersachsen",
@@ -51584,7 +51584,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 3
+      vergangeneTageSeitVeröffentlichung: 310
     }
   },
   {
@@ -51594,11 +51594,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1267516,
-      bezugsart: "kaufen",
-      wohnfläche: 386,
-      zimmer: 4,
-      badezimmer: 2,
+      preis: 1576,
+      bezugsart: "mieten",
+      wohnfläche: 382,
+      zimmer: 2,
+      badezimmer: 4,
       adresse: {
         straße: "Frankfurter Allee 23",
         stadt: "Karlsruhe Hagsfeld",
@@ -51621,7 +51621,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 244
+      vergangeneTageSeitVeröffentlichung: 93
     }
   },
   {
@@ -51631,16 +51631,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 824787,
-      bezugsart: "kaufen",
-      wohnfläche: 350,
-      zimmer: 6,
-      badezimmer: 3,
+      preis: 1760,
+      bezugsart: "mieten",
+      wohnfläche: 579,
+      zimmer: 2,
+      badezimmer: 4,
       adresse: {
         straße: "Borstelmannsweg 8",
         stadt: "Coburg",
         postleitzahl: "96406",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.297937",
         longitude: "11.0351"
       },
@@ -51658,7 +51658,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 4
+      vergangeneTageSeitVeröffentlichung: 257
     }
   },
   {
@@ -51668,10 +51668,10 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 815903,
-      bezugsart: "kaufen",
-      wohnfläche: 390,
-      zimmer: 7,
+      preis: 3119,
+      bezugsart: "mieten",
+      wohnfläche: 142,
+      zimmer: 3,
       badezimmer: 2,
       adresse: {
         straße: "Stuttgarter Platz 73",
@@ -51695,7 +51695,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 183
+      vergangeneTageSeitVeröffentlichung: 71
     }
   },
   {
@@ -51705,13 +51705,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 281795,
-      bezugsart: "kaufen",
-      wohnfläche: 119,
-      zimmer: 7,
-      badezimmer: 4,
+      preis: 2712,
+      bezugsart: "mieten",
+      wohnfläche: 287,
+      zimmer: 5,
+      badezimmer: 1,
       adresse: {
-        straße: "Güntzelstrasse 15",
+        straße: "Güntzelstraße 15",
         stadt: "Bettingen",
         postleitzahl: "54646",
         bundesland: "Rheinland-Pfalz",
@@ -51732,7 +51732,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 133
+      vergangeneTageSeitVeröffentlichung: 272
     }
   },
   {
@@ -51742,10 +51742,10 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 742934,
-      bezugsart: "kaufen",
-      wohnfläche: 106,
-      zimmer: 4,
+      preis: 3591,
+      bezugsart: "mieten",
+      wohnfläche: 205,
+      zimmer: 6,
       badezimmer: 2,
       adresse: {
         straße: "Ansbacher Strasse 30",
@@ -51769,7 +51769,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 261
+      vergangeneTageSeitVeröffentlichung: 339
     }
   },
   {
@@ -51779,16 +51779,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1037372,
-      bezugsart: "kaufen",
-      wohnfläche: 378,
-      zimmer: 4,
-      badezimmer: 4,
+      preis: 3652,
+      bezugsart: "mieten",
+      wohnfläche: 448,
+      zimmer: 2,
+      badezimmer: 2,
       adresse: {
-        straße: "Ziegelstr. 35",
+        straße: "Ziegelstraße 35",
         stadt: "Aidenbach",
         postleitzahl: "94497",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.620717",
         longitude: "13.078"
       },
@@ -51806,7 +51806,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 256
+      vergangeneTageSeitVeröffentlichung: 358
     }
   },
   {
@@ -51816,16 +51816,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1048403,
-      bezugsart: "kaufen",
-      wohnfläche: 387,
-      zimmer: 7,
-      badezimmer: 2,
+      preis: 2658,
+      bezugsart: "mieten",
+      wohnfläche: 307,
+      zimmer: 4,
+      badezimmer: 4,
       adresse: {
         straße: "Sonnenallee 79",
         stadt: "Augsburg",
         postleitzahl: "86135",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.38219",
         longitude: "10.915281"
       },
@@ -51843,7 +51843,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 272
+      vergangeneTageSeitVeröffentlichung: 37
     }
   },
   {
@@ -51853,13 +51853,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 558942,
-      bezugsart: "kaufen",
-      wohnfläche: 591,
-      zimmer: 7,
-      badezimmer: 4,
+      preis: 2916,
+      bezugsart: "mieten",
+      wohnfläche: 110,
+      zimmer: 2,
+      badezimmer: 2,
       adresse: {
-        straße: "Eichendorffstr. 59",
+        straße: "Eichendorffstraße 59",
         stadt: "Wolpertswende",
         postleitzahl: "88284",
         bundesland: "Baden-Württemberg",
@@ -51880,7 +51880,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 228
+      vergangeneTageSeitVeröffentlichung: 251
     }
   },
   {
@@ -51890,16 +51890,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1160729,
-      bezugsart: "kaufen",
-      wohnfläche: 290,
-      zimmer: 6,
-      badezimmer: 3,
+      preis: 2508,
+      bezugsart: "mieten",
+      wohnfläche: 543,
+      zimmer: 2,
+      badezimmer: 2,
       adresse: {
         straße: "Pappelallee 52",
         stadt: "Rittersgrün",
         postleitzahl: "08353",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "50.555878",
         longitude: "12.84967"
       },
@@ -51917,7 +51917,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 206
+      vergangeneTageSeitVeröffentlichung: 68
     }
   },
   {
@@ -51927,13 +51927,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 791527,
-      bezugsart: "kaufen",
-      wohnfläche: 382,
-      zimmer: 4,
+      preis: 1126,
+      bezugsart: "mieten",
+      wohnfläche: 110,
+      zimmer: 6,
       badezimmer: 3,
       adresse: {
-        straße: "Motzstr. 75",
+        straße: "Motzstraße 75",
         stadt: "Feilbingert",
         postleitzahl: "67824",
         bundesland: "Rheinland-Pfalz",
@@ -51954,7 +51954,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 290
+      vergangeneTageSeitVeröffentlichung: 361
     }
   },
   {
@@ -51964,16 +51964,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 481173,
-      bezugsart: "kaufen",
-      wohnfläche: 563,
-      zimmer: 4,
-      badezimmer: 1,
+      preis: 2966,
+      bezugsart: "mieten",
+      wohnfläche: 459,
+      zimmer: 5,
+      badezimmer: 2,
       adresse: {
         straße: "Kantstraße 88",
         stadt: "Pockau",
         postleitzahl: "09507",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "50.673034",
         longitude: "13.305816"
       },
@@ -51991,7 +51991,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 85
+      vergangeneTageSeitVeröffentlichung: 196
     }
   },
   {
@@ -52001,16 +52001,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1221354,
-      bezugsart: "kaufen",
-      wohnfläche: 399,
-      zimmer: 3,
-      badezimmer: 2,
+      preis: 2798,
+      bezugsart: "mieten",
+      wohnfläche: 142,
+      zimmer: 4,
+      badezimmer: 1,
       adresse: {
         straße: "Alter Wall 17",
         stadt: "Zellingen",
         postleitzahl: "97223",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.895867",
         longitude: "9.802926"
       },
@@ -52028,7 +52028,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 167
+      vergangeneTageSeitVeröffentlichung: 187
     }
   },
   {
@@ -52038,13 +52038,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 462166,
-      bezugsart: "kaufen",
-      wohnfläche: 138,
-      zimmer: 5,
+      preis: 3594,
+      bezugsart: "mieten",
+      wohnfläche: 82,
+      zimmer: 7,
       badezimmer: 4,
       adresse: {
-        straße: "Bleibtreustrasse 56",
+        straße: "Bleibtreustraße 56",
         stadt: "Detmold Barkhausen",
         postleitzahl: "32758",
         bundesland: "Nordrhein-Westfalen",
@@ -52065,7 +52065,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 150
+      vergangeneTageSeitVeröffentlichung: 342
     }
   },
   {
@@ -52075,16 +52075,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 830302,
-      bezugsart: "kaufen",
-      wohnfläche: 215,
+      preis: 2521,
+      bezugsart: "mieten",
+      wohnfläche: 139,
       zimmer: 2,
       badezimmer: 2,
       adresse: {
         straße: "Heiligengeistbrücke 6",
         stadt: "Langfurth",
         postleitzahl: "91731",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.143586",
         longitude: "10.541715"
       },
@@ -52102,7 +52102,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 236
+      vergangeneTageSeitVeröffentlichung: 196
     }
   },
   {
@@ -52112,10 +52112,10 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 555628,
-      bezugsart: "kaufen",
-      wohnfläche: 296,
-      zimmer: 4,
+      preis: 3035,
+      bezugsart: "mieten",
+      wohnfläche: 494,
+      zimmer: 5,
       badezimmer: 2,
       adresse: {
         straße: "Unter den Linden 66",
@@ -52139,7 +52139,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 47
+      vergangeneTageSeitVeröffentlichung: 359
     }
   },
   {
@@ -52149,13 +52149,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 603914,
-      bezugsart: "kaufen",
-      wohnfläche: 306,
-      zimmer: 7,
-      badezimmer: 1,
+      preis: 3082,
+      bezugsart: "mieten",
+      wohnfläche: 419,
+      zimmer: 5,
+      badezimmer: 3,
       adresse: {
-        straße: "Spresstrasse 72",
+        straße: "Spresstraße 72",
         stadt: "Flensburg",
         postleitzahl: "24944",
         bundesland: "Schleswig-Holstein",
@@ -52176,7 +52176,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 53
+      vergangeneTageSeitVeröffentlichung: 219
     }
   },
   {
@@ -52186,16 +52186,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 319808,
-      bezugsart: "kaufen",
-      wohnfläche: 266,
-      zimmer: 4,
-      badezimmer: 2,
+      preis: 3528,
+      bezugsart: "mieten",
+      wohnfläche: 376,
+      zimmer: 7,
+      badezimmer: 4,
       adresse: {
         straße: "Kurfuerstendamm 47",
         stadt: "Garching",
         postleitzahl: "85740",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.280846",
         longitude: "11.641814"
       },
@@ -52213,7 +52213,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 293
+      vergangeneTageSeitVeröffentlichung: 153
     }
   },
   {
@@ -52223,13 +52223,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1214205,
-      bezugsart: "kaufen",
-      wohnfläche: 233,
-      zimmer: 7,
-      badezimmer: 4,
+      preis: 1479,
+      bezugsart: "mieten",
+      wohnfläche: 83,
+      zimmer: 3,
+      badezimmer: 3,
       adresse: {
-        straße: "Flotowstr. 29",
+        straße: "Flotowstraße 29",
         stadt: "Leuna",
         postleitzahl: "06233",
         bundesland: "Sachsen-Anhalt",
@@ -52250,7 +52250,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 314
+      vergangeneTageSeitVeröffentlichung: 11
     }
   },
   {
@@ -52260,11 +52260,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1070659,
-      bezugsart: "kaufen",
-      wohnfläche: 434,
-      zimmer: 2,
-      badezimmer: 2,
+      preis: 1794,
+      bezugsart: "mieten",
+      wohnfläche: 354,
+      zimmer: 6,
+      badezimmer: 1,
       adresse: {
         straße: "Leipziger Strasse 77",
         stadt: "Wiesbaden",
@@ -52287,7 +52287,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 172
+      vergangeneTageSeitVeröffentlichung: 352
     }
   },
   {
@@ -52297,10 +52297,10 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 956355,
-      bezugsart: "kaufen",
-      wohnfläche: 458,
-      zimmer: 6,
+      preis: 1726,
+      bezugsart: "mieten",
+      wohnfläche: 328,
+      zimmer: 4,
       badezimmer: 3,
       adresse: {
         straße: "Jenaer Strasse 90",
@@ -52324,7 +52324,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 244
+      vergangeneTageSeitVeröffentlichung: 274
     }
   },
   {
@@ -52334,11 +52334,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 738299,
-      bezugsart: "kaufen",
-      wohnfläche: 356,
-      zimmer: 3,
-      badezimmer: 4,
+      preis: 1055,
+      bezugsart: "mieten",
+      wohnfläche: 281,
+      zimmer: 5,
+      badezimmer: 1,
       adresse: {
         straße: "Kurfuerstendamm 95",
         stadt: "Heilbronn Kirchhausen",
@@ -52361,7 +52361,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 234
+      vergangeneTageSeitVeröffentlichung: 332
     }
   },
   {
@@ -52371,10 +52371,10 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1333225,
-      bezugsart: "kaufen",
-      wohnfläche: 428,
-      zimmer: 5,
+      preis: 3316,
+      bezugsart: "mieten",
+      wohnfläche: 209,
+      zimmer: 2,
       badezimmer: 4,
       adresse: {
         straße: "Lützowplatz 74",
@@ -52398,7 +52398,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 43
+      vergangeneTageSeitVeröffentlichung: 117
     }
   },
   {
@@ -52408,13 +52408,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 775506,
-      bezugsart: "kaufen",
-      wohnfläche: 585,
+      preis: 2956,
+      bezugsart: "mieten",
+      wohnfläche: 549,
       zimmer: 2,
-      badezimmer: 4,
+      badezimmer: 3,
       adresse: {
-        straße: "Nuernbergerstrasse 59",
+        straße: "Nuernbergerstraße 59",
         stadt: "Scharbeutz",
         postleitzahl: "23684",
         bundesland: "Schleswig-Holstein",
@@ -52435,7 +52435,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 1
+      vergangeneTageSeitVeröffentlichung: 214
     }
   },
   {
@@ -52445,13 +52445,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 903169,
-      bezugsart: "kaufen",
-      wohnfläche: 274,
-      zimmer: 6,
-      badezimmer: 2,
+      preis: 2988,
+      bezugsart: "mieten",
+      wohnfläche: 194,
+      zimmer: 2,
+      badezimmer: 3,
       adresse: {
-        straße: "Michaelkirchstr. 29",
+        straße: "Michaelkirchstraße 29",
         stadt: "Frielendorf",
         postleitzahl: "34621",
         bundesland: "Hessen",
@@ -52472,7 +52472,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 364
+      vergangeneTageSeitVeröffentlichung: 349
     }
   },
   {
@@ -52482,13 +52482,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 355993,
-      bezugsart: "kaufen",
-      wohnfläche: 151,
-      zimmer: 4,
-      badezimmer: 4,
+      preis: 1222,
+      bezugsart: "mieten",
+      wohnfläche: 402,
+      zimmer: 7,
+      badezimmer: 3,
       adresse: {
-        straße: "Michaelkirchstr. 59",
+        straße: "Michaelkirchstraße 59",
         stadt: "Bad Oeynhausen Dehme",
         postleitzahl: "32549",
         bundesland: "Nordrhein-Westfalen",
@@ -52509,7 +52509,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 206
+      vergangeneTageSeitVeröffentlichung: 196
     }
   },
   {
@@ -52519,13 +52519,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 597220,
-      bezugsart: "kaufen",
-      wohnfläche: 283,
-      zimmer: 2,
+      preis: 2837,
+      bezugsart: "mieten",
+      wohnfläche: 293,
+      zimmer: 6,
       badezimmer: 4,
       adresse: {
-        straße: "Hermannstrasse 97",
+        straße: "Hermannstraße 97",
         stadt: "Leimen",
         postleitzahl: "66978",
         bundesland: "Rheinland-Pfalz",
@@ -52546,7 +52546,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 333
+      vergangeneTageSeitVeröffentlichung: 360
     }
   },
   {
@@ -52556,11 +52556,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 952854,
-      bezugsart: "kaufen",
-      wohnfläche: 402,
-      zimmer: 6,
-      badezimmer: 2,
+      preis: 1083,
+      bezugsart: "mieten",
+      wohnfläche: 465,
+      zimmer: 7,
+      badezimmer: 3,
       adresse: {
         straße: "Ollenhauer Str. 21",
         stadt: "Stuttgart Nord",
@@ -52583,7 +52583,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 306
+      vergangeneTageSeitVeröffentlichung: 19
     }
   },
   {
@@ -52593,16 +52593,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 520569,
-      bezugsart: "kaufen",
-      wohnfläche: 175,
+      preis: 3146,
+      bezugsart: "mieten",
+      wohnfläche: 357,
       zimmer: 3,
-      badezimmer: 4,
+      badezimmer: 1,
       adresse: {
-        straße: "Albrechtstrasse 89",
+        straße: "Albrechtstraße 89",
         stadt: "Kempten",
         postleitzahl: "87415",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.733376",
         longitude: "10.36297"
       },
@@ -52620,7 +52620,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 136
+      vergangeneTageSeitVeröffentlichung: 104
     }
   },
   {
@@ -52630,11 +52630,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1236422,
-      bezugsart: "kaufen",
-      wohnfläche: 445,
+      preis: 1570,
+      bezugsart: "mieten",
+      wohnfläche: 572,
       zimmer: 7,
-      badezimmer: 1,
+      badezimmer: 2,
       adresse: {
         straße: "Budapester Straße 81",
         stadt: "Ohlweiler",
@@ -52657,7 +52657,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 317
+      vergangeneTageSeitVeröffentlichung: 48
     }
   },
   {
@@ -52667,16 +52667,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 456350,
-      bezugsart: "kaufen",
-      wohnfläche: 535,
-      zimmer: 7,
-      badezimmer: 3,
+      preis: 2457,
+      bezugsart: "mieten",
+      wohnfläche: 417,
+      zimmer: 6,
+      badezimmer: 4,
       adresse: {
-        straße: "Schillerstrasse 9",
+        straße: "Schillerstraße 9",
         stadt: "Egling",
         postleitzahl: "82542",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "47.859227",
         longitude: "11.557818"
       },
@@ -52694,7 +52694,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 251
+      vergangeneTageSeitVeröffentlichung: 235
     }
   },
   {
@@ -52704,16 +52704,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1320090,
-      bezugsart: "kaufen",
-      wohnfläche: 508,
-      zimmer: 6,
+      preis: 2069,
+      bezugsart: "mieten",
+      wohnfläche: 285,
+      zimmer: 7,
       badezimmer: 2,
       adresse: {
         straße: "Lange Strasse 81",
         stadt: "Puchheim",
         postleitzahl: "82168",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.134063",
         longitude: "11.443474"
       },
@@ -52731,7 +52731,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 309
+      vergangeneTageSeitVeröffentlichung: 200
     }
   },
   {
@@ -52741,16 +52741,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 515691,
-      bezugsart: "kaufen",
-      wohnfläche: 424,
-      zimmer: 4,
+      preis: 3659,
+      bezugsart: "mieten",
+      wohnfläche: 186,
+      zimmer: 6,
       badezimmer: 4,
       adresse: {
-        straße: "Scharnweberstrasse 68",
+        straße: "Scharnweberstraße 68",
         stadt: "Kahl",
         postleitzahl: "63796",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "50.011889",
         longitude: "9.068309"
       },
@@ -52768,7 +52768,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 132
+      vergangeneTageSeitVeröffentlichung: 191
     }
   },
   {
@@ -52778,11 +52778,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 860780,
-      bezugsart: "kaufen",
-      wohnfläche: 326,
-      zimmer: 2,
-      badezimmer: 2,
+      preis: 1849,
+      bezugsart: "mieten",
+      wohnfläche: 529,
+      zimmer: 7,
+      badezimmer: 3,
       adresse: {
         straße: "Lützowplatz 68",
         stadt: "Betteldorf",
@@ -52805,7 +52805,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 246
+      vergangeneTageSeitVeröffentlichung: 11
     }
   },
   {
@@ -52815,11 +52815,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1040733,
-      bezugsart: "kaufen",
-      wohnfläche: 533,
-      zimmer: 7,
-      badezimmer: 1,
+      preis: 1709,
+      bezugsart: "mieten",
+      wohnfläche: 114,
+      zimmer: 2,
+      badezimmer: 3,
       adresse: {
         straße: "Waßmannsdorfer Chaussee 23",
         stadt: "Hamburg Alsterdorf",
@@ -52842,7 +52842,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 93
+      vergangeneTageSeitVeröffentlichung: 345
     }
   },
   {
@@ -52852,11 +52852,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 490516,
-      bezugsart: "kaufen",
-      wohnfläche: 370,
-      zimmer: 3,
-      badezimmer: 4,
+      preis: 2286,
+      bezugsart: "mieten",
+      wohnfläche: 468,
+      zimmer: 5,
+      badezimmer: 2,
       adresse: {
         straße: "Jenaer Strasse 54",
         stadt: "Wuppertal Elberfeld",
@@ -52879,7 +52879,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 347
+      vergangeneTageSeitVeröffentlichung: 84
     }
   },
   {
@@ -52889,11 +52889,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1315229,
-      bezugsart: "kaufen",
-      wohnfläche: 494,
+      preis: 1678,
+      bezugsart: "mieten",
+      wohnfläche: 172,
       zimmer: 2,
-      badezimmer: 2,
+      badezimmer: 3,
       adresse: {
         straße: "Luckenwalder Strasse 99",
         stadt: "Haßbergen",
@@ -52916,7 +52916,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 336
+      vergangeneTageSeitVeröffentlichung: 82
     }
   },
   {
@@ -52926,13 +52926,13 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 985457,
-      bezugsart: "kaufen",
-      wohnfläche: 76,
+      preis: 3434,
+      bezugsart: "mieten",
+      wohnfläche: 257,
       zimmer: 6,
-      badezimmer: 4,
+      badezimmer: 2,
       adresse: {
-        straße: "Mollstrasse 38",
+        straße: "Mollstraße 38",
         stadt: "Stadecken-Elsheim",
         postleitzahl: "55271",
         bundesland: "Rheinland-Pfalz",
@@ -52953,7 +52953,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 215
+      vergangeneTageSeitVeröffentlichung: 248
     }
   },
   {
@@ -52963,16 +52963,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1161994,
-      bezugsart: "kaufen",
-      wohnfläche: 501,
-      zimmer: 7,
-      badezimmer: 1,
+      preis: 1806,
+      bezugsart: "mieten",
+      wohnfläche: 79,
+      zimmer: 6,
+      badezimmer: 3,
       adresse: {
         straße: "Alt Reinickendorf 52",
         stadt: "Meitingen",
         postleitzahl: "86405",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "48.45996",
         longitude: "10.941735"
       },
@@ -52990,7 +52990,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 170
+      vergangeneTageSeitVeröffentlichung: 2
     }
   },
   {
@@ -53000,16 +53000,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 550727,
-      bezugsart: "kaufen",
-      wohnfläche: 511,
-      zimmer: 5,
+      preis: 3764,
+      bezugsart: "mieten",
+      wohnfläche: 573,
+      zimmer: 2,
       badezimmer: 3,
       adresse: {
         straße: "Prenzlauer Allee 88",
         stadt: "Leipzig",
         postleitzahl: "04289",
-        bundesland: "Freistaat Sachsen",
+        bundesland: "Sachsen",
         latitude: "51.428666",
         longitude: "12.298433"
       },
@@ -53027,7 +53027,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 301
+      vergangeneTageSeitVeröffentlichung: 61
     }
   },
   {
@@ -53037,16 +53037,16 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 1063789,
-      bezugsart: "kaufen",
-      wohnfläche: 345,
-      zimmer: 3,
+      preis: 1719,
+      bezugsart: "mieten",
+      wohnfläche: 285,
+      zimmer: 4,
       badezimmer: 1,
       adresse: {
-        straße: "Kantstrasse 41",
+        straße: "Kantstraße 41",
         stadt: "Nürnberg",
         postleitzahl: "90234",
-        bundesland: "Freistaat Bayern",
+        bundesland: "Bayern",
         latitude: "49.511684",
         longitude: "10.984891"
       },
@@ -53064,7 +53064,7 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 258
+      vergangeneTageSeitVeröffentlichung: 98
     }
   },
   {
@@ -53074,11 +53074,11 @@ const IMMO_DATA = [
       unterTitle: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      preis: 567189,
-      bezugsart: "kaufen",
-      wohnfläche: 448,
+      preis: 3192,
+      bezugsart: "mieten",
+      wohnfläche: 483,
       zimmer: 7,
-      badezimmer: 2,
+      badezimmer: 4,
       adresse: {
         straße: "Budapester Strasse 86",
         stadt: "Neumünster",
@@ -53101,9 +53101,9 @@ const IMMO_DATA = [
         sechs:
           "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDUxOX0"
       },
-      vergangeneTageSeitVeröffentlichung: 196
+      vergangeneTageSeitVeröffentlichung: 138
     }
   }
 ];
 
-  export default IMMO_DATA;
+export default IMMO_DATA;
