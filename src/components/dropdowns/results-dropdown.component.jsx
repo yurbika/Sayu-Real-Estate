@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 
 import immoData from "../../immo-data/immo.data";
-import { filterDatas } from "../../immo-data/immo-data.utils";
+import { filterData } from "../../immo-data/immo-data.utils";
 
 import { ID_GENERATOR } from "../../uniqueKey";
 
@@ -51,7 +51,7 @@ class Results extends React.Component {
       staedteOrteArray,
       straßenPlzOrtArray,
       suchtreffer
-    } = filterDatas(
+    } = filterData(
       immoData,
       haustyp.toLowerCase(),
       bezugsart.toLowerCase(),
@@ -77,7 +77,7 @@ class Results extends React.Component {
       staedteOrteArray,
       straßenPlzOrtArray,
       suchtreffer
-    } = filterDatas(
+    } = filterData(
       immoData,
       haustyp.toLowerCase(),
       bezugsart.toLowerCase(),
