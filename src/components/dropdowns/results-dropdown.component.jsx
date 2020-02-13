@@ -28,7 +28,7 @@ import DropdownActionTypes from "../../redux/dropdown/dropdown.types";
 const Results = ({
   bundeslaenderArray,
   staedteOrteArray,
-  straßenPlzOrt,
+  straßenPlzOrtArray,
   setSearchInput,
   toggleDropdown
 }) => {
@@ -67,10 +67,10 @@ const Results = ({
             ))}
           </ul>
         ) : null}
-        {!!straßenPlzOrt.length ? <h4>Straßen</h4> : null}
-        {!!straßenPlzOrt.length ? (
+        {!!straßenPlzOrtArray.length ? <h4>Straßen</h4> : null}
+        {!!straßenPlzOrtArray.length ? (
           <ul>
-            {straßenPlzOrt.map(item => (
+            {straßenPlzOrtArray.map(item => (
               <li
                 key={ID_GENERATOR("straßenPlzOrtArray-")}
                 onClick={e => {
@@ -96,7 +96,7 @@ const mapStateToProps = createStructuredSelector({
   //Result States
   bundeslaenderArray: selectBundesländer,
   staedteOrteArray: selectStädteOrte,
-  straßenPlzOrt: selectStraßenPlzOrt,
+  straßenPlzOrtArray: selectStraßenPlzOrt,
   suchtreffer: selectSuchtreffer,
   //Dropdown
   resultsDropdown: selectResultsDropdown

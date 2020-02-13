@@ -3,6 +3,9 @@ import React from "react";
 import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 
+import IMMO_DATA from "../../immo-data/immo.data";
+import { filterData } from "../../immo-data/immo-data.utils";
+
 //Component imports
 import Input from "../../components/input/input.component";
 import {
@@ -16,9 +19,6 @@ import Button from "../../components/button/button.component";
 import PreisDropdown from "../../components/dropdowns/preis-dropdown.component";
 import AuswahlDropdown from "../dropdowns/auswahl-dropdown.component";
 import Results from "../dropdowns/results-dropdown.component";
-
-import IMMO_DATA from "../../immo-data/immo.data";
-import { filterData } from "../../immo-data/immo-data.utils";
 
 //redux
 import {
@@ -79,9 +79,6 @@ class Suchleiste extends React.Component {
       haustyp,
       resetInputMax,
       resetInputMin,
-      suchtreffer,
-      resultsDropdown,
-      toggleDropdown,
       input,
       setBundesländer,
       setStraßenPlzOrte,
@@ -105,14 +102,6 @@ class Suchleiste extends React.Component {
       setStraßenPlzOrte(straßenPlzOrtArray);
       setStädteOrte(staedteOrteArray);
     }
-    // if (
-    //   suchtreffer !== prevProps.suchtreffer &&
-    //   suchtreffer > 0 &&
-    //   !resultsDropdown
-    // )
-    //   toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
-    // if (suchtreffer === 0 && resultsDropdown)
-    //   toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
     if (prevProps.bezugsart !== bezugsart) {
       resetInputMax();
       resetInputMin();
@@ -155,10 +144,12 @@ class Suchleiste extends React.Component {
                 value={input}
                 onChange={e => {
                   setSearchInput(e.target.value);
-                  if (suchtreffer > 0 && !resultsDropdown) {
+                  if (
+                    (suchtreffer > 0 || suchtreffer === null) &&
+                    !resultsDropdown
+                  ) {
                     toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
-                  } else if (!resultsDropdown)
-                    toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
+                  }
                 }}
                 onFocus={() => {
                   if (
