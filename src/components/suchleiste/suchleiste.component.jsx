@@ -17,6 +17,9 @@ import PreisDropdown from "../../components/dropdowns/preis-dropdown.component";
 import AuswahlDropdown from "../dropdowns/auswahl-dropdown.component";
 import Results from "../dropdowns/results-dropdown.component";
 
+import IMMO_DATA from "../../immo-data/immo.data";
+import { filterData } from "../../immo-data/immo-data.utils";
+
 //redux
 import {
   selectBezugsart,
@@ -47,6 +50,12 @@ import toggleDropdown from "../../redux/dropdown/dropdown.action";
 import DropdownActionTypes from "../../redux/dropdown/dropdown.types";
 
 import { selectSuchtreffer } from "../../redux/results-dropdown/results.selectors";
+import {
+  setBundesländer,
+  setStraßenPlzOrte,
+  setStädteOrte,
+  setSuchtreffer
+} from "../../redux/results-dropdown/results.action";
 
 //styles
 import {
@@ -67,12 +76,35 @@ class Suchleiste extends React.Component {
       minInput,
       setPreis,
       bezugsart,
+      haustyp,
       resetInputMax,
       resetInputMin,
       suchtreffer,
       resultsDropdown,
-      toggleDropdown
+      toggleDropdown,
+      input,
+      setBundesländer,
+      setStraßenPlzOrte,
+      setStädteOrte,
+      setSuchtreffer
     } = this.props;
+    if (input !== prevProps.input) {
+      const {
+        bundeslaenderArray,
+        staedteOrteArray,
+        straßenPlzOrtArray,
+        suchtreffer
+      } = filterData(
+        IMMO_DATA,
+        haustyp.toLowerCase(),
+        bezugsart.toLowerCase(),
+        input
+      );
+      setSuchtreffer(suchtreffer);
+      setBundesländer(bundeslaenderArray);
+      setStraßenPlzOrte(straßenPlzOrtArray);
+      setStädteOrte(staedteOrteArray);
+    }
     if (
       suchtreffer !== prevProps.suchtreffer &&
       suchtreffer > 0 &&
@@ -94,7 +126,7 @@ class Suchleiste extends React.Component {
       input,
       preis,
       zimmerAnzahl,
-      haustype,
+      haustyp,
       fläche,
       preisDropdown,
       bezugsartDropdown,
@@ -125,7 +157,6 @@ class Suchleiste extends React.Component {
                   setSearchInput(e.target.value);
                   if (suchtreffer > 0 && !resultsDropdown) {
                     toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
-                    console.log("his");
                   } else if (!resultsDropdown)
                     toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
                 }}
@@ -166,7 +197,7 @@ class Suchleiste extends React.Component {
                 }
                 id="filter-button"
               >
-                {haustype}
+                {haustyp}
               </Button>
               <Button suchButton>
                 {suchtreffer > 0 && !!input
@@ -226,7 +257,7 @@ class Suchleiste extends React.Component {
           {immobilientypDropdown ? (
             <AuswahlDropdown
               additionalStyle="haus"
-              children={[haustype === "Wohnung" ? "Haus" : "Wohnung"]}
+              children={[haustyp === "Wohnung" ? "Haus" : "Wohnung"]}
             />
           ) : null}
           {zimmerDropdown ? (
@@ -258,7 +289,7 @@ const mapStateToProps = createStructuredSelector({
   input: selectSearchInput,
   zimmerAnzahl: selectZimmerAnzahl,
   fläche: selectFläche,
-  haustype: selectHaustyp,
+  haustyp: selectHaustyp,
   minInput: selectMinInput,
   maxInput: selectMaxInput,
   //Dropdown States
@@ -279,7 +310,14 @@ const mapDispatchToProps = dispatch => ({
   setPreis: preis => dispatch(setPreis(preis)),
   resetInputMax: () => dispatch(resetInputMax()),
   resetInputMin: () => dispatch(resetInputMin()),
-  setSearchInput: value => dispatch(setSearchInput(value))
+  setSearchInput: value => dispatch(setSearchInput(value)),
+  //results action
+  setBundesländer: bundesländerArray =>
+    dispatch(setBundesländer(bundesländerArray)),
+  setStädteOrte: städteOrteArray => dispatch(setStädteOrte(städteOrteArray)),
+  setStraßenPlzOrte: straßenPlzOrteArray =>
+    dispatch(setStraßenPlzOrte(straßenPlzOrteArray)),
+  setSuchtreffer: num => dispatch(setSuchtreffer(num))
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Suchleiste);
