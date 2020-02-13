@@ -105,14 +105,14 @@ class Suchleiste extends React.Component {
       setStraßenPlzOrte(straßenPlzOrtArray);
       setStädteOrte(staedteOrteArray);
     }
-    if (
-      suchtreffer !== prevProps.suchtreffer &&
-      suchtreffer > 0 &&
-      !resultsDropdown
-    )
-      toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
-    if (suchtreffer === 0 && resultsDropdown)
-      toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
+    // if (
+    //   suchtreffer !== prevProps.suchtreffer &&
+    //   suchtreffer > 0 &&
+    //   !resultsDropdown
+    // )
+    //   toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
+    // if (suchtreffer === 0 && resultsDropdown)
+    //   toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
     if (prevProps.bezugsart !== bezugsart) {
       resetInputMax();
       resetInputMin();
@@ -246,7 +246,7 @@ class Suchleiste extends React.Component {
           {/***********************************
            *        Die Dropdowns             *
            ************************************/}
-          {resultsDropdown ? <Results /> : null}
+          {resultsDropdown && suchtreffer > 0 ? <Results /> : null}
 
           {preisDropdown ? <PreisDropdown /> : null}
           {bezugsartDropdown ? (
