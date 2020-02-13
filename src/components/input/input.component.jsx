@@ -1,8 +1,37 @@
 import React from "react";
+import { connect } from "react-redux";
+import { createStructuredSelector } from "reselect";
+
+//redux import
+import { selectSearchInput } from "../../redux/filter/filter.selectors";
+import { clearSearchInput } from "../../redux/filter/filter.action";
 
 //import styles
-import InputStyled from "./input.styles";
+import { InputStyled, Wrapper, ClearInputButton } from "./input.styles";
 
-const Input = props => <InputStyled autoComplete="off" {...props} />;
+const Input = props => {
+  if (!props.löschButton) return <InputStyled autoComplete="off" {...props} />;
+  else
+    return (
+      <Wrapper>
+        <InputStyled autoComplete="off" {...props} />
+        {!!props.input ? (
+          <ClearInputButton
+            id="filter-button"
+            onClick={() => props.clearSearchInput()}
+          />
+        ) : null}
+      </Wrapper>
+    );
+};
 
-export default Input;
+const mapStateToProps = createStructuredSelector({
+  //Filter States
+  input: selectSearchInput
+});
+
+const mapDispatchToProps = dispatch => ({
+  clearSearchInput: () => dispatch(clearSearchInput())
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(Input);

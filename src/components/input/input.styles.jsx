@@ -5,6 +5,7 @@ const getInputStyles = props => {
   if (props.inputStartseite)
     return css`
       border-radius: 15px 0 0 15px;
+      padding-right: 2rem;
     `;
   if (props.dropdownInput) {
     return css`
@@ -14,7 +15,7 @@ const getInputStyles = props => {
   }
 };
 
-const InputStyled = styled.input`
+export const InputStyled = styled.input`
   height: 2.5rem;
   min-width: 4rem;
   width: 18rem;
@@ -41,4 +42,41 @@ const InputStyled = styled.input`
   ${getInputStyles}
 `;
 
-export default InputStyled;
+export const Wrapper = styled.div`
+  position: relative;
+`;
+
+export const ClearInputButton = styled.button`
+  position: absolute;
+  cursor:pointer;
+  z-index: 1;
+  top: 10px;
+  bottom: 10px;
+  right: 10px;
+  border: 0;
+  padding: 0 10px;
+  border-radius: 50%;
+  background-color: ${theme.colors.lightWhite}
+  transition: background 200ms;
+  outline: none;
+
+  &:hover {
+    background-color: ${theme.colors.transBlack}; 
+  }
+  &:before, &:after {
+    content: '';
+    position: absolute;
+    right: 9px;
+    top:4px;
+    height: 12px;
+    width: 2px;
+    background-color: ${theme.colors.black};
+  }
+  &:before {
+    transform: rotate(45deg);
+  }
+  &:after {
+    transform: rotate(-45deg);
+  }
+}
+`;

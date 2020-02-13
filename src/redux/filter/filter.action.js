@@ -30,6 +30,11 @@ export const setSearchInput = value => ({
   payload: value
 });
 
+export const clearSearchInput = () => ({
+  type: FilterActionTypes.SET_SEARCH_INPUT,
+  payload: ""
+});
+
 //fuer bezugsart und immobilienart weil sie ein nur ein component haben
 export const setArt = (text, type) => ({
   type: type,

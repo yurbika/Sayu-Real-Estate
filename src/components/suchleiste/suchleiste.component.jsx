@@ -141,6 +141,7 @@ class Suchleiste extends React.Component {
                 id="filter-button"
                 inputType="search"
                 placeholder="Wo: Ort, Bundesland oder PLZ"
+                löschButton
                 value={input}
                 onChange={e => {
                   setSearchInput(e.target.value);
