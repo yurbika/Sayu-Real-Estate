@@ -1,46 +1,26 @@
 import React from "react";
 import { connect } from "react-redux";
 
+//component imports
 import BilderVorschauContainer from "../bilder-container/bild-container.component";
 import Button from "../button/button.component";
 
+//redux imports
 import { toggleExpand } from "../../redux/inspiration-sketion/inspiration.action";
 
+//style import
 import "./inspiration.styles.scss";
-
-//expand ist ein state es müssen alle eingebunden werden damit entschieden werden kann welcher gebraucht wird
 
 const InspirationContainer = ({
   children,
-  expand1,
-  expand2,
-  expand3,
-  num,
-  toggleExpand
+  expand,
+  toggleExpand,
+  toggleExpandButtonNum
 }) => (
-  <div
-    className={
-      "inspiration-container " +
-      ((num === 1
-      ? expand1
-      : num === 2
-      ? expand2
-      : num === 3
-      ? expand3
-      : null)
-        ? "big"
-        : "")
-    }
-  >
+  <div className={"inspiration-container " + (expand ? "big" : "")}>
     <div className="beschreibung">{children}</div>
-
-    <BilderVorschauContainer
-      expand={
-        num === 1 ? expand1 : num === 2 ? expand2 : num === 3 ? expand3 : null
-      }
-    />
-
-    <Button aktionsButton onClick={() => toggleExpand(num)}>
+    <BilderVorschauContainer expand={expand} />
+    <Button aktionsButton onClick={() => toggleExpand(toggleExpandButtonNum)}>
       Mehr anzeigen
     </Button>
   </div>
@@ -50,15 +30,4 @@ const mapDispatchToProps = dispatch => ({
   toggleExpand: num => dispatch(toggleExpand(num))
 });
 
-const mapStateToProps = ({
-  inspirationsSketion: { expand1, expand2, expand3 }
-}) => ({
-  expand1,
-  expand2,
-  expand3
-});
-
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(InspirationContainer);
+export default connect(null, mapDispatchToProps)(InspirationContainer);

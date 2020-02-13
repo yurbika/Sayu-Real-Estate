@@ -1,3 +1,5 @@
+import IMMO_DATA from "./immo.data";
+
 const createRegex = splitedStr => {
   let str = "";
   for (let i = 0; i < splitedStr.length; i++) {
@@ -9,7 +11,7 @@ const createRegex = splitedStr => {
   return regex;
 };
 
-export const filterData = (data, haustyp, bezugsart, search) => {
+export const filterData = (haustyp, bezugsart, search, data = IMMO_DATA) => {
   let bundeslaenderArray = [];
   let staedteOrteArray = [];
   let straßenPlzOrtArray = [];

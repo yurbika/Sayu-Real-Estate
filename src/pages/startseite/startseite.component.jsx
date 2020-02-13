@@ -1,4 +1,6 @@
 import React from "react";
+import { connect } from "react-redux";
+import { createStructuredSelector } from "reselect";
 
 //import components
 import Button from "../../components/button/button.component";
@@ -7,6 +9,13 @@ import InspirationContainer from "../../components/inspiration/inspiration-conta
 
 //import funktion
 import { toSection } from "../../components/button/button.utils";
+
+//redux imports
+import {
+  selectExpand1,
+  selectExpand2,
+  selectExpand3
+} from "../../redux/inspiration-sketion/inspiration.selectors";
 
 //import styles
 import {
@@ -17,7 +26,7 @@ import {
   InspirationsSection
 } from "./startseite.styles";
 
-const Startseite = () => (
+const Startseite = ({ expand1, expand2, expand3, ...otherProps }) => (
   <StartseiteContainer>
     <ContainerSuchleiste>
       <BackgroundImageFilter />
@@ -30,15 +39,15 @@ const Startseite = () => (
       />
     </ContainerSuchleiste>
     <InspirationsSection id="inspirations-section">
-      <InspirationContainer num={1}>
+      <InspirationContainer expand={expand1} toggleExpandButtonNum={1}>
         <span className="first">Inspiration</span>
         <span>Luxushäuser</span>
       </InspirationContainer>
-      <InspirationContainer num={2}>
+      <InspirationContainer expand={expand2} toggleExpandButtonNum={2}>
         <span className="first">Inspiration</span>
         <span>Wohnungen</span>
       </InspirationContainer>
-      <InspirationContainer num={3}>
+      <InspirationContainer expand={expand3} toggleExpandButtonNum={3}>
         <span className="first">Inspiration</span>
         <span>Klassiker</span>
       </InspirationContainer>
@@ -46,4 +55,10 @@ const Startseite = () => (
   </StartseiteContainer>
 );
 
-export default Startseite;
+const mapStateToProps = createStructuredSelector({
+  expand1: selectExpand1,
+  expand2: selectExpand2,
+  expand3: selectExpand3
+});
+
+export default connect(mapStateToProps)(Startseite);

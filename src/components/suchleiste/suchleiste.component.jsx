@@ -3,7 +3,6 @@ import React from "react";
 import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 
-import IMMO_DATA from "../../immo-data/immo.data";
 import { filterData } from "../../immo-data/immo-data.utils";
 
 //Component imports
@@ -91,12 +90,7 @@ class Suchleiste extends React.Component {
         staedteOrteArray,
         straßenPlzOrtArray,
         suchtreffer
-      } = filterData(
-        IMMO_DATA,
-        haustyp.toLowerCase(),
-        bezugsart.toLowerCase(),
-        input
-      );
+      } = filterData(haustyp.toLowerCase(), bezugsart.toLowerCase(), input);
       setSuchtreffer(suchtreffer);
       setBundesländer(bundeslaenderArray);
       setStraßenPlzOrte(straßenPlzOrtArray);
@@ -153,6 +147,7 @@ class Suchleiste extends React.Component {
                   }
                 }}
                 onFocus={() => {
+                  //dieser if hier sorgt dafür das beim focus auch wenn der input leer ist alle dropdowns geschloßen werden bis auf result
                   if (
                     (preisDropdown ||
                       bezugsartDropdown ||
@@ -239,7 +234,6 @@ class Suchleiste extends React.Component {
            *        Die Dropdowns             *
            ************************************/}
           {resultsDropdown && suchtreffer > 0 ? <Results /> : null}
-
           {preisDropdown ? <PreisDropdown /> : null}
           {bezugsartDropdown ? (
             <AuswahlDropdown
