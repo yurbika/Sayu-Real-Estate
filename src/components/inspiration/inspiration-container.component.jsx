@@ -15,11 +15,12 @@ const InspirationContainer = ({
   children,
   expand,
   toggleExpand,
-  toggleExpandButtonNum
+  toggleExpandButtonNum,
+  filter
 }) => (
   <div className={"inspiration-container " + (expand ? "big" : "")}>
     <div className="beschreibung">{children}</div>
-    <BilderVorschauContainer expand={expand} />
+    <BilderVorschauContainer expand={expand} filter={filter} />
     <Button aktionsButton onClick={() => toggleExpand(toggleExpandButtonNum)}>
       Mehr anzeigen
     </Button>

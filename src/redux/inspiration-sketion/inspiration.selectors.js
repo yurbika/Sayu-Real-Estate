@@ -16,3 +16,19 @@ export const selectExpand3 = createSelector(
   [selectInspirationsSektion],
   inspirationsSketion => inspirationsSketion.expand3
 );
+
+//diese selektoren sind optional
+export const selectLuxushäuserFilter = createSelector(
+  [selectInspirationsSektion],
+  selectInspirationsSektion => selectInspirationsSektion.luxushäuser
+);
+
+export const selectWohnungenFilter = createSelector(
+  [selectInspirationsSektion],
+  selectInspirationsSektion => selectInspirationsSektion.wohnungen
+);
+
+export const selectKlassikerFilter = createSelector(
+  [selectInspirationsSektion],
+  selectInspirationsSektion => selectInspirationsSektion.klassiker
+);

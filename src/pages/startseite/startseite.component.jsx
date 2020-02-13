@@ -14,7 +14,10 @@ import { toSection } from "../../components/button/button.utils";
 import {
   selectExpand1,
   selectExpand2,
-  selectExpand3
+  selectExpand3,
+  selectLuxushäuserFilter,
+  selectKlassikerFilter,
+  selectWohnungenFilter
 } from "../../redux/inspiration-sketion/inspiration.selectors";
 
 //import styles
@@ -26,7 +29,15 @@ import {
   InspirationsSection
 } from "./startseite.styles";
 
-const Startseite = ({ expand1, expand2, expand3, ...otherProps }) => (
+const Startseite = ({
+  expand1,
+  expand2,
+  expand3,
+  luxushäuser,
+  wohnungen,
+  klassiker,
+  ...otherProps
+}) => (
   <StartseiteContainer>
     <ContainerSuchleiste>
       <BackgroundImageFilter />
@@ -39,15 +50,27 @@ const Startseite = ({ expand1, expand2, expand3, ...otherProps }) => (
       />
     </ContainerSuchleiste>
     <InspirationsSection id="inspirations-section">
-      <InspirationContainer expand={expand1} toggleExpandButtonNum={1}>
+      <InspirationContainer
+        expand={expand1}
+        toggleExpandButtonNum={1}
+        filter={luxushäuser}
+      >
         <span className="first">Inspiration</span>
         <span>Luxushäuser</span>
       </InspirationContainer>
-      <InspirationContainer expand={expand2} toggleExpandButtonNum={2}>
+      <InspirationContainer
+        expand={expand2}
+        toggleExpandButtonNum={2}
+        filter={wohnungen}
+      >
         <span className="first">Inspiration</span>
         <span>Wohnungen</span>
       </InspirationContainer>
-      <InspirationContainer expand={expand3} toggleExpandButtonNum={3}>
+      <InspirationContainer
+        expand={expand3}
+        toggleExpandButtonNum={3}
+        filter={klassiker}
+      >
         <span className="first">Inspiration</span>
         <span>Klassiker</span>
       </InspirationContainer>
@@ -58,7 +81,10 @@ const Startseite = ({ expand1, expand2, expand3, ...otherProps }) => (
 const mapStateToProps = createStructuredSelector({
   expand1: selectExpand1,
   expand2: selectExpand2,
-  expand3: selectExpand3
+  expand3: selectExpand3,
+  luxushäuser: selectLuxushäuserFilter,
+  wohnungen: selectWohnungenFilter,
+  klassiker: selectKlassikerFilter
 });
 
 export default connect(mapStateToProps)(Startseite);

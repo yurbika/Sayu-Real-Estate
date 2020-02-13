@@ -11,7 +11,12 @@ const createRegex = splitedStr => {
   return regex;
 };
 
-export const filterData = (haustyp, bezugsart, search, data = IMMO_DATA) => {
+export const filterDataWithSearch = (
+  haustyp,
+  bezugsart,
+  search,
+  data = IMMO_DATA
+) => {
   let bundeslaenderArray = [];
   let staedteOrteArray = [];
   let straßenPlzOrtArray = [];
@@ -99,3 +104,5 @@ export const filterData = (haustyp, bezugsart, search, data = IMMO_DATA) => {
     suchtreffer
   };
 };
+
+export const filterDataWithFilter = () => {};

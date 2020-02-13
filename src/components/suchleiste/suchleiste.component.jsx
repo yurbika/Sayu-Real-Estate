@@ -3,7 +3,7 @@ import React from "react";
 import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 
-import { filterData } from "../../immo-data/immo-data.utils";
+import { filterDataWithSearch } from "../../immo-data/immo-data.utils";
 
 //Component imports
 import Input from "../../components/input/input.component";
@@ -82,7 +82,8 @@ class Suchleiste extends React.Component {
       setBundesländer,
       setStraßenPlzOrte,
       setStädteOrte,
-      setSuchtreffer
+      setSuchtreffer,
+      resultsDropdown
     } = this.props;
     if (input !== prevProps.input) {
       const {
@@ -90,12 +91,19 @@ class Suchleiste extends React.Component {
         staedteOrteArray,
         straßenPlzOrtArray,
         suchtreffer
-      } = filterData(haustyp.toLowerCase(), bezugsart.toLowerCase(), input);
+      } = filterDataWithSearch(
+        haustyp.toLowerCase(),
+        bezugsart.toLowerCase(),
+        input
+      );
       setSuchtreffer(suchtreffer);
       setBundesländer(bundeslaenderArray);
       setStraßenPlzOrte(straßenPlzOrtArray);
       setStädteOrte(staedteOrteArray);
     }
+    //clear button lässt den resultsdropdown state auf true deswegen muss es hier korrigiert werden
+    if (!!!input && resultsDropdown)
+      toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
     if (prevProps.bezugsart !== bezugsart) {
       resetInputMax();
       resetInputMin();
