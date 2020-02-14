@@ -82,8 +82,7 @@ class Suchleiste extends React.Component {
       setBundesländer,
       setStraßenPlzOrte,
       setStädteOrte,
-      setSuchtreffer,
-      resultsDropdown
+      setSuchtreffer
     } = this.props;
     if (input !== prevProps.input) {
       const {
@@ -101,13 +100,12 @@ class Suchleiste extends React.Component {
       setStraßenPlzOrte(straßenPlzOrtArray);
       setStädteOrte(staedteOrteArray);
     }
-    //clear button lässt den resultsdropdown state auf true deswegen muss es hier korrigiert werden
-    if (!!!input && resultsDropdown)
-      toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
+
     if (prevProps.bezugsart !== bezugsart) {
       resetInputMax();
       resetInputMin();
     }
+
     if (prevProps.minInput !== minInput || prevProps.maxInput !== maxInput)
       setPreis(checkInputValue(minInput, maxInput));
   }
@@ -147,8 +145,9 @@ class Suchleiste extends React.Component {
                 value={input}
                 onChange={e => {
                   setSearchInput(e.target.value);
+                  //!!!input sorgt dafür das wenn der input geleert wird das es trotzdem danach ausgelöst wird
                   if (
-                    (suchtreffer > 0 || suchtreffer === null) &&
+                    (suchtreffer > 0 || suchtreffer === null || !!!input) &&
                     !resultsDropdown
                   ) {
                     toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
