@@ -5,11 +5,7 @@ import InspirationsContainerActionType from "./inspiration.types";
 const INITIAL_STATE = {
   expand1: false,
   expand2: false,
-  expand3: false,
-  //sind da um daten zu filtern
-  luxushäuser: { preis: 1000000, bezugsart: "kaufen", haustyp: "haus" },
-  wohnungen: { preis: 1000000, bezugsart: "kaufen", haustyp: "wohnung" },
-  klassiker: { preis: 300, bezugsart: "mieten", haustyp: "wohnung" }
+  expand3: false
 };
 
 const inspirationsReducer = (state = INITIAL_STATE, action) => {

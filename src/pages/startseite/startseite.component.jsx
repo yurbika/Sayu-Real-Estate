@@ -14,10 +14,7 @@ import { toSection } from "../../components/button/button.utils";
 import {
   selectExpand1,
   selectExpand2,
-  selectExpand3,
-  selectLuxushäuserFilter,
-  selectKlassikerFilter,
-  selectWohnungenFilter
+  selectExpand3
 } from "../../redux/inspiration-sketion/inspiration.selectors";
 
 //import styles
@@ -53,7 +50,7 @@ const Startseite = ({
       <InspirationContainer
         expand={expand1}
         toggleExpandButtonNum={1}
-        filter={luxushäuser}
+        filter={{ preis: 1350000, bezugsart: "kaufen", haustyp: "haus" }}
       >
         <span className="first">Inspiration</span>
         <span>Luxushäuser</span>
@@ -61,7 +58,7 @@ const Startseite = ({
       <InspirationContainer
         expand={expand2}
         toggleExpandButtonNum={2}
-        filter={wohnungen}
+        filter={{ preis: 1350000, bezugsart: "kaufen", haustyp: "wohnung" }}
       >
         <span className="first">Inspiration</span>
         <span>Wohnungen</span>
@@ -69,7 +66,7 @@ const Startseite = ({
       <InspirationContainer
         expand={expand3}
         toggleExpandButtonNum={3}
-        filter={klassiker}
+        filter={{ preis: 300, bezugsart: "mieten", haustyp: "wohnung" }}
       >
         <span className="first">Inspiration</span>
         <span>Klassiker</span>
@@ -81,10 +78,7 @@ const Startseite = ({
 const mapStateToProps = createStructuredSelector({
   expand1: selectExpand1,
   expand2: selectExpand2,
-  expand3: selectExpand3,
-  luxushäuser: selectLuxushäuserFilter,
-  wohnungen: selectWohnungenFilter,
-  klassiker: selectKlassikerFilter
+  expand3: selectExpand3
 });
 
 export default connect(mapStateToProps)(Startseite);

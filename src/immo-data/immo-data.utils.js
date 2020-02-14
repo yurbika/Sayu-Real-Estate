@@ -105,4 +105,43 @@ export const filterDataWithSearch = (
   };
 };
 
-export const filterDataWithFilter = () => {};
+export const filterDataWithFilter = (filter, data = IMMO_DATA) => {
+  //haustyp und bezugsart müssen vorhanden sein
+  let immoArray = [];
+  let haustyp = filter["haustyp"];
+  let preis = filter["preis"];
+  let bezugsart = filter["bezugsart"];
+  let wohnfläche = filter["wohnfläche"];
+  let grundstück = filter["grundstück"];
+  let zimmer = filter["zimmer"];
+  let badezimmer = filter["badezimmer"];
+  for (let i in data) {
+    if (!!!haustyp) return immoArray;
+    if (!!!bezugsart) return immoArray;
+    if (!!!data[i][haustyp]) continue;
+    if (data[i][filter["haustyp"]]["bezugsart"] !== bezugsart) continue;
+    if (!!preis) {
+      if (data[i][filter["haustyp"]]["preis"] < preis) continue;
+    }
+    if (!!wohnfläche) {
+      if (data[i][filter["haustyp"]]["wohnfläche"] < wohnfläche) continue;
+    }
+    if (!!grundstück) {
+      if (data[i][filter["haustyp"]]["grundstück"] < grundstück) continue;
+    }
+    if (!!zimmer) {
+      if (data[i][filter["haustyp"]]["zimmer"] < zimmer) continue;
+    }
+    if (!!badezimmer) {
+      if (data[i][filter["haustyp"]]["zimmer"] < badezimmer) continue;
+    }
+    immoArray.push(data[i]);
+  }
+  //zufällige ergebnisse
+  while (immoArray.length > 12) {
+    let randomNum = Math.floor(Math.random() * immoArray.length);
+    immoArray.splice(randomNum, 1);
+  }
+
+  return immoArray;
+};
