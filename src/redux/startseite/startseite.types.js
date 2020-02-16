@@ -1,0 +1,7 @@
+const StartseiteActionTypes = {
+  SET_LUXUSHÄUSER_ARRAY: "SET_LUXUSHÄUSER_ARRAY",
+  SET_WOHNUNGEN_ARRAY: "SET_WOHNUNGEN_ARRAY",
+  SET_KLASSIKER_ARRAY: "SET_KLASSIKER_ARRAY"
+};
+
+export default StartseiteActionTypes;

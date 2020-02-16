@@ -1,5 +1,7 @@
 import IMMO_DATA from "./immo.data";
 
+import { removeDots } from "../components/input/input.utils";
+
 const createRegex = splitedStr => {
   let str = "";
   for (let i = 0; i < splitedStr.length; i++) {
@@ -11,21 +13,39 @@ const createRegex = splitedStr => {
   return regex;
 };
 
-export const filterDataWithSearch = (
-  haustyp,
-  bezugsart,
-  search,
-  data = IMMO_DATA
-) => {
+export const filterData = (filter, data = IMMO_DATA) => {
   let bundeslaenderArray = [];
   let staedteOrteArray = [];
   let straßenPlzOrtArray = [];
+  let immoArray = [];
+  let search = filter["search"];
+  let haustyp = filter["haustyp"].toLowerCase();
+  let minInput = !!filter["minInput"]
+    ? Number(removeDots(filter["minInput"].toString()))
+    : null;
+  let maxInput = !!filter["maxInput"]
+    ? Number(removeDots(filter["maxInput"].toString()))
+    : null;
+  let bezugsart = filter["bezugsart"].toLowerCase();
+  let wohnfläche = !!filter["wohnfläche"]
+    ? Number(removeDots(filter["wohnfläche"].toString()))
+    : null;
+  let grundstück = !!filter["grundstück"]
+    ? Number(removeDots(filter["grundstück"].toString()))
+    : null;
+  let zimmer = !!filter["zimmer"]
+    ? Number(removeDots(filter["zimmer"].toString()))
+    : null;
+  let badezimmer = !!filter["badezimmer"]
+    ? Number(removeDots(filter["badezimmer"].toString()))
+    : null;
   let suchtreffer = 0;
   let totalArrayLength = 0;
-  let splitedStr = search.split(/[ ,-]+/);
+  let splitedStr = !!search ? search.split(/[ ,-]+/) : "";
+  console.log(wohnfläche);
   //entfernt alles leere
-  splitedStr = splitedStr.filter(i => i);
-  let regex = splitedStr.length > 0 ? createRegex(splitedStr) : null;
+  splitedStr = !!search ? splitedStr.filter(i => i) : "";
+  let regex = splitedStr.length > 0 ? createRegex(splitedStr) : "";
   //hier wird für bundesländer/ortschaften gefiltert davon ist die gesamt anzahl des arrays abhängig
   //deswegen gibt es dafür zwei for schleifen
   for (let i in data) {
@@ -57,8 +77,6 @@ export const filterDataWithSearch = (
     }
   }
   totalArrayLength = 12 - (bundeslaenderArray.length + staedteOrteArray.length);
-  //hier werden alle möglichkeiten durch getestet für die kombination der straße/plz/stadt/bundesland/
-  //eine adresse ist eigentlich einzigartig jedoch wird hier es trotzdem gefiltert damit es nur einmal kommt
   for (let i in data) {
     if (!!!data[i][haustyp]) continue;
     if (data[i][haustyp]["bezugsart"] !== bezugsart) continue;
@@ -80,10 +98,27 @@ export const filterDataWithSearch = (
         data[i][haustyp]["adresse"]["stadt"] +
         " - " +
         data[i][haustyp]["adresse"]["bundesland"]
-      ).match(regex) &&
-      search !== ""
+      ).match(regex)
     ) {
-      if (straßenPlzOrtArray.length < totalArrayLength) {
+      if (minInput !== 0 && !!minInput) {
+        if (data[i][haustyp]["preis"] < minInput) continue;
+      }
+      if (maxInput !== 0 && !!maxInput) {
+        if (data[i][haustyp]["preis"] > maxInput) continue;
+      }
+      if (!!wohnfläche) {
+        if (data[i][haustyp]["wohnfläche"] < wohnfläche) continue;
+      }
+      if (!!grundstück) {
+        if (data[i][haustyp]["grundstück"] < grundstück) continue;
+      }
+      if (!!zimmer) {
+        if (data[i][haustyp]["zimmer"] < zimmer) continue;
+      }
+      if (!!badezimmer) {
+        if (data[i][haustyp]["zimmer"] < badezimmer) continue;
+      }
+      if (straßenPlzOrtArray.length < totalArrayLength && search !== "") {
         straßenPlzOrtArray.push(
           data[i][haustyp]["adresse"]["straße"] +
             ", " +
@@ -93,55 +128,23 @@ export const filterDataWithSearch = (
             " - " +
             data[i][haustyp]["adresse"]["bundesland"]
         );
+      } else {
+        immoArray.push(data[i]);
       }
       suchtreffer++;
     }
+  }
+  /*zufällige ergebnisse für immoArray welches für die
+  Inspirationssektion ist*/
+  while (immoArray.length > 12) {
+    let randomNum = Math.floor(Math.random() * immoArray.length);
+    immoArray.splice(randomNum, 1);
   }
   return {
     bundeslaenderArray,
     staedteOrteArray,
     straßenPlzOrtArray,
-    suchtreffer
+    suchtreffer,
+    immoArray
   };
-};
-
-export const filterDataWithFilter = (filter, data = IMMO_DATA) => {
-  //haustyp und bezugsart müssen vorhanden sein
-  let immoArray = [];
-  let haustyp = filter["haustyp"];
-  let preis = filter["preis"];
-  let bezugsart = filter["bezugsart"];
-  let wohnfläche = filter["wohnfläche"];
-  let grundstück = filter["grundstück"];
-  let zimmer = filter["zimmer"];
-  let badezimmer = filter["badezimmer"];
-  for (let i in data) {
-    if (!!!haustyp) return immoArray;
-    if (!!!bezugsart) return immoArray;
-    if (!!!data[i][haustyp]) continue;
-    if (data[i][filter["haustyp"]]["bezugsart"] !== bezugsart) continue;
-    if (!!preis) {
-      if (data[i][filter["haustyp"]]["preis"] < preis) continue;
-    }
-    if (!!wohnfläche) {
-      if (data[i][filter["haustyp"]]["wohnfläche"] < wohnfläche) continue;
-    }
-    if (!!grundstück) {
-      if (data[i][filter["haustyp"]]["grundstück"] < grundstück) continue;
-    }
-    if (!!zimmer) {
-      if (data[i][filter["haustyp"]]["zimmer"] < zimmer) continue;
-    }
-    if (!!badezimmer) {
-      if (data[i][filter["haustyp"]]["zimmer"] < badezimmer) continue;
-    }
-    immoArray.push(data[i]);
-  }
-  //zufällige ergebnisse
-  while (immoArray.length > 12) {
-    let randomNum = Math.floor(Math.random() * immoArray.length);
-    immoArray.splice(randomNum, 1);
-  }
-
-  return immoArray;
 };

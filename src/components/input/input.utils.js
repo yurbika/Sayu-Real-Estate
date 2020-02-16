@@ -36,7 +36,10 @@ export const onlyNumberkey = e => {
 };
 
 //entfernt alles außer zahlen
+//erwartet ein string
 export const removeDots = numberWithDots => {
+  if (numberWithDots === null || numberWithDots === undefined)
+    return numberWithDots;
   var temp = numberWithDots;
   temp = temp.replace(/[^0-9]/g, "");
   //wenn die erste zahl mit null anfängt es war noch möglich nachdem makieren ein 0 zu setzen

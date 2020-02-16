@@ -3,7 +3,7 @@ import React from "react";
 import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 
-import { filterDataWithSearch } from "../../immo-data/immo-data.utils";
+import { filterData } from "../../immo-data/immo-data.utils";
 
 //Component imports
 import Input from "../../components/input/input.component";
@@ -82,19 +82,34 @@ class Suchleiste extends React.Component {
       setBundesländer,
       setStraßenPlzOrte,
       setStädteOrte,
-      setSuchtreffer
+      setSuchtreffer,
+      zimmerAnzahl,
+      fläche
     } = this.props;
-    if (input !== prevProps.input) {
+    if (
+      input !== prevProps.input ||
+      maxInput !== prevProps.maxInput ||
+      minInput !== prevProps.minInput ||
+      bezugsart !== prevProps.bezugsart ||
+      haustyp !== prevProps.haustyp ||
+      zimmerAnzahl !== prevProps.zimmerAnzahl ||
+      fläche !== prevProps.fläche
+    ) {
+      let filter = {
+        haustyp: `${haustyp}`,
+        bezugsart: `${bezugsart}`,
+        search: `${input}`,
+        minInput: `${minInput}`,
+        maxInput: `${maxInput}`,
+        zimmerAnzahl: `${zimmerAnzahl}`,
+        wohnfläche: `${fläche}`
+      };
       const {
         bundeslaenderArray,
         staedteOrteArray,
         straßenPlzOrtArray,
         suchtreffer
-      } = filterDataWithSearch(
-        haustyp.toLowerCase(),
-        bezugsart.toLowerCase(),
-        input
-      );
+      } = filterData(filter);
       setSuchtreffer(suchtreffer);
       setBundesländer(bundeslaenderArray);
       setStraßenPlzOrte(straßenPlzOrtArray);

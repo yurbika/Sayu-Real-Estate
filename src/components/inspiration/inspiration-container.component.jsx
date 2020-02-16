@@ -1,6 +1,5 @@
 import React from "react";
 import { connect } from "react-redux";
-import { filterDataWithFilter } from "../../immo-data/immo-data.utils";
 
 //component imports
 import BilderVorschauContainer from "../bilder-container/bildvorschau-container.component";
@@ -17,14 +16,11 @@ const InspirationContainer = ({
   expand,
   toggleExpand,
   toggleExpandButtonNum,
-  filter
+  immoArray
 }) => (
   <div className={"inspiration-container " + (expand ? "big" : "")}>
     <div className="beschreibung">{children}</div>
-    <BilderVorschauContainer
-      expand={expand}
-      immoArray={filterDataWithFilter(filter)}
-    />
+    <BilderVorschauContainer expand={expand} immoArray={immoArray} />
     <Button aktionsButton onClick={() => toggleExpand(toggleExpandButtonNum)}>
       Mehr anzeigen
     </Button>
