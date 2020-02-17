@@ -18,7 +18,7 @@ const InspirationContainer = ({
   toggleExpandButtonNum,
   immoArray
 }) => (
-  <div className={"inspiration-container " + (expand ? "big" : "")}>
+  <div className="inspiration-container">
     <div className="beschreibung">{children}</div>
     <BilderVorschauContainer expand={expand} immoArray={immoArray} />
     <Button aktionsButton onClick={() => toggleExpand(toggleExpandButtonNum)}>

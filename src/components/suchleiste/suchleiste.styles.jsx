@@ -3,11 +3,10 @@ import styled from "styled-components";
 
 export const SuchleisteContainer = styled.div`
   position: absolute;
-  top: 0;
+  top: 22%;
   bottom: 0;
   right: 0;
   left: 0;
-  margin-top: 22vh;
   h1 {
     font-size: 3rem;
     z-index: 1;
@@ -26,9 +25,8 @@ export const Filter = styled.div`
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  min-width: 60vw;
-  max-width: 65vw;
-  min-height: 50vh;
+  min-width: 550px;
+  min-height: 550px;
   border-radius: 2.5em;
   z-index: 3;
 `;
@@ -40,15 +38,15 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 margin: 0 auto;
-min-width: 65vw;
-max-width: 70vw;
-min-height: 40vh;
+min-width: 950px;
+min-height: 285px;
 overflow:hidden;
 background: ${theme.colors.hslaBlack} border-box;
 border-radius: 2.5em;
 &::before{
     content: "";
     position: absolute;
+    min-height: 500px;
     height: 100vh;
     width: 100vw;
     background-size: 100% 100%;

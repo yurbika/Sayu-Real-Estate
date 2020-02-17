@@ -5,8 +5,9 @@
   grid-auto-rows: 208px;
   grid-gap: 35px;
   margin-top: 15px;
-  height: 210px;
-  transition: all 0.45s ease-in;
+  padding-bottom: 15px;
+  max-height: 215px;
+  transition: max-height 1.45s ease-in;
 
   &:before {
     content: "";
@@ -23,7 +24,7 @@
 }
 
 .bilder-vorschau.big {
-  height: 696px;
+  max-height: 5000px;
 }
 
 @media (max-width: 1024px) {

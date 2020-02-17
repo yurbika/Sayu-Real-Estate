@@ -91,30 +91,36 @@ class Startseite extends React.Component {
           />
         </ContainerSuchleiste>
         <InspirationsSection id="inspirations-section">
-          <InspirationContainer
-            expand={expand1}
-            toggleExpandButtonNum={1}
-            immoArray={luxushäuserArray}
-          >
-            <span className="first">Inspiration</span>
-            <span>Luxushäuser</span>
-          </InspirationContainer>
-          <InspirationContainer
-            expand={expand2}
-            toggleExpandButtonNum={2}
-            immoArray={wohnungenArray}
-          >
-            <span className="first">Inspiration</span>
-            <span>Wohnungen</span>
-          </InspirationContainer>
-          <InspirationContainer
-            expand={expand3}
-            toggleExpandButtonNum={3}
-            immoArray={klassikerArray}
-          >
-            <span className="first">Inspiration</span>
-            <span>Klassiker</span>
-          </InspirationContainer>
+          {luxushäuserArray.length < 4 ? null : (
+            <InspirationContainer
+              expand={expand1}
+              toggleExpandButtonNum={1}
+              immoArray={luxushäuserArray}
+            >
+              <span className="first">Inspiration</span>
+              <span>Luxushäuser</span>
+            </InspirationContainer>
+          )}
+          {wohnungenArray.length < 4 ? null : (
+            <InspirationContainer
+              expand={expand2}
+              toggleExpandButtonNum={2}
+              immoArray={wohnungenArray}
+            >
+              <span className="first">Inspiration</span>
+              <span>Wohnungen</span>
+            </InspirationContainer>
+          )}
+          {klassikerArray.length < 4 ? null : (
+            <InspirationContainer
+              expand={expand3}
+              toggleExpandButtonNum={3}
+              immoArray={klassikerArray}
+            >
+              <span className="first">Inspiration</span>
+              <span>Klassiker</span>
+            </InspirationContainer>
+          )}
         </InspirationsSection>
       </StartseiteContainer>
     );

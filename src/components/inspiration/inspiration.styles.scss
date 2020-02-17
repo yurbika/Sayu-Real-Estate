@@ -1,15 +1,13 @@
 .inspiration-container {
   position: relative;
+  display: flex;
+  flex-direction: column;
   border-bottom: 1px solid rgba(76, 78, 80, 0.25);
   padding-top: 75px;
   margin-right: auto;
   margin-left: auto;
-  width: 939px;
-  height: 465px;
-  transition: height 0.45s ease-in;
-  &.big {
-    height: 948px;
-  }
+  width: 950px;
+  height: 100%;
   * {
     color: black;
   }
@@ -29,18 +27,13 @@
     }
   }
   button {
-    position: absolute;
-    right: 0;
-    left: 0;
-    bottom: 35px;
-    margin-left: auto;
-    margin-right: auto;
+    align-self: center;
+    margin: 2rem 0 2rem 0;
   }
 }
 
 @media (max-width: 1024px) {
   .inspiration-container {
-    width: 453px;
-    height: 40rem;
+    width: 465px;
   }
 }
