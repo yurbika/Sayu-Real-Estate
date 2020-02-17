@@ -11,7 +11,7 @@ import {
 } from "./header.styles";
 
 const Header = ({ location }) => (
-  <HeaderContainer>
+  <HeaderContainer className={location.pathname === "/" ? "startseite" : ""}>
     <LogoContainer to="/">
       <Logo className="logo" />
     </LogoContainer>
@@ -28,7 +28,7 @@ const Header = ({ location }) => (
         <span>Startseite</span>
       </OptionLink>
       <OptionLink
-        className={location.pathname === "/karte" ? "aktiv" : ""}
+        className={location.pathname === "/karte" ? "aktiv karte" : ""}
         to="/karte"
       >
         <span>Karte</span>

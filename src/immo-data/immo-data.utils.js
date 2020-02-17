@@ -42,7 +42,6 @@ export const filterData = (filter, data = IMMO_DATA) => {
   let suchtreffer = 0;
   let totalArrayLength = 0;
   let splitedStr = !!search ? search.split(/[ ,-]+/) : "";
-  console.log(wohnfläche);
   //entfernt alles leere
   splitedStr = !!search ? splitedStr.filter(i => i) : "";
   let regex = splitedStr.length > 0 ? createRegex(splitedStr) : "";

@@ -10,7 +10,10 @@ export const HeaderContainer = styled.div`
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
-  background: ${theme.colors.transBlack};
+  background: ${theme.colors.transDarkerBlack};
+  &.startseite {
+    background: ${theme.colors.transBlack};
+  }
 `;
 
 export const LogoContainer = styled(Link)`
@@ -36,9 +39,9 @@ export const OptionLink = styled(Link)`
   text-decoration: none;
   cursor: pointer;
   &:hover {
-    color: ${theme.colors.lightPurple};
+    color: ${theme.colors.darkPurple};
     & span {
-      color: ${theme.colors.lightPurple};
+      color: ${theme.colors.darkPurple};
     }
   }
 
@@ -66,7 +69,7 @@ export const OptionLink = styled(Link)`
     border-radius: 25px;
     margin-right: 50px;
     &:hover {
-      border-color: ${theme.colors.lightPurple};
+      border-color: ${theme.colors.darkPurple};
     }
   }
 `;
