@@ -8,6 +8,7 @@ import { filterData } from "../../immo-data/immo-data.utils";
 import Button from "../../components/button/button.component";
 import Suchleiste from "../../components/suchleiste/suchleiste.component";
 import InspirationContainer from "../../components/inspiration/inspiration-container.component";
+import Footer from "../../components/footer/footer.component";
 
 //import funktion
 import { toSection } from "../../components/button/button.utils";
@@ -122,6 +123,7 @@ class Startseite extends React.Component {
             </InspirationContainer>
           )}
         </InspirationsSection>
+        <Footer />
       </StartseiteContainer>
     );
   }

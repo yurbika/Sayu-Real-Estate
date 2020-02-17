@@ -11,6 +11,10 @@
   * {
     color: black;
   }
+  &:last-child {
+    margin-bottom: 5rem;
+    border-color: rgba(76, 78, 80, 0.75);
+  }
   .beschreibung {
     .first {
       display: block;
