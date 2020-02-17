@@ -3,16 +3,17 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const HeaderContainer = styled.div`
-  position: absolute;
   z-index: 1;
   height: 75px;
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 25px;
+
   background: ${theme.colors.transDarkerBlack};
   &.startseite {
     background: ${theme.colors.transBlack};
+    margin-bottom: 25px;
+    position: absolute;
   }
 `;
 
