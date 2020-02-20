@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const HeaderContainer = styled.div`
-  z-index: 1;
+  z-index: 2;
   height: 75px;
   width: 100%;
   display: flex;
@@ -14,6 +14,9 @@ export const HeaderContainer = styled.div`
     background: ${theme.colors.transBlack};
     margin-bottom: 25px;
     position: absolute;
+  }
+  &.karte {
+    display: none;
   }
 `;
 

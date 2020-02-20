@@ -28,10 +28,10 @@ const Header = ({ location }) => (
         <span>Startseite</span>
       </OptionLink>
       <OptionLink
-        className={location.pathname === "/karte" ? "aktiv karte" : ""}
-        to="/karte"
+        className={location.pathname === "/liste" ? "aktiv liste" : ""}
+        to="/liste"
       >
-        <span>Karte</span>
+        <span>Liste</span>
       </OptionLink>
       <OptionLink to="/registrieren" className="registrieren">
         Registrieren
