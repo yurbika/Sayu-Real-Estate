@@ -9,7 +9,10 @@ import Button from "../button/button.component";
 import { toggleExpand } from "../../redux/inspiration-sketion/inspiration.action";
 
 //style import
-import "./inspiration.styles.scss";
+import {
+  InspirationsContainer,
+  BeschreibungsContainer
+} from "./inspiration.styles";
 
 const InspirationContainer = ({
   children,
@@ -18,13 +21,13 @@ const InspirationContainer = ({
   toggleExpandButtonNum,
   immoArray
 }) => (
-  <div className="inspiration-container">
-    <div className="beschreibung">{children}</div>
+  <InspirationsContainer>
+    <BeschreibungsContainer>{children}</BeschreibungsContainer>
     <BilderVorschauContainer expand={expand} immoArray={immoArray} />
     <Button aktionsButton onClick={() => toggleExpand(toggleExpandButtonNum)}>
       Mehr anzeigen
     </Button>
-  </div>
+  </InspirationsContainer>
 );
 
 const mapDispatchToProps = dispatch => ({

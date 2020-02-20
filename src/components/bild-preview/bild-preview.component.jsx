@@ -2,7 +2,15 @@ import React from "react";
 
 import { numberWithDots } from "../input/input.utils";
 
-import "./bild-preview.styles.scss";
+import {
+  BildPreviewContainer,
+  HoverContainer,
+  HoverFooter,
+  Flaeche,
+  Zimmer,
+  Preis,
+  KurzBeschreibung
+} from "./bild-preview.styles";
 
 const BildPreview = ({ immo }) => {
   let haustyp = "";
@@ -10,7 +18,7 @@ const BildPreview = ({ immo }) => {
   else if (!!immo["wohnung"]) haustyp = "wohnung";
   else return null;
   return (
-    <div className="bild-preview-container">
+    <BildPreviewContainer>
       <img
         src={
           immo[haustyp]["bilder"]["titelbild"] +
@@ -18,19 +26,17 @@ const BildPreview = ({ immo }) => {
         }
         alt={haustyp}
       />
-      <div className="hover-container">
-        <span className="kurze-beschreibung">
+      <HoverContainer>
+        <KurzBeschreibung>
           {immo[haustyp]["kurzeBeschreibung"]}
-        </span>
-        <div className="hover-footer">
-          <span className="zimmer">{immo[haustyp]["zimmer"]} Zi.</span>
-          <span className="fläche"> {immo[haustyp]["wohnfläche"]} qm</span>
-          <span className="preis">
-            {numberWithDots(immo[haustyp]["preis"].toString())} €
-          </span>
-        </div>
-      </div>
-    </div>
+        </KurzBeschreibung>
+        <HoverFooter>
+          <Zimmer>{immo[haustyp]["zimmer"]} Zi.</Zimmer>
+          <Flaeche> {immo[haustyp]["wohnfläche"]} qm</Flaeche>
+          <Preis>{numberWithDots(immo[haustyp]["preis"].toString())} €</Preis>
+        </HoverFooter>
+      </HoverContainer>
+    </BildPreviewContainer>
   );
 };
 

@@ -9,31 +9,32 @@ import toggleDropdown from "../../redux/dropdown/dropdown.action";
 import DropdownActionTypes from "../../redux/dropdown/dropdown.types";
 
 //utils
-import { typSetter } from "./dropdown.component.utils";
+import { ID_GENERATOR } from "../../uniqueKey";
 
-import "./dropdowns.styles.scss";
+//styles
+import { AuswahlDropdownContainer, DropdownContainer } from "./dropdown.styles";
 
 const AuswahlDropdown = ({
   children,
   setArt,
   additionalStyle,
-  toggleDropdown
+  toggleDropdown,
+  type
 }) => {
   return (
-    <div className="auswahl-dropdown-container">
-      <div
-        className={
-          "dropdown-container auswahl-dropdown " +
-          (additionalStyle !== undefined ? additionalStyle : "")
-        }
-        ref={dropdownRef}
-      >
+    <AuswahlDropdownContainer>
+      <DropdownContainer additionalStyle={additionalStyle} ref={dropdownRef}>
         <ul>
           {children.map(child => (
             <li
-              key={child}
+              key={ID_GENERATOR("AuswahlDropdown-li-")}
               onClick={() => {
-                setArt(child, typSetter(child));
+                if (
+                  additionalStyle === "zimmer-dropdown" ||
+                  additionalStyle === "flaeche-dropdown"
+                )
+                  setArt(child, type);
+                else setArt(child, type);
                 toggleDropdown(DropdownActionTypes.TOGGLE_ALL_DROPDOWNS_FALSE);
               }}
             >
@@ -41,8 +42,8 @@ const AuswahlDropdown = ({
             </li>
           ))}
         </ul>
-      </div>
-    </div>
+      </DropdownContainer>
+    </AuswahlDropdownContainer>
   );
 };
 

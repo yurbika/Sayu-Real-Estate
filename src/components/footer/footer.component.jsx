@@ -1,10 +1,11 @@
 import React from "react";
 
-import "./footer.styles.scss";
+import { FooterContainer } from "./footer.styles";
+
 const Footer = () => (
-  <div className="footer-container">
+  <FooterContainer>
     <span>&copy; Copyright 2020 Sayu</span>
-  </div>
+  </FooterContainer>
 );
 
 export default Footer;

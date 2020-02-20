@@ -62,7 +62,7 @@ const sekundärerButton = css`
 const scrollButton = css`
   position: absolute;
   height: 3.5rem;
-  top: 86vh;
+  bottom: 50px;
   left: 0;
   right: 0;
   margin: 0 auto;

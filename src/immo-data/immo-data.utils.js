@@ -33,8 +33,8 @@ export const filterData = (filter, data = IMMO_DATA) => {
   let grundstück = !!filter["grundstück"]
     ? Number(removeDots(filter["grundstück"].toString()))
     : null;
-  let zimmer = !!filter["zimmer"]
-    ? Number(removeDots(filter["zimmer"].toString()))
+  let zimmer = !!filter["zimmerAnzahl"]
+    ? Number(removeDots(filter["zimmerAnzahl"].toString()))
     : null;
   let badezimmer = !!filter["badezimmer"]
     ? Number(removeDots(filter["badezimmer"].toString()))

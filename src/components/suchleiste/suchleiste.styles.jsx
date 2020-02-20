@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const SuchleisteContainer = styled.div`
   position: absolute;
-  top: 22%;
+  top: 35%;
   bottom: 0;
   right: 0;
   left: 0;
@@ -25,8 +25,6 @@ export const Filter = styled.div`
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  min-width: 550px;
-  min-height: 550px;
   border-radius: 2.5em;
   z-index: 3;
 `;

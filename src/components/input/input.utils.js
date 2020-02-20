@@ -79,12 +79,12 @@ export const checkInputValue = (minInput, maxInput) => {
   if (!testNum(minInput)) minInput = "";
   if (!testNum(maxInput)) maxInput = "";
   //Preis ist 0 und egal
-  if (minInput === "" && maxInput === "Egal") return "Preis";
+  if (minInput === "" && maxInput === "") return "Preis";
   //mininput ist größer als maxinput
   if (
     Number(removeDots(minInput)) > Number(removeDots(maxInput)) &&
     maxInput !== "" &&
-    maxInput !== "Egal"
+    maxInput !== ""
   ) {
     let temp = maxInput;
     maxInput = minInput;
@@ -100,7 +100,7 @@ export const checkInputValue = (minInput, maxInput) => {
   //maxinput ist leer
   if (
     minInput !== "" &&
-    (maxInput === "" || maxInput === "Egal" || maxInput === minInput)
+    (maxInput === "" || maxInput === "" || maxInput === minInput)
   )
     return `ab ${numberWithDots(minInput)}€`;
   //mininput ist leer

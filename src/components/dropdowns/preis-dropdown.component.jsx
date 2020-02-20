@@ -31,7 +31,11 @@ import {
   selectBezugsart
 } from "../../redux/filter/filter.selectors";
 
-import "./dropdowns.styles.scss";
+import {
+  DropdownContainer,
+  InputContainer,
+  BindeStrich
+} from "./dropdown.styles";
 
 const PreisDropdown = ({
   maxInput,
@@ -41,14 +45,15 @@ const PreisDropdown = ({
   bezugsart,
   toggleDropdown,
   resetInputMin,
-  resetInputMax
+  resetInputMax,
+  additionalStyle
 }) => {
   return (
-    <div className="dropdown-container preis-dropdown" ref={dropdownRef}>
-      <div className="input-container">
+    <DropdownContainer additionalStyle={additionalStyle} ref={dropdownRef}>
+      <InputContainer>
         <Input
-          id="min-input"
           placeholder="Min"
+          //dieses Attribut ist für input.styles
           dropdownInput
           autoFocus
           onFocus={() => {
@@ -64,14 +69,16 @@ const PreisDropdown = ({
             ? createLiMietenMin(10, maxInput, "max-input", setInputMin)
             : createLiKaufenMin(10, maxInput, "max-input", setInputMin)}
         </ul>
-      </div>
-      <div>
+      </InputContainer>
+      <BindeStrich>
         <span></span>
-      </div>
-      <div className="input-container">
+      </BindeStrich>
+      <InputContainer>
         <Input
+          //dieses Attribut ist notwending für die createLi funktion damit der focus gesetzt werden kann
           id="max-input"
           placeholder="Max"
+          //dieses Attribut ist für input.styles
           dropdownInput
           onFocus={() => {
             document.getElementById("preis-min").style.display = "none";
@@ -86,8 +93,8 @@ const PreisDropdown = ({
             ? createLiMietenMax(10, minInput, setInputMax, toggleDropdown)
             : createLiKaufenMax(10, minInput, setInputMax, toggleDropdown)}
         </ul>
-      </div>
-    </div>
+      </InputContainer>
+    </DropdownContainer>
   );
 };
 

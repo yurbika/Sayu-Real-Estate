@@ -37,6 +37,8 @@ import {
   setSearchInput
 } from "../../redux/filter/filter.action";
 
+import FilterActionTypes from "../../redux/filter/filter.types";
+
 import {
   selectPreisDropdown,
   selectBezugsartDropdown,
@@ -256,30 +258,44 @@ class Suchleiste extends React.Component {
            *        Die Dropdowns             *
            ************************************/}
           {resultsDropdown && suchtreffer > 0 && input !== "" ? (
-            <Results />
+            <Results additionalStyle={"results-dropdown"} />
           ) : null}
-          {preisDropdown ? <PreisDropdown /> : null}
+          {preisDropdown ? (
+            <PreisDropdown additionalStyle={"preis-dropdown"} />
+          ) : null}
           {bezugsartDropdown ? (
             <AuswahlDropdown
+              additionalStyle={"bezugsart-dropdown"}
               children={[bezugsart === "Mieten" ? "Kaufen" : "Mieten"]}
+              type={FilterActionTypes.SET_BEZUGSART}
             />
           ) : null}
           {immobilientypDropdown ? (
             <AuswahlDropdown
-              additionalStyle="haus"
+              additionalStyle="haus-dropdown"
               children={[haustyp === "Wohnung" ? "Haus" : "Wohnung"]}
+              type={FilterActionTypes.SET_HAUSTYP}
             />
           ) : null}
           {zimmerDropdown ? (
             <AuswahlDropdown
               additionalStyle="zimmer-dropdown"
-              children={["1 +", "2 +", "3 +", "4 +", "5 +"]}
+              children={["1 Zi. +", "2 Zi. +", "3 Zi. +", "4 Zi. +", "5 Zi. +"]}
+              type={FilterActionTypes.SET_ZIMMERANZAHL}
             />
           ) : null}
           {flächeDropdown ? (
             <AuswahlDropdown
               additionalStyle="flaeche-dropdown"
-              children={["70 +", "100 +", "200 +", "300 +", "400 +", "500 +"]}
+              children={[
+                "70 qm +",
+                "100 qm +",
+                "200 qm +",
+                "300 qm +",
+                "400 qm +",
+                "500 qm +"
+              ]}
+              type={FilterActionTypes.SET_FLÄCHE}
             />
           ) : null}
 

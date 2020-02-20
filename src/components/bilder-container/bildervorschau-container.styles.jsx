@@ -1,4 +1,13 @@
-.bilder-vorschau {
+import styled, { css } from "styled-components";
+
+const getHeight = props => {
+  if (props.expand)
+    return css`
+      max-height: 5000px;
+    `;
+};
+
+export const BilderVorschau = styled.div`
   display: grid;
   overflow: hidden;
   grid-template-columns: repeat(auto-fill, max(208px));
@@ -21,14 +30,8 @@
     grid-row: 1 / 1;
     grid-column: 1 / 1;
   }
-}
-
-.bilder-vorschau.big {
-  max-height: 5000px;
-}
-
-@media (max-width: 1024px) {
-  .bilder-vorschau {
+  @media (max-width: 1024px) {
     grid-template-columns: repeat(2, max(208px));
   }
-}
+  ${getHeight}
+`;

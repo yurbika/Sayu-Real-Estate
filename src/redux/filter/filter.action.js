@@ -35,7 +35,7 @@ export const clearSearchInput = () => ({
   payload: ""
 });
 
-//fuer bezugsart und immobilienart weil sie ein nur ein component haben
+//für den Auswahldropdown
 export const setArt = (text, type) => ({
   type: type,
   payload: text

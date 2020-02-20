@@ -4,14 +4,14 @@ import BildPreview from "../bild-preview/bild-preview.component";
 
 import { ID_GENERATOR } from "../../uniqueKey";
 
-import "./bilder.style.scss";
+import { BilderVorschau } from "./bildervorschau-container.styles";
 
 const BilderVorschauContainer = ({ immoArray, expand }) => (
-  <div className={"bilder-vorschau" + (expand ? " big" : "")}>
+  <BilderVorschau expand={expand}>
     {immoArray.map(item => (
       <BildPreview key={ID_GENERATOR("bilder-vorschau-")} immo={item} />
     ))}
-  </div>
+  </BilderVorschau>
 );
 
 export default BilderVorschauContainer;

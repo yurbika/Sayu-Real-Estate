@@ -25,16 +25,20 @@ import toggleDropdown from "../../redux/dropdown/dropdown.action.js";
 import { selectResultsDropdown } from "../../redux/dropdown/dropdown.selectors";
 import DropdownActionTypes from "../../redux/dropdown/dropdown.types";
 
+//styles
+import { ResultsContainer, DropdownContainer } from "./dropdown.styles";
+
 const Results = ({
   bundeslaenderArray,
   staedteOrteArray,
   straßenPlzOrtArray,
   setSearchInput,
-  toggleDropdown
+  toggleDropdown,
+  additionalStyle
 }) => {
   return (
-    <div className="results-container" ref={dropdownRef}>
-      <div className="dropdown-container results">
+    <ResultsContainer ref={dropdownRef}>
+      <DropdownContainer additionalStyle={additionalStyle}>
         {!!bundeslaenderArray.length ? <h4>Bundesländer</h4> : null}
         {!!bundeslaenderArray.length ? (
           <ul>
@@ -83,8 +87,8 @@ const Results = ({
             ))}
           </ul>
         ) : null}
-      </div>
-    </div>
+      </DropdownContainer>
+    </ResultsContainer>
   );
 };
 

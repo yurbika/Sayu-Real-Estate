@@ -5,6 +5,7 @@ const theme = {
     lightWhite: "#FFF7DE",
     brown: "#CCA96A",
     lightPurple: "#A69FFF",
+    lightPurpleOpacity: "rgba(166, 159, 255, 0.8)",
     darkPurple: "#681899",
     purple: "#A66ACC",
     black: "#4c4e50",
