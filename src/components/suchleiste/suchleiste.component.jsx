@@ -255,7 +255,9 @@ class Suchleiste extends React.Component {
           {/***********************************
            *        Die Dropdowns             *
            ************************************/}
-          {resultsDropdown && suchtreffer > 0 ? <Results /> : null}
+          {resultsDropdown && suchtreffer > 0 && input !== "" ? (
+            <Results />
+          ) : null}
           {preisDropdown ? <PreisDropdown /> : null}
           {bezugsartDropdown ? (
             <AuswahlDropdown
