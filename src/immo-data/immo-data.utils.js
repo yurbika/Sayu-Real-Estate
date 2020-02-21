@@ -17,6 +17,7 @@ export const filterData = (filter, data = IMMO_DATA) => {
   let bundeslaenderArray = [];
   let staedteOrteArray = [];
   let straßenPlzOrtArray = [];
+  let alleErgebnisse = [];
   let immoArray = [];
   let search = filter["search"];
   let haustyp = filter["haustyp"].toLowerCase();
@@ -127,9 +128,10 @@ export const filterData = (filter, data = IMMO_DATA) => {
             " - " +
             data[i][haustyp]["adresse"]["bundesland"]
         );
-      } else {
+        alleErgebnisse.push(data[i]);
+      } else if (!!!search) {
         immoArray.push(data[i]);
-      }
+      } else alleErgebnisse.push(data[i]);
       suchtreffer++;
     }
   }
@@ -144,6 +146,7 @@ export const filterData = (filter, data = IMMO_DATA) => {
     staedteOrteArray,
     straßenPlzOrtArray,
     suchtreffer,
-    immoArray
+    immoArray,
+    alleErgebnisse
   };
 };

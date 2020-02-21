@@ -25,7 +25,7 @@ const InspirationContainer = ({
     <BeschreibungsContainer>{children}</BeschreibungsContainer>
     <BilderVorschauContainer expand={expand} immoArray={immoArray} />
     <Button aktionsButton onClick={() => toggleExpand(toggleExpandButtonNum)}>
-      Mehr anzeigen
+      {expand ? "Alle anzeigen" : "Mehr anzeigen"}
     </Button>
   </InspirationsContainer>
 );
