@@ -1,5 +1,21 @@
 import theme from "../../variablen-styles/theme";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
+
+const getAdditionalStyleForSuchleisteContainer = props => {
+  if (props.additionalStyle === "liste")
+    return css`
+      top: 50px;
+      width: 950px;
+      margin: 0 auto;
+    `;
+};
+
+const getAdditionalStyleForFilter = props => {
+  if (props.additionalStyle === "liste")
+    return css`
+      background: ${theme.colors.hslaBlack};
+    `;
+};
 
 export const SuchleisteContainer = styled.div`
   position: absolute;
@@ -16,6 +32,7 @@ export const SuchleisteContainer = styled.div`
     font-size: 1.8rem;
     z-index: 1;
   }
+  ${getAdditionalStyleForSuchleisteContainer}
 `;
 
 export const Filter = styled.div`
@@ -27,6 +44,7 @@ export const Filter = styled.div`
   margin: 0 auto;
   border-radius: 2.5em;
   z-index: 3;
+  ${getAdditionalStyleForFilter}
 `;
 
 export const Bild = styled.div`

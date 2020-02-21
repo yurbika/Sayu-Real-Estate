@@ -40,6 +40,8 @@ import {
   InspirationsSection
 } from "./startseite.styles";
 
+import { Bild } from "../../components/suchleiste/suchleiste.styles";
+
 class Startseite extends React.Component {
   componentDidMount() {
     const {
@@ -84,7 +86,11 @@ class Startseite extends React.Component {
         <ContainerSuchleiste>
           <BackgroundImageFilter />
           <StartseiteHintergrund />
-          <Suchleiste />
+          <Suchleiste>
+            <p>Finden Sie Ihre neues Zuhause</p>
+            <h1>Bereit zum Umziehen?</h1>
+            <Bild />
+          </Suchleiste>
           <Button
             scrollButton
             scroll

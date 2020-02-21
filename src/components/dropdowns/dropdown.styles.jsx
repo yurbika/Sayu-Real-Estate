@@ -29,13 +29,6 @@ export const BindeStrich = styled.div`
   }
 `;
 
-export const ResultsContainer = styled.div`
-  position: absolute;
-  transform: translate3d(-22rem, 30px, 0px) !important;
-  font-size: 0.9rem;
-  z-index: 2;
-`;
-
 //hier werden die styles für die verschiedenen dropdowns ausgewählt
 const AuswahlDropdown = css`
   transform: translate3d(0, 60px, 0px) !important;
@@ -155,18 +148,88 @@ const FlächeDropdown = css`
     top: 5%;
   }
 `;
-
+//funktionen für die spezifischen seiten
 const getAdditionalStyle = props => {
-  if (props.additionalStyle === "bezugsart-dropdown") return AuswahlDropdown;
-  if (props.additionalStyle === "haus-dropdown")
-    return [AuswahlDropdown, HausDropdown];
-  if (props.additionalStyle === "zimmer-dropdown")
-    return [AuswahlDropdown, ZimmerDropdown];
-  if (props.additionalStyle === "flaeche-dropdown")
-    return [AuswahlDropdown, FlächeDropdown];
-  if (props.additionalStyle === "results-dropdown") return ResultsDropdown;
-  if (props.additionalStyle === "preis-dropdown") return PreisDropdown;
-  return "";
+  switch (props.additionalStyle) {
+    case "bezugsart-dropdown":
+      return AuswahlDropdown;
+    case "bezugsart-dropdown-liste":
+      return [
+        AuswahlDropdown,
+        css`
+          transform: translate3d(1px, 5px, 0px) !important;
+          border: 1px solid ${theme.colors.hslaBlack};
+        `
+      ];
+    case "haus-dropdown":
+      return [AuswahlDropdown, HausDropdown];
+    case "haus-dropdown-liste":
+      return [
+        AuswahlDropdown,
+        [
+          HausDropdown,
+          css`
+            transform: translate3d(8.05rem, 5px, 0px) !important;
+            border: 1px solid ${theme.colors.hslaBlack};
+          `
+        ]
+      ];
+    case "zimmer-dropdown":
+      return [AuswahlDropdown, ZimmerDropdown];
+    case "zimmer-dropdown-liste":
+      return [
+        AuswahlDropdown,
+        [
+          ZimmerDropdown,
+          css`
+            transform: translate3d(0, 132px, 0px) !important;
+            border: 1px solid ${theme.colors.hslaBlack};
+          `
+        ]
+      ];
+    case "flaeche-dropdown":
+      return [AuswahlDropdown, FlächeDropdown];
+    case "flaeche-dropdown-liste":
+      return [
+        AuswahlDropdown,
+        [
+          FlächeDropdown,
+          css`
+            transform: translate3d(12rem, 148px, 0px) !important;
+            border: 1px solid ${theme.colors.hslaBlack};
+          `
+        ]
+      ];
+    case "results-dropdown":
+      return ResultsDropdown;
+    case "results-dropdown-liste":
+      return [
+        ResultsDropdown,
+        css`
+          border: 1px solid ${theme.colors.hslaBlack};
+        `
+      ];
+
+    case "preis-dropdown":
+      return PreisDropdown;
+    case "preis-dropdown-liste":
+      return [
+        PreisDropdown,
+        css`
+          transform: translate3d(-3rem, 230px, 0px) !important;
+          border: 1px solid ${theme.colors.hslaBlack};
+        `
+      ];
+    default:
+      return "";
+  }
+};
+
+const getAdditionalStyleForResults = props => {
+  if (props.additionalStyle === "results-dropdown-liste")
+    return css`
+      transform: translate3d(-22rem, -22px, 0px) !important;
+    `;
 };
 
 //--------------------------------------------------------------------//
@@ -179,4 +242,12 @@ export const DropdownContainer = styled.div`
   padding: 10px 15px;
   z-index: 3;
   ${getAdditionalStyle}
+`;
+
+export const ResultsContainer = styled.div`
+  position: absolute;
+  transform: translate3d(-22rem, 30px, 0px) !important;
+  font-size: 0.9rem;
+  z-index: 2;
+  ${getAdditionalStyleForResults}
 `;

@@ -10,6 +10,7 @@ import DropdownActionTypes from "./redux/dropdown/dropdown.types";
 //import component
 import Header from "./components/header/header.component";
 import Startseite from "./pages/startseite/startseite.component";
+import Liste from "./pages/Liste/Liste.component";
 
 //import styles
 import "./App.css";
@@ -28,6 +29,7 @@ const App = ({ toggleDropdown }) => {
       <Header />
       <Switch>
         <Route exact path="/" component={Startseite} />
+        <Route exact path="/liste" component={Liste} />
       </Switch>
     </div>
   );

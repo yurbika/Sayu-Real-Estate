@@ -37,7 +37,7 @@ const Results = ({
   additionalStyle
 }) => {
   return (
-    <ResultsContainer ref={dropdownRef}>
+    <ResultsContainer ref={dropdownRef} additionalStyle={additionalStyle}>
       <DropdownContainer additionalStyle={additionalStyle}>
         {!!bundeslaenderArray.length ? <h4>Bundesländer</h4> : null}
         {!!bundeslaenderArray.length ? (

@@ -63,8 +63,7 @@ import {
   SuchleisteContainer,
   Filter,
   InputContainer,
-  InputContainerZeile,
-  Bild
+  InputContainerZeile
 } from "./suchleiste.styles";
 
 /*Button id = filter-button ist hier notwendig damit die richtigen aktionen gefeuert 
@@ -142,14 +141,14 @@ class Suchleiste extends React.Component {
       suchtreffer,
       toggleDropdown,
       setSearchInput,
-      resultsDropdown
+      resultsDropdown,
+      children,
+      additionalStyle
     } = this.props;
     return (
-      <SuchleisteContainer>
-        <Filter>
-          <Bild />
-          <p>Finden Sie Ihre neues Zuhause</p>
-          <h1>Bereit zum Umziehen?</h1>
+      <SuchleisteContainer additionalStyle={additionalStyle}>
+        <Filter additionalStyle={additionalStyle}>
+          {children}
           {/*Buttons und Inputs*/}
           <InputContainer>
             <InputContainerZeile>
@@ -258,35 +257,57 @@ class Suchleiste extends React.Component {
            *        Die Dropdowns             *
            ************************************/}
           {resultsDropdown && suchtreffer > 0 && input !== "" ? (
-            <Results additionalStyle={"results-dropdown"} />
+            <Results
+              additionalStyle={
+                "results-dropdown" +
+                (!!additionalStyle ? "-" + additionalStyle : "")
+              }
+            />
           ) : null}
           {preisDropdown ? (
-            <PreisDropdown additionalStyle={"preis-dropdown"} />
+            <PreisDropdown
+              additionalStyle={
+                "preis-dropdown" +
+                (!!additionalStyle ? "-" + additionalStyle : "")
+              }
+            />
           ) : null}
           {bezugsartDropdown ? (
             <AuswahlDropdown
-              additionalStyle={"bezugsart-dropdown"}
+              additionalStyle={
+                "bezugsart-dropdown" +
+                (!!additionalStyle ? "-" + additionalStyle : "")
+              }
               children={[bezugsart === "Mieten" ? "Kaufen" : "Mieten"]}
               type={FilterActionTypes.SET_BEZUGSART}
             />
           ) : null}
           {immobilientypDropdown ? (
             <AuswahlDropdown
-              additionalStyle="haus-dropdown"
+              additionalStyle={
+                "haus-dropdown" +
+                (!!additionalStyle ? "-" + additionalStyle : "")
+              }
               children={[haustyp === "Wohnung" ? "Haus" : "Wohnung"]}
               type={FilterActionTypes.SET_HAUSTYP}
             />
           ) : null}
           {zimmerDropdown ? (
             <AuswahlDropdown
-              additionalStyle="zimmer-dropdown"
+              additionalStyle={
+                "zimmer-dropdown" +
+                (!!additionalStyle ? "-" + additionalStyle : "")
+              }
               children={["1 Zi. +", "2 Zi. +", "3 Zi. +", "4 Zi. +", "5 Zi. +"]}
               type={FilterActionTypes.SET_ZIMMERANZAHL}
             />
           ) : null}
           {flächeDropdown ? (
             <AuswahlDropdown
-              additionalStyle="flaeche-dropdown"
+              additionalStyle={
+                "flaeche-dropdown" +
+                (!!additionalStyle ? "-" + additionalStyle : "")
+              }
               children={[
                 "70 qm +",
                 "100 qm +",
