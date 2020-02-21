@@ -14,6 +14,7 @@ const getAdditionalStyleForFilter = props => {
   if (props.additionalStyle === "liste")
     return css`
       background: ${theme.colors.hslaBlack};
+      border-radius: 15px;
     `;
 };
 
