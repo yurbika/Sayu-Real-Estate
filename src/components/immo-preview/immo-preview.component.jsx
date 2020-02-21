@@ -16,7 +16,20 @@ const ImmoPreview = ({ immo }) => {
           alt={haustyp}
         />
       </div>
-      <div className="beschreibung"></div>
+      <div className="beschreibung">
+        <div className="text"></div>
+        <span className="titel"></span>
+        <span className="untertitel"></span>
+        <span className="volle-beschreibung"></span>
+      </div>
+      <span class="adresse"></span>
+      <div className="footer">
+        <span className="zimmer"></span>
+        <span className="badezimmer"></span>
+        <span className="wohnfläche"></span>
+        <span className="grundstück"></span>
+        <span className="preis"></span>
+      </div>
     </div>
   );
 };

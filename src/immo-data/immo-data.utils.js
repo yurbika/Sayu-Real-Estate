@@ -141,6 +141,7 @@ export const filterData = (filter, data = IMMO_DATA) => {
     let randomNum = Math.floor(Math.random() * immoArray.length);
     immoArray.splice(randomNum, 1);
   }
+  console.log(alleErgebnisse);
   return {
     bundeslaenderArray,
     staedteOrteArray,
