@@ -5,11 +5,13 @@ import filterReducer from "./filter/filter.reducer";
 import dropdownReducer from "./dropdown/dropdown.reducer";
 import resultReducer from "./results-dropdown/results.reducer";
 import startseitenReducer from "./startseite/startseite.reducer";
+import sliderReducer from "./slider/slider.reducuer";
 
 export default combineReducers({
   inspirationsSketion: inspirationsReducer,
   filter: filterReducer,
   dropdown: dropdownReducer,
   results: resultReducer,
-  startseite: startseitenReducer
+  startseite: startseitenReducer,
+  slider: sliderReducer
 });
