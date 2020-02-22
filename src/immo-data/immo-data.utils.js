@@ -134,7 +134,7 @@ export const filterData = (filter, data = IMMO_DATA) => {
         alleErgebnisse.push(data[i]);
       } else if (!!!search) {
         immoArray.push(data[i]);
-      } else alleErgebnisse.push(data[i]);
+      } else if (splitedStr.length > 0) alleErgebnisse.push(data[i]);
       suchtreffer++;
     }
   }
@@ -144,6 +144,7 @@ export const filterData = (filter, data = IMMO_DATA) => {
     let randomNum = Math.floor(Math.random() * immoArray.length);
     immoArray.splice(randomNum, 1);
   }
+  //wenn das erste zeichen, ein leerzeichen ist wird suchtreffer zurückgesetzt
   if (
     straßenPlzOrtArray.length === 0 &&
     bundeslaenderArray.length === 0 &&

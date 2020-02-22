@@ -33,10 +33,14 @@ class Liste extends React.Component {
       zimmerAnzahl,
       fläche
     } = this.props;
+    //test für den input falls die seite ohne input angeklickt wird
+    let splitedStr = !!input ? input.split(/[ ,-]+/) : "";
+    splitedStr = !!input ? splitedStr.filter(i => i) : "";
+
     let filter = {
       haustyp: `${haustyp}`,
       bezugsart: `${bezugsart}`,
-      search: `${"n"}`,
+      search: `${splitedStr.length > 0 ? input : "e"}`,
       minInput: `${minInput}`,
       maxInput: `${maxInput}`,
       zimmerAnzahl: `${zimmerAnzahl}`,
