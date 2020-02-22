@@ -1,17 +1,20 @@
 import React from "react";
 
+import "./immo-preview.styles.scss";
+
 const ImmoPreview = ({ immo }) => {
   let haustyp = "";
   if (!!immo["haus"]) haustyp = "haus";
   else if (!!immo["wohnung"]) haustyp = "wohnung";
   else return null;
+  console.log(immo);
   return (
     <div className="container">
       <div className="bild-preview-container">
         <img
           src={
             immo[haustyp]["bilder"]["titelbild"] +
-            "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max"
+            "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=360&h=270&fit=crop"
           }
           alt={haustyp}
         />
@@ -33,3 +36,5 @@ const ImmoPreview = ({ immo }) => {
     </div>
   );
 };
+
+export default ImmoPreview;

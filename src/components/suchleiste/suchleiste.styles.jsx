@@ -4,9 +4,10 @@ import styled, { css } from "styled-components";
 const getAdditionalStyleForSuchleisteContainer = props => {
   if (props.additionalStyle === "liste")
     return css`
-      top: 50px;
-      width: 950px;
-      margin: 0 auto;
+      width: 70vw;
+      max-width: 1120px;
+      margin: 50px auto 35px auto;
+      position: relative;
     `;
 };
 

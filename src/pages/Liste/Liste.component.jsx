@@ -5,6 +5,8 @@ import { createStructuredSelector } from "reselect";
 import Suchleiste from "../../components/suchleiste/suchleiste.component";
 import { SuchleisteContainer } from "../../components/suchleiste/suchleiste.styles";
 
+import ImmoPreview from "../../components/immo-preview/immo-preview.component";
+
 //redux imports
 import {
   selectBezugsart,
@@ -36,7 +38,8 @@ class Liste extends React.Component {
     //test für den input falls die seite ohne input angeklickt wird
     let splitedStr = !!input ? input.split(/[ ,-]+/) : "";
     splitedStr = !!input ? splitedStr.filter(i => i) : "";
-
+    //falls der input leer ist wird nach dem buchstaben e gefiltert
+    //der buchstabe e ist der meist genutzte
     let filter = {
       haustyp: `${haustyp}`,
       bezugsart: `${bezugsart}`,
@@ -47,12 +50,16 @@ class Liste extends React.Component {
       wohnfläche: `${fläche}`
     };
     const { alleErgebnisse } = filterData(filter);
-    console.log(alleErgebnisse);
     return (
-      <div>
+      <div className="container-liste">
         <SuchleisteContainer additionalStyle={"liste"}>
           <Suchleiste additionalStyle={"liste"} />
         </SuchleisteContainer>
+        <div className="immo-preview-container">
+          {alleErgebnisse.map((item, index) =>
+            index < 12 ? <ImmoPreview immo={item} /> : null
+          )}
+        </div>
       </div>
     );
   }
