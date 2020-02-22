@@ -55,7 +55,7 @@ export const filterData = (filter, data = IMMO_DATA) => {
       !bundeslaenderArray.includes(data[i][haustyp]["adresse"]["bundesland"]) &&
       !!data[i][haustyp]["adresse"]["bundesland"].match(regex) &&
       bundeslaenderArray.length < 4 &&
-      search !== ""
+      splitedStr.length > 0
     ) {
       bundeslaenderArray.push(data[i][haustyp]["adresse"]["bundesland"]);
     }
@@ -67,7 +67,7 @@ export const filterData = (filter, data = IMMO_DATA) => {
       ) &&
       !!data[i][haustyp]["adresse"]["stadt"].match(regex) &&
       staedteOrteArray.length < 4 &&
-      search !== ""
+      splitedStr.length > 0
     ) {
       staedteOrteArray.push(
         data[i][haustyp]["adresse"]["stadt"] +
@@ -118,7 +118,10 @@ export const filterData = (filter, data = IMMO_DATA) => {
       if (!!badezimmer) {
         if (data[i][haustyp]["zimmer"] < badezimmer) continue;
       }
-      if (straßenPlzOrtArray.length < totalArrayLength && search !== "") {
+      if (
+        straßenPlzOrtArray.length < totalArrayLength &&
+        splitedStr.length > 0
+      ) {
         straßenPlzOrtArray.push(
           data[i][haustyp]["adresse"]["straße"] +
             ", " +
@@ -141,7 +144,13 @@ export const filterData = (filter, data = IMMO_DATA) => {
     let randomNum = Math.floor(Math.random() * immoArray.length);
     immoArray.splice(randomNum, 1);
   }
-  console.log(alleErgebnisse);
+  if (
+    straßenPlzOrtArray.length === 0 &&
+    bundeslaenderArray.length === 0 &&
+    staedteOrteArray.length === 0
+  ) {
+    suchtreffer = 0;
+  }
   return {
     bundeslaenderArray,
     staedteOrteArray,

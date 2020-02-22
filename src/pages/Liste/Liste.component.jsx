@@ -36,7 +36,7 @@ class Liste extends React.Component {
     let filter = {
       haustyp: `${haustyp}`,
       bezugsart: `${bezugsart}`,
-      search: `${input}`,
+      search: `${"n"}`,
       minInput: `${minInput}`,
       maxInput: `${maxInput}`,
       zimmerAnzahl: `${zimmerAnzahl}`,
