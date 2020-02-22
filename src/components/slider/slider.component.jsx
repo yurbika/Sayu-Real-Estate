@@ -2,20 +2,35 @@ import React from "react";
 import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 
-//links/rechts pfeil
-//endlos klickbar
+//redux imports
+import { selectCurrentPosition } from "../../redux/slider/slider.selectors";
+import {
+  setSliderPosition,
+  toggleLeft,
+  toggleRight
+} from "../../redux/slider/slider.action";
 
-const Slider = ({ imgArray, alt }) => {
+import "./slider.styles.scss";
+
+const Slider = ({ imgArray, alt, curPos }) => {
   return (
-    <div>
-      <div className="links-pfeil"></div>
-      <div className="rechts-pfeil"></div>
-      <img src={imgArray[0]} alt={alt} />
+    <div className="slider-container">
+      <div className="linker-pfeil-container">
+        <div className="linker-pfeil"></div>
+      </div>
+      <div className="rechter-pfeil"></div>
+      <img src={imgArray[curPos]} alt={alt} />
     </div>
   );
 };
 
-const mapStateToProps = createStructuredSelector({});
-const mapDispatchToProps = dispatch => ({});
+const mapStateToProps = createStructuredSelector({
+  curPos: selectCurrentPosition
+});
+const mapDispatchToProps = dispatch => ({
+  setSliderPosition: num => dispatch(setSliderPosition(num)),
+  toggleLeft: () => dispatch(toggleLeft),
+  toggleRight: () => dispatch(toggleRight)
+});
 
-export default connect()(Slider);
+export default connect(mapStateToProps, mapDispatchToProps)(Slider);

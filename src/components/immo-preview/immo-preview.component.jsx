@@ -1,5 +1,7 @@
 import React from "react";
 
+import Slider from "../../components/slider/slider.component";
+
 import "./immo-preview.styles.scss";
 
 const ImmoPreview = ({ immo }) => {
@@ -7,15 +9,31 @@ const ImmoPreview = ({ immo }) => {
   if (!!immo["haus"]) haustyp = "haus";
   else if (!!immo["wohnung"]) haustyp = "wohnung";
   else return null;
-  console.log(immo);
   return (
     <div className="container">
       <div className="bild-preview-container">
-        <img
-          src={
+        {/*/ <img
+        //   src={
+        //     immo[haustyp]["bilder"]["titelbild"] +
+        //     "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=360&h=270&fit=crop"
+        //   }
+        //   alt={haustyp}
+        // >*/}
+        <Slider
+          imgArray={[
             immo[haustyp]["bilder"]["titelbild"] +
-            "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=360&h=270&fit=crop"
-          }
+              "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=360&h=270&fit=crop",
+            immo[haustyp]["bilder"]["zweites"] +
+              "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=360&h=270&fit=crop",
+            immo[haustyp]["bilder"]["drittes"] +
+              "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=360&h=270&fit=crop",
+            immo[haustyp]["bilder"]["vier"] +
+              "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=360&h=270&fit=crop",
+            immo[haustyp]["bilder"]["fünf"] +
+              "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=360&h=270&fit=crop",
+            immo[haustyp]["bilder"]["sechs"] +
+              "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=360&h=270&fit=crop"
+          ]}
           alt={haustyp}
         />
       </div>

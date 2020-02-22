@@ -1,0 +1,14 @@
+.slider-container {
+  position: relative;
+  .linker-pfeil-container {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    top: 50%;
+    right: 15px;
+
+    .linker-pfeil {
+      transform: rotate(-90deg);
+    }
+  }
+}
