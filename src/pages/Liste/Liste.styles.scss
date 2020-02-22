@@ -1,9 +1,16 @@
 .container-liste {
   position: relative;
   width: 100vw;
-  display: flex;
-  flex-direction: column;
-  .immo-preview-container {
+  .container-suchleiste-immo {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    max-width: 1120px;
     margin: 0 auto;
+    .immo-preview-container {
+      & > * {
+        margin-bottom: 35px;
+      }
+    }
   }
 }

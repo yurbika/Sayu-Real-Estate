@@ -52,13 +52,15 @@ class Liste extends React.Component {
     const { alleErgebnisse } = filterData(filter);
     return (
       <div className="container-liste">
-        <SuchleisteContainer additionalStyle={"liste"}>
-          <Suchleiste additionalStyle={"liste"} />
-        </SuchleisteContainer>
-        <div className="immo-preview-container">
-          {alleErgebnisse.map((item, index) =>
-            index < 12 ? <ImmoPreview immo={item} /> : null
-          )}
+        <div className="container-suchleiste-immo">
+          <SuchleisteContainer additionalStyle={"liste"}>
+            <Suchleiste additionalStyle={"liste"} />
+          </SuchleisteContainer>
+          <div className="immo-preview-container">
+            {alleErgebnisse.map((item, index) =>
+              index < 12 ? <ImmoPreview immo={item} /> : null
+            )}
+          </div>
         </div>
       </div>
     );
