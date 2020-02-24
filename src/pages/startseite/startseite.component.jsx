@@ -93,7 +93,6 @@ class Startseite extends React.Component {
           </Suchleiste>
           <Button
             scrollButton
-            scroll
             onClick={() => toSection("inspirations-section")}
           />
         </ContainerSuchleiste>

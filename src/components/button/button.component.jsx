@@ -5,7 +5,7 @@ import { CustomButtonContainer, ArrowContainer, Arrow } from "./button.styles";
 const Button = ({ children, preis, ...props }) => (
   <CustomButtonContainer {...props}>
     <span>{children}</span>
-    {props.scroll ? (
+    {props.scrollButton ? (
       <ArrowContainer {...props}>
         <Arrow {...props} />
       </ArrowContainer>

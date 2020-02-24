@@ -69,14 +69,8 @@ const scrollButton = css`
   border: 1px solid ${theme.colors.lightWhite};
   background-color: rgba(0, 0, 0, 0);
   border-radius: 15px;
-  .arrow-container {
-    bottom: 2.4rem;
-    right: 5.3rem;
-    transform: rotate(45deg);
-  }
   &:hover {
     background: ${theme.colors.darkPurple};
-    letter-spacing: 2px;
     transition: all 0.3s ease-out;
   }
 `;
@@ -84,6 +78,18 @@ const scrollButton = css`
 //entscheiden welche Styles angewendet werden soll
 
 const getButtonStyles = props => {
+  if (props.scrollButton && props.sliderArrow)
+    return [
+      scrollButton,
+      css`
+        height: 2rem;
+        width: 3rem;
+        &:hover {
+          background: ${theme.colors.lightPurple};
+          transition: all 0.3s ease-out;
+        }
+      `
+    ];
   if (props.scrollButton) return scrollButton;
   if (props.sekundärerButton) return sekundärerButton;
   if (props.suchButton) return suchButton;
@@ -119,6 +125,18 @@ export const CustomButtonContainer = styled.button`
 //wurde rausgenommen jedoch die Funktionen sind immer noch drin
 
 const getArrowContainerStyles = props => {
+  if (props.scrollButton && props.sliderArrow)
+    return css`
+      min-width: 4rem;
+      width: 3rem;
+      max-width: 8vw;
+      height: 2rem;
+      border-radius: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      left: 0;
+    `;
   if (props.scrollButton)
     return css`
       min-width: 4rem;
@@ -134,6 +152,19 @@ const getArrowContainerStyles = props => {
 };
 
 const getArrowStyles = props => {
+  if (props.scrollButton && props.sliderArrow)
+    return css`
+      margin: 6px 0 0 -21px;
+      &:before,
+      &:after {
+        width: 15px;
+        height: 3px;
+      }
+      &:after {
+        top: -6px;
+        left: 6px;
+      }
+    `;
   if (props.scrollButton)
     return css`
       margin: -5px 0 0 -45px;
