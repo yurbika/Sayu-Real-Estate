@@ -21,7 +21,8 @@ const Slider = ({
   toggleRight,
   setSliderPosition,
   curPosArray,
-  id
+  id,
+  ...otherProps
 }) => {
   if (curPosArray[id] > imgArray.length - 1)
     setSliderPosition({ num: 0, id: id });
@@ -39,7 +40,7 @@ const Slider = ({
           <Button scrollButton sliderArrow onClick={() => toggleLeft(id)} />
         </div>
       </div>
-      <img src={imgArray[curPosArray[id]]} alt={alt} />
+      <img src={imgArray[curPosArray[id]]} alt={alt} {...otherProps} />
     </div>
   );
 };

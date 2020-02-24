@@ -6,6 +6,7 @@ import dropdownReducer from "./dropdown/dropdown.reducer";
 import resultReducer from "./results-dropdown/results.reducer";
 import startseitenReducer from "./startseite/startseite.reducer";
 import sliderReducer from "./slider/slider.reducuer";
+import popupReducer from "./popup/popup.reducer";
 
 export default combineReducers({
   inspirationsSketion: inspirationsReducer,
@@ -13,5 +14,6 @@ export default combineReducers({
   dropdown: dropdownReducer,
   results: resultReducer,
   startseite: startseitenReducer,
-  slider: sliderReducer
+  slider: sliderReducer,
+  popup: popupReducer
 });

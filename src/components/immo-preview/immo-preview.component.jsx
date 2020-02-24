@@ -1,13 +1,18 @@
 import React from "react";
+import { connect } from "react-redux";
+import { createStructuredSelector } from "reselect";
 
 import Slider from "../../components/slider/slider.component";
+
+//redux imports
+import { togglePopup } from "../../redux/popup/popup.action";
 
 //utils
 import { numberWithDots } from "../input/input.utils";
 
 import "./immo-preview.styles.scss";
 
-const ImmoPreview = ({ immo, id }) => {
+const ImmoPreview = ({ immo, id, togglePopup }) => {
   let haustyp = "";
   if (!!immo["haus"]) haustyp = "haus";
   else if (!!immo["wohnung"]) haustyp = "wohnung";
@@ -32,9 +37,10 @@ const ImmoPreview = ({ immo, id }) => {
           ]}
           alt={haustyp}
           id={id}
+          onClick={() => togglePopup()}
         />
       </div>
-      <div className="details">
+      <div className="details" onClick={() => console.log("hi")}>
         <div className="beschreibung">
           <span className="titel">{immo[haustyp]["titel"]}</span>
           <span className="untertitel">{immo[haustyp]["untertitel"]}</span>
@@ -42,7 +48,9 @@ const ImmoPreview = ({ immo, id }) => {
         </div>
         <div className="footer">
           <span className="adresse">
-            {immo[haustyp]["adresse"]["straße"] +
+            Adresse:
+            {" " +
+              immo[haustyp]["adresse"]["straße"] +
               ", " +
               immo[haustyp]["adresse"]["postleitzahl"] +
               " - " +
@@ -50,10 +58,14 @@ const ImmoPreview = ({ immo, id }) => {
               " - " +
               immo[haustyp]["adresse"]["bundesland"]}
           </span>
-          <span className="zimmer">{immo[haustyp]["zimmer"]}</span>
-          <span className="wohnfläche">{immo[haustyp]["wohnfläche"]} m²</span>
+          <span className="zimmer">
+            Zimmer: {" " + immo[haustyp]["zimmer"]}
+          </span>
+          <span className="wohnfläche">
+            Wohnfläche: {" " + immo[haustyp]["wohnfläche"]} m²
+          </span>
           <span className="preis">
-            {numberWithDots(immo[haustyp]["preis"].toString())} €
+            Preis: {" " + numberWithDots(immo[haustyp]["preis"].toString())} €
           </span>
         </div>
       </div>
@@ -61,4 +73,8 @@ const ImmoPreview = ({ immo, id }) => {
   );
 };
 
-export default ImmoPreview;
+const mapDispatchToProps = dispatch => ({
+  togglePopup: () => dispatch(togglePopup())
+});
+
+export default connect(null, mapDispatchToProps)(ImmoPreview);
