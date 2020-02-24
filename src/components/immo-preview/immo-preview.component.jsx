@@ -2,6 +2,9 @@ import React from "react";
 
 import Slider from "../../components/slider/slider.component";
 
+//utils
+import { numberWithDots } from "../input/input.utils";
+
 import "./immo-preview.styles.scss";
 
 const ImmoPreview = ({ immo, id }) => {
@@ -31,18 +34,28 @@ const ImmoPreview = ({ immo, id }) => {
           id={id}
         />
       </div>
-      <div className="beschreibung">
-        <span className="titel">{immo[haustyp]["titel"]}</span>
-        <span className="untertitel">{immo[haustyp]["untertitel"]}</span>
-        <div className="text">{immo[haustyp]["kurzeBeschreibung"]}</div>
-      </div>
-      <span className="adresse"></span>
-      <div className="footer">
-        <span className="zimmer"></span>
-        <span className="badezimmer"></span>
-        <span className="wohnfläche"></span>
-        <span className="grundstück"></span>
-        <span className="preis"></span>
+      <div className="details">
+        <div className="beschreibung">
+          <span className="titel">{immo[haustyp]["titel"]}</span>
+          <span className="untertitel">{immo[haustyp]["untertitel"]}</span>
+          <div className="text">{immo[haustyp]["kurzeBeschreibung"]}</div>
+        </div>
+        <div className="footer">
+          <span className="adresse">
+            {immo[haustyp]["adresse"]["straße"] +
+              ", " +
+              immo[haustyp]["adresse"]["postleitzahl"] +
+              " - " +
+              immo[haustyp]["adresse"]["stadt"] +
+              " - " +
+              immo[haustyp]["adresse"]["bundesland"]}
+          </span>
+          <span className="zimmer">{immo[haustyp]["zimmer"]}</span>
+          <span className="wohnfläche">{immo[haustyp]["wohnfläche"]} m²</span>
+          <span className="preis">
+            {numberWithDots(immo[haustyp]["preis"].toString())} €
+          </span>
+        </div>
       </div>
     </div>
   );
