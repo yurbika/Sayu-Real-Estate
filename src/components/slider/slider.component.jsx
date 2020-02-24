@@ -22,7 +22,11 @@ const Slider = ({ imgArray, alt, curPos }) => {
           <Button scrollButton sliderArrow />
         </div>
       </div>
-      <div className="rechter-pfeil"></div>
+      <div className="rechter-pfeil-container">
+        <div className="rechter-pfeil">
+          <Button scrollButton sliderArrow />
+        </div>
+      </div>
       <img src={imgArray[curPos]} alt={alt} />
     </div>
   );

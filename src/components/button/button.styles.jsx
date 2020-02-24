@@ -84,6 +84,7 @@ const getButtonStyles = props => {
       css`
         height: 2rem;
         width: 3rem;
+        border: none;
         &:hover {
           background: ${theme.colors.lightPurple};
           transition: all 0.3s ease-out;
@@ -154,15 +155,15 @@ const getArrowContainerStyles = props => {
 const getArrowStyles = props => {
   if (props.scrollButton && props.sliderArrow)
     return css`
-      margin: 6px 0 0 -21px;
+      margin: -1px 0 0 -32px;
       &:before,
       &:after {
-        width: 15px;
+        width: 25px;
         height: 3px;
       }
       &:after {
-        top: -6px;
-        left: 6px;
+        top: -11px;
+        left: 11px;
       }
     `;
   if (props.scrollButton)
