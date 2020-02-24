@@ -5,7 +5,7 @@ import { createStructuredSelector } from "reselect";
 import Button from "../button/button.component";
 
 //redux imports
-import { selectCurrentPosition } from "../../redux/slider/slider.selectors";
+import { selectCurrentPositionArray } from "../../redux/slider/slider.selectors";
 import {
   setSliderPosition,
   toggleLeft,
@@ -20,34 +20,38 @@ const Slider = ({
   toggleLeft,
   toggleRight,
   setSliderPosition,
-  curPos
+  curPosArray,
+  id
 }) => {
-  if (curPos > imgArray.length - 1) setSliderPosition(0);
-  if (curPos < 0) setSliderPosition(imgArray.length - 1);
+  if (curPosArray[id] > imgArray.length - 1)
+    setSliderPosition({ num: 0, id: id });
+  if (curPosArray[id] < 0)
+    setSliderPosition({ num: imgArray.length - 1, id: id });
   return (
     <div className="slider-container">
       <div className="rechter-pfeil-container">
         <div className="rechter-pfeil">
-          <Button scrollButton sliderArrow onClick={() => toggleRight()} />
+          <Button scrollButton sliderArrow onClick={() => toggleRight(id)} />
         </div>
       </div>
       <div className="linker-pfeil-container">
         <div className="linker-pfeil">
-          <Button scrollButton sliderArrow onClick={() => toggleLeft()} />
+          <Button scrollButton sliderArrow onClick={() => toggleLeft(id)} />
         </div>
       </div>
-      <img src={imgArray[curPos]} alt={alt} />
+      <img src={imgArray[curPosArray[id]]} alt={alt} />
     </div>
   );
 };
 
 const mapStateToProps = createStructuredSelector({
-  curPos: selectCurrentPosition
+  curPosArray: selectCurrentPositionArray
 });
+
 const mapDispatchToProps = dispatch => ({
   setSliderPosition: num => dispatch(setSliderPosition(num)),
-  toggleLeft: () => dispatch(toggleLeft()),
-  toggleRight: () => dispatch(toggleRight())
+  toggleLeft: num => dispatch(toggleLeft(num)),
+  toggleRight: num => dispatch(toggleRight(num))
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Slider);

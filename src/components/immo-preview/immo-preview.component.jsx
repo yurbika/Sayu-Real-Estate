@@ -4,7 +4,7 @@ import Slider from "../../components/slider/slider.component";
 
 import "./immo-preview.styles.scss";
 
-const ImmoPreview = ({ immo }) => {
+const ImmoPreview = ({ immo, id }) => {
   let haustyp = "";
   if (!!immo["haus"]) haustyp = "haus";
   else if (!!immo["wohnung"]) haustyp = "wohnung";
@@ -12,13 +12,6 @@ const ImmoPreview = ({ immo }) => {
   return (
     <div className="container">
       <div className="bild-preview-container">
-        {/*/ <img
-        //   src={
-        //     immo[haustyp]["bilder"]["titelbild"] +
-        //     "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=360&h=270&fit=crop"
-        //   }
-        //   alt={haustyp}
-        // >*/}
         <Slider
           imgArray={[
             immo[haustyp]["bilder"]["titelbild"] +
@@ -35,6 +28,7 @@ const ImmoPreview = ({ immo }) => {
               "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=360&h=270&fit=crop"
           ]}
           alt={haustyp}
+          id={id}
         />
       </div>
       <div className="beschreibung">
@@ -43,7 +37,7 @@ const ImmoPreview = ({ immo }) => {
         <span className="untertitel"></span>
         <span className="volle-beschreibung"></span>
       </div>
-      <span class="adresse"></span>
+      <span className="adresse"></span>
       <div className="footer">
         <span className="zimmer"></span>
         <span className="badezimmer"></span>

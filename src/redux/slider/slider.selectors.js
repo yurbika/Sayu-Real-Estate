@@ -1,8 +1,8 @@
 import { createSelector } from "reselect";
 
-const selectSlider = state => state.slider;
+export const selectSlider = state => state.slider;
 
-export const selectCurrentPosition = createSelector(
+export const selectCurrentPositionArray = createSelector(
   [selectSlider],
-  slider => slider.i
+  slider => slider.sliderPosArray
 );

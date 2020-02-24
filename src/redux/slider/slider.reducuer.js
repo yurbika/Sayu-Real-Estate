@@ -1,7 +1,7 @@
 import SliderActionType from "./slider.types";
 
 const INITIAL_STATE = {
-  i: 0
+  sliderPosArray: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 };
 
 const sliderReducer = (state = INITIAL_STATE, action) => {
@@ -9,12 +9,30 @@ const sliderReducer = (state = INITIAL_STATE, action) => {
     case SliderActionType.SET_SLIDER_POSITION:
       return {
         ...state,
-        i: action.payload
+        sliderPosArray: state.sliderPosArray.map((item, index) =>
+          index === action.payload.id
+            ? (state.sliderPosArray[index] = action.payload.num)
+            : state.sliderPosArray[index]
+        )
       };
     case SliderActionType.TOGGLE_LEFT:
-      return { ...state, i: --state.i };
+      return {
+        ...state,
+        sliderPosArray: state.sliderPosArray.map((item, index) =>
+          index === action.payload
+            ? --state.sliderPosArray[index]
+            : state.sliderPosArray[index]
+        )
+      };
     case SliderActionType.TOGGLE_RIGHT:
-      return { ...state, i: ++state.i };
+      return {
+        ...state,
+        sliderPosArray: state.sliderPosArray.map((item, index) =>
+          index === action.payload
+            ? ++state.sliderPosArray[index]
+            : state.sliderPosArray[index]
+        )
+      };
     default:
       return state;
   }

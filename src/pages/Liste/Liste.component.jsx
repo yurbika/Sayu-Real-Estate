@@ -58,7 +58,7 @@ class Liste extends React.Component {
           </SuchleisteContainer>
           <div className="immo-preview-container">
             {alleErgebnisse.map((item, index) =>
-              index < 12 ? <ImmoPreview immo={item} /> : null
+              index < 20 ? <ImmoPreview immo={item} id={index} /> : null
             )}
           </div>
         </div>
