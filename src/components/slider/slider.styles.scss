@@ -2,6 +2,9 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  img {
+    border-radius: 15px 0 0 15px;
+  }
   .rechter-pfeil-container {
     position: absolute;
     top: 168px;

@@ -32,10 +32,9 @@ const ImmoPreview = ({ immo, id }) => {
         />
       </div>
       <div className="beschreibung">
-        <div className="text"></div>
-        <span className="titel"></span>
-        <span className="untertitel"></span>
-        <span className="volle-beschreibung"></span>
+        <span className="titel">{immo[haustyp]["titel"]}</span>
+        <span className="untertitel">{immo[haustyp]["untertitel"]}</span>
+        <div className="text">{immo[haustyp]["kurzeBeschreibung"]}</div>
       </div>
       <span className="adresse"></span>
       <div className="footer">

@@ -1,4 +1,25 @@
-.bild-preview-container {
-  width: 360px;
-  height: 270px;
+.container {
+  display: flex;
+  background: hsla(0, 0%, 0%, 0.5);
+  border-radius: 15px;
+  .beschreibung {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 35px;
+    .titel {
+      font-size: 25px;
+      font-weight: bold;
+    }
+    .untertitel {
+      margin-bottom: 15px;
+    }
+    .text {
+      line-height: 20px;
+    }
+  }
+
+  .bild-preview-container {
+    width: 360px;
+    height: 270px;
+  }
 }

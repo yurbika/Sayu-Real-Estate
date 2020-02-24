@@ -2,10 +2,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "0001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 415133,
       bezugsart: "kaufen",
       wohnfläche: 107,
@@ -40,10 +40,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "1001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 854746,
       bezugsart: "kaufen",
       wohnfläche: 460,
@@ -78,10 +78,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "2001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 417788,
       bezugsart: "kaufen",
       wohnfläche: 295,
@@ -116,10 +116,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "3001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1302618,
       bezugsart: "kaufen",
       wohnfläche: 256,
@@ -154,10 +154,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "4001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 420250,
       bezugsart: "kaufen",
       wohnfläche: 250,
@@ -192,10 +192,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "5001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 258885,
       bezugsart: "kaufen",
       wohnfläche: 223,
@@ -230,10 +230,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "6001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 810548,
       bezugsart: "kaufen",
       wohnfläche: 345,
@@ -268,10 +268,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "7001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1147816,
       bezugsart: "kaufen",
       wohnfläche: 107,
@@ -306,10 +306,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "8001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 550770,
       bezugsart: "kaufen",
       wohnfläche: 463,
@@ -344,10 +344,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "9001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1367679,
       bezugsart: "kaufen",
       wohnfläche: 101,
@@ -382,10 +382,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "10001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 691616,
       bezugsart: "kaufen",
       wohnfläche: 189,
@@ -420,10 +420,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "11001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1394848,
       bezugsart: "kaufen",
       wohnfläche: 180,
@@ -458,10 +458,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "12001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1012987,
       bezugsart: "kaufen",
       wohnfläche: 311,
@@ -496,10 +496,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "13001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1271620,
       bezugsart: "kaufen",
       wohnfläche: 354,
@@ -534,10 +534,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "14001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 975454,
       bezugsart: "kaufen",
       wohnfläche: 437,
@@ -572,10 +572,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "15001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 915986,
       bezugsart: "kaufen",
       wohnfläche: 360,
@@ -610,10 +610,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "16001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 585770,
       bezugsart: "kaufen",
       wohnfläche: 481,
@@ -648,10 +648,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "17001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 695350,
       bezugsart: "kaufen",
       wohnfläche: 102,
@@ -686,10 +686,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "18001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1307872,
       bezugsart: "kaufen",
       wohnfläche: 182,
@@ -724,10 +724,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "19001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 727186,
       bezugsart: "kaufen",
       wohnfläche: 572,
@@ -762,10 +762,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "20001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 566061,
       bezugsart: "kaufen",
       wohnfläche: 228,
@@ -800,10 +800,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "21001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 816696,
       bezugsart: "kaufen",
       wohnfläche: 544,
@@ -838,10 +838,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "22001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1291137,
       bezugsart: "kaufen",
       wohnfläche: 462,
@@ -876,10 +876,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "23001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1411404,
       bezugsart: "kaufen",
       wohnfläche: 192,
@@ -914,10 +914,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "24001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 267735,
       bezugsart: "kaufen",
       wohnfläche: 271,
@@ -952,10 +952,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "25001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1357124,
       bezugsart: "kaufen",
       wohnfläche: 405,
@@ -990,10 +990,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "26001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1224887,
       bezugsart: "kaufen",
       wohnfläche: 534,
@@ -1028,10 +1028,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "27001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1116297,
       bezugsart: "kaufen",
       wohnfläche: 132,
@@ -1066,10 +1066,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "28001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 353817,
       bezugsart: "kaufen",
       wohnfläche: 299,
@@ -1104,10 +1104,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "29001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1179098,
       bezugsart: "kaufen",
       wohnfläche: 343,
@@ -1142,10 +1142,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "30001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 455683,
       bezugsart: "kaufen",
       wohnfläche: 533,
@@ -1180,10 +1180,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "31001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 803705,
       bezugsart: "kaufen",
       wohnfläche: 450,
@@ -1218,10 +1218,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "32001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 792999,
       bezugsart: "kaufen",
       wohnfläche: 185,
@@ -1256,10 +1256,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "33001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 602100,
       bezugsart: "kaufen",
       wohnfläche: 162,
@@ -1294,10 +1294,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "34001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 701122,
       bezugsart: "kaufen",
       wohnfläche: 214,
@@ -1332,10 +1332,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "35001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 310064,
       bezugsart: "kaufen",
       wohnfläche: 171,
@@ -1370,10 +1370,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "36001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 387879,
       bezugsart: "kaufen",
       wohnfläche: 135,
@@ -1408,10 +1408,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "37001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 604854,
       bezugsart: "kaufen",
       wohnfläche: 546,
@@ -1446,10 +1446,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "38001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 644415,
       bezugsart: "kaufen",
       wohnfläche: 497,
@@ -1484,10 +1484,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "39001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1476710,
       bezugsart: "kaufen",
       wohnfläche: 237,
@@ -1522,10 +1522,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "40001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 510814,
       bezugsart: "kaufen",
       wohnfläche: 434,
@@ -1560,10 +1560,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "41001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 604977,
       bezugsart: "kaufen",
       wohnfläche: 514,
@@ -1598,10 +1598,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "42001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 518093,
       bezugsart: "kaufen",
       wohnfläche: 290,
@@ -1636,10 +1636,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "43001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 646731,
       bezugsart: "kaufen",
       wohnfläche: 183,
@@ -1674,10 +1674,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "44001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 793082,
       bezugsart: "kaufen",
       wohnfläche: 119,
@@ -1712,10 +1712,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "45001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 363915,
       bezugsart: "kaufen",
       wohnfläche: 162,
@@ -1750,10 +1750,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "46001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1244881,
       bezugsart: "kaufen",
       wohnfläche: 498,
@@ -1788,10 +1788,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "47001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 574192,
       bezugsart: "kaufen",
       wohnfläche: 457,
@@ -1826,10 +1826,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "48001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 948685,
       bezugsart: "kaufen",
       wohnfläche: 410,
@@ -1864,10 +1864,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "49001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 747462,
       bezugsart: "kaufen",
       wohnfläche: 212,
@@ -1902,10 +1902,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "50001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 611612,
       bezugsart: "kaufen",
       wohnfläche: 252,
@@ -1940,10 +1940,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "51001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 918952,
       bezugsart: "kaufen",
       wohnfläche: 464,
@@ -1978,10 +1978,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "52001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 938107,
       bezugsart: "kaufen",
       wohnfläche: 558,
@@ -2016,10 +2016,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "53001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 510451,
       bezugsart: "kaufen",
       wohnfläche: 132,
@@ -2054,10 +2054,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "54001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1391621,
       bezugsart: "kaufen",
       wohnfläche: 565,
@@ -2092,10 +2092,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "55001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 998357,
       bezugsart: "kaufen",
       wohnfläche: 381,
@@ -2130,10 +2130,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "56001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 250916,
       bezugsart: "kaufen",
       wohnfläche: 434,
@@ -2168,10 +2168,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "57001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 779830,
       bezugsart: "kaufen",
       wohnfläche: 374,
@@ -2206,10 +2206,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "58001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 736308,
       bezugsart: "kaufen",
       wohnfläche: 385,
@@ -2244,10 +2244,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "59001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 819418,
       bezugsart: "kaufen",
       wohnfläche: 70,
@@ -2282,10 +2282,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "60001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 407093,
       bezugsart: "kaufen",
       wohnfläche: 423,
@@ -2320,10 +2320,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "61001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1364337,
       bezugsart: "kaufen",
       wohnfläche: 546,
@@ -2358,10 +2358,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "62001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 302354,
       bezugsart: "kaufen",
       wohnfläche: 268,
@@ -2396,10 +2396,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "63001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 593969,
       bezugsart: "kaufen",
       wohnfläche: 85,
@@ -2434,10 +2434,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "64001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1141944,
       bezugsart: "kaufen",
       wohnfläche: 172,
@@ -2472,10 +2472,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "65001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1089475,
       bezugsart: "kaufen",
       wohnfläche: 267,
@@ -2510,10 +2510,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "66001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 561583,
       bezugsart: "kaufen",
       wohnfläche: 472,
@@ -2548,10 +2548,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "67001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 935112,
       bezugsart: "kaufen",
       wohnfläche: 330,
@@ -2586,10 +2586,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "68001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1003343,
       bezugsart: "kaufen",
       wohnfläche: 517,
@@ -2624,10 +2624,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "69001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 350787,
       bezugsart: "kaufen",
       wohnfläche: 112,
@@ -2662,10 +2662,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "70001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 973626,
       bezugsart: "kaufen",
       wohnfläche: 327,
@@ -2700,10 +2700,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "71001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1205689,
       bezugsart: "kaufen",
       wohnfläche: 415,
@@ -2738,10 +2738,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "72001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 973795,
       bezugsart: "kaufen",
       wohnfläche: 555,
@@ -2776,10 +2776,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "73001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1097666,
       bezugsart: "kaufen",
       wohnfläche: 95,
@@ -2814,10 +2814,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "74001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1423084,
       bezugsart: "kaufen",
       wohnfläche: 186,
@@ -2852,10 +2852,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "75001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 961263,
       bezugsart: "kaufen",
       wohnfläche: 167,
@@ -2890,10 +2890,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "76001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1192950,
       bezugsart: "kaufen",
       wohnfläche: 360,
@@ -2928,10 +2928,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "77001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 667162,
       bezugsart: "kaufen",
       wohnfläche: 100,
@@ -2966,10 +2966,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "78001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1462589,
       bezugsart: "kaufen",
       wohnfläche: 98,
@@ -3004,10 +3004,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "79001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 476923,
       bezugsart: "kaufen",
       wohnfläche: 498,
@@ -3042,10 +3042,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "80001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 900745,
       bezugsart: "kaufen",
       wohnfläche: 518,
@@ -3080,10 +3080,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "81001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 845435,
       bezugsart: "kaufen",
       wohnfläche: 275,
@@ -3118,10 +3118,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "82001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 498917,
       bezugsart: "kaufen",
       wohnfläche: 91,
@@ -3156,10 +3156,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "83001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1073096,
       bezugsart: "kaufen",
       wohnfläche: 592,
@@ -3194,10 +3194,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "84001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 596263,
       bezugsart: "kaufen",
       wohnfläche: 251,
@@ -3232,10 +3232,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "85001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1402041,
       bezugsart: "kaufen",
       wohnfläche: 86,
@@ -3270,10 +3270,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "86001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 605898,
       bezugsart: "kaufen",
       wohnfläche: 216,
@@ -3308,10 +3308,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "87001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 490381,
       bezugsart: "kaufen",
       wohnfläche: 350,
@@ -3346,10 +3346,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "88001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1163630,
       bezugsart: "kaufen",
       wohnfläche: 324,
@@ -3384,10 +3384,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "89001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1437673,
       bezugsart: "kaufen",
       wohnfläche: 320,
@@ -3422,10 +3422,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "90001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 865674,
       bezugsart: "kaufen",
       wohnfläche: 313,
@@ -3460,10 +3460,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "91001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1063678,
       bezugsart: "kaufen",
       wohnfläche: 464,
@@ -3498,10 +3498,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "92001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 533594,
       bezugsart: "kaufen",
       wohnfläche: 202,
@@ -3536,10 +3536,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "93001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 825444,
       bezugsart: "kaufen",
       wohnfläche: 306,
@@ -3574,10 +3574,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "94001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1054408,
       bezugsart: "kaufen",
       wohnfläche: 229,
@@ -3612,10 +3612,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "95001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 361318,
       bezugsart: "kaufen",
       wohnfläche: 514,
@@ -3650,10 +3650,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "96001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1006435,
       bezugsart: "kaufen",
       wohnfläche: 470,
@@ -3688,10 +3688,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "97001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 441198,
       bezugsart: "kaufen",
       wohnfläche: 488,
@@ -3726,10 +3726,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "98001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1080945,
       bezugsart: "kaufen",
       wohnfläche: 395,
@@ -3764,10 +3764,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "99001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 838284,
       bezugsart: "kaufen",
       wohnfläche: 205,
@@ -3802,10 +3802,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "100001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1162047,
       bezugsart: "kaufen",
       wohnfläche: 98,
@@ -3840,10 +3840,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "101001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 681434,
       bezugsart: "kaufen",
       wohnfläche: 317,
@@ -3878,10 +3878,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "102001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 863332,
       bezugsart: "kaufen",
       wohnfläche: 474,
@@ -3916,10 +3916,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "103001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1250470,
       bezugsart: "kaufen",
       wohnfläche: 550,
@@ -3954,10 +3954,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "104001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1087607,
       bezugsart: "kaufen",
       wohnfläche: 544,
@@ -3992,10 +3992,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "105001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 902050,
       bezugsart: "kaufen",
       wohnfläche: 338,
@@ -4030,10 +4030,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "106001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1104941,
       bezugsart: "kaufen",
       wohnfläche: 344,
@@ -4068,10 +4068,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "107001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 278175,
       bezugsart: "kaufen",
       wohnfläche: 513,
@@ -4106,10 +4106,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "108001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 511263,
       bezugsart: "kaufen",
       wohnfläche: 209,
@@ -4144,10 +4144,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "109001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 744165,
       bezugsart: "kaufen",
       wohnfläche: 555,
@@ -4182,10 +4182,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "110001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 692928,
       bezugsart: "kaufen",
       wohnfläche: 577,
@@ -4220,10 +4220,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "111001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 362142,
       bezugsart: "kaufen",
       wohnfläche: 423,
@@ -4258,10 +4258,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "112001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1481714,
       bezugsart: "kaufen",
       wohnfläche: 274,
@@ -4296,10 +4296,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "113001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1052753,
       bezugsart: "kaufen",
       wohnfläche: 114,
@@ -4334,10 +4334,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "114001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 693611,
       bezugsart: "kaufen",
       wohnfläche: 253,
@@ -4372,10 +4372,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "115001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1387433,
       bezugsart: "kaufen",
       wohnfläche: 263,
@@ -4410,10 +4410,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "116001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1078495,
       bezugsart: "kaufen",
       wohnfläche: 394,
@@ -4448,10 +4448,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "117001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 773793,
       bezugsart: "kaufen",
       wohnfläche: 495,
@@ -4486,10 +4486,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "118001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 848352,
       bezugsart: "kaufen",
       wohnfläche: 589,
@@ -4524,10 +4524,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "119001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 260979,
       bezugsart: "kaufen",
       wohnfläche: 484,
@@ -4562,10 +4562,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "120001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 716411,
       bezugsart: "kaufen",
       wohnfläche: 303,
@@ -4600,10 +4600,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "121001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 856744,
       bezugsart: "kaufen",
       wohnfläche: 312,
@@ -4638,10 +4638,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "122001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1459148,
       bezugsart: "kaufen",
       wohnfläche: 280,
@@ -4676,10 +4676,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "123001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1213258,
       bezugsart: "kaufen",
       wohnfläche: 316,
@@ -4714,10 +4714,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "124001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1105189,
       bezugsart: "kaufen",
       wohnfläche: 190,
@@ -4752,10 +4752,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "125001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 839837,
       bezugsart: "kaufen",
       wohnfläche: 500,
@@ -4790,10 +4790,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "126001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 817024,
       bezugsart: "kaufen",
       wohnfläche: 409,
@@ -4828,10 +4828,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "127001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1290202,
       bezugsart: "kaufen",
       wohnfläche: 229,
@@ -4866,10 +4866,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "128001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 682733,
       bezugsart: "kaufen",
       wohnfläche: 216,
@@ -4904,10 +4904,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "129001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 678877,
       bezugsart: "kaufen",
       wohnfläche: 460,
@@ -4942,10 +4942,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "130001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1212372,
       bezugsart: "kaufen",
       wohnfläche: 416,
@@ -4980,10 +4980,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "131001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1002787,
       bezugsart: "kaufen",
       wohnfläche: 496,
@@ -5018,10 +5018,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "132001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1363726,
       bezugsart: "kaufen",
       wohnfläche: 514,
@@ -5056,10 +5056,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "133001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1436576,
       bezugsart: "kaufen",
       wohnfläche: 210,
@@ -5094,10 +5094,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "134001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 266428,
       bezugsart: "kaufen",
       wohnfläche: 268,
@@ -5132,10 +5132,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "135001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 813261,
       bezugsart: "kaufen",
       wohnfläche: 131,
@@ -5170,10 +5170,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "136001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1234411,
       bezugsart: "kaufen",
       wohnfläche: 247,
@@ -5208,10 +5208,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "137001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 632773,
       bezugsart: "kaufen",
       wohnfläche: 594,
@@ -5246,10 +5246,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "138001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 689207,
       bezugsart: "kaufen",
       wohnfläche: 480,
@@ -5284,10 +5284,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "139001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 713379,
       bezugsart: "kaufen",
       wohnfläche: 558,
@@ -5322,10 +5322,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "140001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1158711,
       bezugsart: "kaufen",
       wohnfläche: 405,
@@ -5360,10 +5360,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "141001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 925586,
       bezugsart: "kaufen",
       wohnfläche: 229,
@@ -5398,10 +5398,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "142001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 883410,
       bezugsart: "kaufen",
       wohnfläche: 576,
@@ -5436,10 +5436,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "143001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1300496,
       bezugsart: "kaufen",
       wohnfläche: 529,
@@ -5474,10 +5474,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "144001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 380932,
       bezugsart: "kaufen",
       wohnfläche: 91,
@@ -5512,10 +5512,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "145001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 486410,
       bezugsart: "kaufen",
       wohnfläche: 218,
@@ -5550,10 +5550,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "146001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 280293,
       bezugsart: "kaufen",
       wohnfläche: 202,
@@ -5588,10 +5588,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "147001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 982966,
       bezugsart: "kaufen",
       wohnfläche: 322,
@@ -5626,10 +5626,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "148001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 882851,
       bezugsart: "kaufen",
       wohnfläche: 359,
@@ -5664,10 +5664,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "149001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 669284,
       bezugsart: "kaufen",
       wohnfläche: 207,
@@ -5702,10 +5702,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "150001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 628852,
       bezugsart: "kaufen",
       wohnfläche: 135,
@@ -5740,10 +5740,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "151001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 412524,
       bezugsart: "kaufen",
       wohnfläche: 392,
@@ -5778,10 +5778,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "152001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 904798,
       bezugsart: "kaufen",
       wohnfläche: 417,
@@ -5816,10 +5816,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "153001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 649888,
       bezugsart: "kaufen",
       wohnfläche: 553,
@@ -5854,10 +5854,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "154001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1327082,
       bezugsart: "kaufen",
       wohnfläche: 339,
@@ -5892,10 +5892,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "155001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 893851,
       bezugsart: "kaufen",
       wohnfläche: 165,
@@ -5930,10 +5930,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "156001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 703918,
       bezugsart: "kaufen",
       wohnfläche: 560,
@@ -5968,10 +5968,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "157001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 660798,
       bezugsart: "kaufen",
       wohnfläche: 391,
@@ -6006,10 +6006,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "158001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 336986,
       bezugsart: "kaufen",
       wohnfläche: 462,
@@ -6044,10 +6044,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "159001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 982557,
       bezugsart: "kaufen",
       wohnfläche: 553,
@@ -6082,10 +6082,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "160001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1249482,
       bezugsart: "kaufen",
       wohnfläche: 217,
@@ -6120,10 +6120,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "161001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 334119,
       bezugsart: "kaufen",
       wohnfläche: 483,
@@ -6158,10 +6158,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "162001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1314550,
       bezugsart: "kaufen",
       wohnfläche: 566,
@@ -6196,10 +6196,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "163001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 371569,
       bezugsart: "kaufen",
       wohnfläche: 214,
@@ -6234,10 +6234,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "164001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1296925,
       bezugsart: "kaufen",
       wohnfläche: 267,
@@ -6272,10 +6272,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "165001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 676259,
       bezugsart: "kaufen",
       wohnfläche: 446,
@@ -6310,10 +6310,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "166001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1029960,
       bezugsart: "kaufen",
       wohnfläche: 560,
@@ -6348,10 +6348,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "167001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1204684,
       bezugsart: "kaufen",
       wohnfläche: 415,
@@ -6386,10 +6386,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "168001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1120839,
       bezugsart: "kaufen",
       wohnfläche: 435,
@@ -6424,10 +6424,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "169001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1198829,
       bezugsart: "kaufen",
       wohnfläche: 198,
@@ -6462,10 +6462,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "170001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 444583,
       bezugsart: "kaufen",
       wohnfläche: 426,
@@ -6500,10 +6500,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "171001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 885324,
       bezugsart: "kaufen",
       wohnfläche: 279,
@@ -6538,10 +6538,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "172001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1448289,
       bezugsart: "kaufen",
       wohnfläche: 485,
@@ -6576,10 +6576,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "173001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1325799,
       bezugsart: "kaufen",
       wohnfläche: 590,
@@ -6614,10 +6614,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "174001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 994746,
       bezugsart: "kaufen",
       wohnfläche: 145,
@@ -6652,10 +6652,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "175001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 610848,
       bezugsart: "kaufen",
       wohnfläche: 342,
@@ -6690,10 +6690,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "176001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 472871,
       bezugsart: "kaufen",
       wohnfläche: 177,
@@ -6728,10 +6728,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "177001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1142939,
       bezugsart: "kaufen",
       wohnfläche: 401,
@@ -6766,10 +6766,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "178001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1142555,
       bezugsart: "kaufen",
       wohnfläche: 135,
@@ -6804,10 +6804,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "179001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 345764,
       bezugsart: "kaufen",
       wohnfläche: 309,
@@ -6842,10 +6842,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "180001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 364377,
       bezugsart: "kaufen",
       wohnfläche: 576,
@@ -6880,10 +6880,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "181001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1387423,
       bezugsart: "kaufen",
       wohnfläche: 116,
@@ -6918,10 +6918,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "182001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 566344,
       bezugsart: "kaufen",
       wohnfläche: 423,
@@ -6956,10 +6956,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "183001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 496471,
       bezugsart: "kaufen",
       wohnfläche: 443,
@@ -6994,10 +6994,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "184001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1430665,
       bezugsart: "kaufen",
       wohnfläche: 507,
@@ -7032,10 +7032,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "185001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1105078,
       bezugsart: "kaufen",
       wohnfläche: 344,
@@ -7070,10 +7070,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "186001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1257344,
       bezugsart: "kaufen",
       wohnfläche: 166,
@@ -7108,10 +7108,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "187001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 477467,
       bezugsart: "kaufen",
       wohnfläche: 432,
@@ -7146,10 +7146,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "188001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 655170,
       bezugsart: "kaufen",
       wohnfläche: 400,
@@ -7184,10 +7184,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "189001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 687499,
       bezugsart: "kaufen",
       wohnfläche: 451,
@@ -7222,10 +7222,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "190001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 655263,
       bezugsart: "kaufen",
       wohnfläche: 395,
@@ -7260,10 +7260,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "191001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 335141,
       bezugsart: "kaufen",
       wohnfläche: 494,
@@ -7298,10 +7298,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "192001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1496963,
       bezugsart: "kaufen",
       wohnfläche: 123,
@@ -7336,10 +7336,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "193001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 351061,
       bezugsart: "kaufen",
       wohnfläche: 90,
@@ -7374,10 +7374,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "194001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 704819,
       bezugsart: "kaufen",
       wohnfläche: 515,
@@ -7412,10 +7412,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "195001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 283454,
       bezugsart: "kaufen",
       wohnfläche: 523,
@@ -7450,10 +7450,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "196001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 744326,
       bezugsart: "kaufen",
       wohnfläche: 229,
@@ -7488,10 +7488,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "197001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1470964,
       bezugsart: "kaufen",
       wohnfläche: 77,
@@ -7526,10 +7526,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "198001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1347192,
       bezugsart: "kaufen",
       wohnfläche: 108,
@@ -7564,10 +7564,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "199001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1314067,
       bezugsart: "kaufen",
       wohnfläche: 539,
@@ -7602,10 +7602,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "200001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 718306,
       bezugsart: "kaufen",
       wohnfläche: 192,
@@ -7640,10 +7640,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "201001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 365517,
       bezugsart: "kaufen",
       wohnfläche: 541,
@@ -7678,10 +7678,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "202001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1231098,
       bezugsart: "kaufen",
       wohnfläche: 348,
@@ -7716,10 +7716,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "203001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1008853,
       bezugsart: "kaufen",
       wohnfläche: 328,
@@ -7754,10 +7754,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "204001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1099093,
       bezugsart: "kaufen",
       wohnfläche: 158,
@@ -7792,10 +7792,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "205001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 878978,
       bezugsart: "kaufen",
       wohnfläche: 531,
@@ -7830,10 +7830,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "206001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1312724,
       bezugsart: "kaufen",
       wohnfläche: 474,
@@ -7868,10 +7868,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "207001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 396595,
       bezugsart: "kaufen",
       wohnfläche: 88,
@@ -7906,10 +7906,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "208001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 461913,
       bezugsart: "kaufen",
       wohnfläche: 459,
@@ -7944,10 +7944,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "209001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1317183,
       bezugsart: "kaufen",
       wohnfläche: 380,
@@ -7982,10 +7982,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "210001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 753297,
       bezugsart: "kaufen",
       wohnfläche: 551,
@@ -8020,10 +8020,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "211001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 372624,
       bezugsart: "kaufen",
       wohnfläche: 447,
@@ -8058,10 +8058,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "212001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1362948,
       bezugsart: "kaufen",
       wohnfläche: 572,
@@ -8096,10 +8096,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "213001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1356837,
       bezugsart: "kaufen",
       wohnfläche: 317,
@@ -8134,10 +8134,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "214001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 535957,
       bezugsart: "kaufen",
       wohnfläche: 384,
@@ -8172,10 +8172,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "215001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1177209,
       bezugsart: "kaufen",
       wohnfläche: 205,
@@ -8210,10 +8210,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "216001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 790323,
       bezugsart: "kaufen",
       wohnfläche: 519,
@@ -8248,10 +8248,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "217001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 774982,
       bezugsart: "kaufen",
       wohnfläche: 170,
@@ -8286,10 +8286,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "218001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 367052,
       bezugsart: "kaufen",
       wohnfläche: 478,
@@ -8324,10 +8324,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "219001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1203521,
       bezugsart: "kaufen",
       wohnfläche: 355,
@@ -8362,10 +8362,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "220001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 978594,
       bezugsart: "kaufen",
       wohnfläche: 413,
@@ -8400,10 +8400,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "221001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1477037,
       bezugsart: "kaufen",
       wohnfläche: 399,
@@ -8438,10 +8438,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "222001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1038020,
       bezugsart: "kaufen",
       wohnfläche: 100,
@@ -8476,10 +8476,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "223001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 774624,
       bezugsart: "kaufen",
       wohnfläche: 95,
@@ -8514,10 +8514,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "224001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 880131,
       bezugsart: "kaufen",
       wohnfläche: 564,
@@ -8552,10 +8552,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "225001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 816386,
       bezugsart: "kaufen",
       wohnfläche: 252,
@@ -8590,10 +8590,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "226001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1478675,
       bezugsart: "kaufen",
       wohnfläche: 267,
@@ -8628,10 +8628,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "227001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1482173,
       bezugsart: "kaufen",
       wohnfläche: 244,
@@ -8666,10 +8666,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "228001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 976886,
       bezugsart: "kaufen",
       wohnfläche: 472,
@@ -8704,10 +8704,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "229001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 691578,
       bezugsart: "kaufen",
       wohnfläche: 91,
@@ -8742,10 +8742,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "230001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1201639,
       bezugsart: "kaufen",
       wohnfläche: 582,
@@ -8780,10 +8780,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "231001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 372059,
       bezugsart: "kaufen",
       wohnfläche: 220,
@@ -8818,10 +8818,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "232001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1040007,
       bezugsart: "kaufen",
       wohnfläche: 581,
@@ -8856,10 +8856,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "233001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1062309,
       bezugsart: "kaufen",
       wohnfläche: 420,
@@ -8894,10 +8894,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "234001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1335349,
       bezugsart: "kaufen",
       wohnfläche: 549,
@@ -8932,10 +8932,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "235001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1160765,
       bezugsart: "kaufen",
       wohnfläche: 284,
@@ -8970,10 +8970,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "236001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 700980,
       bezugsart: "kaufen",
       wohnfläche: 129,
@@ -9008,10 +9008,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "237001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 286025,
       bezugsart: "kaufen",
       wohnfläche: 257,
@@ -9046,10 +9046,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "238001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 429863,
       bezugsart: "kaufen",
       wohnfläche: 556,
@@ -9084,10 +9084,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "239001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1221494,
       bezugsart: "kaufen",
       wohnfläche: 134,
@@ -9122,10 +9122,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "240001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1094563,
       bezugsart: "kaufen",
       wohnfläche: 378,
@@ -9160,10 +9160,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "241001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1394496,
       bezugsart: "kaufen",
       wohnfläche: 496,
@@ -9198,10 +9198,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "242001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 780935,
       bezugsart: "kaufen",
       wohnfläche: 79,
@@ -9236,10 +9236,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "243001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 724194,
       bezugsart: "kaufen",
       wohnfläche: 238,
@@ -9274,10 +9274,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "244001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 544958,
       bezugsart: "kaufen",
       wohnfläche: 318,
@@ -9312,10 +9312,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "245001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 577382,
       bezugsart: "kaufen",
       wohnfläche: 499,
@@ -9350,10 +9350,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "246001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 365189,
       bezugsart: "kaufen",
       wohnfläche: 481,
@@ -9388,10 +9388,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "247001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1388654,
       bezugsart: "kaufen",
       wohnfläche: 455,
@@ -9426,10 +9426,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "248001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1482365,
       bezugsart: "kaufen",
       wohnfläche: 436,
@@ -9464,10 +9464,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "249001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 918667,
       bezugsart: "kaufen",
       wohnfläche: 356,
@@ -9502,10 +9502,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "250001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 972795,
       bezugsart: "kaufen",
       wohnfläche: 263,
@@ -9540,10 +9540,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "251001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1438249,
       bezugsart: "kaufen",
       wohnfläche: 346,
@@ -9578,10 +9578,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "252001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 986209,
       bezugsart: "kaufen",
       wohnfläche: 224,
@@ -9616,10 +9616,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "253001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 755802,
       bezugsart: "kaufen",
       wohnfläche: 534,
@@ -9654,10 +9654,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "254001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1380331,
       bezugsart: "kaufen",
       wohnfläche: 542,
@@ -9692,10 +9692,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "255001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 458724,
       bezugsart: "kaufen",
       wohnfläche: 154,
@@ -9730,10 +9730,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "256001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 569648,
       bezugsart: "kaufen",
       wohnfläche: 190,
@@ -9768,10 +9768,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "257001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 881722,
       bezugsart: "kaufen",
       wohnfläche: 149,
@@ -9806,10 +9806,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "258001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 791101,
       bezugsart: "kaufen",
       wohnfläche: 148,
@@ -9844,10 +9844,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "259001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 883334,
       bezugsart: "kaufen",
       wohnfläche: 430,
@@ -9882,10 +9882,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "260001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1044900,
       bezugsart: "kaufen",
       wohnfläche: 301,
@@ -9920,10 +9920,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "261001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1232973,
       bezugsart: "kaufen",
       wohnfläche: 543,
@@ -9958,10 +9958,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "262001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1485832,
       bezugsart: "kaufen",
       wohnfläche: 217,
@@ -9996,10 +9996,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "263001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 301564,
       bezugsart: "kaufen",
       wohnfläche: 163,
@@ -10034,10 +10034,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "264001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 562023,
       bezugsart: "kaufen",
       wohnfläche: 223,
@@ -10072,10 +10072,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "265001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 459806,
       bezugsart: "kaufen",
       wohnfläche: 246,
@@ -10110,10 +10110,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "266001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1493959,
       bezugsart: "kaufen",
       wohnfläche: 366,
@@ -10148,10 +10148,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "267001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1011584,
       bezugsart: "kaufen",
       wohnfläche: 229,
@@ -10186,10 +10186,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "268001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 475308,
       bezugsart: "kaufen",
       wohnfläche: 274,
@@ -10224,10 +10224,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "269001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1467831,
       bezugsart: "kaufen",
       wohnfläche: 409,
@@ -10262,10 +10262,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "270001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1160519,
       bezugsart: "kaufen",
       wohnfläche: 192,
@@ -10300,10 +10300,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "271001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 549658,
       bezugsart: "kaufen",
       wohnfläche: 215,
@@ -10338,10 +10338,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "272001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 280645,
       bezugsart: "kaufen",
       wohnfläche: 77,
@@ -10376,10 +10376,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "273001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 256686,
       bezugsart: "kaufen",
       wohnfläche: 88,
@@ -10414,10 +10414,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "274001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 807813,
       bezugsart: "kaufen",
       wohnfläche: 115,
@@ -10452,10 +10452,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "275001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 386268,
       bezugsart: "kaufen",
       wohnfläche: 150,
@@ -10490,10 +10490,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "276001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 548636,
       bezugsart: "kaufen",
       wohnfläche: 79,
@@ -10528,10 +10528,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "277001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 256476,
       bezugsart: "kaufen",
       wohnfläche: 480,
@@ -10566,10 +10566,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "278001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1265503,
       bezugsart: "kaufen",
       wohnfläche: 248,
@@ -10604,10 +10604,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "279001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 660138,
       bezugsart: "kaufen",
       wohnfläche: 498,
@@ -10642,10 +10642,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "280001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1313067,
       bezugsart: "kaufen",
       wohnfläche: 133,
@@ -10680,10 +10680,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "281001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1191373,
       bezugsart: "kaufen",
       wohnfläche: 257,
@@ -10718,10 +10718,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "282001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 470176,
       bezugsart: "kaufen",
       wohnfläche: 424,
@@ -10756,10 +10756,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "283001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 742991,
       bezugsart: "kaufen",
       wohnfläche: 270,
@@ -10794,10 +10794,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "284001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1297631,
       bezugsart: "kaufen",
       wohnfläche: 547,
@@ -10832,10 +10832,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "285001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1499539,
       bezugsart: "kaufen",
       wohnfläche: 437,
@@ -10870,10 +10870,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "286001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1218927,
       bezugsart: "kaufen",
       wohnfläche: 195,
@@ -10908,10 +10908,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "287001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1142522,
       bezugsart: "kaufen",
       wohnfläche: 277,
@@ -10946,10 +10946,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "288001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1439495,
       bezugsart: "kaufen",
       wohnfläche: 528,
@@ -10984,10 +10984,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "289001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 259639,
       bezugsart: "kaufen",
       wohnfläche: 524,
@@ -11022,10 +11022,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "290001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 708420,
       bezugsart: "kaufen",
       wohnfläche: 205,
@@ -11060,10 +11060,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "291001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1267789,
       bezugsart: "kaufen",
       wohnfläche: 294,
@@ -11098,10 +11098,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "292001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1034349,
       bezugsart: "kaufen",
       wohnfläche: 105,
@@ -11136,10 +11136,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "293001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 362657,
       bezugsart: "kaufen",
       wohnfläche: 85,
@@ -11174,10 +11174,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "294001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1070540,
       bezugsart: "kaufen",
       wohnfläche: 461,
@@ -11212,10 +11212,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "295001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 410412,
       bezugsart: "kaufen",
       wohnfläche: 448,
@@ -11250,10 +11250,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "296001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1278829,
       bezugsart: "kaufen",
       wohnfläche: 583,
@@ -11288,10 +11288,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "297001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1185456,
       bezugsart: "kaufen",
       wohnfläche: 251,
@@ -11326,10 +11326,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "298001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 386539,
       bezugsart: "kaufen",
       wohnfläche: 317,
@@ -11364,10 +11364,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "299001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1036022,
       bezugsart: "kaufen",
       wohnfläche: 503,
@@ -11402,10 +11402,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "300001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1180053,
       bezugsart: "kaufen",
       wohnfläche: 325,
@@ -11440,10 +11440,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "301001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 800579,
       bezugsart: "kaufen",
       wohnfläche: 357,
@@ -11478,10 +11478,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "302001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 823604,
       bezugsart: "kaufen",
       wohnfläche: 565,
@@ -11516,10 +11516,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "303001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1341637,
       bezugsart: "kaufen",
       wohnfläche: 302,
@@ -11554,10 +11554,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "304001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1382770,
       bezugsart: "kaufen",
       wohnfläche: 409,
@@ -11592,10 +11592,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "305001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1453743,
       bezugsart: "kaufen",
       wohnfläche: 458,
@@ -11630,10 +11630,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "306001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1303156,
       bezugsart: "kaufen",
       wohnfläche: 375,
@@ -11668,10 +11668,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "307001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 619702,
       bezugsart: "kaufen",
       wohnfläche: 493,
@@ -11706,10 +11706,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "308001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 620069,
       bezugsart: "kaufen",
       wohnfläche: 73,
@@ -11744,10 +11744,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "309001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1263215,
       bezugsart: "kaufen",
       wohnfläche: 472,
@@ -11782,10 +11782,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "310001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 476987,
       bezugsart: "kaufen",
       wohnfläche: 572,
@@ -11820,10 +11820,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "311001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1294601,
       bezugsart: "kaufen",
       wohnfläche: 584,
@@ -11858,10 +11858,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "312001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 816725,
       bezugsart: "kaufen",
       wohnfläche: 530,
@@ -11896,10 +11896,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "313001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1114595,
       bezugsart: "kaufen",
       wohnfläche: 169,
@@ -11934,10 +11934,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "314001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 377166,
       bezugsart: "kaufen",
       wohnfläche: 465,
@@ -11972,10 +11972,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "315001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 343262,
       bezugsart: "kaufen",
       wohnfläche: 411,
@@ -12010,10 +12010,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "316001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1322213,
       bezugsart: "kaufen",
       wohnfläche: 254,
@@ -12048,10 +12048,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "317001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 862808,
       bezugsart: "kaufen",
       wohnfläche: 374,
@@ -12086,10 +12086,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "318001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1406419,
       bezugsart: "kaufen",
       wohnfläche: 439,
@@ -12124,10 +12124,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "319001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 959539,
       bezugsart: "kaufen",
       wohnfläche: 292,
@@ -12162,10 +12162,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "320001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1080218,
       bezugsart: "kaufen",
       wohnfläche: 570,
@@ -12200,10 +12200,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "321001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 997127,
       bezugsart: "kaufen",
       wohnfläche: 517,
@@ -12238,10 +12238,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "322001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1280732,
       bezugsart: "kaufen",
       wohnfläche: 271,
@@ -12276,10 +12276,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "323001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1474604,
       bezugsart: "kaufen",
       wohnfläche: 344,
@@ -12314,10 +12314,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "324001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1448164,
       bezugsart: "kaufen",
       wohnfläche: 226,
@@ -12352,10 +12352,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "325001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1333871,
       bezugsart: "kaufen",
       wohnfläche: 275,
@@ -12390,10 +12390,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "326001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1091475,
       bezugsart: "kaufen",
       wohnfläche: 531,
@@ -12428,10 +12428,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "327001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 655525,
       bezugsart: "kaufen",
       wohnfläche: 447,
@@ -12466,10 +12466,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "328001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 264224,
       bezugsart: "kaufen",
       wohnfläche: 525,
@@ -12504,10 +12504,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "329001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1329437,
       bezugsart: "kaufen",
       wohnfläche: 354,
@@ -12542,10 +12542,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "330001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 750202,
       bezugsart: "kaufen",
       wohnfläche: 166,
@@ -12580,10 +12580,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "331001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1004927,
       bezugsart: "kaufen",
       wohnfläche: 380,
@@ -12618,10 +12618,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "332001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1173706,
       bezugsart: "kaufen",
       wohnfläche: 173,
@@ -12656,10 +12656,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "333001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1284344,
       bezugsart: "kaufen",
       wohnfläche: 407,
@@ -12694,10 +12694,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "334001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1151429,
       bezugsart: "kaufen",
       wohnfläche: 411,
@@ -12732,10 +12732,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "335001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1435620,
       bezugsart: "kaufen",
       wohnfläche: 216,
@@ -12770,10 +12770,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "336001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 884433,
       bezugsart: "kaufen",
       wohnfläche: 251,
@@ -12808,10 +12808,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "337001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 305474,
       bezugsart: "kaufen",
       wohnfläche: 582,
@@ -12846,10 +12846,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "338001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 608447,
       bezugsart: "kaufen",
       wohnfläche: 197,
@@ -12884,10 +12884,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "339001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 426288,
       bezugsart: "kaufen",
       wohnfläche: 371,
@@ -12922,10 +12922,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "340001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1299234,
       bezugsart: "kaufen",
       wohnfläche: 128,
@@ -12960,10 +12960,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "341001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 781625,
       bezugsart: "kaufen",
       wohnfläche: 585,
@@ -12998,10 +12998,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "342001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1109374,
       bezugsart: "kaufen",
       wohnfläche: 466,
@@ -13036,10 +13036,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "343001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 826245,
       bezugsart: "kaufen",
       wohnfläche: 75,
@@ -13074,10 +13074,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "344001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1486386,
       bezugsart: "kaufen",
       wohnfläche: 339,
@@ -13112,10 +13112,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "345001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 885334,
       bezugsart: "kaufen",
       wohnfläche: 255,
@@ -13150,10 +13150,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "346001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 666041,
       bezugsart: "kaufen",
       wohnfläche: 484,
@@ -13188,10 +13188,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "347001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1396063,
       bezugsart: "kaufen",
       wohnfläche: 329,
@@ -13226,10 +13226,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "348001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1332282,
       bezugsart: "kaufen",
       wohnfläche: 298,
@@ -13264,10 +13264,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "349001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1407321,
       bezugsart: "kaufen",
       wohnfläche: 184,
@@ -13302,10 +13302,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "350001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1157655,
       bezugsart: "kaufen",
       wohnfläche: 169,
@@ -13340,10 +13340,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "351001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 536772,
       bezugsart: "kaufen",
       wohnfläche: 108,
@@ -13378,10 +13378,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "352001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1084371,
       bezugsart: "kaufen",
       wohnfläche: 227,
@@ -13416,10 +13416,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "353001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 482929,
       bezugsart: "kaufen",
       wohnfläche: 348,
@@ -13454,10 +13454,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "354001",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 638549,
       bezugsart: "kaufen",
       wohnfläche: 365,
@@ -13493,10 +13493,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "355002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2354,
       bezugsart: "mieten",
       wohnfläche: 441,
@@ -13531,10 +13531,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "356002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1542,
       bezugsart: "mieten",
       wohnfläche: 145,
@@ -13569,10 +13569,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "357002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3523,
       bezugsart: "mieten",
       wohnfläche: 156,
@@ -13607,10 +13607,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "358002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3772,
       bezugsart: "mieten",
       wohnfläche: 95,
@@ -13645,10 +13645,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "359002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1518,
       bezugsart: "mieten",
       wohnfläche: 535,
@@ -13683,10 +13683,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "360002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1781,
       bezugsart: "mieten",
       wohnfläche: 481,
@@ -13721,10 +13721,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "361002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2894,
       bezugsart: "mieten",
       wohnfläche: 84,
@@ -13759,10 +13759,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "362002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3772,
       bezugsart: "mieten",
       wohnfläche: 230,
@@ -13797,10 +13797,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "363002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3032,
       bezugsart: "mieten",
       wohnfläche: 595,
@@ -13835,10 +13835,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "364002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1470,
       bezugsart: "mieten",
       wohnfläche: 507,
@@ -13873,10 +13873,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "365002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1694,
       bezugsart: "mieten",
       wohnfläche: 379,
@@ -13911,10 +13911,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "366002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2953,
       bezugsart: "mieten",
       wohnfläche: 502,
@@ -13949,10 +13949,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "367002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3281,
       bezugsart: "mieten",
       wohnfläche: 152,
@@ -13987,10 +13987,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "368002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2931,
       bezugsart: "mieten",
       wohnfläche: 475,
@@ -14025,10 +14025,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "369002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3645,
       bezugsart: "mieten",
       wohnfläche: 472,
@@ -14063,10 +14063,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "370002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2806,
       bezugsart: "mieten",
       wohnfläche: 412,
@@ -14101,10 +14101,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "371002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1329,
       bezugsart: "mieten",
       wohnfläche: 100,
@@ -14139,10 +14139,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "372002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1881,
       bezugsart: "mieten",
       wohnfläche: 469,
@@ -14177,10 +14177,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "373002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3014,
       bezugsart: "mieten",
       wohnfläche: 319,
@@ -14215,10 +14215,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "374002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3532,
       bezugsart: "mieten",
       wohnfläche: 267,
@@ -14253,10 +14253,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "375002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3247,
       bezugsart: "mieten",
       wohnfläche: 156,
@@ -14291,10 +14291,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "376002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1542,
       bezugsart: "mieten",
       wohnfläche: 228,
@@ -14329,10 +14329,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "377002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1194,
       bezugsart: "mieten",
       wohnfläche: 76,
@@ -14367,10 +14367,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "378002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2809,
       bezugsart: "mieten",
       wohnfläche: 323,
@@ -14405,10 +14405,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "379002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3449,
       bezugsart: "mieten",
       wohnfläche: 409,
@@ -14443,10 +14443,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "380002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3330,
       bezugsart: "mieten",
       wohnfläche: 290,
@@ -14481,10 +14481,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "381002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1855,
       bezugsart: "mieten",
       wohnfläche: 583,
@@ -14519,10 +14519,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "382002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2781,
       bezugsart: "mieten",
       wohnfläche: 228,
@@ -14557,10 +14557,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "383002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1843,
       bezugsart: "mieten",
       wohnfläche: 590,
@@ -14595,10 +14595,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "384002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2505,
       bezugsart: "mieten",
       wohnfläche: 489,
@@ -14633,10 +14633,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "385002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1938,
       bezugsart: "mieten",
       wohnfläche: 122,
@@ -14671,10 +14671,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "386002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1142,
       bezugsart: "mieten",
       wohnfläche: 382,
@@ -14709,10 +14709,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "387002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1867,
       bezugsart: "mieten",
       wohnfläche: 283,
@@ -14747,10 +14747,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "388002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3715,
       bezugsart: "mieten",
       wohnfläche: 123,
@@ -14785,10 +14785,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "389002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3675,
       bezugsart: "mieten",
       wohnfläche: 472,
@@ -14823,10 +14823,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "390002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2180,
       bezugsart: "mieten",
       wohnfläche: 512,
@@ -14861,10 +14861,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "391002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1618,
       bezugsart: "mieten",
       wohnfläche: 409,
@@ -14899,10 +14899,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "392002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1788,
       bezugsart: "mieten",
       wohnfläche: 442,
@@ -14937,10 +14937,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "393002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1920,
       bezugsart: "mieten",
       wohnfläche: 352,
@@ -14975,10 +14975,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "394002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2330,
       bezugsart: "mieten",
       wohnfläche: 394,
@@ -15013,10 +15013,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "395002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1883,
       bezugsart: "mieten",
       wohnfläche: 407,
@@ -15051,10 +15051,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "396002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1188,
       bezugsart: "mieten",
       wohnfläche: 520,
@@ -15089,10 +15089,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "397002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1112,
       bezugsart: "mieten",
       wohnfläche: 230,
@@ -15127,10 +15127,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "398002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3495,
       bezugsart: "mieten",
       wohnfläche: 564,
@@ -15165,10 +15165,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "399002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1038,
       bezugsart: "mieten",
       wohnfläche: 361,
@@ -15203,10 +15203,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "400002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1056,
       bezugsart: "mieten",
       wohnfläche: 77,
@@ -15241,10 +15241,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "401002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2959,
       bezugsart: "mieten",
       wohnfläche: 106,
@@ -15279,10 +15279,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "402002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1685,
       bezugsart: "mieten",
       wohnfläche: 551,
@@ -15317,10 +15317,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "403002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3613,
       bezugsart: "mieten",
       wohnfläche: 359,
@@ -15355,10 +15355,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "404002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3642,
       bezugsart: "mieten",
       wohnfläche: 553,
@@ -15393,10 +15393,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "405002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1081,
       bezugsart: "mieten",
       wohnfläche: 478,
@@ -15431,10 +15431,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "406002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2730,
       bezugsart: "mieten",
       wohnfläche: 298,
@@ -15469,10 +15469,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "407002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2728,
       bezugsart: "mieten",
       wohnfläche: 155,
@@ -15507,10 +15507,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "408002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1319,
       bezugsart: "mieten",
       wohnfläche: 266,
@@ -15545,10 +15545,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "409002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1038,
       bezugsart: "mieten",
       wohnfläche: 305,
@@ -15583,10 +15583,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "410002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1059,
       bezugsart: "mieten",
       wohnfläche: 400,
@@ -15621,10 +15621,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "411002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2515,
       bezugsart: "mieten",
       wohnfläche: 205,
@@ -15659,10 +15659,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "412002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3511,
       bezugsart: "mieten",
       wohnfläche: 321,
@@ -15697,10 +15697,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "413002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1110,
       bezugsart: "mieten",
       wohnfläche: 182,
@@ -15735,10 +15735,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "414002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1164,
       bezugsart: "mieten",
       wohnfläche: 297,
@@ -15773,10 +15773,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "415002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1864,
       bezugsart: "mieten",
       wohnfläche: 320,
@@ -15811,10 +15811,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "416002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3032,
       bezugsart: "mieten",
       wohnfläche: 600,
@@ -15849,10 +15849,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "417002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3541,
       bezugsart: "mieten",
       wohnfläche: 422,
@@ -15887,10 +15887,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "418002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3341,
       bezugsart: "mieten",
       wohnfläche: 410,
@@ -15925,10 +15925,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "419002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1801,
       bezugsart: "mieten",
       wohnfläche: 543,
@@ -15963,10 +15963,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "420002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1010,
       bezugsart: "mieten",
       wohnfläche: 117,
@@ -16001,10 +16001,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "421002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3614,
       bezugsart: "mieten",
       wohnfläche: 381,
@@ -16039,10 +16039,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "422002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2685,
       bezugsart: "mieten",
       wohnfläche: 501,
@@ -16077,10 +16077,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "423002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3263,
       bezugsart: "mieten",
       wohnfläche: 599,
@@ -16115,10 +16115,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "424002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1221,
       bezugsart: "mieten",
       wohnfläche: 108,
@@ -16153,10 +16153,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "425002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3120,
       bezugsart: "mieten",
       wohnfläche: 494,
@@ -16191,10 +16191,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "426002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2112,
       bezugsart: "mieten",
       wohnfläche: 394,
@@ -16229,10 +16229,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "427002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2411,
       bezugsart: "mieten",
       wohnfläche: 423,
@@ -16267,10 +16267,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "428002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3745,
       bezugsart: "mieten",
       wohnfläche: 303,
@@ -16305,10 +16305,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "429002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2843,
       bezugsart: "mieten",
       wohnfläche: 231,
@@ -16343,10 +16343,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "430002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1860,
       bezugsart: "mieten",
       wohnfläche: 269,
@@ -16381,10 +16381,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "431002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1654,
       bezugsart: "mieten",
       wohnfläche: 197,
@@ -16419,10 +16419,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "432002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3705,
       bezugsart: "mieten",
       wohnfläche: 557,
@@ -16457,10 +16457,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "433002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1446,
       bezugsart: "mieten",
       wohnfläche: 594,
@@ -16495,10 +16495,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "434002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3314,
       bezugsart: "mieten",
       wohnfläche: 239,
@@ -16533,10 +16533,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "435002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1875,
       bezugsart: "mieten",
       wohnfläche: 598,
@@ -16571,10 +16571,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "436002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3456,
       bezugsart: "mieten",
       wohnfläche: 308,
@@ -16609,10 +16609,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "437002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1068,
       bezugsart: "mieten",
       wohnfläche: 516,
@@ -16647,10 +16647,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "438002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3256,
       bezugsart: "mieten",
       wohnfläche: 565,
@@ -16685,10 +16685,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "439002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3546,
       bezugsart: "mieten",
       wohnfläche: 455,
@@ -16723,10 +16723,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "440002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3650,
       bezugsart: "mieten",
       wohnfläche: 396,
@@ -16761,10 +16761,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "441002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3537,
       bezugsart: "mieten",
       wohnfläche: 485,
@@ -16799,10 +16799,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "442002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1204,
       bezugsart: "mieten",
       wohnfläche: 102,
@@ -16837,10 +16837,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "443002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2842,
       bezugsart: "mieten",
       wohnfläche: 531,
@@ -16875,10 +16875,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "444002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2428,
       bezugsart: "mieten",
       wohnfläche: 392,
@@ -16913,10 +16913,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "445002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1726,
       bezugsart: "mieten",
       wohnfläche: 249,
@@ -16951,10 +16951,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "446002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2165,
       bezugsart: "mieten",
       wohnfläche: 339,
@@ -16989,10 +16989,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "447002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2447,
       bezugsart: "mieten",
       wohnfläche: 329,
@@ -17027,10 +17027,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "448002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1220,
       bezugsart: "mieten",
       wohnfläche: 476,
@@ -17065,10 +17065,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "449002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1245,
       bezugsart: "mieten",
       wohnfläche: 593,
@@ -17103,10 +17103,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "450002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1645,
       bezugsart: "mieten",
       wohnfläche: 319,
@@ -17141,10 +17141,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "451002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2455,
       bezugsart: "mieten",
       wohnfläche: 597,
@@ -17179,10 +17179,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "452002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3075,
       bezugsart: "mieten",
       wohnfläche: 480,
@@ -17217,10 +17217,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "453002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3364,
       bezugsart: "mieten",
       wohnfläche: 118,
@@ -17255,10 +17255,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "454002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2930,
       bezugsart: "mieten",
       wohnfläche: 443,
@@ -17293,10 +17293,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "455002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3001,
       bezugsart: "mieten",
       wohnfläche: 335,
@@ -17331,10 +17331,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "456002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1632,
       bezugsart: "mieten",
       wohnfläche: 260,
@@ -17369,10 +17369,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "457002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3657,
       bezugsart: "mieten",
       wohnfläche: 429,
@@ -17407,10 +17407,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "458002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1831,
       bezugsart: "mieten",
       wohnfläche: 490,
@@ -17445,10 +17445,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "459002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3364,
       bezugsart: "mieten",
       wohnfläche: 160,
@@ -17483,10 +17483,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "460002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2508,
       bezugsart: "mieten",
       wohnfläche: 281,
@@ -17521,10 +17521,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "461002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2116,
       bezugsart: "mieten",
       wohnfläche: 72,
@@ -17559,10 +17559,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "462002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3337,
       bezugsart: "mieten",
       wohnfläche: 572,
@@ -17597,10 +17597,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "463002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2612,
       bezugsart: "mieten",
       wohnfläche: 239,
@@ -17635,10 +17635,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "464002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2700,
       bezugsart: "mieten",
       wohnfläche: 386,
@@ -17673,10 +17673,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "465002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2642,
       bezugsart: "mieten",
       wohnfläche: 310,
@@ -17711,10 +17711,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "466002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3491,
       bezugsart: "mieten",
       wohnfläche: 527,
@@ -17749,10 +17749,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "467002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1510,
       bezugsart: "mieten",
       wohnfläche: 397,
@@ -17787,10 +17787,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "468002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1572,
       bezugsart: "mieten",
       wohnfläche: 86,
@@ -17825,10 +17825,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "469002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1793,
       bezugsart: "mieten",
       wohnfläche: 235,
@@ -17863,10 +17863,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "470002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1588,
       bezugsart: "mieten",
       wohnfläche: 551,
@@ -17901,10 +17901,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "471002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1673,
       bezugsart: "mieten",
       wohnfläche: 264,
@@ -17939,10 +17939,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "472002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2725,
       bezugsart: "mieten",
       wohnfläche: 433,
@@ -17977,10 +17977,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "473002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2513,
       bezugsart: "mieten",
       wohnfläche: 172,
@@ -18015,10 +18015,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "474002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2520,
       bezugsart: "mieten",
       wohnfläche: 115,
@@ -18053,10 +18053,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "475002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3465,
       bezugsart: "mieten",
       wohnfläche: 452,
@@ -18091,10 +18091,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "476002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2539,
       bezugsart: "mieten",
       wohnfläche: 245,
@@ -18129,10 +18129,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "477002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2850,
       bezugsart: "mieten",
       wohnfläche: 358,
@@ -18167,10 +18167,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "478002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1292,
       bezugsart: "mieten",
       wohnfläche: 528,
@@ -18205,10 +18205,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "479002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2543,
       bezugsart: "mieten",
       wohnfläche: 430,
@@ -18243,10 +18243,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "480002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1947,
       bezugsart: "mieten",
       wohnfläche: 391,
@@ -18281,10 +18281,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "481002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2746,
       bezugsart: "mieten",
       wohnfläche: 447,
@@ -18319,10 +18319,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "482002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2492,
       bezugsart: "mieten",
       wohnfläche: 199,
@@ -18357,10 +18357,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "483002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3008,
       bezugsart: "mieten",
       wohnfläche: 242,
@@ -18395,10 +18395,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "484002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2138,
       bezugsart: "mieten",
       wohnfläche: 512,
@@ -18433,10 +18433,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "485002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1367,
       bezugsart: "mieten",
       wohnfläche: 99,
@@ -18471,10 +18471,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "486002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2694,
       bezugsart: "mieten",
       wohnfläche: 126,
@@ -18509,10 +18509,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "487002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1747,
       bezugsart: "mieten",
       wohnfläche: 473,
@@ -18547,10 +18547,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "488002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1445,
       bezugsart: "mieten",
       wohnfläche: 454,
@@ -18585,10 +18585,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "489002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2230,
       bezugsart: "mieten",
       wohnfläche: 548,
@@ -18623,10 +18623,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "490002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1707,
       bezugsart: "mieten",
       wohnfläche: 445,
@@ -18661,10 +18661,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "491002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2645,
       bezugsart: "mieten",
       wohnfläche: 98,
@@ -18699,10 +18699,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "492002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3577,
       bezugsart: "mieten",
       wohnfläche: 249,
@@ -18737,10 +18737,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "493002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2853,
       bezugsart: "mieten",
       wohnfläche: 497,
@@ -18775,10 +18775,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "494002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1388,
       bezugsart: "mieten",
       wohnfläche: 124,
@@ -18813,10 +18813,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "495002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3317,
       bezugsart: "mieten",
       wohnfläche: 144,
@@ -18851,10 +18851,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "496002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3796,
       bezugsart: "mieten",
       wohnfläche: 395,
@@ -18889,10 +18889,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "497002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2033,
       bezugsart: "mieten",
       wohnfläche: 218,
@@ -18927,10 +18927,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "498002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1536,
       bezugsart: "mieten",
       wohnfläche: 71,
@@ -18965,10 +18965,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "499002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1131,
       bezugsart: "mieten",
       wohnfläche: 364,
@@ -19003,10 +19003,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "500002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1177,
       bezugsart: "mieten",
       wohnfläche: 341,
@@ -19041,10 +19041,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "501002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1686,
       bezugsart: "mieten",
       wohnfläche: 555,
@@ -19079,10 +19079,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "502002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3481,
       bezugsart: "mieten",
       wohnfläche: 550,
@@ -19117,10 +19117,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "503002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2719,
       bezugsart: "mieten",
       wohnfläche: 526,
@@ -19155,10 +19155,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "504002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2683,
       bezugsart: "mieten",
       wohnfläche: 435,
@@ -19193,10 +19193,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "505002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3119,
       bezugsart: "mieten",
       wohnfläche: 321,
@@ -19231,10 +19231,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "506002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1099,
       bezugsart: "mieten",
       wohnfläche: 549,
@@ -19269,10 +19269,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "507002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2341,
       bezugsart: "mieten",
       wohnfläche: 381,
@@ -19307,10 +19307,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "508002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3489,
       bezugsart: "mieten",
       wohnfläche: 320,
@@ -19345,10 +19345,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "509002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1794,
       bezugsart: "mieten",
       wohnfläche: 455,
@@ -19383,10 +19383,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "510002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2736,
       bezugsart: "mieten",
       wohnfläche: 553,
@@ -19421,10 +19421,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "511002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2914,
       bezugsart: "mieten",
       wohnfläche: 386,
@@ -19459,10 +19459,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "512002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3031,
       bezugsart: "mieten",
       wohnfläche: 365,
@@ -19497,10 +19497,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "513002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2020,
       bezugsart: "mieten",
       wohnfläche: 508,
@@ -19535,10 +19535,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "514002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2856,
       bezugsart: "mieten",
       wohnfläche: 268,
@@ -19573,10 +19573,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "515002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2467,
       bezugsart: "mieten",
       wohnfläche: 357,
@@ -19611,10 +19611,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "516002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1267,
       bezugsart: "mieten",
       wohnfläche: 127,
@@ -19649,10 +19649,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "517002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3004,
       bezugsart: "mieten",
       wohnfläche: 160,
@@ -19687,10 +19687,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "518002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2885,
       bezugsart: "mieten",
       wohnfläche: 534,
@@ -19725,10 +19725,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "519002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2407,
       bezugsart: "mieten",
       wohnfläche: 400,
@@ -19763,10 +19763,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "520002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3381,
       bezugsart: "mieten",
       wohnfläche: 202,
@@ -19801,10 +19801,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "521002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3541,
       bezugsart: "mieten",
       wohnfläche: 169,
@@ -19839,10 +19839,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "522002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2041,
       bezugsart: "mieten",
       wohnfläche: 85,
@@ -19877,10 +19877,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "523002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1492,
       bezugsart: "mieten",
       wohnfläche: 507,
@@ -19915,10 +19915,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "524002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2235,
       bezugsart: "mieten",
       wohnfläche: 355,
@@ -19953,10 +19953,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "525002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2070,
       bezugsart: "mieten",
       wohnfläche: 126,
@@ -19991,10 +19991,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "526002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3422,
       bezugsart: "mieten",
       wohnfläche: 83,
@@ -20029,10 +20029,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "527002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3142,
       bezugsart: "mieten",
       wohnfläche: 487,
@@ -20067,10 +20067,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "528002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2572,
       bezugsart: "mieten",
       wohnfläche: 95,
@@ -20105,10 +20105,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "529002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2171,
       bezugsart: "mieten",
       wohnfläche: 571,
@@ -20143,10 +20143,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "530002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2431,
       bezugsart: "mieten",
       wohnfläche: 462,
@@ -20181,10 +20181,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "531002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2302,
       bezugsart: "mieten",
       wohnfläche: 104,
@@ -20219,10 +20219,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "532002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3582,
       bezugsart: "mieten",
       wohnfläche: 81,
@@ -20257,10 +20257,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "533002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1230,
       bezugsart: "mieten",
       wohnfläche: 560,
@@ -20295,10 +20295,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "534002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2273,
       bezugsart: "mieten",
       wohnfläche: 478,
@@ -20333,10 +20333,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "535002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1042,
       bezugsart: "mieten",
       wohnfläche: 133,
@@ -20371,10 +20371,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "536002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2001,
       bezugsart: "mieten",
       wohnfläche: 120,
@@ -20409,10 +20409,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "537002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2702,
       bezugsart: "mieten",
       wohnfläche: 487,
@@ -20447,10 +20447,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "538002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1897,
       bezugsart: "mieten",
       wohnfläche: 544,
@@ -20485,10 +20485,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "539002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2610,
       bezugsart: "mieten",
       wohnfläche: 568,
@@ -20523,10 +20523,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "540002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2223,
       bezugsart: "mieten",
       wohnfläche: 342,
@@ -20561,10 +20561,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "541002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2395,
       bezugsart: "mieten",
       wohnfläche: 391,
@@ -20599,10 +20599,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "542002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1451,
       bezugsart: "mieten",
       wohnfläche: 171,
@@ -20637,10 +20637,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "543002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1930,
       bezugsart: "mieten",
       wohnfläche: 493,
@@ -20675,10 +20675,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "544002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2463,
       bezugsart: "mieten",
       wohnfläche: 399,
@@ -20713,10 +20713,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "545002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2391,
       bezugsart: "mieten",
       wohnfläche: 90,
@@ -20751,10 +20751,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "546002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1368,
       bezugsart: "mieten",
       wohnfläche: 306,
@@ -20789,10 +20789,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "547002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3470,
       bezugsart: "mieten",
       wohnfläche: 200,
@@ -20827,10 +20827,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "548002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1286,
       bezugsart: "mieten",
       wohnfläche: 402,
@@ -20865,10 +20865,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "549002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3463,
       bezugsart: "mieten",
       wohnfläche: 583,
@@ -20903,10 +20903,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "550002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3477,
       bezugsart: "mieten",
       wohnfläche: 128,
@@ -20941,10 +20941,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "551002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2763,
       bezugsart: "mieten",
       wohnfläche: 417,
@@ -20979,10 +20979,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "552002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2608,
       bezugsart: "mieten",
       wohnfläche: 413,
@@ -21017,10 +21017,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "553002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2288,
       bezugsart: "mieten",
       wohnfläche: 85,
@@ -21055,10 +21055,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "554002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3621,
       bezugsart: "mieten",
       wohnfläche: 248,
@@ -21093,10 +21093,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "555002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3546,
       bezugsart: "mieten",
       wohnfläche: 153,
@@ -21131,10 +21131,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "556002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3231,
       bezugsart: "mieten",
       wohnfläche: 121,
@@ -21169,10 +21169,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "557002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2291,
       bezugsart: "mieten",
       wohnfläche: 92,
@@ -21207,10 +21207,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "558002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3040,
       bezugsart: "mieten",
       wohnfläche: 436,
@@ -21245,10 +21245,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "559002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3082,
       bezugsart: "mieten",
       wohnfläche: 278,
@@ -21283,10 +21283,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "560002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1718,
       bezugsart: "mieten",
       wohnfläche: 464,
@@ -21321,10 +21321,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "561002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1618,
       bezugsart: "mieten",
       wohnfläche: 288,
@@ -21359,10 +21359,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "562002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2351,
       bezugsart: "mieten",
       wohnfläche: 183,
@@ -21397,10 +21397,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "563002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3684,
       bezugsart: "mieten",
       wohnfläche: 351,
@@ -21435,10 +21435,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "564002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2673,
       bezugsart: "mieten",
       wohnfläche: 168,
@@ -21473,10 +21473,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "565002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3357,
       bezugsart: "mieten",
       wohnfläche: 374,
@@ -21511,10 +21511,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "566002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2256,
       bezugsart: "mieten",
       wohnfläche: 599,
@@ -21549,10 +21549,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "567002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1286,
       bezugsart: "mieten",
       wohnfläche: 544,
@@ -21587,10 +21587,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "568002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1150,
       bezugsart: "mieten",
       wohnfläche: 73,
@@ -21625,10 +21625,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "569002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1047,
       bezugsart: "mieten",
       wohnfläche: 400,
@@ -21663,10 +21663,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "570002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2507,
       bezugsart: "mieten",
       wohnfläche: 389,
@@ -21701,10 +21701,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "571002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2932,
       bezugsart: "mieten",
       wohnfläche: 184,
@@ -21739,10 +21739,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "572002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1808,
       bezugsart: "mieten",
       wohnfläche: 175,
@@ -21777,10 +21777,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "573002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1681,
       bezugsart: "mieten",
       wohnfläche: 349,
@@ -21815,10 +21815,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "574002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1826,
       bezugsart: "mieten",
       wohnfläche: 458,
@@ -21853,10 +21853,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "575002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3616,
       bezugsart: "mieten",
       wohnfläche: 178,
@@ -21891,10 +21891,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "576002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3446,
       bezugsart: "mieten",
       wohnfläche: 178,
@@ -21929,10 +21929,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "577002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3068,
       bezugsart: "mieten",
       wohnfläche: 600,
@@ -21967,10 +21967,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "578002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3662,
       bezugsart: "mieten",
       wohnfläche: 461,
@@ -22005,10 +22005,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "579002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3384,
       bezugsart: "mieten",
       wohnfläche: 311,
@@ -22043,10 +22043,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "580002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1833,
       bezugsart: "mieten",
       wohnfläche: 371,
@@ -22081,10 +22081,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "581002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1189,
       bezugsart: "mieten",
       wohnfläche: 357,
@@ -22119,10 +22119,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "582002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1685,
       bezugsart: "mieten",
       wohnfläche: 446,
@@ -22157,10 +22157,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "583002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3677,
       bezugsart: "mieten",
       wohnfläche: 368,
@@ -22195,10 +22195,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "584002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2291,
       bezugsart: "mieten",
       wohnfläche: 98,
@@ -22233,10 +22233,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "585002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1758,
       bezugsart: "mieten",
       wohnfläche: 84,
@@ -22271,10 +22271,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "586002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1234,
       bezugsart: "mieten",
       wohnfläche: 268,
@@ -22309,10 +22309,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "587002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1946,
       bezugsart: "mieten",
       wohnfläche: 375,
@@ -22347,10 +22347,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "588002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1881,
       bezugsart: "mieten",
       wohnfläche: 485,
@@ -22385,10 +22385,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "589002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3754,
       bezugsart: "mieten",
       wohnfläche: 384,
@@ -22423,10 +22423,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "590002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2084,
       bezugsart: "mieten",
       wohnfläche: 147,
@@ -22461,10 +22461,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "591002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1674,
       bezugsart: "mieten",
       wohnfläche: 87,
@@ -22499,10 +22499,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "592002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3460,
       bezugsart: "mieten",
       wohnfläche: 402,
@@ -22537,10 +22537,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "593002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2837,
       bezugsart: "mieten",
       wohnfläche: 112,
@@ -22575,10 +22575,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "594002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2088,
       bezugsart: "mieten",
       wohnfläche: 374,
@@ -22613,10 +22613,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "595002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3575,
       bezugsart: "mieten",
       wohnfläche: 479,
@@ -22651,10 +22651,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "596002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1761,
       bezugsart: "mieten",
       wohnfläche: 201,
@@ -22689,10 +22689,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "597002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2556,
       bezugsart: "mieten",
       wohnfläche: 498,
@@ -22727,10 +22727,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "598002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3425,
       bezugsart: "mieten",
       wohnfläche: 436,
@@ -22765,10 +22765,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "599002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1833,
       bezugsart: "mieten",
       wohnfläche: 169,
@@ -22803,10 +22803,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "600002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1909,
       bezugsart: "mieten",
       wohnfläche: 97,
@@ -22841,10 +22841,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "601002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2480,
       bezugsart: "mieten",
       wohnfläche: 239,
@@ -22879,10 +22879,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "602002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1953,
       bezugsart: "mieten",
       wohnfläche: 374,
@@ -22917,10 +22917,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "603002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1180,
       bezugsart: "mieten",
       wohnfläche: 161,
@@ -22955,10 +22955,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "604002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3266,
       bezugsart: "mieten",
       wohnfläche: 279,
@@ -22993,10 +22993,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "605002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1801,
       bezugsart: "mieten",
       wohnfläche: 454,
@@ -23031,10 +23031,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "606002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3679,
       bezugsart: "mieten",
       wohnfläche: 76,
@@ -23069,10 +23069,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "607002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2962,
       bezugsart: "mieten",
       wohnfläche: 168,
@@ -23107,10 +23107,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "608002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1885,
       bezugsart: "mieten",
       wohnfläche: 138,
@@ -23145,10 +23145,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "609002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3750,
       bezugsart: "mieten",
       wohnfläche: 549,
@@ -23183,10 +23183,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "610002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3550,
       bezugsart: "mieten",
       wohnfläche: 430,
@@ -23221,10 +23221,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "611002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1942,
       bezugsart: "mieten",
       wohnfläche: 331,
@@ -23259,10 +23259,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "612002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2762,
       bezugsart: "mieten",
       wohnfläche: 386,
@@ -23297,10 +23297,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "613002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2256,
       bezugsart: "mieten",
       wohnfläche: 425,
@@ -23335,10 +23335,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "614002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1648,
       bezugsart: "mieten",
       wohnfläche: 578,
@@ -23373,10 +23373,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "615002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3714,
       bezugsart: "mieten",
       wohnfläche: 262,
@@ -23411,10 +23411,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "616002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3164,
       bezugsart: "mieten",
       wohnfläche: 253,
@@ -23449,10 +23449,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "617002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2891,
       bezugsart: "mieten",
       wohnfläche: 288,
@@ -23487,10 +23487,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "618002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2513,
       bezugsart: "mieten",
       wohnfläche: 272,
@@ -23525,10 +23525,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "619002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1051,
       bezugsart: "mieten",
       wohnfläche: 277,
@@ -23563,10 +23563,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "620002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3040,
       bezugsart: "mieten",
       wohnfläche: 485,
@@ -23601,10 +23601,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "621002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2540,
       bezugsart: "mieten",
       wohnfläche: 373,
@@ -23639,10 +23639,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "622002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3374,
       bezugsart: "mieten",
       wohnfläche: 94,
@@ -23677,10 +23677,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "623002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2672,
       bezugsart: "mieten",
       wohnfläche: 548,
@@ -23715,10 +23715,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "624002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3538,
       bezugsart: "mieten",
       wohnfläche: 545,
@@ -23753,10 +23753,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "625002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1227,
       bezugsart: "mieten",
       wohnfläche: 466,
@@ -23791,10 +23791,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "626002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2099,
       bezugsart: "mieten",
       wohnfläche: 534,
@@ -23829,10 +23829,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "627002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3370,
       bezugsart: "mieten",
       wohnfläche: 406,
@@ -23867,10 +23867,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "628002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1581,
       bezugsart: "mieten",
       wohnfläche: 542,
@@ -23905,10 +23905,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "629002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3778,
       bezugsart: "mieten",
       wohnfläche: 560,
@@ -23943,10 +23943,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "630002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3316,
       bezugsart: "mieten",
       wohnfläche: 344,
@@ -23981,10 +23981,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "631002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2353,
       bezugsart: "mieten",
       wohnfläche: 101,
@@ -24019,10 +24019,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "632002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1075,
       bezugsart: "mieten",
       wohnfläche: 359,
@@ -24057,10 +24057,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "633002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1237,
       bezugsart: "mieten",
       wohnfläche: 213,
@@ -24095,10 +24095,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "634002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1830,
       bezugsart: "mieten",
       wohnfläche: 399,
@@ -24133,10 +24133,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "635002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2241,
       bezugsart: "mieten",
       wohnfläche: 158,
@@ -24171,10 +24171,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "636002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1522,
       bezugsart: "mieten",
       wohnfläche: 110,
@@ -24209,10 +24209,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "637002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2429,
       bezugsart: "mieten",
       wohnfläche: 102,
@@ -24247,10 +24247,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "638002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2417,
       bezugsart: "mieten",
       wohnfläche: 305,
@@ -24285,10 +24285,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "639002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3655,
       bezugsart: "mieten",
       wohnfläche: 528,
@@ -24323,10 +24323,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "640002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2670,
       bezugsart: "mieten",
       wohnfläche: 331,
@@ -24361,10 +24361,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "641002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3124,
       bezugsart: "mieten",
       wohnfläche: 76,
@@ -24399,10 +24399,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "642002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1044,
       bezugsart: "mieten",
       wohnfläche: 278,
@@ -24437,10 +24437,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "643002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3518,
       bezugsart: "mieten",
       wohnfläche: 413,
@@ -24475,10 +24475,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "644002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3463,
       bezugsart: "mieten",
       wohnfläche: 397,
@@ -24513,10 +24513,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "645002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1975,
       bezugsart: "mieten",
       wohnfläche: 426,
@@ -24551,10 +24551,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "646002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2868,
       bezugsart: "mieten",
       wohnfläche: 358,
@@ -24589,10 +24589,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "647002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1316,
       bezugsart: "mieten",
       wohnfläche: 152,
@@ -24627,10 +24627,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "648002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3627,
       bezugsart: "mieten",
       wohnfläche: 494,
@@ -24665,10 +24665,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "649002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3535,
       bezugsart: "mieten",
       wohnfläche: 116,
@@ -24703,10 +24703,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "650002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3769,
       bezugsart: "mieten",
       wohnfläche: 488,
@@ -24741,10 +24741,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "651002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1257,
       bezugsart: "mieten",
       wohnfläche: 95,
@@ -24779,10 +24779,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "652002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1843,
       bezugsart: "mieten",
       wohnfläche: 183,
@@ -24817,10 +24817,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "653002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3470,
       bezugsart: "mieten",
       wohnfläche: 350,
@@ -24855,10 +24855,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "654002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2622,
       bezugsart: "mieten",
       wohnfläche: 309,
@@ -24893,10 +24893,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "655002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3753,
       bezugsart: "mieten",
       wohnfläche: 108,
@@ -24931,10 +24931,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "656002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1913,
       bezugsart: "mieten",
       wohnfläche: 511,
@@ -24969,10 +24969,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "657002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2948,
       bezugsart: "mieten",
       wohnfläche: 108,
@@ -25007,10 +25007,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "658002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3269,
       bezugsart: "mieten",
       wohnfläche: 287,
@@ -25045,10 +25045,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "659002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2035,
       bezugsart: "mieten",
       wohnfläche: 531,
@@ -25083,10 +25083,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "660002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3549,
       bezugsart: "mieten",
       wohnfläche: 514,
@@ -25121,10 +25121,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "661002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1744,
       bezugsart: "mieten",
       wohnfläche: 493,
@@ -25159,10 +25159,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "662002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2738,
       bezugsart: "mieten",
       wohnfläche: 477,
@@ -25197,10 +25197,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "663002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1880,
       bezugsart: "mieten",
       wohnfläche: 262,
@@ -25235,10 +25235,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "664002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1763,
       bezugsart: "mieten",
       wohnfläche: 142,
@@ -25273,10 +25273,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "665002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2204,
       bezugsart: "mieten",
       wohnfläche: 239,
@@ -25311,10 +25311,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "666002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3529,
       bezugsart: "mieten",
       wohnfläche: 96,
@@ -25349,10 +25349,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "667002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1762,
       bezugsart: "mieten",
       wohnfläche: 149,
@@ -25387,10 +25387,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "668002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1645,
       bezugsart: "mieten",
       wohnfläche: 409,
@@ -25425,10 +25425,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "669002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2797,
       bezugsart: "mieten",
       wohnfläche: 500,
@@ -25463,10 +25463,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "670002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1787,
       bezugsart: "mieten",
       wohnfläche: 383,
@@ -25501,10 +25501,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "671002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1086,
       bezugsart: "mieten",
       wohnfläche: 484,
@@ -25539,10 +25539,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "672002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2413,
       bezugsart: "mieten",
       wohnfläche: 381,
@@ -25577,10 +25577,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "673002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1939,
       bezugsart: "mieten",
       wohnfläche: 70,
@@ -25615,10 +25615,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "674002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2572,
       bezugsart: "mieten",
       wohnfläche: 529,
@@ -25653,10 +25653,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "675002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1210,
       bezugsart: "mieten",
       wohnfläche: 442,
@@ -25691,10 +25691,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "676002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1131,
       bezugsart: "mieten",
       wohnfläche: 412,
@@ -25729,10 +25729,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "677002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2265,
       bezugsart: "mieten",
       wohnfläche: 250,
@@ -25767,10 +25767,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "678002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3504,
       bezugsart: "mieten",
       wohnfläche: 396,
@@ -25805,10 +25805,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "679002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1240,
       bezugsart: "mieten",
       wohnfläche: 82,
@@ -25843,10 +25843,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "680002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1853,
       bezugsart: "mieten",
       wohnfläche: 189,
@@ -25881,10 +25881,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "681002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3234,
       bezugsart: "mieten",
       wohnfläche: 556,
@@ -25919,10 +25919,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "682002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3395,
       bezugsart: "mieten",
       wohnfläche: 499,
@@ -25957,10 +25957,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "683002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1869,
       bezugsart: "mieten",
       wohnfläche: 77,
@@ -25995,10 +25995,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "684002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3715,
       bezugsart: "mieten",
       wohnfläche: 219,
@@ -26033,10 +26033,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "685002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3157,
       bezugsart: "mieten",
       wohnfläche: 371,
@@ -26071,10 +26071,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "686002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2866,
       bezugsart: "mieten",
       wohnfläche: 70,
@@ -26109,10 +26109,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "687002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3328,
       bezugsart: "mieten",
       wohnfläche: 248,
@@ -26147,10 +26147,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "688002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1950,
       bezugsart: "mieten",
       wohnfläche: 373,
@@ -26185,10 +26185,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "689002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1069,
       bezugsart: "mieten",
       wohnfläche: 454,
@@ -26223,10 +26223,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "690002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3287,
       bezugsart: "mieten",
       wohnfläche: 536,
@@ -26261,10 +26261,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "691002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3691,
       bezugsart: "mieten",
       wohnfläche: 475,
@@ -26299,10 +26299,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "692002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3012,
       bezugsart: "mieten",
       wohnfläche: 375,
@@ -26337,10 +26337,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "693002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2044,
       bezugsart: "mieten",
       wohnfläche: 382,
@@ -26375,10 +26375,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "694002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2275,
       bezugsart: "mieten",
       wohnfläche: 133,
@@ -26413,10 +26413,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "695002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3724,
       bezugsart: "mieten",
       wohnfläche: 595,
@@ -26451,10 +26451,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "696002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3253,
       bezugsart: "mieten",
       wohnfläche: 324,
@@ -26489,10 +26489,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "697002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2988,
       bezugsart: "mieten",
       wohnfläche: 157,
@@ -26527,10 +26527,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "698002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2660,
       bezugsart: "mieten",
       wohnfläche: 261,
@@ -26565,10 +26565,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "699002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1754,
       bezugsart: "mieten",
       wohnfläche: 498,
@@ -26603,10 +26603,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "700002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1816,
       bezugsart: "mieten",
       wohnfläche: 356,
@@ -26641,10 +26641,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "701002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2252,
       bezugsart: "mieten",
       wohnfläche: 179,
@@ -26679,10 +26679,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "702002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2397,
       bezugsart: "mieten",
       wohnfläche: 279,
@@ -26717,10 +26717,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "703002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1217,
       bezugsart: "mieten",
       wohnfläche: 238,
@@ -26755,10 +26755,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "704002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1080,
       bezugsart: "mieten",
       wohnfläche: 220,
@@ -26793,10 +26793,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "705002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2442,
       bezugsart: "mieten",
       wohnfläche: 475,
@@ -26831,10 +26831,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "706002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2495,
       bezugsart: "mieten",
       wohnfläche: 215,
@@ -26869,10 +26869,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "707002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 3617,
       bezugsart: "mieten",
       wohnfläche: 393,
@@ -26907,10 +26907,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "708002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 2517,
       bezugsart: "mieten",
       wohnfläche: 113,
@@ -26945,10 +26945,10 @@ const IMMO_DATA = [
   {
     haus: {
       id: "709002",
-      title: "Lorem Ipsum",
+      titel: "Lorem Ipsum",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      unterTitle: "lorem ipsum ipodem",
+      untertitel: "lorem ipsum ipodem",
       preis: 1897,
       bezugsart: "mieten",
       wohnfläche: 391,
@@ -26984,8 +26984,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "710003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1163706,
@@ -27021,8 +27021,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "711003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 880514,
@@ -27058,8 +27058,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "712003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1287114,
@@ -27095,8 +27095,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "713003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 674765,
@@ -27132,8 +27132,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "714003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 454941,
@@ -27169,8 +27169,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "715003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1421489,
@@ -27206,8 +27206,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "716003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 678298,
@@ -27243,8 +27243,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "717003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1021588,
@@ -27280,8 +27280,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "718003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 971819,
@@ -27317,8 +27317,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "719003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 826179,
@@ -27354,8 +27354,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "720003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1004332,
@@ -27391,8 +27391,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "721003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1384928,
@@ -27428,8 +27428,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "722003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 584460,
@@ -27465,8 +27465,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "723003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 378981,
@@ -27502,8 +27502,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "724003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 400191,
@@ -27539,8 +27539,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "725003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1189782,
@@ -27576,8 +27576,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "726003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 531542,
@@ -27613,8 +27613,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "727003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 305036,
@@ -27650,8 +27650,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "728003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1430395,
@@ -27687,8 +27687,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "729003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1406848,
@@ -27724,8 +27724,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "730003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1352782,
@@ -27761,8 +27761,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "731003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1058874,
@@ -27798,8 +27798,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "732003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 881593,
@@ -27835,8 +27835,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "733003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1024331,
@@ -27872,8 +27872,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "734003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 370973,
@@ -27909,8 +27909,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "735003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1381003,
@@ -27946,8 +27946,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "736003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 489422,
@@ -27983,8 +27983,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "737003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 781624,
@@ -28020,8 +28020,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "738003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1343452,
@@ -28057,8 +28057,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "739003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 748367,
@@ -28094,8 +28094,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "740003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 476124,
@@ -28131,8 +28131,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "741003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 765481,
@@ -28168,8 +28168,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "742003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1450477,
@@ -28205,8 +28205,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "743003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1063072,
@@ -28242,8 +28242,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "744003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1278871,
@@ -28279,8 +28279,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "745003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1178582,
@@ -28316,8 +28316,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "746003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1156876,
@@ -28353,8 +28353,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "747003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 411791,
@@ -28390,8 +28390,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "748003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1134839,
@@ -28427,8 +28427,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "749003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1377556,
@@ -28464,8 +28464,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "750003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 288570,
@@ -28501,8 +28501,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "751003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1229907,
@@ -28538,8 +28538,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "752003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1475497,
@@ -28575,8 +28575,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "753003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1018195,
@@ -28612,8 +28612,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "754003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1381161,
@@ -28649,8 +28649,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "755003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 669123,
@@ -28686,8 +28686,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "756003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 817924,
@@ -28723,8 +28723,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "757003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1303182,
@@ -28760,8 +28760,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "758003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1107013,
@@ -28797,8 +28797,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "759003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 485296,
@@ -28834,8 +28834,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "760003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 440131,
@@ -28871,8 +28871,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "761003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 668804,
@@ -28908,8 +28908,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "762003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1233496,
@@ -28945,8 +28945,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "763003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1116651,
@@ -28982,8 +28982,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "764003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1089930,
@@ -29019,8 +29019,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "765003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 324170,
@@ -29056,8 +29056,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "766003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1322502,
@@ -29093,8 +29093,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "767003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 308097,
@@ -29130,8 +29130,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "768003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 432350,
@@ -29167,8 +29167,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "769003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 300508,
@@ -29204,8 +29204,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "770003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1026672,
@@ -29241,8 +29241,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "771003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 391902,
@@ -29278,8 +29278,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "772003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 364852,
@@ -29315,8 +29315,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "773003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 258560,
@@ -29352,8 +29352,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "774003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 365036,
@@ -29389,8 +29389,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "775003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 750537,
@@ -29426,8 +29426,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "776003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1145813,
@@ -29463,8 +29463,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "777003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 340429,
@@ -29500,8 +29500,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "778003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 613907,
@@ -29537,8 +29537,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "779003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1020797,
@@ -29574,8 +29574,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "780003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1206423,
@@ -29611,8 +29611,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "781003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 705933,
@@ -29648,8 +29648,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "782003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1208613,
@@ -29685,8 +29685,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "783003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 759855,
@@ -29722,8 +29722,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "784003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1314309,
@@ -29759,8 +29759,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "785003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 268313,
@@ -29796,8 +29796,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "786003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 860175,
@@ -29833,8 +29833,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "787003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 252879,
@@ -29870,8 +29870,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "788003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1430433,
@@ -29907,8 +29907,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "789003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1097922,
@@ -29944,8 +29944,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "790003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 807540,
@@ -29981,8 +29981,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "791003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 334800,
@@ -30018,8 +30018,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "792003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 700330,
@@ -30055,8 +30055,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "793003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1176177,
@@ -30092,8 +30092,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "794003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1325575,
@@ -30129,8 +30129,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "795003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 826254,
@@ -30166,8 +30166,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "796003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 894073,
@@ -30203,8 +30203,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "797003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 503245,
@@ -30240,8 +30240,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "798003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1387263,
@@ -30277,8 +30277,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "799003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1300647,
@@ -30314,8 +30314,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "800003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 283352,
@@ -30351,8 +30351,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "801003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1150411,
@@ -30388,8 +30388,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "802003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 564096,
@@ -30425,8 +30425,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "803003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 729664,
@@ -30462,8 +30462,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "804003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 340663,
@@ -30499,8 +30499,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "805003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1177434,
@@ -30536,8 +30536,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "806003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1094620,
@@ -30573,8 +30573,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "807003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 793879,
@@ -30610,8 +30610,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "808003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 760864,
@@ -30647,8 +30647,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "809003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1401349,
@@ -30684,8 +30684,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "810003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 879131,
@@ -30721,8 +30721,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "811003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 948284,
@@ -30758,8 +30758,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "812003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 607091,
@@ -30795,8 +30795,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "813003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 359937,
@@ -30832,8 +30832,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "814003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 680534,
@@ -30869,8 +30869,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "815003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1397974,
@@ -30906,8 +30906,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "816003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 933896,
@@ -30943,8 +30943,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "817003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 980874,
@@ -30980,8 +30980,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "818003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 345003,
@@ -31017,8 +31017,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "819003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1304669,
@@ -31054,8 +31054,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "820003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1230893,
@@ -31091,8 +31091,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "821003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1497104,
@@ -31128,8 +31128,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "822003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 817467,
@@ -31165,8 +31165,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "823003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 337684,
@@ -31202,8 +31202,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "824003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1415396,
@@ -31239,8 +31239,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "825003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1330829,
@@ -31276,8 +31276,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "826003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 976223,
@@ -31313,8 +31313,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "827003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1488870,
@@ -31350,8 +31350,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "828003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 799476,
@@ -31387,8 +31387,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "829003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 962921,
@@ -31424,8 +31424,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "830003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1237328,
@@ -31461,8 +31461,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "831003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1326561,
@@ -31498,8 +31498,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "832003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 550181,
@@ -31535,8 +31535,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "833003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 559620,
@@ -31572,8 +31572,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "834003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 928964,
@@ -31609,8 +31609,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "835003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 321628,
@@ -31646,8 +31646,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "836003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 947277,
@@ -31683,8 +31683,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "837003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1221553,
@@ -31720,8 +31720,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "838003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1199952,
@@ -31757,8 +31757,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "839003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1094899,
@@ -31794,8 +31794,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "840003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 257867,
@@ -31831,8 +31831,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "841003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1480385,
@@ -31868,8 +31868,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "842003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 473761,
@@ -31905,8 +31905,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "843003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 496312,
@@ -31942,8 +31942,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "844003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1101101,
@@ -31979,8 +31979,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "845003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 981606,
@@ -32016,8 +32016,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "846003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 477470,
@@ -32053,8 +32053,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "847003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 291783,
@@ -32090,8 +32090,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "848003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 983877,
@@ -32127,8 +32127,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "849003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 917132,
@@ -32164,8 +32164,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "850003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1094274,
@@ -32201,8 +32201,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "851003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 319724,
@@ -32238,8 +32238,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "852003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1388078,
@@ -32275,8 +32275,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "853003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1308340,
@@ -32312,8 +32312,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "854003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1499905,
@@ -32349,8 +32349,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "855003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 256169,
@@ -32386,8 +32386,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "856003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 415501,
@@ -32423,8 +32423,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "857003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 927373,
@@ -32460,8 +32460,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "858003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 967910,
@@ -32497,8 +32497,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "859003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 311972,
@@ -32534,8 +32534,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "860003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 565722,
@@ -32571,8 +32571,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "861003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1032983,
@@ -32608,8 +32608,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "862003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1010912,
@@ -32645,8 +32645,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "863003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1028425,
@@ -32682,8 +32682,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "864003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1117929,
@@ -32719,8 +32719,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "865003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1281418,
@@ -32756,8 +32756,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "866003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1097557,
@@ -32793,8 +32793,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "867003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 819447,
@@ -32830,8 +32830,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "868003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1142432,
@@ -32867,8 +32867,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "869003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1153370,
@@ -32904,8 +32904,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "870003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 685967,
@@ -32941,8 +32941,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "871003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1425688,
@@ -32978,8 +32978,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "872003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1372006,
@@ -33015,8 +33015,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "873003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 408884,
@@ -33052,8 +33052,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "874003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1365507,
@@ -33089,8 +33089,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "875003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 758387,
@@ -33126,8 +33126,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "876003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1207396,
@@ -33163,8 +33163,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "877003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1404592,
@@ -33200,8 +33200,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "878003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 414669,
@@ -33237,8 +33237,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "879003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 920825,
@@ -33274,8 +33274,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "880003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 278330,
@@ -33311,8 +33311,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "881003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 950424,
@@ -33348,8 +33348,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "882003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 957491,
@@ -33385,8 +33385,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "883003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 669488,
@@ -33422,8 +33422,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "884003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 692653,
@@ -33459,8 +33459,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "885003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 761735,
@@ -33496,8 +33496,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "886003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 818348,
@@ -33533,8 +33533,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "887003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 338869,
@@ -33570,8 +33570,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "888003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 600669,
@@ -33607,8 +33607,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "889003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 813975,
@@ -33644,8 +33644,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "890003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 800856,
@@ -33681,8 +33681,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "891003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 959792,
@@ -33718,8 +33718,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "892003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 264058,
@@ -33755,8 +33755,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "893003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1325435,
@@ -33792,8 +33792,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "894003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 887333,
@@ -33829,8 +33829,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "895003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 640606,
@@ -33866,8 +33866,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "896003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 458084,
@@ -33903,8 +33903,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "897003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1086249,
@@ -33940,8 +33940,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "898003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1212693,
@@ -33977,8 +33977,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "899003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1265882,
@@ -34014,8 +34014,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "900003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 788800,
@@ -34051,8 +34051,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "901003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 637418,
@@ -34088,8 +34088,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "902003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 611466,
@@ -34125,8 +34125,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "903003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 469566,
@@ -34162,8 +34162,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "904003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 710130,
@@ -34199,8 +34199,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "905003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 974955,
@@ -34236,8 +34236,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "906003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 394800,
@@ -34273,8 +34273,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "907003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 781646,
@@ -34310,8 +34310,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "908003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1040212,
@@ -34347,8 +34347,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "909003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1307275,
@@ -34384,8 +34384,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "910003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1247297,
@@ -34421,8 +34421,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "911003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 407892,
@@ -34458,8 +34458,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "912003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 743206,
@@ -34495,8 +34495,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "913003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 306259,
@@ -34532,8 +34532,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "914003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1214372,
@@ -34569,8 +34569,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "915003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 797532,
@@ -34606,8 +34606,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "916003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1296488,
@@ -34643,8 +34643,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "917003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 537516,
@@ -34680,8 +34680,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "918003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1336524,
@@ -34717,8 +34717,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "919003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1205937,
@@ -34754,8 +34754,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "920003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 515915,
@@ -34791,8 +34791,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "921003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 682948,
@@ -34828,8 +34828,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "922003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1253506,
@@ -34865,8 +34865,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "923003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1382455,
@@ -34902,8 +34902,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "924003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1028455,
@@ -34939,8 +34939,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "925003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1446985,
@@ -34976,8 +34976,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "926003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 630545,
@@ -35013,8 +35013,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "927003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1328516,
@@ -35050,8 +35050,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "928003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 841322,
@@ -35087,8 +35087,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "929003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1438508,
@@ -35124,8 +35124,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "930003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1441943,
@@ -35161,8 +35161,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "931003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 358132,
@@ -35198,8 +35198,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "932003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1452335,
@@ -35235,8 +35235,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "933003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 900575,
@@ -35272,8 +35272,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "934003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 469189,
@@ -35309,8 +35309,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "935003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1073803,
@@ -35346,8 +35346,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "936003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 376223,
@@ -35383,8 +35383,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "937003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 544971,
@@ -35420,8 +35420,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "938003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1395255,
@@ -35457,8 +35457,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "939003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 972216,
@@ -35494,8 +35494,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "940003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 641840,
@@ -35531,8 +35531,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "941003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1474161,
@@ -35568,8 +35568,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "942003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1440443,
@@ -35605,8 +35605,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "943003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 737265,
@@ -35642,8 +35642,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "944003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 374937,
@@ -35679,8 +35679,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "945003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 738012,
@@ -35716,8 +35716,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "946003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 518739,
@@ -35753,8 +35753,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "947003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 703821,
@@ -35790,8 +35790,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "948003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 410187,
@@ -35827,8 +35827,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "949003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1422446,
@@ -35864,8 +35864,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "950003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 903680,
@@ -35901,8 +35901,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "951003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 843488,
@@ -35938,8 +35938,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "952003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 837475,
@@ -35975,8 +35975,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "953003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1179180,
@@ -36012,8 +36012,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "954003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1299216,
@@ -36049,8 +36049,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "955003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1477726,
@@ -36086,8 +36086,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "956003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 458333,
@@ -36123,8 +36123,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "957003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1373342,
@@ -36160,8 +36160,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "958003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 508239,
@@ -36197,8 +36197,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "959003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1400448,
@@ -36234,8 +36234,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "960003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1256359,
@@ -36271,8 +36271,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "961003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1049920,
@@ -36308,8 +36308,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "962003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 827123,
@@ -36345,8 +36345,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "963003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 700251,
@@ -36382,8 +36382,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "964003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 791926,
@@ -36419,8 +36419,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "965003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 845444,
@@ -36456,8 +36456,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "966003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1016409,
@@ -36493,8 +36493,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "967003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 766878,
@@ -36530,8 +36530,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "968003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 932430,
@@ -36567,8 +36567,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "969003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1041977,
@@ -36604,8 +36604,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "970003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 911032,
@@ -36641,8 +36641,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "971003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 618956,
@@ -36678,8 +36678,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "972003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 276342,
@@ -36715,8 +36715,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "973003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 846046,
@@ -36752,8 +36752,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "974003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 393023,
@@ -36789,8 +36789,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "975003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 953413,
@@ -36826,8 +36826,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "976003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 855521,
@@ -36863,8 +36863,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "977003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 454237,
@@ -36900,8 +36900,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "978003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 351417,
@@ -36937,8 +36937,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "979003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 281538,
@@ -36974,8 +36974,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "980003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 435487,
@@ -37011,8 +37011,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "981003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 508579,
@@ -37048,8 +37048,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "982003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 343448,
@@ -37085,8 +37085,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "983003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 466455,
@@ -37122,8 +37122,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "984003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 879870,
@@ -37159,8 +37159,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "985003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 535086,
@@ -37196,8 +37196,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "986003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 907186,
@@ -37233,8 +37233,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "987003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1352355,
@@ -37270,8 +37270,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "988003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1323792,
@@ -37307,8 +37307,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "989003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 414803,
@@ -37344,8 +37344,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "990003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1430495,
@@ -37381,8 +37381,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "991003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 882604,
@@ -37418,8 +37418,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "992003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 399752,
@@ -37455,8 +37455,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "993003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 590674,
@@ -37492,8 +37492,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "994003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1291377,
@@ -37529,8 +37529,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "995003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 914726,
@@ -37566,8 +37566,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "996003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 461965,
@@ -37603,8 +37603,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "997003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 859229,
@@ -37640,8 +37640,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "998003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1242657,
@@ -37677,8 +37677,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "999003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 307594,
@@ -37714,8 +37714,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1000003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1425197,
@@ -37751,8 +37751,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1001003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 790793,
@@ -37788,8 +37788,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1002003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 341115,
@@ -37825,8 +37825,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1003003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 722723,
@@ -37862,8 +37862,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1004003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 386687,
@@ -37899,8 +37899,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1005003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 259927,
@@ -37936,8 +37936,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1006003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 524419,
@@ -37973,8 +37973,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1007003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 298740,
@@ -38010,8 +38010,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1008003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1414320,
@@ -38047,8 +38047,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1009003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 953445,
@@ -38084,8 +38084,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1010003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1125352,
@@ -38121,8 +38121,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1011003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1126366,
@@ -38158,8 +38158,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1012003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 794843,
@@ -38195,8 +38195,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1013003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 863509,
@@ -38232,8 +38232,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1014003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 710774,
@@ -38269,8 +38269,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1015003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 818998,
@@ -38306,8 +38306,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1016003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 334391,
@@ -38343,8 +38343,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1017003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 543373,
@@ -38380,8 +38380,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1018003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 499233,
@@ -38417,8 +38417,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1019003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1123022,
@@ -38454,8 +38454,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1020003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 833421,
@@ -38491,8 +38491,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1021003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 755892,
@@ -38528,8 +38528,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1022003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 618070,
@@ -38565,8 +38565,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1023003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 763766,
@@ -38602,8 +38602,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1024003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1403540,
@@ -38639,8 +38639,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1025003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 336911,
@@ -38676,8 +38676,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1026003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 637823,
@@ -38713,8 +38713,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1027003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 669650,
@@ -38750,8 +38750,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1028003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1015370,
@@ -38787,8 +38787,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1029003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 722086,
@@ -38824,8 +38824,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1030003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 509463,
@@ -38861,8 +38861,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1031003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 331762,
@@ -38898,8 +38898,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1032003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1170529,
@@ -38935,8 +38935,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1033003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 526145,
@@ -38972,8 +38972,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1034003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 321070,
@@ -39009,8 +39009,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1035003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 682293,
@@ -39046,8 +39046,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1036003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1361519,
@@ -39083,8 +39083,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1037003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1007946,
@@ -39120,8 +39120,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1038003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1229193,
@@ -39157,8 +39157,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1039003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1418856,
@@ -39194,8 +39194,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1040003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1100352,
@@ -39231,8 +39231,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1041003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 963327,
@@ -39268,8 +39268,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1042003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 891306,
@@ -39305,8 +39305,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1043003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1006569,
@@ -39342,8 +39342,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1044003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 473196,
@@ -39379,8 +39379,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1045003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 250035,
@@ -39416,8 +39416,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1046003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1345767,
@@ -39453,8 +39453,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1047003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 783836,
@@ -39490,8 +39490,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1048003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 320979,
@@ -39527,8 +39527,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1049003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1361636,
@@ -39564,8 +39564,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1050003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1020838,
@@ -39601,8 +39601,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1051003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 980930,
@@ -39638,8 +39638,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1052003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1235952,
@@ -39675,8 +39675,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1053003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1128857,
@@ -39712,8 +39712,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1054003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1474174,
@@ -39749,8 +39749,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1055003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 985764,
@@ -39786,8 +39786,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1056003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1187730,
@@ -39823,8 +39823,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1057003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1101747,
@@ -39860,8 +39860,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1058003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1463920,
@@ -39897,8 +39897,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1059003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 918835,
@@ -39934,8 +39934,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1060003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 525470,
@@ -39971,8 +39971,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1061003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 299253,
@@ -40008,8 +40008,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1062003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 494359,
@@ -40045,8 +40045,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1063003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1092436,
@@ -40082,8 +40082,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1064003",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 329448,
@@ -40120,8 +40120,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1065004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3242,
@@ -40157,8 +40157,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1066004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2769,
@@ -40194,8 +40194,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1067004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1367,
@@ -40231,8 +40231,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1068004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1024,
@@ -40268,8 +40268,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1069004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1858,
@@ -40305,8 +40305,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1070004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1766,
@@ -40342,8 +40342,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1071004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2780,
@@ -40379,8 +40379,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1072004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1327,
@@ -40416,8 +40416,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1073004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2017,
@@ -40453,8 +40453,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1074004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2718,
@@ -40490,8 +40490,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1075004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3379,
@@ -40527,8 +40527,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1076004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2552,
@@ -40564,8 +40564,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1077004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2859,
@@ -40601,8 +40601,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1078004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2007,
@@ -40638,8 +40638,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1079004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2265,
@@ -40675,8 +40675,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1080004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3455,
@@ -40712,8 +40712,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1081004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2800,
@@ -40749,8 +40749,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1082004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2604,
@@ -40786,8 +40786,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1083004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2641,
@@ -40823,8 +40823,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1084004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2131,
@@ -40860,8 +40860,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1085004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2653,
@@ -40897,8 +40897,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1086004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3354,
@@ -40934,8 +40934,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1087004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1044,
@@ -40971,8 +40971,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1088004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2072,
@@ -41008,8 +41008,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1089004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2182,
@@ -41045,8 +41045,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1090004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3458,
@@ -41082,8 +41082,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1091004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2220,
@@ -41119,8 +41119,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1092004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1016,
@@ -41156,8 +41156,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1093004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1739,
@@ -41193,8 +41193,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1094004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3558,
@@ -41230,8 +41230,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1095004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2580,
@@ -41267,8 +41267,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1096004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1239,
@@ -41304,8 +41304,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1097004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3337,
@@ -41341,8 +41341,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1098004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3453,
@@ -41378,8 +41378,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1099004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1405,
@@ -41415,8 +41415,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1100004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3634,
@@ -41452,8 +41452,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1101004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3785,
@@ -41489,8 +41489,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1102004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1061,
@@ -41526,8 +41526,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1103004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2846,
@@ -41563,8 +41563,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1104004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3494,
@@ -41600,8 +41600,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1105004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1379,
@@ -41637,8 +41637,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1106004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2815,
@@ -41674,8 +41674,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1107004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1962,
@@ -41711,8 +41711,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1108004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3070,
@@ -41748,8 +41748,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1109004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2239,
@@ -41785,8 +41785,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1110004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2975,
@@ -41822,8 +41822,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1111004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1359,
@@ -41859,8 +41859,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1112004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1559,
@@ -41896,8 +41896,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1113004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2776,
@@ -41933,8 +41933,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1114004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3090,
@@ -41970,8 +41970,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1115004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2192,
@@ -42007,8 +42007,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1116004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2005,
@@ -42044,8 +42044,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1117004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3404,
@@ -42081,8 +42081,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1118004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1991,
@@ -42118,8 +42118,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1119004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1443,
@@ -42155,8 +42155,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1120004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2102,
@@ -42192,8 +42192,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1121004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1275,
@@ -42229,8 +42229,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1122004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2746,
@@ -42266,8 +42266,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1123004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1781,
@@ -42303,8 +42303,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1124004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2146,
@@ -42340,8 +42340,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1125004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2158,
@@ -42377,8 +42377,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1126004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3117,
@@ -42414,8 +42414,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1127004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1266,
@@ -42451,8 +42451,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1128004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1207,
@@ -42488,8 +42488,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1129004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3522,
@@ -42525,8 +42525,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1130004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3369,
@@ -42562,8 +42562,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1131004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1297,
@@ -42599,8 +42599,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1132004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2159,
@@ -42636,8 +42636,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1133004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2673,
@@ -42673,8 +42673,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1134004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3294,
@@ -42710,8 +42710,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1135004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3329,
@@ -42747,8 +42747,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1136004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1232,
@@ -42784,8 +42784,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1137004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2631,
@@ -42821,8 +42821,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1138004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1628,
@@ -42858,8 +42858,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1139004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3120,
@@ -42895,8 +42895,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1140004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1931,
@@ -42932,8 +42932,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1141004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2342,
@@ -42969,8 +42969,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1142004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3017,
@@ -43006,8 +43006,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1143004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3040,
@@ -43043,8 +43043,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1144004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1679,
@@ -43080,8 +43080,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1145004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3322,
@@ -43117,8 +43117,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1146004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3163,
@@ -43154,8 +43154,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1147004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3107,
@@ -43191,8 +43191,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1148004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2726,
@@ -43228,8 +43228,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1149004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2329,
@@ -43265,8 +43265,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1150004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3271,
@@ -43302,8 +43302,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1151004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3095,
@@ -43339,8 +43339,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1152004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3089,
@@ -43376,8 +43376,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1153004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3609,
@@ -43413,8 +43413,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1154004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3493,
@@ -43450,8 +43450,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1155004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1571,
@@ -43487,8 +43487,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1156004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1804,
@@ -43524,8 +43524,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1157004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1603,
@@ -43561,8 +43561,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1158004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2426,
@@ -43598,8 +43598,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1159004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2682,
@@ -43635,8 +43635,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1160004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3679,
@@ -43672,8 +43672,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1161004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3562,
@@ -43709,8 +43709,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1162004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1022,
@@ -43746,8 +43746,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1163004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3504,
@@ -43783,8 +43783,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1164004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2663,
@@ -43820,8 +43820,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1165004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2997,
@@ -43857,8 +43857,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1166004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3791,
@@ -43894,8 +43894,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1167004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2501,
@@ -43931,8 +43931,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1168004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1549,
@@ -43968,8 +43968,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1169004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1860,
@@ -44005,8 +44005,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1170004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2649,
@@ -44042,8 +44042,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1171004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2275,
@@ -44079,8 +44079,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1172004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1485,
@@ -44116,8 +44116,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1173004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2272,
@@ -44153,8 +44153,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1174004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2645,
@@ -44190,8 +44190,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1175004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3680,
@@ -44227,8 +44227,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1176004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2035,
@@ -44264,8 +44264,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1177004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2318,
@@ -44301,8 +44301,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1178004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1022,
@@ -44338,8 +44338,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1179004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3207,
@@ -44375,8 +44375,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1180004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1261,
@@ -44412,8 +44412,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1181004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3225,
@@ -44449,8 +44449,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1182004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1923,
@@ -44486,8 +44486,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1183004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2796,
@@ -44523,8 +44523,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1184004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3409,
@@ -44560,8 +44560,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1185004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1906,
@@ -44597,8 +44597,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1186004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1203,
@@ -44634,8 +44634,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1187004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1126,
@@ -44671,8 +44671,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1188004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1611,
@@ -44708,8 +44708,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1189004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2906,
@@ -44745,8 +44745,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1190004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2719,
@@ -44782,8 +44782,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1191004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3312,
@@ -44819,8 +44819,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1192004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1660,
@@ -44856,8 +44856,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1193004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1373,
@@ -44893,8 +44893,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1194004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3078,
@@ -44930,8 +44930,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1195004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3358,
@@ -44967,8 +44967,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1196004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1612,
@@ -45004,8 +45004,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1197004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3181,
@@ -45041,8 +45041,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1198004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3226,
@@ -45078,8 +45078,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1199004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1035,
@@ -45115,8 +45115,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1200004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2558,
@@ -45152,8 +45152,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1201004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1356,
@@ -45189,8 +45189,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1202004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2310,
@@ -45226,8 +45226,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1203004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2109,
@@ -45263,8 +45263,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1204004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3380,
@@ -45300,8 +45300,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1205004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2654,
@@ -45337,8 +45337,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1206004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2959,
@@ -45374,8 +45374,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1207004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2721,
@@ -45411,8 +45411,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1208004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2603,
@@ -45448,8 +45448,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1209004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3756,
@@ -45485,8 +45485,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1210004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3144,
@@ -45522,8 +45522,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1211004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2528,
@@ -45559,8 +45559,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1212004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2724,
@@ -45596,8 +45596,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1213004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1678,
@@ -45633,8 +45633,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1214004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3364,
@@ -45670,8 +45670,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1215004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1044,
@@ -45707,8 +45707,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1216004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1610,
@@ -45744,8 +45744,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1217004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3527,
@@ -45781,8 +45781,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1218004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1185,
@@ -45818,8 +45818,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1219004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2648,
@@ -45855,8 +45855,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1220004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2205,
@@ -45892,8 +45892,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1221004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1727,
@@ -45929,8 +45929,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1222004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1329,
@@ -45966,8 +45966,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1223004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3171,
@@ -46003,8 +46003,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1224004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2454,
@@ -46040,8 +46040,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1225004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1388,
@@ -46077,8 +46077,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1226004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2561,
@@ -46114,8 +46114,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1227004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2187,
@@ -46151,8 +46151,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1228004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2366,
@@ -46188,8 +46188,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1229004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1266,
@@ -46225,8 +46225,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1230004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2234,
@@ -46262,8 +46262,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1231004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1543,
@@ -46299,8 +46299,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1232004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1656,
@@ -46336,8 +46336,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1233004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1932,
@@ -46373,8 +46373,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1234004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3294,
@@ -46410,8 +46410,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1235004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3036,
@@ -46447,8 +46447,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1236004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2435,
@@ -46484,8 +46484,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1237004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3351,
@@ -46521,8 +46521,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1238004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1059,
@@ -46558,8 +46558,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1239004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3153,
@@ -46595,8 +46595,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1240004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3067,
@@ -46632,8 +46632,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1241004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1812,
@@ -46669,8 +46669,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1242004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1994,
@@ -46706,8 +46706,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1243004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2091,
@@ -46743,8 +46743,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1244004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3209,
@@ -46780,8 +46780,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1245004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1113,
@@ -46817,8 +46817,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1246004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3550,
@@ -46854,8 +46854,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1247004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1834,
@@ -46891,8 +46891,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1248004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2094,
@@ -46928,8 +46928,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1249004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2257,
@@ -46965,8 +46965,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1250004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1079,
@@ -47002,8 +47002,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1251004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1777,
@@ -47039,8 +47039,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1252004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1926,
@@ -47076,8 +47076,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1253004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3655,
@@ -47113,8 +47113,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1254004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2483,
@@ -47150,8 +47150,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1255004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1890,
@@ -47187,8 +47187,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1256004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3734,
@@ -47224,8 +47224,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1257004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3701,
@@ -47261,8 +47261,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1258004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2553,
@@ -47298,8 +47298,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1259004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1885,
@@ -47335,8 +47335,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1260004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2899,
@@ -47372,8 +47372,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1261004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1353,
@@ -47409,8 +47409,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1262004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3337,
@@ -47446,8 +47446,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1263004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2322,
@@ -47483,8 +47483,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1264004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2339,
@@ -47520,8 +47520,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1265004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1033,
@@ -47557,8 +47557,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1266004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1924,
@@ -47594,8 +47594,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1267004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1963,
@@ -47631,8 +47631,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1268004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1649,
@@ -47668,8 +47668,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1269004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2013,
@@ -47705,8 +47705,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1270004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1186,
@@ -47742,8 +47742,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1271004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2846,
@@ -47779,8 +47779,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1272004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3635,
@@ -47816,8 +47816,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1273004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2450,
@@ -47853,8 +47853,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1274004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1873,
@@ -47890,8 +47890,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1275004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3596,
@@ -47927,8 +47927,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1276004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1143,
@@ -47964,8 +47964,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1277004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2398,
@@ -48001,8 +48001,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1278004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1984,
@@ -48038,8 +48038,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1279004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3206,
@@ -48075,8 +48075,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1280004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1979,
@@ -48112,8 +48112,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1281004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2862,
@@ -48149,8 +48149,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1282004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3626,
@@ -48186,8 +48186,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1283004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3268,
@@ -48223,8 +48223,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1284004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1473,
@@ -48260,8 +48260,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1285004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2786,
@@ -48297,8 +48297,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1286004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2500,
@@ -48334,8 +48334,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1287004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2403,
@@ -48371,8 +48371,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1288004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2092,
@@ -48408,8 +48408,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1289004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2897,
@@ -48445,8 +48445,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1290004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1702,
@@ -48482,8 +48482,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1291004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3276,
@@ -48519,8 +48519,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1292004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3570,
@@ -48556,8 +48556,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1293004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2462,
@@ -48593,8 +48593,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1294004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3607,
@@ -48630,8 +48630,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1295004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2506,
@@ -48667,8 +48667,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1296004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1015,
@@ -48704,8 +48704,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1297004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1653,
@@ -48741,8 +48741,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1298004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3758,
@@ -48778,8 +48778,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1299004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3641,
@@ -48815,8 +48815,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1300004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3760,
@@ -48852,8 +48852,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1301004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2122,
@@ -48889,8 +48889,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1302004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1353,
@@ -48926,8 +48926,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1303004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3636,
@@ -48963,8 +48963,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1304004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1074,
@@ -49000,8 +49000,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1305004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3652,
@@ -49037,8 +49037,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1306004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2618,
@@ -49074,8 +49074,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1307004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2685,
@@ -49111,8 +49111,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1308004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1886,
@@ -49148,8 +49148,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1309004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2369,
@@ -49185,8 +49185,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1310004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1077,
@@ -49222,8 +49222,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1311004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1012,
@@ -49259,8 +49259,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1312004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1712,
@@ -49296,8 +49296,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1313004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1696,
@@ -49333,8 +49333,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1314004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2222,
@@ -49370,8 +49370,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1315004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2941,
@@ -49407,8 +49407,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1316004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1542,
@@ -49444,8 +49444,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1317004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1972,
@@ -49481,8 +49481,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1318004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1358,
@@ -49518,8 +49518,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1319004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2627,
@@ -49555,8 +49555,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1320004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1284,
@@ -49592,8 +49592,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1321004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3570,
@@ -49629,8 +49629,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1322004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3314,
@@ -49666,8 +49666,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1323004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2821,
@@ -49703,8 +49703,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1324004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2667,
@@ -49740,8 +49740,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1325004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1902,
@@ -49777,8 +49777,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1326004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1563,
@@ -49814,8 +49814,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1327004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2558,
@@ -49851,8 +49851,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1328004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1599,
@@ -49888,8 +49888,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1329004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2586,
@@ -49925,8 +49925,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1330004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3302,
@@ -49962,8 +49962,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1331004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3236,
@@ -49999,8 +49999,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1332004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1238,
@@ -50036,8 +50036,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1333004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2582,
@@ -50073,8 +50073,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1334004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1508,
@@ -50110,8 +50110,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1335004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1028,
@@ -50147,8 +50147,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1336004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1452,
@@ -50184,8 +50184,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1337004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3343,
@@ -50221,8 +50221,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1338004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2870,
@@ -50258,8 +50258,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1339004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2957,
@@ -50295,8 +50295,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1340004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2077,
@@ -50332,8 +50332,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1341004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1016,
@@ -50369,8 +50369,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1342004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1152,
@@ -50406,8 +50406,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1343004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1167,
@@ -50443,8 +50443,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1344004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2686,
@@ -50480,8 +50480,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1345004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1145,
@@ -50517,8 +50517,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1346004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1064,
@@ -50554,8 +50554,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1347004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3588,
@@ -50591,8 +50591,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1348004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2757,
@@ -50628,8 +50628,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1349004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3234,
@@ -50665,8 +50665,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1350004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2639,
@@ -50702,8 +50702,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1351004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1840,
@@ -50739,8 +50739,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1352004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2967,
@@ -50776,8 +50776,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1353004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3326,
@@ -50813,8 +50813,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1354004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1883,
@@ -50850,8 +50850,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1355004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1135,
@@ -50887,8 +50887,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1356004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2586,
@@ -50924,8 +50924,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1357004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1426,
@@ -50961,8 +50961,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1358004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2103,
@@ -50998,8 +50998,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1359004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2584,
@@ -51035,8 +51035,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1360004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3001,
@@ -51072,8 +51072,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1361004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2486,
@@ -51109,8 +51109,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1362004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3394,
@@ -51146,8 +51146,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1363004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3150,
@@ -51183,8 +51183,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1364004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1225,
@@ -51220,8 +51220,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1365004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1696,
@@ -51257,8 +51257,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1366004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1463,
@@ -51294,8 +51294,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1367004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2883,
@@ -51331,8 +51331,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1368004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1110,
@@ -51368,8 +51368,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1369004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1293,
@@ -51405,8 +51405,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1370004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1960,
@@ -51442,8 +51442,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1371004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1832,
@@ -51479,8 +51479,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1372004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1085,
@@ -51516,8 +51516,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1373004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2341,
@@ -51553,8 +51553,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1374004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1908,
@@ -51590,8 +51590,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1375004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1576,
@@ -51627,8 +51627,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1376004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1760,
@@ -51664,8 +51664,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1377004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3119,
@@ -51701,8 +51701,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1378004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2712,
@@ -51738,8 +51738,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1379004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3591,
@@ -51775,8 +51775,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1380004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3652,
@@ -51812,8 +51812,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1381004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2658,
@@ -51849,8 +51849,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1382004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2916,
@@ -51886,8 +51886,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1383004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2508,
@@ -51923,8 +51923,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1384004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1126,
@@ -51960,8 +51960,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1385004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2966,
@@ -51997,8 +51997,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1386004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2798,
@@ -52034,8 +52034,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1387004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3594,
@@ -52071,8 +52071,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1388004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2521,
@@ -52108,8 +52108,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1389004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3035,
@@ -52145,8 +52145,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1390004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3082,
@@ -52182,8 +52182,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1391004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3528,
@@ -52219,8 +52219,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1392004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1479,
@@ -52256,8 +52256,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1393004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1794,
@@ -52293,8 +52293,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1394004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1726,
@@ -52330,8 +52330,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1395004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1055,
@@ -52367,8 +52367,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1396004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3316,
@@ -52404,8 +52404,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1397004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2956,
@@ -52441,8 +52441,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1398004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2988,
@@ -52478,8 +52478,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1399004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1222,
@@ -52515,8 +52515,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1400004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2837,
@@ -52552,8 +52552,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1401004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1083,
@@ -52589,8 +52589,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1402004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3146,
@@ -52626,8 +52626,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1403004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1570,
@@ -52663,8 +52663,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1404004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2457,
@@ -52700,8 +52700,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1405004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2069,
@@ -52737,8 +52737,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1406004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3659,
@@ -52774,8 +52774,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1407004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1849,
@@ -52811,8 +52811,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1408004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1709,
@@ -52848,8 +52848,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1409004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 2286,
@@ -52885,8 +52885,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1410004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1678,
@@ -52922,8 +52922,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1411004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3434,
@@ -52959,8 +52959,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1412004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1806,
@@ -52996,8 +52996,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1413004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3764,
@@ -53033,8 +53033,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1414004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 1719,
@@ -53070,8 +53070,8 @@ const IMMO_DATA = [
   {
     wohnung: {
       id: "1415004",
-      title: "Lorem Ipsum",
-      unterTitle: "lorem ipsum ipodem",
+      titel: "Lorem Ipsum",
+      untertitel: "lorem ipsum ipodem",
       kurzeBeschreibung:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
       preis: 3192,

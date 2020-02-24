@@ -21,6 +21,7 @@ import {
 
 //utils
 import { filterData } from "../../immo-data/immo-data.utils.js";
+import { ID_GENERATOR } from "../../uniqueKey.js";
 
 import "./Liste.styles.scss";
 
@@ -58,7 +59,13 @@ class Liste extends React.Component {
           </SuchleisteContainer>
           <div className="immo-preview-container">
             {alleErgebnisse.map((item, index) =>
-              index < 20 ? <ImmoPreview immo={item} id={index} /> : null
+              index < 20 ? (
+                <ImmoPreview
+                  immo={item}
+                  id={index}
+                  key={ID_GENERATOR("immobilien-seite-")}
+                />
+              ) : null
             )}
           </div>
         </div>
