@@ -14,7 +14,16 @@ import {
 
 import "./slider.styles.scss";
 
-const Slider = ({ imgArray, alt, toggleLeft, toggleRight, curPos }) => {
+const Slider = ({
+  imgArray,
+  alt,
+  toggleLeft,
+  toggleRight,
+  setSliderPosition,
+  curPos
+}) => {
+  if (curPos > imgArray.length - 1) setSliderPosition(0);
+  if (curPos < 0) setSliderPosition(imgArray.length - 1);
   return (
     <div className="slider-container">
       <div className="rechter-pfeil-container">
