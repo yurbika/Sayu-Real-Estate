@@ -7,9 +7,9 @@ const INITIAL_STATE = {
 const sliderReducer = (state = INITIAL_STATE, action) => {
   switch (action.type) {
     case SliderActionType.TOGGLE_LEFT:
-      return { ...state, i: state.i-- };
+      return { ...state, i: --state.i };
     case SliderActionType.TOGGLE_RIGHT:
-      return { ...state, i: state.i++ };
+      return { ...state, i: ++state.i };
     default:
       return state;
   }

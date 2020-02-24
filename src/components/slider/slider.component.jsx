@@ -14,17 +14,17 @@ import {
 
 import "./slider.styles.scss";
 
-const Slider = ({ imgArray, alt, curPos }) => {
+const Slider = ({ imgArray, alt, toggleLeft, toggleRight, curPos }) => {
   return (
     <div className="slider-container">
-      <div className="linker-pfeil-container">
-        <div className="linker-pfeil">
-          <Button scrollButton sliderArrow />
-        </div>
-      </div>
       <div className="rechter-pfeil-container">
         <div className="rechter-pfeil">
-          <Button scrollButton sliderArrow />
+          <Button scrollButton sliderArrow onClick={() => toggleRight()} />
+        </div>
+      </div>
+      <div className="linker-pfeil-container">
+        <div className="linker-pfeil">
+          <Button scrollButton sliderArrow onClick={() => toggleLeft()} />
         </div>
       </div>
       <img src={imgArray[curPos]} alt={alt} />
@@ -37,8 +37,8 @@ const mapStateToProps = createStructuredSelector({
 });
 const mapDispatchToProps = dispatch => ({
   setSliderPosition: num => dispatch(setSliderPosition(num)),
-  toggleLeft: () => dispatch(toggleLeft),
-  toggleRight: () => dispatch(toggleRight)
+  toggleLeft: () => dispatch(toggleLeft()),
+  toggleRight: () => dispatch(toggleRight())
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Slider);

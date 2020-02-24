@@ -2,19 +2,19 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  .linker-pfeil-container {
+  .rechter-pfeil-container {
     position: absolute;
     top: 168px;
     right: -45px;
-    .linker-pfeil {
+    .rechter-pfeil {
       transform: rotate(-90deg);
     }
   }
-  .rechter-pfeil-container {
+  .linker-pfeil-container {
     position: absolute;
     top: 104px;
     left: -45px;
-    .rechter-pfeil {
+    .linker-pfeil {
       transform: rotate(90deg);
     }
   }

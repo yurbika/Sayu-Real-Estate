@@ -137,6 +137,7 @@ const getArrowContainerStyles = props => {
       align-items: center;
       justify-content: center;
       left: 0;
+      pointer-events: none;
     `;
   if (props.scrollButton)
     return css`
