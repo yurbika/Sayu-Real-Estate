@@ -5,6 +5,9 @@ import { createStructuredSelector } from "reselect";
 //redux imports
 import { selectPopupImmo } from "../../redux/popup/popup.selectors";
 
+//utils
+import { popupRef } from "../../utils/utils";
+
 import "./popup.styles.scss";
 
 class Popup extends React.Component {
@@ -12,7 +15,7 @@ class Popup extends React.Component {
     const { immo } = this.props;
     return (
       <div className="popup-container">
-        <div className="popup"></div>
+        <div className="popup" ref={popupRef}></div>
       </div>
     );
   }

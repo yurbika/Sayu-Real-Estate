@@ -3,9 +3,14 @@ import { Switch, Route } from "react-router-dom";
 import { connect } from "react-redux";
 
 //das sind die import damit die dropdowns von überall geschlossen werden können
-import { handleClickOutside } from "./utils/utils";
+import {
+  handleClickOutsideDropdown,
+  handleClickOutsidePopup
+} from "./utils/utils";
 import toggleDropdown from "./redux/dropdown/dropdown.action";
 import DropdownActionTypes from "./redux/dropdown/dropdown.types";
+
+import { togglePopup } from "./redux/popup/popup.action";
 
 //import component
 import Startseite from "./pages/startseite/startseite.component";
@@ -16,14 +21,14 @@ import "./App.css";
 
 //onMouseDown wird gebraucht um die dropdowns von überall schließen zu können
 
-const App = ({ toggleDropdown }) => {
+const App = ({ toggleDropdown, togglePopup }) => {
   return (
     <div
-      onMouseDown={e =>
-        handleClickOutside(e)
-          ? toggleDropdown(DropdownActionTypes.TOGGLE_ALL_DROPDOWNS_FALSE)
-          : null
-      }
+      onMouseDown={e => {
+        if (handleClickOutsideDropdown(e))
+          toggleDropdown(DropdownActionTypes.TOGGLE_ALL_DROPDOWNS_FALSE);
+        if (handleClickOutsidePopup(e)) togglePopup();
+      }}
     >
       <Switch>
         <Route exact path="/" component={Startseite} />
@@ -36,7 +41,8 @@ const App = ({ toggleDropdown }) => {
 //Redux
 
 const mapDispatchToProps = dispatch => ({
-  toggleDropdown: toggle => dispatch(toggleDropdown(toggle))
+  toggleDropdown: toggle => dispatch(toggleDropdown(toggle)),
+  togglePopup: () => dispatch(togglePopup())
 });
 
 export default connect(null, mapDispatchToProps)(App);
