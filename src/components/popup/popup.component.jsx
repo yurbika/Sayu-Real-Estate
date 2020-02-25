@@ -11,8 +11,8 @@ class Popup extends React.Component {
   render() {
     const { immo } = this.props;
     return (
-      <div className="popup">
-        <div></div>
+      <div className="popup-container">
+        <div className="popup"></div>
       </div>
     );
   }

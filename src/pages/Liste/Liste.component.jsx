@@ -5,6 +5,7 @@ import { createStructuredSelector } from "reselect";
 import Suchleiste from "../../components/suchleiste/suchleiste.component";
 import { SuchleisteContainer } from "../../components/suchleiste/suchleiste.styles";
 import Footer from "../../components/footer/footer.component";
+import Header from "../../components/header/header.component";
 
 import ImmoPreview from "../../components/immo-preview/immo-preview.component";
 
@@ -59,6 +60,7 @@ class Liste extends React.Component {
     const { alleErgebnisse } = filterData(filter);
     return (
       <div className="container-liste">
+        <Header />
         <div className="container-suchleiste-immo">
           <SuchleisteContainer additionalStyle={"liste"}>
             <Suchleiste additionalStyle={"liste"} />

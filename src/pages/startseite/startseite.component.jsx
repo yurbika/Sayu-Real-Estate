@@ -9,6 +9,7 @@ import Button from "../../components/button/button.component";
 import Suchleiste from "../../components/suchleiste/suchleiste.component";
 import InspirationContainer from "../../components/inspiration/inspiration-container.component";
 import Footer from "../../components/footer/footer.component";
+import Header from "../../components/header/header.component";
 
 //import funktion
 import { toSection } from "../../components/button/button.utils";
@@ -83,6 +84,7 @@ class Startseite extends React.Component {
     } = this.props;
     return (
       <StartseiteContainer>
+        <Header />
         <ContainerSuchleiste>
           <BackgroundImageFilter />
           <StartseiteHintergrund />
