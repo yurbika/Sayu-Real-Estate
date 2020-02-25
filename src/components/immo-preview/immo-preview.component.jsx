@@ -10,6 +10,12 @@ import { togglePopup } from "../../redux/popup/popup.action";
 //utils
 import { numberWithDots } from "../input/input.utils";
 
+//assets
+import moneyIcon from "../../assets/money-icon.png";
+import gpsIcon from "../../assets/gps-icon.png";
+import propertyIcon from "../../assets/property-icon.png";
+import roomIcon from "../../assets/room-icon.png";
+
 import "./immo-preview.styles.scss";
 
 const ImmoPreview = ({ immo, id, togglePopup }) => {
@@ -48,7 +54,7 @@ const ImmoPreview = ({ immo, id, togglePopup }) => {
         </div>
         <div className="footer">
           <span className="adresse">
-            Adresse:
+            <img src={gpsIcon} alt="Adresse:" />
             {" " +
               immo[haustyp]["adresse"]["straße"] +
               ", " +
@@ -58,15 +64,22 @@ const ImmoPreview = ({ immo, id, togglePopup }) => {
               " - " +
               immo[haustyp]["adresse"]["bundesland"]}
           </span>
-          <span className="zimmer">
-            Zimmer: {" " + immo[haustyp]["zimmer"]}
-          </span>
-          <span className="wohnfläche">
-            Wohnfläche: {" " + immo[haustyp]["wohnfläche"]} m²
-          </span>
-          <span className="preis">
-            Preis: {" " + numberWithDots(immo[haustyp]["preis"].toString())} €
-          </span>
+          <div className="footer-second-section">
+            <div className="icon-container">
+              <span className="zimmer">
+                <img src={roomIcon} alt="Zimmer:" />
+                {" " + immo[haustyp]["zimmer"]}
+              </span>
+            </div>
+            <span className="wohnfläche">
+              <img src={propertyIcon} alt="Wohnfläche:" />{" "}
+              {" " + immo[haustyp]["wohnfläche"]} m²
+            </span>
+            <span className="preis">
+              <img src={moneyIcon} alt="Preis:" />{" "}
+              {" " + numberWithDots(immo[haustyp]["preis"].toString())}
+            </span>
+          </div>
         </div>
       </div>
     </div>
