@@ -5,7 +5,11 @@ import { createStructuredSelector } from "reselect";
 import Slider from "../../components/slider/slider.component";
 
 //redux imports
-import { togglePopup, setPopupImmo } from "../../redux/popup/popup.action";
+import {
+  togglePopup,
+  setPopupImmo,
+  setPopupImmoID
+} from "../../redux/popup/popup.action";
 
 //utils
 import { numberWithDots } from "../input/input.utils";
@@ -18,7 +22,13 @@ import roomIcon from "../../assets/room-icon.png";
 
 import "./immo-preview.styles.scss";
 
-const ImmoPreview = ({ immo, id, togglePopup, setPopupImmo }) => {
+const ImmoPreview = ({
+  immo,
+  id,
+  togglePopup,
+  setPopupImmo,
+  setPopupImmoID
+}) => {
   let haustyp = "";
   if (!!immo["haus"]) haustyp = "haus";
   else if (!!immo["wohnung"]) haustyp = "wohnung";
@@ -46,6 +56,7 @@ const ImmoPreview = ({ immo, id, togglePopup, setPopupImmo }) => {
           onClick={() => {
             togglePopup();
             setPopupImmo(immo);
+            setPopupImmoID(id);
           }}
         />
       </div>
@@ -54,6 +65,7 @@ const ImmoPreview = ({ immo, id, togglePopup, setPopupImmo }) => {
         onClick={() => {
           togglePopup();
           setPopupImmo(immo);
+          setPopupImmoID(id);
         }}
       >
         <div className="beschreibung">
@@ -101,7 +113,8 @@ const ImmoPreview = ({ immo, id, togglePopup, setPopupImmo }) => {
 
 const mapDispatchToProps = dispatch => ({
   togglePopup: () => dispatch(togglePopup()),
-  setPopupImmo: immo => dispatch(setPopupImmo(immo))
+  setPopupImmo: immo => dispatch(setPopupImmo(immo)),
+  setPopupImmoID: num => dispatch(setPopupImmoID(num))
 });
 
 export default connect(null, mapDispatchToProps)(ImmoPreview);

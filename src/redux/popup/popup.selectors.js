@@ -11,3 +11,8 @@ export const selectPopupImmo = createSelector(
   [selectPopup],
   popup => popup.immo
 );
+
+export const selectPopupImmoID = createSelector(
+  [selectPopup],
+  popup => popup.immoID
+);
