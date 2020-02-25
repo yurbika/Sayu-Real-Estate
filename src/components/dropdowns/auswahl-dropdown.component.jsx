@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 //redux
 import { setArt } from "../../redux/filter/filter.action";
 
-import { dropdownRef } from "../../redux/dropdown/dropdown.utils";
+import { dropdownRef } from "../../utils/utils";
 import toggleDropdown from "../../redux/dropdown/dropdown.action";
 import DropdownActionTypes from "../../redux/dropdown/dropdown.types";
 

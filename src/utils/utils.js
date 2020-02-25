@@ -4,6 +4,7 @@ import React from "react";
 //d.h. es muss ein ref={dropdownRef} gesetzt werden bei den dropdowns
 
 export const dropdownRef = React.createRef();
+export const popupRef = React.createRef();
 
 export const handleClickOutside = event => {
   if (

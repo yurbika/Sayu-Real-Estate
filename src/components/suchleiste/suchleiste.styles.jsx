@@ -15,7 +15,7 @@ const getAdditionalStyleForFilter = props => {
     return css`
       background: ${theme.colors.hslaDarkerBlack};
       border-radius: 15px;
-      z-index: 0;
+      z-index: 1;
     `;
 };
 

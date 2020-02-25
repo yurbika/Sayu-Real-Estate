@@ -3,7 +3,7 @@ import { Switch, Route } from "react-router-dom";
 import { connect } from "react-redux";
 
 //das sind die import damit die dropdowns von überall geschlossen werden können
-import { handleClickOutside } from "./redux/dropdown/dropdown.utils";
+import { handleClickOutside } from "./utils/utils";
 import toggleDropdown from "./redux/dropdown/dropdown.action";
 import DropdownActionTypes from "./redux/dropdown/dropdown.types";
 

@@ -15,7 +15,7 @@ import Input from "../input/input.component";
 import { numberWithDots, onlyNumberkey, testNum } from "../input/input.utils";
 
 //redux imports
-import { dropdownRef } from "../../redux/dropdown/dropdown.utils";
+import { dropdownRef } from "../../utils/utils";
 import toggleDropdown from "../../redux/dropdown/dropdown.action";
 
 import {
