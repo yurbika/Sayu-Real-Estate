@@ -13,7 +13,7 @@ const getAdditionalStyleForSuchleisteContainer = props => {
 const getAdditionalStyleForFilter = props => {
   if (props.additionalStyle === "liste")
     return css`
-      background: ${theme.colors.hslaBlack};
+      background: ${theme.colors.hslaDarkerBlack};
       border-radius: 15px;
     `;
 };

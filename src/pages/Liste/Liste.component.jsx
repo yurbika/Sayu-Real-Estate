@@ -4,6 +4,7 @@ import { createStructuredSelector } from "reselect";
 
 import Suchleiste from "../../components/suchleiste/suchleiste.component";
 import { SuchleisteContainer } from "../../components/suchleiste/suchleiste.styles";
+import Footer from "../../components/footer/footer.component";
 
 import ImmoPreview from "../../components/immo-preview/immo-preview.component";
 
@@ -75,6 +76,7 @@ class Liste extends React.Component {
           </div>
         </div>
         {popShow ? <Popup /> : null}
+        <Footer />
       </div>
     );
   }

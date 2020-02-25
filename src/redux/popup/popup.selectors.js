@@ -6,3 +6,8 @@ export const selectPopupState = createSelector(
   [selectPopup],
   popup => popup.popupShow
 );
+
+export const selectPopupImmo = createSelector(
+  [selectPopup],
+  popup => popup.immo
+);

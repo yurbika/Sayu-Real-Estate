@@ -1,16 +1,25 @@
 import React from "react";
+import { connect } from "react-redux";
+import { createStructuredSelector } from "reselect";
+
+//redux imports
+import { selectPopupImmo } from "../../redux/popup/popup.selectors";
+
+import "./popup.styles.scss";
 
 class Popup extends React.Component {
   render() {
+    const { immo } = this.props;
     return (
       <div className="popup">
-        <div className="popup\_inner">
-          <h1>{this.props.text}</h1>
-          <button onClick={this.props.closePopup}>close me</button>
-        </div>
+        <div></div>
       </div>
     );
   }
 }
 
-export default Popup;
+const mapStateToProps = createStructuredSelector({
+  immo: selectPopupImmo
+});
+
+export default connect(mapStateToProps)(Popup);
