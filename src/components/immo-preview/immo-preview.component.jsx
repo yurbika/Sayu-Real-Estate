@@ -53,32 +53,37 @@ const ImmoPreview = ({ immo, id, togglePopup }) => {
           <div className="text">{immo[haustyp]["kurzeBeschreibung"]}</div>
         </div>
         <div className="footer">
-          <span className="adresse">
+          <div className="icon-container">
             <img src={gpsIcon} alt="Adresse:" />
-            {" " +
-              immo[haustyp]["adresse"]["straße"] +
-              ", " +
-              immo[haustyp]["adresse"]["postleitzahl"] +
-              " - " +
-              immo[haustyp]["adresse"]["stadt"] +
-              " - " +
-              immo[haustyp]["adresse"]["bundesland"]}
-          </span>
+
+            <span className="adresse">
+              {" " +
+                immo[haustyp]["adresse"]["straße"] +
+                ", " +
+                immo[haustyp]["adresse"]["postleitzahl"] +
+                " - " +
+                immo[haustyp]["adresse"]["stadt"] +
+                " - " +
+                immo[haustyp]["adresse"]["bundesland"]}
+            </span>
+          </div>
           <div className="footer-second-section">
             <div className="icon-container">
-              <span className="zimmer">
-                <img src={roomIcon} alt="Zimmer:" />
-                {" " + immo[haustyp]["zimmer"]}
+              <img src={roomIcon} alt="Zimmer:" />
+              <span className="zimmer">{" " + immo[haustyp]["zimmer"]}</span>
+            </div>
+            <div className="icon-container">
+              <img src={propertyIcon} alt="Wohnfläche:" />
+              <span className="wohnfläche">
+                {" " + immo[haustyp]["wohnfläche"]} m²
               </span>
             </div>
-            <span className="wohnfläche">
-              <img src={propertyIcon} alt="Wohnfläche:" />{" "}
-              {" " + immo[haustyp]["wohnfläche"]} m²
-            </span>
-            <span className="preis">
-              <img src={moneyIcon} alt="Preis:" />{" "}
-              {" " + numberWithDots(immo[haustyp]["preis"].toString())}
-            </span>
+            <div className="icon-container">
+              <img src={moneyIcon} alt="Preis:" />
+              <span className="preis">
+                {" " + numberWithDots(immo[haustyp]["preis"].toString())}
+              </span>
+            </div>
           </div>
         </div>
       </div>
