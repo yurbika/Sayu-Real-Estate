@@ -67,6 +67,7 @@ class Liste extends React.Component {
           </SuchleisteContainer>
           <div className="immo-preview-container">
             {alleErgebnisse.map((item, index) =>
+              //wenn die index zahl geändert wird muss es auch im slider reducer die array anzahl angepasst werden
               index < 20 ? (
                 <ImmoPreview
                   immo={item}

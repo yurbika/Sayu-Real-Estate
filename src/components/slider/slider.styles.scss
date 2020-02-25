@@ -2,23 +2,55 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  img {
-    border-radius: 15px 0 0 15px;
-  }
-  .rechter-pfeil-container {
-    position: absolute;
-    top: 168px;
-    right: -45px;
-    .rechter-pfeil {
-      transform: rotate(-90deg);
+  width: inherit;
+  height: inherit;
+  .immo-preview-slider {
+    width: inherit;
+    height: inherit;
+    img {
+      width: inherit;
+      height: inherit;
+      border-radius: 15px 0 0 15px;
+    }
+    .rechter-pfeil-container {
+      position: absolute;
+      top: 168px;
+      right: -45px;
+      .rechter-pfeil {
+        transform: rotate(-90deg);
+      }
+    }
+    .linker-pfeil-container {
+      position: absolute;
+      top: 104px;
+      left: -45px;
+      .linker-pfeil {
+        transform: rotate(90deg);
+      }
     }
   }
-  .linker-pfeil-container {
-    position: absolute;
-    top: 104px;
-    left: -45px;
-    .linker-pfeil {
-      transform: rotate(90deg);
+  .popup-slider {
+    width: inherit;
+    height: inherit;
+    img {
+      width: inherit;
+      height: inherit;
+    }
+    .rechter-pfeil-container {
+      position: absolute;
+      top: 208px;
+      right: -45px;
+      .rechter-pfeil {
+        transform: rotate(-90deg);
+      }
+    }
+    .linker-pfeil-container {
+      position: absolute;
+      top: 144px;
+      left: -45px;
+      .linker-pfeil {
+        transform: rotate(90deg);
+      }
     }
   }
 }

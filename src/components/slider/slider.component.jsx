@@ -22,6 +22,7 @@ const Slider = ({
   setSliderPosition,
   curPosArray,
   id,
+  additionalStyle,
   ...otherProps
 }) => {
   if (curPosArray[id] > imgArray.length - 1)
@@ -30,17 +31,20 @@ const Slider = ({
     setSliderPosition({ num: imgArray.length - 1, id: id });
   return (
     <div className="slider-container">
-      <div className="rechter-pfeil-container">
-        <div className="rechter-pfeil">
-          <Button scrollButton sliderArrow onClick={() => toggleRight(id)} />
+      <div className={additionalStyle}>
+        <div className="rechter-pfeil-container">
+          <div className="rechter-pfeil">
+            <Button scrollButton sliderArrow onClick={() => toggleRight(id)} />
+          </div>
         </div>
-      </div>
-      <div className="linker-pfeil-container">
-        <div className="linker-pfeil">
-          <Button scrollButton sliderArrow onClick={() => toggleLeft(id)} />
+        <div className="linker-pfeil-container">
+          <div className="linker-pfeil">
+            <Button scrollButton sliderArrow onClick={() => toggleLeft(id)} />
+          </div>
         </div>
+
+        <img src={imgArray[curPosArray[id]]} alt={alt} {...otherProps} />
       </div>
-      <img src={imgArray[curPosArray[id]]} alt={alt} {...otherProps} />
     </div>
   );
 };
