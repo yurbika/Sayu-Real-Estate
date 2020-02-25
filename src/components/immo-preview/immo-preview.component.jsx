@@ -5,7 +5,7 @@ import { createStructuredSelector } from "reselect";
 import Slider from "../../components/slider/slider.component";
 
 //redux imports
-import { togglePopup } from "../../redux/popup/popup.action";
+import { togglePopup, setPopupImmo } from "../../redux/popup/popup.action";
 
 //utils
 import { numberWithDots } from "../input/input.utils";
@@ -18,7 +18,7 @@ import roomIcon from "../../assets/room-icon.png";
 
 import "./immo-preview.styles.scss";
 
-const ImmoPreview = ({ immo, id, togglePopup }) => {
+const ImmoPreview = ({ immo, id, togglePopup, setPopupImmo }) => {
   let haustyp = "";
   if (!!immo["haus"]) haustyp = "haus";
   else if (!!immo["wohnung"]) haustyp = "wohnung";
@@ -43,10 +43,19 @@ const ImmoPreview = ({ immo, id, togglePopup }) => {
           ]}
           alt={haustyp}
           id={id}
-          onClick={() => togglePopup()}
+          onClick={() => {
+            togglePopup();
+            setPopupImmo(immo);
+          }}
         />
       </div>
-      <div className="details" onClick={() => console.log("hi")}>
+      <div
+        className="details"
+        onClick={() => {
+          togglePopup();
+          setPopupImmo(immo);
+        }}
+      >
         <div className="beschreibung">
           <span className="titel">{immo[haustyp]["titel"]}</span>
           <span className="untertitel">{immo[haustyp]["untertitel"]}</span>
@@ -55,7 +64,6 @@ const ImmoPreview = ({ immo, id, togglePopup }) => {
         <div className="footer">
           <div className="icon-container">
             <img src={gpsIcon} alt="Adresse:" />
-
             <span className="adresse">
               {" " +
                 immo[haustyp]["adresse"]["straße"] +
@@ -92,7 +100,8 @@ const ImmoPreview = ({ immo, id, togglePopup }) => {
 };
 
 const mapDispatchToProps = dispatch => ({
-  togglePopup: () => dispatch(togglePopup())
+  togglePopup: () => dispatch(togglePopup()),
+  setPopupImmo: immo => dispatch(setPopupImmo(immo))
 });
 
 export default connect(null, mapDispatchToProps)(ImmoPreview);

@@ -7,6 +7,8 @@ import { SuchleisteContainer } from "../../components/suchleiste/suchleiste.styl
 
 import ImmoPreview from "../../components/immo-preview/immo-preview.component";
 
+import Popup from "../../components/popup/popup.component";
+
 //redux imports
 import {
   selectBezugsart,
@@ -18,6 +20,8 @@ import {
   selectMaxInput,
   selectMinInput
 } from "../../redux/filter/filter.selectors";
+
+import { selectPopupState } from "../../redux/popup/popup.selectors";
 
 //utils
 import { filterData } from "../../immo-data/immo-data.utils.js";
@@ -34,7 +38,8 @@ class Liste extends React.Component {
       haustyp,
       input,
       zimmerAnzahl,
-      fläche
+      fläche,
+      popShow
     } = this.props;
     //test für den input falls die seite ohne input angeklickt wird
     let splitedStr = !!input ? input.split(/[ ,-]+/) : "";
@@ -69,6 +74,7 @@ class Liste extends React.Component {
             )}
           </div>
         </div>
+        {popShow ? <Popup /> : null}
       </div>
     );
   }
@@ -83,7 +89,9 @@ const mapStateToProps = createStructuredSelector({
   fläche: selectFläche,
   haustyp: selectHaustyp,
   minInput: selectMinInput,
-  maxInput: selectMaxInput
+  maxInput: selectMaxInput,
+  //popup
+  popShow: selectPopupState
 });
 
 export default connect(mapStateToProps)(Liste);
