@@ -16,49 +16,61 @@
     background: #fff7de;
     overflow: scroll;
 
-    .main-section {
-      width: 100%;
-      .popup-bild-preview-container {
-        margin-top: -35px;
-        width: 450px;
-        height: 300px;
-      }
-      .kurzinfo {
-        height: 350px;
-        background: #cca96a;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        .infos {
-          margin-top: 43px;
-          align-self: flex-start;
-          height: 230px;
-          width: 510px;
-          background: #fff7de;
-        }
-      }
-    }
-
     .side-info {
       height: 100vh;
-      width: 75px;
+      width: 100%;
 
       .first {
-        height: 350px;
-        background: #a69fff;
+        height: 450px;
+        display: flex;
+
+        .popup-bild-preview-container {
+          margin-top: -35px;
+          width: 450px;
+          height: 300px;
+        }
+        .kurzinfo {
+          background: #cca96a;
+          height: 100%;
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          .infos {
+            margin-top: 43px;
+            align-self: flex-start;
+            height: 230px;
+            width: 510px;
+            background: #fff7de;
+          }
+        }
+        .rotate-container {
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 75px;
+          height: 100%;
+          background: #a69fff;
+          .rotate {
+            position: absolute;
+            transform: rotate(-90deg);
+            font-weight: bold;
+            letter-spacing: 10px;
+          }
+        }
       }
       .second {
         background: #a66acc;
         height: 100%;
       }
       & > * {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        position: relative;
       }
-      & > * > * {
+      & > * > span {
         position: absolute;
+
         transform: rotate(-90deg);
         font-weight: bold;
         letter-spacing: 10px;
