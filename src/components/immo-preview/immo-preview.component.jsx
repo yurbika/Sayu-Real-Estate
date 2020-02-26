@@ -55,6 +55,7 @@ const ImmoPreview = ({
           id={id}
           onClick={() => {
             togglePopup();
+            document.body.style.overflow = "hidden";
             setPopupImmo(immo);
             setPopupImmoID(id);
           }}
@@ -65,6 +66,7 @@ const ImmoPreview = ({
         className="details"
         onClick={() => {
           togglePopup();
+          document.body.style.overflow = "hidden";
           setPopupImmo(immo);
           setPopupImmoID(id);
         }}
