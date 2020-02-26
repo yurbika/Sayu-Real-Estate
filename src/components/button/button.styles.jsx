@@ -82,6 +82,8 @@ const getButtonStyles = props => {
     return [
       scrollButton,
       css`
+        position: relative;
+        bottom: 0;
         height: 2rem;
         width: 3rem;
         border: none;

@@ -32,17 +32,14 @@ const Slider = ({
   return (
     <div className="slider-container">
       <div className={additionalStyle}>
-        <div className="rechter-pfeil-container">
+        <div className="pfeil-container">
+          <div className="linker-pfeil">
+            <Button scrollButton sliderArrow onClick={() => toggleLeft(id)} />
+          </div>
           <div className="rechter-pfeil">
             <Button scrollButton sliderArrow onClick={() => toggleRight(id)} />
           </div>
         </div>
-        <div className="linker-pfeil-container">
-          <div className="linker-pfeil">
-            <Button scrollButton sliderArrow onClick={() => toggleLeft(id)} />
-          </div>
-        </div>
-
         <img src={imgArray[curPosArray[id]]} alt={alt} {...otherProps} />
       </div>
     </div>
