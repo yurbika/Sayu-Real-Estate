@@ -32,47 +32,51 @@ class Popup extends React.Component {
                 <span className="rotate">KURZINFORMATION</span>
               </div>
               <div className="kurzinfo">
-                <div className="popup-bild-preview-container">
-                  <Slider
-                    imgArray={[
-                      immo[haustyp]["bilder"]["titelbild"] +
-                        "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=300&fit=crop",
-                      immo[haustyp]["bilder"]["zweites"] +
-                        "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=300&fit=crop",
-                      immo[haustyp]["bilder"]["drittes"] +
-                        "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=300&fit=crop",
-                      immo[haustyp]["bilder"]["vier"] +
-                        "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=300&fit=crop",
-                      immo[haustyp]["bilder"]["fünf"] +
-                        "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=300&fit=crop",
-                      immo[haustyp]["bilder"]["sechs"] +
-                        "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=300&fit=crop"
-                    ]}
-                    alt={haustyp}
-                    id={immoID}
-                    additionalStyle={"popup-slider"}
-                  />
-                </div>
-                <div className="infos">
-                  <div className="infos-main">
-                    <span className="titel">{immo[haustyp]["titel"]}</span>
-                    <span className="adresse"></span>
-                    <span className="preis"></span>
-                    <div className="important-infos">
-                      <span className="zimmer"></span>
-                      <span className="wohnfläche"></span>
-                      <span className="grundstück"></span>
-                    </div>
+                <div className="container-bild-info">
+                  <div className="popup-bild-preview-container">
+                    <Slider
+                      imgArray={[
+                        immo[haustyp]["bilder"]["titelbild"] +
+                          "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=300&fit=crop",
+                        immo[haustyp]["bilder"]["zweites"] +
+                          "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=300&fit=crop",
+                        immo[haustyp]["bilder"]["drittes"] +
+                          "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=300&fit=crop",
+                        immo[haustyp]["bilder"]["vier"] +
+                          "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=300&fit=crop",
+                        immo[haustyp]["bilder"]["fünf"] +
+                          "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=300&fit=crop",
+                        immo[haustyp]["bilder"]["sechs"] +
+                          "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=300&fit=crop"
+                      ]}
+                      alt={haustyp}
+                      id={immoID}
+                      additionalStyle={"popup-slider"}
+                    />
                   </div>
-                  <div className="infos-footer">
-                    <div className="veröffentlichung"></div>
-                    <div className="anbieter"></div>
+                  <div className="infos">
+                    <div className="infos-main">
+                      <span className="titel">{immo[haustyp]["titel"]}</span>
+                      <span className="adresse"></span>
+                      <span className="preis"></span>
+                      <div className="important-infos">
+                        <span className="zimmer"></span>
+                        <span className="wohnfläche"></span>
+                        <span className="grundstück"></span>
+                      </div>
+                    </div>
+                    <div className="infos-footer">
+                      <div className="veröffentlichung"></div>
+                      <div className="anbieter"></div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
             <div className="second">
-              <span>VORSCHAU</span>
+              <div className="rotate-container">
+                <span className="rotate">VORSCHAU</span>
+              </div>
             </div>
           </div>
         </div>
