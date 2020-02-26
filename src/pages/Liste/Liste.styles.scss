@@ -1,12 +1,25 @@
 .container-liste {
   position: relative;
   width: 100vw;
+
   .container-suchleiste-immo {
     display: flex;
     flex-direction: column;
     width: 70vw;
     max-width: 1120px;
     margin: 0 auto;
+    .no-results {
+      display: flex;
+      background: #cca96a;
+      align-items: center;
+      justify-content: center;
+      height: 125px;
+      width: 100%;
+      border-radius: 15px;
+      margin-bottom: 35px;
+      font-size: 25px;
+      letter-spacing: 5px;
+    }
     .immo-preview-container {
       & > * {
         margin-bottom: 35px;

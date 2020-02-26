@@ -57,7 +57,24 @@ class Liste extends React.Component {
       zimmerAnzahl: `${zimmerAnzahl}`,
       wohnfläche: `${fläche}`
     };
-    const { alleErgebnisse } = filterData(filter);
+    let { alleErgebnisse } = filterData(filter);
+
+    //falls es suchtreffer gibt ein fallback
+    let noResults = false;
+    if (alleErgebnisse.length === 0) {
+      noResults = true;
+      filter = {
+        haustyp: `${haustyp}`,
+        bezugsart: `${bezugsart}`,
+        search: "e",
+        minInput: `${minInput}`,
+        maxInput: `${maxInput}`,
+        zimmerAnzahl: `${zimmerAnzahl}`,
+        wohnfläche: `${fläche}`
+      };
+      alleErgebnisse = filterData(filter).alleErgebnisse;
+    }
+
     return (
       <div className="container-liste">
         <Header />
@@ -65,13 +82,16 @@ class Liste extends React.Component {
           <SuchleisteContainer additionalStyle={"liste"}>
             <Suchleiste additionalStyle={"liste"} />
           </SuchleisteContainer>
+          {noResults ? (
+            <span className="no-results">Keine Ergebnisse</span>
+          ) : null}
           <div className="immo-preview-container">
             {alleErgebnisse.map((item, index) =>
               //wenn die index zahl geändert wird muss es auch im slider reducer die array anzahl angepasst werden
               index < 20 ? (
                 <ImmoPreview
                   immo={item}
-                  id={index}
+                  id={index % 20}
                   key={ID_GENERATOR("immobilien-seite-")}
                 />
               ) : null
