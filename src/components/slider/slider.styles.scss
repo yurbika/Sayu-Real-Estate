@@ -1,54 +1,25 @@
 .slider-container {
   position: relative;
   display: flex;
-  justify-items: center;
-
+  align-items: center;
   width: inherit;
   height: inherit;
-  .immo-preview-slider {
-    width: inherit;
-    height: inherit;
-    img {
-      width: inherit;
-      height: inherit;
-      border-radius: 15px 0 0 15px;
-    }
-    .pfeil-container {
-      display: flex;
-      position: absolute;
-      width: 100%;
-      .rechter-pfeil {
-        margin-left: auto;
-        transform: rotate(-90deg);
-      }
 
-      .linker-pfeil {
-        transform: rotate(90deg);
-      }
-    }
-  }
-  .popup-slider {
+  img {
     width: inherit;
     height: inherit;
-    img {
-      width: inherit;
-      height: inherit;
+  }
+  .pfeil-container {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    .rechter-pfeil {
+      margin-left: auto;
+      transform: rotate(-90deg);
     }
-    .rechter-pfeil-container {
-      position: absolute;
-      top: 185px;
-      right: -45px;
-      .rechter-pfeil {
-        transform: rotate(-90deg);
-      }
-    }
-    .linker-pfeil-container {
-      position: absolute;
-      top: 120px;
-      left: -45px;
-      .linker-pfeil {
-        transform: rotate(90deg);
-      }
+
+    .linker-pfeil {
+      transform: rotate(90deg);
     }
   }
 }
