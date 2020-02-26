@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components";
-import theme from "../../variablen-styles/theme";
+import theme from "../../utils/theme";
 
 const getInputStyles = props => {
   if (props.inputStartseite)

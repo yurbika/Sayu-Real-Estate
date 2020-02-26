@@ -1,4 +1,4 @@
-import theme from "../../variablen-styles/theme";
+import theme from "../../utils/theme";
 import styled, { css } from "styled-components";
 
 //verschiedene Button-Styles

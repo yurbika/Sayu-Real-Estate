@@ -1,4 +1,4 @@
-import theme from "../../variablen-styles/theme";
+import theme from "../../utils/theme";
 import styled from "styled-components";
 
 export const InspirationsContainer = styled.div`

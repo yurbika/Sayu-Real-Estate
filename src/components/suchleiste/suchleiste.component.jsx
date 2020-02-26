@@ -2,6 +2,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
+import { withRouter } from "react-router-dom";
 
 import { filterData } from "../../immo-data/immo-data.utils";
 
@@ -143,7 +144,8 @@ class Suchleiste extends React.Component {
       setSearchInput,
       resultsDropdown,
       children,
-      additionalStyle
+      additionalStyle,
+      history
     } = this.props;
     return (
       <SuchleisteContainer additionalStyle={additionalStyle}>
@@ -209,7 +211,7 @@ class Suchleiste extends React.Component {
               >
                 {haustyp}
               </Button>
-              <Button suchButton>
+              <Button suchButton onClick={() => history.push("/liste")}>
                 {suchtreffer > 0 && !!input
                   ? `${numberWithDots(suchtreffer.toString())} Treffer`
                   : "Suchen"}
@@ -367,4 +369,6 @@ const mapDispatchToProps = dispatch => ({
   setSuchtreffer: num => dispatch(setSuchtreffer(num))
 });
 
-export default connect(mapStateToProps, mapDispatchToProps)(Suchleiste);
+export default withRouter(
+  connect(mapStateToProps, mapDispatchToProps)(Suchleiste)
+);
