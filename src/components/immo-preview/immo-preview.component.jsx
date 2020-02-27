@@ -59,7 +59,6 @@ const ImmoPreview = ({
             setPopupImmo(immo);
             setPopupImmoID(id);
           }}
-          additionalStyle={"immo-preview-slider"}
         />
       </div>
       <div

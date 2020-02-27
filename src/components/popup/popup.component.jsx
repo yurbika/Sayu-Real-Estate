@@ -51,7 +51,6 @@ class Popup extends React.Component {
                       ]}
                       alt={haustyp}
                       id={immoID}
-                      additionalStyle={"popup-slider"}
                     />
                   </div>
                   <div className="infos">

@@ -13,11 +13,15 @@
     display: flex;
     position: absolute;
     width: 100%;
+    pointer-events: none;
+
+    & > * {
+      pointer-events: visible;
+    }
     .rechter-pfeil {
       margin-left: auto;
       transform: rotate(-90deg);
     }
-
     .linker-pfeil {
       transform: rotate(90deg);
     }

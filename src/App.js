@@ -29,7 +29,7 @@ const App = ({ toggleDropdown, togglePopup }) => {
           toggleDropdown(DropdownActionTypes.TOGGLE_ALL_DROPDOWNS_FALSE);
         if (handleClickOutsidePopup(e)) {
           togglePopup();
-          document.body.style.overflow = "visible";
+          document.body.style.overflowY = "visible";
         }
       }}
     >
