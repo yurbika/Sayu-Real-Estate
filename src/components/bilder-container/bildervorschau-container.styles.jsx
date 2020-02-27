@@ -32,6 +32,12 @@ export const BilderVorschau = styled.div`
   }
   @media (max-width: 1024px) {
     grid-template-columns: repeat(2, max(208px));
+    ${getHeight}
+  }
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(1, max(208px));
+    max-height: 960px;
+    ${getHeight}
   }
   ${getHeight}
 `;
