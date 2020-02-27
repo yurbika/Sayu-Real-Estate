@@ -38,6 +38,7 @@ const AuswahlDropdown = css`
   padding-top: 60px;
   position: relative;
   border-radius: 0 0 15px 15px;
+  border: 1px solid ${theme.colors.hslaBlack};
   display: flex;
   align-items: center;
   justify-content: center;
@@ -61,6 +62,7 @@ const AuswahlDropdown = css`
   }
 `;
 const ResultsDropdown = css`
+  border: 1px solid ${theme.colors.hslaBlack};
   &::before,
   &::after {
     display: none;
@@ -96,6 +98,7 @@ const PreisDropdown = css`
 
   transform: translate3d(-3rem, 283px, 0px) !important;
   height: 360px;
+  border: 1px solid ${theme.colors.hslaBlack};
 
   input {
     width: 100%;
@@ -158,7 +161,6 @@ const getAdditionalStyle = props => {
         AuswahlDropdown,
         css`
           transform: translate3d(1px, 5px, 0px) !important;
-          border: 1px solid ${theme.colors.hslaBlack};
         `
       ];
     case "haus-dropdown":
@@ -170,7 +172,6 @@ const getAdditionalStyle = props => {
           HausDropdown,
           css`
             transform: translate3d(8.05rem, 5px, 0px) !important;
-            border: 1px solid ${theme.colors.hslaBlack};
           `
         ]
       ];
@@ -183,7 +184,6 @@ const getAdditionalStyle = props => {
           ZimmerDropdown,
           css`
             transform: translate3d(0, 132px, 0px) !important;
-            border: 1px solid ${theme.colors.hslaBlack};
           `
         ]
       ];
@@ -196,19 +196,13 @@ const getAdditionalStyle = props => {
           FlächeDropdown,
           css`
             transform: translate3d(12rem, 148px, 0px) !important;
-            border: 1px solid ${theme.colors.hslaBlack};
           `
         ]
       ];
     case "results-dropdown":
       return ResultsDropdown;
     case "results-dropdown-liste":
-      return [
-        ResultsDropdown,
-        css`
-          border: 1px solid ${theme.colors.hslaBlack};
-        `
-      ];
+      return ResultsDropdown;
 
     case "preis-dropdown":
       return PreisDropdown;
@@ -217,7 +211,6 @@ const getAdditionalStyle = props => {
         PreisDropdown,
         css`
           transform: translate3d(-3rem, 230px, 0px) !important;
-          border: 1px solid ${theme.colors.hslaBlack};
         `
       ];
     default:

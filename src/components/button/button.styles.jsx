@@ -40,7 +40,7 @@ const sekundärerButton = css`
   margin-left: 2rem;
   background: none;
   width: 10rem;
-  max-width: 17vw;
+  max-width: none;
   border-radius: 25px;
   border-left: none;
   border: 2px solid ${theme.colors.lightWhite};

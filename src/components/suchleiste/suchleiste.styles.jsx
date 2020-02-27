@@ -56,8 +56,8 @@ export const Bild = styled.div`
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  width: 100%;
-  max-width: 75vw;
+  width: 80vw;
+  max-width: 950px;
   min-height: 285px;
   overflow: hidden;
   background: ${theme.colors.hslaBlack} border-box;
@@ -95,19 +95,17 @@ export const InputContainer = styled.div`
 
 export const InputContainerZeile = styled.div`
   display: flex;
+  justify-content:center;
+
   z-index: 1;
   &:last-child {
     margin-top: 1rem;
+    width:100vw;
   }
   &:first-child {
     border-radius: 15px;
     box-shadow: 3px 3px 10px ${theme.colors.black};
     z-index: 3;
   }
-
-  @media (max-width: 768px) {
-    .dropdown-buttons {
-      display: none;
-    }
   }
 `;
