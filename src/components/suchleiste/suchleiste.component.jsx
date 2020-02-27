@@ -64,7 +64,8 @@ import {
   SuchleisteContainer,
   Filter,
   InputContainer,
-  InputContainerZeile
+  InputContainerZeile,
+  InputContainerResponsive
 } from "./suchleiste.styles";
 
 /*Button id = filter-button ist hier notwendig damit die richtigen aktionen gefeuert 
@@ -152,6 +153,16 @@ class Suchleiste extends React.Component {
         <Filter additionalStyle={additionalStyle}>
           {children}
           {/*Buttons und Inputs*/}
+          <InputContainerResponsive>
+            <Button id="filter-button" inputButton>
+              {!!input ? input : "Wo: Ort, Bundesland oder PLZ"}
+            </Button>
+            <Button suchButton onClick={() => history.push("/liste")}>
+              {suchtreffer > 0 && !!input
+                ? `${numberWithDots(suchtreffer.toString())} Treffer`
+                : "Suchen"}
+            </Button>
+          </InputContainerResponsive>
           <InputContainer>
             <InputContainerZeile>
               <Input

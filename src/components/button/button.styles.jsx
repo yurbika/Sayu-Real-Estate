@@ -75,6 +75,14 @@ const scrollButton = css`
   }
 `;
 
+const inputButton = css`
+  min-width: 80%;
+  border-radius: 15px 0 0 15px;
+  & span {
+    color: ${theme.colors.transDarkerBlack};
+  }
+`;
+
 //entscheiden welche Styles angewendet werden soll
 
 const getButtonStyles = props => {
@@ -97,6 +105,7 @@ const getButtonStyles = props => {
   if (props.sekundärerButton) return sekundärerButton;
   if (props.suchButton) return suchButton;
   if (props.aktionsButton) return aktionsButton;
+  if (props.inputButton) return inputButton;
   return normalerButton;
 };
 

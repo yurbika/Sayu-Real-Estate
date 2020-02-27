@@ -91,6 +91,10 @@ export const InputContainer = styled.div`
   max-width: 60vw;
   height: 8rem;
   margin: 1rem;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const InputContainerZeile = styled.div`
@@ -107,5 +111,18 @@ export const InputContainerZeile = styled.div`
     box-shadow: 3px 3px 10px ${theme.colors.black};
     z-index: 3;
   }
+  }
+`;
+
+export const InputContainerResponsive = styled.div`
+  display: none;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 60vw;
+  margin-top: 35px;
+  @media (max-width: 768px) {
+    display: flex;
   }
 `;
