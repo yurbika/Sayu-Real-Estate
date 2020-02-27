@@ -76,10 +76,14 @@ const scrollButton = css`
 `;
 
 const inputButton = css`
-  min-width: 80%;
+  min-width: 70%;
   border-radius: 15px 0 0 15px;
+  display: flex;
+  align-items: center;
   & span {
+    position: absolute;
     color: ${theme.colors.transDarkerBlack};
+    margin-left: 15px;
   }
 `;
 

@@ -34,6 +34,17 @@ export const SuchleisteContainer = styled.div`
     font-size: 1.8rem;
     z-index: 1;
   }
+  @media (max-width: 576px) {
+    h1 {
+      font-size: 1.5rem;
+      z-index: 1;
+    }
+    p {
+      margin-top: 1rem;
+      font-size: 1rem;
+      z-index: 1;
+    }
+  }
   ${getAdditionalStyleForSuchleisteContainer}
 `;
 
@@ -87,7 +98,7 @@ export const InputContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 50rem;
+  width: 100%;
   max-width: 60vw;
   height: 8rem;
   margin: 1rem;
@@ -120,7 +131,7 @@ export const InputContainerResponsive = styled.div`
   align-items: center;
   justify-content: center;
   width: 100%;
-  max-width: 60vw;
+  max-width: 65vw;
   margin-top: 35px;
   @media (max-width: 768px) {
     display: flex;
