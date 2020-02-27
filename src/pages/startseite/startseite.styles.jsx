@@ -4,15 +4,15 @@ import styled from "styled-components";
 export const StartseiteContainer = styled.div`
   position: relative;
   width: 100vw;
-  min-height: 500px;
-  height: 100vh;
+  min-height: 100%;
+  padding-bottom: 75px;
 `;
 
 export const ContainerSuchleiste = styled.div`
   position: relative;
   width: 100%;
   min-height: 500px;
-  height: 100%;
+  height: 100vh;
 `;
 
 export const BackgroundImageFilter = styled.div`
