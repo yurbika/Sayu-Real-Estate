@@ -30,7 +30,7 @@ export const BilderVorschau = styled.div`
     grid-row: 1 / 1;
     grid-column: 1 / 1;
   }
-  @media (max-width: 1024px) {
+  @media (max-width: 1200px) {
     grid-template-columns: repeat(2, max(208px));
     max-height: 460px;
     ${getHeight}
