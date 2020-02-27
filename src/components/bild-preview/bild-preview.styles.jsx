@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 export const HoverContainer = styled.div`
   position: absolute;
+  cursor: default;
   display: none;
   animation: fadein 0.45s;
   flex-direction: column;
@@ -60,6 +61,5 @@ export const BildPreviewContainer = styled.div`
   }
   &:hover ${HoverContainer} {
     display: flex;
-    cursor: pointer;
   }
 `;
