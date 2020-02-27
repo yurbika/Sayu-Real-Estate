@@ -196,6 +196,7 @@ class Suchleiste extends React.Component {
                     DropdownActionTypes.TOGGLE_BEZUGSARTDROPDOWN_HIDDEN
                   )
                 }
+                className="dropdown-buttons"
                 id="filter-button"
               >
                 {bezugsart}
@@ -207,6 +208,7 @@ class Suchleiste extends React.Component {
                     DropdownActionTypes.TOGGLE_IMMOBILIENTYPDROPDOWN_HIDDEN
                   )
                 }
+                className="dropdown-buttons"
                 id="filter-button"
               >
                 {haustyp}
@@ -227,6 +229,7 @@ class Suchleiste extends React.Component {
                     DropdownActionTypes.TOGGLE_PREISDROPDOWN_HIDDEN
                   )
                 }
+                className="dropdown-buttons"
                 id="filter-button"
               >
                 {preis}
@@ -239,6 +242,7 @@ class Suchleiste extends React.Component {
                   )
                 }
                 id="filter-button"
+                className="dropdown-buttons"
               >
                 {zimmerAnzahl}
               </Button>
@@ -249,6 +253,7 @@ class Suchleiste extends React.Component {
                     DropdownActionTypes.TOGGLE_FLÄCHEDROPDOWN_HIDDEN
                   )
                 }
+                className="dropdown-buttons"
                 id="filter-button"
               >
                 {fläche}

@@ -50,18 +50,19 @@ export const Filter = styled.div`
 `;
 
 export const Bild = styled.div`
-position: absolute;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-margin: 0 auto;
-min-width: 950px;
-min-height: 285px;
-overflow:hidden;
-background: ${theme.colors.hslaBlack} border-box;
-border-radius: 2.5em;
-&::before{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 75vw;
+  min-height: 285px;
+  overflow: hidden;
+  background: ${theme.colors.hslaBlack} border-box;
+  border-radius: 2.5em;
+  &::before {
     content: "";
     position: absolute;
     min-height: 500px;
@@ -71,7 +72,14 @@ border-radius: 2.5em;
     background-repeat: no-repeat;
     background-image: url(${theme.img});
     z-index: -1;
-    filter: blur(10px);`;
+    filter: blur(10px);
+  }
+
+  @media (max-width: 768px) {
+    width: 100%;
+    max-width: 550px;
+  }
+`;
 
 export const InputContainer = styled.div`
   position: relative;
@@ -95,5 +103,11 @@ export const InputContainerZeile = styled.div`
     border-radius: 15px;
     box-shadow: 3px 3px 10px ${theme.colors.black};
     z-index: 3;
+  }
+
+  @media (max-width: 768px) {
+    .dropdown-buttons {
+      display: none;
+    }
   }
 `;
