@@ -221,6 +221,42 @@ class Suchleiste2 extends React.Component {
                   : "Suchen"}
               </Button>
             </InputContainerZeile>
+            <InputContainerZeile shadow>
+              <Input inputStartseite />
+              {resultsDropdown && suchtreffer > 0 && input !== "" ? (
+                <Results
+                  additionalStyle={
+                    "results-dropdown" +
+                    (!!additionalStyle ? "-" + additionalStyle : "")
+                  }
+                />
+              ) : null}
+              <Button normalerButton dropdown>
+                {bezugsartDropdown ? (
+                  <AuswahlDropdown
+                    additionalStyle={
+                      "bezugsart-dropdown" +
+                      (!!additionalStyle ? "-" + additionalStyle : "")
+                    }
+                    children={[bezugsart === "Mieten" ? "Kaufen" : "Mieten"]}
+                    type={FilterActionTypes.SET_BEZUGSART}
+                  />
+                ) : null}
+              </Button>
+              <Button normalerButton dropdown>
+                {immobilientypDropdown ? (
+                  <AuswahlDropdown
+                    additionalStyle={
+                      "haus-dropdown" +
+                      (!!additionalStyle ? "-" + additionalStyle : "")
+                    }
+                    children={[haustyp === "Wohnung" ? "Haus" : "Wohnung"]}
+                    type={FilterActionTypes.SET_HAUSTYP}
+                  />
+                ) : null}
+              </Button>
+              <Button suchButton></Button>
+            </InputContainerZeile>
             {/*zweite Reihe der Suchleiste*/}
             <InputContainerZeile>
               <Button

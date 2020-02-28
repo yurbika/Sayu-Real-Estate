@@ -1,10 +1,6 @@
 import theme from "../../utils/theme";
 import styled, { css } from "styled-components";
 
-export const AuswahlDropdownContainer = styled.div`
-  position: absolute;
-`;
-
 export const InputContainer = styled.div`
   margin: 0;
   display: flex;
@@ -31,9 +27,9 @@ export const BindeStrich = styled.div`
 
 //hier werden die styles für die verschiedenen dropdowns ausgewählt
 const AuswahlDropdown = css`
-  transform: translate3d(0, 60px, 0px) !important;
   z-index: 1;
-  width: 7.93rem;
+  width: inherit;
+  max-width: inherit;
   height: 2.5rem;
   padding-top: 60px;
   position: relative;
@@ -46,7 +42,7 @@ const AuswahlDropdown = css`
     list-style: none;
     position: absolute;
     width: 80%;
-    top: 45%;
+    top: 50%;
     text-align: center;
     li {
       cursor: pointer;
@@ -70,7 +66,6 @@ const ResultsDropdown = css`
   border-radius: 0 0 15px 15px;
   display: flex;
   flex-direction: column;
-  padding-top: 20px;
   h4 {
     color: black;
   }
@@ -126,9 +121,7 @@ const PreisDropdown = css`
   }
 `;
 
-const HausDropdown = css`
-  transform: translate3d(8.05rem, 60px, 0px) !important;
-`;
+const HausDropdown = css``;
 
 const ZimmerDropdown = css`
   transform: translate3d(0, 183px, 0px) !important;
@@ -228,18 +221,19 @@ const getAdditionalStyleForResults = props => {
 //--------------------------------------------------------------------//
 
 export const DropdownContainer = styled.div`
-  position: absolute;
+  width: inherit;
   display: flex;
   background-color: ${theme.colors.lightWhite};
   border-radius: 0 25px 25px 25px;
-  padding: 10px 15px;
+  padding: 35px 15px;
   z-index: 3;
   ${getAdditionalStyle}
 `;
 
 export const ResultsContainer = styled.div`
   position: absolute;
-  transform: translate3d(-22rem, 30px, 0px) !important;
+  left: 0;
+  margin-top: 15px;
   font-size: 0.9rem;
   z-index: 2;
   ${getAdditionalStyleForResults}

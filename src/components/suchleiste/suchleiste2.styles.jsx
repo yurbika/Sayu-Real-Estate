@@ -74,13 +74,22 @@ h1 {
 
 ///////////
 
+const getAdditonalStyle = props => {
+  if (props.shadow) {
+    return css`
+      position: absolute;
+      top: 0;
+    `;
+  }
+};
+
 export const InputContainer = styled.div`
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 35px;
+  margin-top: 15px;
 
   @media (max-width: 768px) {
     display: none;
@@ -98,6 +107,7 @@ export const InputContainerZeile = styled.div`
     box-shadow: 3px 3px 10px ${theme.colors.black};
     z-index: 3;
   }
+  ${getAdditonalStyle}
 `;
 
 export const InputContainerResponsive = styled.div`

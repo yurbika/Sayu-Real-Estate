@@ -12,7 +12,7 @@ import DropdownActionTypes from "../../redux/dropdown/dropdown.types";
 import { ID_GENERATOR } from "../../uniqueKey";
 
 //styles
-import { AuswahlDropdownContainer, DropdownContainer } from "./dropdown.styles";
+import { DropdownContainer } from "./dropdown.styles";
 
 const AuswahlDropdown = ({
   children,
@@ -22,28 +22,26 @@ const AuswahlDropdown = ({
   type
 }) => {
   return (
-    <AuswahlDropdownContainer>
-      <DropdownContainer additionalStyle={additionalStyle} ref={dropdownRef}>
-        <ul>
-          {children.map(child => (
-            <li
-              key={ID_GENERATOR("AuswahlDropdown-li-")}
-              onClick={() => {
-                if (
-                  additionalStyle === "zimmer-dropdown" ||
-                  additionalStyle === "flaeche-dropdown"
-                )
-                  setArt(child, type);
-                else setArt(child, type);
-                toggleDropdown(DropdownActionTypes.TOGGLE_ALL_DROPDOWNS_FALSE);
-              }}
-            >
-              {child}
-            </li>
-          ))}
-        </ul>
-      </DropdownContainer>
-    </AuswahlDropdownContainer>
+    <DropdownContainer additionalStyle={additionalStyle} ref={dropdownRef}>
+      <ul>
+        {children.map(child => (
+          <li
+            key={ID_GENERATOR("AuswahlDropdown-li-")}
+            onClick={() => {
+              if (
+                additionalStyle === "zimmer-dropdown" ||
+                additionalStyle === "flaeche-dropdown"
+              )
+                setArt(child, type);
+              else setArt(child, type);
+              toggleDropdown(DropdownActionTypes.TOGGLE_ALL_DROPDOWNS_FALSE);
+            }}
+          >
+            {child}
+          </li>
+        ))}
+      </ul>
+    </DropdownContainer>
   );
 };
 
