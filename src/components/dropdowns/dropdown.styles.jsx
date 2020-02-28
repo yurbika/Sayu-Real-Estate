@@ -30,8 +30,7 @@ const AuswahlDropdown = css`
   z-index: 1;
   width: inherit;
   max-width: inherit;
-  height: 2.5rem;
-  padding-top: 60px;
+  padding: 45px 5px 10px 5px;
   position: relative;
   border-radius: 0 0 15px 15px;
   border: 1px solid ${theme.colors.hslaBlack};
@@ -39,11 +38,10 @@ const AuswahlDropdown = css`
   align-items: center;
   justify-content: center;
   ul {
+    display: inline-block;
     list-style: none;
-    position: absolute;
     width: 80%;
     top: 50%;
-    text-align: center;
     li {
       cursor: pointer;
       width: 100%;
@@ -90,6 +88,9 @@ const ResultsDropdown = css`
 
 const PreisDropdown = css`
   //diese zeile lässt den dropdown unter dem button sein
+  position: absolute;
+  left: 12px;
+  margin-top: 20px;
   display: flex;
   padding: 15px;
   width: 375px;
@@ -102,6 +103,7 @@ const PreisDropdown = css`
   ${InputListContainer}
   ul {
     list-style: none;
+    width: 100%;
     display: none;
     margin-top: 10px;
     margin-left: 10px;
@@ -123,28 +125,20 @@ const PreisDropdown = css`
   }
 `;
 
-const HausDropdown = css``;
-
 const ZimmerDropdown = css`
-  transform: translate3d(0, 183px, 0px) !important;
   border-radius: 0 15px 15px 15px;
-  width: 8rem;
-  height: 10.2rem;
-  ul {
-    position: absolute;
-    top: 5%;
-  }
+  padding: 5px;
+  left: 12px;
+  margin-top: 38px;
+  width: calc(100% - 25px);
 `;
 
 const FlächeDropdown = css`
-  transform: translate3d(12rem, 200px, 0px) !important;
   border-radius: 0 15px 15px 15px;
-  width: 8rem;
-  min-height: 12.2rem;
-  ul {
-    position: absolute;
-    top: 5%;
-  }
+  padding: 5px;
+  left: 12px;
+  margin-top: 38px;
+  width: calc(100% - 25px);
 `;
 //funktionen für die spezifischen seiten
 const getAdditionalStyle = props => {
@@ -159,16 +153,13 @@ const getAdditionalStyle = props => {
         `
       ];
     case "haus-dropdown":
-      return [AuswahlDropdown, HausDropdown];
+      return [AuswahlDropdown];
     case "haus-dropdown-liste":
       return [
         AuswahlDropdown,
-        [
-          HausDropdown,
-          css`
-            transform: translate3d(8.05rem, 5px, 0px) !important;
-          `
-        ]
+        css`
+          transform: translate3d(8.05rem, 5px, 0px) !important;
+        `
       ];
     case "zimmer-dropdown":
       return [AuswahlDropdown, ZimmerDropdown];
@@ -213,13 +204,6 @@ const getAdditionalStyle = props => {
   }
 };
 
-const getAdditionalStyleForResults = props => {
-  if (props.additionalStyle === "results-dropdown-liste")
-    return css`
-      transform: translate3d(-22rem, -22px, 0px) !important;
-    `;
-};
-
 //--------------------------------------------------------------------//
 
 export const DropdownContainer = styled.div`
@@ -237,5 +221,4 @@ export const ResultsContainer = styled.div`
   margin-top: 15px;
   font-size: 0.9rem;
   z-index: 2;
-  ${getAdditionalStyleForResults}
 `;

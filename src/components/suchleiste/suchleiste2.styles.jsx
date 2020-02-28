@@ -85,7 +85,7 @@ const getAdditonalStyle = props => {
     return css`
       position: absolute;
       bottom: 0;
-      z-index: -1;
+      z-index: 1;
     `;
   }
 };
@@ -108,14 +108,19 @@ export const InputContainerZeile = styled.div`
   justify-content: space-evenly;
   width: 100%;
 
+  &:nth-child(2) {
+    z-index: 3;
+  }
+
   &:nth-child(3) {
     margin-top: 15px;
+    z-index: 2;
   }
 
   &:first-child {
     border-radius: 15px;
     box-shadow: 3px 3px 10px ${theme.colors.black};
-    z-index: 3;
+    z-index: 4;
   }
   ${getAdditonalStyle}
 `;

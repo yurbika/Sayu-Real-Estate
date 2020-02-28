@@ -102,6 +102,13 @@ const getButtonStyles = props => {
       `
     ];
   if (props.scrollButton) return scrollButton;
+  if (props.sekundärerButton && props.dropdown)
+    return [
+      sekundärerButton,
+      css`
+        z-index: -1;
+      `
+    ];
   if (props.sekundärerButton) return sekundärerButton;
   if (props.suchButton) return suchButton;
   if (props.aktionsButton) return aktionsButton;

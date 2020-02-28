@@ -306,8 +306,43 @@ class Suchleiste2 extends React.Component {
                   />
                 ) : null}
               </Button>
-              <Button sekundärerButton></Button>
-              <Button sekundärerButton></Button>
+              <Button sekundärerButton dropdown>
+                {zimmerDropdown ? (
+                  <AuswahlDropdown
+                    additionalStyle={
+                      "zimmer-dropdown" +
+                      (!!additionalStyle ? "-" + additionalStyle : "")
+                    }
+                    children={[
+                      "1 Zi. +",
+                      "2 Zi. +",
+                      "3 Zi. +",
+                      "4 Zi. +",
+                      "5 Zi. +"
+                    ]}
+                    type={FilterActionTypes.SET_ZIMMERANZAHL}
+                  />
+                ) : null}
+              </Button>
+              <Button sekundärerButton>
+                {flächeDropdown ? (
+                  <AuswahlDropdown
+                    additionalStyle={
+                      "flaeche-dropdown" +
+                      (!!additionalStyle ? "-" + additionalStyle : "")
+                    }
+                    children={[
+                      "70 qm +",
+                      "100 qm +",
+                      "200 qm +",
+                      "300 qm +",
+                      "400 qm +",
+                      "500 qm +"
+                    ]}
+                    type={FilterActionTypes.SET_FLÄCHE}
+                  />
+                ) : null}
+              </Button>
             </InputContainerZeile>
           </InputContainer>
         </ContentContainer>
