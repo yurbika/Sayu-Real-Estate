@@ -36,8 +36,6 @@ const suchButton = css`
 `;
 
 const sekundärerButton = css`
-  margin-top: 0.2rem;
-  margin-left: 2rem;
   background: none;
   width: 10rem;
   max-width: 18vw;
@@ -48,9 +46,7 @@ const sekundärerButton = css`
     margin-top: 1rem;
     color: ${theme.colors.lightWhite};
   }
-  &:first-child {
-    margin-left: 0;
-  }
+
   &:active {
     border-color: ${theme.colors.lightPurple};
     span {

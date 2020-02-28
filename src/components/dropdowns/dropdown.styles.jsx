@@ -1,12 +1,12 @@
 import theme from "../../utils/theme";
 import styled, { css } from "styled-components";
 
-export const InputContainer = styled.div`
+export const InputListContainer = styled.div`
   margin: 0;
   display: flex;
   flex-direction: column;
+  align-items: start;
   width: 50%;
-  height: 100%;
 `;
 
 export const BindeStrich = styled.div`
@@ -90,20 +90,22 @@ const ResultsDropdown = css`
 
 const PreisDropdown = css`
   //diese zeile lässt den dropdown unter dem button sein
-
-  transform: translate3d(-3rem, 283px, 0px) !important;
-  height: 360px;
+  display: flex;
+  padding: 15px;
+  width: 375px;
   border: 1px solid ${theme.colors.hslaBlack};
+  z-index: 3;
 
   input {
     width: 100%;
   }
-  ${InputContainer}
+  ${InputListContainer}
   ul {
     list-style: none;
     display: none;
     margin-top: 10px;
     margin-left: 10px;
+    text-align: start;
     li {
       cursor: pointer;
       padding: 5px;
@@ -117,7 +119,7 @@ const PreisDropdown = css`
     }
   }
   #preis-min {
-    display: block;
+    display: inline-block;
   }
 `;
 
@@ -222,7 +224,6 @@ const getAdditionalStyleForResults = props => {
 
 export const DropdownContainer = styled.div`
   width: inherit;
-  display: flex;
   background-color: ${theme.colors.lightWhite};
   border-radius: 0 25px 25px 25px;
   padding: 35px 15px;

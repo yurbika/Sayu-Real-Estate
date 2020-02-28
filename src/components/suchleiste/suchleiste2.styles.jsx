@@ -81,6 +81,13 @@ const getAdditonalStyle = props => {
       top: 0;
     `;
   }
+  if (props.shadowSekundär) {
+    return css`
+      position: absolute;
+      bottom: 0;
+      z-index: -1;
+    `;
+  }
 };
 
 export const InputContainer = styled.div`
@@ -98,10 +105,13 @@ export const InputContainer = styled.div`
 
 export const InputContainerZeile = styled.div`
   display: flex;
-  justify-content: center;
-  &:last-child {
-    margin-top: 1rem;
+  justify-content: space-evenly;
+  width: 100%;
+
+  &:nth-child(3) {
+    margin-top: 15px;
   }
+
   &:first-child {
     border-radius: 15px;
     box-shadow: 3px 3px 10px ${theme.colors.black};

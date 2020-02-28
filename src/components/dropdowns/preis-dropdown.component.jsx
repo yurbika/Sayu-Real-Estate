@@ -33,7 +33,7 @@ import {
 
 import {
   DropdownContainer,
-  InputContainer,
+  InputListContainer,
   BindeStrich
 } from "./dropdown.styles";
 
@@ -50,14 +50,14 @@ const PreisDropdown = ({
 }) => {
   return (
     <DropdownContainer additionalStyle={additionalStyle} ref={dropdownRef}>
-      <InputContainer>
+      <InputListContainer>
         <Input
           placeholder="Min"
           //dieses Attribut ist für input.styles
           dropdownInput
           autoFocus
           onFocus={() => {
-            document.getElementById("preis-min").style.display = "block";
+            document.getElementById("preis-min").style.display = "inline-block";
             document.getElementById("preis-max").style.display = "none";
           }}
           value={testNum(minInput) ? minInput : resetInputMin()}
@@ -69,11 +69,11 @@ const PreisDropdown = ({
             ? createLiMietenMin(10, maxInput, "max-input", setInputMin)
             : createLiKaufenMin(10, maxInput, "max-input", setInputMin)}
         </ul>
-      </InputContainer>
+      </InputListContainer>
       <BindeStrich>
         <span></span>
       </BindeStrich>
-      <InputContainer>
+      <InputListContainer>
         <Input
           //dieses Attribut ist notwending für die createLi funktion damit der focus gesetzt werden kann
           id="max-input"
@@ -82,7 +82,7 @@ const PreisDropdown = ({
           dropdownInput
           onFocus={() => {
             document.getElementById("preis-min").style.display = "none";
-            document.getElementById("preis-max").style.display = "block";
+            document.getElementById("preis-max").style.display = "inline-block";
           }}
           value={testNum(maxInput) ? maxInput : resetInputMax()}
           onChange={e => setInputMax(numberWithDots(e.target.value))}
@@ -93,7 +93,7 @@ const PreisDropdown = ({
             ? createLiMietenMax(10, minInput, setInputMax, toggleDropdown)
             : createLiKaufenMax(10, minInput, setInputMax, toggleDropdown)}
         </ul>
-      </InputContainer>
+      </InputListContainer>
     </DropdownContainer>
   );
 };

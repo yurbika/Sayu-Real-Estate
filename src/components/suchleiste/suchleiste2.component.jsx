@@ -221,6 +221,7 @@ class Suchleiste2 extends React.Component {
                   : "Suchen"}
               </Button>
             </InputContainerZeile>
+            {/*damit die dropdowns unter den buttons sind */}
             <InputContainerZeile shadow>
               <Input inputStartseite />
               {resultsDropdown && suchtreffer > 0 && input !== "" ? (
@@ -293,6 +294,20 @@ class Suchleiste2 extends React.Component {
               >
                 {fläche}
               </Button>
+            </InputContainerZeile>
+            <InputContainerZeile shadowSekundär>
+              <Button sekundärerButton dropdown>
+                {preisDropdown ? (
+                  <PreisDropdown
+                    additionalStyle={
+                      "preis-dropdown" +
+                      (!!additionalStyle ? "-" + additionalStyle : "")
+                    }
+                  />
+                ) : null}
+              </Button>
+              <Button sekundärerButton></Button>
+              <Button sekundärerButton></Button>
             </InputContainerZeile>
           </InputContainer>
         </ContentContainer>
