@@ -99,8 +99,8 @@ export const InputContainer = styled.div`
   align-items: center;
   justify-content: center;
   width: 100%;
-  max-width: 60vw;
-  height: 8rem;
+  max-width: 705px;
+  height: 100px;
   margin: 1rem;
 
   @media (max-width: 768px) {
@@ -110,18 +110,17 @@ export const InputContainer = styled.div`
 
 export const InputContainerZeile = styled.div`
   display: flex;
-  justify-content:center;
+  justify-content: center;
 
   z-index: 1;
   &:last-child {
     margin-top: 1rem;
-    width:100vw;
+    width: 100vw;
   }
   &:first-child {
     border-radius: 15px;
     box-shadow: 3px 3px 10px ${theme.colors.black};
     z-index: 3;
-  }
   }
 `;
 

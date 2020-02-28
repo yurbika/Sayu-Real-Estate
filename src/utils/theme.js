@@ -12,7 +12,8 @@ const theme = {
     transBlack: "rgba(76, 78, 80, 0.25)",
     transDarkerBlack: "rgba(76, 78, 80, 0.75)",
     hslaBlack: "hsla(0, 0%, 0%, 0.3)",
-    hslaDarkerBlack: "hsla(0, 0%, 0%, 0.5)"
+    hslaDarkerBlack: "hsla(0, 0%, 0%, 0.5)",
+    hslaLightBlack: "hsla(0,0%,0%,0.1)"
   },
 
   img: `${img}`,
