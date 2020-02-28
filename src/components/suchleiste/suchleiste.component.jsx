@@ -62,10 +62,11 @@ import {
 //styles
 import {
   SuchleisteContainer,
-  Filter,
+  Bild,
+  BildContainer,
+  ContentContainer,
   InputContainer,
-  InputContainerZeile,
-  InputContainerResponsive
+  InputContainerZeile
 } from "./suchleiste.styles";
 
 /*Button id = filter-button ist hier notwendig damit die richtigen aktionen gefeuert 
@@ -150,19 +151,11 @@ class Suchleiste extends React.Component {
     } = this.props;
     return (
       <SuchleisteContainer additionalStyle={additionalStyle}>
-        <Filter additionalStyle={additionalStyle}>
+        <BildContainer additionalStyle={additionalStyle}>
+          <Bild />
+        </BildContainer>
+        <ContentContainer>
           {children}
-          {/*Buttons und Inputs*/}
-          <InputContainerResponsive>
-            <Button id="filter-button" inputButton>
-              {!!input ? input : "Wo: Ort, Bundesland oder PLZ"}
-            </Button>
-            <Button suchButton onClick={() => history.push("/liste")}>
-              {suchtreffer > 0 && !!input
-                ? `${numberWithDots(suchtreffer.toString())} Treffer`
-                : "Suchen"}
-            </Button>
-          </InputContainerResponsive>
           <InputContainer>
             <InputContainerZeile>
               <Input
@@ -228,6 +221,43 @@ class Suchleiste extends React.Component {
                   : "Suchen"}
               </Button>
             </InputContainerZeile>
+            {/*damit die dropdowns unter den buttons sind */}
+            <InputContainerZeile shadow>
+              <Input inputStartseite />
+              {resultsDropdown && suchtreffer > 0 && input !== "" ? (
+                <Results
+                  additionalStyle={
+                    "results-dropdown" +
+                    (!!additionalStyle ? "-" + additionalStyle : "")
+                  }
+                />
+              ) : null}
+              <Button normalerButton dropdown>
+                {bezugsartDropdown ? (
+                  <AuswahlDropdown
+                    additionalStyle={
+                      "bezugsart-dropdown" +
+                      (!!additionalStyle ? "-" + additionalStyle : "")
+                    }
+                    children={[bezugsart === "Mieten" ? "Kaufen" : "Mieten"]}
+                    type={FilterActionTypes.SET_BEZUGSART}
+                  />
+                ) : null}
+              </Button>
+              <Button normalerButton dropdown>
+                {immobilientypDropdown ? (
+                  <AuswahlDropdown
+                    additionalStyle={
+                      "haus-dropdown" +
+                      (!!additionalStyle ? "-" + additionalStyle : "")
+                    }
+                    children={[haustyp === "Wohnung" ? "Haus" : "Wohnung"]}
+                    type={FilterActionTypes.SET_HAUSTYP}
+                  />
+                ) : null}
+              </Button>
+              <Button suchButton></Button>
+            </InputContainerZeile>
             {/*zweite Reihe der Suchleiste*/}
             <InputContainerZeile>
               <Button
@@ -265,76 +295,57 @@ class Suchleiste extends React.Component {
                 {fläche}
               </Button>
             </InputContainerZeile>
+            <InputContainerZeile shadowSekundär>
+              <Button sekundärerButton dropdown>
+                {preisDropdown ? (
+                  <PreisDropdown
+                    additionalStyle={
+                      "preis-dropdown" +
+                      (!!additionalStyle ? "-" + additionalStyle : "")
+                    }
+                  />
+                ) : null}
+              </Button>
+              <Button sekundärerButton dropdown>
+                {zimmerDropdown ? (
+                  <AuswahlDropdown
+                    additionalStyle={
+                      "zimmer-dropdown" +
+                      (!!additionalStyle ? "-" + additionalStyle : "")
+                    }
+                    children={[
+                      "1 Zi. +",
+                      "2 Zi. +",
+                      "3 Zi. +",
+                      "4 Zi. +",
+                      "5 Zi. +"
+                    ]}
+                    type={FilterActionTypes.SET_ZIMMERANZAHL}
+                  />
+                ) : null}
+              </Button>
+              <Button sekundärerButton dropdown>
+                {flächeDropdown ? (
+                  <AuswahlDropdown
+                    additionalStyle={
+                      "flaeche-dropdown" +
+                      (!!additionalStyle ? "-" + additionalStyle : "")
+                    }
+                    children={[
+                      "70 qm +",
+                      "100 qm +",
+                      "200 qm +",
+                      "300 qm +",
+                      "400 qm +",
+                      "500 qm +"
+                    ]}
+                    type={FilterActionTypes.SET_FLÄCHE}
+                  />
+                ) : null}
+              </Button>
+            </InputContainerZeile>
           </InputContainer>
-          {/***********************************
-           *        Die Dropdowns             *
-           ************************************/}
-          {resultsDropdown && suchtreffer > 0 && input !== "" ? (
-            <Results
-              additionalStyle={
-                "results-dropdown" +
-                (!!additionalStyle ? "-" + additionalStyle : "")
-              }
-            />
-          ) : null}
-          {preisDropdown ? (
-            <PreisDropdown
-              additionalStyle={
-                "preis-dropdown" +
-                (!!additionalStyle ? "-" + additionalStyle : "")
-              }
-            />
-          ) : null}
-          {bezugsartDropdown ? (
-            <AuswahlDropdown
-              additionalStyle={
-                "bezugsart-dropdown" +
-                (!!additionalStyle ? "-" + additionalStyle : "")
-              }
-              children={[bezugsart === "Mieten" ? "Kaufen" : "Mieten"]}
-              type={FilterActionTypes.SET_BEZUGSART}
-            />
-          ) : null}
-          {immobilientypDropdown ? (
-            <AuswahlDropdown
-              additionalStyle={
-                "haus-dropdown" +
-                (!!additionalStyle ? "-" + additionalStyle : "")
-              }
-              children={[haustyp === "Wohnung" ? "Haus" : "Wohnung"]}
-              type={FilterActionTypes.SET_HAUSTYP}
-            />
-          ) : null}
-          {zimmerDropdown ? (
-            <AuswahlDropdown
-              additionalStyle={
-                "zimmer-dropdown" +
-                (!!additionalStyle ? "-" + additionalStyle : "")
-              }
-              children={["1 Zi. +", "2 Zi. +", "3 Zi. +", "4 Zi. +", "5 Zi. +"]}
-              type={FilterActionTypes.SET_ZIMMERANZAHL}
-            />
-          ) : null}
-          {flächeDropdown ? (
-            <AuswahlDropdown
-              additionalStyle={
-                "flaeche-dropdown" +
-                (!!additionalStyle ? "-" + additionalStyle : "")
-              }
-              children={[
-                "70 qm +",
-                "100 qm +",
-                "200 qm +",
-                "300 qm +",
-                "400 qm +",
-                "500 qm +"
-              ]}
-              type={FilterActionTypes.SET_FLÄCHE}
-            />
-          ) : null}
-
-          {/************/}
-        </Filter>
+        </ContentContainer>
       </SuchleisteContainer>
     );
   }

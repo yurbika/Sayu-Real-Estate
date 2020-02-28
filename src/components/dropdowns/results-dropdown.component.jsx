@@ -26,7 +26,7 @@ import { selectResultsDropdown } from "../../redux/dropdown/dropdown.selectors";
 import DropdownActionTypes from "../../redux/dropdown/dropdown.types";
 
 //styles
-import { ResultsContainer, DropdownContainer } from "./dropdown.styles";
+import { DropdownContainer } from "./dropdown.styles";
 
 const Results = ({
   bundeslaenderArray,
@@ -37,58 +37,56 @@ const Results = ({
   additionalStyle
 }) => {
   return (
-    <ResultsContainer ref={dropdownRef} additionalStyle={additionalStyle}>
-      <DropdownContainer additionalStyle={additionalStyle}>
-        {!!bundeslaenderArray.length ? <h4>Bundesländer</h4> : null}
-        {!!bundeslaenderArray.length ? (
-          <ul>
-            {bundeslaenderArray.map(item => (
-              <li
-                key={ID_GENERATOR("bundeslaenderArray-")}
-                onClick={e => {
-                  setSearchInput(e.currentTarget.textContent);
-                  toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
-                }}
-              >
-                {item}
-              </li>
-            ))}
-          </ul>
-        ) : null}
-        {!!staedteOrteArray.length ? <h4>Ortschaften</h4> : null}
-        {!!staedteOrteArray.length ? (
-          <ul>
-            {staedteOrteArray.map(item => (
-              <li
-                key={ID_GENERATOR("staedteOrteArray-")}
-                onClick={e => {
-                  setSearchInput(e.currentTarget.textContent);
-                  toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
-                }}
-              >
-                {item}
-              </li>
-            ))}
-          </ul>
-        ) : null}
-        {!!straßenPlzOrtArray.length ? <h4>Straßen</h4> : null}
-        {!!straßenPlzOrtArray.length ? (
-          <ul>
-            {straßenPlzOrtArray.map(item => (
-              <li
-                key={ID_GENERATOR("straßenPlzOrtArray-")}
-                onClick={e => {
-                  setSearchInput(e.currentTarget.textContent);
-                  toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
-                }}
-              >
-                {item}
-              </li>
-            ))}
-          </ul>
-        ) : null}
-      </DropdownContainer>
-    </ResultsContainer>
+    <DropdownContainer ref={dropdownRef} additionalStyle={additionalStyle}>
+      {!!bundeslaenderArray.length ? <h4>Bundesländer</h4> : null}
+      {!!bundeslaenderArray.length ? (
+        <ul>
+          {bundeslaenderArray.map(item => (
+            <li
+              key={ID_GENERATOR("bundeslaenderArray-")}
+              onClick={e => {
+                setSearchInput(e.currentTarget.textContent);
+                toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
+              }}
+            >
+              {item}
+            </li>
+          ))}
+        </ul>
+      ) : null}
+      {!!staedteOrteArray.length ? <h4>Ortschaften</h4> : null}
+      {!!staedteOrteArray.length ? (
+        <ul>
+          {staedteOrteArray.map(item => (
+            <li
+              key={ID_GENERATOR("staedteOrteArray-")}
+              onClick={e => {
+                setSearchInput(e.currentTarget.textContent);
+                toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
+              }}
+            >
+              {item}
+            </li>
+          ))}
+        </ul>
+      ) : null}
+      {!!straßenPlzOrtArray.length ? <h4>Straßen</h4> : null}
+      {!!straßenPlzOrtArray.length ? (
+        <ul>
+          {straßenPlzOrtArray.map(item => (
+            <li
+              key={ID_GENERATOR("straßenPlzOrtArray-")}
+              onClick={e => {
+                setSearchInput(e.currentTarget.textContent);
+                toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
+              }}
+            >
+              {item}
+            </li>
+          ))}
+        </ul>
+      ) : null}
+    </DropdownContainer>
   );
 };
 

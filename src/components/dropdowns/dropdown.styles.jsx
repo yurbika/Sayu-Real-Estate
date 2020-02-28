@@ -56,6 +56,11 @@ const AuswahlDropdown = css`
   }
 `;
 const ResultsDropdown = css`
+  position: absolute;
+  left: 0;
+  margin-top: 15px;
+  font-size: 0.9rem;
+  z-index: 2;
   border: 1px solid ${theme.colors.hslaBlack};
   &::before,
   &::after {
@@ -145,60 +150,18 @@ const getAdditionalStyle = props => {
   switch (props.additionalStyle) {
     case "bezugsart-dropdown":
       return AuswahlDropdown;
-    case "bezugsart-dropdown-liste":
-      return [
-        AuswahlDropdown,
-        css`
-          transform: translate3d(1px, 5px, 0px) !important;
-        `
-      ];
     case "haus-dropdown":
       return [AuswahlDropdown];
-    case "haus-dropdown-liste":
-      return [
-        AuswahlDropdown,
-        css`
-          transform: translate3d(8.05rem, 5px, 0px) !important;
-        `
-      ];
     case "zimmer-dropdown":
       return [AuswahlDropdown, ZimmerDropdown];
-    case "zimmer-dropdown-liste":
-      return [
-        AuswahlDropdown,
-        [
-          ZimmerDropdown,
-          css`
-            transform: translate3d(0, 132px, 0px) !important;
-          `
-        ]
-      ];
     case "flaeche-dropdown":
       return [AuswahlDropdown, FlächeDropdown];
-    case "flaeche-dropdown-liste":
-      return [
-        AuswahlDropdown,
-        [
-          FlächeDropdown,
-          css`
-            transform: translate3d(12rem, 148px, 0px) !important;
-          `
-        ]
-      ];
     case "results-dropdown":
       return ResultsDropdown;
     case "results-dropdown-liste":
       return ResultsDropdown;
-
     case "preis-dropdown":
       return PreisDropdown;
-    case "preis-dropdown-liste":
-      return [
-        PreisDropdown,
-        css`
-          transform: translate3d(-3rem, 230px, 0px) !important;
-        `
-      ];
     default:
       return "";
   }
@@ -213,12 +176,4 @@ export const DropdownContainer = styled.div`
   padding: 35px 15px;
   z-index: 3;
   ${getAdditionalStyle}
-`;
-
-export const ResultsContainer = styled.div`
-  position: absolute;
-  left: 0;
-  margin-top: 15px;
-  font-size: 0.9rem;
-  z-index: 2;
 `;
