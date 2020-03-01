@@ -130,6 +130,12 @@ export const HamburgerMenuItems = styled.div`
   }
   &.animate {
     background: rgba(255, 255, 255, 0);
+
+    &:after,
+    &:before {
+      z-index: 11;
+    }
+
     &:after {
       top: 0;
       transform: rotate(45deg);
@@ -151,10 +157,6 @@ export const HamburgerMenu = styled.div`
   align-items: center;
   justify-content: flex-end;
   cursor: pointer;
-  z-index: 1;
-  &.hidden {
-    display: none;
-  }
 `;
 
 export const ResponsiveMenu = styled.div`
@@ -168,7 +170,6 @@ export const ResponsiveMenu = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
   overflow: hidden;
   transition: all 0.3s ease-in-out;
   transform: translate3d(200px, 0, 0);
@@ -210,8 +211,10 @@ export const ResponsiveMenuContainer = styled.div`
   background: ${theme.colors.hslaDarkerBlack};
   opacity: 0;
   transition: all 0.3s ease-in;
+  z-index: -10;
 
   &.hidden {
     opacity: 1;
+    z-index: 10;
   }
 `;

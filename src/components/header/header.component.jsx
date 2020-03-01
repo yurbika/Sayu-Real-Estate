@@ -52,6 +52,7 @@ const Header = ({ location }) => (
             .getElementById("responsive-menu-container")
             .classList.add("hidden");
           document.getElementById("responsive-menu").classList.add("slide-in");
+          document.body.style.overflowY = "hidden";
         } else {
           document.getElementById("menu-item").classList.remove("animate");
           document
@@ -60,6 +61,7 @@ const Header = ({ location }) => (
           document
             .getElementById("responsive-menu")
             .classList.remove("slide-in");
+          document.body.style.overflowY = "visible";
         }
       }}
       className={
@@ -71,26 +73,29 @@ const Header = ({ location }) => (
       }
     >
       <HamburgerMenuItems id="menu-item" />
+      <ResponsiveMenuContainer id="responsive-menu-container">
+        <ResponsiveMenu id="responsive-menu">
+          <OptionLink
+            className={location.pathname === "/" ? "aktiv" : ""}
+            to="/"
+          >
+            <span>Startseite</span>
+          </OptionLink>
+          <OptionLink
+            className={location.pathname === "/liste" ? "aktiv liste" : ""}
+            to="/liste"
+          >
+            <span>Liste</span>
+          </OptionLink>
+          <OptionLink to="/registrieren" className="registrieren" responsiv>
+            Registrieren
+          </OptionLink>
+          <OptionLink to="/anmelden" responsiv>
+            Anmelden
+          </OptionLink>
+        </ResponsiveMenu>
+      </ResponsiveMenuContainer>
     </HamburgerMenu>
-    <ResponsiveMenuContainer id="responsive-menu-container">
-      <ResponsiveMenu id="responsive-menu">
-        <OptionLink className={location.pathname === "/" ? "aktiv" : ""} to="/">
-          <span>Startseite</span>
-        </OptionLink>
-        <OptionLink
-          className={location.pathname === "/liste" ? "aktiv liste" : ""}
-          to="/liste"
-        >
-          <span>Liste</span>
-        </OptionLink>
-        <OptionLink to="/registrieren" className="registrieren" responsiv>
-          Registrieren
-        </OptionLink>
-        <OptionLink to="/anmelden" responsiv>
-          Anmelden
-        </OptionLink>
-      </ResponsiveMenu>
-    </ResponsiveMenuContainer>
   </HeaderContainer>
 );
 
