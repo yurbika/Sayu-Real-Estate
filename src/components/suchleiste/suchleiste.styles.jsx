@@ -122,17 +122,7 @@ export const SuchleistePopupContainer = styled.div`
   left: 0;
   height: 100%;
   width: 100%;
-  z-index: 2;
-`;
-
-export const SuchleistePopupContentContainer = styled.div`
-  width: 100%;
-  max-width: 300px;
-  margin-top: 30px;
-  padding: 0 15px;
-  & > * {
-    margin-bottom: 15px;
-  }
+  z-index: 5;
 `;
 
 export const ButtonContainer = styled.div`
@@ -157,7 +147,27 @@ const getAdditonalStyle = props => {
       z-index: 1;
     `;
   }
+  if (props.shadowResponsiv) {
+    return css`
+      position: absolute;
+      top: 0;
+      margin-top: 80px;
+      z-index: 0;
+    `;
+  }
 };
+
+export const SuchleistePopupContentContainer = styled.div`
+  width: 100%;
+  max-width: 330px;
+  margin-top: 30px;
+  padding: 0 15px;
+  z-index: 5;
+  & > * {
+    margin-bottom: 15px;
+  }
+  ${getAdditonalStyle}
+`;
 
 export const InputContainerZeile = styled.div`
   display: flex;

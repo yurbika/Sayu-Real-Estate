@@ -130,7 +130,7 @@ const PreisDropdown = css`
   }
 `;
 
-const ZimmerDropdown = css`
+const NormalDropdown = css`
   border-radius: 0 15px 15px 15px;
   padding: 5px;
   left: 12px;
@@ -138,13 +138,6 @@ const ZimmerDropdown = css`
   width: calc(100% - 25px);
 `;
 
-const FlächeDropdown = css`
-  border-radius: 0 15px 15px 15px;
-  padding: 5px;
-  left: 12px;
-  margin-top: 38px;
-  width: calc(100% - 25px);
-`;
 //funktionen für die spezifischen seiten
 const getAdditionalStyle = props => {
   switch (props.additionalStyle) {
@@ -153,9 +146,9 @@ const getAdditionalStyle = props => {
     case "haus-dropdown":
       return [AuswahlDropdown];
     case "zimmer-dropdown":
-      return [AuswahlDropdown, ZimmerDropdown];
+      return [AuswahlDropdown, NormalDropdown];
     case "flaeche-dropdown":
-      return [AuswahlDropdown, FlächeDropdown];
+      return [AuswahlDropdown, NormalDropdown];
     case "results-dropdown":
       return ResultsDropdown;
     case "results-dropdown-liste":

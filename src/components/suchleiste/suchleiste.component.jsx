@@ -478,22 +478,98 @@ class Suchleiste extends React.Component {
                       ? `${numberWithDots(suchtreffer.toString())} Treffer`
                       : "Suchen"}
                   </Button>
-                  {zimmerDropdown ? (
-                    <AuswahlDropdown
+                </SuchleistePopupContentContainer>
+                <SuchleistePopupContentContainer shadowResponsiv>
+                  <Input inputStartseiteResponsiv />
+                  {resultsDropdown && suchtreffer > 0 && input !== "" ? (
+                    <Results
                       additionalStyle={
-                        "zimmer-dropdown" +
+                        "results-dropdown" +
                         (!!additionalStyle ? "-" + additionalStyle : "")
                       }
-                      children={[
-                        "1 Zi. +",
-                        "2 Zi. +",
-                        "3 Zi. +",
-                        "4 Zi. +",
-                        "5 Zi. +"
-                      ]}
-                      type={FilterActionTypes.SET_ZIMMERANZAHL}
                     />
                   ) : null}
+
+                  <Button responsivButtonPreis dropdown>
+                    {preisDropdown ? (
+                      <PreisDropdown
+                        additionalStyle={
+                          "preis-dropdown" +
+                          (!!additionalStyle ? "-" + additionalStyle : "")
+                        }
+                      />
+                    ) : null}
+                  </Button>
+
+                  <ButtonContainer>
+                    <Button responsivButton dropdown>
+                      {bezugsartDropdown ? (
+                        <AuswahlDropdown
+                          additionalStyle={
+                            "bezugsart-dropdown" +
+                            (!!additionalStyle ? "-" + additionalStyle : "")
+                          }
+                          children={[
+                            bezugsart === "Mieten" ? "Kaufen" : "Mieten"
+                          ]}
+                          type={FilterActionTypes.SET_BEZUGSART}
+                        />
+                      ) : null}
+                    </Button>
+                    <Button responsivButton dropdown>
+                      {immobilientypDropdown ? (
+                        <AuswahlDropdown
+                          additionalStyle={
+                            "haus-dropdown" +
+                            (!!additionalStyle ? "-" + additionalStyle : "")
+                          }
+                          children={[
+                            haustyp === "Wohnung" ? "Haus" : "Wohnung"
+                          ]}
+                          type={FilterActionTypes.SET_HAUSTYP}
+                        />
+                      ) : null}
+                    </Button>
+                  </ButtonContainer>
+                  <ButtonContainer>
+                    <Button responsivButton dropdown>
+                      {zimmerDropdown ? (
+                        <AuswahlDropdown
+                          additionalStyle={
+                            "zimmer-dropdown" +
+                            (!!additionalStyle ? "-" + additionalStyle : "")
+                          }
+                          children={[
+                            "1 Zi. +",
+                            "2 Zi. +",
+                            "3 Zi. +",
+                            "4 Zi. +",
+                            "5 Zi. +"
+                          ]}
+                          type={FilterActionTypes.SET_ZIMMERANZAHL}
+                        />
+                      ) : null}
+                    </Button>
+                    <Button responsivButton dropdown>
+                      {flächeDropdown ? (
+                        <AuswahlDropdown
+                          additionalStyle={
+                            "flaeche-dropdown" +
+                            (!!additionalStyle ? "-" + additionalStyle : "")
+                          }
+                          children={[
+                            "70 qm +",
+                            "100 qm +",
+                            "200 qm +",
+                            "300 qm +",
+                            "400 qm +",
+                            "500 qm +"
+                          ]}
+                          type={FilterActionTypes.SET_FLÄCHE}
+                        />
+                      ) : null}
+                    </Button>
+                  </ButtonContainer>
                 </SuchleistePopupContentContainer>
               </SuchleistePopup>
             </SuchleistePopupContainer>
