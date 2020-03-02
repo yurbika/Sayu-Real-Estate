@@ -130,6 +130,13 @@ const getButtonStyles = props => {
   if (props.suchButton) return suchButton;
   if (props.aktionsButton) return aktionsButton;
   if (props.inputButton) return inputButton;
+  if (props.responsivButtonPreis)
+    return [
+      responsivButton,
+      css`
+        min-width: 100%;
+      `
+    ];
   if (props.responsivButton) return responsivButton;
   return normalerButton;
 };

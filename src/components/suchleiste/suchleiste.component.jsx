@@ -70,7 +70,8 @@ import {
   InputContainerResponsive,
   SuchleistePopupContainer,
   SuchleistePopupContentContainer,
-  SuchleistePopup
+  SuchleistePopup,
+  ButtonContainer
 } from "./suchleiste.styles";
 
 /*Button id = filter-button ist hier notwendig damit die richtigen aktionen gefeuert 
@@ -402,27 +403,66 @@ class Suchleiste extends React.Component {
                     onKeyPress={e => checkSearchInput(e)}
                   />
                   <Button
-                    responsivButton
+                    responsivButtonPreis
+                    preis
                     onClick={() =>
                       toggleDropdown(
-                        DropdownActionTypes.TOGGLE_BEZUGSARTDROPDOWN_HIDDEN
+                        DropdownActionTypes.TOGGLE_PREISDROPDOWN_HIDDEN
                       )
                     }
                     id="filter-button"
                   >
-                    {bezugsart}
+                    {preis}
                   </Button>
-                  <Button
-                    responsivButton
-                    onClick={() =>
-                      toggleDropdown(
-                        DropdownActionTypes.TOGGLE_IMMOBILIENTYPDROPDOWN_HIDDEN
-                      )
-                    }
-                    id="filter-button"
-                  >
-                    {haustyp}
-                  </Button>
+
+                  <ButtonContainer>
+                    <Button
+                      responsivButton
+                      onClick={() =>
+                        toggleDropdown(
+                          DropdownActionTypes.TOGGLE_BEZUGSARTDROPDOWN_HIDDEN
+                        )
+                      }
+                      id="filter-button"
+                    >
+                      {bezugsart}
+                    </Button>
+                    <Button
+                      responsivButton
+                      onClick={() =>
+                        toggleDropdown(
+                          DropdownActionTypes.TOGGLE_IMMOBILIENTYPDROPDOWN_HIDDEN
+                        )
+                      }
+                      id="filter-button"
+                    >
+                      {haustyp}
+                    </Button>
+                  </ButtonContainer>
+                  <ButtonContainer>
+                    <Button
+                      responsivButton
+                      onClick={() =>
+                        toggleDropdown(
+                          DropdownActionTypes.TOGGLE_ZIMMERDROPDOWN_HIDDEN
+                        )
+                      }
+                      id="filter-button"
+                    >
+                      {zimmerAnzahl}
+                    </Button>
+                    <Button
+                      responsivButton
+                      onClick={() =>
+                        toggleDropdown(
+                          DropdownActionTypes.TOGGLE_FLÄCHEDROPDOWN_HIDDEN
+                        )
+                      }
+                      id="filter-button"
+                    >
+                      {fläche}
+                    </Button>
+                  </ButtonContainer>
                   <Button
                     suchButton
                     responsivButton

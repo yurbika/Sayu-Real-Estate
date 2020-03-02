@@ -7,8 +7,6 @@ const getInputStyles = props => {
       border-radius: 15px;
       padding-right: 2rem;
       min-width: 100%;
-      width: 100vw;
-      max-width: 65vw;
     `;
   if (props.inputStartseite)
     return css`

@@ -101,13 +101,14 @@ export const InputContainerResponsive = styled.div`
 export const SuchleistePopup = styled.form`
   display: flex;
   flex-direction: column;
-  align-content: center;
+  align-items: center;
   min-height: 100%;
   width: 100%;
   background: ${theme.colors.brown};
   overflow: scroll;
 
   h2 {
+    width: 100%;
     height: 50px;
     line-height: 50px;
     text-align: center;
@@ -125,8 +126,19 @@ export const SuchleistePopupContainer = styled.div`
 `;
 
 export const SuchleistePopupContentContainer = styled.div`
+  width: 100%;
+  max-width: 300px;
   margin-top: 30px;
   padding: 0 15px;
+  & > * {
+    margin-bottom: 15px;
+  }
+`;
+
+export const ButtonContainer = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 `;
 
 /*--------------------------------------------*/
