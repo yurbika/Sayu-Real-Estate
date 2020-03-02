@@ -152,20 +152,31 @@ const getAdditonalStyle = props => {
       position: absolute;
       top: 0;
       margin-top: 80px;
-      z-index: 0;
+      & input {
+        z-index: 3;
+      }
+      &:nth-child(2) {
+        z-index: 1;
+      }
     `;
   }
 };
 
 export const SuchleistePopupContentContainer = styled.div`
   width: 100%;
-  max-width: 330px;
+  max-width: 320px;
   margin-top: 30px;
   padding: 0 15px;
-  z-index: 5;
   & > * {
     margin-bottom: 15px;
   }
+  & div:first-child {
+    z-index: 4;
+  }
+  &:nth-child(2) {
+    z-index: 2;
+  }
+
   ${getAdditonalStyle}
 `;
 
