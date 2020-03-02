@@ -360,7 +360,12 @@ class Suchleiste extends React.Component {
                 : "Suchen"}
             </Button>
             <SuchleistePopupContainer>
-              <SuchleistePopup>
+              <SuchleistePopup
+                /*weil es ein Form ist muss onClick gestoppt werden*/
+                onClick={e => {
+                  e.preventDefault();
+                }}
+              >
                 <h2>SUCHEN</h2>
                 <SuchleistePopupContentContainer>
                   <Input
@@ -442,11 +447,12 @@ class Suchleiste extends React.Component {
                   <ButtonContainer>
                     <Button
                       responsivButton
-                      onClick={() =>
+                      onClick={e => {
+                        e.preventDefault();
                         toggleDropdown(
                           DropdownActionTypes.TOGGLE_ZIMMERDROPDOWN_HIDDEN
-                        )
-                      }
+                        );
+                      }}
                       id="filter-button"
                     >
                       {zimmerAnzahl}
@@ -472,6 +478,22 @@ class Suchleiste extends React.Component {
                       ? `${numberWithDots(suchtreffer.toString())} Treffer`
                       : "Suchen"}
                   </Button>
+                  {zimmerDropdown ? (
+                    <AuswahlDropdown
+                      additionalStyle={
+                        "zimmer-dropdown" +
+                        (!!additionalStyle ? "-" + additionalStyle : "")
+                      }
+                      children={[
+                        "1 Zi. +",
+                        "2 Zi. +",
+                        "3 Zi. +",
+                        "4 Zi. +",
+                        "5 Zi. +"
+                      ]}
+                      type={FilterActionTypes.SET_ZIMMERANZAHL}
+                    />
+                  ) : null}
                 </SuchleistePopupContentContainer>
               </SuchleistePopup>
             </SuchleistePopupContainer>

@@ -87,10 +87,14 @@ const Header = ({ location }) => (
           >
             <span>Liste</span>
           </OptionLink>
-          <OptionLink to="/registrieren" className="registrieren" responsiv>
+          <OptionLink
+            to="/registrieren"
+            className="registrieren"
+            responsiv={"responsiv"}
+          >
             Registrieren
           </OptionLink>
-          <OptionLink to="/anmelden" responsiv>
+          <OptionLink to="/anmelden" responsiv={"responsiv"}>
             Anmelden
           </OptionLink>
         </ResponsiveMenu>
