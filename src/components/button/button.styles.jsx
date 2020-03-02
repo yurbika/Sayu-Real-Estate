@@ -76,10 +76,12 @@ const inputButton = css`
   border-radius: 15px 0 0 15px;
   display: flex;
   align-items: center;
+  overflow: hidden;
   & span {
     position: absolute;
     color: ${theme.colors.transDarkerBlack};
     margin-left: 15px;
+    white-space: nowrap;
   }
 `;
 

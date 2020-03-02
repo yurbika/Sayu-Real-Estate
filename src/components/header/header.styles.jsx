@@ -114,7 +114,7 @@ export const HamburgerMenuItems = styled.div`
     position: absolute;
     left: 0;
     bottom: 10px;
-    background: white;
+    background: ${theme.colors.lightWhite};
     transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1),
       transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
   }
@@ -124,7 +124,7 @@ export const HamburgerMenuItems = styled.div`
     position: absolute;
     left: 0;
     top: 10px;
-    background: white;
+    background: ${theme.colors.lightWhite};
     transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1),
       transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
   }
@@ -178,6 +178,7 @@ export const ResponsiveMenu = styled.div`
   transform: translate3d(200px, 0, 0);
 
   a {
+    pointer-events: visible;
     transform: translate3d(-150px, 0, 0);
     transition: transform 0.15s ease-in;
   }

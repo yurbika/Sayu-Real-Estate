@@ -66,7 +66,10 @@ import {
   BildContainer,
   ContentContainer,
   InputContainer,
-  InputContainerZeile
+  InputContainerZeile,
+  InputContainerResponsive,
+  SuchleistePopupContainer,
+  SuchleistePopup
 } from "./suchleiste.styles";
 
 /*Button id = filter-button ist hier notwendig damit die richtigen aktionen gefeuert 
@@ -345,6 +348,19 @@ class Suchleiste extends React.Component {
               </Button>
             </InputContainerZeile>
           </InputContainer>
+          <InputContainerResponsive>
+            <Button inputButton>
+              {!!input ? input : "Wo: Ort, Bundesland oder PLZ"}
+            </Button>
+            <Button suchButton onClick={() => history.push("/liste")}>
+              {suchtreffer > 0 && !!input
+                ? `${numberWithDots(suchtreffer.toString())} Treffer`
+                : "Suchen"}
+            </Button>
+            <SuchleistePopupContainer>
+              <SuchleistePopup></SuchleistePopup>
+            </SuchleistePopupContainer>
+          </InputContainerResponsive>
         </ContentContainer>
       </SuchleisteContainer>
     );

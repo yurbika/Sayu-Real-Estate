@@ -98,6 +98,23 @@ export const InputContainerResponsive = styled.div`
   }
 `;
 
+export const SuchleistePopup = styled.div`
+  display: flex;
+  min-height: 100%;
+  width: 100%;
+  background: ${theme.colors.brown};
+  overflow: scroll;
+`;
+
+export const SuchleistePopupContainer = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+`;
+
 /*--------------------------------------------*/
 
 const getAdditonalStyle = props => {
