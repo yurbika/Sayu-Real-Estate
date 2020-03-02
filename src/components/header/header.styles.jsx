@@ -113,7 +113,7 @@ export const HamburgerMenuItems = styled.div`
     content: "";
     position: absolute;
     left: 0;
-    bottom: 15px;
+    bottom: 10px;
     background: white;
     transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1),
       transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
@@ -123,7 +123,7 @@ export const HamburgerMenuItems = styled.div`
     content: "";
     position: absolute;
     left: 0;
-    top: 15px;
+    top: 10px;
     background: white;
     transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1),
       transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
@@ -153,10 +153,13 @@ export const HamburgerMenuItems = styled.div`
 
 export const HamburgerMenu = styled.div`
   height: 100%;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: flex-end;
   cursor: pointer;
+  @media (max-width: 768px) {
+    display: flex;
+  }
 `;
 
 export const ResponsiveMenu = styled.div`
@@ -212,9 +215,11 @@ export const ResponsiveMenuContainer = styled.div`
   opacity: 0;
   transition: all 0.3s ease-in;
   z-index: -10;
+  pointer-events: none;
 
   &.hidden {
     opacity: 1;
     z-index: 10;
+    pointer-events: visible;
   }
 `;
