@@ -161,8 +161,8 @@ const getAdditionalStyle = props => {
       return [
         PreisDropdown,
         css`
-          width: unset;
-          max-width: inherit;
+          max-width: calc(100% - 15px);
+          justify-content: space-evenly;
         `
       ];
     case "preis-dropdown":

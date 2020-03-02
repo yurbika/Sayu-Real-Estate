@@ -98,7 +98,7 @@ export const InputContainerResponsive = styled.div`
   }
 `;
 
-export const SuchleistePopup = styled.form`
+export const SuchleistePopup = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -118,11 +118,15 @@ export const SuchleistePopup = styled.form`
 
 export const SuchleistePopupContainer = styled.div`
   position: fixed;
+  display: none;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
   z-index: 5;
+  @media (max-width: 768px) {
+    display: block;
+  }
 `;
 
 export const ButtonContainer = styled.div`
