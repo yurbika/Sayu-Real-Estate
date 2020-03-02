@@ -85,6 +85,13 @@ const inputButton = css`
   }
 `;
 
+const responsivButton = css`
+  border-radius: 15px;
+  border-left: none;
+  min-width: calc(50% - 10px);
+  max-width: 100%;
+`;
+
 //entscheiden welche Styles angewendet werden soll
 
 const getButtonStyles = props => {
@@ -112,9 +119,18 @@ const getButtonStyles = props => {
       `
     ];
   if (props.sekundärerButton) return sekundärerButton;
+  if (props.suchButton && props.responsivButton)
+    return [
+      suchButton,
+      responsivButton,
+      css`
+        width: 100%;
+      `
+    ];
   if (props.suchButton) return suchButton;
   if (props.aktionsButton) return aktionsButton;
   if (props.inputButton) return inputButton;
+  if (props.responsivButton) return responsivButton;
   return normalerButton;
 };
 

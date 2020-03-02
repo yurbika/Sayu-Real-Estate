@@ -69,6 +69,7 @@ import {
   InputContainerZeile,
   InputContainerResponsive,
   SuchleistePopupContainer,
+  SuchleistePopupContentContainer,
   SuchleistePopup
 } from "./suchleiste.styles";
 
@@ -358,7 +359,81 @@ class Suchleiste extends React.Component {
                 : "Suchen"}
             </Button>
             <SuchleistePopupContainer>
-              <SuchleistePopup></SuchleistePopup>
+              <SuchleistePopup>
+                <h2>SUCHEN</h2>
+                <SuchleistePopupContentContainer>
+                  <Input
+                    inputStartseiteResponsiv
+                    id="filter-button"
+                    inputType="search"
+                    placeholder="Wo: Ort, Bundesland oder PLZ"
+                    löschButton
+                    value={input}
+                    onChange={e => {
+                      setSearchInput(e.target.value);
+                      //!!!input sorgt dafür das wenn der input geleert wird das es trotzdem danach ausgelöst wird
+                      if (
+                        (suchtreffer > 0 || suchtreffer === null || !!!input) &&
+                        !resultsDropdown
+                      ) {
+                        toggleDropdown(
+                          DropdownActionTypes.TOGGLE_RESULTS_HIDDEN
+                        );
+                      }
+                    }}
+                    onFocus={() => {
+                      //dieser if hier sorgt dafür das beim focus auch wenn der input leer ist alle dropdowns geschloßen werden bis auf result
+                      if (
+                        (preisDropdown ||
+                          bezugsartDropdown ||
+                          immobilientypDropdown ||
+                          zimmerDropdown ||
+                          flächeDropdown) &&
+                        !!!input
+                      )
+                        toggleDropdown(
+                          DropdownActionTypes.TOGGLE_ALL_DROPDOWNS_FALSE
+                        );
+                      if (!!input && suchtreffer > 0 && !resultsDropdown)
+                        toggleDropdown(
+                          DropdownActionTypes.TOGGLE_RESULTS_HIDDEN
+                        );
+                    }}
+                    onKeyPress={e => checkSearchInput(e)}
+                  />
+                  <Button
+                    responsivButton
+                    onClick={() =>
+                      toggleDropdown(
+                        DropdownActionTypes.TOGGLE_BEZUGSARTDROPDOWN_HIDDEN
+                      )
+                    }
+                    id="filter-button"
+                  >
+                    {bezugsart}
+                  </Button>
+                  <Button
+                    responsivButton
+                    onClick={() =>
+                      toggleDropdown(
+                        DropdownActionTypes.TOGGLE_IMMOBILIENTYPDROPDOWN_HIDDEN
+                      )
+                    }
+                    id="filter-button"
+                  >
+                    {haustyp}
+                  </Button>
+                  <Button
+                    suchButton
+                    responsivButton
+                    onClick={() => history.push("/liste")}
+                  >
+                    {suchtreffer > 0 && !!input
+                      ? `${numberWithDots(suchtreffer.toString())} Treffer`
+                      : "Suchen"}
+                  </Button>
+                </SuchleistePopupContentContainer>
+              </SuchleistePopup>
             </SuchleistePopupContainer>
           </InputContainerResponsive>
         </ContentContainer>

@@ -98,12 +98,21 @@ export const InputContainerResponsive = styled.div`
   }
 `;
 
-export const SuchleistePopup = styled.div`
+export const SuchleistePopup = styled.form`
   display: flex;
+  flex-direction: column;
+  align-content: center;
   min-height: 100%;
   width: 100%;
   background: ${theme.colors.brown};
   overflow: scroll;
+
+  h2 {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-bottom: 1px solid ${theme.colors.hslaLightBlack};
+  }
 `;
 
 export const SuchleistePopupContainer = styled.div`
@@ -113,6 +122,11 @@ export const SuchleistePopupContainer = styled.div`
   height: 100%;
   width: 100%;
   z-index: 2;
+`;
+
+export const SuchleistePopupContentContainer = styled.div`
+  margin-top: 30px;
+  padding: 0 15px;
 `;
 
 /*--------------------------------------------*/

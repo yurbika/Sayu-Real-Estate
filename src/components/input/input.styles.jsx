@@ -2,6 +2,14 @@ import styled, { css } from "styled-components";
 import theme from "../../utils/theme";
 
 const getInputStyles = props => {
+  if (props.inputStartseiteResponsiv)
+    return css`
+      border-radius: 15px;
+      padding-right: 2rem;
+      min-width: 100%;
+      width: 100vw;
+      max-width: 65vw;
+    `;
   if (props.inputStartseite)
     return css`
       border-radius: 15px 0 0 15px;
