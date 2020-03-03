@@ -352,11 +352,12 @@ class Suchleiste extends React.Component {
             <InputContainerResponsive>
               <Button
                 inputButton
-                onClick={() =>
+                onClick={() => {
                   document
                     .getElementById("suchleistenpopup")
-                    .classList.add("show")
-                }
+                    .classList.add("show");
+                  document.body.style.overflowY = "hidden";
+                }}
               >
                 {!!input ? input : "Wo: Ort, Bundesland oder PLZ"}
               </Button>
@@ -375,11 +376,12 @@ class Suchleiste extends React.Component {
                   <SuchleistePopupHeader>
                     <h2>SUCHEN</h2>
                     <CloseButtonContainer
-                      onClick={() =>
+                      onClick={() => {
                         document
                           .getElementById("suchleistenpopup")
-                          .classList.remove("show")
-                      }
+                          .classList.remove("show");
+                        document.body.style.overflowY = "visible";
+                      }}
                     >
                       <CloseButton />
                     </CloseButtonContainer>

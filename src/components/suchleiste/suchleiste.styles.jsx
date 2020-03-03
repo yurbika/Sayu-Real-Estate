@@ -113,46 +113,6 @@ export const SuchleistePopupHeader = styled.div`
   }
 `;
 
-export const CloseButtonContainer = styled.div`
-  position: absolute;
-  top: 0;
-  right: 15px;
-  height: 100%;
-  cursor: pointer;
-`;
-
-export const CloseButton = styled.div`
-  position: relative;
-  background: rgba(255, 255, 255, 0);
-  margin-top: 23px;
-
-  &,
-  &:after,
-  &:before {
-    width: 35px;
-    height: 3px;
-    border-radius: 5px;
-  }
-
-  &:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0px;
-    background: ${theme.colors.lightWhite};
-    transform: rotate(-45deg);
-  }
-
-  &:after {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0px;
-    background: ${theme.colors.lightWhite};
-    transform: rotate(45deg);
-  }
-`;
-
 //hier könnte man div in form umwandeln
 export const SuchleistePopup = styled.div`
   display: flex;
@@ -160,7 +120,6 @@ export const SuchleistePopup = styled.div`
   align-items: center;
   min-height: 100%;
   width: 100%;
-  background: ${theme.colors.brown};
   }
 `;
 
@@ -171,9 +130,11 @@ export const SuchleistePopupContainer = styled.div`
   left: 0;
   height: 100%;
   width: 100%;
+  background: ${theme.colors.brown};
   z-index: 5;
   transform: translate3d(0, -100vh, 0);
   transition: all 0.3s ease-in-out;
+  overflow-y: scroll;
 
   &.show {
     transform: translate3d(0, 0, 0);
@@ -228,6 +189,7 @@ const getAdditonalStyle = props => {
 };
 
 export const SuchleistePopupContentContainer = styled.div`
+  display: inline-block;
   width: 100%;
   max-width: 320px;
   margin-top: 30px;
@@ -272,4 +234,45 @@ export const InputContainerZeile = styled.div`
     z-index: 4;
   }
   ${getAdditonalStyle}
+`;
+
+//---------------close button------
+export const CloseButtonContainer = styled.div`
+  position: absolute;
+  top: 0;
+  right: 15px;
+  height: 100%;
+  cursor: pointer;
+`;
+
+export const CloseButton = styled.div`
+  position: relative;
+  background: rgba(255, 255, 255, 0);
+  margin-top: 23px;
+
+  &,
+  &:after,
+  &:before {
+    width: 35px;
+    height: 3px;
+    border-radius: 5px;
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    background: ${theme.colors.lightWhite};
+    transform: rotate(-45deg);
+  }
+
+  &:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0px;
+    background: ${theme.colors.lightWhite};
+    transform: rotate(45deg);
+  }
 `;
