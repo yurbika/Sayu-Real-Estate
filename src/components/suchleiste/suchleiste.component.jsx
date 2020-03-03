@@ -78,6 +78,10 @@ import {
 werden damit ist es möglich die dropdowns von überall zu schließen*/
 
 class Suchleiste extends React.Component {
+  //damit das richtige component gerendert wird
+  componentDidMount() {
+    window.addEventListener("resize", () => this.forceUpdate());
+  }
   componentDidUpdate(prevProps) {
     const {
       maxInput,
@@ -154,388 +158,404 @@ class Suchleiste extends React.Component {
       additionalStyle,
       history
     } = this.props;
-    return (
-      <SuchleisteContainer additionalStyle={additionalStyle}>
-        <BildContainer additionalStyle={additionalStyle}>
-          <Bild />
-        </BildContainer>
-        <ContentContainer>
-          {children}
-          <InputContainer>
-            <InputContainerZeile>
-              <Input
-                inputStartseite
-                id="filter-button"
-                inputType="search"
-                placeholder="Wo: Ort, Bundesland oder PLZ"
-                löschButton
-                value={input}
-                onChange={e => {
-                  setSearchInput(e.target.value);
-                  //!!!input sorgt dafür das wenn der input geleert wird das es trotzdem danach ausgelöst wird
-                  if (
-                    (suchtreffer > 0 || suchtreffer === null || !!!input) &&
-                    !resultsDropdown
-                  ) {
-                    toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
-                  }
-                }}
-                onFocus={() => {
-                  //dieser if hier sorgt dafür das beim focus auch wenn der input leer ist alle dropdowns geschloßen werden bis auf result
-                  if (
-                    (preisDropdown ||
-                      bezugsartDropdown ||
-                      immobilientypDropdown ||
-                      zimmerDropdown ||
-                      flächeDropdown) &&
-                    !!!input
-                  )
+    //dieses if else ist für die refs
+    if (window.innerWidth > 768) {
+      return (
+        <SuchleisteContainer additionalStyle={additionalStyle}>
+          <BildContainer additionalStyle={additionalStyle}>
+            <Bild />
+          </BildContainer>
+          <ContentContainer>
+            {children}
+            <InputContainer>
+              <InputContainerZeile>
+                <Input
+                  inputStartseite
+                  id="filter-button"
+                  inputType="search"
+                  placeholder="Wo: Ort, Bundesland oder PLZ"
+                  löschButton
+                  value={input}
+                  onChange={e => {
+                    setSearchInput(e.target.value);
+                    //!!!input sorgt dafür das wenn der input geleert wird das es trotzdem danach ausgelöst wird
+                    if (
+                      (suchtreffer > 0 || suchtreffer === null || !!!input) &&
+                      !resultsDropdown
+                    ) {
+                      toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
+                    }
+                  }}
+                  onFocus={() => {
+                    //dieser if hier sorgt dafür das beim focus auch wenn der input leer ist alle dropdowns geschloßen werden bis auf result
+                    if (
+                      (preisDropdown ||
+                        bezugsartDropdown ||
+                        immobilientypDropdown ||
+                        zimmerDropdown ||
+                        flächeDropdown) &&
+                      !!!input
+                    )
+                      toggleDropdown(
+                        DropdownActionTypes.TOGGLE_ALL_DROPDOWNS_FALSE
+                      );
+                    if (!!input && suchtreffer > 0 && !resultsDropdown)
+                      toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
+                  }}
+                  onKeyPress={e => checkSearchInput(e)}
+                />
+                <Button
+                  normalerButton
+                  onClick={() =>
                     toggleDropdown(
-                      DropdownActionTypes.TOGGLE_ALL_DROPDOWNS_FALSE
-                    );
-                  if (!!input && suchtreffer > 0 && !resultsDropdown)
-                    toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
-                }}
-                onKeyPress={e => checkSearchInput(e)}
-              />
-              <Button
-                normalerButton
-                onClick={() =>
-                  toggleDropdown(
-                    DropdownActionTypes.TOGGLE_BEZUGSARTDROPDOWN_HIDDEN
-                  )
-                }
-                id="filter-button"
-              >
-                {bezugsart}
-              </Button>
-              <Button
-                normalerButton
-                onClick={() =>
-                  toggleDropdown(
-                    DropdownActionTypes.TOGGLE_IMMOBILIENTYPDROPDOWN_HIDDEN
-                  )
-                }
-                id="filter-button"
-              >
-                {haustyp}
+                      DropdownActionTypes.TOGGLE_BEZUGSARTDROPDOWN_HIDDEN
+                    )
+                  }
+                  id="filter-button"
+                >
+                  {bezugsart}
+                </Button>
+                <Button
+                  normalerButton
+                  onClick={() =>
+                    toggleDropdown(
+                      DropdownActionTypes.TOGGLE_IMMOBILIENTYPDROPDOWN_HIDDEN
+                    )
+                  }
+                  id="filter-button"
+                >
+                  {haustyp}
+                </Button>
+                <Button suchButton onClick={() => history.push("/liste")}>
+                  {suchtreffer > 0 && !!input
+                    ? `${numberWithDots(suchtreffer.toString())} Treffer`
+                    : "Suchen"}
+                </Button>
+              </InputContainerZeile>
+              {/*damit die dropdowns unter den buttons sind */}
+              <InputContainerZeile shadow>
+                <Input inputStartseite />
+                {resultsDropdown && suchtreffer > 0 && input !== "" ? (
+                  <Results additionalStyle={"results-dropdown"} />
+                ) : null}
+                <Button normalerButton dropdown id="filter-button">
+                  {bezugsartDropdown ? (
+                    <AuswahlDropdown
+                      additionalStyle={"bezugsart-dropdown"}
+                      responsiv
+                      children={[bezugsart === "Mieten" ? "Kaufen" : "Mieten"]}
+                      type={FilterActionTypes.SET_BEZUGSART}
+                    />
+                  ) : null}
+                </Button>
+                <Button normalerButton dropdown id="filter-button">
+                  {immobilientypDropdown ? (
+                    <AuswahlDropdown
+                      additionalStyle={"haus-dropdown"}
+                      children={[haustyp === "Wohnung" ? "Haus" : "Wohnung"]}
+                      type={FilterActionTypes.SET_HAUSTYP}
+                    />
+                  ) : null}
+                </Button>
+                <Button suchButton></Button>
+              </InputContainerZeile>
+              {/*zweite Reihe der Suchleiste*/}
+              <InputContainerZeile>
+                <Button
+                  sekundärerButton
+                  preis
+                  onClick={() =>
+                    toggleDropdown(
+                      DropdownActionTypes.TOGGLE_PREISDROPDOWN_HIDDEN
+                    )
+                  }
+                  id="filter-button"
+                >
+                  {preis}
+                </Button>
+                <Button
+                  sekundärerButton
+                  onClick={() =>
+                    toggleDropdown(
+                      DropdownActionTypes.TOGGLE_ZIMMERDROPDOWN_HIDDEN
+                    )
+                  }
+                  id="filter-button"
+                >
+                  {zimmerAnzahl}
+                </Button>
+                <Button
+                  sekundärerButton
+                  onClick={() =>
+                    toggleDropdown(
+                      DropdownActionTypes.TOGGLE_FLÄCHEDROPDOWN_HIDDEN
+                    )
+                  }
+                  id="filter-button"
+                >
+                  {fläche}
+                </Button>
+              </InputContainerZeile>
+              <InputContainerZeile shadowSekundär>
+                <Button sekundärerButton dropdown id="filter-button">
+                  {preisDropdown ? (
+                    <PreisDropdown additionalStyle={"preis-dropdown"} />
+                  ) : null}
+                </Button>
+                <Button sekundärerButton dropdown id="filter-button">
+                  {zimmerDropdown ? (
+                    <AuswahlDropdown
+                      additionalStyle={"zimmer-dropdown"}
+                      children={[
+                        "1 Zi. +",
+                        "2 Zi. +",
+                        "3 Zi. +",
+                        "4 Zi. +",
+                        "5 Zi. +"
+                      ]}
+                      type={FilterActionTypes.SET_ZIMMERANZAHL}
+                    />
+                  ) : null}
+                </Button>
+                <Button sekundärerButton dropdown id="filter-button">
+                  {flächeDropdown ? (
+                    <AuswahlDropdown
+                      additionalStyle={"flaeche-dropdown"}
+                      children={[
+                        "70 qm +",
+                        "100 qm +",
+                        "200 qm +",
+                        "300 qm +",
+                        "400 qm +",
+                        "500 qm +"
+                      ]}
+                      type={FilterActionTypes.SET_FLÄCHE}
+                    />
+                  ) : null}
+                </Button>
+              </InputContainerZeile>
+            </InputContainer>
+          </ContentContainer>
+        </SuchleisteContainer>
+      );
+    } else {
+      return (
+        <SuchleisteContainer additionalStyle={additionalStyle}>
+          <BildContainer additionalStyle={additionalStyle}>
+            <Bild />
+          </BildContainer>
+          <ContentContainer>
+            {children}
+            <InputContainerResponsive>
+              <Button inputButton>
+                {!!input ? input : "Wo: Ort, Bundesland oder PLZ"}
               </Button>
               <Button suchButton onClick={() => history.push("/liste")}>
                 {suchtreffer > 0 && !!input
                   ? `${numberWithDots(suchtreffer.toString())} Treffer`
                   : "Suchen"}
               </Button>
-            </InputContainerZeile>
-            {/*damit die dropdowns unter den buttons sind */}
-            <InputContainerZeile shadow>
-              <Input inputStartseite />
-              {resultsDropdown && suchtreffer > 0 && input !== "" ? (
-                <Results additionalStyle={"results-dropdown"} />
-              ) : null}
-              <Button normalerButton dropdown>
-                {bezugsartDropdown ? (
-                  <AuswahlDropdown
-                    additionalStyle={"bezugsart-dropdown"}
-                    responsiv
-                    children={[bezugsart === "Mieten" ? "Kaufen" : "Mieten"]}
-                    type={FilterActionTypes.SET_BEZUGSART}
-                  />
-                ) : null}
-              </Button>
-              <Button normalerButton dropdown>
-                {immobilientypDropdown ? (
-                  <AuswahlDropdown
-                    additionalStyle={"haus-dropdown"}
-                    children={[haustyp === "Wohnung" ? "Haus" : "Wohnung"]}
-                    type={FilterActionTypes.SET_HAUSTYP}
-                  />
-                ) : null}
-              </Button>
-              <Button suchButton></Button>
-            </InputContainerZeile>
-            {/*zweite Reihe der Suchleiste*/}
-            <InputContainerZeile>
-              <Button
-                sekundärerButton
-                preis
-                onClick={() =>
-                  toggleDropdown(
-                    DropdownActionTypes.TOGGLE_PREISDROPDOWN_HIDDEN
-                  )
-                }
-                id="filter-button"
-              >
-                {preis}
-              </Button>
-              <Button
-                sekundärerButton
-                onClick={() =>
-                  toggleDropdown(
-                    DropdownActionTypes.TOGGLE_ZIMMERDROPDOWN_HIDDEN
-                  )
-                }
-                id="filter-button"
-              >
-                {zimmerAnzahl}
-              </Button>
-              <Button
-                sekundärerButton
-                onClick={() =>
-                  toggleDropdown(
-                    DropdownActionTypes.TOGGLE_FLÄCHEDROPDOWN_HIDDEN
-                  )
-                }
-                id="filter-button"
-              >
-                {fläche}
-              </Button>
-            </InputContainerZeile>
-            <InputContainerZeile shadowSekundär>
-              <Button sekundärerButton dropdown>
-                {preisDropdown ? (
-                  <PreisDropdown additionalStyle={"preis-dropdown"} />
-                ) : null}
-              </Button>
-              <Button sekundärerButton dropdown>
-                {zimmerDropdown ? (
-                  <AuswahlDropdown
-                    additionalStyle={"zimmer-dropdown"}
-                    children={[
-                      "1 Zi. +",
-                      "2 Zi. +",
-                      "3 Zi. +",
-                      "4 Zi. +",
-                      "5 Zi. +"
-                    ]}
-                    type={FilterActionTypes.SET_ZIMMERANZAHL}
-                  />
-                ) : null}
-              </Button>
-              <Button sekundärerButton dropdown>
-                {flächeDropdown ? (
-                  <AuswahlDropdown
-                    additionalStyle={"flaeche-dropdown"}
-                    children={[
-                      "70 qm +",
-                      "100 qm +",
-                      "200 qm +",
-                      "300 qm +",
-                      "400 qm +",
-                      "500 qm +"
-                    ]}
-                    type={FilterActionTypes.SET_FLÄCHE}
-                  />
-                ) : null}
-              </Button>
-            </InputContainerZeile>
-          </InputContainer>
-          <InputContainerResponsive>
-            <Button inputButton>
-              {!!input ? input : "Wo: Ort, Bundesland oder PLZ"}
-            </Button>
-            <Button suchButton onClick={() => history.push("/liste")}>
-              {suchtreffer > 0 && !!input
-                ? `${numberWithDots(suchtreffer.toString())} Treffer`
-                : "Suchen"}
-            </Button>
-            <SuchleistePopupContainer>
-              <SuchleistePopup
-                /*weil es ein Form ist muss onClick gestoppt werden*/
-                onClick={e => {
-                  e.preventDefault();
-                }}
-              >
-                <h2>SUCHEN</h2>
-                <SuchleistePopupContentContainer>
-                  <Input
-                    inputStartseiteResponsiv
-                    id="filter-button"
-                    inputType="search"
-                    placeholder="Wo: Ort, Bundesland oder PLZ"
-                    löschButton
-                    value={input}
-                    onChange={e => {
-                      setSearchInput(e.target.value);
-                      //!!!input sorgt dafür das wenn der input geleert wird das es trotzdem danach ausgelöst wird
-                      if (
-                        (suchtreffer > 0 || suchtreffer === null || !!!input) &&
-                        !resultsDropdown
-                      ) {
-                        toggleDropdown(
-                          DropdownActionTypes.TOGGLE_RESULTS_HIDDEN
-                        );
-                      }
-                    }}
-                    onFocus={() => {
-                      //dieser if hier sorgt dafür das beim focus auch wenn der input leer ist alle dropdowns geschloßen werden bis auf result
-                      if (
-                        (preisDropdown ||
-                          bezugsartDropdown ||
-                          immobilientypDropdown ||
-                          zimmerDropdown ||
-                          flächeDropdown) &&
-                        !!!input
-                      )
-                        toggleDropdown(
-                          DropdownActionTypes.TOGGLE_ALL_DROPDOWNS_FALSE
-                        );
-                      if (!!input && suchtreffer > 0 && !resultsDropdown)
-                        toggleDropdown(
-                          DropdownActionTypes.TOGGLE_RESULTS_HIDDEN
-                        );
-                    }}
-                    onKeyPress={e => checkSearchInput(e)}
-                  />
-                  <Button
-                    responsivButtonPreis
-                    preis
-                    onClick={() =>
-                      toggleDropdown(
-                        DropdownActionTypes.TOGGLE_PREISDROPDOWN_HIDDEN
-                      )
-                    }
-                    id="filter-button"
-                  >
-                    {preis}
-                  </Button>
-
-                  <ButtonContainer>
-                    <Button
-                      responsivButton
-                      onClick={() =>
-                        toggleDropdown(
-                          DropdownActionTypes.TOGGLE_BEZUGSARTDROPDOWN_HIDDEN
-                        )
-                      }
+              <SuchleistePopupContainer>
+                <SuchleistePopup
+                  /*weil es ein Form ist muss onClick gestoppt werden*/
+                  onClick={e => {
+                    e.preventDefault();
+                  }}
+                >
+                  <h2>SUCHEN</h2>
+                  <SuchleistePopupContentContainer>
+                    <Input
+                      inputStartseiteResponsiv
                       id="filter-button"
-                    >
-                      {bezugsart}
-                    </Button>
-                    <Button
-                      responsivButton
-                      onClick={() =>
-                        toggleDropdown(
-                          DropdownActionTypes.TOGGLE_IMMOBILIENTYPDROPDOWN_HIDDEN
-                        )
-                      }
-                      id="filter-button"
-                    >
-                      {haustyp}
-                    </Button>
-                  </ButtonContainer>
-                  <ButtonContainer>
-                    <Button
-                      responsivButton
-                      onClick={e => {
-                        e.preventDefault();
-                        toggleDropdown(
-                          DropdownActionTypes.TOGGLE_ZIMMERDROPDOWN_HIDDEN
-                        );
+                      inputType="search"
+                      placeholder="Wo: Ort, Bundesland oder PLZ"
+                      löschButton
+                      value={input}
+                      onChange={e => {
+                        setSearchInput(e.target.value);
+                        //!!!input sorgt dafür das wenn der input geleert wird das es trotzdem danach ausgelöst wird
+                        if (
+                          (suchtreffer > 0 ||
+                            suchtreffer === null ||
+                            !!!input) &&
+                          !resultsDropdown
+                        ) {
+                          toggleDropdown(
+                            DropdownActionTypes.TOGGLE_RESULTS_HIDDEN
+                          );
+                        }
                       }}
-                      id="filter-button"
-                    >
-                      {zimmerAnzahl}
-                    </Button>
+                      onFocus={() => {
+                        //dieser if hier sorgt dafür das beim focus auch wenn der input leer ist alle dropdowns geschloßen werden bis auf result
+                        if (
+                          (preisDropdown ||
+                            bezugsartDropdown ||
+                            immobilientypDropdown ||
+                            zimmerDropdown ||
+                            flächeDropdown) &&
+                          !!!input
+                        )
+                          toggleDropdown(
+                            DropdownActionTypes.TOGGLE_ALL_DROPDOWNS_FALSE
+                          );
+                        if (!!input && suchtreffer > 0 && !resultsDropdown)
+                          toggleDropdown(
+                            DropdownActionTypes.TOGGLE_RESULTS_HIDDEN
+                          );
+                      }}
+                      onKeyPress={e => checkSearchInput(e)}
+                    />
                     <Button
-                      responsivButton
+                      responsivButtonPreis
+                      preis
                       onClick={() =>
                         toggleDropdown(
-                          DropdownActionTypes.TOGGLE_FLÄCHEDROPDOWN_HIDDEN
+                          DropdownActionTypes.TOGGLE_PREISDROPDOWN_HIDDEN
                         )
                       }
                       id="filter-button"
                     >
-                      {fläche}
+                      {preis}
                     </Button>
-                  </ButtonContainer>
-                  <Button
-                    suchButton
-                    responsivButton
-                    onClick={() => history.push("/liste")}
-                  >
-                    {suchtreffer > 0 && !!input
-                      ? `${numberWithDots(suchtreffer.toString())} Treffer`
-                      : "Suchen"}
-                  </Button>
-                </SuchleistePopupContentContainer>
-                <SuchleistePopupContentContainer shadowResponsiv>
-                  <Input inputStartseiteResponsiv />
-                  {resultsDropdown && suchtreffer > 0 && input !== "" ? (
-                    <Results additionalStyle={"results-dropdown"} />
-                  ) : null}
 
-                  <Button responsivButtonPreis dropdown>
-                    {preisDropdown ? (
-                      <PreisDropdown
-                        additionalStyle={"preis-dropdown responsiv-dropdown"}
-                      />
+                    <ButtonContainer>
+                      <Button
+                        responsivButton
+                        onClick={() =>
+                          toggleDropdown(
+                            DropdownActionTypes.TOGGLE_BEZUGSARTDROPDOWN_HIDDEN
+                          )
+                        }
+                        id="filter-button"
+                      >
+                        {bezugsart}
+                      </Button>
+                      <Button
+                        responsivButton
+                        onClick={() =>
+                          toggleDropdown(
+                            DropdownActionTypes.TOGGLE_IMMOBILIENTYPDROPDOWN_HIDDEN
+                          )
+                        }
+                        id="filter-button"
+                      >
+                        {haustyp}
+                      </Button>
+                    </ButtonContainer>
+                    <ButtonContainer>
+                      <Button
+                        responsivButton
+                        onClick={e => {
+                          e.preventDefault();
+                          toggleDropdown(
+                            DropdownActionTypes.TOGGLE_ZIMMERDROPDOWN_HIDDEN
+                          );
+                        }}
+                        id="filter-button"
+                      >
+                        {zimmerAnzahl}
+                      </Button>
+                      <Button
+                        responsivButton
+                        onClick={() =>
+                          toggleDropdown(
+                            DropdownActionTypes.TOGGLE_FLÄCHEDROPDOWN_HIDDEN
+                          )
+                        }
+                        id="filter-button"
+                      >
+                        {fläche}
+                      </Button>
+                    </ButtonContainer>
+                    <Button
+                      suchButton
+                      responsivButton
+                      onClick={() => history.push("/liste")}
+                    >
+                      {suchtreffer > 0 && !!input
+                        ? `${numberWithDots(suchtreffer.toString())} Treffer`
+                        : "Suchen"}
+                    </Button>
+                  </SuchleistePopupContentContainer>
+                  <SuchleistePopupContentContainer shadowResponsiv>
+                    <Input inputStartseiteResponsiv />
+                    {resultsDropdown && suchtreffer > 0 && input !== "" ? (
+                      <Results additionalStyle={"results-dropdown"} />
                     ) : null}
-                  </Button>
 
-                  <ButtonContainer>
-                    <Button responsivButton dropdown>
-                      {bezugsartDropdown ? (
-                        <AuswahlDropdown
-                          additionalStyle={"responsiv-dropdown"}
-                          children={[
-                            bezugsart === "Mieten" ? "Kaufen" : "Mieten"
-                          ]}
-                          type={FilterActionTypes.SET_BEZUGSART}
+                    <Button responsivButtonPreis dropdown>
+                      {preisDropdown ? (
+                        <PreisDropdown
+                          additionalStyle={"preis-dropdown responsiv-dropdown"}
                         />
                       ) : null}
                     </Button>
-                    <Button responsivButton dropdown>
-                      {immobilientypDropdown ? (
-                        <AuswahlDropdown
-                          additionalStyle={"responsiv-dropdown"}
-                          children={[
-                            haustyp === "Wohnung" ? "Haus" : "Wohnung"
-                          ]}
-                          type={FilterActionTypes.SET_HAUSTYP}
-                        />
-                      ) : null}
-                    </Button>
-                  </ButtonContainer>
-                  <ButtonContainer>
-                    <Button responsivButton dropdown>
-                      {zimmerDropdown ? (
-                        <AuswahlDropdown
-                          additionalStyle={"responsiv-dropdown"}
-                          children={[
-                            "1 Zi. +",
-                            "2 Zi. +",
-                            "3 Zi. +",
-                            "4 Zi. +",
-                            "5 Zi. +"
-                          ]}
-                          type={FilterActionTypes.SET_ZIMMERANZAHL}
-                        />
-                      ) : null}
-                    </Button>
-                    <Button responsivButton dropdown>
-                      {flächeDropdown ? (
-                        <AuswahlDropdown
-                          additionalStyle={"responsiv-dropdown"}
-                          children={[
-                            "70 qm +",
-                            "100 qm +",
-                            "200 qm +",
-                            "300 qm +",
-                            "400 qm +",
-                            "500 qm +"
-                          ]}
-                          type={FilterActionTypes.SET_FLÄCHE}
-                        />
-                      ) : null}
-                    </Button>
-                  </ButtonContainer>
-                </SuchleistePopupContentContainer>
-              </SuchleistePopup>
-            </SuchleistePopupContainer>
-          </InputContainerResponsive>
-        </ContentContainer>
-      </SuchleisteContainer>
-    );
+
+                    <ButtonContainer>
+                      <Button responsivButton dropdown>
+                        {bezugsartDropdown ? (
+                          <AuswahlDropdown
+                            additionalStyle={"responsiv-dropdown"}
+                            children={[
+                              bezugsart === "Mieten" ? "Kaufen" : "Mieten"
+                            ]}
+                            type={FilterActionTypes.SET_BEZUGSART}
+                          />
+                        ) : null}
+                      </Button>
+                      <Button responsivButton dropdown>
+                        {immobilientypDropdown ? (
+                          <AuswahlDropdown
+                            additionalStyle={"responsiv-dropdown"}
+                            children={[
+                              haustyp === "Wohnung" ? "Haus" : "Wohnung"
+                            ]}
+                            type={FilterActionTypes.SET_HAUSTYP}
+                          />
+                        ) : null}
+                      </Button>
+                    </ButtonContainer>
+                    <ButtonContainer>
+                      <Button responsivButton dropdown>
+                        {zimmerDropdown ? (
+                          <AuswahlDropdown
+                            additionalStyle={"responsiv-dropdown"}
+                            children={[
+                              "1 Zi. +",
+                              "2 Zi. +",
+                              "3 Zi. +",
+                              "4 Zi. +",
+                              "5 Zi. +"
+                            ]}
+                            type={FilterActionTypes.SET_ZIMMERANZAHL}
+                          />
+                        ) : null}
+                      </Button>
+                      <Button responsivButton dropdown>
+                        {flächeDropdown ? (
+                          <AuswahlDropdown
+                            additionalStyle={"responsiv-dropdown"}
+                            children={[
+                              "70 qm +",
+                              "100 qm +",
+                              "200 qm +",
+                              "300 qm +",
+                              "400 qm +",
+                              "500 qm +"
+                            ]}
+                            type={FilterActionTypes.SET_FLÄCHE}
+                          />
+                        ) : null}
+                      </Button>
+                    </ButtonContainer>
+                  </SuchleistePopupContentContainer>
+                </SuchleistePopup>
+              </SuchleistePopupContainer>
+            </InputContainerResponsive>
+          </ContentContainer>
+        </SuchleisteContainer>
+      );
+    }
   }
 }
 
