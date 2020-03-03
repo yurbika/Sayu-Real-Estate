@@ -71,7 +71,10 @@ import {
   SuchleistePopupContainer,
   SuchleistePopupContentContainer,
   SuchleistePopup,
-  ButtonContainer
+  ButtonContainer,
+  SuchleistePopupHeader,
+  CloseButtonContainer,
+  CloseButton
 } from "./suchleiste.styles";
 
 /*Button id = filter-button ist hier notwendig damit die richtigen aktionen gefeuert 
@@ -349,11 +352,11 @@ class Suchleiste extends React.Component {
             <InputContainerResponsive>
               <Button
                 inputButton
-                onClick={() => {
+                onClick={() =>
                   document
                     .getElementById("suchleistenpopup")
-                    .classList.add("show");
-                }}
+                    .classList.add("show")
+                }
               >
                 {!!input ? input : "Wo: Ort, Bundesland oder PLZ"}
               </Button>
@@ -369,7 +372,18 @@ class Suchleiste extends React.Component {
                     e.preventDefault();
                   }}
                 >
-                  <h2>SUCHEN</h2>
+                  <SuchleistePopupHeader>
+                    <h2>SUCHEN</h2>
+                    <CloseButtonContainer
+                      onClick={() =>
+                        document
+                          .getElementById("suchleistenpopup")
+                          .classList.remove("show")
+                      }
+                    >
+                      <CloseButton />
+                    </CloseButtonContainer>
+                  </SuchleistePopupHeader>
                   <SuchleistePopupContentContainer>
                     <Input
                       inputStartseiteResponsiv

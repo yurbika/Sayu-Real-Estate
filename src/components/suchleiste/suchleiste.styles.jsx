@@ -97,6 +97,62 @@ export const InputContainerResponsive = styled.div`
     display: flex;
   }
 `;
+
+export const SuchleistePopupHeader = styled.div`
+  position: relative;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  border-bottom: 1px solid ${theme.colors.hslaLightBlack};
+
+  h2 {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+  }
+`;
+
+export const CloseButtonContainer = styled.div`
+  position: absolute;
+  top: 0;
+  right: 15px;
+  height: 100%;
+  cursor: pointer;
+`;
+
+export const CloseButton = styled.div`
+  position: relative;
+  background: rgba(255, 255, 255, 0);
+  margin-top: 23px;
+
+  &,
+  &:after,
+  &:before {
+    width: 35px;
+    height: 3px;
+    border-radius: 5px;
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    background: ${theme.colors.lightWhite};
+    transform: rotate(-45deg);
+  }
+
+  &:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0px;
+    background: ${theme.colors.lightWhite};
+    transform: rotate(45deg);
+  }
+`;
+
 //hier könnte man div in form umwandeln
 export const SuchleistePopup = styled.div`
   display: flex;
@@ -105,13 +161,6 @@ export const SuchleistePopup = styled.div`
   min-height: 100%;
   width: 100%;
   background: ${theme.colors.brown};
-
-  h2 {
-    width: 100%;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    border-bottom: 1px solid ${theme.colors.hslaLightBlack};
   }
 `;
 
