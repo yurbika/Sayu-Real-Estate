@@ -97,7 +97,7 @@ export const InputContainerResponsive = styled.div`
     display: flex;
   }
 `;
-
+//hier könnte man div in form umwandeln
 export const SuchleistePopup = styled.div`
   display: flex;
   flex-direction: column;
@@ -105,7 +105,6 @@ export const SuchleistePopup = styled.div`
   min-height: 100%;
   width: 100%;
   background: ${theme.colors.brown};
-  overflow: scroll;
 
   h2 {
     width: 100%;
@@ -118,14 +117,18 @@ export const SuchleistePopup = styled.div`
 
 export const SuchleistePopupContainer = styled.div`
   position: fixed;
-  display: none;
+  opacity: 0;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
   z-index: 5;
-  @media (max-width: 768px) {
-    display: block;
+  transform: translate3d(0, -100vh, 0);
+  transition: all 0.3s ease-in-out;
+
+  &.show {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
   }
 `;
 
@@ -156,11 +159,20 @@ const getAdditonalStyle = props => {
       position: absolute;
       top: 0;
       margin-top: 80px;
-      & input {
-        z-index: 3;
-      }
-      &:nth-child(2) {
-        z-index: 1;
+      & > * {
+        &:nth-child(2) {
+          z-index: 6;
+        }
+        &#preis-dropdown {
+          z-index: 4;
+        }
+        &#mieten-wohnung-dropdown,
+        &#mieten-wohnung-dropdown > * {
+          z-index: 3;
+        }
+        &:nth-child(4) > * {
+          z-index: 2;
+        }
       }
     `;
   }
@@ -171,14 +183,21 @@ export const SuchleistePopupContentContainer = styled.div`
   max-width: 320px;
   margin-top: 30px;
   padding: 0 15px;
+
   & > * {
     margin-bottom: 15px;
-  }
-  & div:first-child {
-    z-index: 4;
-  }
-  &:nth-child(2) {
-    z-index: 2;
+    &:first-child {
+      z-index: 7;
+    }
+    &:nth-child(2) {
+      z-index: 5;
+    }
+    &:nth-child(3) > * {
+      z-index: 4;
+    }
+    &:nth-child(4) > * {
+      z-index: 3;
+    }
   }
 
   ${getAdditonalStyle}

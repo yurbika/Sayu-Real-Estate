@@ -62,20 +62,18 @@ const ResultsDropdown = css`
   font-size: 0.9rem;
   z-index: 2;
   border: 1px solid ${theme.colors.hslaBlack};
-  &::before,
-  &::after {
-    display: none;
-  }
   border-radius: 0 0 15px 15px;
   display: flex;
   flex-direction: column;
+
   h4 {
     color: black;
   }
+
   ul {
+    display: inline-block;
     list-style: none;
-    min-width: 26rem;
-    max-width: 35rem;
+
     li {
       cursor: pointer;
       width: 100%;
@@ -155,6 +153,15 @@ const getAdditionalStyle = props => {
     case "zimmer-dropdown":
     case "flaeche-dropdown":
       return [AuswahlDropdown, NormalDropdown];
+    case "results-dropdown responsiv-dropdown":
+      return [
+        ResultsDropdown,
+        css`
+          top: 0;
+          width: calc(100% - 30px);
+          margin: 15px;
+        `
+      ];
     case "results-dropdown":
       return ResultsDropdown;
     case "preis-dropdown responsiv-dropdown":

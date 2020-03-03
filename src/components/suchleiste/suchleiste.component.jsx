@@ -347,7 +347,14 @@ class Suchleiste extends React.Component {
           <ContentContainer>
             {children}
             <InputContainerResponsive>
-              <Button inputButton>
+              <Button
+                inputButton
+                onClick={() => {
+                  document
+                    .getElementById("suchleistenpopup")
+                    .classList.add("show");
+                }}
+              >
                 {!!input ? input : "Wo: Ort, Bundesland oder PLZ"}
               </Button>
               <Button suchButton onClick={() => history.push("/liste")}>
@@ -355,7 +362,7 @@ class Suchleiste extends React.Component {
                   ? `${numberWithDots(suchtreffer.toString())} Treffer`
                   : "Suchen"}
               </Button>
-              <SuchleistePopupContainer>
+              <SuchleistePopupContainer id="suchleistenpopup">
                 <SuchleistePopup
                   /*weil es ein Form ist muss onClick gestoppt werden*/
                   onClick={e => {
@@ -478,20 +485,22 @@ class Suchleiste extends React.Component {
                     </Button>
                   </SuchleistePopupContentContainer>
                   <SuchleistePopupContentContainer shadowResponsiv>
-                    <Input inputStartseiteResponsiv />
+                    <Input inputStartseiteResponsiv></Input>
                     {resultsDropdown && suchtreffer > 0 && input !== "" ? (
-                      <Results additionalStyle={"results-dropdown"} />
+                      <Results
+                        additionalStyle={"results-dropdown responsiv-dropdown"}
+                      />
                     ) : null}
-
-                    <Button responsivButtonPreis dropdown>
+                    {/*id ist für das styling */}
+                    <Button responsivButtonPreis dropdown id="preis-dropdown">
                       {preisDropdown ? (
                         <PreisDropdown
                           additionalStyle={"preis-dropdown responsiv-dropdown"}
                         />
                       ) : null}
                     </Button>
-
-                    <ButtonContainer>
+                    {/*id ist für das styling */}
+                    <ButtonContainer id="mieten-wohnung-dropdown">
                       <Button responsivButton dropdown>
                         {bezugsartDropdown ? (
                           <AuswahlDropdown
