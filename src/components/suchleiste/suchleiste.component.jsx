@@ -82,9 +82,7 @@ werden damit ist es möglich die dropdowns von überall zu schließen*/
 
 class Suchleiste extends React.Component {
   //damit das richtige component gerendert wird
-  componentDidMount() {
-    window.addEventListener("resize", () => this.forceUpdate());
-  }
+
   componentDidUpdate(prevProps) {
     const {
       maxInput,
@@ -159,7 +157,8 @@ class Suchleiste extends React.Component {
       resultsDropdown,
       children,
       additionalStyle,
-      history
+      history,
+      location
     } = this.props;
     //dieses if else ist für die refs
     if (window.innerWidth > 768) {
@@ -493,7 +492,14 @@ class Suchleiste extends React.Component {
                     <Button
                       suchButton
                       responsivButton
-                      onClick={() => history.push("/liste")}
+                      onClick={() => {
+                        if (location.pathname === "/liste")
+                          document
+                            .getElementById("suchleistenpopup")
+                            .classList.remove("show");
+                        else history.push("/liste");
+                        document.body.style.overflowY = "visible";
+                      }}
                     >
                       {suchtreffer > 0 && !!input
                         ? `${numberWithDots(suchtreffer.toString())} Treffer`
