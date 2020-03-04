@@ -141,10 +141,11 @@ const getAdditonalStyle = props => {
       border-radius: 15px;
     `;
 
-  // if (props.additionalStyle === "no-background")
-  //   return css`
-  //     display: none;
-  //   `;
+  if (props.noBackground)
+    return css`
+      display: none;
+    `;
+
   if (props.shadow) {
     return css`
       position: absolute;

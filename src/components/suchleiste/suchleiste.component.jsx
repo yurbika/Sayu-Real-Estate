@@ -158,13 +158,14 @@ class Suchleiste extends React.Component {
       children,
       additionalStyle,
       history,
-      location
+      location,
+      noBackground
     } = this.props;
     //dieses if else ist für die refs damit unterschieden werden unter den dropdowns
     if (window.innerWidth > 768) {
       return (
         <SuchleisteContainer additionalStyle={additionalStyle}>
-          <BildContainer additionalStyle={additionalStyle}>
+          <BildContainer noBackground>
             <Bild />
           </BildContainer>
           <ContentContainer>
@@ -343,7 +344,7 @@ class Suchleiste extends React.Component {
     } else {
       return (
         <SuchleisteContainer additionalStyle={additionalStyle}>
-          <BildContainer additionalStyle={additionalStyle}>
+          <BildContainer noBackground>
             <Bild />
           </BildContainer>
           <ContentContainer>
