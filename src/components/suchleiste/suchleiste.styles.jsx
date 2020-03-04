@@ -1,24 +1,6 @@
 import theme from "../../utils/theme";
 import styled, { css } from "styled-components";
 
-export const SuchleisteContainer = styled.div`
-  position: relative;
-  width: 80vw;
-  max-width: 950px;
-  height: 285px;
-  border-radius: 35px;
-`;
-
-export const BildContainer = styled.div`
-  position: absolute;
-  z-index: -1;
-  width: inherit;
-  max-width: inherit;
-  height: inherit;
-  overflow: hidden;
-  border-radius: 35px;
-`;
-
 export const Bild = styled.div`
   display: flex;
   flex-direction: column;
@@ -151,6 +133,18 @@ export const ButtonContainer = styled.div`
 /*--------------------------------------------*/
 
 const getAdditonalStyle = props => {
+  if (props.additionalStyle === "liste")
+    return css`
+      margin: 30px 0;
+      width: inherit;
+      background: hsla(0, 0%, 0%, 0.5);
+      border-radius: 15px;
+    `;
+
+  // if (props.additionalStyle === "no-background")
+  //   return css`
+  //     display: none;
+  //   `;
   if (props.shadow) {
     return css`
       position: absolute;
@@ -187,6 +181,25 @@ const getAdditonalStyle = props => {
     `;
   }
 };
+export const SuchleisteContainer = styled.div`
+  position: relative;
+  width: 80vw;
+  max-width: 950px;
+  height: 285px;
+  border-radius: 35px;
+  ${getAdditonalStyle}
+`;
+
+export const BildContainer = styled.div`
+  position: absolute;
+  z-index: -1;
+  width: inherit;
+  max-width: inherit;
+  height: inherit;
+  overflow: hidden;
+  border-radius: 35px;
+  ${getAdditonalStyle}
+`;
 
 export const SuchleistePopupContentContainer = styled.div`
   display: inline-block;

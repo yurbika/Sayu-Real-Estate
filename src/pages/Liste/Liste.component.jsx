@@ -80,7 +80,7 @@ class Liste extends React.Component {
         <Header />
         <div className="container-suchleiste-immo">
           <SuchleisteContainer additionalStyle={"liste"}>
-            <Suchleiste additionalStyle={"liste"} />
+            <Suchleiste />
           </SuchleisteContainer>
           {noResults ? (
             <span className="no-results">Keine Ergebnisse</span>

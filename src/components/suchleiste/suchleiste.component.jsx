@@ -160,7 +160,7 @@ class Suchleiste extends React.Component {
       history,
       location
     } = this.props;
-    //dieses if else ist für die refs
+    //dieses if else ist für die refs damit unterschieden werden unter den dropdowns
     if (window.innerWidth > 768) {
       return (
         <SuchleisteContainer additionalStyle={additionalStyle}>
@@ -367,7 +367,7 @@ class Suchleiste extends React.Component {
               </Button>
               <SuchleistePopupContainer id="suchleistenpopup">
                 <SuchleistePopup
-                  /*weil es ein Form ist muss onClick gestoppt werden*/
+                  /*weil es ein Form-element ist muss onClick gestoppt werden*/
                   onClick={e => {
                     e.preventDefault();
                   }}
