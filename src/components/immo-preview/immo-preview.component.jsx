@@ -109,6 +109,37 @@ const ImmoPreview = ({
           </div>
         </div>
       </div>
+      <div className="responsiv-details">
+        <div className="footer">
+          <div className="footer-second-section">
+            <div className="icon-container">
+              <img src={roomIcon} alt="Zimmer:" />
+              <span className="zimmer">{" " + immo[haustyp]["zimmer"]}</span>
+            </div>
+            <div className="icon-container">
+              <img src={propertyIcon} alt="Wohnfläche:" />
+              <span className="wohnfläche">
+                {" " + immo[haustyp]["wohnfläche"]} m²
+              </span>
+            </div>
+            <div className="icon-container">
+              <img src={moneyIcon} alt="Preis:" />
+              <span className="preis">
+                {" " + numberWithDots(immo[haustyp]["preis"].toString()) + " €"}
+              </span>
+            </div>
+          </div>
+          <div className="icon-container">
+            <img src={gpsIcon} alt="Adresse:" />
+            <span className="adresse">
+              {" " +
+                immo[haustyp]["adresse"]["stadt"] +
+                " - " +
+                immo[haustyp]["adresse"]["bundesland"]}
+            </span>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

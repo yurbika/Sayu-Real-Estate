@@ -10,6 +10,9 @@
     width: 80vw;
     max-width: 1120px;
     margin: 0 auto;
+    @media (max-width: 768px) {
+      width: 95vw;
+    }
 
     .no-results {
       display: flex;
