@@ -39,17 +39,17 @@ const ImmoPreview = ({
         <Slider
           imgArray={[
             immo[haustyp]["bilder"]["titelbild"] +
-              "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=360&h=270&fit=crop",
+              "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
             immo[haustyp]["bilder"]["zweites"] +
-              "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=360&h=270&fit=crop",
+              "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=500&h=500&fit=crop",
             immo[haustyp]["bilder"]["drittes"] +
-              "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=360&h=270&fit=crop",
+              "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=500&h=500&fit=crop",
             immo[haustyp]["bilder"]["vier"] +
-              "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=360&h=270&fit=crop",
+              "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=500&h=500&fit=crop",
             immo[haustyp]["bilder"]["fünf"] +
-              "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=360&h=270&fit=crop",
+              "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=500&h=500&fit=crop",
             immo[haustyp]["bilder"]["sechs"] +
-              "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=360&h=270&fit=crop"
+              "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=500&h=500&fit=crop"
           ]}
           alt={haustyp}
           id={id}
@@ -103,7 +103,7 @@ const ImmoPreview = ({
             <div className="icon-container">
               <img src={moneyIcon} alt="Preis:" />
               <span className="preis">
-                {" " + numberWithDots(immo[haustyp]["preis"].toString())}
+                {" " + numberWithDots(immo[haustyp]["preis"].toString()) + " €"}
               </span>
             </div>
           </div>
