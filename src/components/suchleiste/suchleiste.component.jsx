@@ -165,7 +165,7 @@ class Suchleiste extends React.Component {
     if (window.innerWidth > 768) {
       return (
         <SuchleisteContainer additionalStyle={additionalStyle}>
-          <BildContainer noBackground>
+          <BildContainer noBackground={noBackground}>
             <Bild />
           </BildContainer>
           <ContentContainer>
@@ -344,7 +344,7 @@ class Suchleiste extends React.Component {
     } else {
       return (
         <SuchleisteContainer additionalStyle={additionalStyle}>
-          <BildContainer noBackground>
+          <BildContainer noBackground={noBackground}>
             <Bild />
           </BildContainer>
           <ContentContainer>

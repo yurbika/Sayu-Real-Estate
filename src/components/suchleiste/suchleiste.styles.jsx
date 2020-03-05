@@ -24,6 +24,7 @@ export const Bild = styled.div`
 `;
 
 export const ContentContainer = styled.div`
+position:relative;
 display: flex;
 flex-direction:column;
 align-items: center;
@@ -34,7 +35,7 @@ height: inherit;
 border-radius: 35px;
 
 h1 {
-    font-size: 3rem;
+    font-size: 2.7rem;
     z-index: 1;
   }
   p {
@@ -55,6 +56,7 @@ h1 {
 `;
 
 export const InputContainer = styled.div`
+  max-width: 705px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -137,8 +139,16 @@ const getAdditonalStyle = props => {
     return css`
       margin: 30px 0;
       width: inherit;
+      max-width: 100%;
+
       background: hsla(0, 0%, 0%, 0.5);
       border-radius: 15px;
+      @media (max-width: 768px) {
+        height: 100px;
+        & > * > div {
+          margin: 0;
+        }
+      }
     `;
 
   if (props.noBackground)
