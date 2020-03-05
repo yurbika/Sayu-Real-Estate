@@ -2,14 +2,16 @@
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 100vw;
+  justify-content: space-between;
   height: 75px;
   margin-bottom: 50px;
   z-index: 1;
 
   button:last-of-type {
     position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
     z-index: -1;
   }
 }

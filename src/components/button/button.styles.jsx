@@ -95,6 +95,20 @@ const responsivButton = css`
 //entscheiden welche Styles angewendet werden soll
 
 const getButtonStyles = props => {
+  if (props.pageChanger && props.sekundär)
+    return css`
+      border: none;
+      border-radius: 15px;
+      background: rgba(0, 0, 0, 0);
+      border: 1px solid ${theme.colors.black};
+      width: 10rem;
+      span {
+        color: ${theme.colors.black};
+      }
+      &:hover {
+        background: ${theme.colors.brown};
+      }
+    `;
   if (props.pageChanger)
     return css`
       border: none;
@@ -179,6 +193,19 @@ export const CustomButtonContainer = styled.button`
 //wurde rausgenommen jedoch die Funktionen sind immer noch drin
 
 const getArrowContainerStyles = props => {
+  if (props.pageChanger && props.links)
+    return css`
+      right: unset;
+      left: 15px;
+      bottom: 22.5px;
+      transform: rotate(135deg);
+    `;
+  if (props.pageChanger && props.rechts)
+    return css`
+      right: 15px;
+      bottom: 14.5px;
+      transform: rotate(-45deg);
+    `;
   if (props.pageChanger && props.scrollButton)
     return css`
       right: 25px;
@@ -213,6 +240,17 @@ const getArrowContainerStyles = props => {
 };
 
 const getArrowStyles = props => {
+  if (props.pageChanger && props.sekundär)
+    return css`
+      right: 25px;
+      bottom: 22.5px;
+      transform: rotate(45deg);
+
+      &:before,
+      &:after {
+        background-color: ${theme.colors.black};
+      }
+    `;
   if (props.pageChanger && props.scrollButton) return css``;
   if (props.scrollButton && props.sliderArrow)
     return css`

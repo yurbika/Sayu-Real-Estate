@@ -27,6 +27,9 @@ class PageChanger extends React.Component {
 
     return (
       <div className="page-changer-container">
+        <Button pageChanger sekundär links scrollButton>
+          vorherige Seite
+        </Button>
         <Button
           pageChanger
           scrollButton
@@ -38,6 +41,10 @@ class PageChanger extends React.Component {
           id="filter-button"
         >
           {seite}
+        </Button>
+
+        <Button pageChanger sekundär scrollButton rechts>
+          nächste Seite
         </Button>
         <Button pageChanger dropdown>
           {/*hier fehlt noch ein typ für den dropdown*/}
