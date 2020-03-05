@@ -2,6 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 
+//component import
 import Suchleiste from "../../components/suchleiste/suchleiste.component";
 import Footer from "../../components/footer/footer.component";
 import Header from "../../components/header/header.component";
@@ -9,6 +10,8 @@ import Header from "../../components/header/header.component";
 import ImmoPreview from "../../components/immo-preview/immo-preview.component";
 
 import Popup from "../../components/popup/popup.component";
+
+import PageChanger from "../../components/page-changer/page-changer.component";
 
 //redux imports
 import {
@@ -73,7 +76,6 @@ class Liste extends React.Component {
       };
       alleErgebnisse = filterData(filter).alleErgebnisse;
     }
-
     return (
       <div className="container-liste">
         <Header />
@@ -83,19 +85,22 @@ class Liste extends React.Component {
             <span className="no-results">Keine Ergebnisse</span>
           ) : null}
           <div className="immo-preview-container">
-            {alleErgebnisse.map((item, index) =>
+            {alleErgebnisse.map((item, index) => {
               //wenn die index zahl geändert wird muss es auch im slider reducer die array anzahl angepasst werden
-              index < 20 ? (
-                <ImmoPreview
-                  immo={item}
-                  id={index % 20}
-                  key={ID_GENERATOR("immobilien-seite-")}
-                />
-              ) : null
-            )}
+              if (index < 20) {
+                return (
+                  <ImmoPreview
+                    immo={item}
+                    id={index % 20}
+                    key={ID_GENERATOR("immobilien-seite-")}
+                  />
+                );
+              } else return null;
+            })}
           </div>
         </div>
         {popShow ? <Popup /> : null}
+        <PageChanger anzahlSeiten={alleErgebnisse.length / 20} />
         <Footer />
       </div>
     );

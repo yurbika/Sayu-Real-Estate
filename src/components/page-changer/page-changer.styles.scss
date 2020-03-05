@@ -1,0 +1,23 @@
+.page-changer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 75px;
+  margin-bottom: 30px;
+
+  select {
+    appearance: none;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+  }
+
+  select option {
+    color: #666;
+    height: 75px;
+  }
+}
