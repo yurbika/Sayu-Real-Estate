@@ -21,7 +21,7 @@ class PageChanger extends React.Component {
     const { dropdown, toggleDropdown, seite } = this.props;
     const { anzahlSeiten } = this.props;
     let optionsArray = [];
-    for (let i = 0; i < anzahlSeiten; i++) {
+    for (let i = 0; i < anzahlSeiten - 1; i++) {
       optionsArray.push(1 + i);
     }
 

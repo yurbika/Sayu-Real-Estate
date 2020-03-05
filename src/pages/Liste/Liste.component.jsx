@@ -89,8 +89,8 @@ class Liste extends React.Component {
           <div className="immo-preview-container">
             {alleErgebnisse.map((item, index) => {
               //wenn die index zahl geändert wird muss es auch im slider reducer die array anzahl angepasst werden
-              if (seite > 1) index += 20 * seite;
-              if (index < 20 * seite)
+              console.log(item);
+              if (index >= 20 * (seite - 1) && index < 20 * seite + 20)
                 return (
                   <ImmoPreview
                     immo={item}
@@ -103,7 +103,7 @@ class Liste extends React.Component {
           </div>
         </div>
         {popShow ? <Popup /> : null}
-        <PageChanger anzahlSeiten={alleErgebnisse.length / 20} />
+        <PageChanger anzahlSeiten={(alleErgebnisse.length - 1) / 20} />
         <Footer />
       </div>
     );
@@ -120,7 +120,7 @@ const mapStateToProps = createStructuredSelector({
   haustyp: selectHaustyp,
   minInput: selectMinInput,
   maxInput: selectMaxInput,
-  curPage: selectSeite,
+  seite: selectSeite,
   //popup
   popShow: selectPopupState
 });
