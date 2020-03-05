@@ -147,6 +147,7 @@ const getAdditonalStyle = props => {
         height: 100px;
         & > * > div {
           margin: 0;
+          max-width: 90%;
         }
       }
     `;

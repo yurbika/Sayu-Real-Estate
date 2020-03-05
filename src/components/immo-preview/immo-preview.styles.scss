@@ -33,10 +33,18 @@
         & > * {
           margin-right: 25px;
         }
+
         div:last-of-type {
           margin-right: 0;
         }
+
+        @media (max-width: 578px) {
+          & > * {
+            margin-right: 5px;
+          }
+        }
       }
+      //für die icons
       img {
         height: 20px;
         margin-right: 5px;
@@ -104,7 +112,7 @@
     @media (max-width: 768px) {
       height: unset;
       width: 100%;
-      padding: 15px;
+      padding: 25px;
       img {
         border-radius: 15px;
       }
