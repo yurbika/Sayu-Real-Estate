@@ -11,10 +11,9 @@ import toggleDropdown from "../../redux/dropdown/dropdown.action";
 import DropdownActionTypes from "../../redux/dropdown/dropdown.types";
 
 import { selectSeite } from "../../redux/filter/filter.selectors";
+import FilterActionTypes from "../../redux/filter/filter.types";
 
 //utils
-import { ID_GENERATOR } from "../../uniqueKey";
-
 import "./page-changer.styles.scss";
 
 class PageChanger extends React.Component {
@@ -22,7 +21,7 @@ class PageChanger extends React.Component {
     const { dropdown, toggleDropdown, seite } = this.props;
     const { anzahlSeiten } = this.props;
     let optionsArray = [];
-    for (let i = 0; i < anzahlSeiten - 1; i++) {
+    for (let i = 0; i < anzahlSeiten; i++) {
       optionsArray.push(1 + i);
     }
 
@@ -43,7 +42,10 @@ class PageChanger extends React.Component {
         <Button pageChanger dropdown>
           {/*hier fehlt noch ein typ für den dropdown*/}
           {dropdown ? (
-            <AuswahlDropdown additionalStyle={"page-changer"}>
+            <AuswahlDropdown
+              additionalStyle={"page-changer"}
+              type={FilterActionTypes.SET_SEITE}
+            >
               {optionsArray}
             </AuswahlDropdown>
           ) : null}

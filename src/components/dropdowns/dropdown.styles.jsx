@@ -149,6 +149,7 @@ const getAdditionalStyle = props => {
           min-width: inherit;
           padding: 0;
           padding-top: 25px;
+          padding-bottom: 15px;
           margin-top: 15px;
           text-align: center;
           overflow-y: scroll;

@@ -22,7 +22,8 @@ import {
   selectPreis,
   selectFläche,
   selectMaxInput,
-  selectMinInput
+  selectMinInput,
+  selectSeite
 } from "../../redux/filter/filter.selectors";
 
 import { selectPopupState } from "../../redux/popup/popup.selectors";
@@ -43,7 +44,8 @@ class Liste extends React.Component {
       input,
       zimmerAnzahl,
       fläche,
-      popShow
+      popShow,
+      seite
     } = this.props;
     //test für den input falls die seite ohne input angeklickt wird
     let splitedStr = !!input ? input.split(/[ ,-]+/) : "";
@@ -87,7 +89,8 @@ class Liste extends React.Component {
           <div className="immo-preview-container">
             {alleErgebnisse.map((item, index) => {
               //wenn die index zahl geändert wird muss es auch im slider reducer die array anzahl angepasst werden
-              if (index < 20) {
+              if (seite > 1) index += 20 * seite;
+              if (index < 20 * seite)
                 return (
                   <ImmoPreview
                     immo={item}
@@ -95,7 +98,7 @@ class Liste extends React.Component {
                     key={ID_GENERATOR("immobilien-seite-")}
                   />
                 );
-              } else return null;
+              return null;
             })}
           </div>
         </div>
@@ -117,6 +120,7 @@ const mapStateToProps = createStructuredSelector({
   haustyp: selectHaustyp,
   minInput: selectMinInput,
   maxInput: selectMaxInput,
+  curPage: selectSeite,
   //popup
   popShow: selectPopupState
 });
