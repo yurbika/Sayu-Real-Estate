@@ -28,12 +28,7 @@ const AuswahlDropdown = ({
           <li
             key={ID_GENERATOR("AuswahlDropdown-li-")}
             onClick={() => {
-              if (
-                additionalStyle === "zimmer-dropdown" ||
-                additionalStyle === "flaeche-dropdown"
-              )
-                setArt(child, type);
-              else setArt(child, type);
+              setArt(child, type);
               toggleDropdown(DropdownActionTypes.TOGGLE_ALL_DROPDOWNS_FALSE);
             }}
           >

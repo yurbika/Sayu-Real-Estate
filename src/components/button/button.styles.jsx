@@ -95,6 +95,13 @@ const responsivButton = css`
 //entscheiden welche Styles angewendet werden soll
 
 const getButtonStyles = props => {
+  if (props.pageChanger)
+    return css`
+      border: none;
+      border-radius: 15px;
+      box-shadow: 5px 5px 5px ${theme.colors.transBlack};
+      background: ${theme.colors.black};
+    `;
   if (props.scrollButton && props.sliderArrow)
     return [
       scrollButton,

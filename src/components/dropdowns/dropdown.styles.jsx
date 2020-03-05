@@ -139,6 +139,32 @@ const NormalDropdown = css`
 //funktionen für die spezifischen seiten
 const getAdditionalStyle = props => {
   switch (props.additionalStyle) {
+    case "page-changer":
+      return [
+        AuswahlDropdown,
+        css`
+          display: inline-block;
+          height: 150px;
+          width: inherit;
+          padding: 0;
+          padding-top: 30px;
+          margin-top: 15px;
+          text-align: center;
+          overflow-y: scroll;
+          &::-webkit-scrollbar {
+            width: 5px;
+          }
+          &::-webkit-scrollbar-thumb {
+            background-color: darkgrey;
+            outline: 1px solid slategrey;
+            border-radius: 15px;
+          }
+          &::-webkit-scrollbar-track-piece {
+            background: transparent;
+            margin: 10px 0;
+          }
+        `
+      ];
     case "responsiv-dropdown":
       return [
         AuswahlDropdown,
