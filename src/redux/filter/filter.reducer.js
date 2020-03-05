@@ -8,7 +8,8 @@ const INITIAL_STATE = {
   haustyp: "Wohnung",
   preis: "Preis",
   zimmerAnzahl: "Zimmer ab",
-  fläche: "Fläche ab"
+  fläche: "Fläche ab",
+  seite: 1
 };
 
 const filterReducer = (state = INITIAL_STATE, action) => {
@@ -53,6 +54,8 @@ const filterReducer = (state = INITIAL_STATE, action) => {
         ...state,
         maxInput: action.payload
       };
+    case FilterActionTypes.SET_SEITE:
+      return { ...state, seite: action.payload };
     default:
       return state;
   }

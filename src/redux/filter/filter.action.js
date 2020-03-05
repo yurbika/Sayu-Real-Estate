@@ -36,7 +36,7 @@ export const clearSearchInput = () => ({
 });
 
 //für den Auswahldropdown
-export const setArt = (text, type) => ({
+export const setArt = (payload, type) => ({
   type: type,
-  payload: text
+  payload: payload
 });

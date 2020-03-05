@@ -41,3 +41,8 @@ export const selectFläche = createSelector(
   [selectFilter],
   filter => filter.fläche
 );
+
+export const selectSeite = createSelector(
+  [selectFilter],
+  filter => filter.seite
+);

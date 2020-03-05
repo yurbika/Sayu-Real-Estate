@@ -10,6 +10,8 @@ import { selectPageChangerDropdown } from "../../redux/dropdown/dropdown.selecto
 import toggleDropdown from "../../redux/dropdown/dropdown.action";
 import DropdownActionTypes from "../../redux/dropdown/dropdown.types";
 
+import { selectSeite } from "../../redux/filter/filter.selectors";
+
 //utils
 import { ID_GENERATOR } from "../../uniqueKey";
 
@@ -17,7 +19,7 @@ import "./page-changer.styles.scss";
 
 class PageChanger extends React.Component {
   render() {
-    const { dropdown, toggleDropdown } = this.props;
+    const { dropdown, toggleDropdown, seite } = this.props;
     const { anzahlSeiten } = this.props;
     let optionsArray = [];
     for (let i = 0; i < anzahlSeiten - 1; i++) {
@@ -28,20 +30,20 @@ class PageChanger extends React.Component {
       <div className="page-changer-container">
         <Button
           pageChanger
+          scrollButton
           onClick={() =>
             toggleDropdown(
               DropdownActionTypes.TOGGLE_PAGECHANGERDROPDOWN_HIDDEN
             )
           }
           id="filter-button"
-        ></Button>
+        >
+          {seite}
+        </Button>
         <Button pageChanger dropdown>
           {/*hier fehlt noch ein typ für den dropdown*/}
           {dropdown ? (
-            <AuswahlDropdown
-              additionalStyle={"page-changer"}
-              type={DropdownActionTypes.TOGGLE_PAGECHANGERDROPDOWN_HIDDEN}
-            >
+            <AuswahlDropdown additionalStyle={"page-changer"}>
               {optionsArray}
             </AuswahlDropdown>
           ) : null}
@@ -52,7 +54,9 @@ class PageChanger extends React.Component {
 }
 
 const mapStateToProps = createStructuredSelector({
-  dropdown: selectPageChangerDropdown
+  dropdown: selectPageChangerDropdown,
+  //filter
+  seite: selectSeite
 });
 
 const mapDispatchToProps = dispatch => ({

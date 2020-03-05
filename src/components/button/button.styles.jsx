@@ -101,6 +101,9 @@ const getButtonStyles = props => {
       border-radius: 15px;
       box-shadow: 5px 5px 5px ${theme.colors.transBlack};
       background: ${theme.colors.black};
+      span {
+        color: ${theme.colors.lightWhite};
+      }
     `;
   if (props.scrollButton && props.sliderArrow)
     return [
@@ -176,6 +179,12 @@ export const CustomButtonContainer = styled.button`
 //wurde rausgenommen jedoch die Funktionen sind immer noch drin
 
 const getArrowContainerStyles = props => {
+  if (props.pageChanger && props.scrollButton)
+    return css`
+      right: 25px;
+      bottom: 22.5px;
+      transform: rotate(45deg);
+    `;
   if (props.scrollButton && props.sliderArrow)
     return css`
       min-width: 4rem;
@@ -204,6 +213,7 @@ const getArrowContainerStyles = props => {
 };
 
 const getArrowStyles = props => {
+  if (props.pageChanger && props.scrollButton) return css``;
   if (props.scrollButton && props.sliderArrow)
     return css`
       margin: -1px 0 0 -32px;
