@@ -146,11 +146,13 @@ const getAdditionalStyle = props => {
           display: inline-block;
           height: 150px;
           width: inherit;
+          min-width: inherit;
           padding: 0;
-          padding-top: 30px;
+          padding-top: 25px;
           margin-top: 15px;
           text-align: center;
           overflow-y: scroll;
+          overflow-x: hidden;
           &::-webkit-scrollbar {
             width: 5px;
           }

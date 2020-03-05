@@ -6,7 +6,8 @@ const INITIAL_STATE = {
   immobilientypDropdown: false,
   zimmerDropdown: false,
   flächeDropdown: false,
-  resultsDropdown: false
+  resultsDropdown: false,
+  pageChangerDropdown: false
 };
 
 const dropdownReducer = (state = INITIAL_STATE, action) => {
@@ -57,6 +58,14 @@ const dropdownReducer = (state = INITIAL_STATE, action) => {
       return {
         otherStates,
         resultsDropdown: !state.resultsDropdown
+      };
+    }
+    case DropdownActionTypes.TOGGLE_PAGECHANGERDROPDOWN_HIDDEN: {
+      let { pageChangerDrodpown, ...otherStates } = state;
+      otherStates = INITIAL_STATE;
+      return {
+        otherStates,
+        pageChangerDropdown: !state.pageChangerDropdown
       };
     }
     case DropdownActionTypes.TOGGLE_ALL_DROPDOWNS_FALSE:

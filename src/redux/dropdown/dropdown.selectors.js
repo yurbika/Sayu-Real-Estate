@@ -27,3 +27,8 @@ export const selectResultsDropdown = createSelector(
   [selectDropdown],
   dropdown => dropdown.resultsDropdown
 );
+
+export const selectPageChangerDropdown = createSelector(
+  [selectDropdown],
+  dropdown => dropdown.pageChangerDropdown
+);
