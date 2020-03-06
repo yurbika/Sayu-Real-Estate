@@ -144,7 +144,7 @@ const getAdditionalStyle = props => {
         AuswahlDropdown,
         css`
           display: inline-block;
-          height: 150px;
+          max-height: 150px;
           width: inherit;
           min-width: inherit;
           padding: 0;

@@ -44,7 +44,7 @@ class PageChanger extends React.Component {
             vorherige Seite
           </Button>
         ) : (
-          <Button pageChanger noOpacity sekundär>
+          <Button pageChanger noOpacity sekundär links scrollButton>
             vorherige Seite
           </Button>
         )}
