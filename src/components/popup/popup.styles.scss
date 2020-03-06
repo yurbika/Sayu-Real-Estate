@@ -5,16 +5,26 @@
   height: 100%;
   width: 100%;
   background: rgba(76, 78, 80, 0.25);
-  z-index: 2;
+  z-index: 10;
   margin: auto;
 
   .popup {
+    position: relative;
     display: flex;
     margin: 0 auto;
     min-height: 100%;
     width: 80vw;
     background: #fff7de;
     overflow: scroll;
+    @media (max-width: 768px) {
+      width: 100vw;
+    }
+
+    .closebutton-container {
+      position: absolute;
+      right: 5px;
+      top: 0;
+    }
 
     .rotate-container {
       position: relative;
