@@ -11,6 +11,7 @@ import toggleDropdown from "../../redux/dropdown/dropdown.action";
 import DropdownActionTypes from "../../redux/dropdown/dropdown.types";
 
 import { selectSeite } from "../../redux/filter/filter.selectors";
+import { setArt } from "../../redux/filter/filter.action";
 import FilterActionTypes from "../../redux/filter/filter.types";
 
 //utils
@@ -18,18 +19,35 @@ import "./page-changer.styles.scss";
 
 class PageChanger extends React.Component {
   render() {
-    const { dropdown, toggleDropdown, seite } = this.props;
-    const { anzahlSeiten } = this.props;
+    const {
+      dropdown,
+      toggleDropdown,
+      seite,
+      anzahlSeiten,
+      setArt
+    } = this.props;
     let optionsArray = [];
-    for (let i = 0; i < anzahlSeiten - 1; i++) {
+    for (let i = 0; i < anzahlSeiten; i++) {
       optionsArray.push(1 + i);
     }
 
     return (
       <div className="page-changer-container">
-        <Button pageChanger sekundär links scrollButton>
-          vorherige Seite
-        </Button>
+        {seite > 1 ? (
+          <Button
+            pageChanger
+            sekundär
+            links
+            scrollButton
+            onClick={() => setArt(seite - 1, FilterActionTypes.SET_SEITE)}
+          >
+            vorherige Seite
+          </Button>
+        ) : (
+          <Button pageChanger noOpacity sekundär>
+            vorherige Seite
+          </Button>
+        )}
         <Button
           pageChanger
           scrollButton
@@ -43,9 +61,21 @@ class PageChanger extends React.Component {
           {seite}
         </Button>
 
-        <Button pageChanger sekundär scrollButton rechts>
-          nächste Seite
-        </Button>
+        {seite === anzahlSeiten ? (
+          <Button pageChanger noOpacity sekundär>
+            nächste Seite
+          </Button>
+        ) : (
+          <Button
+            pageChanger
+            sekundär
+            scrollButton
+            rechts
+            onClick={() => setArt(seite + 1, FilterActionTypes.SET_SEITE)}
+          >
+            nächste Seite
+          </Button>
+        )}
         <Button pageChanger dropdown>
           {/*hier fehlt noch ein typ für den dropdown*/}
           {dropdown ? (
@@ -70,7 +100,9 @@ const mapStateToProps = createStructuredSelector({
 
 const mapDispatchToProps = dispatch => ({
   //dropdown action
-  toggleDropdown: toggle => dispatch(toggleDropdown(toggle))
+  toggleDropdown: toggle => dispatch(toggleDropdown(toggle)),
+  //filter action
+  setArt: (payload, type) => dispatch(setArt(payload, type))
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(PageChanger);

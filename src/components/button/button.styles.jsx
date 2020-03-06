@@ -95,6 +95,20 @@ const responsivButton = css`
 //entscheiden welche Styles angewendet werden soll
 
 const getButtonStyles = props => {
+  if (props.pageChanger && props.noOpacity)
+    return css`
+      border: none;
+      border-radius: 15px;
+      background: rgba(0, 0, 0, 0);
+      border: 1px solid ${theme.colors.black};
+      width: 10rem;
+      opacity: 0;
+      cursor: default;
+      span {
+        color: ${theme.colors.black};
+      }
+    `;
+
   if (props.pageChanger && props.sekundär)
     return css`
       border: none;

@@ -100,7 +100,7 @@ class Liste extends React.Component {
               return null;
             })}
           </div>
-          <PageChanger anzahlSeiten={(alleErgebnisse.length - 1) / 20} />
+          <PageChanger anzahlSeiten={Math.floor(alleErgebnisse.length / 20)} />
         </div>
         {popShow ? <Popup /> : null}
         <Footer />
