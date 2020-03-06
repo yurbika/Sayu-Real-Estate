@@ -40,6 +40,9 @@
         font-weight: bold;
         letter-spacing: 10px;
       }
+      @media (max-width: 768px) {
+        display: none;
+      }
     }
 
     .side-info {
@@ -47,28 +50,38 @@
       width: 100%;
 
       .first {
-        height: 450px;
         display: flex;
 
         .kurzinfo {
+          padding: 50px 0;
           background: #cca96a;
           height: 100%;
           width: calc(100% - 75px);
           display: flex;
           align-items: center;
           justify-content: center;
+          @media (max-width: 768px) {
+            width: 100%;
+            flex-direction: column;
+          }
 
           .container-bild-info {
             display: flex;
+            @media (max-width: 768px) {
+              width: 90%;
+              flex-direction: column;
+              align-items: center;
+            }
 
             .popup-bild-preview-container {
-              width: 450px;
+              width: 100%;
+              max-width: 450px;
               height: 300px;
             }
 
             .infos {
               height: 230px;
-              width: 510px;
+              max-width: inherit;
               background: #fff7de;
             }
           }
