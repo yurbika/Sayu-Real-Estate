@@ -108,14 +108,23 @@ const getButtonStyles = props => {
         color: ${theme.colors.black};
       }
     `;
-
-  if (props.pageChanger && props.sekundär)
+  if (props.pageChanger && props.sekundär && props.rechts)
     return css`
+      display: flex;
       border: none;
       border-radius: 15px;
       background: rgba(0, 0, 0, 0);
       border: 1px solid ${theme.colors.black};
       width: 10rem;
+      min-width: 6rem;
+      span {
+        margin-right: 15px;
+        margin-left: 15px;
+      }
+      div span {
+        margin-right: 0;
+        margin-left: 0;
+      }
       span {
         color: ${theme.colors.black};
       }
@@ -123,6 +132,29 @@ const getButtonStyles = props => {
         background: ${theme.colors.brown};
       }
     `;
+  if (props.pageChanger && props.sekundär && props.links)
+    return css`
+      border: none;
+      border-radius: 15px;
+      background: rgba(0, 0, 0, 0);
+      border: 1px solid ${theme.colors.black};
+      width: 10rem;
+      min-width: 6rem;
+
+      span {
+        margin-left: 15px;
+      }
+      div span {
+        margin-left: 0px;
+      }
+      span {
+        color: ${theme.colors.black};
+      }
+      &:hover {
+        background: ${theme.colors.brown};
+      }
+    `;
+
   if (props.pageChanger)
     return css`
       border: none;
@@ -222,7 +254,7 @@ const getArrowContainerStyles = props => {
     `;
   if (props.pageChanger && props.scrollButton)
     return css`
-      right: 25px;
+      right: 15px;
       bottom: 22.5px;
       transform: rotate(45deg);
     `;
