@@ -83,6 +83,9 @@
               height: 230px;
               max-width: inherit;
               background: #fff7de;
+              & > * > * {
+                color: #cca96a;
+              }
             }
           }
         }

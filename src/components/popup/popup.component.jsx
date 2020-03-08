@@ -14,7 +14,9 @@ import { togglePopup } from "../../redux/popup/popup.action";
 
 //utils
 import { popupRef } from "../../utils/utils";
+import { numberWithDots } from "../input/input.utils";
 
+//styles
 import "./popup.styles.scss";
 import { CloseButton } from "../suchleiste/suchleiste.styles";
 
@@ -68,17 +70,38 @@ class Popup extends React.Component {
                   <div className="infos">
                     <div className="infos-main">
                       <span className="titel">{immo[haustyp]["titel"]}</span>
-                      <span className="adresse"></span>
-                      <span className="preis"></span>
+                      <span className="adresse">
+                        {immo[haustyp]["adresse"]["straße"] +
+                          ", " +
+                          immo[haustyp]["adresse"]["postleitzahl"] +
+                          " - " +
+                          immo[haustyp]["adresse"]["stadt"] +
+                          " - " +
+                          immo[haustyp]["adresse"]["bundesland"]}
+                      </span>
+                      <span className="preis">
+                        {" "}
+                        {" " +
+                          numberWithDots(immo[haustyp]["preis"].toString()) +
+                          " €"}
+                      </span>
                       <div className="important-infos">
-                        <span className="zimmer"></span>
-                        <span className="wohnfläche"></span>
-                        <span className="grundstück"></span>
+                        <span className="zimmer">
+                          {" " + immo[haustyp]["zimmer"]}
+                        </span>
+                        <span className="wohnfläche">
+                          {" " + immo[haustyp]["wohnfläche"]} m²
+                        </span>
+                        <span className="grundstück">
+                          {" " + immo[haustyp]["grundstück"]} m²
+                        </span>
                       </div>
                     </div>
                     <div className="infos-footer">
-                      <div className="veröffentlichung"></div>
-                      <div className="anbieter"></div>
+                      <div className="veröffentlichung">
+                        {" " +
+                          immo[haustyp]["vergangeneTageSeitVeröffentlichung"]}
+                      </div>
                     </div>
                   </div>
                 </div>
