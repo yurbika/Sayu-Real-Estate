@@ -80,27 +80,27 @@ class Popup extends React.Component {
                           immo[haustyp]["adresse"]["bundesland"]}
                       </span>
                       <span className="preis">
-                        {" "}
                         {" " +
                           numberWithDots(immo[haustyp]["preis"].toString()) +
                           " €"}
                       </span>
-                      <div className="important-infos">
+                      <div className="side-infos">
                         <span className="zimmer">
-                          {" " + immo[haustyp]["zimmer"]}
+                          {" " + immo[haustyp]["zimmer"]} Zi.
                         </span>
                         <span className="wohnfläche">
                           {" " + immo[haustyp]["wohnfläche"]} m²
                         </span>
-                        <span className="grundstück">
-                          {" " + immo[haustyp]["grundstück"]} m²
-                        </span>
+                        {!!immo[haustyp]["grundstück"] ? (
+                          <span className="grundstück">
+                            {" " + immo[haustyp]["grundstück"]} m²
+                          </span>
+                        ) : null}
                       </div>
                     </div>
                     <div className="infos-footer">
                       <div className="veröffentlichung">
-                        {" " +
-                          immo[haustyp]["vergangeneTageSeitVeröffentlichung"]}
+                        {immo[haustyp]["vergangeneTageSeitVeröffentlichung"]}
                       </div>
                     </div>
                   </div>

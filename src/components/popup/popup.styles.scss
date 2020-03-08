@@ -80,11 +80,56 @@
             }
 
             .infos {
-              height: 230px;
-              max-width: inherit;
+              position: relative;
+              display: flex;
+              flex-direction: column;
+              height: inherit;
+              max-height: 275px;
+              width: inherit;
+              padding: 15px 15px 15px 50px;
               background: #fff7de;
-              & > * > * {
+              & > * > *,
+              & > * > * > * {
                 color: #cca96a;
+              }
+              @media (max-width: 768px) {
+                height: 350px;
+              }
+              .infos-main {
+                display: flex;
+                flex-direction: column;
+
+                .titel,
+                .preis {
+                  font-size: 20px;
+                }
+                .titel {
+                  margin-bottom: 5px;
+                }
+                .preis {
+                  margin-top: 15px;
+                  margin-bottom: 15px;
+                }
+                .adresse {
+                  border-bottom: 1px solid rgba(0, 0, 0, 0.35);
+                }
+                .side-infos {
+                  margin: 15px 0 0 0;
+                  & > * {
+                    color: #fff7de;
+                    background: #cca96a;
+                    padding: 15px;
+                    box-shadow: -5px 0px 10px -2px rgba(0, 0, 0, 0.35);
+                  }
+                }
+              }
+              .infos-footer {
+                position: absolute;
+                width: 100%;
+                left: 0;
+                bottom: 0;
+                padding: 15px;
+                border-top: 1px solid rgba(0, 0, 0, 0.35);
               }
             }
           }
