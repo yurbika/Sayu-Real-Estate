@@ -239,6 +239,10 @@ export const CustomButtonContainer = styled.button`
 //wurde rausgenommen jedoch die Funktionen sind immer noch drin
 
 const getArrowContainerStyles = props => {
+  if (props.noArrow)
+    return css`
+      display: none;
+    `;
   if (props.pageChanger && props.links)
     return css`
       right: unset;

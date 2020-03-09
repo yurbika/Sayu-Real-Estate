@@ -30,7 +30,6 @@ class PageChanger extends React.Component {
     for (let i = 0; i < anzahlSeiten; i++) {
       optionsArray.push(1 + i);
     }
-
     return (
       <div className="page-changer-container">
         {seite > 1 ? (
@@ -51,17 +50,23 @@ class PageChanger extends React.Component {
         <Button
           pageChanger
           scrollButton
-          onClick={() =>
-            toggleDropdown(
-              DropdownActionTypes.TOGGLE_PAGECHANGERDROPDOWN_HIDDEN
-            )
-          }
+          noArrow={anzahlSeiten === 0 ? true : false}
+          onClick={() => {
+            if (anzahlSeiten > 0)
+              toggleDropdown(
+                DropdownActionTypes.TOGGLE_PAGECHANGERDROPDOWN_HIDDEN
+              );
+          }}
           id="filter-button"
         >
           {seite}
         </Button>
 
         {seite === anzahlSeiten ? (
+          <Button pageChanger noOpacity sekundär>
+            nächste Seite
+          </Button>
+        ) : anzahlSeiten === 0 ? (
           <Button pageChanger noOpacity sekundär>
             nächste Seite
           </Button>
@@ -79,12 +84,14 @@ class PageChanger extends React.Component {
         <Button pageChanger dropdown>
           {/*hier fehlt noch ein typ für den dropdown*/}
           {dropdown ? (
-            <AuswahlDropdown
-              additionalStyle={"page-changer"}
-              type={FilterActionTypes.SET_SEITE}
-            >
-              {optionsArray}
-            </AuswahlDropdown>
+            anzahlSeiten === 0 ? null : (
+              <AuswahlDropdown
+                additionalStyle={"page-changer"}
+                type={FilterActionTypes.SET_SEITE}
+              >
+                {optionsArray}
+              </AuswahlDropdown>
+            )
           ) : null}
         </Button>
       </div>

@@ -103,7 +103,8 @@ class Immobilien extends React.Component {
   shouldComponentUpdate(prevProps) {
     if (
       prevProps.ergebnisse !== this.props.ergebnisse ||
-      prevProps.suchButtonClick !== this.props.suchButtonClick
+      prevProps.suchButtonClick !== this.props.suchButtonClick ||
+      prevProps.seite !== this.props.seite
     )
       return true;
     else return false;
