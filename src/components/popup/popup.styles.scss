@@ -95,6 +95,14 @@
               @media (max-width: 768px) {
                 height: 350px;
               }
+              .icon-container {
+                display: flex;
+                align-items: center;
+                img {
+                  height: 20px;
+                  margin-right: 5px;
+                }
+              }
               .infos-main {
                 display: flex;
                 flex-direction: column;
@@ -110,11 +118,10 @@
                   margin-top: 15px;
                   margin-bottom: 15px;
                 }
-                .adresse {
-                  border-bottom: 1px solid rgba(0, 0, 0, 0.35);
-                }
+
                 .side-infos {
-                  margin: 15px 0 0 0;
+                  display: flex;
+
                   & > * {
                     color: #fff7de;
                     background: #cca96a;
