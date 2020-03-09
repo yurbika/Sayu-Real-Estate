@@ -208,7 +208,14 @@ class Suchleiste extends React.Component {
                     if (!!input && suchtreffer > 0 && !resultsDropdown)
                       toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
                   }}
-                  onKeyPress={e => checkSearchInput(e)}
+                  onKeyPress={e => {
+                    checkSearchInput(e);
+                    if (e.key === "Enter") {
+                      toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
+                      toggleSuchButtonClick();
+                      history.push("/immobilien");
+                    }
+                  }}
                 />
                 <Button
                   normalerButton
@@ -441,7 +448,20 @@ class Suchleiste extends React.Component {
                             DropdownActionTypes.TOGGLE_RESULTS_HIDDEN
                           );
                       }}
-                      onKeyPress={e => checkSearchInput(e)}
+                      onKeyPress={e => {
+                        checkSearchInput(e);
+                        if (e.key === "Enter") {
+                          toggleDropdown(
+                            DropdownActionTypes.TOGGLE_RESULTS_HIDDEN
+                          );
+                          toggleSuchButtonClick();
+                          history.push("/immobilien");
+                          document
+                            .getElementById("suchleistenpopup")
+                            .classList.remove("show");
+                          document.body.style.overflowY = "visible";
+                        }
+                      }}
                     />
                     <Button
                       responsivButtonPreis

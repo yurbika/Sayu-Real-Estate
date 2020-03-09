@@ -70,7 +70,7 @@ class Immobilien extends React.Component {
     };
     setErgebnisse(filterData(filter).alleErgebnisse);
   }
-  componentDidUpdate(prevProps) {
+  componentDidUpdate() {
     const {
       maxInput,
       minInput,
