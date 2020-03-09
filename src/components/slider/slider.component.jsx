@@ -12,7 +12,13 @@ import {
   toggleRight
 } from "../../redux/slider/slider.action";
 
-import "./slider.styles.scss";
+//styles
+import {
+  SliderContainer,
+  PfeilContainer,
+  LinkerPfeil,
+  RechterPfeil
+} from "./slider.styles";
 
 const Slider = ({
   imgArray,
@@ -30,17 +36,17 @@ const Slider = ({
   if (curPosArray[id] < 0)
     setSliderPosition({ num: imgArray.length - 1, id: id });
   return (
-    <div className="slider-container">
-      <div className="pfeil-container">
-        <div className="linker-pfeil">
+    <SliderContainer>
+      <PfeilContainer>
+        <RechterPfeil>
           <Button scrollButton sliderArrow onClick={() => toggleLeft(id)} />
-        </div>
-        <div className="rechter-pfeil">
+        </RechterPfeil>
+        <LinkerPfeil>
           <Button scrollButton sliderArrow onClick={() => toggleRight(id)} />
-        </div>
-      </div>
+        </LinkerPfeil>
+      </PfeilContainer>
       <img src={imgArray[curPosArray[id]]} alt={alt} {...otherProps} />
-    </div>
+    </SliderContainer>
   );
 };
 
