@@ -14,7 +14,7 @@ import { togglePopup } from "./redux/popup/popup.action";
 
 //import component
 import Startseite from "./pages/startseite/startseite.component";
-import Liste from "./pages/Liste/Liste.component";
+import Immobilien from "./pages/immobilien/immobilien.component";
 
 //import styles
 import "./App.css";
@@ -35,7 +35,7 @@ const App = ({ toggleDropdown, togglePopup }) => {
     >
       <Switch>
         <Route exact path="/" component={Startseite} />
-        <Route exact path="/liste" component={Liste} />
+        <Route exact path="/immobilien" component={Immobilien} />
       </Switch>
     </div>
   );

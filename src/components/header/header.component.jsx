@@ -32,10 +32,10 @@ const Header = ({ location }) => (
         <span>Startseite</span>
       </OptionLink>
       <OptionLink
-        className={location.pathname === "/liste" ? "aktiv liste" : ""}
-        to="/liste"
+        className={location.pathname === "/immobilien" ? "aktiv liste" : ""}
+        to="/immobilien"
       >
-        <span>Liste</span>
+        <span>Immobilien</span>
       </OptionLink>
       <OptionLink to="/registrieren" className="registrieren">
         Registrieren
@@ -82,10 +82,12 @@ const Header = ({ location }) => (
             <span>Startseite</span>
           </OptionLink>
           <OptionLink
-            className={location.pathname === "/liste" ? "aktiv liste" : ""}
-            to="/liste"
+            className={
+              location.pathname === "/immobilien" ? "aktiv immobilien" : ""
+            }
+            to="/immobilien"
           >
-            <span>Liste</span>
+            <span>Immobilien</span>
           </OptionLink>
           <OptionLink
             to="/registrieren"

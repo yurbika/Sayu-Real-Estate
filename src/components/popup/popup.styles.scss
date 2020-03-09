@@ -134,6 +134,7 @@
                   display: flex;
                   & :first-child {
                     border-bottom: none;
+                    box-shadow: none;
                   }
                   & > * {
                     color: #fff7de;
