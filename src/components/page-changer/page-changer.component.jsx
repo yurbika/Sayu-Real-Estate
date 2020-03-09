@@ -14,8 +14,8 @@ import { selectSeite } from "../../redux/filter/filter.selectors";
 import { setArt } from "../../redux/filter/filter.action";
 import FilterActionTypes from "../../redux/filter/filter.types";
 
-//utils
-import "./page-changer.styles.scss";
+//styles
+import { PageChangerContainer } from "./page-changer.styles";
 
 class PageChanger extends React.Component {
   render() {
@@ -31,7 +31,7 @@ class PageChanger extends React.Component {
       optionsArray.push(1 + i);
     }
     return (
-      <div className="page-changer-container">
+      <PageChangerContainer>
         {seite > 1 ? (
           <Button
             pageChanger
@@ -94,7 +94,7 @@ class PageChanger extends React.Component {
             )
           ) : null}
         </Button>
-      </div>
+      </PageChangerContainer>
     );
   }
 }
