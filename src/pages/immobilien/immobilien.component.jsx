@@ -14,6 +14,9 @@ import Popup from "../../components/popup/popup.component";
 import PageChanger from "../../components/page-changer/page-changer.component";
 
 //redux imports
+import { selectErgebnisse } from "../../redux/immobilien/immobilien.selectors";
+import { setErgebnisse } from "../../redux/immobilien/immobilien.action";
+
 import {
   selectBezugsart,
   selectHaustyp,
@@ -27,6 +30,8 @@ import {
   selectSuchButtonClick
 } from "../../redux/filter/filter.selectors";
 
+import { toggleSuchButtonClick } from "../../redux/filter/filter.action";
+
 import { selectPopupState } from "../../redux/popup/popup.selectors";
 
 //utils
@@ -36,7 +41,7 @@ import { ID_GENERATOR } from "../../uniqueKey.js";
 import "./Liste.styles.scss";
 
 class Immobilien extends React.Component {
-  render() {
+  componentDidMount() {
     const {
       maxInput,
       minInput,
@@ -45,13 +50,13 @@ class Immobilien extends React.Component {
       input,
       zimmerAnzahl,
       fläche,
-      popShow,
-      seite,
-      suchButtonClick
+      setErgebnisse
     } = this.props;
+
     //test für den input falls die seite ohne input angeklickt wird
     let splitedStr = !!input ? input.split(/[ ,-]+/) : "";
     splitedStr = !!input ? splitedStr.filter(i => i) : "";
+
     //falls der input leer ist wird nach dem buchstaben e gefiltert
     //der buchstabe e ist der meist genutzte
     let filter = {
@@ -63,40 +68,59 @@ class Immobilien extends React.Component {
       zimmerAnzahl: `${zimmerAnzahl}`,
       wohnfläche: `${fläche}`
     };
-    let alleErgebnisse = [];
-    if (input === "") alleErgebnisse = filterData(filter, true).alleErgebnisse;
-    else if (input !== "" && suchButtonClick)
-      alleErgebnisse = filterData(filter, suchButtonClick).alleErgebnisse;
+    setErgebnisse(filterData(filter).alleErgebnisse);
+  }
+  componentDidUpdate(prevProps) {
+    const {
+      maxInput,
+      minInput,
+      bezugsart,
+      haustyp,
+      input,
+      zimmerAnzahl,
+      fläche,
+      setErgebnisse,
+      suchButtonClick,
+      toggleSuchButtonClick
+    } = this.props;
+    if (suchButtonClick) {
+      let splitedStr = !!input ? input.split(/[ ,-]+/) : "";
+      splitedStr = !!input ? splitedStr.filter(i => i) : "";
 
-    //falls es suchtreffer gibt ein fallback
-    let noResults = false;
-    if (
-      alleErgebnisse.length === 0 &&
-      input !== "" &&
-      filterData(filter, suchButtonClick).suchtreffer === "Suchen"
-    ) {
-      noResults = true;
-      filter = {
+      let filter = {
         haustyp: `${haustyp}`,
         bezugsart: `${bezugsart}`,
-        search: "e",
+        search: `${splitedStr.length > 0 ? input : "e"}`,
         minInput: `${minInput}`,
         maxInput: `${maxInput}`,
         zimmerAnzahl: `${zimmerAnzahl}`,
         wohnfläche: `${fläche}`
       };
-      alleErgebnisse = filterData(filter, true).alleErgebnisse;
+      setErgebnisse(filterData(filter).alleErgebnisse);
+      toggleSuchButtonClick();
     }
+  }
+  shouldComponentUpdate(prevProps) {
+    if (
+      prevProps.ergebnisse !== this.props.ergebnisse ||
+      prevProps.suchButtonClick !== this.props.suchButtonClick
+    )
+      return true;
+    else return false;
+  }
+
+  render() {
+    const { popShow, seite, ergebnisse } = this.props;
     return (
       <div className="container-liste">
         <Header />
         <div className="container-suchleiste-immo">
           <Suchleiste noBackground additionalStyle={"liste"} />
-          {noResults ? (
+          {/*noResults ? (
             <span className="no-results">Keine Ergebnisse</span>
-          ) : null}
+          ) : null*/}
           <div className="immo-preview-container">
-            {alleErgebnisse.map((item, index) => {
+            {ergebnisse.map((item, index) => {
               //wenn die index zahl geändert wird muss es auch im slider reducer die array anzahl angepasst werden
               if (index >= 20 * (seite - 1) && index < 20 * seite + 20)
                 return (
@@ -109,7 +133,7 @@ class Immobilien extends React.Component {
               return null;
             })}
           </div>
-          <PageChanger anzahlSeiten={Math.floor(alleErgebnisse.length / 20)} />
+          <PageChanger anzahlSeiten={Math.floor(ergebnisse.length / 20)} />
         </div>
         {popShow ? <Popup /> : null}
         <Footer />
@@ -119,6 +143,8 @@ class Immobilien extends React.Component {
 }
 
 const mapStateToProps = createStructuredSelector({
+  //Immobilien States
+  ergebnisse: selectErgebnisse,
   //Filter States
   bezugsart: selectBezugsart,
   preis: selectPreis,
@@ -134,4 +160,9 @@ const mapStateToProps = createStructuredSelector({
   popShow: selectPopupState
 });
 
-export default connect(mapStateToProps)(Immobilien);
+const mapDispatchToProps = dispatch => ({
+  setErgebnisse: ergebnisseArray => dispatch(setErgebnisse(ergebnisseArray)),
+  toggleSuchButtonClick: () => dispatch(toggleSuchButtonClick())
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(Immobilien);

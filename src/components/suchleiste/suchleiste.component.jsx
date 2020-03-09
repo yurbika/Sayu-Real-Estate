@@ -37,7 +37,7 @@ import {
   resetInputMax,
   resetInputMin,
   setSearchInput,
-  toggelSuchButtonClick
+  toggleSuchButtonClick
 } from "../../redux/filter/filter.action";
 
 import FilterActionTypes from "../../redux/filter/filter.types";
@@ -120,29 +120,16 @@ class Suchleiste extends React.Component {
         zimmerAnzahl: `${zimmerAnzahl}`,
         wohnfläche: `${fläche}`
       };
-      if (suchButtonClick) {
-        const {
-          bundeslaenderArray,
-          staedteOrteArray,
-          straßenPlzOrtArray,
-          suchtreffer
-        } = filterData(filter, suchButtonClick);
-        setSuchtreffer(suchtreffer);
-        setBundesländer(bundeslaenderArray);
-        setStraßenPlzOrte(straßenPlzOrtArray);
-        setStädteOrte(staedteOrteArray);
-      } else {
-        const {
-          bundeslaenderArray,
-          staedteOrteArray,
-          straßenPlzOrtArray,
-          suchtreffer
-        } = filterData(filter);
-        setSuchtreffer(suchtreffer);
-        setBundesländer(bundeslaenderArray);
-        setStraßenPlzOrte(straßenPlzOrtArray);
-        setStädteOrte(staedteOrteArray);
-      }
+      const {
+        bundeslaenderArray,
+        staedteOrteArray,
+        straßenPlzOrtArray,
+        suchtreffer
+      } = filterData(filter);
+      setSuchtreffer(suchtreffer);
+      setBundesländer(bundeslaenderArray);
+      setStraßenPlzOrte(straßenPlzOrtArray);
+      setStädteOrte(staedteOrteArray);
     }
 
     if (prevProps.bezugsart !== bezugsart) {
@@ -175,7 +162,7 @@ class Suchleiste extends React.Component {
       history,
       location,
       noBackground,
-      toggelSuchButtonClick
+      toggleSuchButtonClick
     } = this.props;
     //dieses if else ist für die refs damit unterschieden werden unter den dropdowns
     if (window.innerWidth > 768) {
@@ -249,7 +236,7 @@ class Suchleiste extends React.Component {
                   suchButton
                   onClick={() => {
                     history.push("/immobilien");
-                    toggelSuchButtonClick();
+                    toggleSuchButtonClick();
                   }}
                 >
                   {suchtreffer > 0 && !!input
@@ -387,7 +374,7 @@ class Suchleiste extends React.Component {
                 suchButton
                 onClick={() => {
                   history.push("/immobilien");
-                  toggelSuchButtonClick();
+                  toggleSuchButtonClick();
                 }}
               >
                 {suchtreffer > 0 && !!input
@@ -528,7 +515,7 @@ class Suchleiste extends React.Component {
                             .classList.remove("show");
                         else history.push("/immobilien");
                         document.body.style.overflowY = "visible";
-                        toggelSuchButtonClick();
+                        toggleSuchButtonClick();
                       }}
                     >
                       {suchtreffer > 0 && !!input
@@ -652,7 +639,7 @@ const mapDispatchToProps = dispatch => ({
   resetInputMax: () => dispatch(resetInputMax()),
   resetInputMin: () => dispatch(resetInputMin()),
   setSearchInput: value => dispatch(setSearchInput(value)),
-  toggelSuchButtonClick: () => dispatch(toggelSuchButtonClick()),
+  toggleSuchButtonClick: () => dispatch(toggleSuchButtonClick()),
   //results action
   setBundesländer: bundesländerArray =>
     dispatch(setBundesländer(bundesländerArray)),

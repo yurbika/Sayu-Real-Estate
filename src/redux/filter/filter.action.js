@@ -41,6 +41,6 @@ export const setArt = (payload, type) => ({
   payload: payload
 });
 
-export const toggelSuchButtonClick = () => ({
+export const toggleSuchButtonClick = () => ({
   type: FilterActionTypes.TOGGLE_SUCHBUTTON
 });
