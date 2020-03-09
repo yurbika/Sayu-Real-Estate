@@ -23,7 +23,8 @@ import {
   selectFläche,
   selectMaxInput,
   selectMinInput,
-  selectSeite
+  selectSeite,
+  selectSuchButtonClick
 } from "../../redux/filter/filter.selectors";
 
 import { selectPopupState } from "../../redux/popup/popup.selectors";
@@ -45,7 +46,8 @@ class Immobilien extends React.Component {
       zimmerAnzahl,
       fläche,
       popShow,
-      seite
+      seite,
+      suchButtonClick
     } = this.props;
     //test für den input falls die seite ohne input angeklickt wird
     let splitedStr = !!input ? input.split(/[ ,-]+/) : "";
@@ -61,11 +63,18 @@ class Immobilien extends React.Component {
       zimmerAnzahl: `${zimmerAnzahl}`,
       wohnfläche: `${fläche}`
     };
-    let { alleErgebnisse } = filterData(filter);
+    let alleErgebnisse = [];
+    if (input === "") alleErgebnisse = filterData(filter, true).alleErgebnisse;
+    else if (input !== "" && suchButtonClick)
+      alleErgebnisse = filterData(filter, suchButtonClick).alleErgebnisse;
 
     //falls es suchtreffer gibt ein fallback
     let noResults = false;
-    if (alleErgebnisse.length === 0) {
+    if (
+      alleErgebnisse.length === 0 &&
+      input !== "" &&
+      filterData(filter, suchButtonClick).suchtreffer === "Suchen"
+    ) {
       noResults = true;
       filter = {
         haustyp: `${haustyp}`,
@@ -76,7 +85,7 @@ class Immobilien extends React.Component {
         zimmerAnzahl: `${zimmerAnzahl}`,
         wohnfläche: `${fläche}`
       };
-      alleErgebnisse = filterData(filter).alleErgebnisse;
+      alleErgebnisse = filterData(filter, true).alleErgebnisse;
     }
     return (
       <div className="container-liste">
@@ -120,6 +129,7 @@ const mapStateToProps = createStructuredSelector({
   minInput: selectMinInput,
   maxInput: selectMaxInput,
   seite: selectSeite,
+  suchButtonClick: selectSuchButtonClick,
   //popup
   popShow: selectPopupState
 });

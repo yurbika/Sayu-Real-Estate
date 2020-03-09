@@ -83,8 +83,6 @@ import {
 werden damit ist es möglich die dropdowns von überall zu schließen*/
 
 class Suchleiste extends React.Component {
-  //damit das richtige component gerendert wird
-
   componentDidUpdate(prevProps) {
     const {
       maxInput,
@@ -100,7 +98,8 @@ class Suchleiste extends React.Component {
       setStädteOrte,
       setSuchtreffer,
       zimmerAnzahl,
-      fläche
+      fläche,
+      suchButtonClick
     } = this.props;
     if (
       input !== prevProps.input ||
@@ -109,7 +108,8 @@ class Suchleiste extends React.Component {
       bezugsart !== prevProps.bezugsart ||
       haustyp !== prevProps.haustyp ||
       zimmerAnzahl !== prevProps.zimmerAnzahl ||
-      fläche !== prevProps.fläche
+      fläche !== prevProps.fläche ||
+      suchButtonClick !== prevProps.suchButtonClick
     ) {
       let filter = {
         haustyp: `${haustyp}`,
@@ -120,16 +120,29 @@ class Suchleiste extends React.Component {
         zimmerAnzahl: `${zimmerAnzahl}`,
         wohnfläche: `${fläche}`
       };
-      const {
-        bundeslaenderArray,
-        staedteOrteArray,
-        straßenPlzOrtArray,
-        suchtreffer
-      } = filterData(filter);
-      setSuchtreffer(suchtreffer);
-      setBundesländer(bundeslaenderArray);
-      setStraßenPlzOrte(straßenPlzOrtArray);
-      setStädteOrte(staedteOrteArray);
+      if (suchButtonClick) {
+        const {
+          bundeslaenderArray,
+          staedteOrteArray,
+          straßenPlzOrtArray,
+          suchtreffer
+        } = filterData(filter, suchButtonClick);
+        setSuchtreffer(suchtreffer);
+        setBundesländer(bundeslaenderArray);
+        setStraßenPlzOrte(straßenPlzOrtArray);
+        setStädteOrte(staedteOrteArray);
+      } else {
+        const {
+          bundeslaenderArray,
+          staedteOrteArray,
+          straßenPlzOrtArray,
+          suchtreffer
+        } = filterData(filter);
+        setSuchtreffer(suchtreffer);
+        setBundesländer(bundeslaenderArray);
+        setStraßenPlzOrte(straßenPlzOrtArray);
+        setStädteOrte(staedteOrteArray);
+      }
     }
 
     if (prevProps.bezugsart !== bezugsart) {

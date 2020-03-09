@@ -13,7 +13,7 @@ const createRegex = splitedStr => {
   return regex;
 };
 
-export const filterData = (filter, data = IMMO_DATA) => {
+export const filterData = (filter, buttonClick = false, data = IMMO_DATA) => {
   let bundeslaenderArray = [];
   let staedteOrteArray = [];
   let straßenPlzOrtArray = [];
@@ -131,10 +131,11 @@ export const filterData = (filter, data = IMMO_DATA) => {
             " - " +
             data[i][haustyp]["adresse"]["bundesland"]
         );
-        alleErgebnisse.push(data[i]);
+        if (buttonClick) alleErgebnisse.push(data[i]);
       } else if (!!!search) {
         immoArray.push(data[i]);
-      } else if (splitedStr.length > 0) alleErgebnisse.push(data[i]);
+      } else if (splitedStr.length > 0 && buttonClick)
+        alleErgebnisse.push(data[i]);
       suchtreffer++;
     }
   }
