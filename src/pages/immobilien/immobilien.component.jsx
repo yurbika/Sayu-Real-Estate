@@ -104,7 +104,8 @@ class Immobilien extends React.Component {
     if (
       prevProps.ergebnisse !== this.props.ergebnisse ||
       prevProps.suchButtonClick !== this.props.suchButtonClick ||
-      prevProps.seite !== this.props.seite
+      prevProps.seite !== this.props.seite ||
+      prevProps.popShow !== this.props.popShow
     )
       return true;
     else return false;
