@@ -126,7 +126,11 @@ class Popup extends React.Component {
                       <div className="icon-container">
                         <img src={clockIcon} alt="Veröffentlichung:" />
                         <span className="veröffentlichung">
-                          {immo[haustyp]["vergangeneTageSeitVeröffentlichung"]}
+                          {"veröffentlich vor " +
+                            immo[haustyp][
+                              "vergangeneTageSeitVeröffentlichung"
+                            ] +
+                            " Tage"}
                         </span>
                       </div>
                     </div>
