@@ -46,3 +46,8 @@ export const selectSeite = createSelector(
   [selectFilter],
   filter => filter.seite
 );
+
+export const selectSuchButtonClick = createSelector(
+  [selectFilter],
+  filter => filter.suchButtonClick
+);

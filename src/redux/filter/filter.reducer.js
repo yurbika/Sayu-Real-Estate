@@ -9,6 +9,7 @@ const INITIAL_STATE = {
   preis: "Preis",
   zimmerAnzahl: "Zimmer ab",
   fläche: "Fläche ab",
+  suchButtonClick: false,
   seite: 1
 };
 
@@ -56,6 +57,11 @@ const filterReducer = (state = INITIAL_STATE, action) => {
       };
     case FilterActionTypes.SET_SEITE:
       return { ...state, seite: action.payload };
+    case FilterActionTypes.TOGGLE_SUCHBUTTON:
+      return {
+        ...state,
+        suchButtonClick: !state.suchButtonClick
+      };
     default:
       return state;
   }

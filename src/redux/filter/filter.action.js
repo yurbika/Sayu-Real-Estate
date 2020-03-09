@@ -40,3 +40,7 @@ export const setArt = (payload, type) => ({
   type: type,
   payload: payload
 });
+
+export const toggelSuchButtonClick = () => ({
+  type: FilterActionTypes.TOGGLE_SUCHBUTTON
+});

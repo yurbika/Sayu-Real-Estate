@@ -29,13 +29,15 @@ import {
   selectPreis,
   selectFläche,
   selectMaxInput,
-  selectMinInput
+  selectMinInput,
+  selectSuchButtonClick
 } from "../../redux/filter/filter.selectors";
 import {
   setPreis,
   resetInputMax,
   resetInputMin,
-  setSearchInput
+  setSearchInput,
+  toggelSuchButtonClick
 } from "../../redux/filter/filter.action";
 
 import FilterActionTypes from "../../redux/filter/filter.types";
@@ -159,7 +161,8 @@ class Suchleiste extends React.Component {
       additionalStyle,
       history,
       location,
-      noBackground
+      noBackground,
+      toggelSuchButtonClick
     } = this.props;
     //dieses if else ist für die refs damit unterschieden werden unter den dropdowns
     if (window.innerWidth > 768) {
@@ -229,7 +232,13 @@ class Suchleiste extends React.Component {
                 >
                   {haustyp}
                 </Button>
-                <Button suchButton onClick={() => history.push("/liste")}>
+                <Button
+                  suchButton
+                  onClick={() => {
+                    history.push("/immobilien");
+                    toggelSuchButtonClick();
+                  }}
+                >
                   {suchtreffer > 0 && !!input
                     ? `${numberWithDots(suchtreffer.toString())} Treffer`
                     : "Suchen"}
@@ -361,7 +370,13 @@ class Suchleiste extends React.Component {
               >
                 {!!input ? input : "Wo: Ort, Bundesland oder PLZ"}
               </Button>
-              <Button suchButton onClick={() => history.push("/liste")}>
+              <Button
+                suchButton
+                onClick={() => {
+                  history.push("/immobilien");
+                  toggelSuchButtonClick();
+                }}
+              >
                 {suchtreffer > 0 && !!input
                   ? `${numberWithDots(suchtreffer.toString())} Treffer`
                   : "Suchen"}
@@ -494,12 +509,13 @@ class Suchleiste extends React.Component {
                       suchButton
                       responsivButton
                       onClick={() => {
-                        if (location.pathname === "/liste")
+                        if (location.pathname === "/immobilien")
                           document
                             .getElementById("suchleistenpopup")
                             .classList.remove("show");
-                        else history.push("/liste");
+                        else history.push("/immobilien");
                         document.body.style.overflowY = "visible";
+                        toggelSuchButtonClick();
                       }}
                     >
                       {suchtreffer > 0 && !!input
@@ -603,6 +619,7 @@ const mapStateToProps = createStructuredSelector({
   haustyp: selectHaustyp,
   minInput: selectMinInput,
   maxInput: selectMaxInput,
+  suchButtonClick: selectSuchButtonClick,
   //Dropdown States
   preisDropdown: selectPreisDropdown,
   bezugsartDropdown: selectBezugsartDropdown,
@@ -622,6 +639,7 @@ const mapDispatchToProps = dispatch => ({
   resetInputMax: () => dispatch(resetInputMax()),
   resetInputMin: () => dispatch(resetInputMin()),
   setSearchInput: value => dispatch(setSearchInput(value)),
+  toggelSuchButtonClick: () => dispatch(toggelSuchButtonClick()),
   //results action
   setBundesländer: bundesländerArray =>
     dispatch(setBundesländer(bundesländerArray)),
