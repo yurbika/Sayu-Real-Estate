@@ -7,6 +7,7 @@ import resultReducer from "./results-dropdown/results.reducer";
 import startseitenReducer from "./startseite/startseite.reducer";
 import sliderReducer from "./slider/slider.reducuer";
 import popupReducer from "./popup/popup.reducer";
+import immobilienReducer from "./immobilien/immobilien.reducer";
 
 export default combineReducers({
   inspirationsSketion: inspirationsReducer,
@@ -15,5 +16,6 @@ export default combineReducers({
   results: resultReducer,
   startseite: startseitenReducer,
   slider: sliderReducer,
-  popup: popupReducer
+  popup: popupReducer,
+  immobilien: immobilienReducer
 });
