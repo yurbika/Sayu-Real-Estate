@@ -1,6 +1,5 @@
 import React from "react";
 import { connect } from "react-redux";
-import { createStructuredSelector } from "reselect";
 
 import Slider from "../../components/slider/slider.component";
 
@@ -20,7 +19,25 @@ import gpsIcon from "../../assets/gps-icon.png";
 import propertyIcon from "../../assets/property-icon.png";
 import roomIcon from "../../assets/room-icon.png";
 
-import "./immo-preview.styles.scss";
+//styles
+import {
+  Container,
+  BildPreviewContainer,
+  DetailsContainer,
+  Beschreibung,
+  Titel,
+  Untertitel,
+  TextContainer,
+  Footer,
+  IconContainer,
+  FooterSecondSection,
+  //reponsiv styles
+  ResponsivDetailsContainer,
+  ResponsivFooter,
+  ResponsivAdresse,
+  ResponsivIconContainer,
+  RepsponsivFooterSecondSection
+} from "./immo-preview.styles";
 
 const ImmoPreview = ({
   immo,
@@ -34,8 +51,8 @@ const ImmoPreview = ({
   else if (!!immo["wohnung"]) haustyp = "wohnung";
   else return null;
   return (
-    <div className="container">
-      <div className="bild-preview-container">
+    <Container>
+      <BildPreviewContainer>
         <Slider
           imgArray={[
             immo[haustyp]["bilder"]["titelbild"] +
@@ -60,9 +77,8 @@ const ImmoPreview = ({
             setPopupImmoID(id);
           }}
         />
-      </div>
-      <div
-        className="details"
+      </BildPreviewContainer>
+      <DetailsContainer
         onClick={() => {
           togglePopup();
           document.body.style.overflow = "hidden";
@@ -70,15 +86,15 @@ const ImmoPreview = ({
           setPopupImmoID(id);
         }}
       >
-        <div className="beschreibung">
-          <span className="titel">{immo[haustyp]["titel"]}</span>
-          <span className="untertitel">{immo[haustyp]["untertitel"]}</span>
-          <div className="text">{immo[haustyp]["kurzeBeschreibung"]}</div>
-        </div>
-        <div className="footer">
-          <div className="icon-container">
+        <Beschreibung>
+          <Titel>{immo[haustyp]["titel"]}</Titel>
+          <Untertitel>{immo[haustyp]["untertitel"]}</Untertitel>
+          <TextContainer>{immo[haustyp]["kurzeBeschreibung"]}</TextContainer>
+        </Beschreibung>
+        <Footer>
+          <IconContainer>
             <img src={gpsIcon} alt="Adresse:" />
-            <span className="adresse">
+            <span>
               {" " +
                 immo[haustyp]["adresse"]["straße"] +
                 ", " +
@@ -88,59 +104,55 @@ const ImmoPreview = ({
                 " - " +
                 immo[haustyp]["adresse"]["bundesland"]}
             </span>
-          </div>
-          <div className="footer-second-section">
-            <div className="icon-container">
+          </IconContainer>
+          <FooterSecondSection>
+            <IconContainer>
               <img src={roomIcon} alt="Zimmer:" />
-              <span className="zimmer">{" " + immo[haustyp]["zimmer"]}</span>
-            </div>
-            <div className="icon-container">
+              <span>{" " + immo[haustyp]["zimmer"]}</span>
+            </IconContainer>
+            <IconContainer>
               <img src={propertyIcon} alt="Wohnfläche:" />
-              <span className="wohnfläche">
-                {" " + immo[haustyp]["wohnfläche"]} m²
-              </span>
-            </div>
-            <div className="icon-container">
+              <span>{" " + immo[haustyp]["wohnfläche"]} m²</span>
+            </IconContainer>
+            <IconContainer>
               <img src={moneyIcon} alt="Preis:" />
-              <span className="preis">
+              <span>
                 {" " + numberWithDots(immo[haustyp]["preis"].toString()) + " €"}
               </span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="responsiv-details">
-        <div className="footer">
-          <div className="footer-second-section">
-            <div className="icon-container">
+            </IconContainer>
+          </FooterSecondSection>
+        </Footer>
+      </DetailsContainer>
+      <ResponsivDetailsContainer>
+        <ResponsivFooter>
+          <RepsponsivFooterSecondSection>
+            <ResponsivIconContainer>
               <img src={roomIcon} alt="Zimmer:" />
-              <span className="zimmer">{" " + immo[haustyp]["zimmer"]}</span>
-            </div>
-            <div className="icon-container">
+              <span>{" " + immo[haustyp]["zimmer"]}</span>
+            </ResponsivIconContainer>
+            <ResponsivIconContainer>
               <img src={propertyIcon} alt="Wohnfläche:" />
-              <span className="wohnfläche">
-                {" " + immo[haustyp]["wohnfläche"]} m²
-              </span>
-            </div>
-            <div className="icon-container">
+              <span>{" " + immo[haustyp]["wohnfläche"]} m²</span>
+            </ResponsivIconContainer>
+            <ResponsivIconContainer>
               <img src={moneyIcon} alt="Preis:" />
-              <span className="preis">
+              <span>
                 {" " + numberWithDots(immo[haustyp]["preis"].toString()) + " €"}
               </span>
-            </div>
-          </div>
-          <div className="icon-container">
+            </ResponsivIconContainer>
+          </RepsponsivFooterSecondSection>
+          <ResponsivIconContainer>
             <img src={gpsIcon} alt="Adresse:" />
-            <span className="adresse">
+            <ResponsivAdresse>
               {" " +
                 immo[haustyp]["adresse"]["stadt"] +
                 " - " +
                 immo[haustyp]["adresse"]["bundesland"]}
-            </span>
-          </div>
-        </div>
-      </div>
-    </div>
+            </ResponsivAdresse>
+          </ResponsivIconContainer>
+        </ResponsivFooter>
+      </ResponsivDetailsContainer>
+    </Container>
   );
 };
 
