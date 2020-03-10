@@ -92,6 +92,7 @@ class Popup extends React.Component {
                         "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop"
                     ]}
                     alt={haustyp}
+                    id={immoID}
                   />
                   <div className="infos">
                     <div className="infos-main">

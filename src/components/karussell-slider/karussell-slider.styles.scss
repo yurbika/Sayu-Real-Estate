@@ -1,31 +1,50 @@
 .slider-container {
   position: absolute;
-
   max-width: inherit;
-  bottom: -60px;
+  bottom: -155px;
+
   .content-container {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 35px;
-  }
-  & > * > * {
-    margin-right: 15px;
-    max-width: 120px;
-    max-height: 120px;
+    padding: 0 15px;
   }
   .rechterpfeil {
     position: absolute;
-    right: 17px;
+    right: 15px;
     transform: rotate(-90deg);
   }
   .linkerpfeil {
     position: absolute;
     transform: rotate(90deg);
-    left: 17px;
+    left: 0;
   }
-  img {
+  .img-container {
+    position: relative;
+    max-width: 120px;
+    max-height: 120px;
     border-radius: 15px;
+    margin-right: 15px;
+
+    .overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.3);
+      border-radius: 15px;
+    }
+    .hidden {
+      display: none;
+    }
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+  }
+  .active {
+    border: 2px solid #681899;
   }
 }

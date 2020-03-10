@@ -4,32 +4,65 @@ import { createStructuredSelector } from "reselect";
 
 import Button from "../button/button.component";
 
+//redux imports
+import { selectCurrentPositionArray } from "../../redux/slider/slider.selectors";
+import {
+  setSliderPosition,
+  toggleLeft,
+  toggleRight
+} from "../../redux/slider/slider.action";
+
+//styles
 import "./karussell-slider.styles.scss";
 
-const KarussellSlider = ({ imgArray }) => {
+const KarussellSlider = ({
+  imgArray,
+  id,
+  curPosArray,
+  toggleLeft,
+  toggleRight,
+  setSliderPosition
+}) => {
+  if (curPosArray[id] > imgArray.length - 1)
+    setSliderPosition({ num: 0, id: id });
+  if (curPosArray[id] < 0)
+    setSliderPosition({ num: imgArray.length - 1, id: id });
   return (
     <div className="slider-container">
       <div className="content-container">
-        <div className="rechterpfeil">
-          <Button
-            scrollButton
-            sliderArrow
-            onClick={() => console.log("rechts")}
-          />
-        </div>
         {imgArray.map((item, index) => (
-          <img src={imgArray[index]} alt={"haus"} />
+          <div className="img-container">
+            <div
+              className={
+                "overlay " + (index === curPosArray[id] ? "hidden" : "")
+              }
+            />
+            <img
+              src={imgArray[index]}
+              alt={"haus"}
+              className={index === curPosArray[id] ? "active" : ""}
+            />
+          </div>
         ))}
+        <div className="rechterpfeil">
+          <Button scrollButton sliderArrow onClick={() => toggleRight(id)} />
+        </div>
         <div className="linkerpfeil">
-          <Button
-            scrollButton
-            sliderArrow
-            onClick={() => console.log("links")}
-          />
+          <Button scrollButton sliderArrow onClick={() => toggleLeft(id)} />
         </div>
       </div>
     </div>
   );
 };
 
-export default KarussellSlider;
+const mapStateToProps = createStructuredSelector({
+  curPosArray: selectCurrentPositionArray
+});
+
+const mapDispatchToProps = dispatch => ({
+  setSliderPosition: num => dispatch(setSliderPosition(num)),
+  toggleLeft: num => dispatch(toggleLeft(num)),
+  toggleRight: num => dispatch(toggleRight(num))
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(KarussellSlider);
