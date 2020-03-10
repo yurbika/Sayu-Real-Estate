@@ -52,10 +52,12 @@
       width: 100%;
 
       .first {
+        position: relative;
         display: flex;
 
         .kurzinfo {
-          padding: 50px 0;
+          padding-top: 35px;
+          padding-bottom: 100px;
           background: #cca96a;
           height: 100%;
           width: 100%;
@@ -63,6 +65,8 @@
           align-items: center;
           justify-content: center;
           @media (max-width: 1023px) {
+            padding: 50px 0;
+
             width: 100%;
             flex-direction: column;
           }

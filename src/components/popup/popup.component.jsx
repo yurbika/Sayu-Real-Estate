@@ -3,6 +3,7 @@ import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 
 import Slider from "../../components/slider/slider.component";
+import KarussellSlider from "../../components/karussell-slider/karussell-slider.component";
 
 //redux imports
 import {
@@ -75,6 +76,23 @@ class Popup extends React.Component {
                       id={immoID}
                     />
                   </div>
+                  <KarussellSlider
+                    imgArray={[
+                      immo[haustyp]["bilder"]["titelbild"] +
+                        "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
+                      immo[haustyp]["bilder"]["zweites"] +
+                        "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
+                      immo[haustyp]["bilder"]["drittes"] +
+                        "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
+                      immo[haustyp]["bilder"]["vier"] +
+                        "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
+                      immo[haustyp]["bilder"]["fünf"] +
+                        "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
+                      immo[haustyp]["bilder"]["sechs"] +
+                        "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop"
+                    ]}
+                    alt={haustyp}
+                  />
                   <div className="infos">
                     <div className="infos-main">
                       <span className="titel">{immo[haustyp]["titel"]}</span>
