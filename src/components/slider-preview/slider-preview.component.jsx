@@ -16,9 +16,9 @@ import {
 import { ID_GENERATOR } from "../../uniqueKey.js";
 
 //styles
-import "./karussell-slider.styles.scss";
+import "./slider-preview.styles.scss";
 
-const KarussellSlider = ({
+const SliderPreview = ({
   imgArray,
   id,
   haustyp,
@@ -73,4 +73,4 @@ const mapDispatchToProps = dispatch => ({
   toggleRight: num => dispatch(toggleRight(num))
 });
 
-export default connect(mapStateToProps, mapDispatchToProps)(KarussellSlider);
+export default connect(mapStateToProps, mapDispatchToProps)(SliderPreview);

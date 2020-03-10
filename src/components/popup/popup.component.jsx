@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 
 import Slider from "../../components/slider/slider.component";
-import KarussellSlider from "../../components/karussell-slider/karussell-slider.component";
+import SliderPreview from "../slider-preview/slider-preview.component";
 
 //redux imports
 import {
@@ -136,7 +136,7 @@ class Popup extends React.Component {
                       </div>
                     </div>
                   </div>
-                  <KarussellSlider
+                  <SliderPreview
                     imgArray={[
                       immo[haustyp]["bilder"]["titelbild"] +
                         "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
@@ -160,6 +160,29 @@ class Popup extends React.Component {
             <div className="second">
               <div className="rotate-container">
                 <span className="rotate">VORSCHAU</span>
+              </div>
+              <div className="main-content-container">
+                <div className="main-content">
+                  <div className="header">
+                    <ul>
+                      <li>
+                        <a>Übersicht</a>
+                      </li>
+                      <li>
+                        <a>Lorem Ipsum</a>
+                      </li>
+                      <li>
+                        <a>Lorem Ipsum</a>
+                      </li>
+                      <li>
+                        <a>Lorem Ipsum</a>
+                      </li>
+                      <li>
+                        <a>Lorem Ipsum</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
