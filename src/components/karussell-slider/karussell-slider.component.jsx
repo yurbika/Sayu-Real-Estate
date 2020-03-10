@@ -12,12 +12,16 @@ import {
   toggleRight
 } from "../../redux/slider/slider.action";
 
+//utils
+import { ID_GENERATOR } from "../../uniqueKey.js";
+
 //styles
 import "./karussell-slider.styles.scss";
 
 const KarussellSlider = ({
   imgArray,
   id,
+  haustyp,
   curPosArray,
   toggleLeft,
   toggleRight,
@@ -31,7 +35,10 @@ const KarussellSlider = ({
     <div className="slider-container">
       <div className="content-container">
         {imgArray.map((item, index) => (
-          <div className="img-container">
+          <div
+            className="img-container"
+            key={ID_GENERATOR("karussell-slider-")}
+          >
             <div
               className={
                 "overlay " + (index === curPosArray[id] ? "hidden" : "")
@@ -39,7 +46,7 @@ const KarussellSlider = ({
             />
             <img
               src={imgArray[index]}
-              alt={"haus"}
+              alt={haustyp}
               className={index === curPosArray[id] ? "active" : ""}
               onClick={() => setSliderPosition({ num: index, id: id })}
             />

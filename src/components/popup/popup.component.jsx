@@ -76,24 +76,6 @@ class Popup extends React.Component {
                       id={immoID}
                     />
                   </div>
-                  <KarussellSlider
-                    imgArray={[
-                      immo[haustyp]["bilder"]["titelbild"] +
-                        "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
-                      immo[haustyp]["bilder"]["zweites"] +
-                        "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
-                      immo[haustyp]["bilder"]["drittes"] +
-                        "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
-                      immo[haustyp]["bilder"]["vier"] +
-                        "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
-                      immo[haustyp]["bilder"]["fünf"] +
-                        "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
-                      immo[haustyp]["bilder"]["sechs"] +
-                        "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop"
-                    ]}
-                    alt={haustyp}
-                    id={immoID}
-                  />
                   <div className="infos">
                     <div className="infos-main">
                       <span className="titel">{immo[haustyp]["titel"]}</span>
@@ -154,6 +136,24 @@ class Popup extends React.Component {
                       </div>
                     </div>
                   </div>
+                  <KarussellSlider
+                    imgArray={[
+                      immo[haustyp]["bilder"]["titelbild"] +
+                        "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
+                      immo[haustyp]["bilder"]["zweites"] +
+                        "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
+                      immo[haustyp]["bilder"]["drittes"] +
+                        "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
+                      immo[haustyp]["bilder"]["vier"] +
+                        "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
+                      immo[haustyp]["bilder"]["fünf"] +
+                        "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
+                      immo[haustyp]["bilder"]["sechs"] +
+                        "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop"
+                    ]}
+                    alt={haustyp}
+                    id={immoID}
+                  />
                 </div>
               </div>
             </div>
