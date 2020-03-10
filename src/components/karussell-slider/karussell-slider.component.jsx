@@ -41,6 +41,7 @@ const KarussellSlider = ({
               src={imgArray[index]}
               alt={"haus"}
               className={index === curPosArray[id] ? "active" : ""}
+              onClick={() => setSliderPosition({ num: index, id: id })}
             />
           </div>
         ))}
