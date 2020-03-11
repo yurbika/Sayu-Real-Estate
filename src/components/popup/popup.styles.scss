@@ -189,6 +189,9 @@
           display: flex;
           align-items: center;
           justify-content: center;
+          @media (max-width: 1023px) {
+            margin-top: unset;
+          }
           .main-content {
             max-width: 895px;
             width: 100%;
@@ -222,6 +225,25 @@
                 &:hover {
                   color: #681899;
                 }
+              }
+            }
+            .informations-container {
+              display: inline-block;
+              margin-top: 35px;
+              border: 1px solid black;
+              align-items: center;
+              border-radius: 15px;
+              & > * {
+                margin: 15px;
+              }
+            }
+            table {
+              background: rgba(0, 0, 0, 0.35);
+              padding: 15px;
+              border-radius: 15px;
+              width: 100%;
+              & > * > * > * {
+                padding: 5px;
               }
             }
           }
