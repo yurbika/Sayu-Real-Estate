@@ -201,65 +201,53 @@ class Popup extends React.Component {
                     </div>
                     {immo[haustyp]["bezugsart"] === "kaufen" ? (
                       <div className="preis-infos">
-                        (
-                        <table>
-                          <tbody>
-                            <tr>
-                              <td>Preis:</td>
-                              <td>
-                                {numberWithDots(
-                                  immo[haustyp]["preis"].toString()
-                                ) + " €"}
-                              </td>
-                              <td></td>
-                            </tr>
-                            <tr>
-                              <td>Marklerprovision:</td>
-                              <td>
-                                {numberWithDots(
-                                  Math.floor(
-                                    (immo[haustyp]["preis"] * 4.76) / 100
-                                  ).toString()
-                                ) + " €"}
-                              </td>
-                              <td>4,76 %</td>
-                            </tr>
-                            <tr>
-                              <td>Notarkosten:</td>
-                              <td>
-                                {numberWithDots(
-                                  Math.floor(
-                                    (immo[haustyp]["preis"] / 100) * 1.5
-                                  ).toString()
-                                ) + " €"}
-                              </td>
-                              <td>1,50 %</td>
-                            </tr>
-                            <tr>
-                              <td>Grunderwerbsteuer</td>
-                              <td>
-                                {numberWithDots(
-                                  Math.floor(
-                                    (immo[haustyp]["preis"] / 100) * 3.5
-                                  ).toString()
-                                ) + " €"}
-                              </td>
-                              <td>3,50 %</td>
-                            </tr>
-                            <tr>
-                              <td>Grundbucheintrag</td>
-                              <td>
-                                {numberWithDots(
-                                  Math.floor(
-                                    (immo[haustyp]["preis"] / 100) * 0.5
-                                  ).toString()
-                                ) + " €"}
-                              </td>
-                              <td>0,50 %</td>
-                            </tr>
-                          </tbody>
-                        </table>
-                        )
+                        <div className="abteil">
+                          <span>Preis:</span>
+                          <span>
+                            {numberWithDots(immo[haustyp]["preis"].toString()) +
+                              " €"}
+                          </span>
+                        </div>
+                        <div className="abteil">
+                          <span>Marklerprovision:</span>
+                          <span>
+                            {numberWithDots(
+                              Math.floor(
+                                (immo[haustyp]["preis"] * 4.76) / 100
+                              ).toString()
+                            ) + " €"}
+                          </span>
+                        </div>
+                        <div className="abteil">
+                          <span>Notarkosten:</span>
+                          <span>
+                            {numberWithDots(
+                              Math.floor(
+                                (immo[haustyp]["preis"] / 100) * 1.5
+                              ).toString()
+                            ) + " €"}
+                          </span>
+                        </div>
+                        <div className="abteil">
+                          <span>Grunderwerbsteuer</span>
+                          <span>
+                            {numberWithDots(
+                              Math.floor(
+                                (immo[haustyp]["preis"] / 100) * 3.5
+                              ).toString()
+                            ) + " €"}
+                          </span>
+                        </div>
+                        <div className="abteil">
+                          <span>Grundbucheintrag</span>
+                          <span>
+                            {numberWithDots(
+                              Math.floor(
+                                (immo[haustyp]["preis"] / 100) * 0.5
+                              ).toString()
+                            ) + " €"}
+                          </span>
+                        </div>
                       </div>
                     ) : null}
                   </div>
