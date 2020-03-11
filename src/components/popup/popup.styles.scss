@@ -183,15 +183,20 @@
 
         .main-content-container {
           margin-top: 100px;
-          padding-bottom: 100px;
+          padding-bottom: 1000px;
           height: 100%;
           width: 100%;
           display: flex;
           align-items: center;
           justify-content: center;
           .main-content {
-            width: 100%;
             max-width: 895px;
+            width: 100%;
+
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            padding: 15px 15px 0 15px;
             .header {
               width: 100%;
               background: hsla(0, 0%, 0%, 0.5);
@@ -199,16 +204,24 @@
 
               ul {
                 display: flex;
-                justify-content: space-between;
+                // justify-content: space-between;
                 list-style-type: none;
                 padding: 15px;
+                &:first-child {
+                  margin-left: 15px;
+                }
+                &:last-child {
+                  margin-right: 15px;
+                }
               }
               ul li {
-                display: block;
+                cursor: pointer;
                 padding: 5px;
-              }
-              ul li a {
-                color: #fff7de;
+                //diese zeile muss entfernt werden wenn mehr items dazu kommen
+                margin-right: 15px;
+                &:hover {
+                  color: #681899;
+                }
               }
             }
           }

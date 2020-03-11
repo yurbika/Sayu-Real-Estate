@@ -165,23 +165,15 @@ class Popup extends React.Component {
                 <div className="main-content">
                   <div className="header">
                     <ul>
-                      <li>
-                        <a>Übersicht</a>
-                      </li>
-                      <li>
-                        <a>Lorem Ipsum</a>
-                      </li>
-                      <li>
-                        <a>Lorem Ipsum</a>
-                      </li>
-                      <li>
-                        <a>Lorem Ipsum</a>
-                      </li>
-                      <li>
-                        <a>Lorem Ipsum</a>
-                      </li>
+                      <li>Übersicht</li>
+                      <li>Lorem Ipsum</li>
                     </ul>
                   </div>
+                  <section id="section1">Content</section>
+                  <section id="section2">Content</section>
+                  <section id="section3">Content</section>
+                  <section id="section4">Content</section>
+                  <section id="section5">Content</section>
                 </div>
               </div>
             </div>
