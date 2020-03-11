@@ -217,6 +217,11 @@
               & > * {
                 margin: 15px;
               }
+              @media (max-width: 1023px) {
+                width: inherit;
+                max-width: 450px;
+              }
+
               .haus-infos {
                 max-width: inherit;
                 display: grid;
@@ -251,9 +256,15 @@
             .karte {
               display: inline-block;
               width: 100%;
-              max-width: 350px;
+              max-width: 370px;
               height: 100vh;
-              max-height: 350px;
+              max-height: 370px;
+              @media (max-width: 1023px) {
+                width: inherit;
+                max-width: 450px;
+                height: 100vh;
+                max-height: 450px;
+              }
             }
           }
         }
