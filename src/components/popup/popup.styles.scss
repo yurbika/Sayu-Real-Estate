@@ -194,39 +194,46 @@
           .main-content {
             max-width: 895px;
             width: 100%;
-
-            position: relative;
+            height: inherit;
             display: flex;
-            flex-direction: column;
             padding: 15px 15px 0 15px;
+            margin-bottom: 75px;
+            justify-content: space-between;
 
             .informations-container {
-              display: inline-block;
-              margin-top: 35px;
+              display: flex;
+              flex-direction: column;
+              max-width: 440px;
+              height: 100%;
               border: 1px solid black;
-              align-items: center;
               border-radius: 15px;
               & > * {
                 margin: 15px;
               }
-            }
-            table {
-              background: rgba(0, 0, 0, 0.35);
-              padding: 15px;
-              border-radius: 15px;
-              width: 100%;
-              & > * > * > * {
-                padding: 5px;
+              .haus-infos {
+                max-width: inherit;
+                display: grid;
+                gap: 15px;
+                grid-template-columns: repeat(auto-fit, minmax(0, 180px));
+                align-items: center;
+                justify-content: center;
+                background: rgba(0, 0, 0, 0.35);
+                border-radius: 15px;
+                padding: 15px;
+                .abteil {
+                  & :first-child {
+                    display: inline-block;
+                    width: 100px;
+                  }
+                }
               }
             }
-
             .karte {
               display: inline-block;
-              padding: 15px;
               width: 100%;
-              max-width: 450px;
+              max-width: 350px;
               height: 100vh;
-              max-height: 450px;
+              max-height: 350px;
             }
           }
         }
