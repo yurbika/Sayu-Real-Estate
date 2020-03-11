@@ -2,8 +2,10 @@ import React from "react";
 import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 
+//component imports
 import Slider from "../../components/slider/slider.component";
 import SliderPreview from "../slider-preview/slider-preview.component";
+import PopupMap from "../../components/popup-map/popup-map.component";
 
 //redux imports
 import {
@@ -163,12 +165,6 @@ class Popup extends React.Component {
               </div>
               <div className="main-content-container">
                 <div className="main-content">
-                  <div className="header">
-                    <ul>
-                      <li>Übersicht</li>
-                      <li>Lorem Ipsum</li>
-                    </ul>
-                  </div>
                   <section id="section1">
                     <div className="informations-container">
                       <div className="haus-infos">
@@ -269,9 +265,15 @@ class Popup extends React.Component {
                         ) : null}
                       </div>
                     </div>
-                    <div className="karte"></div>
+                    <div className="karte">
+                      <PopupMap
+                        pos={[
+                          immo[haustyp]["adresse"]["latitude"],
+                          immo[haustyp]["adresse"]["longitude"]
+                        ]}
+                      />
+                    </div>
                   </section>
-                  <section id="section2">Content</section>
                 </div>
               </div>
             </div>

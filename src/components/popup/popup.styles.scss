@@ -31,7 +31,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 100vw;
+      width: 100%;
       max-width: 75px;
       height: inherit;
       background: #a69fff;
@@ -183,7 +183,6 @@
 
         .main-content-container {
           margin-top: 100px;
-          padding-bottom: 1000px;
           height: 100%;
           width: 100%;
           display: flex;
@@ -200,33 +199,7 @@
             display: flex;
             flex-direction: column;
             padding: 15px 15px 0 15px;
-            .header {
-              width: 100%;
-              background: hsla(0, 0%, 0%, 0.5);
-              border-radius: 15px;
 
-              ul {
-                display: flex;
-                // justify-content: space-between;
-                list-style-type: none;
-                padding: 15px;
-                &:first-child {
-                  margin-left: 15px;
-                }
-                &:last-child {
-                  margin-right: 15px;
-                }
-              }
-              ul li {
-                cursor: pointer;
-                padding: 5px;
-                //diese zeile muss entfernt werden wenn mehr items dazu kommen
-                margin-right: 15px;
-                &:hover {
-                  color: #681899;
-                }
-              }
-            }
             .informations-container {
               display: inline-block;
               margin-top: 35px;
@@ -245,6 +218,15 @@
               & > * > * > * {
                 padding: 5px;
               }
+            }
+
+            .karte {
+              display: inline-block;
+              padding: 15px;
+              width: 100%;
+              max-width: 450px;
+              height: 100vh;
+              max-height: 450px;
             }
           }
         }
