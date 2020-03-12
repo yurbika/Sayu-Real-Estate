@@ -83,6 +83,26 @@ import {
 werden damit ist es möglich die dropdowns von überall zu schließen*/
 
 class Suchleiste extends React.Component {
+  /*dieser abteil des codes ist nur notwendig für die überprüfung des window-width damit ein rerender gefeuert wird um das richtige component zu render*/
+  constructor(props) {
+    super(props);
+    this.state = { windowWidth: 0 };
+    this.checkWindowWidth = this.checkWindowWidth.bind(this);
+  }
+  checkWindowWidth() {
+    this.setState({ windowWidth: window.innerWidth });
+  }
+
+  componentDidMount() {
+    this.checkWindowWidth();
+    window.addEventListener("resize", this.checkWindowWidth);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("resize", this.checkWindowWidth);
+  }
+  /*----------------------------------------------------------------*/
+
   componentDidUpdate(prevProps) {
     const {
       maxInput,
@@ -140,6 +160,7 @@ class Suchleiste extends React.Component {
     if (prevProps.minInput !== minInput || prevProps.maxInput !== maxInput)
       setPreis(checkInputValue(minInput, maxInput));
   }
+
   render() {
     const {
       bezugsart,
@@ -165,7 +186,7 @@ class Suchleiste extends React.Component {
       toggleSuchButtonClick
     } = this.props;
     //dieses if else ist für die refs damit unterschieden werden unter den dropdowns
-    if (window.innerWidth > 768) {
+    if (this.state.windowWidth > 768) {
       return (
         <SuchleisteContainer additionalStyle={additionalStyle}>
           <BildContainer noBackground={noBackground}>
