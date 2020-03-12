@@ -11,10 +11,6 @@ export const SliderContainer = styled.div`
     width: inherit;
     height: inherit;
   }
-
-  .hidden {
-    display: none;
-  }
 `;
 
 export const PfeilContainer = styled.div`

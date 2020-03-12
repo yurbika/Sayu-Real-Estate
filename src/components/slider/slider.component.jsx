@@ -40,11 +40,11 @@ class Slider extends React.Component {
       setSliderPosition({ num: 0, id: id });
     if (curPosArray[id] < 0)
       setSliderPosition({ num: imgArray.length - 1, id: id });
-
+    const style = this.state.isLoading ? { display: "none" } : {};
     return (
       <SliderContainer>
         {this.state.isLoading ? <Spinner /> : null}
-        <SliderContainer id="slider">
+        <SliderContainer style={style}>
           <PfeilContainer>
             <RechterPfeil>
               <Button scrollButton sliderArrow onClick={() => toggleLeft(id)} />
