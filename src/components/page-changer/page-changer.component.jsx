@@ -38,7 +38,10 @@ class PageChanger extends React.Component {
             sekundär
             links
             scrollButton
-            onClick={() => setArt(seite - 1, FilterActionTypes.SET_SEITE)}
+            onClick={() => {
+              setArt(seite - 1, FilterActionTypes.SET_SEITE);
+              window.scrollTo(0, 0);
+            }}
           >
             vorherige Seite
           </Button>
@@ -76,7 +79,10 @@ class PageChanger extends React.Component {
             sekundär
             scrollButton
             rechts
-            onClick={() => setArt(seite + 1, FilterActionTypes.SET_SEITE)}
+            onClick={() => {
+              setArt(seite + 1, FilterActionTypes.SET_SEITE);
+              window.scrollTo(0, 0);
+            }}
           >
             nächste Seite
           </Button>
@@ -88,6 +94,7 @@ class PageChanger extends React.Component {
               <AuswahlDropdown
                 additionalStyle={"page-changer"}
                 type={FilterActionTypes.SET_SEITE}
+                backToTop
               >
                 {optionsArray}
               </AuswahlDropdown>

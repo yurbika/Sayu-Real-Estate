@@ -18,6 +18,7 @@ const AuswahlDropdown = ({
   children,
   setArt,
   additionalStyle,
+  backToTop,
   toggleDropdown,
   type
 }) => {
@@ -30,6 +31,7 @@ const AuswahlDropdown = ({
             onClick={() => {
               setArt(child, type);
               toggleDropdown(DropdownActionTypes.TOGGLE_ALL_DROPDOWNS_FALSE);
+              if (backToTop) window.scrollTo(0, 0);
             }}
           >
             {child}
