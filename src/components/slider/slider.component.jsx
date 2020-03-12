@@ -3,6 +3,7 @@ import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 
 import Button from "../button/button.component";
+import Spinner from "../spinner/spinner.component";
 
 //redux imports
 import { selectCurrentPositionArray } from "../../redux/slider/slider.selectors";
@@ -20,35 +21,53 @@ import {
   RechterPfeil
 } from "./slider.styles";
 
-const Slider = ({
-  imgArray,
-  alt,
-  toggleLeft,
-  toggleRight,
-  setSliderPosition,
-  curPosArray,
-  id,
-  additionalStyle,
-  ...otherProps
-}) => {
-  if (curPosArray[id] > imgArray.length - 1)
-    setSliderPosition({ num: 0, id: id });
-  if (curPosArray[id] < 0)
-    setSliderPosition({ num: imgArray.length - 1, id: id });
-  return (
-    <SliderContainer>
-      <PfeilContainer>
-        <RechterPfeil>
-          <Button scrollButton sliderArrow onClick={() => toggleLeft(id)} />
-        </RechterPfeil>
-        <LinkerPfeil>
-          <Button scrollButton sliderArrow onClick={() => toggleRight(id)} />
-        </LinkerPfeil>
-      </PfeilContainer>
-      <img src={imgArray[curPosArray[id]]} alt={alt} {...otherProps} />
-    </SliderContainer>
-  );
-};
+class Slider extends React.Component {
+  state = { isLoading: true };
+
+  render() {
+    const {
+      imgArray,
+      alt,
+      toggleLeft,
+      toggleRight,
+      setSliderPosition,
+      curPosArray,
+      id,
+      additionalStyle,
+      ...otherProps
+    } = this.props;
+    if (curPosArray[id] > imgArray.length - 1)
+      setSliderPosition({ num: 0, id: id });
+    if (curPosArray[id] < 0)
+      setSliderPosition({ num: imgArray.length - 1, id: id });
+
+    return (
+      <SliderContainer>
+        {this.state.isLoading ? <Spinner /> : null}
+        <SliderContainer id="slider">
+          <PfeilContainer>
+            <RechterPfeil>
+              <Button scrollButton sliderArrow onClick={() => toggleLeft(id)} />
+            </RechterPfeil>
+            <LinkerPfeil>
+              <Button
+                scrollButton
+                sliderArrow
+                onClick={() => toggleRight(id)}
+              />
+            </LinkerPfeil>
+          </PfeilContainer>
+          <img
+            src={imgArray[curPosArray[id]]}
+            alt={alt}
+            onLoad={() => this.setState({ isLoading: false })}
+            {...otherProps}
+          />
+        </SliderContainer>
+      </SliderContainer>
+    );
+  }
+}
 
 const mapStateToProps = createStructuredSelector({
   curPosArray: selectCurrentPositionArray
