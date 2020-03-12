@@ -1,5 +1,15 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import theme from "../../utils/theme";
+
+const getAdditionalStyle = props => {
+  if (props.page)
+    return css`
+      border-radius: unset;
+      background: ${theme.colors.transDarkerBlack};
+      height: 100vh;
+      widht: 100vw;
+    `;
+};
 
 export const SpinnerOverlay = styled.div`
   background: ${theme.colors.black};
@@ -10,6 +20,7 @@ export const SpinnerOverlay = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  ${getAdditionalStyle}
 `;
 
 export const SpinnerContainer = styled.div`
