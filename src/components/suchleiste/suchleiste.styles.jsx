@@ -274,6 +274,7 @@ export const CloseButton = styled.div`
   position: relative;
   background: rgba(255, 255, 255, 0);
   margin-top: 23px;
+  cursor: pointer;
 
   &,
   &:after,

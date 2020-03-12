@@ -124,7 +124,7 @@ class Immobilien extends React.Component {
           <div className="immo-preview-container">
             {ergebnisse.map((item, index) => {
               //wenn die index zahl geändert wird muss es auch im slider reducer die array anzahl angepasst werden
-              if (index >= 20 * (seite - 1) && index < 20 * seite + 20)
+              if (index >= 20 * (seite - 1) && index < 20 * (seite - 1) + 20)
                 return (
                   <ImmoPreview
                     immo={item}
@@ -135,7 +135,7 @@ class Immobilien extends React.Component {
               return null;
             })}
           </div>
-          <PageChanger anzahlSeiten={Math.floor(ergebnisse.length / 20)} />
+          <PageChanger anzahlSeiten={Math.ceil(ergebnisse.length / 20)} />
         </div>
         {popShow ? <Popup /> : null}
         <Footer />
