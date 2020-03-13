@@ -100,7 +100,7 @@ class Startseite extends React.Component {
             <InspirationContainer
               expand={expand1}
               toggleExpandButtonNum={1}
-              immoArray={luxushäuserArray}
+              realEstateArray={luxushäuserArray}
               filter={{
                 minInput: 1350000,
                 bezugsart: "kaufen",
@@ -115,7 +115,7 @@ class Startseite extends React.Component {
             <InspirationContainer
               expand={expand2}
               toggleExpandButtonNum={2}
-              immoArray={wohnungenArray}
+              realEstateArray={wohnungenArray}
               filter={{
                 minInput: 1350000,
                 bezugsart: "kaufen",
@@ -130,7 +130,7 @@ class Startseite extends React.Component {
             <InspirationContainer
               expand={expand3}
               toggleExpandButtonNum={3}
-              immoArray={klassikerArray}
+              realEstateArray={klassikerArray}
               filter={{
                 minInput: 300,
                 maxInput: 1200,

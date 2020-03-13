@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import { withRouter } from "react-router-dom";
 
 //component imports
-import BilderVorschauContainer from "../bilder-container/bildvorschau-container.component";
+import ImgsPreview from "../imgs-container/imgs-container.component";
 import Button from "../button/button.component";
 
 //redux imports
@@ -22,22 +22,14 @@ const InspirationContainer = ({
   expand,
   toggleExpand,
   toggleExpandButtonNum,
-  immoArray,
+  realEstateArray,
   history
 }) => (
   <InspirationsContainer>
     <BeschreibungsContainer>{children}</BeschreibungsContainer>
-    <BilderVorschauContainer expand={expand} immoArray={immoArray} />
+    <ImgsPreview expand={expand} realEstateArray={realEstateArray} />
     {expand ? null : (
-      <Button
-        aktionsButton
-        onClick={() => {
-          toggleExpand(toggleExpandButtonNum);
-          if (expand) {
-            history.push("/liste");
-          }
-        }}
-      >
+      <Button aktionsButton onClick={() => toggleExpand(toggleExpandButtonNum)}>
         Mehr anzeigen
       </Button>
     )}

@@ -7,7 +7,7 @@ const getHeight = props => {
     `;
 };
 
-export const BilderVorschau = styled.div`
+const ImgsPreviewContainer = styled.div`
   display: grid;
   overflow: hidden;
   grid-template-columns: repeat(auto-fill, max(208px));
@@ -42,3 +42,5 @@ export const BilderVorschau = styled.div`
   }
   ${getHeight}
 `;
+
+export default ImgsPreviewContainer;
