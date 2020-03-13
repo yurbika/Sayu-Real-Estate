@@ -51,7 +51,6 @@ import {
   GridItem,
   MapContainer
 } from "./popup.styles";
-import "./popup.styles.scss";
 import { CloseButton } from "../suchleiste/suchleiste.styles";
 
 //assets

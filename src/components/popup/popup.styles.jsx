@@ -72,6 +72,7 @@ export const Section = styled.div`
 `;
 
 //sektions bedingte styles
+//first section
 export const Container = styled.div`
   padding-top: 35px;
   padding-bottom: 100px;
@@ -197,8 +198,13 @@ export const HeaderSpan = styled.span`
   ${getAdditionalStylesSpan}
 `;
 
-//second section
-
+/********************************
+ *
+ *
+ *          second section
+ *
+ *
+ ********************************/
 export const MainContentContainer = styled.div`
   margin-top: 100px;
   height: 100%;

@@ -16,7 +16,14 @@ import {
 import { ID_GENERATOR } from "../../uniqueKey.js";
 
 //styles
-import "./slider-preview.styles.scss";
+import {
+  SliderPreviewContainer,
+  Container,
+  ImgContainer,
+  Overlay,
+  RightArrow,
+  LeftArrow
+} from "./slider-preview.styles";
 
 const SliderPreview = ({
   imgArray,
@@ -32,34 +39,27 @@ const SliderPreview = ({
   if (curPosArray[id] < 0)
     setSliderPosition({ num: imgArray.length - 1, id: id });
   return (
-    <div className="slider-container">
-      <div className="content-container">
+    <SliderPreviewContainer>
+      <Container>
         {imgArray.map((item, index) => (
-          <div
-            className="img-container"
-            key={ID_GENERATOR("karussell-slider-")}
-          >
-            <div
-              className={
-                "overlay " + (index === curPosArray[id] ? "hidden" : "")
-              }
-            />
+          <ImgContainer key={ID_GENERATOR("karussell-slider-")}>
+            <Overlay hidden={index === curPosArray[id] ? true : false} />
             <img
               src={imgArray[index]}
               alt={haustyp}
               className={index === curPosArray[id] ? "active" : ""}
               onClick={() => setSliderPosition({ num: index, id: id })}
             />
-          </div>
+          </ImgContainer>
         ))}
-        <div className="rechterpfeil">
+        <RightArrow>
           <Button scrollButton sliderArrow onClick={() => toggleRight(id)} />
-        </div>
-        <div className="linkerpfeil">
+        </RightArrow>
+        <LeftArrow>
           <Button scrollButton sliderArrow onClick={() => toggleLeft(id)} />
-        </div>
-      </div>
-    </div>
+        </LeftArrow>
+      </Container>
+    </SliderPreviewContainer>
   );
 };
 
