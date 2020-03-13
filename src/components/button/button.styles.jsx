@@ -198,7 +198,7 @@ const getButtonStyles = props => {
       `
     ];
   if (props.suchButton) return searchButton;
-  if (props.actionButton) return actionButton;
+  if (props.aktionsButton) return actionButton;
   if (props.inputButton) return inputButton;
   if (props.responsivButtonPreis)
     return [

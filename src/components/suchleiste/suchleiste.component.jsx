@@ -17,7 +17,7 @@ import {
 import Button from "../../components/button/button.component";
 
 import PreisDropdown from "../../components/dropdowns/preis-dropdown.component";
-import AuswahlDropdown from "../dropdowns/auswahl-dropdown.component";
+import SelectionDropdown from "../dropdowns/selection-dropdown.component";
 import Results from "../dropdowns/results-dropdown.component";
 
 //redux
@@ -280,7 +280,7 @@ class Suchleiste extends React.Component {
                 ) : null}
                 <Button normalerButton dropdown id="filter-button">
                   {bezugsartDropdown ? (
-                    <AuswahlDropdown
+                    <SelectionDropdown
                       additionalStyle={"bezugsart-dropdown"}
                       responsiv
                       children={[bezugsart === "Mieten" ? "Kaufen" : "Mieten"]}
@@ -290,7 +290,7 @@ class Suchleiste extends React.Component {
                 </Button>
                 <Button normalerButton dropdown id="filter-button">
                   {immobilientypDropdown ? (
-                    <AuswahlDropdown
+                    <SelectionDropdown
                       additionalStyle={"haus-dropdown"}
                       children={[haustyp === "Wohnung" ? "Haus" : "Wohnung"]}
                       type={FilterActionTypes.SET_HAUSTYP}
@@ -344,7 +344,7 @@ class Suchleiste extends React.Component {
                 </Button>
                 <Button sekundärerButton dropdown id="filter-button">
                   {zimmerDropdown ? (
-                    <AuswahlDropdown
+                    <SelectionDropdown
                       additionalStyle={"zimmer-dropdown"}
                       children={[
                         "1 Zi. +",
@@ -359,7 +359,7 @@ class Suchleiste extends React.Component {
                 </Button>
                 <Button sekundärerButton dropdown id="filter-button">
                   {flächeDropdown ? (
-                    <AuswahlDropdown
+                    <SelectionDropdown
                       additionalStyle={"flaeche-dropdown"}
                       children={[
                         "70 qm +",
@@ -583,7 +583,7 @@ class Suchleiste extends React.Component {
                     <ButtonContainer id="mieten-wohnung-dropdown">
                       <Button responsivButton dropdown>
                         {bezugsartDropdown ? (
-                          <AuswahlDropdown
+                          <SelectionDropdown
                             additionalStyle={"responsiv-dropdown"}
                             children={[
                               bezugsart === "Mieten" ? "Kaufen" : "Mieten"
@@ -594,7 +594,7 @@ class Suchleiste extends React.Component {
                       </Button>
                       <Button responsivButton dropdown>
                         {immobilientypDropdown ? (
-                          <AuswahlDropdown
+                          <SelectionDropdown
                             additionalStyle={"responsiv-dropdown"}
                             children={[
                               haustyp === "Wohnung" ? "Haus" : "Wohnung"
@@ -607,7 +607,7 @@ class Suchleiste extends React.Component {
                     <ButtonContainer>
                       <Button responsivButton dropdown>
                         {zimmerDropdown ? (
-                          <AuswahlDropdown
+                          <SelectionDropdown
                             additionalStyle={"responsiv-dropdown"}
                             children={[
                               "1 Zi. +",
@@ -622,7 +622,7 @@ class Suchleiste extends React.Component {
                       </Button>
                       <Button responsivButton dropdown>
                         {flächeDropdown ? (
-                          <AuswahlDropdown
+                          <SelectionDropdown
                             additionalStyle={"responsiv-dropdown"}
                             children={[
                               "70 qm +",

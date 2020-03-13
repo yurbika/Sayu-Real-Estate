@@ -14,7 +14,7 @@ import { ID_GENERATOR } from "../../uniqueKey";
 //styles
 import { DropdownContainer } from "./dropdown.styles";
 
-const AuswahlDropdown = ({
+const SelectionDropdown = ({
   children,
   setArt,
   additionalStyle,
@@ -47,4 +47,4 @@ const mapDispatchToProps = dispatch => ({
   toggleDropdown: type => dispatch(toggleDropdown(type))
 });
 
-export default connect(null, mapDispatchToProps)(AuswahlDropdown);
+export default connect(null, mapDispatchToProps)(SelectionDropdown);

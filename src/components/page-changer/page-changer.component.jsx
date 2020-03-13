@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 
 import Button from "../../components/button/button.component";
-import AuswahlDropdown from "../../components/dropdowns/auswahl-dropdown.component";
+import SelectionDropdown from "../../components/dropdowns/selection-dropdown.component";
 
 //redux imports
 import { selectPageChangerDropdown } from "../../redux/dropdown/dropdown.selectors";
@@ -91,13 +91,13 @@ class PageChanger extends React.Component {
           {/*hier fehlt noch ein typ für den dropdown*/}
           {dropdown ? (
             anzahlSeiten === 0 ? null : (
-              <AuswahlDropdown
+              <SelectionDropdown
                 additionalStyle={"page-changer"}
                 type={FilterActionTypes.SET_SEITE}
                 backToTop
               >
                 {optionsArray}
-              </AuswahlDropdown>
+              </SelectionDropdown>
             )
           ) : null}
         </Button>
