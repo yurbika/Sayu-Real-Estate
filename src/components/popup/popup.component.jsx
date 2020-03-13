@@ -21,22 +21,35 @@ import { numberWithDots } from "../input/input.utils";
 
 //styles
 import {
+  //generally styles
   PopupContainer,
   PopupContentContainer,
   CloseButtonContainer,
   AllContentContainer,
   RotateContainer,
   Rotate,
-  Section, //first section styles
+  Section,
+
+  //section styles
   Container,
+  IconContainer,
+
+  //first section
   SliderInfoContainer,
   SliderContainer,
   InfosContainer,
-  IconContainer,
   InfosContent,
   BoxInfo,
   InfosFooter,
-  HeaderSpan
+  HeaderSpan,
+
+  //second section
+  MainContentContainer,
+  MainContent,
+  InformationContainer,
+  GridContainer,
+  GridItem,
+  MapContainer
 } from "./popup.styles";
 import "./popup.styles.scss";
 import { CloseButton } from "../suchleiste/suchleiste.styles";
@@ -59,8 +72,8 @@ class Popup extends React.Component {
 
     return (
       <PopupContainer>
-        <div className="popup" ref={popupRef}>
-          <div
+        <PopupContentContainer ref={popupRef}>
+          <CloseButtonContainer
             className="closebutton-container"
             onClick={() => {
               togglePopup();
@@ -68,15 +81,15 @@ class Popup extends React.Component {
             }}
           >
             <CloseButton />
-          </div>
-          <div className="side-info">
-            <div className="first">
-              <div className="rotate-container">
-                <span className="rotate">KURZINFORMATION</span>
-              </div>
-              <div className="kurzinfo">
-                <div className="container-bild-info">
-                  <div className="popup-bild-preview-container">
+          </CloseButtonContainer>
+          <AllContentContainer>
+            <Section>
+              <RotateContainer>
+                <Rotate>KURZINFORMATION</Rotate>
+              </RotateContainer>
+              <Container>
+                <SliderInfoContainer>
+                  <SliderContainer>
                     <Slider
                       imgArray={[
                         immo[haustyp]["bilder"]["titelbild"] +
@@ -95,13 +108,13 @@ class Popup extends React.Component {
                       alt={haustyp}
                       id={immoID}
                     />
-                  </div>
-                  <div className="infos">
-                    <div className="infos-main">
-                      <span className="titel">{immo[haustyp]["titel"]}</span>
-                      <div className="icon-container">
+                  </SliderContainer>
+                  <InfosContainer>
+                    <InfosContent>
+                      <HeaderSpan titel>{immo[haustyp]["titel"]}</HeaderSpan>
+                      <IconContainer>
                         <img src={gpsIconBrown} alt="Adresse:" />
-                        <span className="adresse">
+                        <span>
                           {" " +
                             immo[haustyp]["adresse"]["straße"] +
                             ", " +
@@ -111,51 +124,45 @@ class Popup extends React.Component {
                             " - " +
                             immo[haustyp]["adresse"]["bundesland"]}
                         </span>
-                      </div>
-                      <div className="icon-container">
+                      </IconContainer>
+                      <IconContainer>
                         <img src={moneyIconBrown} alt="Preis:" />
-                        <span className="preis">
+                        <HeaderSpan preis>
                           {" " +
                             numberWithDots(immo[haustyp]["preis"].toString()) +
                             " €"}
-                        </span>
-                      </div>
-                      <div className="side-infos">
-                        <div className="icon-container">
+                        </HeaderSpan>
+                      </IconContainer>
+                      <BoxInfo>
+                        <IconContainer>
                           <img src={roomIcon} alt="Zimmer:" />
-                          <span className="zimmer">
-                            {" " + immo[haustyp]["zimmer"]}
-                          </span>
-                        </div>
-                        <div className="icon-container">
+                          <span>{" " + immo[haustyp]["zimmer"]}</span>
+                        </IconContainer>
+                        <IconContainer>
                           <img src={propertyIcon} alt="Wohnfläche:" />
-                          <span className="wohnfläche">
-                            {" " + immo[haustyp]["wohnfläche"]} m²
-                          </span>
-                        </div>
+                          <span>{" " + immo[haustyp]["wohnfläche"]} m²</span>
+                        </IconContainer>
                         {!!immo[haustyp]["grundstück"] ? (
-                          <div className="icon-container">
+                          <IconContainer>
                             <img src={areaIcon} alt="Grundstück:" />
-                            <span className="grundstück">
-                              {" " + immo[haustyp]["grundstück"]} m²
-                            </span>
-                          </div>
+                            <span>{" " + immo[haustyp]["grundstück"]} m²</span>
+                          </IconContainer>
                         ) : null}
-                      </div>
-                    </div>
-                    <div className="infos-footer">
-                      <div className="icon-container">
+                      </BoxInfo>
+                    </InfosContent>
+                    <InfosFooter>
+                      <IconContainer>
                         <img src={clockIcon} alt="Veröffentlichung:" />
-                        <span className="veröffentlichung">
+                        <span>
                           {"veröffentlich vor " +
                             immo[haustyp][
                               "vergangeneTageSeitVeröffentlichung"
                             ] +
                             " Tage"}
                         </span>
-                      </div>
-                    </div>
-                  </div>
+                      </IconContainer>
+                    </InfosFooter>
+                  </InfosContainer>
                   <SliderPreview
                     imgArray={[
                       immo[haustyp]["bilder"]["titelbild"] +
@@ -174,59 +181,59 @@ class Popup extends React.Component {
                     alt={haustyp}
                     id={immoID}
                   />
-                </div>
-              </div>
-            </div>
-            <div className="second">
-              <div className="rotate-container">
-                <span className="rotate">VORSCHAU</span>
-              </div>
-              <div className="main-content-container">
-                <div className="main-content">
-                  <div className="informations-container">
-                    <div className="haus-infos">
-                      <div className="abteil">
+                </SliderInfoContainer>
+              </Container>
+            </Section>
+            <Section>
+              <RotateContainer second>
+                <Rotate>VORSCHAU</Rotate>
+              </RotateContainer>
+              <MainContentContainer>
+                <MainContent>
+                  <InformationContainer>
+                    <GridContainer>
+                      <GridItem haus>
                         <span>Typ:</span>
                         <span>
                           {haustyp.charAt(0).toUpperCase() + haustyp.slice(1)}
                         </span>
-                      </div>
-                      <div className="abteil">
+                      </GridItem>
+                      <GridItem haus>
                         <span>Zimmer:</span>
                         <span>{immo[haustyp]["zimmer"]}</span>
-                      </div>
-                      <div className="abteil">
+                      </GridItem>
+                      <GridItem haus>
                         <span>Wohnfläche:</span>
                         <span>{immo[haustyp]["wohnfläche"]} m²</span>
-                      </div>
-                      <div className="abteil">
+                      </GridItem>
+                      <GridItem haus>
                         <span>Badezimmer:</span>
                         <span>{immo[haustyp]["badezimmer"]}</span>
-                      </div>
+                      </GridItem>
                       {haustyp === "haus" ? (
-                        <div className="abteil">
+                        <GridItem haus>
                           <span>Grundstück</span>
                           <span>{immo[haustyp]["grundstück"]} m²</span>
-                        </div>
+                        </GridItem>
                       ) : null}
-                      <div className="abteil">
+                      <GridItem haus>
                         <span>Bezugsart:</span>
                         <span>
                           {immo[haustyp]["bezugsart"].charAt(0).toUpperCase() +
                             immo[haustyp]["bezugsart"].slice(1)}
                         </span>
-                      </div>
-                    </div>
+                      </GridItem>
+                    </GridContainer>
                     {immo[haustyp]["bezugsart"] === "kaufen" ? (
-                      <div className="preis-infos">
-                        <div className="abteil">
+                      <GridContainer preis>
+                        <GridItem preis>
                           <span>Preis:</span>
                           <span>
                             {numberWithDots(immo[haustyp]["preis"].toString()) +
                               " €"}
                           </span>
-                        </div>
-                        <div className="abteil">
+                        </GridItem>
+                        <GridItem preis>
                           <span>Marklerprovision:</span>
                           <span>
                             {numberWithDots(
@@ -235,8 +242,8 @@ class Popup extends React.Component {
                               ).toString()
                             ) + " €"}
                           </span>
-                        </div>
-                        <div className="abteil">
+                        </GridItem>
+                        <GridItem preis>
                           <span>Notarkosten:</span>
                           <span>
                             {numberWithDots(
@@ -245,8 +252,8 @@ class Popup extends React.Component {
                               ).toString()
                             ) + " €"}
                           </span>
-                        </div>
-                        <div className="abteil">
+                        </GridItem>
+                        <GridItem preis>
                           <span>Grunderwerbsteuer</span>
                           <span>
                             {numberWithDots(
@@ -255,8 +262,8 @@ class Popup extends React.Component {
                               ).toString()
                             ) + " €"}
                           </span>
-                        </div>
-                        <div className="abteil">
+                        </GridItem>
+                        <GridItem preis>
                           <span>Grundbucheintrag</span>
                           <span>
                             {numberWithDots(
@@ -265,23 +272,23 @@ class Popup extends React.Component {
                               ).toString()
                             ) + " €"}
                           </span>
-                        </div>
-                      </div>
+                        </GridItem>
+                      </GridContainer>
                     ) : null}
-                  </div>
-                  <div className="karte">
+                  </InformationContainer>
+                  <MapContainer>
                     <PopupMap
                       pos={[
                         immo[haustyp]["adresse"]["latitude"],
                         immo[haustyp]["adresse"]["longitude"]
                       ]}
                     />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+                  </MapContainer>
+                </MainContent>
+              </MainContentContainer>
+            </Section>
+          </AllContentContainer>
+        </PopupContentContainer>
       </PopupContainer>
     );
   }

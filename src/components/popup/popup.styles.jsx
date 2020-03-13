@@ -149,11 +149,14 @@ export const InfosContent = styled.div`
   & div:first-of-type {
     border-bottom: 1px solid ${theme.colors.hslaBlack};
   }
+  & :nth-child(3) {
+    display: flex;
+  }
 `;
 
 export const BoxInfo = styled.div`
   display: flex;
-  & :first-child {
+  & div:first-child {
     border-bottom: none;
     box-shadow: none;
   }
@@ -178,7 +181,7 @@ export const InfosFooter = styled.div`
 `;
 
 const getAdditionalStylesSpan = props => {
-  if (props.title)
+  if (props.titel)
     return css`
       margin-bottom: 5px;
     `;
@@ -192,4 +195,103 @@ const getAdditionalStylesSpan = props => {
 export const HeaderSpan = styled.span`
   font-size: 25px;
   ${getAdditionalStylesSpan}
+`;
+
+//second section
+
+export const MainContentContainer = styled.div`
+  margin-top: 100px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media (max-width: 1023px) {
+    margin-top: unset;
+  }
+`;
+
+export const MainContent = styled.div` max-width: 895px;
+width: 100%;
+height: inherit;
+display: flex;
+padding: 15px 15px 0 15px;
+margin-bottom: 75px;
+justify-content: space-between;
+@media (max-width: 1023px) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  & > * {
+    margin-bottom: 15px;
+  }`;
+
+export const InformationContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 370px;
+  height: 100%;
+  border: 1px solid black;
+  border-radius: 15px;
+  & > * {
+    margin: 15px;
+  }
+  @media (max-width: 1023px) {
+    width: inherit;
+    max-width: 450px;
+  }
+`;
+
+const getAdditionalStyleGrid = props => {
+  if (props.preis)
+    return css`
+      grid-template-columns: repeat(auto-fit, minmax(0, 350px));
+    `;
+};
+
+export const GridContainer = styled.div`
+  max-width: inherit;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 180px));
+  background: ${theme.colors.hslaBlack};
+  border-radius: 15px;
+  padding: 15px;
+  ${getAdditionalStyleGrid}
+`;
+
+const getAdditionalStyleGridItem = props => {
+  if (props.haus)
+    return css`
+      & :first-child {
+        display: inline-block;
+        width: 100px;
+      }
+    `;
+  if (props.preis)
+    return css`
+      & > * {
+        display: inline-block;
+        width: 150px;
+      }
+    `;
+};
+
+export const GridItem = styled.div`
+  ${getAdditionalStyleGridItem}
+`;
+
+export const MapContainer = styled.div`
+  display: inline-block;
+  width: 100%;
+  max-width: 370px;
+  height: 100vh;
+  max-height: 370px;
+  @media (max-width: 1023px) {
+    width: inherit;
+    max-width: 450px;
+    height: 100vh;
+    max-height: 450px;
+  }
 `;
