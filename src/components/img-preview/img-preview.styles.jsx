@@ -21,7 +21,7 @@ export const HoverContainer = styled.div`
   }
 `;
 
-export const KurzBeschreibung = styled.span`
+export const BriefDescription = styled.span`
   font-size: 0.8rem;
   margin: 0.5rem;
   letter-spacing: 1.2px;
@@ -38,20 +38,20 @@ export const HoverFooter = styled.div`
   align-items: flex-end;
 `;
 
-export const Zimmer = styled.span`
+export const Rooms = styled.span`
   border-right: 1px solid black;
   padding-right: 5px;
 `;
 
-export const Flaeche = styled.span`
+export const Area = styled.span`
   padding-left: 5px;
 `;
 
-export const Preis = styled.span`
+export const Price = styled.span`
   margin-left: auto;
 `;
 
-export const BildPreviewContainer = styled.div`
+export const ImgPreviewContainer = styled.div`
   position: relative;
   text-align: center;
   box-shadow: 5px 5px 5px 0px ${theme.colors.hslaBlack};

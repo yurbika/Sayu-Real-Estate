@@ -1,15 +1,18 @@
 import React from "react";
 
-import BildPreview from "../bild-preview/bild-preview.component";
+//components
+import ImgPreview from "../img-preview/img-preview.component";
 
+//utils
 import { ID_GENERATOR } from "../../uniqueKey";
 
+//styles
 import { BilderVorschau } from "./bildervorschau-container.styles";
 
 const BilderVorschauContainer = ({ immoArray, expand }) => (
   <BilderVorschau expand={expand}>
     {immoArray.map(item => (
-      <BildPreview key={ID_GENERATOR("bilder-vorschau-")} immo={item} />
+      <ImgPreview key={ID_GENERATOR("bilder-vorschau-")} immo={item} />
     ))}
   </BilderVorschau>
 );
