@@ -3,7 +3,7 @@ import styled, { css } from "styled-components";
 
 //verschiedene Button-Styles
 
-const normalerButton = css`
+const normalButton = css`
   max-width: 13vw;
   &:active {
     background: ${theme.colors.lightPurple};
@@ -13,7 +13,7 @@ const normalerButton = css`
   }
 `;
 
-const aktionsButton = css`
+const actionButton = css`
   background: ${theme.colors.darkPurple};
   transition: all 0.3s ease;
   border-left: none;
@@ -30,12 +30,12 @@ const aktionsButton = css`
   }
 `;
 
-const suchButton = css`
-  ${aktionsButton};
+const searchButton = css`
+  ${actionButton};
   border-radius: 0 15px 15px 0;
 `;
 
-const sekundärerButton = css`
+const secondaryButton = css`
   background: none;
   width: 10rem;
   max-width: 18vw;
@@ -183,22 +183,22 @@ const getButtonStyles = props => {
   if (props.scrollButton) return scrollButton;
   if (props.sekundärerButton && props.dropdown)
     return [
-      sekundärerButton,
+      secondaryButton,
       css`
         z-index: -1;
       `
     ];
-  if (props.sekundärerButton) return sekundärerButton;
+  if (props.sekundärerButton) return secondaryButton;
   if (props.suchButton && props.responsivButton)
     return [
-      suchButton,
+      searchButton,
       responsivButton,
       css`
         width: 100%;
       `
     ];
-  if (props.suchButton) return suchButton;
-  if (props.aktionsButton) return aktionsButton;
+  if (props.suchButton) return searchButton;
+  if (props.actionButton) return actionButton;
   if (props.inputButton) return inputButton;
   if (props.responsivButtonPreis)
     return [
@@ -208,7 +208,7 @@ const getButtonStyles = props => {
       `
     ];
   if (props.responsivButton) return responsivButton;
-  return normalerButton;
+  return normalButton;
 };
 
 //allgemeine Button-Styles

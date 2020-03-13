@@ -12,7 +12,7 @@ import ImgsPreviewContainer from "./imgs-container.styles";
 const ImgsPreview = ({ realEstateArray, expand }) => (
   <ImgsPreviewContainer expand={expand}>
     {realEstateArray.map(item => (
-      <ImgPreview key={ID_GENERATOR("bilder-vorschau-")} realEstate={item} />
+      <ImgPreview key={ID_GENERATOR("imgs-preview-")} realEstate={item} />
     ))}
   </ImgsPreviewContainer>
 );
