@@ -20,6 +20,24 @@ import { popupRef } from "../../utils/utils";
 import { numberWithDots } from "../input/input.utils";
 
 //styles
+import {
+  PopupContainer,
+  PopupContentContainer,
+  CloseButtonContainer,
+  AllContentContainer,
+  RotateContainer,
+  Rotate,
+  Section, //first section styles
+  Container,
+  SliderInfoContainer,
+  SliderContainer,
+  InfosContainer,
+  IconContainer,
+  InfosContent,
+  BoxInfo,
+  InfosFooter,
+  HeaderSpan
+} from "./popup.styles";
 import "./popup.styles.scss";
 import { CloseButton } from "../suchleiste/suchleiste.styles";
 
@@ -40,7 +58,7 @@ class Popup extends React.Component {
     else return null;
 
     return (
-      <div className="popup-container">
+      <PopupContainer>
         <div className="popup" ref={popupRef}>
           <div
             className="closebutton-container"
@@ -264,7 +282,7 @@ class Popup extends React.Component {
             </div>
           </div>
         </div>
-      </div>
+      </PopupContainer>
     );
   }
 }
