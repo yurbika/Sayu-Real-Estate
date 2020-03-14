@@ -47,24 +47,22 @@ export const removeDots = numberWithDots => {
   return temp;
 };
 
-//tausender punkte format
 export const numberWithDots = str => {
   var number = removeDots(str);
   number = number.replace(/\B(?=(\d{3})+(?!\d))/g, ".");
   return number.toString();
 };
 
-//abkürzungen für tausender stellen und millionen
 const abbreviateNumber = function(num) {
-  //test für grenz werte
+  //test for limit values
   if (num === null) return null;
   if (num < 100000) return numberWithDots(num.toString());
   //funktion
-  var b = num.toPrecision(2).split("e"), // anzahl der nuller
+  var b = num.toPrecision(2).split("e"), // number of zeros
     k = b.length === 1 ? 0 : Math.floor(Math.min(b[1].slice(1), 14) / 3), // floor at decimals, ceiling at trillions
-    c = k < 1 ? num.toFixed(0) : (num / Math.pow(10, k * 3)).toFixed(1), // diviert durch die anzahl der nuller
+    c = k < 1 ? num.toFixed(0) : (num / Math.pow(10, k * 3)).toFixed(1), // divided by the numbers of zeros
     d = c < 0 ? c : Math.abs(c), // enforce -0 is 0
-    e = d + ["", "T", "M"][k];
+    e = d + ["", "K", "M"][k];
   return e;
 };
 
@@ -74,13 +72,12 @@ export const testNum = num => {
   else return false;
 };
 
-//der String Preis ist der standartwert
 export const checkInputValue = (minInput, maxInput) => {
   if (!testNum(minInput)) minInput = "";
   if (!testNum(maxInput)) maxInput = "";
-  //Preis ist 0 und egal
-  if (minInput === "" && maxInput === "") return "Preis";
-  //mininput ist größer als maxinput
+  //price is 0 and any price
+  if (minInput === "" && maxInput === "") return "Price";
+  //min-input is greater than max-input
   if (
     Number(removeDots(minInput)) > Number(removeDots(maxInput)) &&
     maxInput !== "" &&
@@ -89,32 +86,34 @@ export const checkInputValue = (minInput, maxInput) => {
     let temp = maxInput;
     maxInput = minInput;
     minInput = temp;
-    //test für abbreviateNumber
+    //test for abbreviateNumber
     if (testNum(minInput) || testNum(maxInput))
       return `${abbreviateNumber(
         Number(removeDots(minInput))
       )}€ - ${abbreviateNumber(Number(removeDots(maxInput)))}€`;
-    //standart rückgabe
+    //standard return
     return `${numberWithDots(minInput)}€ - ${numberWithDots(maxInput)}€`;
   }
-  //maxinput ist leer
+  //maxinput is empty
   if (
     minInput !== "" &&
-    (maxInput === "" || maxInput === "" || maxInput === minInput)
+    (maxInput === "" ||
+      maxInput === "" ||
+      removeDots(maxInput.toString()) === removeDots(minInput.toString()))
   )
-    return `ab ${numberWithDots(minInput)}€`;
-  //mininput ist leer
+    return `from ${numberWithDots(minInput)}€`;
+  //mininput is empty
   if (minInput === "" && maxInput !== "")
-    return `bis ${numberWithDots(maxInput)}€`;
-  //standart ausgabe
+    return `up to ${numberWithDots(maxInput)}€`;
+  //standard return
   if (minInput !== "" && maxInput !== "") {
-    //test für abbreviateNumber
+    //test for abbreviateNumber
     if (testNum(minInput) || testNum(maxInput))
       return `${abbreviateNumber(
         Number(removeDots(minInput))
       )}€ - ${abbreviateNumber(Number(removeDots(maxInput)))}€`;
-    //standart rückgabe
+    //standard return
     return `${numberWithDots(minInput)}€ - ${numberWithDots(maxInput)}€`;
   }
-  return "Preis";
+  return "Price";
 };

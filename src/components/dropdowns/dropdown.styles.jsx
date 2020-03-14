@@ -9,7 +9,7 @@ export const InputListContainer = styled.div`
   width: 50%;
 `;
 
-export const BindeStrich = styled.div`
+export const DashSymbole = styled.div`
   position: relative;
   width: 10px;
   height: 2.2rem;
@@ -25,8 +25,8 @@ export const BindeStrich = styled.div`
   }
 `;
 
-//hier werden die styles für die verschiedenen dropdowns ausgewählt
-const AuswahlDropdown = css`
+//diffrent styles for diffrent dropdowns
+const SelectionDropdown = css`
   z-index: 1;
   width: inherit;
   max-width: inherit;
@@ -89,7 +89,7 @@ const ResultsDropdown = css`
   }
 `;
 
-const PreisDropdown = css`
+const PriceDropdown = css`
   //diese zeile lässt den dropdown unter dem button sein
   position: absolute;
   left: 12px;
@@ -141,7 +141,7 @@ const getAdditionalStyle = props => {
   switch (props.additionalStyle) {
     case "page-changer":
       return [
-        AuswahlDropdown,
+        SelectionDropdown,
         css`
           display: inline-block;
           max-height: 150px;
@@ -170,7 +170,7 @@ const getAdditionalStyle = props => {
       ];
     case "responsiv-dropdown":
       return [
-        AuswahlDropdown,
+        SelectionDropdown,
         NormalDropdown,
         css`
           margin-top: 40px;
@@ -178,10 +178,10 @@ const getAdditionalStyle = props => {
       ];
     case "bezugsart-dropdown":
     case "haus-dropdown":
-      return AuswahlDropdown;
+      return SelectionDropdown;
     case "zimmer-dropdown":
     case "flaeche-dropdown":
-      return [AuswahlDropdown, NormalDropdown];
+      return [SelectionDropdown, NormalDropdown];
     case "results-dropdown responsiv-dropdown":
       return [
         ResultsDropdown,
@@ -195,14 +195,14 @@ const getAdditionalStyle = props => {
       return ResultsDropdown;
     case "preis-dropdown responsiv-dropdown":
       return [
-        PreisDropdown,
+        PriceDropdown,
         css`
           max-width: calc(100% - 15px);
           justify-content: space-evenly;
         `
       ];
     case "preis-dropdown":
-      return PreisDropdown;
+      return PriceDropdown;
     default:
       return "";
   }

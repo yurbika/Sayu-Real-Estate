@@ -4,10 +4,10 @@ import { createStructuredSelector } from "reselect";
 
 //utils
 import {
-  createLiMietenMin,
-  createLiMietenMax,
-  createLiKaufenMin,
-  createLiKaufenMax
+  createLiRentMin,
+  createLiRentMax,
+  createLiBuyMin,
+  createLiBuyMax
 } from "./dropdown.component.utils";
 
 //component imports
@@ -31,10 +31,11 @@ import {
   selectBezugsart
 } from "../../redux/filter/filter.selectors";
 
+//styles
 import {
   DropdownContainer,
   InputListContainer,
-  BindeStrich
+  DashSymbole
 } from "./dropdown.styles";
 
 const PreisDropdown = ({
@@ -53,45 +54,45 @@ const PreisDropdown = ({
       <InputListContainer>
         <Input
           placeholder="Min"
-          //dieses Attribut ist für input.styles
+          //this attribute is for the input styling
           dropdownInput
           autoFocus
           onFocus={() => {
-            document.getElementById("preis-min").style.display = "inline-block";
-            document.getElementById("preis-max").style.display = "none";
+            document.getElementById("price-min").style.display = "inline-block";
+            document.getElementById("price-max").style.display = "none";
           }}
           value={testNum(minInput) ? minInput : resetInputMin()}
           onChange={e => setInputMin(numberWithDots(e.target.value))}
           onKeyPress={e => onlyNumberkey(e)}
         />
-        <ul id="preis-min">
+        <ul id="price-min">
           {bezugsart === "Mieten"
-            ? createLiMietenMin(10, maxInput, "max-input", setInputMin)
-            : createLiKaufenMin(10, maxInput, "max-input", setInputMin)}
+            ? createLiRentMin(10, maxInput, "max-input", setInputMin)
+            : createLiBuyMin(10, maxInput, "max-input", setInputMin)}
         </ul>
       </InputListContainer>
-      <BindeStrich>
+      <DashSymbole>
         <span></span>
-      </BindeStrich>
+      </DashSymbole>
       <InputListContainer>
         <Input
-          //dieses Attribut ist notwending für die createLi funktion damit der focus gesetzt werden kann
+          //this attribute is nessecary for the createLi function, to set focus
           id="max-input"
           placeholder="Max"
-          //dieses Attribut ist für input.styles
+          //this attribute is for the input styling
           dropdownInput
           onFocus={() => {
-            document.getElementById("preis-min").style.display = "none";
-            document.getElementById("preis-max").style.display = "inline-block";
+            document.getElementById("price-min").style.display = "none";
+            document.getElementById("price-max").style.display = "inline-block";
           }}
           value={testNum(maxInput) ? maxInput : resetInputMax()}
           onChange={e => setInputMax(numberWithDots(e.target.value))}
           onKeyPress={e => onlyNumberkey(e)}
         />
-        <ul id="preis-max">
+        <ul id="price-max">
           {bezugsart === "Mieten"
-            ? createLiMietenMax(10, minInput, setInputMax, toggleDropdown)
-            : createLiKaufenMax(10, minInput, setInputMax, toggleDropdown)}
+            ? createLiRentMax(10, minInput, setInputMax, toggleDropdown)
+            : createLiBuyMax(10, minInput, setInputMax, toggleDropdown)}
         </ul>
       </InputListContainer>
     </DropdownContainer>

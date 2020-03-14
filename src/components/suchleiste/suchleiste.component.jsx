@@ -16,7 +16,7 @@ import {
 
 import Button from "../../components/button/button.component";
 
-import PreisDropdown from "../../components/dropdowns/preis-dropdown.component";
+import PriceDropdown from "../../components/dropdowns/price-dropdown.component";
 import SelectionDropdown from "../dropdowns/selection-dropdown.component";
 import Results from "../dropdowns/results-dropdown.component";
 
@@ -339,7 +339,7 @@ class Suchleiste extends React.Component {
               <InputContainerZeile shadowSekundär>
                 <Button sekundärerButton dropdown id="filter-button">
                   {preisDropdown ? (
-                    <PreisDropdown additionalStyle={"preis-dropdown"} />
+                    <PriceDropdown additionalStyle={"preis-dropdown"} />
                   ) : null}
                 </Button>
                 <Button sekundärerButton dropdown id="filter-button">
@@ -574,7 +574,7 @@ class Suchleiste extends React.Component {
                     {/*id ist für das styling */}
                     <Button responsivButtonPreis dropdown id="preis-dropdown">
                       {preisDropdown ? (
-                        <PreisDropdown
+                        <PriceDropdown
                           additionalStyle={"preis-dropdown responsiv-dropdown"}
                         />
                       ) : null}

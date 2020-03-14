@@ -8,9 +8,9 @@ import { ID_GENERATOR } from "../../uniqueKey";
 
 import DropdownActionTypes from "../../redux/dropdown/dropdown.types";
 
-//dynamische werte fuer die preisauswahl
-//bezugsart mieten
-export const createLiMietenMin = (
+//dynamic values for price dropdown
+//renting
+export const createLiRentMin = (
   n,
   oppositeInputState,
   oppositeInputName,
@@ -20,12 +20,12 @@ export const createLiMietenMin = (
   let array = [];
   let temp = 0;
 
-  //grenz werte fuer mieten
+  //min/max values for renting
   if (Number(removeDots(oppositeInputState)) === 0) temp = 2000;
   else if (Number(removeDots(oppositeInputState)) >= 10000) temp = 10000;
   else temp = Number(removeDots(oppositeInputState));
 
-  //schritt weite der zahlen
+  //incrementing values
   while (i < n - 1) {
     if (temp <= 3000) {
       temp = Math.ceil(temp / 200) * 200;
@@ -45,7 +45,7 @@ export const createLiMietenMin = (
           document.getElementById(oppositeInputName).click();
           document.getElementById(oppositeInputName).focus();
         }}
-        key={ID_GENERATOR("preis-dropdown-li-")}
+        key={ID_GENERATOR("price-dropdown-li-")}
       >
         {numberWithDots(temp.toString()) + "€"}
       </li>
@@ -59,7 +59,7 @@ export const createLiMietenMin = (
         document.getElementById(oppositeInputName).click();
         document.getElementById(oppositeInputName).focus();
       }}
-      key={ID_GENERATOR("preis-dropdown-li-")}
+      key={ID_GENERATOR("price-dropdown-li-")}
     >
       0€
     </li>
@@ -67,7 +67,7 @@ export const createLiMietenMin = (
   return array.reverse();
 };
 
-export const createLiMietenMax = (
+export const createLiRentMax = (
   n,
   oppositeInputState,
   setInputMax,
@@ -77,13 +77,13 @@ export const createLiMietenMax = (
   let array = [];
   let temp = 0;
 
-  //grenz werte fuer mieten
+  //min/max values for renting
   if (Number(removeDots(oppositeInputState)) === 0) temp = 1800;
   else if (Number(removeDots(oppositeInputState)) < 400) temp = 200;
   else if (Number(removeDots(oppositeInputState)) >= 10000) i = n;
   else temp = Number(removeDots(oppositeInputState));
 
-  //schritt weite der zahlen
+  //incrementing values
   while (i < n - 1) {
     if (temp <= 3000) {
       temp = Math.ceil(temp / 200) * 200;
@@ -102,7 +102,7 @@ export const createLiMietenMax = (
           setInputMax(e.currentTarget.textContent);
           toggleDropdown(DropdownActionTypes.TOGGLE_PREISDROPDOWN_HIDDEN);
         }}
-        key={ID_GENERATOR("preis-dropdown-li-")}
+        key={ID_GENERATOR("price-dropdown-li-")}
       >
         {numberWithDots(temp.toString()) + "€"}
       </li>
@@ -115,16 +115,16 @@ export const createLiMietenMax = (
         setInputMax("");
         toggleDropdown(DropdownActionTypes.TOGGLE_PREISDROPDOWN_HIDDEN);
       }}
-      key={ID_GENERATOR("preis-dropdown-li-")}
+      key={ID_GENERATOR("price-dropdown-li-")}
     >
-      Egal
+      Any Price
     </li>
   );
   return array;
 };
 
-//bezugsart kaufen
-export const createLiKaufenMin = (
+//buying
+export const createLiBuyMin = (
   n,
   oppositeInputState,
   oppositeInputName,
@@ -133,7 +133,7 @@ export const createLiKaufenMin = (
   let i = 0;
   let array = [];
   let temp = 0;
-  //grenz werte fuer kaufen
+  //min/max values for buying
   if (
     Number(removeDots(oppositeInputState)) === 0 ||
     Number(removeDots(oppositeInputState)) > 1000000
@@ -141,7 +141,7 @@ export const createLiKaufenMin = (
     temp = 1000000;
   else temp = Number(removeDots(oppositeInputState));
 
-  //schritt weite der zahlen
+  //incrementing values
   while (i < n - 1) {
     temp = Math.ceil(temp / 100000) * 100000;
     temp -= 100000;
@@ -153,7 +153,7 @@ export const createLiKaufenMin = (
           document.getElementById(oppositeInputName).click();
           document.getElementById(oppositeInputName).focus();
         }}
-        key={ID_GENERATOR("preis-dropdown-li-")}
+        key={ID_GENERATOR("price-dropdown-li-")}
       >
         {numberWithDots(temp.toString()) + "€"}
       </li>
@@ -168,7 +168,7 @@ export const createLiKaufenMin = (
         document.getElementById(oppositeInputName).click();
         document.getElementById(oppositeInputName).focus();
       }}
-      key={ID_GENERATOR("preis-dropdown-li-")}
+      key={ID_GENERATOR("price-dropdown-li-")}
     >
       0€
     </li>
@@ -176,7 +176,7 @@ export const createLiKaufenMin = (
   return array.reverse();
 };
 
-export const createLiKaufenMax = (
+export const createLiBuyMax = (
   n,
   oppositeInputState,
   setInputMax,
@@ -186,12 +186,12 @@ export const createLiKaufenMax = (
   let array = [];
   let temp = 0;
 
-  //grenz werte fuer mieten
+  //min/max values for buying
   if (Number(removeDots(oppositeInputState)) === 0) temp = 400000;
   else if (Number(removeDots(oppositeInputState)) >= 1500000) i = n;
   else temp = Number(removeDots(oppositeInputState));
 
-  //schritt weite der zahlen
+  //incrementing values
   while (i < n - 1) {
     temp = Math.ceil(temp / 100000) * 100000;
     temp += 100000;
@@ -203,7 +203,7 @@ export const createLiKaufenMax = (
           setInputMax(e.currentTarget.textContent);
           toggleDropdown(DropdownActionTypes.TOGGLE_PREISDROPDOWN_HIDDEN);
         }}
-        key={ID_GENERATOR("preis-dropdown-li-")}
+        key={ID_GENERATOR("price-dropdown-li-")}
       >
         {numberWithDots(temp.toString()) + "€"}
       </li>
@@ -216,9 +216,9 @@ export const createLiKaufenMax = (
         setInputMax("");
         toggleDropdown(DropdownActionTypes.TOGGLE_PREISDROPDOWN_HIDDEN);
       }}
-      key={ID_GENERATOR("preis-dropdown-li-")}
+      key={ID_GENERATOR("price-dropdown-li-")}
     >
-      Egal
+      Any Price
     </li>
   );
   return array;
