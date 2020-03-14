@@ -43,7 +43,7 @@ class App extends React.Component {
         <Switch>
           <Suspense fallback={<Spinner page />}>
             <Route exact path="/" component={Startseite} />
-            <Route exact path="/immobilien" component={Immobilien} />
+            <Route exact path="/real-estate" component={Immobilien} />
           </Suspense>
         </Switch>
       </div>

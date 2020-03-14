@@ -48,7 +48,7 @@ export const OptionsContainer = styled.div`
 const getOptionLinkStyle = props => {
   if (!props.responsiv)
     return css`
-      &.registrieren {
+      &.registration {
         border-left: 2px solid ${theme.colors.lightWhite};
         margin-left: 2rem;
         margin-right: 1rem;

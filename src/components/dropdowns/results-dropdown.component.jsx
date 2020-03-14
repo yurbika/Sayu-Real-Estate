@@ -20,10 +20,12 @@ import {
 
 import { setSearchInput } from "../../redux/filter/filter.action";
 
-import { dropdownRef } from "../../utils/utils";
 import toggleDropdown from "../../redux/dropdown/dropdown.action.js";
 import { selectResultsDropdown } from "../../redux/dropdown/dropdown.selectors";
 import DropdownActionTypes from "../../redux/dropdown/dropdown.types";
+
+//utils
+import { dropdownRef } from "../../utils/utils";
 
 //styles
 import { DropdownContainer } from "./dropdown.styles";
@@ -38,12 +40,12 @@ const Results = ({
 }) => {
   return (
     <DropdownContainer ref={dropdownRef} additionalStyle={additionalStyle}>
-      {!!bundeslaenderArray.length ? <h4>Bundesländer</h4> : null}
+      {!!bundeslaenderArray.length ? <h4>Federal-States</h4> : null}
       {!!bundeslaenderArray.length ? (
         <ul>
           {bundeslaenderArray.map(item => (
             <li
-              key={ID_GENERATOR("bundeslaenderArray-")}
+              key={ID_GENERATOR("federal-states-array-")}
               onClick={e => {
                 setSearchInput(e.currentTarget.textContent);
                 toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
@@ -54,12 +56,12 @@ const Results = ({
           ))}
         </ul>
       ) : null}
-      {!!staedteOrteArray.length ? <h4>Ortschaften</h4> : null}
+      {!!staedteOrteArray.length ? <h4>Localities</h4> : null}
       {!!staedteOrteArray.length ? (
         <ul>
           {staedteOrteArray.map(item => (
             <li
-              key={ID_GENERATOR("staedteOrteArray-")}
+              key={ID_GENERATOR("city-locality-array-")}
               onClick={e => {
                 setSearchInput(e.currentTarget.textContent);
                 toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
@@ -70,12 +72,12 @@ const Results = ({
           ))}
         </ul>
       ) : null}
-      {!!straßenPlzOrtArray.length ? <h4>Straßen</h4> : null}
+      {!!straßenPlzOrtArray.length ? <h4>Streets</h4> : null}
       {!!straßenPlzOrtArray.length ? (
         <ul>
           {straßenPlzOrtArray.map(item => (
             <li
-              key={ID_GENERATOR("straßenPlzOrtArray-")}
+              key={ID_GENERATOR("street-postcode-locality-array-")}
               onClick={e => {
                 setSearchInput(e.currentTarget.textContent);
                 toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);

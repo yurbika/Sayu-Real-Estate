@@ -15,32 +15,34 @@ import {
 } from "./header.styles";
 
 const Header = ({ location }) => (
-  <HeaderContainer className={location.pathname === "/" ? "startseite" : ""}>
+  <HeaderContainer className={location.pathname === "/" ? "home" : ""}>
     <LogoContainer to="/">
       <Logo className="logo" />
     </LogoContainer>
     <OptionsContainer
       className={
-        location.pathname === "/registrieren"
+        location.pathname === "/registration"
           ? "hidden"
-          : location.pathname === "/anmelden"
+          : location.pathname === "/login"
           ? "hidden"
           : ""
       }
     >
       <OptionLink className={location.pathname === "/" ? "aktiv" : ""} to="/">
-        <span>Startseite</span>
+        <span>Home</span>
       </OptionLink>
       <OptionLink
-        className={location.pathname === "/immobilien" ? "aktiv liste" : ""}
-        to="/immobilien"
+        className={
+          location.pathname === "/real-estate" ? "aktiv real-estate" : ""
+        }
+        to="/real-estate"
       >
-        <span>Immobilien</span>
+        <span>Real Estates</span>
       </OptionLink>
-      <OptionLink to="/registrieren" className="registrieren">
-        Registrieren
+      <OptionLink to="/registration" className="registration">
+        Registration
       </OptionLink>
-      <OptionLink to="/anmelden">Anmelden</OptionLink>
+      <OptionLink to="/login">Login</OptionLink>
     </OptionsContainer>
     <HamburgerMenu
       onClick={() => {
@@ -65,9 +67,9 @@ const Header = ({ location }) => (
         }
       }}
       className={
-        location.pathname === "/registrieren"
+        location.pathname === "/registration"
           ? "hidden"
-          : location.pathname === "/anmelden"
+          : location.pathname === "/login"
           ? "hidden"
           : ""
       }
@@ -83,20 +85,20 @@ const Header = ({ location }) => (
           </OptionLink>
           <OptionLink
             className={
-              location.pathname === "/immobilien" ? "aktiv immobilien" : ""
+              location.pathname === "/real-estate" ? "aktiv real-estate" : ""
             }
-            to="/immobilien"
+            to="/real-estate"
           >
-            <span>Immobilien</span>
+            <span>Real Estate</span>
           </OptionLink>
           <OptionLink
-            to="/registrieren"
-            className="registrieren"
+            to="/registration"
+            className="registration"
             responsiv={"responsiv"}
           >
             Registrieren
           </OptionLink>
-          <OptionLink to="/anmelden" responsiv={"responsiv"}>
+          <OptionLink to="/login" responsiv={"responsiv"}>
             Anmelden
           </OptionLink>
         </ResponsiveMenu>
