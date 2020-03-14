@@ -17,7 +17,7 @@ import { togglePopup } from "../../redux/popup/popup.action";
 
 //utils
 import { popupRef } from "../../utils/utils";
-import { numberWithDots } from "../input/input.utils";
+import { thousandSeperatorDots } from "../input/input.utils";
 
 //styles
 import {
@@ -128,7 +128,9 @@ class Popup extends React.Component {
                         <img src={moneyIconBrown} alt="Preis:" />
                         <HeaderSpan preis>
                           {" " +
-                            numberWithDots(immo[haustyp]["preis"].toString()) +
+                            thousandSeperatorDots(
+                              immo[haustyp]["preis"].toString()
+                            ) +
                             " €"}
                         </HeaderSpan>
                       </IconContainer>
@@ -228,14 +230,15 @@ class Popup extends React.Component {
                         <GridItem preis>
                           <span>Preis:</span>
                           <span>
-                            {numberWithDots(immo[haustyp]["preis"].toString()) +
-                              " €"}
+                            {thousandSeperatorDots(
+                              immo[haustyp]["preis"].toString()
+                            ) + " €"}
                           </span>
                         </GridItem>
                         <GridItem preis>
                           <span>Marklerprovision:</span>
                           <span>
-                            {numberWithDots(
+                            {thousandSeperatorDots(
                               Math.floor(
                                 (immo[haustyp]["preis"] * 4.76) / 100
                               ).toString()
@@ -245,7 +248,7 @@ class Popup extends React.Component {
                         <GridItem preis>
                           <span>Notarkosten:</span>
                           <span>
-                            {numberWithDots(
+                            {thousandSeperatorDots(
                               Math.floor(
                                 (immo[haustyp]["preis"] / 100) * 1.5
                               ).toString()
@@ -255,7 +258,7 @@ class Popup extends React.Component {
                         <GridItem preis>
                           <span>Grunderwerbsteuer</span>
                           <span>
-                            {numberWithDots(
+                            {thousandSeperatorDots(
                               Math.floor(
                                 (immo[haustyp]["preis"] / 100) * 3.5
                               ).toString()
@@ -265,7 +268,7 @@ class Popup extends React.Component {
                         <GridItem preis>
                           <span>Grundbucheintrag</span>
                           <span>
-                            {numberWithDots(
+                            {thousandSeperatorDots(
                               Math.floor(
                                 (immo[haustyp]["preis"] / 100) * 0.5
                               ).toString()

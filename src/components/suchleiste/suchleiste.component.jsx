@@ -11,7 +11,7 @@ import Input from "../../components/input/input.component";
 import {
   checkInputValue,
   checkSearchInput,
-  numberWithDots
+  thousandSeperatorDots
 } from "../../components/input/input.utils";
 
 import Button from "../../components/button/button.component";
@@ -268,7 +268,7 @@ class Suchleiste extends React.Component {
                   }}
                 >
                   {suchtreffer > 0 && !!input
-                    ? `${numberWithDots(suchtreffer.toString())} Treffer`
+                    ? `${thousandSeperatorDots(suchtreffer.toString())} Treffer`
                     : "Suchen"}
                 </Button>
               </InputContainerZeile>
@@ -406,7 +406,7 @@ class Suchleiste extends React.Component {
                 }}
               >
                 {suchtreffer > 0 && !!input
-                  ? `${numberWithDots(suchtreffer.toString())} Treffer`
+                  ? `${thousandSeperatorDots(suchtreffer.toString())} Treffer`
                   : "Suchen"}
               </Button>
               <SuchleistePopupContainer id="suchleistenpopup">
@@ -560,7 +560,9 @@ class Suchleiste extends React.Component {
                       }}
                     >
                       {suchtreffer > 0 && !!input
-                        ? `${numberWithDots(suchtreffer.toString())} Treffer`
+                        ? `${thousandSeperatorDots(
+                            suchtreffer.toString()
+                          )} Treffer`
                         : "Suchen"}
                     </Button>
                   </SuchleistePopupContentContainer>

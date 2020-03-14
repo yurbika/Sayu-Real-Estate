@@ -11,7 +11,7 @@ import {
 } from "../../redux/popup/popup.action";
 
 //utils
-import { numberWithDots } from "../input/input.utils";
+import { thousandSeperatorDots } from "../input/input.utils";
 
 //assets
 import moneyIcon from "../../assets/money-icon.png";
@@ -117,7 +117,9 @@ const ImmoPreview = ({
             <IconContainer>
               <img src={moneyIcon} alt="Preis:" />
               <span>
-                {" " + numberWithDots(immo[haustyp]["preis"].toString()) + " €"}
+                {" " +
+                  thousandSeperatorDots(immo[haustyp]["preis"].toString()) +
+                  " €"}
               </span>
             </IconContainer>
           </FooterSecondSection>
@@ -137,7 +139,9 @@ const ImmoPreview = ({
             <ResponsivIconContainer>
               <img src={moneyIcon} alt="Preis:" />
               <span>
-                {" " + numberWithDots(immo[haustyp]["preis"].toString()) + " €"}
+                {" " +
+                  thousandSeperatorDots(immo[haustyp]["preis"].toString()) +
+                  " €"}
               </span>
             </ResponsivIconContainer>
           </RepsponsivFooterSecondSection>

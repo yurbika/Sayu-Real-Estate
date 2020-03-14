@@ -12,7 +12,11 @@ import {
 
 //component imports
 import Input from "../input/input.component";
-import { numberWithDots, onlyNumberkey, testNum } from "../input/input.utils";
+import {
+  thousandSeperatorDots,
+  onlyNumberkey,
+  testNum
+} from "../input/input.utils";
 
 //redux imports
 import { dropdownRef } from "../../utils/utils";
@@ -62,7 +66,7 @@ const PreisDropdown = ({
             document.getElementById("price-max").style.display = "none";
           }}
           value={testNum(minInput) ? minInput : resetInputMin()}
-          onChange={e => setInputMin(numberWithDots(e.target.value))}
+          onChange={e => setInputMin(thousandSeperatorDots(e.target.value))}
           onKeyPress={e => onlyNumberkey(e)}
         />
         <ul id="price-min">
@@ -86,7 +90,7 @@ const PreisDropdown = ({
             document.getElementById("price-max").style.display = "inline-block";
           }}
           value={testNum(maxInput) ? maxInput : resetInputMax()}
-          onChange={e => setInputMax(numberWithDots(e.target.value))}
+          onChange={e => setInputMax(thousandSeperatorDots(e.target.value))}
           onKeyPress={e => onlyNumberkey(e)}
         />
         <ul id="price-max">

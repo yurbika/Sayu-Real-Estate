@@ -1,9 +1,6 @@
-//funktionen für die inputeingaben
-
-//prüft ob die eingabe sonderzeichen hat
 export const checkSearchInput = e => {
   var ASCIICode = e.which ? e.which : e.keyCode;
-  //prüft ob es klein/großbuchstaben sind oder ein komma
+  //checking for letters
   if (
     (ASCIICode <= 90 && ASCIICode >= 65) ||
     (ASCIICode >= 97 && ASCIICode <= 122) ||
@@ -18,46 +15,46 @@ export const checkSearchInput = e => {
     ASCIICode === 223
   )
     return true;
-  //schaut ob es zahlen sind
+  //checking for numbers
   if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57))
     return e.preventDefault();
 };
 
-//prüft die eingabe auf eine zahl
 export const onlyNumberkey = e => {
   var ASCIICode = e.which ? e.which : e.keyCode;
-  //prüfen ob die erste zahl eine null ist
+  //check first value if its 0
   if (e.target.value.length === 0 && ASCIICode === 48)
     return e.preventDefault();
-  //prüfen ob es eine zahl ist
+  //checking for numbers
   if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57))
     return e.preventDefault();
   return true;
 };
 
-//entfernt alles außer zahlen
-//erwartet ein string
+/*
+ *removes everything except numbers of value that comes in
+ *function expects a string
+ */
 export const removeDots = numberWithDots => {
   if (numberWithDots === null || numberWithDots === undefined)
     return numberWithDots;
   var temp = numberWithDots;
   temp = temp.replace(/[^0-9]/g, "");
-  //wenn die erste zahl mit null anfängt es war noch möglich nachdem makieren ein 0 zu setzen
+  //ensuring that even after typing and removing the other numbers zero still is no the first number
   temp = temp.replace(/\b0/, "");
   return temp;
 };
 
-export const numberWithDots = str => {
+export const thousandSeperatorDots = str => {
   var number = removeDots(str);
-  number = number.replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+  number = number.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
   return number.toString();
 };
 
 const abbreviateNumber = function(num) {
   //test for limit values
   if (num === null) return null;
-  if (num < 100000) return numberWithDots(num.toString());
-  //funktion
+  if (num < 100000) return thousandSeperatorDots(num.toString());
   var b = num.toPrecision(2).split("e"), // number of zeros
     k = b.length === 1 ? 0 : Math.floor(Math.min(b[1].slice(1), 14) / 3), // floor at decimals, ceiling at trillions
     c = k < 1 ? num.toFixed(0) : (num / Math.pow(10, k * 3)).toFixed(1), // divided by the numbers of zeros
@@ -92,19 +89,21 @@ export const checkInputValue = (minInput, maxInput) => {
         Number(removeDots(minInput))
       )}€ - ${abbreviateNumber(Number(removeDots(maxInput)))}€`;
     //standard return
-    return `${numberWithDots(minInput)}€ - ${numberWithDots(maxInput)}€`;
+    return `${thousandSeperatorDots(minInput)}€ - ${thousandSeperatorDots(
+      maxInput
+    )}€`;
   }
   //maxinput is empty
   if (
     minInput !== "" &&
     (maxInput === "" ||
       maxInput === "" ||
-      removeDots(maxInput.toString()) === removeDots(minInput.toString()))
+      Number(removeDots(minInput)) === Number(removeDots(maxInput)))
   )
-    return `from ${numberWithDots(minInput)}€`;
+    return `from ${thousandSeperatorDots(minInput)}€`;
   //mininput is empty
   if (minInput === "" && maxInput !== "")
-    return `up to ${numberWithDots(maxInput)}€`;
+    return `up to ${thousandSeperatorDots(maxInput)}€`;
   //standard return
   if (minInput !== "" && maxInput !== "") {
     //test for abbreviateNumber
@@ -113,7 +112,9 @@ export const checkInputValue = (minInput, maxInput) => {
         Number(removeDots(minInput))
       )}€ - ${abbreviateNumber(Number(removeDots(maxInput)))}€`;
     //standard return
-    return `${numberWithDots(minInput)}€ - ${numberWithDots(maxInput)}€`;
+    return `${thousandSeperatorDots(minInput)}€ - ${thousandSeperatorDots(
+      maxInput
+    )}€`;
   }
   return "Price";
 };

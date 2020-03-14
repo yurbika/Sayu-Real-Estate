@@ -1,7 +1,7 @@
 import React from "react";
 
 //utils
-import { numberWithDots } from "../input/input.utils";
+import { thousandSeperatorDots } from "../input/input.utils";
 
 //styles
 import {
@@ -36,7 +36,10 @@ const ImgPreview = ({ realEstate }) => {
           <Rooms>{realEstate[propertyType]["zimmer"]} RM.</Rooms>
           <Area> {realEstate[propertyType]["wohnfläche"]} m²</Area>
           <Price>
-            {numberWithDots(realEstate[propertyType]["preis"].toString())} €
+            {thousandSeperatorDots(
+              realEstate[propertyType]["preis"].toString()
+            )}
+            €
           </Price>
         </HoverFooter>
       </HoverContainer>

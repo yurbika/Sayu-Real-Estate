@@ -1,8 +1,6 @@
-//funktionen für die dropdowns
-
 import React from "react";
 
-import { numberWithDots, removeDots } from "../input/input.utils";
+import { thousandSeperatorDots, removeDots } from "../input/input.utils";
 
 import { ID_GENERATOR } from "../../uniqueKey";
 
@@ -47,7 +45,7 @@ export const createLiRentMin = (
         }}
         key={ID_GENERATOR("price-dropdown-li-")}
       >
-        {numberWithDots(temp.toString()) + "€"}
+        {thousandSeperatorDots(temp.toString()) + "€"}
       </li>
     );
     i++;
@@ -104,7 +102,7 @@ export const createLiRentMax = (
         }}
         key={ID_GENERATOR("price-dropdown-li-")}
       >
-        {numberWithDots(temp.toString()) + "€"}
+        {thousandSeperatorDots(temp.toString()) + "€"}
       </li>
     );
     i++;
@@ -155,7 +153,7 @@ export const createLiBuyMin = (
         }}
         key={ID_GENERATOR("price-dropdown-li-")}
       >
-        {numberWithDots(temp.toString()) + "€"}
+        {thousandSeperatorDots(temp.toString()) + "€"}
       </li>
     );
 
@@ -205,7 +203,7 @@ export const createLiBuyMax = (
         }}
         key={ID_GENERATOR("price-dropdown-li-")}
       >
-        {numberWithDots(temp.toString()) + "€"}
+        {thousandSeperatorDots(temp.toString()) + "€"}
       </li>
     );
     i++;
