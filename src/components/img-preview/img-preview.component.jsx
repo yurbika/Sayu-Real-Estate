@@ -33,7 +33,7 @@ const ImgPreview = ({ realEstate }) => {
           {realEstate[propertyType]["kurzeBeschreibung"]}
         </BriefDescription>
         <HoverFooter>
-          <Rooms>{realEstate[propertyType]["zimmer"]} RM.</Rooms>
+          <Rooms>{realEstate[propertyType]["zimmer"]} RMS.</Rooms>
           <Area> {realEstate[propertyType]["wohnfläche"]} m²</Area>
           <Price>
             {thousandSeperatorDots(

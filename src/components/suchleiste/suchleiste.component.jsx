@@ -234,7 +234,7 @@ class Suchleiste extends React.Component {
                     if (e.key === "Enter") {
                       toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
                       toggleSuchButtonClick();
-                      history.push("/immobilien");
+                      history.push("/real-estate");
                     }
                   }}
                 />
@@ -263,7 +263,7 @@ class Suchleiste extends React.Component {
                 <Button
                   suchButton
                   onClick={() => {
-                    history.push("/immobilien");
+                    history.push("/real-estate");
                     toggleSuchButtonClick();
                   }}
                 >
@@ -401,7 +401,7 @@ class Suchleiste extends React.Component {
               <Button
                 suchButton
                 onClick={() => {
-                  history.push("/immobilien");
+                  history.push("/real-estate");
                   toggleSuchButtonClick();
                 }}
               >
@@ -476,7 +476,7 @@ class Suchleiste extends React.Component {
                             DropdownActionTypes.TOGGLE_RESULTS_HIDDEN
                           );
                           toggleSuchButtonClick();
-                          history.push("/immobilien");
+                          history.push("/real-estate");
                           document
                             .getElementById("suchleistenpopup")
                             .classList.remove("show");
@@ -550,11 +550,11 @@ class Suchleiste extends React.Component {
                       suchButton
                       responsivButton
                       onClick={() => {
-                        if (location.pathname === "/immobilien")
+                        if (location.pathname === "/real-estate")
                           document
                             .getElementById("suchleistenpopup")
                             .classList.remove("show");
-                        else history.push("/immobilien");
+                        else history.push("/real-estate");
                         document.body.style.overflowY = "visible";
                         toggleSuchButtonClick();
                       }}

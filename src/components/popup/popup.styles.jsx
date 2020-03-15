@@ -182,11 +182,11 @@ export const InfosFooter = styled.div`
 `;
 
 const getAdditionalStylesSpan = props => {
-  if (props.titel)
+  if (props.titleSpan)
     return css`
       margin-bottom: 5px;
     `;
-  if (props.preis)
+  if (props.price)
     return css`
       margin-top: 15px;
       margin-bottom: 15px;
@@ -250,7 +250,7 @@ export const InformationContainer = styled.div`
 `;
 
 const getAdditionalStyleGrid = props => {
-  if (props.preis)
+  if (props.price)
     return css`
       grid-template-columns: repeat(auto-fit, minmax(0, 350px));
     `;
@@ -264,18 +264,22 @@ export const GridContainer = styled.div`
   background: ${theme.colors.hslaBlack};
   border-radius: 15px;
   padding: 15px;
+  & :nth-child(2) {
+    justify-items: center;
+    align-items: center;
+  }
   ${getAdditionalStyleGrid}
 `;
 
 const getAdditionalStyleGridItem = props => {
-  if (props.haus)
+  if (props.house)
     return css`
       & :first-child {
         display: inline-block;
-        width: 100px;
+        width: 110px;
       }
     `;
-  if (props.preis)
+  if (props.price)
     return css`
       & > * {
         display: inline-block;

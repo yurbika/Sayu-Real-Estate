@@ -63,10 +63,10 @@ import clockIcon from "../../assets/clock-icon.png";
 
 class Popup extends React.Component {
   render() {
-    const { immo, immoID, togglePopup } = this.props;
-    let haustyp = "";
-    if (!!immo["haus"]) haustyp = "haus";
-    else if (!!immo["wohnung"]) haustyp = "wohnung";
+    const { realEstate, realEstateID, togglePopup } = this.props;
+    let realEstateType = "";
+    if (!!realEstate["haus"]) realEstateType = "haus";
+    else if (!!realEstate["wohnung"]) realEstateType = "wohnung";
     else return null;
 
     return (
@@ -84,193 +84,215 @@ class Popup extends React.Component {
           <AllContentContainer>
             <Section>
               <RotateContainer>
-                <Rotate>KURZINFORMATION</Rotate>
+                <Rotate>BRIEF-INFORMATION</Rotate>
               </RotateContainer>
               <Container>
                 <SliderInfoContainer>
                   <SliderContainer>
                     <Slider
                       imgArray={[
-                        immo[haustyp]["bilder"]["titelbild"] +
+                        realEstate[realEstateType]["bilder"]["titelbild"] +
                           "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
-                        immo[haustyp]["bilder"]["zweites"] +
+                        realEstate[realEstateType]["bilder"]["zweites"] +
                           "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
-                        immo[haustyp]["bilder"]["drittes"] +
+                        realEstate[realEstateType]["bilder"]["drittes"] +
                           "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
-                        immo[haustyp]["bilder"]["vier"] +
+                        realEstate[realEstateType]["bilder"]["vier"] +
                           "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
-                        immo[haustyp]["bilder"]["fünf"] +
+                        realEstate[realEstateType]["bilder"]["fünf"] +
                           "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
-                        immo[haustyp]["bilder"]["sechs"] +
+                        realEstate[realEstateType]["bilder"]["sechs"] +
                           "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop"
                       ]}
-                      alt={haustyp}
-                      id={immoID}
+                      alt={realEstateType}
+                      id={realEstateID}
                     />
                   </SliderContainer>
                   <InfosContainer>
                     <InfosContent>
-                      <HeaderSpan titel>{immo[haustyp]["titel"]}</HeaderSpan>
+                      <HeaderSpan titleSpan>
+                        {realEstate[realEstateType]["titel"]}
+                      </HeaderSpan>
                       <IconContainer>
-                        <img src={gpsIconBrown} alt="Adresse:" />
+                        <img src={gpsIconBrown} alt="Adress:" />
                         <span>
                           {" " +
-                            immo[haustyp]["adresse"]["straße"] +
+                            realEstate[realEstateType]["adresse"]["straße"] +
                             ", " +
-                            immo[haustyp]["adresse"]["postleitzahl"] +
+                            realEstate[realEstateType]["adresse"][
+                              "postleitzahl"
+                            ] +
                             " - " +
-                            immo[haustyp]["adresse"]["stadt"] +
+                            realEstate[realEstateType]["adresse"]["stadt"] +
                             " - " +
-                            immo[haustyp]["adresse"]["bundesland"]}
+                            realEstate[realEstateType]["adresse"]["bundesland"]}
                         </span>
                       </IconContainer>
                       <IconContainer>
-                        <img src={moneyIconBrown} alt="Preis:" />
-                        <HeaderSpan preis>
+                        <img src={moneyIconBrown} alt="Price:" />
+                        <HeaderSpan price>
                           {" " +
                             thousandSeperatorDots(
-                              immo[haustyp]["preis"].toString()
+                              realEstate[realEstateType]["preis"].toString()
                             ) +
                             " €"}
                         </HeaderSpan>
                       </IconContainer>
                       <BoxInfo>
                         <IconContainer>
-                          <img src={roomIcon} alt="Zimmer:" />
-                          <span>{" " + immo[haustyp]["zimmer"]}</span>
+                          <img src={roomIcon} alt="Rooms:" />
+                          <span>
+                            {" " + realEstate[realEstateType]["zimmer"]}
+                          </span>
                         </IconContainer>
                         <IconContainer>
-                          <img src={propertyIcon} alt="Wohnfläche:" />
-                          <span>{" " + immo[haustyp]["wohnfläche"]} m²</span>
+                          <img src={propertyIcon} alt="Livingspace:" />
+                          <span>
+                            {" " + realEstate[realEstateType]["wohnfläche"]} m²
+                          </span>
                         </IconContainer>
-                        {!!immo[haustyp]["grundstück"] ? (
+                        {!!realEstate[realEstateType]["grundstück"] ? (
                           <IconContainer>
-                            <img src={areaIcon} alt="Grundstück:" />
-                            <span>{" " + immo[haustyp]["grundstück"]} m²</span>
+                            <img src={areaIcon} alt="Property:" />
+                            <span>
+                              {" " + realEstate[realEstateType]["grundstück"]}
+                              m²
+                            </span>
                           </IconContainer>
                         ) : null}
                       </BoxInfo>
                     </InfosContent>
                     <InfosFooter>
                       <IconContainer>
-                        <img src={clockIcon} alt="Veröffentlichung:" />
+                        <img src={clockIcon} alt="Publishing:" />
                         <span>
-                          {"veröffentlich vor " +
-                            immo[haustyp][
+                          {"published " +
+                            realEstate[realEstateType][
                               "vergangeneTageSeitVeröffentlichung"
                             ] +
-                            " Tage"}
+                            " Days ago"}
                         </span>
                       </IconContainer>
                     </InfosFooter>
                   </InfosContainer>
                   <SliderPreview
                     imgArray={[
-                      immo[haustyp]["bilder"]["titelbild"] +
+                      realEstate[realEstateType]["bilder"]["titelbild"] +
                         "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
-                      immo[haustyp]["bilder"]["zweites"] +
+                      realEstate[realEstateType]["bilder"]["zweites"] +
                         "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
-                      immo[haustyp]["bilder"]["drittes"] +
+                      realEstate[realEstateType]["bilder"]["drittes"] +
                         "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
-                      immo[haustyp]["bilder"]["vier"] +
+                      realEstate[realEstateType]["bilder"]["vier"] +
                         "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
-                      immo[haustyp]["bilder"]["fünf"] +
+                      realEstate[realEstateType]["bilder"]["fünf"] +
                         "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
-                      immo[haustyp]["bilder"]["sechs"] +
+                      realEstate[realEstateType]["bilder"]["sechs"] +
                         "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop"
                     ]}
-                    alt={haustyp}
-                    id={immoID}
+                    alt={realEstateType}
+                    id={realEstateID}
                   />
                 </SliderInfoContainer>
               </Container>
             </Section>
             <Section>
               <RotateContainer second>
-                <Rotate>VORSCHAU</Rotate>
+                <Rotate>PREVIEW</Rotate>
               </RotateContainer>
               <MainContentContainer>
                 <MainContent>
                   <InformationContainer>
                     <GridContainer>
-                      <GridItem haus>
-                        <span>Typ:</span>
+                      <GridItem house>
+                        <span>Type:</span>
                         <span>
-                          {haustyp.charAt(0).toUpperCase() + haustyp.slice(1)}
+                          {realEstateType.charAt(0).toUpperCase() +
+                            realEstateType.slice(1)}
                         </span>
                       </GridItem>
-                      <GridItem haus>
-                        <span>Zimmer:</span>
-                        <span>{immo[haustyp]["zimmer"]}</span>
+                      <GridItem house>
+                        <span>Rooms:</span>
+                        <span>{realEstate[realEstateType]["zimmer"]}</span>
                       </GridItem>
-                      <GridItem haus>
-                        <span>Wohnfläche:</span>
-                        <span>{immo[haustyp]["wohnfläche"]} m²</span>
+                      <GridItem house>
+                        <span>Livingspace:</span>
+                        <span>
+                          {realEstate[realEstateType]["wohnfläche"]} m²
+                        </span>
                       </GridItem>
-                      <GridItem haus>
-                        <span>Badezimmer:</span>
-                        <span>{immo[haustyp]["badezimmer"]}</span>
+                      <GridItem house>
+                        <span>Bathrooms:</span>
+                        <span>{realEstate[realEstateType]["badezimmer"]}</span>
                       </GridItem>
-                      {haustyp === "haus" ? (
-                        <GridItem haus>
-                          <span>Grundstück</span>
-                          <span>{immo[haustyp]["grundstück"]} m²</span>
+                      {realEstateType === "haus" ? (
+                        <GridItem house>
+                          <span>Property</span>
+                          <span>
+                            {realEstate[realEstateType]["grundstück"]} m²
+                          </span>
                         </GridItem>
                       ) : null}
-                      <GridItem haus>
-                        <span>Bezugsart:</span>
+                      <GridItem house>
+                        <span>Obtainingtype:</span>
                         <span>
-                          {immo[haustyp]["bezugsart"].charAt(0).toUpperCase() +
-                            immo[haustyp]["bezugsart"].slice(1)}
+                          {realEstate[realEstateType]["bezugsart"]
+                            .charAt(0)
+                            .toUpperCase() +
+                            realEstate[realEstateType]["bezugsart"].slice(1)}
                         </span>
                       </GridItem>
                     </GridContainer>
-                    {immo[haustyp]["bezugsart"] === "kaufen" ? (
-                      <GridContainer preis>
-                        <GridItem preis>
-                          <span>Preis:</span>
+                    {realEstate[realEstateType]["bezugsart"] === "kaufen" ? (
+                      <GridContainer price>
+                        <GridItem price>
+                          <span>Price:</span>
                           <span>
                             {thousandSeperatorDots(
-                              immo[haustyp]["preis"].toString()
+                              realEstate[realEstateType]["preis"].toString()
                             ) + " €"}
                           </span>
                         </GridItem>
-                        <GridItem preis>
-                          <span>Marklerprovision:</span>
+                        <GridItem price>
+                          <span>Broker-Commision:</span>
                           <span>
                             {thousandSeperatorDots(
                               Math.floor(
-                                (immo[haustyp]["preis"] * 4.76) / 100
+                                (realEstate[realEstateType]["preis"] * 4.76) /
+                                  100
                               ).toString()
                             ) + " €"}
                           </span>
                         </GridItem>
-                        <GridItem preis>
-                          <span>Notarkosten:</span>
+                        <GridItem price>
+                          <span>Notary-Fee:</span>
                           <span>
                             {thousandSeperatorDots(
                               Math.floor(
-                                (immo[haustyp]["preis"] / 100) * 1.5
+                                (realEstate[realEstateType]["preis"] / 100) *
+                                  1.5
                               ).toString()
                             ) + " €"}
                           </span>
                         </GridItem>
-                        <GridItem preis>
-                          <span>Grunderwerbsteuer</span>
+                        <GridItem price>
+                          <span>Real-Estate-Transfer-Tax:</span>
                           <span>
                             {thousandSeperatorDots(
                               Math.floor(
-                                (immo[haustyp]["preis"] / 100) * 3.5
+                                (realEstate[realEstateType]["preis"] / 100) *
+                                  3.5
                               ).toString()
                             ) + " €"}
                           </span>
                         </GridItem>
-                        <GridItem preis>
-                          <span>Grundbucheintrag</span>
+                        <GridItem price>
+                          <span>Land-Register-Entry-Fee:</span>
                           <span>
                             {thousandSeperatorDots(
                               Math.floor(
-                                (immo[haustyp]["preis"] / 100) * 0.5
+                                (realEstate[realEstateType]["preis"] / 100) *
+                                  0.5
                               ).toString()
                             ) + " €"}
                           </span>
@@ -281,8 +303,8 @@ class Popup extends React.Component {
                   <MapContainer>
                     <PopupMap
                       pos={[
-                        immo[haustyp]["adresse"]["latitude"],
-                        immo[haustyp]["adresse"]["longitude"]
+                        realEstate[realEstateType]["adresse"]["latitude"],
+                        realEstate[realEstateType]["adresse"]["longitude"]
                       ]}
                     />
                   </MapContainer>
@@ -297,8 +319,8 @@ class Popup extends React.Component {
 }
 
 const mapStateToProps = createStructuredSelector({
-  immo: selectPopupImmo,
-  immoID: selectPopupImmoID
+  realEstate: selectPopupImmo,
+  realEstateID: selectPopupImmoID
 });
 
 const mapDispatchToProps = dispatch => ({
