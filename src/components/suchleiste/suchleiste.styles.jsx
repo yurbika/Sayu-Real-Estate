@@ -13,6 +13,7 @@ export const Bild = styled.div`
   &::before {
     content: "";
     position: absolute;
+    min-height: 500px;
     height: 100vh;
     width: 100vw;
     background-size: 100% 100%;

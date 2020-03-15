@@ -15,6 +15,7 @@ export const ContainerSuchleiste = styled.div`
   justify-content: center;
   width: 100%;
   height: 100vh;
+  min-height: 500px;
 `;
 
 export const BackgroundImageFilter = styled.div`
