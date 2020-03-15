@@ -10,7 +10,7 @@ import { clearSearchInput } from "../../redux/filter/filter.action";
 import { InputStyled, Wrapper, ClearInputButton } from "./input.styles";
 
 const Input = props => {
-  if (!props.löschButton) return <InputStyled autoComplete="off" {...props} />;
+  if (!props.deleteButton) return <InputStyled autoComplete="off" {...props} />;
   else
     return (
       <Wrapper>

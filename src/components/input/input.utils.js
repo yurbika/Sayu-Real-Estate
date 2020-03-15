@@ -33,14 +33,13 @@ export const onlyNumberkey = e => {
 
 /*
  *removes everything except numbers of value that comes in
- *function expects a string
  */
-export const removeDots = numberWithDots => {
-  if (numberWithDots === null || numberWithDots === undefined)
-    return numberWithDots;
-  var temp = numberWithDots;
+export const removeDots = numberWithDotsStr => {
+  if (numberWithDotsStr === null || numberWithDotsStr === undefined)
+    return numberWithDotsStr;
+  var temp = numberWithDotsStr;
   temp = temp.replace(/[^0-9]/g, "");
-  //ensuring that even after typing and removing the other numbers zero still is no the first number
+  //ensuring that even after typing and removing the other numbers zero still is not the first number
   temp = temp.replace(/\b0/, "");
   return temp;
 };

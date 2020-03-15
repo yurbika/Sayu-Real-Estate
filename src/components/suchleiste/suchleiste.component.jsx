@@ -201,7 +201,7 @@ class Suchleiste extends React.Component {
                   id="filter-button"
                   inputType="search"
                   placeholder="Wo: Ort, Bundesland oder PLZ"
-                  löschButton
+                  deleteButton
                   value={input}
                   onChange={e => {
                     setSearchInput(e.target.value);
@@ -347,11 +347,11 @@ class Suchleiste extends React.Component {
                     <SelectionDropdown
                       additionalStyle={"zimmer-dropdown"}
                       children={[
-                        "1 Zi. +",
-                        "2 Zi. +",
-                        "3 Zi. +",
-                        "4 Zi. +",
-                        "5 Zi. +"
+                        "1 RM. +",
+                        "2 RMS. +",
+                        "3 RMS. +",
+                        "4 RMS. +",
+                        "5 RMS. +"
                       ]}
                       type={FilterActionTypes.SET_ZIMMERANZAHL}
                     />
@@ -362,12 +362,12 @@ class Suchleiste extends React.Component {
                     <SelectionDropdown
                       additionalStyle={"flaeche-dropdown"}
                       children={[
-                        "70 qm +",
-                        "100 qm +",
-                        "200 qm +",
-                        "300 qm +",
-                        "400 qm +",
-                        "500 qm +"
+                        "70 m² +",
+                        "100 m² +",
+                        "200 m² +",
+                        "300 m² +",
+                        "400 m² +",
+                        "500 m² +"
                       ]}
                       type={FilterActionTypes.SET_FLÄCHE}
                     />
