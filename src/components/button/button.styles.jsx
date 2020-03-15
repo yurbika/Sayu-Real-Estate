@@ -1,8 +1,6 @@
 import theme from "../../utils/theme";
 import styled, { css } from "styled-components";
 
-//verschiedene Button-Styles
-
 const normalButton = css`
   max-width: 13vw;
   &:active {
@@ -91,8 +89,6 @@ const responsivButton = css`
   min-width: calc(50% - 10px);
   max-width: 100%;
 `;
-
-//entscheiden welche Styles angewendet werden soll
 
 const getButtonStyles = props => {
   if (props.pageChanger && props.noOpacity)
@@ -189,7 +185,7 @@ const getButtonStyles = props => {
       `
     ];
   if (props.secondaryButton) return secondaryButton;
-  if (props.suchButton && props.responsivButton)
+  if (props.searchButton && props.responsivButton)
     return [
       searchButton,
       responsivButton,
@@ -197,10 +193,10 @@ const getButtonStyles = props => {
         width: 100%;
       `
     ];
-  if (props.suchButton) return searchButton;
+  if (props.searchButton) return searchButton;
   if (props.actionButton) return actionButton;
   if (props.inputButton) return inputButton;
-  if (props.responsivButtonPreis)
+  if (props.responsivButtonPrice)
     return [
       responsivButton,
       css`
@@ -211,9 +207,8 @@ const getButtonStyles = props => {
   return normalButton;
 };
 
-//allgemeine Button-Styles
-//pointer-events ist auf none wegen den dropdowns damit sie von überall geschlossen
-//werden können und die spans nicht mehr anklickbar sind
+//general Button-Styles
+//pointer-events none of the spans because only the button should toggle the dropdowns
 
 export const CustomButtonContainer = styled.button`
   cursor: pointer;
@@ -234,9 +229,6 @@ export const CustomButtonContainer = styled.button`
   }
   ${getButtonStyles}
 `;
-
-//anwenden verschiedener Positionierungen der Dropdown-Pfeile
-//wurde rausgenommen jedoch die Funktionen sind immer noch drin
 
 const getArrowContainerStyles = props => {
   if (props.noArrow)
@@ -330,7 +322,7 @@ const getArrowStyles = props => {
     `;
 };
 
-//allgemeine Dropdown-Pfeil-Styles
+//general Dropdown-Arrow-Styles
 
 export const ArrowContainer = styled.div`
   position: absolute;

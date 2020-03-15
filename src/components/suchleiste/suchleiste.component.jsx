@@ -197,10 +197,10 @@ class Suchleiste extends React.Component {
             <InputContainer>
               <InputContainerZeile>
                 <Input
-                  inputStartseite
+                  inputHome
                   id="filter-button"
                   inputType="search"
-                  placeholder="Wo: Ort, Bundesland oder PLZ"
+                  placeholder="Where: Place, State or Postcode"
                   deleteButton
                   value={input}
                   onChange={e => {
@@ -239,7 +239,7 @@ class Suchleiste extends React.Component {
                   }}
                 />
                 <Button
-                  normalerButton
+                  normalButton
                   onClick={() =>
                     toggleDropdown(
                       DropdownActionTypes.TOGGLE_BEZUGSARTDROPDOWN_HIDDEN
@@ -261,7 +261,7 @@ class Suchleiste extends React.Component {
                   {haustyp}
                 </Button>
                 <Button
-                  suchButton
+                  searchButton
                   onClick={() => {
                     history.push("/real-estate");
                     toggleSuchButtonClick();
@@ -274,11 +274,11 @@ class Suchleiste extends React.Component {
               </InputContainerZeile>
               {/*damit die dropdowns unter den buttons sind */}
               <InputContainerZeile shadow>
-                <Input inputStartseite />
+                <Input inputHome />
                 {resultsDropdown && suchtreffer > 0 && input !== "" ? (
                   <Results additionalStyle={"results-dropdown"} />
                 ) : null}
-                <Button normalerButton dropdown id="filter-button">
+                <Button normalButton dropdown id="filter-button">
                   {bezugsartDropdown ? (
                     <SelectionDropdown
                       additionalStyle={"bezugsart-dropdown"}
@@ -288,7 +288,7 @@ class Suchleiste extends React.Component {
                     />
                   ) : null}
                 </Button>
-                <Button normalerButton dropdown id="filter-button">
+                <Button normalButton dropdown id="filter-button">
                   {immobilientypDropdown ? (
                     <SelectionDropdown
                       additionalStyle={"haus-dropdown"}
@@ -297,13 +297,13 @@ class Suchleiste extends React.Component {
                     />
                   ) : null}
                 </Button>
-                <Button suchButton></Button>
+                <Button searchButton></Button>
               </InputContainerZeile>
               {/*zweite Reihe der Suchleiste*/}
               <InputContainerZeile>
                 <Button
-                  sekundärerButton
-                  preis
+                  secondaryButton
+                  price
                   onClick={() =>
                     toggleDropdown(
                       DropdownActionTypes.TOGGLE_PREISDROPDOWN_HIDDEN
@@ -314,7 +314,7 @@ class Suchleiste extends React.Component {
                   {preis}
                 </Button>
                 <Button
-                  sekundärerButton
+                  secondaryButton
                   onClick={() =>
                     toggleDropdown(
                       DropdownActionTypes.TOGGLE_ZIMMERDROPDOWN_HIDDEN
@@ -325,7 +325,7 @@ class Suchleiste extends React.Component {
                   {zimmerAnzahl}
                 </Button>
                 <Button
-                  sekundärerButton
+                  secondaryButton
                   onClick={() =>
                     toggleDropdown(
                       DropdownActionTypes.TOGGLE_FLÄCHEDROPDOWN_HIDDEN
@@ -337,12 +337,12 @@ class Suchleiste extends React.Component {
                 </Button>
               </InputContainerZeile>
               <InputContainerZeile shadowSekundär>
-                <Button sekundärerButton dropdown id="filter-button">
+                <Button secondaryButton dropdown id="filter-button">
                   {preisDropdown ? (
                     <PriceDropdown additionalStyle={"preis-dropdown"} />
                   ) : null}
                 </Button>
-                <Button sekundärerButton dropdown id="filter-button">
+                <Button secondaryButton dropdown id="filter-button">
                   {zimmerDropdown ? (
                     <SelectionDropdown
                       additionalStyle={"zimmer-dropdown"}
@@ -357,7 +357,7 @@ class Suchleiste extends React.Component {
                     />
                   ) : null}
                 </Button>
-                <Button sekundärerButton dropdown id="filter-button">
+                <Button secondaryButton dropdown id="filter-button">
                   {flächeDropdown ? (
                     <SelectionDropdown
                       additionalStyle={"flaeche-dropdown"}
@@ -396,10 +396,10 @@ class Suchleiste extends React.Component {
                   document.body.style.overflowY = "hidden";
                 }}
               >
-                {!!input ? input : "Wo: Ort, Bundesland oder PLZ"}
+                {!!input ? input : "Where: Place, State or Postcode"}
               </Button>
               <Button
-                suchButton
+                searchButton
                 onClick={() => {
                   history.push("/real-estate");
                   toggleSuchButtonClick();
@@ -431,11 +431,11 @@ class Suchleiste extends React.Component {
                   </SuchleistePopupHeader>
                   <SuchleistePopupContentContainer>
                     <Input
-                      inputStartseiteResponsiv
+                      inputHomeResponsiv
                       id="filter-button"
                       inputType="search"
-                      placeholder="Wo: Ort, Bundesland oder PLZ"
-                      löschButton
+                      placeholder="Where: Place, State or Postcode"
+                      deleteButton
                       value={input}
                       onChange={e => {
                         setSearchInput(e.target.value);
@@ -485,7 +485,7 @@ class Suchleiste extends React.Component {
                       }}
                     />
                     <Button
-                      responsivButtonPreis
+                      responsivButtonPrice
                       preis
                       onClick={() =>
                         toggleDropdown(
@@ -547,7 +547,7 @@ class Suchleiste extends React.Component {
                       </Button>
                     </ButtonContainer>
                     <Button
-                      suchButton
+                      searchButton
                       responsivButton
                       onClick={() => {
                         if (location.pathname === "/real-estate")
@@ -567,14 +567,14 @@ class Suchleiste extends React.Component {
                     </Button>
                   </SuchleistePopupContentContainer>
                   <SuchleistePopupContentContainer shadowResponsiv>
-                    <Input inputStartseiteResponsiv></Input>
+                    <Input inputHomeResponsiv></Input>
                     {resultsDropdown && suchtreffer > 0 && input !== "" ? (
                       <Results
                         additionalStyle={"results-dropdown responsiv-dropdown"}
                       />
                     ) : null}
                     {/*id ist für das styling */}
-                    <Button responsivButtonPreis dropdown id="preis-dropdown">
+                    <Button responsivButtonPrice dropdown id="preis-dropdown">
                       {preisDropdown ? (
                         <PriceDropdown
                           additionalStyle={"preis-dropdown responsiv-dropdown"}
@@ -612,11 +612,11 @@ class Suchleiste extends React.Component {
                           <SelectionDropdown
                             additionalStyle={"responsiv-dropdown"}
                             children={[
-                              "1 Zi. +",
-                              "2 Zi. +",
-                              "3 Zi. +",
-                              "4 Zi. +",
-                              "5 Zi. +"
+                              "1 RM. +",
+                              "2 RMS. +",
+                              "3 RMS. +",
+                              "4 RMS. +",
+                              "5 RMS. +"
                             ]}
                             type={FilterActionTypes.SET_ZIMMERANZAHL}
                           />
@@ -627,12 +627,12 @@ class Suchleiste extends React.Component {
                           <SelectionDropdown
                             additionalStyle={"responsiv-dropdown"}
                             children={[
-                              "70 qm +",
-                              "100 qm +",
-                              "200 qm +",
-                              "300 qm +",
-                              "400 qm +",
-                              "500 qm +"
+                              "70 m² +",
+                              "100 m² +",
+                              "200 m² +",
+                              "300 m² +",
+                              "400 m² +",
+                              "500 m² +"
                             ]}
                             type={FilterActionTypes.SET_FLÄCHE}
                           />

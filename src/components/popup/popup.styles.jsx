@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components";
 import theme from "../../utils/theme";
 
-//allgemeine styles für den popup
+//general styles
 
 export const PopupContainer = styled.div`
   position: fixed;
@@ -71,7 +71,7 @@ export const Section = styled.div`
   display: flex;
 `;
 
-//sektions bedingte styles
+//section styles
 //first section
 export const Container = styled.div`
   padding-top: 35px;
