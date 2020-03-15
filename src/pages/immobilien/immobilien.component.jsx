@@ -7,7 +7,7 @@ import Suchleiste from "../../components/suchleiste/suchleiste.component";
 import Footer from "../../components/footer/footer.component";
 import Header from "../../components/header/header.component";
 
-import ImmoPreview from "../../components/immo-preview/immo-preview.component";
+import RealEstatePreview from "../../components/real-estate-preview/real-estate-preview.component";
 
 import Popup from "../../components/popup/popup.component";
 
@@ -126,10 +126,10 @@ class Immobilien extends React.Component {
               //wenn die index zahl geändert wird muss es auch im slider reducer die array anzahl angepasst werden
               if (index >= 20 * (seite - 1) && index < 20 * (seite - 1) + 20)
                 return (
-                  <ImmoPreview
-                    immo={item}
+                  <RealEstatePreview
+                    realEstate={item}
                     id={index % 20}
-                    key={ID_GENERATOR("immobilien-seite-")}
+                    key={ID_GENERATOR("real-estate-page-")}
                   />
                 );
               return null;

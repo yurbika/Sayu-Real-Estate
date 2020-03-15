@@ -13,7 +13,7 @@ export const Container = styled.div`
   }
 `;
 
-export const BildPreviewContainer = styled.div`
+export const ImgPreviewContainer = styled.div`
   width: 360px;
   height: inherit;
   img {
@@ -29,7 +29,7 @@ export const BildPreviewContainer = styled.div`
   }
 `;
 
-//normale Ansicht styles
+//normal viewing styles
 
 export const DetailsContainer = styled.div`
   padding: 5px 0 5px 35px;
@@ -41,18 +41,18 @@ export const DetailsContainer = styled.div`
   }
 `;
 
-export const Beschreibung = styled.div`
+export const Description = styled.div`
   display: flex;
   flex-direction: column;
   margin-bottom: 15px;
 `;
 
-export const Titel = styled.span`
+export const Title = styled.span`
   font-size: 25px;
   font-weight: bold;
 `;
 
-export const Untertitel = styled.span`
+export const Subtitle = styled.span`
   margin-bottom: 15px;
 `;
 
@@ -85,7 +85,7 @@ export const FooterSecondSection = styled.div`
   }
 `;
 
-//responsiv Ansicht styles
+//responsiv viewing styles
 
 export const ResponsivDetailsContainer = styled.div`
   display: none;
@@ -111,7 +111,7 @@ export const ResponsivFooter = styled.div`
   }
 `;
 
-export const ResponsivAdresse = styled.span`
+export const ResponsivAdress = styled.span`
   font-size: 15px;
 `;
 

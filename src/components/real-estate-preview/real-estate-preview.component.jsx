@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 
-import Slider from "../../components/slider/slider.component";
+import Slider from "../slider/slider.component";
 
 //redux imports
 import {
@@ -22,11 +22,11 @@ import roomIcon from "../../assets/room-icon.png";
 //styles
 import {
   Container,
-  BildPreviewContainer,
+  ImgPreviewContainer,
   DetailsContainer,
-  Beschreibung,
-  Titel,
-  Untertitel,
+  Description,
+  Title,
+  Subtitle,
   TextContainer,
   Footer,
   IconContainer,
@@ -34,91 +34,95 @@ import {
   //reponsiv styles
   ResponsivDetailsContainer,
   ResponsivFooter,
-  ResponsivAdresse,
+  ResponsivAdress,
   ResponsivIconContainer,
   RepsponsivFooterSecondSection
-} from "./immo-preview.styles";
+} from "./real-estate-preview.styles";
 
-const ImmoPreview = ({
-  immo,
+const RealEstatePreview = ({
+  realEstate,
   id,
   togglePopup,
   setPopupImmo,
   setPopupImmoID
 }) => {
-  let haustyp = "";
-  if (!!immo["haus"]) haustyp = "haus";
-  else if (!!immo["wohnung"]) haustyp = "wohnung";
+  let realEstateType = "";
+  if (!!realEstate["haus"]) realEstateType = "haus";
+  else if (!!realEstate["wohnung"]) realEstateType = "wohnung";
   else return null;
   return (
     <Container>
-      <BildPreviewContainer>
+      <ImgPreviewContainer>
         <Slider
           imgArray={[
-            immo[haustyp]["bilder"]["titelbild"] +
+            realEstate[realEstateType]["bilder"]["titelbild"] +
               "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
-            immo[haustyp]["bilder"]["zweites"] +
+            realEstate[realEstateType]["bilder"]["zweites"] +
               "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
-            immo[haustyp]["bilder"]["drittes"] +
+            realEstate[realEstateType]["bilder"]["drittes"] +
               "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
-            immo[haustyp]["bilder"]["vier"] +
+            realEstate[realEstateType]["bilder"]["vier"] +
               "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
-            immo[haustyp]["bilder"]["fünf"] +
+            realEstate[realEstateType]["bilder"]["fünf"] +
               "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
-            immo[haustyp]["bilder"]["sechs"] +
+            realEstate[realEstateType]["bilder"]["sechs"] +
               "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop"
           ]}
-          alt={haustyp}
+          alt={realEstateType}
           id={id}
           onClick={() => {
             togglePopup();
             document.body.style.overflow = "hidden";
-            setPopupImmo(immo);
+            setPopupImmo(realEstate);
             setPopupImmoID(id);
           }}
         />
-      </BildPreviewContainer>
+      </ImgPreviewContainer>
       <DetailsContainer
         onClick={() => {
           togglePopup();
           document.body.style.overflow = "hidden";
-          setPopupImmo(immo);
+          setPopupImmo(realEstate);
           setPopupImmoID(id);
         }}
       >
-        <Beschreibung>
-          <Titel>{immo[haustyp]["titel"]}</Titel>
-          <Untertitel>{immo[haustyp]["untertitel"]}</Untertitel>
-          <TextContainer>{immo[haustyp]["kurzeBeschreibung"]}</TextContainer>
-        </Beschreibung>
+        <Description>
+          <Title>{realEstate[realEstateType]["titel"]}</Title>
+          <Subtitle>{realEstate[realEstateType]["untertitel"]}</Subtitle>
+          <TextContainer>
+            {realEstate[realEstateType]["kurzeBeschreibung"]}
+          </TextContainer>
+        </Description>
         <Footer>
           <IconContainer>
-            <img src={gpsIcon} alt="Adresse:" />
+            <img src={gpsIcon} alt="Adress:" />
             <span>
               {" " +
-                immo[haustyp]["adresse"]["straße"] +
+                realEstate[realEstateType]["adresse"]["straße"] +
                 ", " +
-                immo[haustyp]["adresse"]["postleitzahl"] +
+                realEstate[realEstateType]["adresse"]["postleitzahl"] +
                 " - " +
-                immo[haustyp]["adresse"]["stadt"] +
+                realEstate[realEstateType]["adresse"]["stadt"] +
                 " - " +
-                immo[haustyp]["adresse"]["bundesland"]}
+                realEstate[realEstateType]["adresse"]["bundesland"]}
             </span>
           </IconContainer>
           <FooterSecondSection>
             <IconContainer>
-              <img src={roomIcon} alt="Zimmer:" />
-              <span>{" " + immo[haustyp]["zimmer"]}</span>
+              <img src={roomIcon} alt="Rooms:" />
+              <span>{" " + realEstate[realEstateType]["zimmer"]}</span>
             </IconContainer>
             <IconContainer>
-              <img src={propertyIcon} alt="Wohnfläche:" />
-              <span>{" " + immo[haustyp]["wohnfläche"]} m²</span>
+              <img src={propertyIcon} alt="Livingspace:" />
+              <span>{" " + realEstate[realEstateType]["wohnfläche"]} m²</span>
             </IconContainer>
             <IconContainer>
-              <img src={moneyIcon} alt="Preis:" />
+              <img src={moneyIcon} alt="Price:" />
               <span>
                 {" " +
-                  thousandSeperatorDots(immo[haustyp]["preis"].toString()) +
+                  thousandSeperatorDots(
+                    realEstate[realEstateType]["preis"].toString()
+                  ) +
                   " €"}
               </span>
             </IconContainer>
@@ -129,30 +133,32 @@ const ImmoPreview = ({
         <ResponsivFooter>
           <RepsponsivFooterSecondSection>
             <ResponsivIconContainer>
-              <img src={roomIcon} alt="Zimmer:" />
-              <span>{" " + immo[haustyp]["zimmer"]}</span>
+              <img src={roomIcon} alt="Rooms:" />
+              <span>{" " + realEstate[realEstateType]["zimmer"]}</span>
             </ResponsivIconContainer>
             <ResponsivIconContainer>
-              <img src={propertyIcon} alt="Wohnfläche:" />
-              <span>{" " + immo[haustyp]["wohnfläche"]} m²</span>
+              <img src={propertyIcon} alt="Livingspace:" />
+              <span>{" " + realEstate[realEstateType]["wohnfläche"]} m²</span>
             </ResponsivIconContainer>
             <ResponsivIconContainer>
-              <img src={moneyIcon} alt="Preis:" />
+              <img src={moneyIcon} alt="Price:" />
               <span>
                 {" " +
-                  thousandSeperatorDots(immo[haustyp]["preis"].toString()) +
+                  thousandSeperatorDots(
+                    realEstate[realEstateType]["preis"].toString()
+                  ) +
                   " €"}
               </span>
             </ResponsivIconContainer>
           </RepsponsivFooterSecondSection>
           <ResponsivIconContainer>
-            <img src={gpsIcon} alt="Adresse:" />
-            <ResponsivAdresse>
+            <img src={gpsIcon} alt="Adress:" />
+            <ResponsivAdress>
               {" " +
-                immo[haustyp]["adresse"]["stadt"] +
+                realEstate[realEstateType]["adresse"]["stadt"] +
                 " - " +
-                immo[haustyp]["adresse"]["bundesland"]}
-            </ResponsivAdresse>
+                realEstate[realEstateType]["adresse"]["bundesland"]}
+            </ResponsivAdress>
           </ResponsivIconContainer>
         </ResponsivFooter>
       </ResponsivDetailsContainer>
@@ -162,8 +168,8 @@ const ImmoPreview = ({
 
 const mapDispatchToProps = dispatch => ({
   togglePopup: () => dispatch(togglePopup()),
-  setPopupImmo: immo => dispatch(setPopupImmo(immo)),
+  setPopupImmo: realEstate => dispatch(setPopupImmo(realEstate)),
   setPopupImmoID: num => dispatch(setPopupImmoID(num))
 });
 
-export default connect(null, mapDispatchToProps)(ImmoPreview);
+export default connect(null, mapDispatchToProps)(RealEstatePreview);

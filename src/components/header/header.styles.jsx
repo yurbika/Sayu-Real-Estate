@@ -10,7 +10,7 @@ export const HeaderContainer = styled.div`
   justify-content: space-between;
 
   background: ${theme.colors.transDarkerBlack};
-  &.startseite {
+  &.home {
     background: ${theme.colors.transBlack};
     margin-bottom: 25px;
     position: absolute;
