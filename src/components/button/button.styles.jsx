@@ -108,7 +108,7 @@ const getButtonStyles = props => {
         color: ${theme.colors.black};
       }
     `;
-  if (props.pageChanger && props.sekundär && props.rechts)
+  if (props.pageChanger && props.secondary && props.right)
     return css`
       display: flex;
       border: none;
@@ -132,7 +132,7 @@ const getButtonStyles = props => {
         background: ${theme.colors.brown};
       }
     `;
-  if (props.pageChanger && props.sekundär && props.links)
+  if (props.pageChanger && props.secondary && props.left)
     return css`
       border: none;
       border-radius: 15px;
@@ -181,14 +181,14 @@ const getButtonStyles = props => {
       `
     ];
   if (props.scrollButton) return scrollButton;
-  if (props.sekundärerButton && props.dropdown)
+  if (props.secondaryButton && props.dropdown)
     return [
       secondaryButton,
       css`
         z-index: -1;
       `
     ];
-  if (props.sekundärerButton) return secondaryButton;
+  if (props.secondaryButton) return secondaryButton;
   if (props.suchButton && props.responsivButton)
     return [
       searchButton,
@@ -198,7 +198,7 @@ const getButtonStyles = props => {
       `
     ];
   if (props.suchButton) return searchButton;
-  if (props.aktionsButton) return actionButton;
+  if (props.actionButton) return actionButton;
   if (props.inputButton) return inputButton;
   if (props.responsivButtonPreis)
     return [
@@ -243,14 +243,14 @@ const getArrowContainerStyles = props => {
     return css`
       display: none;
     `;
-  if (props.pageChanger && props.links)
+  if (props.pageChanger && props.left)
     return css`
       right: unset;
       left: 15px;
       bottom: 22.5px;
       transform: rotate(135deg);
     `;
-  if (props.pageChanger && props.rechts)
+  if (props.pageChanger && props.right)
     return css`
       right: 15px;
       bottom: 14.5px;
@@ -290,7 +290,7 @@ const getArrowContainerStyles = props => {
 };
 
 const getArrowStyles = props => {
-  if (props.pageChanger && props.sekundär)
+  if (props.pageChanger && props.secondary)
     return css`
       right: 25px;
       bottom: 22.5px;

@@ -35,19 +35,19 @@ class PageChanger extends React.Component {
         {seite > 1 ? (
           <Button
             pageChanger
-            sekundär
-            links
+            secondary
+            left
             scrollButton
             onClick={() => {
               setArt(seite - 1, FilterActionTypes.SET_SEITE);
               window.scrollTo(0, 0);
             }}
           >
-            vorherige Seite
+            previous Page
           </Button>
         ) : (
-          <Button pageChanger noOpacity sekundär links scrollButton>
-            vorherige Seite
+          <Button pageChanger noOpacity secondary left scrollButton>
+            previous Page
           </Button>
         )}
         <Button
@@ -66,25 +66,25 @@ class PageChanger extends React.Component {
         </Button>
 
         {seite === anzahlSeiten ? (
-          <Button pageChanger noOpacity sekundär>
-            nächste Seite
+          <Button pageChanger noOpacity secondary>
+            next Page
           </Button>
         ) : anzahlSeiten === 0 ? (
-          <Button pageChanger noOpacity sekundär>
-            nächste Seite
+          <Button pageChanger noOpacity secondary>
+            next Page
           </Button>
         ) : (
           <Button
             pageChanger
-            sekundär
+            secondary
             scrollButton
-            rechts
+            right
             onClick={() => {
               setArt(seite + 1, FilterActionTypes.SET_SEITE);
               window.scrollTo(0, 0);
             }}
           >
-            nächste Seite
+            next Page
           </Button>
         )}
         <Button pageChanger dropdown>

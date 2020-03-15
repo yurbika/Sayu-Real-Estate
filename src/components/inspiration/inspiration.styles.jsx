@@ -31,7 +31,7 @@ export const InspirationsContainer = styled.div`
   }
 `;
 
-export const BeschreibungsContainer = styled.div`
+export const DescriptionContainer = styled.div`
 .first {
     display: block;
     font-family: "Lato", sans-serif;

@@ -12,25 +12,24 @@ import { toggleExpand } from "../../redux/inspiration-sketion/inspiration.action
 //style import
 import {
   InspirationsContainer,
-  BeschreibungsContainer
+  DescriptionContainer
 } from "./inspiration.styles";
 
-//dient nur dazu dem nutzer eine vorstellung zu geben wo nach der nutzer suchen könnte
+//as the name says this component is only to give some inspiration to use the searchbar
 
 const InspirationContainer = ({
   children,
   expand,
   toggleExpand,
   toggleExpandButtonNum,
-  realEstateArray,
-  history
+  realEstateArray
 }) => (
   <InspirationsContainer>
-    <BeschreibungsContainer>{children}</BeschreibungsContainer>
+    <DescriptionContainer>{children}</DescriptionContainer>
     <ImgsPreview expand={expand} realEstateArray={realEstateArray} />
     {expand ? null : (
-      <Button aktionsButton onClick={() => toggleExpand(toggleExpandButtonNum)}>
-        Mehr anzeigen
+      <Button actionButton onClick={() => toggleExpand(toggleExpandButtonNum)}>
+        Show more
       </Button>
     )}
   </InspirationsContainer>
