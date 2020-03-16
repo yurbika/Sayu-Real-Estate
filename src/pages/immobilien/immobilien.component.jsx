@@ -41,16 +41,18 @@ import { ID_GENERATOR } from "../../uniqueKey.js";
 import "./Liste.styles.scss";
 
 class Immobilien extends React.Component {
-  componentDidMount() {
+  state = { noResults: false };
+
+  componentWillMount() {
     const {
+      //filter states
       maxInput,
       minInput,
-      bezugsart,
-      haustyp,
+      obtainingType,
+      realEstateType,
       input,
-      zimmerAnzahl,
-      fläche,
-      setErgebnisse
+      rooms,
+      space
     } = this.props;
 
     //test für den input falls die seite ohne input angeklickt wird
@@ -60,51 +62,111 @@ class Immobilien extends React.Component {
     //falls der input leer ist wird nach dem buchstaben e gefiltert
     //der buchstabe e ist der meist genutzte
     let filter = {
-      haustyp: `${haustyp}`,
-      bezugsart: `${bezugsart}`,
+      realEstateType: `${realEstateType}`,
+      obtainingType: `${obtainingType}`,
       search: `${splitedStr.length > 0 ? input : "e"}`,
       minInput: `${minInput}`,
       maxInput: `${maxInput}`,
-      zimmerAnzahl: `${zimmerAnzahl}`,
-      wohnfläche: `${fläche}`
+      rooms: `${rooms}`,
+      livingspace: `${space}`
     };
-    setErgebnisse(filterData(filter).alleErgebnisse);
+    //if the search array === 0, so we have backup and not a blank page
+    if (filterData(filter).allResults.length === 0) {
+      this.setState({ noResults: true });
+    }
+  }
+
+  componentDidMount() {
+    const {
+      //filter states
+      maxInput,
+      minInput,
+      obtainingType,
+      realEstateType,
+      input,
+      rooms,
+      space,
+      //real-estate action
+      setResults
+    } = this.props;
+
+    //test für den input falls die seite ohne input angeklickt wird
+    let splitedStr = !!input ? input.split(/[ ,-]+/) : "";
+    splitedStr = !!input ? splitedStr.filter(i => i) : "";
+
+    //falls der input leer ist wird nach dem buchstaben e gefiltert
+    //der buchstabe e ist der meist genutzte
+    let filter = {
+      realEstateType: `${realEstateType}`,
+      obtainingType: `${obtainingType}`,
+      search: `${splitedStr.length > 0 ? input : "e"}`,
+      minInput: `${minInput}`,
+      maxInput: `${maxInput}`,
+      rooms: `${rooms}`,
+      livingspace: `${space}`
+    };
+    //if the search array === 0, so we have backup and not a blank page
+    if (filterData(filter).allResults.length === 0) {
+      filter = {
+        realEstateType: `${realEstateType}`,
+        obtainingType: `${obtainingType}`,
+        search: `e`,
+        minInput: `${minInput}`,
+        maxInput: `${maxInput}`,
+        rooms: `${rooms}`,
+        livingspace: `${space}`
+      };
+    } else setResults(filterData(filter).allResults);
   }
   componentDidUpdate() {
     const {
       maxInput,
       minInput,
-      bezugsart,
-      haustyp,
+      obtainingType,
+      realEstateType,
       input,
-      zimmerAnzahl,
-      fläche,
-      setErgebnisse,
-      suchButtonClick,
-      toggleSuchButtonClick
+      rooms,
+      space,
+      searchButtonClick,
+      //filter action
+      toggleSearchButtonClick,
+      //real-estate action
+      setResults
     } = this.props;
-    if (suchButtonClick) {
+    if (searchButtonClick) {
       let splitedStr = !!input ? input.split(/[ ,-]+/) : "";
       splitedStr = !!input ? splitedStr.filter(i => i) : "";
 
       let filter = {
-        haustyp: `${haustyp}`,
-        bezugsart: `${bezugsart}`,
+        realEstateType: `${realEstateType}`,
+        obtainingType: `${obtainingType}`,
         search: `${splitedStr.length > 0 ? input : "e"}`,
         minInput: `${minInput}`,
         maxInput: `${maxInput}`,
-        zimmerAnzahl: `${zimmerAnzahl}`,
-        wohnfläche: `${fläche}`
+        rooms: `${rooms}`,
+        livingspace: `${space}`
       };
-      setErgebnisse(filterData(filter).alleErgebnisse);
-      toggleSuchButtonClick();
+      //if the search array === 0, so we have backup and not a blank page
+      if (filterData(filter).allResults.length === 0) {
+        this.setState({ noResults: true });
+        filter = {
+          realEstateType: `${realEstateType}`,
+          obtainingType: `${obtainingType}`,
+          search: `e`,
+          minInput: `${minInput}`,
+          maxInput: `${maxInput}`,
+          rooms: `${rooms}`,
+          livingspace: `${space}`
+        };
+      } else setResults(filterData(filter).allResults);
+      toggleSearchButtonClick();
     }
   }
   shouldComponentUpdate(prevProps) {
     if (
-      prevProps.ergebnisse !== this.props.ergebnisse ||
-      prevProps.suchButtonClick !== this.props.suchButtonClick ||
-      prevProps.seite !== this.props.seite ||
+      prevProps.results !== this.props.results ||
+      prevProps.searchButtonClick !== this.props.searchButtonClick ||
+      prevProps.page !== this.props.page ||
       prevProps.popShow !== this.props.popShow
     )
       return true;
@@ -112,19 +174,19 @@ class Immobilien extends React.Component {
   }
 
   render() {
-    const { popShow, seite, ergebnisse } = this.props;
+    const { popShow, page, results } = this.props;
     return (
       <div className="container-liste">
         <Header />
         <div className="container-suchleiste-immo">
-          <Searchbar noBackground additionalStyle={"liste"} />
-          {/*noResults ? (
-            <span className="no-results">Keine Ergebnisse</span>
-          ) : null*/}
+          <Searchbar noBackground additionalStyle={"real-estate"} />
+          {this.state.noResults ? (
+            <span className="no-results">No Results</span>
+          ) : null}
           <div className="immo-preview-container">
-            {ergebnisse.map((item, index) => {
+            {results.map((item, index) => {
               //wenn die index zahl geändert wird muss es auch im slider reducer die array anzahl angepasst werden
-              if (index >= 20 * (seite - 1) && index < 20 * (seite - 1) + 20)
+              if (index >= 20 * (page - 1) && index < 20 * (page - 1) + 20)
                 return (
                   <RealEstatePreview
                     realEstate={item}
@@ -135,7 +197,7 @@ class Immobilien extends React.Component {
               return null;
             })}
           </div>
-          <PageChanger anzahlSeiten={Math.ceil(ergebnisse.length / 20)} />
+          <PageChanger anzahlSeiten={Math.ceil(results.length / 20)} />
         </div>
         {popShow ? <Popup /> : null}
         <Footer />
@@ -146,25 +208,25 @@ class Immobilien extends React.Component {
 
 const mapStateToProps = createStructuredSelector({
   //Immobilien States
-  ergebnisse: selectErgebnisse,
+  results: selectErgebnisse,
   //Filter States
-  bezugsart: selectBezugsart,
-  preis: selectPreis,
+  obtainingType: selectBezugsart,
+  price: selectPreis,
   input: selectSearchInput,
-  zimmerAnzahl: selectZimmerAnzahl,
-  fläche: selectFläche,
-  haustyp: selectHaustyp,
+  rooms: selectZimmerAnzahl,
+  space: selectFläche,
+  realEstateType: selectHaustyp,
   minInput: selectMinInput,
   maxInput: selectMaxInput,
-  seite: selectSeite,
-  suchButtonClick: selectSuchButtonClick,
+  page: selectSeite,
+  searchButtonClick: selectSuchButtonClick,
   //popup
   popShow: selectPopupState
 });
 
 const mapDispatchToProps = dispatch => ({
-  setErgebnisse: ergebnisseArray => dispatch(setErgebnisse(ergebnisseArray)),
-  toggleSuchButtonClick: () => dispatch(toggleSuchButtonClick())
+  setResults: ergebnisseArray => dispatch(setErgebnisse(ergebnisseArray)),
+  toggleSearchButtonClick: () => dispatch(toggleSuchButtonClick())
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Immobilien);
