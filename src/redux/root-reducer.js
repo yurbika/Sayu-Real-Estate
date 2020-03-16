@@ -5,7 +5,7 @@ import filterReducer from "./filter/filter.reducer";
 import dropdownReducer from "./dropdown/dropdown.reducer";
 import resultReducer from "./results-dropdown/results.reducer";
 import startseitenReducer from "./startseite/startseite.reducer";
-import sliderReducer from "./slider/slider.reducuer";
+import sliderReducer from "./slider/slider.reducer";
 import popupReducer from "./popup/popup.reducer";
 import immobilienReducer from "./immobilien/immobilien.reducer";
 
