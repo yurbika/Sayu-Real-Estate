@@ -19,7 +19,28 @@ const sliderReducer = (state = INITIAL_STATE, action) => {
     case SliderActionType.RESET_SLIDER_POSITIONS:
       return {
         ...state,
-        sliderPosArray: INITIAL_STATE.sliderPosArray
+        sliderPosArray: [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
       };
     case SliderActionType.TOGGLE_LEFT:
       return {

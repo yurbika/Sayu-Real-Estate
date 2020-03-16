@@ -14,6 +14,8 @@ import { selectSeite } from "../../redux/filter/filter.selectors";
 import { setArt } from "../../redux/filter/filter.action";
 import FilterActionTypes from "../../redux/filter/filter.types";
 
+import { resetSliderPositions } from "../../redux/slider/slider.action";
+
 //styles
 import { PageChangerContainer } from "./page-changer.styles";
 
@@ -22,6 +24,7 @@ class PageChanger extends React.Component {
     const {
       dropdown,
       toggleDropdown,
+      resetSliderPositions,
       seite,
       anzahlSeiten,
       setArt
@@ -41,6 +44,7 @@ class PageChanger extends React.Component {
             onClick={() => {
               setArt(seite - 1, FilterActionTypes.SET_SEITE);
               window.scrollTo(0, 0);
+              resetSliderPositions();
             }}
           >
             previous Page
@@ -82,6 +86,7 @@ class PageChanger extends React.Component {
             onClick={() => {
               setArt(seite + 1, FilterActionTypes.SET_SEITE);
               window.scrollTo(0, 0);
+              resetSliderPositions();
             }}
           >
             next Page
@@ -116,7 +121,9 @@ const mapDispatchToProps = dispatch => ({
   //dropdown action
   toggleDropdown: toggle => dispatch(toggleDropdown(toggle)),
   //filter action
-  setArt: (payload, type) => dispatch(setArt(payload, type))
+  setArt: (payload, type) => dispatch(setArt(payload, type)),
+  //slider action
+  resetSliderPositions: () => dispatch(resetSliderPositions())
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(PageChanger);

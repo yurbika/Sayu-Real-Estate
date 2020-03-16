@@ -8,6 +8,8 @@ import { dropdownRef } from "../../utils/utils";
 import toggleDropdown from "../../redux/dropdown/dropdown.action";
 import DropdownActionTypes from "../../redux/dropdown/dropdown.types";
 
+import { resetSliderPositions } from "../../redux/slider/slider.action";
+
 //utils
 import { ID_GENERATOR } from "../../uniqueKey";
 
@@ -20,6 +22,7 @@ const SelectionDropdown = ({
   additionalStyle,
   backToTop,
   toggleDropdown,
+  resetSliderPositions,
   type
 }) => {
   return (
@@ -27,11 +30,14 @@ const SelectionDropdown = ({
       <ul>
         {children.map(child => (
           <li
-            key={ID_GENERATOR("AuswahlDropdown-li-")}
+            key={ID_GENERATOR("SelectionDropdown-li-")}
             onClick={() => {
               setArt(child, type);
               toggleDropdown(DropdownActionTypes.TOGGLE_ALL_DROPDOWNS_FALSE);
-              if (backToTop) window.scrollTo(0, 0);
+              if (backToTop) {
+                window.scrollTo(0, 0);
+                resetSliderPositions();
+              }
             }}
           >
             {child}
@@ -44,7 +50,9 @@ const SelectionDropdown = ({
 
 const mapDispatchToProps = dispatch => ({
   setArt: (text, type) => dispatch(setArt(text, type)),
-  toggleDropdown: type => dispatch(toggleDropdown(type))
+  toggleDropdown: type => dispatch(toggleDropdown(type)),
+  //slider action
+  resetSliderPositions: () => dispatch(resetSliderPositions())
 });
 
 export default connect(null, mapDispatchToProps)(SelectionDropdown);
