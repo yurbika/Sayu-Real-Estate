@@ -1,7 +1,7 @@
 import theme from "../../utils/theme";
 import styled, { css } from "styled-components";
 
-export const Bild = styled.div`
+export const Img = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -25,17 +25,17 @@ export const Bild = styled.div`
 `;
 
 export const ContentContainer = styled.div`
-position:relative;
-display: flex;
-flex-direction:column;
-align-items: center;
-justify-content: center;
-width: inherit;
-max-width: inherit;
-height: inherit;
-border-radius: 35px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: inherit;
+  max-width: inherit;
+  height: inherit;
+  border-radius: 35px;
 
-h1 {
+  h1 {
     font-size: 2.7rem;
     z-index: 1;
   }
@@ -54,6 +54,7 @@ h1 {
       font-size: 1rem;
       z-index: 1;
     }
+  }
 `;
 
 export const InputContainer = styled.div`
@@ -83,7 +84,7 @@ export const InputContainerResponsive = styled.div`
   }
 `;
 
-export const SuchleistePopupHeader = styled.div`
+export const SearchbarPopupHeader = styled.div`
   position: relative;
   width: 100%;
   height: 50px;
@@ -98,17 +99,17 @@ export const SuchleistePopupHeader = styled.div`
   }
 `;
 
-//hier könnte man div in form umwandeln
-export const SuchleistePopup = styled.div`
+//could change div in to form
+
+export const SearchbarPopup = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   min-height: 100%;
   width: 100%;
-  }
 `;
 
-export const SuchleistePopupContainer = styled.div`
+export const SearchbarPopupContainer = styled.div`
   position: fixed;
   opacity: 0;
   top: 0;
@@ -136,7 +137,7 @@ export const ButtonContainer = styled.div`
 /*--------------------------------------------*/
 
 const getAdditonalStyle = props => {
-  if (props.additionalStyle === "liste")
+  if (props.additionalStyle === "real-estate")
     return css`
       margin: 30px 0;
       width: inherit;
@@ -164,7 +165,7 @@ const getAdditonalStyle = props => {
       top: 0;
     `;
   }
-  if (props.shadowSekundär) {
+  if (props.shadowSecondary) {
     return css`
       position: absolute;
       bottom: 0;
@@ -180,11 +181,11 @@ const getAdditonalStyle = props => {
         &:nth-child(2) {
           z-index: 6;
         }
-        &#preis-dropdown {
+        &#price-dropdown {
           z-index: 4;
         }
-        &#mieten-wohnung-dropdown,
-        &#mieten-wohnung-dropdown > * {
+        &#obtainingType-dropdown,
+        &#obtainingType-dropdown > * {
           z-index: 3;
         }
         &:nth-child(4) > * {
@@ -194,7 +195,7 @@ const getAdditonalStyle = props => {
     `;
   }
 };
-export const SuchleisteContainer = styled.div`
+export const SearchbarContainer = styled.div`
   position: relative;
   width: 80vw;
   max-width: 950px;
@@ -203,7 +204,7 @@ export const SuchleisteContainer = styled.div`
   ${getAdditonalStyle}
 `;
 
-export const BildContainer = styled.div`
+export const ImgContainer = styled.div`
   position: absolute;
   z-index: -1;
   width: inherit;
@@ -214,7 +215,7 @@ export const BildContainer = styled.div`
   ${getAdditonalStyle}
 `;
 
-export const SuchleistePopupContentContainer = styled.div`
+export const SearchbarPopupContentContainer = styled.div`
   display: inline-block;
   width: 100%;
   max-width: 320px;
@@ -240,7 +241,7 @@ export const SuchleistePopupContentContainer = styled.div`
   ${getAdditonalStyle}
 `;
 
-export const InputContainerZeile = styled.div`
+export const InputContainerRow = styled.div`
   display: flex;
   justify-content: space-evenly;
   width: 100%;
