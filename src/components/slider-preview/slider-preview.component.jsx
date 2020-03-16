@@ -28,7 +28,7 @@ import {
 const SliderPreview = ({
   imgArray,
   id,
-  haustyp,
+  alt,
   curPosArray,
   toggleLeft,
   toggleRight,
@@ -46,7 +46,7 @@ const SliderPreview = ({
             <Overlay hidden={index === curPosArray[id] ? true : false} />
             <img
               src={imgArray[index]}
-              alt={haustyp}
+              alt={alt}
               className={index === curPosArray[id] ? "active" : ""}
               onClick={() => setSliderPosition({ num: index, id: id })}
             />

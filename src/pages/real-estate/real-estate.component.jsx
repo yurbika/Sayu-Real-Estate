@@ -38,9 +38,15 @@ import { selectPopupState } from "../../redux/popup/popup.selectors";
 import { filterData } from "../../immo-data/immo-data.utils.js";
 import { ID_GENERATOR } from "../../uniqueKey.js";
 
-import "./Liste.styles.scss";
+//styles
+import {
+  Container,
+  SearchbarContainer,
+  NoResults,
+  RealEstatePreviewContainer
+} from "./real-estate.styles";
 
-class Immobilien extends React.Component {
+class RealEstate extends React.Component {
   state = { noResults: false };
 
   componentWillMount() {
@@ -55,12 +61,11 @@ class Immobilien extends React.Component {
       space
     } = this.props;
 
-    //test für den input falls die seite ohne input angeklickt wird
     let splitedStr = !!input ? input.split(/[ ,-]+/) : "";
     splitedStr = !!input ? splitedStr.filter(i => i) : "";
 
-    //falls der input leer ist wird nach dem buchstaben e gefiltert
-    //der buchstabe e ist der meist genutzte
+    //input === "" => search will be set to e
+    //e is the most used letter in german
     let filter = {
       realEstateType: `${realEstateType}`,
       obtainingType: `${obtainingType}`,
@@ -90,12 +95,11 @@ class Immobilien extends React.Component {
       setResults
     } = this.props;
 
-    //test für den input falls die seite ohne input angeklickt wird
     let splitedStr = !!input ? input.split(/[ ,-]+/) : "";
     splitedStr = !!input ? splitedStr.filter(i => i) : "";
 
-    //falls der input leer ist wird nach dem buchstaben e gefiltert
-    //der buchstabe e ist der meist genutzte
+    //input === "" => search will be set to e
+    //e is the most used letter in german
     let filter = {
       realEstateType: `${realEstateType}`,
       obtainingType: `${obtainingType}`,
@@ -176,16 +180,14 @@ class Immobilien extends React.Component {
   render() {
     const { popShow, page, results } = this.props;
     return (
-      <div className="container-liste">
+      <Container>
         <Header />
-        <div className="container-suchleiste-immo">
+        <SearchbarContainer>
           <Searchbar noBackground additionalStyle={"real-estate"} />
-          {this.state.noResults ? (
-            <span className="no-results">No Results</span>
-          ) : null}
-          <div className="immo-preview-container">
+          {this.state.noResults ? <NoResults>No Results</NoResults> : null}
+          <RealEstatePreviewContainer>
             {results.map((item, index) => {
-              //wenn die index zahl geändert wird muss es auch im slider reducer die array anzahl angepasst werden
+              //if index exceeds 20, slider reducer needs to be adjusted
               if (index >= 20 * (page - 1) && index < 20 * (page - 1) + 20)
                 return (
                   <RealEstatePreview
@@ -196,18 +198,18 @@ class Immobilien extends React.Component {
                 );
               return null;
             })}
-          </div>
+          </RealEstatePreviewContainer>
           <PageChanger anzahlSeiten={Math.ceil(results.length / 20)} />
-        </div>
+        </SearchbarContainer>
         {popShow ? <Popup /> : null}
         <Footer />
-      </div>
+      </Container>
     );
   }
 }
 
 const mapStateToProps = createStructuredSelector({
-  //Immobilien States
+  //real estate States
   results: selectErgebnisse,
   //Filter States
   obtainingType: selectBezugsart,
@@ -229,4 +231,4 @@ const mapDispatchToProps = dispatch => ({
   toggleSearchButtonClick: () => dispatch(toggleSuchButtonClick())
 });
 
-export default connect(mapStateToProps, mapDispatchToProps)(Immobilien);
+export default connect(mapStateToProps, mapDispatchToProps)(RealEstate);

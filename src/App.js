@@ -21,8 +21,8 @@ import "./App.css";
 const Startseite = lazy(() =>
   import("./pages/startseite/startseite.component")
 );
-const Immobilien = lazy(() =>
-  import("./pages/immobilien/immobilien.component")
+const RealEstate = lazy(() =>
+  import("./pages/real-estate/real-estate.component")
 );
 
 //onMouseDown wird gebraucht um die dropdowns von überall schließen zu können
@@ -43,7 +43,7 @@ class App extends React.Component {
         <Switch>
           <Suspense fallback={<Spinner page />}>
             <Route exact path="/" component={Startseite} />
-            <Route exact path="/real-estate" component={Immobilien} />
+            <Route exact path="/real-estate" component={RealEstate} />
           </Suspense>
         </Switch>
       </div>
