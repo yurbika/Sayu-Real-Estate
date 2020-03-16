@@ -52,23 +52,23 @@ class Startseite extends React.Component {
       filterData({
         minInput: 300,
         maxInput: 1200,
-        bezugsart: "mieten",
-        haustyp: "wohnung"
-      })["immoArray"]
+        obtainingType: "mieten",
+        realEstateType: "wohnung"
+      })["realEstateArray"]
     );
     setLuxushäuserArray(
       filterData({
         minInput: 1350000,
-        bezugsart: "kaufen",
-        haustyp: "wohnung"
-      })["immoArray"]
+        obtainingType: "kaufen",
+        realEstateType: "wohnung"
+      })["realEstateArray"]
     );
     setWohnungenArray(
       filterData({
         minInput: 1350000,
-        bezugsart: "kaufen",
-        haustyp: "haus"
-      })["immoArray"]
+        obtainingType: "kaufen",
+        realEstateType: "haus"
+      })["realEstateArray"]
     );
   }
   render() {
@@ -103,8 +103,8 @@ class Startseite extends React.Component {
               realEstateArray={luxushäuserArray}
               filter={{
                 minInput: 1350000,
-                bezugsart: "kaufen",
-                haustyp: "wohnung"
+                obtainingsType: "kaufen",
+                realEstateType: "wohnung"
               }}
             >
               <span className="first">Inspiration</span>
@@ -118,8 +118,8 @@ class Startseite extends React.Component {
               realEstateArray={wohnungenArray}
               filter={{
                 minInput: 1350000,
-                bezugsart: "kaufen",
-                haustyp: "haus"
+                obtainingsType: "kaufen",
+                realEstateType: "haus"
               }}
             >
               <span className="first">Inspiration</span>
@@ -134,8 +134,8 @@ class Startseite extends React.Component {
               filter={{
                 minInput: 300,
                 maxInput: 1200,
-                bezugsart: "mieten",
-                haustyp: "wohnung"
+                obtainingsType: "mieten",
+                realEstateType: "wohnung"
               }}
             >
               <span className="first">Inspiration</span>
