@@ -30,7 +30,7 @@ import { dropdownRef } from "../../utils/utils";
 //styles
 import { DropdownContainer } from "./dropdown.styles";
 
-const Results = ({
+const ResultsDropdown = ({
   bundeslaenderArray,
   staedteOrteArray,
   straßenPlzOrtArray,
@@ -111,4 +111,4 @@ const mapDispatchToProps = dispatch => ({
   setSearchInput: text => dispatch(setSearchInput(text))
 });
 
-export default connect(mapStateToProps, mapDispatchToProps)(Results);
+export default connect(mapStateToProps, mapDispatchToProps)(ResultsDropdown);
