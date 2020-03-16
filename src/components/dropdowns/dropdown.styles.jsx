@@ -1,6 +1,7 @@
 import theme from "../../utils/theme";
 import styled, { css } from "styled-components";
 
+//general styles
 export const InputListContainer = styled.div`
   margin: 0;
   display: flex;
@@ -136,7 +137,6 @@ const NormalDropdown = css`
   width: calc(100% - 25px);
 `;
 
-//funktionen für die spezifischen seiten
 const getAdditionalStyle = props => {
   switch (props.additionalStyle) {
     case "page-changer":
@@ -176,11 +176,11 @@ const getAdditionalStyle = props => {
           margin-top: 40px;
         `
       ];
-    case "bezugsart-dropdown":
-    case "haus-dropdown":
+    case "obtainingType-dropdown":
+    case "house-dropdown":
       return SelectionDropdown;
-    case "zimmer-dropdown":
-    case "flaeche-dropdown":
+    case "rooms-dropdown":
+    case "space-dropdown":
       return [SelectionDropdown, NormalDropdown];
     case "results-dropdown responsiv-dropdown":
       return [
@@ -193,7 +193,7 @@ const getAdditionalStyle = props => {
       ];
     case "results-dropdown":
       return ResultsDropdown;
-    case "preis-dropdown responsiv-dropdown":
+    case "price-dropdown responsiv-dropdown":
       return [
         PriceDropdown,
         css`
@@ -201,7 +201,7 @@ const getAdditionalStyle = props => {
           justify-content: space-evenly;
         `
       ];
-    case "preis-dropdown":
+    case "price-dropdown":
       return PriceDropdown;
     default:
       return "";
