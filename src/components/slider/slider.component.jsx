@@ -16,9 +16,9 @@ import {
 //styles
 import {
   SliderContainer,
-  PfeilContainer,
-  LinkerPfeil,
-  RechterPfeil
+  ArrowContainer,
+  LeftArrowContainer,
+  RightArrowContainer
 } from "./slider.styles";
 
 class Slider extends React.Component {
@@ -45,18 +45,18 @@ class Slider extends React.Component {
       <SliderContainer>
         {this.state.isLoading ? <Spinner /> : null}
         <SliderContainer style={style}>
-          <PfeilContainer>
-            <RechterPfeil>
+          <ArrowContainer>
+            <RightArrowContainer>
               <Button scrollButton sliderArrow onClick={() => toggleLeft(id)} />
-            </RechterPfeil>
-            <LinkerPfeil>
+            </RightArrowContainer>
+            <LeftArrowContainer>
               <Button
                 scrollButton
                 sliderArrow
                 onClick={() => toggleRight(id)}
               />
-            </LinkerPfeil>
-          </PfeilContainer>
+            </LeftArrowContainer>
+          </ArrowContainer>
           <img
             src={imgArray[curPosArray[id]]}
             alt={alt}

@@ -32,19 +32,11 @@ export const InspirationsContainer = styled.div`
 `;
 
 export const DescriptionContainer = styled.div`
-.first {
+  .first {
     display: block;
     font-family: "Lato", sans-serif;
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 5px;
   }
-  a {
-    color: #cca96a;
-    float: right;
-    text-decoration: none;
-    margin-right: 2px;
-  }
-}
-
 `;

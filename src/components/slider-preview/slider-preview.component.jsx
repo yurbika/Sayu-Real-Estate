@@ -42,7 +42,7 @@ const SliderPreview = ({
     <SliderPreviewContainer>
       <Container>
         {imgArray.map((item, index) => (
-          <ImgContainer key={ID_GENERATOR("karussell-slider-")}>
+          <ImgContainer key={ID_GENERATOR("slider-preview-")}>
             <Overlay hidden={index === curPosArray[id] ? true : false} />
             <img
               src={imgArray[index]}

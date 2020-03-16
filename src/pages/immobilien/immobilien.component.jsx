@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 
 //component import
-import Suchleiste from "../../components/suchleiste/suchleiste.component";
+import Searchbar from "../../components/searchbar/searchbar.component";
 import Footer from "../../components/footer/footer.component";
 import Header from "../../components/header/header.component";
 
@@ -117,7 +117,7 @@ class Immobilien extends React.Component {
       <div className="container-liste">
         <Header />
         <div className="container-suchleiste-immo">
-          <Suchleiste noBackground additionalStyle={"liste"} />
+          <Searchbar noBackground additionalStyle={"liste"} />
           {/*noResults ? (
             <span className="no-results">Keine Ergebnisse</span>
           ) : null*/}

@@ -13,7 +13,7 @@ export const SliderContainer = styled.div`
   }
 `;
 
-export const PfeilContainer = styled.div`
+export const ArrowContainer = styled.div`
   display: flex;
   position: absolute;
   width: 100%;
@@ -24,11 +24,11 @@ export const PfeilContainer = styled.div`
   }
 `;
 
-export const LinkerPfeil = styled.div`
+export const LeftArrowContainer = styled.div`
   margin-left: auto;
   transform: rotate(-90deg);
 `;
 
-export const RechterPfeil = styled.div`
+export const RightArrowContainer = styled.div`
   transform: rotate(90deg);
 `;

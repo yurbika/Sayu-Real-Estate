@@ -51,7 +51,7 @@ import {
   GridItem,
   MapContainer
 } from "./popup.styles";
-import { CloseButton } from "../suchleiste/suchleiste.styles";
+import { CloseButton } from "../searchbar/searchbar.styles";
 
 //assets
 import moneyIconBrown from "../../assets/money-icon-brown.png";

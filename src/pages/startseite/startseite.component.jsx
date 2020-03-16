@@ -6,7 +6,7 @@ import { filterData } from "../../immo-data/immo-data.utils";
 
 //import components
 import Button from "../../components/button/button.component";
-import Suchleiste from "../../components/suchleiste/suchleiste.component";
+import Searchbar from "../../components/searchbar/searchbar.component";
 import InspirationContainer from "../../components/inspiration/inspiration-container.component";
 import Footer from "../../components/footer/footer.component";
 import Header from "../../components/header/header.component";
@@ -86,10 +86,10 @@ class Startseite extends React.Component {
         <ContainerSuchleiste>
           <BackgroundImageFilter />
           <StartseiteHintergrund />
-          <Suchleiste>
+          <Searchbar>
             <p>Finden Sie Ihre neues Zuhause</p>
             <h1>Bereit zum Umziehen?</h1>
-          </Suchleiste>
+          </Searchbar>
           <Button
             scrollButton
             onClick={() => toSection("inspirations-section")}

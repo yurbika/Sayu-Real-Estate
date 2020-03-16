@@ -7,16 +7,16 @@ import { withRouter } from "react-router-dom";
 import { filterData } from "../../immo-data/immo-data.utils";
 
 //Component imports
-import Input from "../../components/input/input.component";
+import Input from "../input/input.component";
 import {
   checkInputValue,
   checkSearchInput,
   thousandSeperatorDots
-} from "../../components/input/input.utils";
+} from "../input/input.utils";
 
-import Button from "../../components/button/button.component";
+import Button from "../button/button.component";
 
-import PriceDropdown from "../../components/dropdowns/price-dropdown.component";
+import PriceDropdown from "../dropdowns/price-dropdown.component";
 import SelectionDropdown from "../dropdowns/selection-dropdown.component";
 import Results from "../dropdowns/results-dropdown.component";
 
@@ -77,12 +77,12 @@ import {
   SuchleistePopupHeader,
   CloseButtonContainer,
   CloseButton
-} from "./suchleiste.styles";
+} from "./searchbar.styles";
 
 /*Button id = filter-button ist hier notwendig damit die richtigen aktionen gefeuert 
 werden damit ist es möglich die dropdowns von überall zu schließen*/
 
-class Suchleiste extends React.Component {
+class Searchbar extends React.Component {
   /*dieser abteil des codes ist nur notwendig für die überprüfung des window-width damit ein rerender gefeuert wird um das richtige component zu render*/
   constructor(props) {
     super(props);
@@ -693,5 +693,5 @@ const mapDispatchToProps = dispatch => ({
 });
 
 export default withRouter(
-  connect(mapStateToProps, mapDispatchToProps)(Suchleiste)
+  connect(mapStateToProps, mapDispatchToProps)(Searchbar)
 );
