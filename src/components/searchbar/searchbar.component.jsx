@@ -18,7 +18,7 @@ import Button from "../button/button.component";
 
 import PriceDropdown from "../dropdowns/price-dropdown.component";
 import SelectionDropdown from "../dropdowns/selection-dropdown.component";
-import Results from "../dropdowns/results-dropdown.component";
+import ResultsDropdown from "../dropdowns/results-dropdown.component";
 
 //redux
 import {
@@ -63,27 +63,27 @@ import {
 
 //styles
 import {
-  SuchleisteContainer,
-  Bild,
-  BildContainer,
+  SearchbarContainer,
+  Img,
+  ImgContainer,
   ContentContainer,
   InputContainer,
-  InputContainerZeile,
+  InputContainerRow,
   InputContainerResponsive,
-  SuchleistePopupContainer,
-  SuchleistePopupContentContainer,
-  SuchleistePopup,
+  SearchbarPopupContainer,
+  SearchbarPopupContentContainer,
+  SearchbarPopup,
   ButtonContainer,
-  SuchleistePopupHeader,
+  SearchbarPopupHeader,
   CloseButtonContainer,
   CloseButton
 } from "./searchbar.styles";
 
-/*Button id = filter-button ist hier notwendig damit die richtigen aktionen gefeuert 
-werden damit ist es möglich die dropdowns von überall zu schließen*/
+/*the attribute for the buttions with the id = filter-button is only necessary for only one purpose
+to prevent the dropdowns from closing on click, anything else will close the dropdowns*/
 
 class Searchbar extends React.Component {
-  /*dieser abteil des codes ist nur notwendig für die überprüfung des window-width damit ein rerender gefeuert wird um das richtige component zu render*/
+  //this section is only for checking the window-width
   constructor(props) {
     super(props);
     this.state = { windowWidth: 0 };
@@ -105,97 +105,106 @@ class Searchbar extends React.Component {
 
   componentDidUpdate(prevProps) {
     const {
+      //filter states
+      obtainingType,
+      input,
+      realEstateType,
       maxInput,
       minInput,
-      setPreis,
-      bezugsart,
-      haustyp,
+      rooms,
+      space,
+      searchButtonClick,
+      //filter actions
+      setPrice,
       resetInputMax,
       resetInputMin,
-      input,
-      setBundesländer,
-      setStraßenPlzOrte,
-      setStädteOrte,
-      setSuchtreffer,
-      zimmerAnzahl,
-      fläche,
-      suchButtonClick
+      //results actions
+      setFederalStates,
+      setStreetsPostcodeLocalities,
+      setCitiesLocalities,
+      setHits
     } = this.props;
     if (
       input !== prevProps.input ||
       maxInput !== prevProps.maxInput ||
       minInput !== prevProps.minInput ||
-      bezugsart !== prevProps.bezugsart ||
-      haustyp !== prevProps.haustyp ||
-      zimmerAnzahl !== prevProps.zimmerAnzahl ||
-      fläche !== prevProps.fläche ||
-      suchButtonClick !== prevProps.suchButtonClick
+      obtainingType !== prevProps.obtainingType ||
+      realEstateType !== prevProps.realEstateType ||
+      rooms !== prevProps.rooms ||
+      space !== prevProps.space ||
+      searchButtonClick !== prevProps.searchButtonClick
     ) {
       let filter = {
-        haustyp: `${haustyp}`,
-        bezugsart: `${bezugsart}`,
+        realEstateType: `${realEstateType}`,
+        obtainingType: `${obtainingType}`,
         search: `${input}`,
         minInput: `${minInput}`,
         maxInput: `${maxInput}`,
-        zimmerAnzahl: `${zimmerAnzahl}`,
-        wohnfläche: `${fläche}`
+        rooms: `${rooms}`,
+        livingspace: `${space}`
       };
       const {
-        bundeslaenderArray,
-        staedteOrteArray,
-        straßenPlzOrtArray,
-        suchtreffer
+        federalStatesArray,
+        citiesLocalitiesArray,
+        streetsPostcodeLocalitiesArray,
+        hits
       } = filterData(filter);
-      setSuchtreffer(suchtreffer);
-      setBundesländer(bundeslaenderArray);
-      setStraßenPlzOrte(straßenPlzOrtArray);
-      setStädteOrte(staedteOrteArray);
+      setHits(hits);
+      setFederalStates(federalStatesArray);
+      setStreetsPostcodeLocalities(streetsPostcodeLocalitiesArray);
+      setCitiesLocalities(citiesLocalitiesArray);
     }
 
-    if (prevProps.bezugsart !== bezugsart) {
+    if (prevProps.obtainingType !== obtainingType) {
       resetInputMax();
       resetInputMin();
     }
 
     if (prevProps.minInput !== minInput || prevProps.maxInput !== maxInput)
-      setPreis(checkInputValue(minInput, maxInput));
+      setPrice(checkInputValue(minInput, maxInput));
   }
 
   render() {
     const {
-      bezugsart,
+      //filter states
+      obtainingType,
       input,
-      preis,
-      zimmerAnzahl,
-      haustyp,
-      fläche,
-      preisDropdown,
-      bezugsartDropdown,
-      immobilientypDropdown,
-      zimmerDropdown,
-      flächeDropdown,
-      suchtreffer,
-      toggleDropdown,
-      setSearchInput,
+      price,
+      rooms,
+      realEstateType,
+      space,
+      //dropdown states
+      priceDropdown,
+      obtainingTypeDropdown,
+      realEstateTypeDropdown,
+      roomsDropdown,
+      spaceDropdown,
       resultsDropdown,
+      //results states
+      hits,
+      //dropdown action
+      toggleDropdown,
+      //filter states
+      setSearchInput,
+      toggleSearchButtonClick,
+      //props
       children,
       additionalStyle,
       history,
       location,
-      noBackground,
-      toggleSuchButtonClick
+      noBackground
     } = this.props;
-    //dieses if else ist für die refs damit unterschieden werden unter den dropdowns
+    //this if else is necessary for the ref distinction
     if (this.state.windowWidth > 768) {
       return (
-        <SuchleisteContainer additionalStyle={additionalStyle}>
-          <BildContainer noBackground={noBackground}>
-            <Bild />
-          </BildContainer>
+        <SearchbarContainer additionalStyle={additionalStyle}>
+          <ImgContainer noBackground={noBackground}>
+            <Img />
+          </ImgContainer>
           <ContentContainer>
             {children}
             <InputContainer>
-              <InputContainerZeile>
+              <InputContainerRow>
                 <Input
                   inputHome
                   id="filter-button"
@@ -205,35 +214,36 @@ class Searchbar extends React.Component {
                   value={input}
                   onChange={e => {
                     setSearchInput(e.target.value);
-                    //!!!input sorgt dafür das wenn der input geleert wird das es trotzdem danach ausgelöst wird
+                    /*after deleting it should also trigger the closing action*/
                     if (
-                      (suchtreffer > 0 || suchtreffer === null || !!!input) &&
+                      (hits > 0 || hits === null || !!!input) &&
                       !resultsDropdown
                     ) {
                       toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
                     }
                   }}
                   onFocus={() => {
-                    //dieser if hier sorgt dafür das beim focus auch wenn der input leer ist alle dropdowns geschloßen werden bis auf result
+                    /*even if the input is empty all dropdowns except results should close
+                    thats the purpose of this if */
                     if (
-                      (preisDropdown ||
-                        bezugsartDropdown ||
-                        immobilientypDropdown ||
-                        zimmerDropdown ||
-                        flächeDropdown) &&
+                      (priceDropdown ||
+                        obtainingTypeDropdown ||
+                        realEstateTypeDropdown ||
+                        roomsDropdown ||
+                        spaceDropdown) &&
                       !!!input
                     )
                       toggleDropdown(
                         DropdownActionTypes.TOGGLE_ALL_DROPDOWNS_FALSE
                       );
-                    if (!!input && suchtreffer > 0 && !resultsDropdown)
+                    if (!!input && hits > 0 && !resultsDropdown)
                       toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
                   }}
                   onKeyPress={e => {
                     checkSearchInput(e);
                     if (e.key === "Enter") {
                       toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
-                      toggleSuchButtonClick();
+                      toggleSearchButtonClick();
                       history.push("/real-estate");
                     }
                   }}
@@ -247,10 +257,10 @@ class Searchbar extends React.Component {
                   }
                   id="filter-button"
                 >
-                  {bezugsart}
+                  {obtainingType}
                 </Button>
                 <Button
-                  normalerButton
+                  normalButton
                   onClick={() =>
                     toggleDropdown(
                       DropdownActionTypes.TOGGLE_IMMOBILIENTYPDROPDOWN_HIDDEN
@@ -258,49 +268,54 @@ class Searchbar extends React.Component {
                   }
                   id="filter-button"
                 >
-                  {haustyp}
+                  {realEstateType}
                 </Button>
                 <Button
                   searchButton
                   onClick={() => {
                     history.push("/real-estate");
-                    toggleSuchButtonClick();
+                    toggleSearchButtonClick();
                   }}
                 >
-                  {suchtreffer > 0 && !!input
-                    ? `${thousandSeperatorDots(suchtreffer.toString())} Treffer`
-                    : "Suchen"}
+                  {hits > 0 && !!input
+                    ? `${thousandSeperatorDots(hits.toString())} Hits`
+                    : "Search"}
                 </Button>
-              </InputContainerZeile>
-              {/*damit die dropdowns unter den buttons sind */}
-              <InputContainerZeile shadow>
+              </InputContainerRow>
+              {/*this section is only for styling purpose so the buttons can
+              be placed under the first row */}
+              <InputContainerRow shadow>
                 <Input inputHome />
-                {resultsDropdown && suchtreffer > 0 && input !== "" ? (
-                  <Results additionalStyle={"results-dropdown"} />
+                {resultsDropdown && hits > 0 && input !== "" ? (
+                  <ResultsDropdown additionalStyle={"results-dropdown"} />
                 ) : null}
                 <Button normalButton dropdown id="filter-button">
-                  {bezugsartDropdown ? (
+                  {obtainingTypeDropdown ? (
                     <SelectionDropdown
-                      additionalStyle={"bezugsart-dropdown"}
+                      additionalStyle={"obtainingType-dropdown"}
                       responsiv
-                      children={[bezugsart === "Mieten" ? "Kaufen" : "Mieten"]}
+                      children={[
+                        obtainingType === "Mieten" ? "Kaufen" : "Mieten"
+                      ]}
                       type={FilterActionTypes.SET_BEZUGSART}
                     />
                   ) : null}
                 </Button>
                 <Button normalButton dropdown id="filter-button">
-                  {immobilientypDropdown ? (
+                  {realEstateTypeDropdown ? (
                     <SelectionDropdown
-                      additionalStyle={"haus-dropdown"}
-                      children={[haustyp === "Wohnung" ? "Haus" : "Wohnung"]}
+                      additionalStyle={"house-dropdown"}
+                      children={[
+                        realEstateType === "Wohnung" ? "Haus" : "Wohnung"
+                      ]}
                       type={FilterActionTypes.SET_HAUSTYP}
                     />
                   ) : null}
                 </Button>
                 <Button searchButton></Button>
-              </InputContainerZeile>
-              {/*zweite Reihe der Suchleiste*/}
-              <InputContainerZeile>
+              </InputContainerRow>
+              {/*second row of the search bar*/}
+              <InputContainerRow>
                 <Button
                   secondaryButton
                   price
@@ -311,7 +326,7 @@ class Searchbar extends React.Component {
                   }
                   id="filter-button"
                 >
-                  {preis}
+                  {price}
                 </Button>
                 <Button
                   secondaryButton
@@ -322,7 +337,7 @@ class Searchbar extends React.Component {
                   }
                   id="filter-button"
                 >
-                  {zimmerAnzahl}
+                  {rooms}
                 </Button>
                 <Button
                   secondaryButton
@@ -333,19 +348,22 @@ class Searchbar extends React.Component {
                   }
                   id="filter-button"
                 >
-                  {fläche}
+                  {space}
                 </Button>
-              </InputContainerZeile>
-              <InputContainerZeile shadowSekundär>
+              </InputContainerRow>
+              {/*this section is only for styling purpose so the buttons can
+              be placed under the second row */}
+
+              <InputContainerRow shadowSecondary>
                 <Button secondaryButton dropdown id="filter-button">
-                  {preisDropdown ? (
-                    <PriceDropdown additionalStyle={"preis-dropdown"} />
+                  {priceDropdown ? (
+                    <PriceDropdown additionalStyle={"price-dropdown"} />
                   ) : null}
                 </Button>
                 <Button secondaryButton dropdown id="filter-button">
-                  {zimmerDropdown ? (
+                  {roomsDropdown ? (
                     <SelectionDropdown
-                      additionalStyle={"zimmer-dropdown"}
+                      additionalStyle={"rooms-dropdown"}
                       children={[
                         "1 RM. +",
                         "2 RMS. +",
@@ -358,9 +376,9 @@ class Searchbar extends React.Component {
                   ) : null}
                 </Button>
                 <Button secondaryButton dropdown id="filter-button">
-                  {flächeDropdown ? (
+                  {spaceDropdown ? (
                     <SelectionDropdown
-                      additionalStyle={"flaeche-dropdown"}
+                      additionalStyle={"space-dropdown"}
                       children={[
                         "70 m² +",
                         "100 m² +",
@@ -373,17 +391,17 @@ class Searchbar extends React.Component {
                     />
                   ) : null}
                 </Button>
-              </InputContainerZeile>
+              </InputContainerRow>
             </InputContainer>
           </ContentContainer>
-        </SuchleisteContainer>
+        </SearchbarContainer>
       );
     } else {
       return (
-        <SuchleisteContainer additionalStyle={additionalStyle}>
-          <BildContainer noBackground={noBackground}>
-            <Bild />
-          </BildContainer>
+        <SearchbarContainer additionalStyle={additionalStyle}>
+          <ImgContainer noBackground={noBackground}>
+            <Img />
+          </ImgContainer>
           <ContentContainer>
             {children}
             <InputContainerResponsive>
@@ -391,7 +409,7 @@ class Searchbar extends React.Component {
                 inputButton
                 onClick={() => {
                   document
-                    .getElementById("suchleistenpopup")
+                    .getElementById("searchbarpopup")
                     .classList.add("show");
                   document.body.style.overflowY = "hidden";
                 }}
@@ -402,34 +420,34 @@ class Searchbar extends React.Component {
                 searchButton
                 onClick={() => {
                   history.push("/real-estate");
-                  toggleSuchButtonClick();
+                  toggleSearchButtonClick();
                 }}
               >
-                {suchtreffer > 0 && !!input
-                  ? `${thousandSeperatorDots(suchtreffer.toString())} Treffer`
-                  : "Suchen"}
+                {hits > 0 && !!input
+                  ? `${thousandSeperatorDots(hits.toString())} Hits`
+                  : "Search"}
               </Button>
-              <SuchleistePopupContainer id="suchleistenpopup">
-                <SuchleistePopup
-                  /*weil es ein Form-element ist muss onClick gestoppt werden*/
+              <SearchbarPopupContainer id="searchbarpopup">
+                <SearchbarPopup
+                  /*if the element was a html-form*/
                   onClick={e => {
                     e.preventDefault();
                   }}
                 >
-                  <SuchleistePopupHeader>
-                    <h2>SUCHEN</h2>
+                  <SearchbarPopupHeader>
+                    <h2>SEARCH</h2>
                     <CloseButtonContainer
                       onClick={() => {
                         document
-                          .getElementById("suchleistenpopup")
+                          .getElementById("searchbarpopup")
                           .classList.remove("show");
                         document.body.style.overflowY = "visible";
                       }}
                     >
                       <CloseButton />
                     </CloseButtonContainer>
-                  </SuchleistePopupHeader>
-                  <SuchleistePopupContentContainer>
+                  </SearchbarPopupHeader>
+                  <SearchbarPopupContentContainer>
                     <Input
                       inputHomeResponsiv
                       id="filter-button"
@@ -439,11 +457,8 @@ class Searchbar extends React.Component {
                       value={input}
                       onChange={e => {
                         setSearchInput(e.target.value);
-                        //!!!input sorgt dafür das wenn der input geleert wird das es trotzdem danach ausgelöst wird
                         if (
-                          (suchtreffer > 0 ||
-                            suchtreffer === null ||
-                            !!!input) &&
+                          (hits > 0 || hits === null || !!!input) &&
                           !resultsDropdown
                         ) {
                           toggleDropdown(
@@ -452,19 +467,19 @@ class Searchbar extends React.Component {
                         }
                       }}
                       onFocus={() => {
-                        //dieser if hier sorgt dafür das beim focus auch wenn der input leer ist alle dropdowns geschloßen werden bis auf result
+                        /*after deleting it should also trigger the closing action*/
                         if (
-                          (preisDropdown ||
-                            bezugsartDropdown ||
-                            immobilientypDropdown ||
-                            zimmerDropdown ||
-                            flächeDropdown) &&
+                          (priceDropdown ||
+                            obtainingTypeDropdown ||
+                            realEstateTypeDropdown ||
+                            roomsDropdown ||
+                            spaceDropdown) &&
                           !!!input
                         )
                           toggleDropdown(
                             DropdownActionTypes.TOGGLE_ALL_DROPDOWNS_FALSE
                           );
-                        if (!!input && suchtreffer > 0 && !resultsDropdown)
+                        if (!!input && hits > 0 && !resultsDropdown)
                           toggleDropdown(
                             DropdownActionTypes.TOGGLE_RESULTS_HIDDEN
                           );
@@ -475,10 +490,10 @@ class Searchbar extends React.Component {
                           toggleDropdown(
                             DropdownActionTypes.TOGGLE_RESULTS_HIDDEN
                           );
-                          toggleSuchButtonClick();
+                          toggleSearchButtonClick();
                           history.push("/real-estate");
                           document
-                            .getElementById("suchleistenpopup")
+                            .getElementById("searchbarpopup")
                             .classList.remove("show");
                           document.body.style.overflowY = "visible";
                         }
@@ -494,7 +509,7 @@ class Searchbar extends React.Component {
                       }
                       id="filter-button"
                     >
-                      {preis}
+                      {price}
                     </Button>
 
                     <ButtonContainer>
@@ -507,7 +522,7 @@ class Searchbar extends React.Component {
                         }
                         id="filter-button"
                       >
-                        {bezugsart}
+                        {obtainingType}
                       </Button>
                       <Button
                         responsivButton
@@ -518,7 +533,7 @@ class Searchbar extends React.Component {
                         }
                         id="filter-button"
                       >
-                        {haustyp}
+                        {realEstateType}
                       </Button>
                     </ButtonContainer>
                     <ButtonContainer>
@@ -532,7 +547,7 @@ class Searchbar extends React.Component {
                         }}
                         id="filter-button"
                       >
-                        {zimmerAnzahl}
+                        {rooms}
                       </Button>
                       <Button
                         responsivButton
@@ -543,7 +558,7 @@ class Searchbar extends React.Component {
                         }
                         id="filter-button"
                       >
-                        {fläche}
+                        {space}
                       </Button>
                     </ButtonContainer>
                     <Button
@@ -552,54 +567,52 @@ class Searchbar extends React.Component {
                       onClick={() => {
                         if (location.pathname === "/real-estate")
                           document
-                            .getElementById("suchleistenpopup")
+                            .getElementById("searchbarpopup")
                             .classList.remove("show");
                         else history.push("/real-estate");
                         document.body.style.overflowY = "visible";
-                        toggleSuchButtonClick();
+                        toggleSearchButtonClick();
                       }}
                     >
-                      {suchtreffer > 0 && !!input
-                        ? `${thousandSeperatorDots(
-                            suchtreffer.toString()
-                          )} Treffer`
-                        : "Suchen"}
+                      {hits > 0 && !!input
+                        ? `${thousandSeperatorDots(hits.toString())} Hits`
+                        : "Search"}
                     </Button>
-                  </SuchleistePopupContentContainer>
-                  <SuchleistePopupContentContainer shadowResponsiv>
+                  </SearchbarPopupContentContainer>
+                  <SearchbarPopupContentContainer shadowResponsiv>
                     <Input inputHomeResponsiv></Input>
-                    {resultsDropdown && suchtreffer > 0 && input !== "" ? (
-                      <Results
+                    {resultsDropdown && hits > 0 && input !== "" ? (
+                      <ResultsDropdown
                         additionalStyle={"results-dropdown responsiv-dropdown"}
                       />
                     ) : null}
-                    {/*id ist für das styling */}
-                    <Button responsivButtonPrice dropdown id="preis-dropdown">
-                      {preisDropdown ? (
+                    {/*id is for the styling in searchbar.styles */}
+                    <Button responsivButtonPrice dropdown id="price-dropdown">
+                      {priceDropdown ? (
                         <PriceDropdown
-                          additionalStyle={"preis-dropdown responsiv-dropdown"}
+                          additionalStyle={"price-dropdown responsiv-dropdown"}
                         />
                       ) : null}
                     </Button>
-                    {/*id ist für das styling */}
-                    <ButtonContainer id="mieten-wohnung-dropdown">
+                    {/*id is for the styling in searchbar.styles */}
+                    <ButtonContainer id="obtainingType-dropdown">
                       <Button responsivButton dropdown>
-                        {bezugsartDropdown ? (
+                        {obtainingTypeDropdown ? (
                           <SelectionDropdown
                             additionalStyle={"responsiv-dropdown"}
                             children={[
-                              bezugsart === "Mieten" ? "Kaufen" : "Mieten"
+                              obtainingType === "Mieten" ? "Kaufen" : "Mieten"
                             ]}
                             type={FilterActionTypes.SET_BEZUGSART}
                           />
                         ) : null}
                       </Button>
                       <Button responsivButton dropdown>
-                        {immobilientypDropdown ? (
+                        {realEstateTypeDropdown ? (
                           <SelectionDropdown
                             additionalStyle={"responsiv-dropdown"}
                             children={[
-                              haustyp === "Wohnung" ? "Haus" : "Wohnung"
+                              realEstateType === "Wohnung" ? "Haus" : "Wohnung"
                             ]}
                             type={FilterActionTypes.SET_HAUSTYP}
                           />
@@ -608,7 +621,7 @@ class Searchbar extends React.Component {
                     </ButtonContainer>
                     <ButtonContainer>
                       <Button responsivButton dropdown>
-                        {zimmerDropdown ? (
+                        {roomsDropdown ? (
                           <SelectionDropdown
                             additionalStyle={"responsiv-dropdown"}
                             children={[
@@ -623,7 +636,7 @@ class Searchbar extends React.Component {
                         ) : null}
                       </Button>
                       <Button responsivButton dropdown>
-                        {flächeDropdown ? (
+                        {spaceDropdown ? (
                           <SelectionDropdown
                             additionalStyle={"responsiv-dropdown"}
                             children={[
@@ -639,12 +652,12 @@ class Searchbar extends React.Component {
                         ) : null}
                       </Button>
                     </ButtonContainer>
-                  </SuchleistePopupContentContainer>
-                </SuchleistePopup>
-              </SuchleistePopupContainer>
+                  </SearchbarPopupContentContainer>
+                </SearchbarPopup>
+              </SearchbarPopupContainer>
             </InputContainerResponsive>
           </ContentContainer>
-        </SuchleisteContainer>
+        </SearchbarContainer>
       );
     }
   }
@@ -654,42 +667,43 @@ class Searchbar extends React.Component {
 
 const mapStateToProps = createStructuredSelector({
   //Filter States
-  bezugsart: selectBezugsart,
-  preis: selectPreis,
+  obtainingType: selectBezugsart,
+  price: selectPreis,
   input: selectSearchInput,
-  zimmerAnzahl: selectZimmerAnzahl,
-  fläche: selectFläche,
-  haustyp: selectHaustyp,
+  rooms: selectZimmerAnzahl,
+  space: selectFläche,
+  realEstateType: selectHaustyp,
   minInput: selectMinInput,
   maxInput: selectMaxInput,
-  suchButtonClick: selectSuchButtonClick,
+  searchButtonClick: selectSuchButtonClick,
   //Dropdown States
-  preisDropdown: selectPreisDropdown,
-  bezugsartDropdown: selectBezugsartDropdown,
-  immobilientypDropdown: selectImmobilientypDropdown,
-  zimmerDropdown: selectZimmerDropdown,
-  flächeDropdown: selectFlächeDropdown,
+  priceDropdown: selectPreisDropdown,
+  obtainingTypeDropdown: selectBezugsartDropdown,
+  realEstateTypeDropdown: selectImmobilientypDropdown,
+  roomsDropdown: selectZimmerDropdown,
+  spaceDropdown: selectFlächeDropdown,
   resultsDropdown: selectResultsDropdown,
   //Results States
-  suchtreffer: selectSuchtreffer
+  hits: selectSuchtreffer
 });
 
 const mapDispatchToProps = dispatch => ({
   //dropdown action
   toggleDropdown: toggle => dispatch(toggleDropdown(toggle)),
   //filter action
-  setPreis: preis => dispatch(setPreis(preis)),
+  setPrice: price => dispatch(setPreis(price)),
   resetInputMax: () => dispatch(resetInputMax()),
   resetInputMin: () => dispatch(resetInputMin()),
   setSearchInput: value => dispatch(setSearchInput(value)),
-  toggleSuchButtonClick: () => dispatch(toggleSuchButtonClick()),
+  toggleSearchButtonClick: () => dispatch(toggleSuchButtonClick()),
   //results action
-  setBundesländer: bundesländerArray =>
-    dispatch(setBundesländer(bundesländerArray)),
-  setStädteOrte: städteOrteArray => dispatch(setStädteOrte(städteOrteArray)),
-  setStraßenPlzOrte: straßenPlzOrteArray =>
-    dispatch(setStraßenPlzOrte(straßenPlzOrteArray)),
-  setSuchtreffer: num => dispatch(setSuchtreffer(num))
+  setFederalStates: federalStatesArray =>
+    dispatch(setBundesländer(federalStatesArray)),
+  setCitiesLocalities: citiesLocalitiesArray =>
+    dispatch(setStädteOrte(citiesLocalitiesArray)),
+  setStreetsPostcodeLocalities: streetsPostcodeLocalitiesArray =>
+    dispatch(setStraßenPlzOrte(streetsPostcodeLocalitiesArray)),
+  setHits: num => dispatch(setSuchtreffer(num))
 });
 
 export default withRouter(
