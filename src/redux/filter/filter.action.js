@@ -35,6 +35,8 @@ export const clearSearchInput = () => ({
   payload: ""
 });
 
+export const resetPage = () => ({ type: FilterActionTypes.RESET_PAGE });
+
 //für den Auswahldropdown
 export const setArt = (payload, type) => ({
   type: type,

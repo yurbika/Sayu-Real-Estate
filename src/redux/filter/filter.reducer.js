@@ -57,6 +57,8 @@ const filterReducer = (state = INITIAL_STATE, action) => {
       };
     case FilterActionTypes.SET_SEITE:
       return { ...state, seite: action.payload };
+    case FilterActionTypes.RESET_PAGE:
+      return { ...state, seite: 1 };
     case FilterActionTypes.TOGGLE_SUCHBUTTON:
       return {
         ...state,

@@ -30,7 +30,10 @@ import {
   selectSuchButtonClick
 } from "../../redux/filter/filter.selectors";
 
-import { toggleSuchButtonClick } from "../../redux/filter/filter.action";
+import {
+  toggleSuchButtonClick,
+  resetPage
+} from "../../redux/filter/filter.action";
 
 import { selectPopupState } from "../../redux/popup/popup.selectors";
 
@@ -177,6 +180,10 @@ class RealEstate extends React.Component {
     else return false;
   }
 
+  componentWillUnmount() {
+    this.props.resetPage();
+  }
+
   render() {
     const { popShow, page, results } = this.props;
     return (
@@ -228,7 +235,8 @@ const mapStateToProps = createStructuredSelector({
 
 const mapDispatchToProps = dispatch => ({
   setResults: ergebnisseArray => dispatch(setErgebnisse(ergebnisseArray)),
-  toggleSearchButtonClick: () => dispatch(toggleSuchButtonClick())
+  toggleSearchButtonClick: () => dispatch(toggleSuchButtonClick()),
+  resetPage: () => dispatch(resetPage())
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(RealEstate);
