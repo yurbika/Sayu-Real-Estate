@@ -18,6 +18,7 @@ import { togglePopup } from "../../redux/popup/popup.action";
 //utils
 import { popupRef } from "../../utils/utils";
 import { thousandSeperatorDots } from "../input/input.utils";
+import theme from "../../utils/theme";
 
 //styles
 import {
@@ -92,17 +93,17 @@ class Popup extends React.Component {
                     <Slider
                       imgArray={[
                         realEstate[realEstateType]["bilder"]["titelbild"] +
-                          "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
+                          theme.unsplash.normalResolution,
                         realEstate[realEstateType]["bilder"]["zweites"] +
-                          "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
+                          theme.unsplash.normalResolution,
                         realEstate[realEstateType]["bilder"]["drittes"] +
-                          "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
+                          theme.unsplash.normalResolution,
                         realEstate[realEstateType]["bilder"]["vier"] +
-                          "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
+                          theme.unsplash.normalResolution,
                         realEstate[realEstateType]["bilder"]["fünf"] +
-                          "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
+                          theme.unsplash.normalResolution,
                         realEstate[realEstateType]["bilder"]["sechs"] +
-                          "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop"
+                          theme.unsplash.normalResolution
                       ]}
                       alt={realEstateType}
                       id={realEstateID}
@@ -178,17 +179,17 @@ class Popup extends React.Component {
                   <SliderPreview
                     imgArray={[
                       realEstate[realEstateType]["bilder"]["titelbild"] +
-                        "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
+                        theme.unsplash.normalResolution,
                       realEstate[realEstateType]["bilder"]["zweites"] +
-                        "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
+                        theme.unsplash.normalResolution,
                       realEstate[realEstateType]["bilder"]["drittes"] +
-                        "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
+                        theme.unsplash.normalResolution,
                       realEstate[realEstateType]["bilder"]["vier"] +
-                        "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
+                        theme.unsplash.normalResolution,
                       realEstate[realEstateType]["bilder"]["fünf"] +
-                        "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
+                        theme.unsplash.normalResolution,
                       realEstate[realEstateType]["bilder"]["sechs"] +
-                        "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop"
+                        theme.unsplash.normalResolution
                     ]}
                     alt={realEstateType}
                     id={realEstateID}

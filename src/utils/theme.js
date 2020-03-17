@@ -1,4 +1,4 @@
-import img from "../assets/startseiten_hintergrund.jpg";
+import img from "../assets/home_background.jpg";
 
 const theme = {
   colors: {
@@ -17,6 +17,11 @@ const theme = {
   },
 
   img: `${img}`,
+
+  unsplash: {
+    normalResolution:
+      "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop"
+  },
 
   suchMinWidth: "min-width: 60vw;",
   suchMaxWidth: "max-width: 65vw;",

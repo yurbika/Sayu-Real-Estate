@@ -1,7 +1,7 @@
 import React from "react";
 import { withRouter } from "react-router-dom";
 
-import { ReactComponent as Logo } from "../../assets/Sayu-Immo-Logo.svg";
+import { ReactComponent as Logo } from "../../assets/Sayu-Logo.svg";
 
 import {
   HeaderContainer,

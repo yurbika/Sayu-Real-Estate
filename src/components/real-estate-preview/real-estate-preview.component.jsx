@@ -12,6 +12,7 @@ import {
 
 //utils
 import { thousandSeperatorDots } from "../input/input.utils";
+import theme from "../../utils/theme";
 
 //assets
 import moneyIcon from "../../assets/money-icon.png";
@@ -56,17 +57,17 @@ const RealEstatePreview = ({
         <Slider
           imgArray={[
             realEstate[realEstateType]["bilder"]["titelbild"] +
-              "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
+              theme.unsplash.normalResolution,
             realEstate[realEstateType]["bilder"]["zweites"] +
-              "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
+              theme.unsplash.normalResolution,
             realEstate[realEstateType]["bilder"]["drittes"] +
-              "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
+              theme.unsplash.normalResolution,
             realEstate[realEstateType]["bilder"]["vier"] +
-              "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
+              theme.unsplash.normalResolution,
             realEstate[realEstateType]["bilder"]["fünf"] +
-              "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop",
+              theme.unsplash.normalResolution,
             realEstate[realEstateType]["bilder"]["sechs"] +
-              "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop"
+              theme.unsplash.normalResolution
           ]}
           alt={realEstateType}
           id={id}
