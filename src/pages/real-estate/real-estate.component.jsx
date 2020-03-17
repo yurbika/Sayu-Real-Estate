@@ -38,7 +38,7 @@ import {
 import { selectPopupState } from "../../redux/popup/popup.selectors";
 
 //utils
-import { filterData } from "../../immo-data/immo-data.utils.js";
+import { filterData } from "../../real-estate-data/real-estate-data.utils.js";
 import { ID_GENERATOR } from "../../uniqueKey.js";
 
 //styles

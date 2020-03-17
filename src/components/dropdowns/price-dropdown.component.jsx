@@ -42,12 +42,12 @@ import {
   DashSymbole
 } from "./dropdown.styles";
 
-const PreisDropdown = ({
+const PriceDropdown = ({
   maxInput,
   minInput,
   setInputMax,
   setInputMin,
-  bezugsart,
+  obtainingType,
   toggleDropdown,
   resetInputMin,
   resetInputMax,
@@ -70,7 +70,7 @@ const PreisDropdown = ({
           onKeyPress={e => onlyNumberkey(e)}
         />
         <ul id="price-min">
-          {bezugsart === "Mieten"
+          {obtainingType === "Mieten"
             ? createLiRentMin(10, maxInput, "max-input", setInputMin)
             : createLiBuyMin(10, maxInput, "max-input", setInputMin)}
         </ul>
@@ -94,7 +94,7 @@ const PreisDropdown = ({
           onKeyPress={e => onlyNumberkey(e)}
         />
         <ul id="price-max">
-          {bezugsart === "Mieten"
+          {obtainingType === "Mieten"
             ? createLiRentMax(10, minInput, setInputMax, toggleDropdown)
             : createLiBuyMax(10, minInput, setInputMax, toggleDropdown)}
         </ul>
@@ -106,15 +106,15 @@ const PreisDropdown = ({
 const mapStateToProps = createStructuredSelector({
   maxInput: selectMaxInput,
   minInput: selectMinInput,
-  bezugsart: selectObtainingType
+  obtainingType: selectObtainingType
 });
 
 const mapDispatchToProps = dispatch => ({
-  setInputMax: preis => dispatch(setInputMax(preis)),
-  setInputMin: preis => dispatch(setInputMin(preis)),
+  setInputMax: price => dispatch(setInputMax(price)),
+  setInputMin: price => dispatch(setInputMin(price)),
   toggleDropdown: type => dispatch(toggleDropdown(type)),
   resetInputMax: () => dispatch(resetInputMax()),
   resetInputMin: () => dispatch(resetInputMin())
 });
 
-export default connect(mapStateToProps, mapDispatchToProps)(PreisDropdown);
+export default connect(mapStateToProps, mapDispatchToProps)(PriceDropdown);

@@ -2,7 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 
-import { filterData } from "../../immo-data/immo-data.utils";
+import { filterData } from "../../real-estate-data/real-estate-data.utils";
 
 //import components
 import Button from "../../components/button/button.component";

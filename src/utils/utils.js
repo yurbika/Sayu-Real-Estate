@@ -1,7 +1,6 @@
 import React from "react";
 
-//musst importiert werden damit handleClickOutside funktoniert
-//d.h. es muss ein ref={dropdownRef} gesetzt werden bei den dropdowns
+//refs are important for checking if someone clicked outside the dropdown/popup
 
 export const dropdownRef = React.createRef();
 export const popupRef = React.createRef();

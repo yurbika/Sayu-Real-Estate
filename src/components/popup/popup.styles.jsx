@@ -94,6 +94,8 @@ export const SliderInfoContainer = styled.div`
   padding: 15px 15px 0 15px;
 
   @media (max-width: 1023px) {
+    max-width: 450px;
+
     flex-direction: column;
     align-items: center;
     & :nth-child(3) {
@@ -104,7 +106,7 @@ export const SliderInfoContainer = styled.div`
 
 export const SliderContainer = styled.div`
   width: 100%;
-  max-width: 450px;
+  max-width: inherit;
   height: inherit;
 
   img {
@@ -128,7 +130,7 @@ export const InfosContainer = styled.div`
   }
   @media (max-width: 1023px) {
     height: 350px;
-    max-width: 500px;
+    max-width: inherit;
     width: 100%;
     padding: 5px 10px;
     margin-top: 15px;
@@ -217,20 +219,23 @@ export const MainContentContainer = styled.div`
   }
 `;
 
-export const MainContent = styled.div` max-width: 895px;
-width: 100%;
-height: inherit;
-display: flex;
-padding: 15px 15px 0 15px;
-margin-bottom: 75px;
-justify-content: space-between;
-@media (max-width: 1023px) {
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  & > * {
-    margin-bottom: 15px;
-  }`;
+export const MainContent = styled.div`
+  max-width: 895px;
+  width: 100%;
+  height: inherit;
+  display: flex;
+  padding: 15px 15px 0 15px;
+  margin-bottom: 75px;
+  justify-content: space-between;
+  @media (max-width: 1023px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    & > * {
+      margin-bottom: 15px;
+    }
+  }
+`;
 
 export const InformationContainer = styled.div`
   display: flex;

@@ -2,18 +2,20 @@ import React, { lazy, Suspense } from "react";
 import { Switch, Route } from "react-router-dom";
 import { connect } from "react-redux";
 
-//das sind die import damit die dropdowns von überall geschlossen werden können
-import {
-  handleClickOutsideDropdown,
-  handleClickOutsidePopup
-} from "./utils/utils";
+//import component
+import Spinner from "./components/spinner/spinner.component";
+
+//redux
 import toggleDropdown from "./redux/dropdown/dropdown.action";
 import DropdownActionTypes from "./redux/dropdown/dropdown.types";
 
 import { togglePopup } from "./redux/popup/popup.action";
 
-//import component
-import Spinner from "./components/spinner/spinner.component";
+//utils
+import {
+  handleClickOutsideDropdown,
+  handleClickOutsidePopup
+} from "./utils/utils";
 
 //import styles
 import "./App.css";
@@ -23,7 +25,6 @@ const RealEstate = lazy(() =>
   import("./pages/real-estate/real-estate.component")
 );
 
-//onMouseDown wird gebraucht um die dropdowns von überall schließen zu können
 class App extends React.Component {
   render() {
     const { toggleDropdown, togglePopup } = this.props;

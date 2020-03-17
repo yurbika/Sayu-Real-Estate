@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 import { withRouter } from "react-router-dom";
 
-import { filterData } from "../../immo-data/immo-data.utils";
+import { filterData } from "../../real-estate-data/real-estate-data.utils";
 
 //Component imports
 import Input from "../input/input.component";
@@ -415,7 +415,7 @@ class Searchbar extends React.Component {
                 inputButton
                 onClick={() => {
                   document
-                    .getElementById("searchbarpopup")
+                    .getElementById("searchbarPopup")
                     .classList.add("show");
                   document.body.style.overflowY = "hidden";
                 }}
@@ -433,7 +433,7 @@ class Searchbar extends React.Component {
                   ? `${thousandSeperatorDots(hits.toString())} Hits`
                   : "Search"}
               </Button>
-              <SearchbarPopupContainer id="searchbarpopup">
+              <SearchbarPopupContainer id="searchbarPopup">
                 <SearchbarPopup
                   /*if the element was a html-form*/
                   onClick={e => {
@@ -445,7 +445,7 @@ class Searchbar extends React.Component {
                     <CloseButtonContainer
                       onClick={() => {
                         document
-                          .getElementById("searchbarpopup")
+                          .getElementById("searchbarPopup")
                           .classList.remove("show");
                         document.body.style.overflowY = "visible";
                       }}
@@ -499,7 +499,7 @@ class Searchbar extends React.Component {
                           toggleSearchButtonClick();
                           history.push("/real-estate");
                           document
-                            .getElementById("searchbarpopup")
+                            .getElementById("searchbarPopup")
                             .classList.remove("show");
                           document.body.style.overflowY = "visible";
                         }
@@ -507,7 +507,7 @@ class Searchbar extends React.Component {
                     />
                     <Button
                       responsivButtonPrice
-                      preis
+                      price
                       onClick={() =>
                         toggleDropdown(
                           DropdownActionTypes.TOGGLE_PRICE_DROPDOWN_HIDDEN
@@ -573,7 +573,7 @@ class Searchbar extends React.Component {
                       onClick={() => {
                         if (location.pathname === "/real-estate")
                           document
-                            .getElementById("searchbarpopup")
+                            .getElementById("searchbarPopup")
                             .classList.remove("show");
                         else history.push("/real-estate");
                         document.body.style.overflowY = "visible";

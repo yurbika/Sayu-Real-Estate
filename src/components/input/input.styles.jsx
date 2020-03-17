@@ -54,7 +54,7 @@ export const Wrapper = styled.div`
 
 export const ClearInputButton = styled.button`
   position: absolute;
-  cursor:pointer;
+  cursor: pointer;
   z-index: 1;
   top: 10px;
   bottom: 10px;
@@ -62,18 +62,19 @@ export const ClearInputButton = styled.button`
   border: 0;
   padding: 0 10px;
   border-radius: 50%;
-  background-color: ${theme.colors.lightWhite}
+  background-color: ${theme.colors.lightWhite};
   transition: background 200ms;
   outline: none;
 
   &:hover {
-    background-color: ${theme.colors.transBlack}; 
+    background-color: ${theme.colors.transBlack};
   }
-  &:before, &:after {
-    content: '';
+  &:before,
+  &:after {
+    content: "";
     position: absolute;
     right: 9px;
-    top:4px;
+    top: 4px;
     height: 12px;
     width: 2px;
     background-color: ${theme.colors.black};
@@ -84,5 +85,4 @@ export const ClearInputButton = styled.button`
   &:after {
     transform: rotate(-45deg);
   }
-}
 `;

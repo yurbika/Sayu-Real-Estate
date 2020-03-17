@@ -1,4 +1,4 @@
-import IMMO_DATA from "./immo.data";
+import IMMO_DATA from "./real-estate.data";
 
 import { removeDots } from "../components/input/input.utils";
 

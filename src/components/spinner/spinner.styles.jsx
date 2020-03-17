@@ -7,7 +7,7 @@ const getAdditionalStyle = props => {
       border-radius: unset;
       background: ${theme.colors.transDarkerBlack};
       height: 100vh;
-      widht: 100vw;
+      width: 100vw;
     `;
 };
 
