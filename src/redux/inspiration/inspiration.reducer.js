@@ -1,6 +1,4 @@
-import InspirationsContainerActionType from "./inspiration.types";
-
-//für mehr InspirationsContainer können hier mehrfach state gesetzt werden
+import InspirationActionType from "./inspiration.types";
 
 const INITIAL_STATE = {
   expand1: false,
@@ -8,19 +6,19 @@ const INITIAL_STATE = {
   expand3: false
 };
 
-const inspirationsReducer = (state = INITIAL_STATE, action) => {
+const inspirationReducer = (state = INITIAL_STATE, action) => {
   switch (action.type) {
-    case InspirationsContainerActionType.TOGGLE_EXPAND1:
+    case InspirationActionType.TOGGLE_EXPAND1:
       return {
         ...state,
         expand1: true
       };
-    case InspirationsContainerActionType.TOGGLE_EXPAND2:
+    case InspirationActionType.TOGGLE_EXPAND2:
       return {
         ...state,
         expand2: true
       };
-    case InspirationsContainerActionType.TOGGLE_EXPAND3:
+    case InspirationActionType.TOGGLE_EXPAND3:
       return {
         ...state,
         expand3: true
@@ -30,4 +28,4 @@ const inspirationsReducer = (state = INITIAL_STATE, action) => {
   }
 };
 
-export default inspirationsReducer;
+export default inspirationReducer;

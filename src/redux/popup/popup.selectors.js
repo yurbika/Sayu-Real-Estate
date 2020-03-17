@@ -7,12 +7,12 @@ export const selectPopupState = createSelector(
   popup => popup.popupShow
 );
 
-export const selectPopupImmo = createSelector(
+export const selectPopupRealEstate = createSelector(
   [selectPopup],
-  popup => popup.immo
+  popup => popup.realEstate
 );
 
-export const selectPopupImmoID = createSelector(
+export const selectPopupRealEstateID = createSelector(
   [selectPopup],
-  popup => popup.immoID
+  popup => popup.realEstateID
 );

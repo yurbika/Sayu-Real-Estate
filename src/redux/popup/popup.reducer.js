@@ -2,21 +2,21 @@ import PopupActionTypes from "./popup.types";
 
 const INITIAL_STATE = {
   popupShow: false,
-  immo: null,
-  immoID: null
+  realEstate: null,
+  realEstateID: null
 };
 
 const popupReducer = (state = INITIAL_STATE, action) => {
   switch (action.type) {
-    case PopupActionTypes.SET_IMMO_ID:
+    case PopupActionTypes.SET_REALESTATE_ID:
       return {
         ...state,
-        immoID: action.payload
+        realEstateID: action.payload
       };
-    case PopupActionTypes.SET_IMMO:
+    case PopupActionTypes.SET_REALESTATE:
       return {
         ...state,
-        immo: action.payload
+        realEstate: action.payload
       };
     case PopupActionTypes.TOGGLE_POPUP:
       return {

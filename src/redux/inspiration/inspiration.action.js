@@ -1,14 +1,13 @@
-import InspirationsContainerActionType from "./inspiration.types";
+import InspirationActionType from "./inspiration.types";
 
-//hier nicht vergessen den weiteren Inspirationscontainer einzutragen
 export const toggleExpand = num => {
   switch (num) {
     case 1:
-      return { type: InspirationsContainerActionType.TOGGLE_EXPAND1 };
+      return { type: InspirationActionType.TOGGLE_EXPAND1 };
     case 2:
-      return { type: InspirationsContainerActionType.TOGGLE_EXPAND2 };
+      return { type: InspirationActionType.TOGGLE_EXPAND2 };
     case 3:
-      return { type: InspirationsContainerActionType.TOGGLE_EXPAND3 };
+      return { type: InspirationActionType.TOGGLE_EXPAND3 };
     default:
       return null;
   }

@@ -6,8 +6,8 @@ import Slider from "../slider/slider.component";
 //redux imports
 import {
   togglePopup,
-  setPopupImmo,
-  setPopupImmoID
+  setPopupRealEstate,
+  setPopupRealEstateID
 } from "../../redux/popup/popup.action";
 
 //utils
@@ -43,8 +43,8 @@ const RealEstatePreview = ({
   realEstate,
   id,
   togglePopup,
-  setPopupImmo,
-  setPopupImmoID
+  setPopupRealEstate,
+  setPopupRealEstateID
 }) => {
   let realEstateType = "";
   if (!!realEstate["haus"]) realEstateType = "haus";
@@ -73,8 +73,8 @@ const RealEstatePreview = ({
           onClick={() => {
             togglePopup();
             document.body.style.overflow = "hidden";
-            setPopupImmo(realEstate);
-            setPopupImmoID(id);
+            setPopupRealEstate(realEstate);
+            setPopupRealEstateID(id);
           }}
         />
       </ImgPreviewContainer>
@@ -82,8 +82,8 @@ const RealEstatePreview = ({
         onClick={() => {
           togglePopup();
           document.body.style.overflow = "hidden";
-          setPopupImmo(realEstate);
-          setPopupImmoID(id);
+          setPopupRealEstate(realEstate);
+          setPopupRealEstateID(id);
         }}
       >
         <Description>
@@ -168,8 +168,8 @@ const RealEstatePreview = ({
 
 const mapDispatchToProps = dispatch => ({
   togglePopup: () => dispatch(togglePopup()),
-  setPopupImmo: realEstate => dispatch(setPopupImmo(realEstate)),
-  setPopupImmoID: num => dispatch(setPopupImmoID(num))
+  setPopupRealEstate: realEstate => dispatch(setPopupRealEstate(realEstate)),
+  setPopupRealEstateID: num => dispatch(setPopupRealEstateID(num))
 });
 
 export default connect(null, mapDispatchToProps)(RealEstatePreview);

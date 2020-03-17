@@ -1,18 +1,18 @@
 import { createSelector } from "reselect";
 
-const selectInspirationsSektion = state => state.inspirationsSketion;
+const selectInspiration = state => state.inspiration;
 
 export const selectExpand1 = createSelector(
-  [selectInspirationsSektion],
-  inspirationsSketion => inspirationsSketion.expand1
+  [selectInspiration],
+  inspiration => inspiration.expand1
 );
 
 export const selectExpand2 = createSelector(
-  [selectInspirationsSektion],
-  inspirationsSketion => inspirationsSketion.expand2
+  [selectInspiration],
+  inspiration => inspiration.expand2
 );
 
 export const selectExpand3 = createSelector(
-  [selectInspirationsSektion],
-  inspirationsSketion => inspirationsSketion.expand3
+  [selectInspiration],
+  inspiration => inspiration.expand3
 );

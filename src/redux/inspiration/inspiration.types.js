@@ -1,7 +1,7 @@
-const InspirationsContainerActionType = {
+const InspirationActionType = {
   TOGGLE_EXPAND1: "TOGGLE_EXPAND1",
   TOGGLE_EXPAND2: "TOGGLE_EXPAND2",
   TOGGLE_EXPAND3: "TOGGLE_EXPAND3"
 };
 
-export default InspirationsContainerActionType;
+export default InspirationActionType;

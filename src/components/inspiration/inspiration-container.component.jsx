@@ -7,7 +7,7 @@ import ImgsPreview from "../imgs-container/imgs-container.component";
 import Button from "../button/button.component";
 
 //redux imports
-import { toggleExpand } from "../../redux/inspiration-sketion/inspiration.action";
+import { toggleExpand } from "../../redux/inspiration/inspiration.action";
 
 //style import
 import {

@@ -1,7 +1,7 @@
 const PopupActionTypes = {
   TOGGLE_POPUP: "TOGGLE_POPUP",
-  SET_IMMO: "SET_IMMO",
-  SET_IMMO_ID: "SET_IMMO_ID"
+  SET_REALESTATE: "SET_REALESTATE",
+  SET_REALESTATE_ID: "SET_REALESTATE_ID"
 };
 
 export default PopupActionTypes;

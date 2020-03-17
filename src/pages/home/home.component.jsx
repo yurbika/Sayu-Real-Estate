@@ -19,7 +19,7 @@ import {
   selectExpand1,
   selectExpand2,
   selectExpand3
-} from "../../redux/inspiration-sketion/inspiration.selectors";
+} from "../../redux/inspiration/inspiration.selectors";
 
 import {
   selectKlassikerArray,

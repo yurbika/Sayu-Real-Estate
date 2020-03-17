@@ -4,12 +4,12 @@ export const togglePopup = () => ({
   type: PopupActionTypes.TOGGLE_POPUP
 });
 
-export const setPopupImmo = immo => ({
-  type: PopupActionTypes.SET_IMMO,
-  payload: immo
+export const setPopupRealEstate = realEstate => ({
+  type: PopupActionTypes.SET_REALESTATE,
+  payload: realEstate
 });
 
-export const setPopupImmoID = num => ({
-  type: PopupActionTypes.SET_IMMO_ID,
+export const setPopupRealEstateID = num => ({
+  type: PopupActionTypes.SET_REALESTATE_ID,
   payload: num
 });

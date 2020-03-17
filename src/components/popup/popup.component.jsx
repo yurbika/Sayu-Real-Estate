@@ -9,8 +9,8 @@ import PopupMap from "../../components/popup-map/popup-map.component";
 
 //redux imports
 import {
-  selectPopupImmo,
-  selectPopupImmoID
+  selectPopupRealEstate,
+  selectPopupRealEstateID
 } from "../../redux/popup/popup.selectors";
 
 import { togglePopup } from "../../redux/popup/popup.action";
@@ -319,8 +319,8 @@ class Popup extends React.Component {
 }
 
 const mapStateToProps = createStructuredSelector({
-  realEstate: selectPopupImmo,
-  realEstateID: selectPopupImmoID
+  realEstate: selectPopupRealEstate,
+  realEstateID: selectPopupRealEstateID
 });
 
 const mapDispatchToProps = dispatch => ({

@@ -234,7 +234,7 @@ const mapStateToProps = createStructuredSelector({
 });
 
 const mapDispatchToProps = dispatch => ({
-  setResults: ergebnisseArray => dispatch(setResults(ergebnisseArray)),
+  setResults: resultsArray => dispatch(setResults(resultsArray)),
   toggleSearchButtonClick: () => dispatch(toggleSearchButtonClick()),
   resetPage: () => dispatch(resetPage())
 });
