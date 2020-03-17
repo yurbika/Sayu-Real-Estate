@@ -14,8 +14,8 @@ import Popup from "../../components/popup/popup.component";
 import PageChanger from "../../components/page-changer/page-changer.component";
 
 //redux imports
-import { selectErgebnisse } from "../../redux/immobilien/immobilien.selectors";
-import { setErgebnisse } from "../../redux/immobilien/immobilien.action";
+import { selectResults } from "../../redux/real-estate/real-estate.selectors";
+import { setResults } from "../../redux/real-estate/real-estate.action";
 
 import {
   selectObtainingType,
@@ -206,7 +206,7 @@ class RealEstate extends React.Component {
               return null;
             })}
           </RealEstatePreviewContainer>
-          <PageChanger anzahlSeiten={Math.ceil(results.length / 20)} />
+          <PageChanger pages={Math.ceil(results.length / 20)} />
         </SearchbarContainer>
         {popShow ? <Popup /> : null}
         <Footer />
@@ -217,7 +217,7 @@ class RealEstate extends React.Component {
 
 const mapStateToProps = createStructuredSelector({
   //real estate States
-  results: selectErgebnisse,
+  results: selectResults,
   //Filter States
   obtainingType: selectObtainingType,
   price: selectPrice,
@@ -234,7 +234,7 @@ const mapStateToProps = createStructuredSelector({
 });
 
 const mapDispatchToProps = dispatch => ({
-  setResults: ergebnisseArray => dispatch(setErgebnisse(ergebnisseArray)),
+  setResults: ergebnisseArray => dispatch(setResults(ergebnisseArray)),
   toggleSearchButtonClick: () => dispatch(toggleSearchButtonClick()),
   resetPage: () => dispatch(resetPage())
 });

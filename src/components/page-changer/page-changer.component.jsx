@@ -26,11 +26,11 @@ class PageChanger extends React.Component {
       toggleDropdown,
       resetSliderPositions,
       page,
-      anzahlSeiten,
+      pages,
       setDropdown
     } = this.props;
     let optionsArray = [];
-    for (let i = 0; i < anzahlSeiten; i++) {
+    for (let i = 0; i < pages; i++) {
       optionsArray.push(1 + i);
     }
     return (
@@ -57,9 +57,9 @@ class PageChanger extends React.Component {
         <Button
           pageChanger
           scrollButton
-          noArrow={anzahlSeiten === 0 ? true : false}
+          noArrow={pages === 0 ? true : false}
           onClick={() => {
-            if (anzahlSeiten > 0)
+            if (pages > 0)
               toggleDropdown(
                 DropdownActionTypes.TOGGLE_PAGECHANGER_DROPDOWN_HIDDEN
               );
@@ -69,11 +69,11 @@ class PageChanger extends React.Component {
           {page}
         </Button>
 
-        {page === anzahlSeiten ? (
+        {page === pages ? (
           <Button pageChanger noOpacity secondary>
             next Page
           </Button>
-        ) : anzahlSeiten === 0 ? (
+        ) : pages === 0 ? (
           <Button pageChanger noOpacity secondary>
             next Page
           </Button>
@@ -95,7 +95,7 @@ class PageChanger extends React.Component {
         <Button pageChanger dropdown>
           {/*hier fehlt noch ein typ für den dropdown*/}
           {dropdown ? (
-            anzahlSeiten === 0 ? null : (
+            pages === 0 ? null : (
               <SelectionDropdown
                 additionalStyle={"page-changer"}
                 type={FilterActionTypes.SET_PAGE}

@@ -81,7 +81,7 @@ const Header = ({ location }) => (
             className={location.pathname === "/" ? "aktiv" : ""}
             to="/"
           >
-            <span>Startseite</span>
+            <span>Home</span>
           </OptionLink>
           <OptionLink
             className={
@@ -96,10 +96,10 @@ const Header = ({ location }) => (
             className="registration"
             responsiv={"responsiv"}
           >
-            Registrieren
+            Registration
           </OptionLink>
           <OptionLink to="/login" responsiv={"responsiv"}>
-            Anmelden
+            Login
           </OptionLink>
         </ResponsiveMenu>
       </ResponsiveMenuContainer>
