@@ -57,9 +57,9 @@ class PageChanger extends React.Component {
         <Button
           pageChanger
           scrollButton
-          noArrow={pages === 0 ? true : false}
+          noArrow={pages <= 1 ? true : false}
           onClick={() => {
-            if (pages > 0)
+            if (pages > 1)
               toggleDropdown(
                 DropdownActionTypes.TOGGLE_PAGECHANGER_DROPDOWN_HIDDEN
               );

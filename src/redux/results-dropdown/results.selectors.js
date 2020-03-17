@@ -2,22 +2,22 @@ import { createSelector } from "reselect";
 
 const selectResults = state => state.results;
 
-export const selectBundesländer = createSelector(
+export const selectFederalstates = createSelector(
   [selectResults],
-  results => results.bundesländer
+  results => results.federalstates
 );
 
-export const selectStädteOrte = createSelector(
+export const selectCitiesLocalities = createSelector(
   [selectResults],
-  results => results.städteOrte
+  results => results.citiesLocalities
 );
 
-export const selectStraßenPlzOrt = createSelector(
+export const selectStreetsPostcodeLocalities = createSelector(
   [selectResults],
-  results => results.straßenPlzOrte
+  results => results.streetsPostcodeLocalities
 );
 
-export const selectSuchtreffer = createSelector(
+export const selectHits = createSelector(
   [selectResults],
-  results => results.suchtreffer
+  results => results.hits
 );

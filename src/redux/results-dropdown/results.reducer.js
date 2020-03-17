@@ -1,33 +1,33 @@
 import ResultsActionTypes from "./results.types";
 
 const INITIAL_STATE = {
-  bundesländer: [],
-  städteOrte: [],
-  straßenPlzOrte: [],
-  suchtreffer: null
+  federalstates: [],
+  citiesLocalities: [],
+  streetsPostcodeLocalities: [],
+  hits: null
 };
 
 const resultReducer = (state = INITIAL_STATE, action) => {
   switch (action.type) {
-    case ResultsActionTypes.SET_BUNDESLÄNDER:
+    case ResultsActionTypes.SET_FEDERALSTATES:
       return {
         ...state,
-        bundesländer: action.payload
+        federalstates: action.payload
       };
-    case ResultsActionTypes.SET_STRAßEN_PLZ_ORTE:
+    case ResultsActionTypes.SET_STREETS_POSTCODE_LOCALITIES:
       return {
         ...state,
-        straßenPlzOrte: action.payload
+        streetsPostcodeLocalities: action.payload
       };
-    case ResultsActionTypes.SET_STÄDTE_ORTE:
+    case ResultsActionTypes.SET_CITIES_LOCALITIES:
       return {
         ...state,
-        städteOrte: action.payload
+        citiesLocalities: action.payload
       };
-    case ResultsActionTypes.SET_SUCHTREFFER:
+    case ResultsActionTypes.SET_HITS:
       return {
         ...state,
-        suchtreffer: action.payload
+        hits: action.payload
       };
     default:
       return state;

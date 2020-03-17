@@ -53,12 +53,12 @@ import {
 import toggleDropdown from "../../redux/dropdown/dropdown.action";
 import DropdownActionTypes from "../../redux/dropdown/dropdown.types";
 
-import { selectSuchtreffer } from "../../redux/results-dropdown/results.selectors";
+import { selectHits } from "../../redux/results-dropdown/results.selectors";
 import {
-  setBundesländer,
-  setStraßenPlzOrte,
-  setStädteOrte,
-  setSuchtreffer
+  setFederalstates,
+  setStreetsPostcodeLocalities,
+  setCitiesLocalities,
+  setHits
 } from "../../redux/results-dropdown/results.action";
 
 //styles
@@ -690,7 +690,7 @@ const mapStateToProps = createStructuredSelector({
   spaceDropdown: selectSpaceDropdown,
   resultsDropdown: selectResultsDropdown,
   //Results States
-  hits: selectSuchtreffer
+  hits: selectHits
 });
 
 const mapDispatchToProps = dispatch => ({
@@ -704,12 +704,12 @@ const mapDispatchToProps = dispatch => ({
   toggleSearchButtonClick: () => dispatch(toggleSearchButtonClick()),
   //results action
   setFederalStates: federalStatesArray =>
-    dispatch(setBundesländer(federalStatesArray)),
+    dispatch(setFederalstates(federalStatesArray)),
   setCitiesLocalities: citiesLocalitiesArray =>
-    dispatch(setStädteOrte(citiesLocalitiesArray)),
+    dispatch(setCitiesLocalities(citiesLocalitiesArray)),
   setStreetsPostcodeLocalities: streetsPostcodeLocalitiesArray =>
-    dispatch(setStraßenPlzOrte(streetsPostcodeLocalitiesArray)),
-  setHits: num => dispatch(setSuchtreffer(num))
+    dispatch(setStreetsPostcodeLocalities(streetsPostcodeLocalitiesArray)),
+  setHits: num => dispatch(setHits(num))
 });
 
 export default withRouter(

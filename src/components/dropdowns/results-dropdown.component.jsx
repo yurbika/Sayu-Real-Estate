@@ -6,10 +6,10 @@ import { ID_GENERATOR } from "../../uniqueKey";
 
 //redux imports
 import {
-  selectBundesländer,
-  selectStraßenPlzOrt,
-  selectStädteOrte,
-  selectSuchtreffer
+  selectFederalstates,
+  selectStreetsPostcodeLocalities,
+  selectCitiesLocalities,
+  selectHits
 } from "../../redux/results-dropdown/results.selectors";
 
 import {
@@ -31,19 +31,19 @@ import { dropdownRef } from "../../utils/utils";
 import { DropdownContainer } from "./dropdown.styles";
 
 const ResultsDropdown = ({
-  bundeslaenderArray,
-  staedteOrteArray,
-  straßenPlzOrtArray,
+  federalstatesArray,
+  citiesLocalitiesArray,
+  streetsPostcodeLocalitiesArray,
   setSearchInput,
   toggleDropdown,
   additionalStyle
 }) => {
   return (
     <DropdownContainer ref={dropdownRef} additionalStyle={additionalStyle}>
-      {!!bundeslaenderArray.length ? <h4>Federal-States</h4> : null}
-      {!!bundeslaenderArray.length ? (
+      {!!federalstatesArray.length ? <h4>Federal-States</h4> : null}
+      {!!federalstatesArray.length ? (
         <ul>
-          {bundeslaenderArray.map(item => (
+          {federalstatesArray.map(item => (
             <li
               key={ID_GENERATOR("federal-states-array-")}
               onClick={e => {
@@ -58,10 +58,10 @@ const ResultsDropdown = ({
           ))}
         </ul>
       ) : null}
-      {!!staedteOrteArray.length ? <h4>Localities</h4> : null}
-      {!!staedteOrteArray.length ? (
+      {!!citiesLocalitiesArray.length ? <h4>Localities</h4> : null}
+      {!!citiesLocalitiesArray.length ? (
         <ul>
-          {staedteOrteArray.map(item => (
+          {citiesLocalitiesArray.map(item => (
             <li
               key={ID_GENERATOR("city-locality-array-")}
               onClick={e => {
@@ -76,10 +76,10 @@ const ResultsDropdown = ({
           ))}
         </ul>
       ) : null}
-      {!!straßenPlzOrtArray.length ? <h4>Streets</h4> : null}
-      {!!straßenPlzOrtArray.length ? (
+      {!!streetsPostcodeLocalitiesArray.length ? <h4>Streets</h4> : null}
+      {!!streetsPostcodeLocalitiesArray.length ? (
         <ul>
-          {straßenPlzOrtArray.map(item => (
+          {streetsPostcodeLocalitiesArray.map(item => (
             <li
               key={ID_GENERATOR("street-postcode-locality-array-")}
               onClick={e => {
@@ -100,14 +100,14 @@ const ResultsDropdown = ({
 
 const mapStateToProps = createStructuredSelector({
   //Filter States
-  bezugsart: selectObtainingType,
+  obtainingType: selectObtainingType,
   input: selectSearchInput,
-  haustyp: selectRealEstateType,
+  realEstateType: selectRealEstateType,
   //Result States
-  bundeslaenderArray: selectBundesländer,
-  staedteOrteArray: selectStädteOrte,
-  straßenPlzOrtArray: selectStraßenPlzOrt,
-  suchtreffer: selectSuchtreffer,
+  federalstatesArray: selectFederalstates,
+  citiesLocalitiesArray: selectCitiesLocalities,
+  streetsPostcodeLocalitiesArray: selectStreetsPostcodeLocalities,
+  hits: selectHits,
   //Dropdown
   resultsDropdown: selectResultsDropdown
 });

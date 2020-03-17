@@ -1,21 +1,21 @@
 import ResultsActionTypes from "./results.types";
 
-export const setBundesländer = bundesländerArray => ({
-  type: ResultsActionTypes.SET_BUNDESLÄNDER,
-  payload: bundesländerArray
+export const setFederalstates = federalstatesArray => ({
+  type: ResultsActionTypes.SET_FEDERALSTATES,
+  payload: federalstatesArray
 });
 
-export const setStädteOrte = städteOrteArray => ({
-  type: ResultsActionTypes.SET_STÄDTE_ORTE,
-  payload: städteOrteArray
+export const setCitiesLocalities = citiesLocalitiesArray => ({
+  type: ResultsActionTypes.SET_CITIES_LOCALITIES,
+  payload: citiesLocalitiesArray
 });
 
-export const setStraßenPlzOrte = straßenPlzOrteArray => ({
-  type: ResultsActionTypes.SET_STRAßEN_PLZ_ORTE,
-  payload: straßenPlzOrteArray
+export const setStreetsPostcodeLocalities = streetsPostcodeLocalitiesArray => ({
+  type: ResultsActionTypes.SET_STREETS_POSTCODE_LOCALITIES,
+  payload: streetsPostcodeLocalitiesArray
 });
 
-export const setSuchtreffer = num => ({
-  type: ResultsActionTypes.SET_SUCHTREFFER,
+export const setHits = num => ({
+  type: ResultsActionTypes.SET_HITS,
   payload: num
 });
