@@ -1,7 +1,9 @@
-import IMMO_DATA from "./real-estate.data";
+import REAL_ESTATE_DATA from "./real-estate.data";
 
 import { removeDots } from "../components/input/input.utils";
 
+/*this regex its like a "loop", if we use the match function 
+it starts with the first expression and goes through the whole string. And the second one and so on, if everything matches we got a hit*/
 const createRegex = splitedStr => {
   let str = "";
   for (let i = 0; i < splitedStr.length; i++) {
@@ -13,7 +15,7 @@ const createRegex = splitedStr => {
   return regex;
 };
 
-export const filterData = (filter, data = IMMO_DATA) => {
+export const filterData = (filter, data = REAL_ESTATE_DATA) => {
   let federalStatesArray = [];
   let citiesLocalitiesArray = [];
   let streetsPostcodeLocalitiesArray = [];
@@ -43,96 +45,96 @@ export const filterData = (filter, data = IMMO_DATA) => {
   let hits = 0;
   let totalArrayLength = 0;
   let splitedStr = !!search ? search.split(/[ ,-]+/) : "";
-  //entfernt alles leere
+  //removes everything empty
   splitedStr = !!search ? splitedStr.filter(i => i) : "";
   let regex = splitedStr.length > 0 ? createRegex(splitedStr) : "";
-  //hier wird für bundesländer/ortschaften gefiltert davon ist die gesamt anzahl des arrays abhängig
-  //deswegen gibt es dafür zwei for schleifen
+  //first loop is only necessary to calculate the totalArrayLength
   for (let i in data) {
     if (!!!data[i][realEstateType]) continue;
-    if (data[i][realEstateType]["bezugsart"] !== obtainingType) continue;
+    if (data[i][realEstateType]["obtainingType"] !== obtainingType) continue;
     if (
       !federalStatesArray.includes(
-        data[i][realEstateType]["adresse"]["bundesland"]
+        data[i][realEstateType]["adress"]["federalstate"]
       ) &&
-      !!data[i][realEstateType]["adresse"]["bundesland"].match(regex) &&
+      !!data[i][realEstateType]["adress"]["federalstate"].match(regex) &&
       federalStatesArray.length < 4 &&
       splitedStr.length > 0
     ) {
-      federalStatesArray.push(data[i][realEstateType]["adresse"]["bundesland"]);
+      federalStatesArray.push(data[i][realEstateType]["adress"]["federalstate"]);
     }
     if (
       !citiesLocalitiesArray.includes(
-        data[i][realEstateType]["adresse"]["stadt"] +
+        data[i][realEstateType]["adress"]["city"] +
           " - " +
-          data[i][realEstateType]["adresse"]["bundesland"]
+          data[i][realEstateType]["adress"]["federalstate"]
       ) &&
-      !!data[i][realEstateType]["adresse"]["stadt"].match(regex) &&
+      !!data[i][realEstateType]["adress"]["city"].match(regex) &&
       citiesLocalitiesArray.length < 4 &&
       splitedStr.length > 0
     ) {
       citiesLocalitiesArray.push(
-        data[i][realEstateType]["adresse"]["stadt"] +
+        data[i][realEstateType]["adress"]["city"] +
           " - " +
-          data[i][realEstateType]["adresse"]["bundesland"]
+          data[i][realEstateType]["adress"]["federalstate"]
       );
     }
   }
+  //second loop
   totalArrayLength =
     12 - (federalStatesArray.length + citiesLocalitiesArray.length);
   for (let i in data) {
     if (!!!data[i][realEstateType]) continue;
-    if (data[i][realEstateType]["bezugsart"] !== obtainingType) continue;
+    if (data[i][realEstateType]["obtainingType"] !== obtainingType) continue;
     if (
       !streetsPostcodeLocalitiesArray.includes(
-        data[i][realEstateType]["adresse"]["straße"] +
+        data[i][realEstateType]["adress"]["street"] +
           ", " +
-          data[i][realEstateType]["adresse"]["postleitzahl"] +
+          data[i][realEstateType]["adress"]["postcode"] +
           " - " +
-          data[i][realEstateType]["adresse"]["stadt"] +
+          data[i][realEstateType]["adress"]["city"] +
           " - " +
-          data[i][realEstateType]["adresse"]["bundesland"]
+          data[i][realEstateType]["adress"]["federalstate"]
       ) &&
       (
-        data[i][realEstateType]["adresse"]["straße"] +
+        data[i][realEstateType]["adress"]["street"] +
         ", " +
-        data[i][realEstateType]["adresse"]["postleitzahl"] +
+        data[i][realEstateType]["adress"]["postcode"] +
         " - " +
-        data[i][realEstateType]["adresse"]["stadt"] +
+        data[i][realEstateType]["adress"]["city"] +
         " - " +
-        data[i][realEstateType]["adresse"]["bundesland"]
+        data[i][realEstateType]["adress"]["federalstate"]
       ).match(regex)
     ) {
       if (minInput !== 0 && !!minInput) {
-        if (data[i][realEstateType]["preis"] < minInput) continue;
+        if (data[i][realEstateType]["price"] < minInput) continue;
       }
       if (maxInput !== 0 && !!maxInput) {
-        if (data[i][realEstateType]["preis"] > maxInput) continue;
+        if (data[i][realEstateType]["price"] > maxInput) continue;
       }
       if (!!livingspace) {
-        if (data[i][realEstateType]["wohnfläche"] < livingspace) continue;
+        if (data[i][realEstateType]["livingspace"] < livingspace) continue;
       }
       if (!!property) {
-        if (data[i][realEstateType]["grundstück"] < property) continue;
+        if (data[i][realEstateType]["property"] < property) continue;
       }
       if (!!rooms) {
-        if (data[i][realEstateType]["zimmer"] < rooms) continue;
+        if (data[i][realEstateType]["rooms"] < rooms) continue;
       }
       if (!!bathrooms) {
-        if (data[i][realEstateType]["badezimmer"] < bathrooms) continue;
+        if (data[i][realEstateType]["bathrooms"] < bathrooms) continue;
       }
       if (
         streetsPostcodeLocalitiesArray.length < totalArrayLength &&
         splitedStr.length > 0
       ) {
         streetsPostcodeLocalitiesArray.push(
-          data[i][realEstateType]["adresse"]["straße"] +
+          data[i][realEstateType]["adress"]["street"] +
             ", " +
-            data[i][realEstateType]["adresse"]["postleitzahl"] +
+            data[i][realEstateType]["adress"]["postcode"] +
             " - " +
-            data[i][realEstateType]["adresse"]["stadt"] +
+            data[i][realEstateType]["adress"]["city"] +
             " - " +
-            data[i][realEstateType]["adresse"]["bundesland"]
+            data[i][realEstateType]["adress"]["federalstate"]
         );
         allResults.push(data[i]);
       } else if (!!!search) {
@@ -141,13 +143,12 @@ export const filterData = (filter, data = IMMO_DATA) => {
       hits++;
     }
   }
-  /*zufällige ergebnisse für realEstateArray welches für die
-  Inspirationssektion ist*/
+  /*random results for the inspiration component*/
   while (realEstateArray.length > 12) {
     let randomNum = Math.floor(Math.random() * realEstateArray.length);
     realEstateArray.splice(randomNum, 1);
   }
-  //wenn das erste zeichen, ein leerzeichen ist wird hits zurückgesetzt
+  //if the first char is a space, everything get reseted
   if (
     streetsPostcodeLocalitiesArray.length === 0 &&
     federalStatesArray.length === 0 &&
