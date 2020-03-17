@@ -22,22 +22,22 @@ import ResultsDropdown from "../dropdowns/results-dropdown.component";
 
 //redux
 import {
-  selectBezugsart,
-  selectHaustyp,
+  selectObtainingType,
+  selectRealEstateType,
   selectSearchInput,
-  selectZimmerAnzahl,
-  selectPreis,
-  selectFläche,
+  selectRooms,
+  selectPrice,
+  selectSpace,
   selectMaxInput,
   selectMinInput,
-  selectSuchButtonClick
+  selectSearchButtonClick
 } from "../../redux/filter/filter.selectors";
 import {
-  setPreis,
+  setPrice,
   resetInputMax,
   resetInputMin,
   setSearchInput,
-  toggleSuchButtonClick
+  toggleSearchButtonClick
 } from "../../redux/filter/filter.action";
 
 import FilterActionTypes from "../../redux/filter/filter.types";
@@ -303,7 +303,7 @@ class Searchbar extends React.Component {
                       children={[
                         obtainingType === "Mieten" ? "Kaufen" : "Mieten"
                       ]}
-                      type={FilterActionTypes.SET_BEZUGSART}
+                      type={FilterActionTypes.SET_OBTAININGTYPE}
                     />
                   ) : null}
                 </Button>
@@ -314,7 +314,7 @@ class Searchbar extends React.Component {
                       children={[
                         realEstateType === "Wohnung" ? "Haus" : "Wohnung"
                       ]}
-                      type={FilterActionTypes.SET_HAUSTYP}
+                      type={FilterActionTypes.SET_REALESTATETYPE}
                     />
                   ) : null}
                 </Button>
@@ -377,7 +377,7 @@ class Searchbar extends React.Component {
                         "4 RMS. +",
                         "5 RMS. +"
                       ]}
-                      type={FilterActionTypes.SET_ZIMMERANZAHL}
+                      type={FilterActionTypes.SET_ROOMS}
                     />
                   ) : null}
                 </Button>
@@ -393,7 +393,7 @@ class Searchbar extends React.Component {
                         "400 m² +",
                         "500 m² +"
                       ]}
-                      type={FilterActionTypes.SET_FLÄCHE}
+                      type={FilterActionTypes.SET_SPACE}
                     />
                   ) : null}
                 </Button>
@@ -609,7 +609,7 @@ class Searchbar extends React.Component {
                             children={[
                               obtainingType === "Mieten" ? "Kaufen" : "Mieten"
                             ]}
-                            type={FilterActionTypes.SET_BEZUGSART}
+                            type={FilterActionTypes.SET_OBTAININGTYPE}
                           />
                         ) : null}
                       </Button>
@@ -620,7 +620,7 @@ class Searchbar extends React.Component {
                             children={[
                               realEstateType === "Wohnung" ? "Haus" : "Wohnung"
                             ]}
-                            type={FilterActionTypes.SET_HAUSTYP}
+                            type={FilterActionTypes.SET_REALESTATETYPE}
                           />
                         ) : null}
                       </Button>
@@ -637,7 +637,7 @@ class Searchbar extends React.Component {
                               "4 RMS. +",
                               "5 RMS. +"
                             ]}
-                            type={FilterActionTypes.SET_ZIMMERANZAHL}
+                            type={FilterActionTypes.SET_ROOMS}
                           />
                         ) : null}
                       </Button>
@@ -653,7 +653,7 @@ class Searchbar extends React.Component {
                               "400 m² +",
                               "500 m² +"
                             ]}
-                            type={FilterActionTypes.SET_FLÄCHE}
+                            type={FilterActionTypes.SET_SPACE}
                           />
                         ) : null}
                       </Button>
@@ -673,15 +673,15 @@ class Searchbar extends React.Component {
 
 const mapStateToProps = createStructuredSelector({
   //Filter States
-  obtainingType: selectBezugsart,
-  price: selectPreis,
+  obtainingType: selectObtainingType,
+  price: selectPrice,
   input: selectSearchInput,
-  rooms: selectZimmerAnzahl,
-  space: selectFläche,
-  realEstateType: selectHaustyp,
+  rooms: selectRooms,
+  space: selectSpace,
+  realEstateType: selectRealEstateType,
   minInput: selectMinInput,
   maxInput: selectMaxInput,
-  searchButtonClick: selectSuchButtonClick,
+  searchButtonClick: selectSearchButtonClick,
   //Dropdown States
   priceDropdown: selectPriceDropdown,
   obtainingTypeDropdown: selectObtainingTypeDropdown,
@@ -697,11 +697,11 @@ const mapDispatchToProps = dispatch => ({
   //dropdown action
   toggleDropdown: toggle => dispatch(toggleDropdown(toggle)),
   //filter action
-  setPrice: price => dispatch(setPreis(price)),
+  setPrice: price => dispatch(setPrice(price)),
   resetInputMax: () => dispatch(resetInputMax()),
   resetInputMin: () => dispatch(resetInputMin()),
   setSearchInput: value => dispatch(setSearchInput(value)),
-  toggleSearchButtonClick: () => dispatch(toggleSuchButtonClick()),
+  toggleSearchButtonClick: () => dispatch(toggleSearchButtonClick()),
   //results action
   setFederalStates: federalStatesArray =>
     dispatch(setBundesländer(federalStatesArray)),

@@ -2,7 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 
 //redux
-import { setArt } from "../../redux/filter/filter.action";
+import { setDropdown } from "../../redux/filter/filter.action";
 
 import { dropdownRef } from "../../utils/utils";
 import toggleDropdown from "../../redux/dropdown/dropdown.action";
@@ -18,7 +18,7 @@ import { DropdownContainer } from "./dropdown.styles";
 
 const SelectionDropdown = ({
   children,
-  setArt,
+  setDropdown,
   additionalStyle,
   backToTop,
   toggleDropdown,
@@ -32,7 +32,7 @@ const SelectionDropdown = ({
           <li
             key={ID_GENERATOR("SelectionDropdown-li-")}
             onClick={() => {
-              setArt(child, type);
+              setDropdown(child, type);
               toggleDropdown(DropdownActionTypes.TOGGLE_ALL_DROPDOWNS_FALSE);
               if (backToTop) {
                 window.scrollTo(0, 0);
@@ -49,7 +49,7 @@ const SelectionDropdown = ({
 };
 
 const mapDispatchToProps = dispatch => ({
-  setArt: (text, type) => dispatch(setArt(text, type)),
+  setDropdown: (text, type) => dispatch(setDropdown(text, type)),
   toggleDropdown: type => dispatch(toggleDropdown(type)),
   //slider action
   resetSliderPositions: () => dispatch(resetSliderPositions())

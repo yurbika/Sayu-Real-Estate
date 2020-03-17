@@ -4,41 +4,41 @@ const INITIAL_STATE = {
   searchInput: "",
   minInput: "",
   maxInput: "",
-  bezugsart: "Mieten",
-  haustyp: "Wohnung",
-  preis: "Preis",
-  zimmerAnzahl: "Zimmer ab",
-  fläche: "Fläche ab",
-  suchButtonClick: false,
-  seite: 1
+  obtainingType: "Mieten",
+  realEstateType: "Wohnung",
+  price: "Preis",
+  rooms: "Zimmer ab",
+  space: "Fläche ab",
+  searchButtonClick: false,
+  page: 1
 };
 
 const filterReducer = (state = INITIAL_STATE, action) => {
   switch (action.type) {
-    case FilterActionTypes.SET_PREIS:
+    case FilterActionTypes.SET_PRICE:
       return {
         ...state,
-        preis: action.payload
+        price: action.payload
       };
-    case FilterActionTypes.SET_BEZUGSART:
+    case FilterActionTypes.SET_OBTAININGTYPE:
       return {
         ...state,
-        bezugsart: action.payload
+        obtainingType: action.payload
       };
-    case FilterActionTypes.SET_HAUSTYP:
+    case FilterActionTypes.SET_REALESTATETYPE:
       return {
         ...state,
-        haustyp: action.payload
+        realEstateType: action.payload
       };
-    case FilterActionTypes.SET_FLÄCHE:
+    case FilterActionTypes.SET_SPACE:
       return {
         ...state,
-        fläche: action.payload
+        space: action.payload
       };
-    case FilterActionTypes.SET_ZIMMERANZAHL:
+    case FilterActionTypes.SET_ROOMS:
       return {
         ...state,
-        zimmerAnzahl: action.payload
+        rooms: action.payload
       };
     case FilterActionTypes.SET_SEARCH_INPUT:
       return {
@@ -55,14 +55,14 @@ const filterReducer = (state = INITIAL_STATE, action) => {
         ...state,
         maxInput: action.payload
       };
-    case FilterActionTypes.SET_SEITE:
-      return { ...state, seite: action.payload };
+    case FilterActionTypes.SET_PAGE:
+      return { ...state, page: action.payload };
     case FilterActionTypes.RESET_PAGE:
-      return { ...state, seite: 1 };
-    case FilterActionTypes.TOGGLE_SUCHBUTTON:
+      return { ...state, page: 1 };
+    case FilterActionTypes.TOGGLE_SEARCHBUTTON:
       return {
         ...state,
-        suchButtonClick: !state.suchButtonClick
+        searchButtonClick: !state.searchButtonClick
       };
     default:
       return state;

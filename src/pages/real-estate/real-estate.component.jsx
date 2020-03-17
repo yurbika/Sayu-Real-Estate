@@ -18,20 +18,20 @@ import { selectErgebnisse } from "../../redux/immobilien/immobilien.selectors";
 import { setErgebnisse } from "../../redux/immobilien/immobilien.action";
 
 import {
-  selectBezugsart,
-  selectHaustyp,
+  selectObtainingType,
+  selectRealEstateType,
   selectSearchInput,
-  selectZimmerAnzahl,
-  selectPreis,
-  selectFläche,
+  selectRooms,
+  selectPrice,
+  selectSpace,
   selectMaxInput,
   selectMinInput,
-  selectSeite,
-  selectSuchButtonClick
+  selectPage,
+  selectSearchButtonClick
 } from "../../redux/filter/filter.selectors";
 
 import {
-  toggleSuchButtonClick,
+  toggleSearchButtonClick,
   resetPage
 } from "../../redux/filter/filter.action";
 
@@ -219,23 +219,23 @@ const mapStateToProps = createStructuredSelector({
   //real estate States
   results: selectErgebnisse,
   //Filter States
-  obtainingType: selectBezugsart,
-  price: selectPreis,
+  obtainingType: selectObtainingType,
+  price: selectPrice,
   input: selectSearchInput,
-  rooms: selectZimmerAnzahl,
-  space: selectFläche,
-  realEstateType: selectHaustyp,
+  rooms: selectRooms,
+  space: selectSpace,
+  realEstateType: selectRealEstateType,
   minInput: selectMinInput,
   maxInput: selectMaxInput,
-  page: selectSeite,
-  searchButtonClick: selectSuchButtonClick,
+  page: selectPage,
+  searchButtonClick: selectSearchButtonClick,
   //popup
   popShow: selectPopupState
 });
 
 const mapDispatchToProps = dispatch => ({
   setResults: ergebnisseArray => dispatch(setErgebnisse(ergebnisseArray)),
-  toggleSearchButtonClick: () => dispatch(toggleSuchButtonClick()),
+  toggleSearchButtonClick: () => dispatch(toggleSearchButtonClick()),
   resetPage: () => dispatch(resetPage())
 });
 

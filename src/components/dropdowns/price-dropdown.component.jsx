@@ -32,7 +32,7 @@ import {
 import {
   selectMaxInput,
   selectMinInput,
-  selectBezugsart
+  selectObtainingType
 } from "../../redux/filter/filter.selectors";
 
 //styles
@@ -106,7 +106,7 @@ const PreisDropdown = ({
 const mapStateToProps = createStructuredSelector({
   maxInput: selectMaxInput,
   minInput: selectMinInput,
-  bezugsart: selectBezugsart
+  bezugsart: selectObtainingType
 });
 
 const mapDispatchToProps = dispatch => ({

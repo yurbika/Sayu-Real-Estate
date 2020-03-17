@@ -1,13 +1,13 @@
 import FilterActionTypes from "./filter.types";
 
-export const setInputMin = preis => ({
+export const setInputMin = price => ({
   type: FilterActionTypes.SET_MINIMUM_INPUT,
-  payload: preis
+  payload: price
 });
 
-export const setInputMax = preis => ({
+export const setInputMax = price => ({
   type: FilterActionTypes.SET_MAXIMAL_INPUT,
-  payload: preis
+  payload: price
 });
 
 export const resetInputMax = () => ({
@@ -20,9 +20,9 @@ export const resetInputMin = () => ({
   payload: ""
 });
 
-export const setPreis = payload => ({
-  type: FilterActionTypes.SET_PREIS,
-  payload: payload
+export const setPrice = price => ({
+  type: FilterActionTypes.SET_PRICE,
+  payload: price
 });
 
 export const setSearchInput = value => ({
@@ -37,12 +37,11 @@ export const clearSearchInput = () => ({
 
 export const resetPage = () => ({ type: FilterActionTypes.RESET_PAGE });
 
-//für den Auswahldropdown
-export const setArt = (payload, type) => ({
+export const setDropdown = (payload, type) => ({
   type: type,
   payload: payload
 });
 
-export const toggleSuchButtonClick = () => ({
-  type: FilterActionTypes.TOGGLE_SUCHBUTTON
+export const toggleSearchButtonClick = () => ({
+  type: FilterActionTypes.TOGGLE_SEARCHBUTTON
 });

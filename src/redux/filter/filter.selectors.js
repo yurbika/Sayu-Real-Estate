@@ -17,37 +17,34 @@ export const selectMaxInput = createSelector(
   filter => filter.maxInput
 );
 
-export const selectBezugsart = createSelector(
+export const selectObtainingType = createSelector(
   [selectFilter],
-  filter => filter.bezugsart
+  filter => filter.obtainingType
 );
 
-export const selectHaustyp = createSelector(
+export const selectRealEstateType = createSelector(
   [selectFilter],
-  filter => filter.haustyp
+  filter => filter.realEstateType
 );
 
-export const selectZimmerAnzahl = createSelector(
+export const selectRooms = createSelector(
   [selectFilter],
-  filter => filter.zimmerAnzahl
+  filter => filter.rooms
 );
 
-export const selectPreis = createSelector(
+export const selectPrice = createSelector(
   [selectFilter],
-  filter => filter.preis
+  filter => filter.price
 );
 
-export const selectFläche = createSelector(
+export const selectSpace = createSelector(
   [selectFilter],
-  filter => filter.fläche
+  filter => filter.space
 );
 
-export const selectSeite = createSelector(
-  [selectFilter],
-  filter => filter.seite
-);
+export const selectPage = createSelector([selectFilter], filter => filter.page);
 
-export const selectSuchButtonClick = createSelector(
+export const selectSearchButtonClick = createSelector(
   [selectFilter],
-  filter => filter.suchButtonClick
+  filter => filter.searchButtonClick
 );

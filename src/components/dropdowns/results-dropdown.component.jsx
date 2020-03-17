@@ -13,8 +13,8 @@ import {
 } from "../../redux/results-dropdown/results.selectors";
 
 import {
-  selectBezugsart,
-  selectHaustyp,
+  selectObtainingType,
+  selectRealEstateType,
   selectSearchInput
 } from "../../redux/filter/filter.selectors";
 
@@ -100,9 +100,9 @@ const ResultsDropdown = ({
 
 const mapStateToProps = createStructuredSelector({
   //Filter States
-  bezugsart: selectBezugsart,
+  bezugsart: selectObtainingType,
   input: selectSearchInput,
-  haustyp: selectHaustyp,
+  haustyp: selectRealEstateType,
   //Result States
   bundeslaenderArray: selectBundesländer,
   staedteOrteArray: selectStädteOrte,

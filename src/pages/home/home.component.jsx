@@ -11,7 +11,7 @@ import InspirationContainer from "../../components/inspiration/inspiration-conta
 import Footer from "../../components/footer/footer.component";
 import Header from "../../components/header/header.component";
 
-//import funktion
+//import utils
 import { toSection } from "../../components/button/button.utils";
 
 //redux imports

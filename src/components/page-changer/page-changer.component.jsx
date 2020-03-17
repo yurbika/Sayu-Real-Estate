@@ -10,8 +10,8 @@ import { selectPageChangerDropdown } from "../../redux/dropdown/dropdown.selecto
 import toggleDropdown from "../../redux/dropdown/dropdown.action";
 import DropdownActionTypes from "../../redux/dropdown/dropdown.types";
 
-import { selectSeite } from "../../redux/filter/filter.selectors";
-import { setArt } from "../../redux/filter/filter.action";
+import { selectPage } from "../../redux/filter/filter.selectors";
+import { setDropdown } from "../../redux/filter/filter.action";
 import FilterActionTypes from "../../redux/filter/filter.types";
 
 import { resetSliderPositions } from "../../redux/slider/slider.action";
@@ -25,9 +25,9 @@ class PageChanger extends React.Component {
       dropdown,
       toggleDropdown,
       resetSliderPositions,
-      seite,
+      page,
       anzahlSeiten,
-      setArt
+      setDropdown
     } = this.props;
     let optionsArray = [];
     for (let i = 0; i < anzahlSeiten; i++) {
@@ -35,14 +35,14 @@ class PageChanger extends React.Component {
     }
     return (
       <PageChangerContainer>
-        {seite > 1 ? (
+        {page > 1 ? (
           <Button
             pageChanger
             secondary
             left
             scrollButton
             onClick={() => {
-              setArt(seite - 1, FilterActionTypes.SET_SEITE);
+              setDropdown(page - 1, FilterActionTypes.SET_PAGE);
               window.scrollTo(0, 0);
               resetSliderPositions();
             }}
@@ -61,15 +61,15 @@ class PageChanger extends React.Component {
           onClick={() => {
             if (anzahlSeiten > 0)
               toggleDropdown(
-                DropdownActionTypes.TOGGLE_PAGECHANGERDROPDOWN_HIDDEN
+                DropdownActionTypes.TOGGLE_PAGECHANGER_DROPDOWN_HIDDEN
               );
           }}
           id="filter-button"
         >
-          {seite}
+          {page}
         </Button>
 
-        {seite === anzahlSeiten ? (
+        {page === anzahlSeiten ? (
           <Button pageChanger noOpacity secondary>
             next Page
           </Button>
@@ -84,7 +84,7 @@ class PageChanger extends React.Component {
             scrollButton
             right
             onClick={() => {
-              setArt(seite + 1, FilterActionTypes.SET_SEITE);
+              setDropdown(page + 1, FilterActionTypes.SET_PAGE);
               window.scrollTo(0, 0);
               resetSliderPositions();
             }}
@@ -98,7 +98,7 @@ class PageChanger extends React.Component {
             anzahlSeiten === 0 ? null : (
               <SelectionDropdown
                 additionalStyle={"page-changer"}
-                type={FilterActionTypes.SET_SEITE}
+                type={FilterActionTypes.SET_PAGE}
                 backToTop
               >
                 {optionsArray}
@@ -114,14 +114,14 @@ class PageChanger extends React.Component {
 const mapStateToProps = createStructuredSelector({
   dropdown: selectPageChangerDropdown,
   //filter
-  seite: selectSeite
+  page: selectPage
 });
 
 const mapDispatchToProps = dispatch => ({
   //dropdown action
   toggleDropdown: toggle => dispatch(toggleDropdown(toggle)),
   //filter action
-  setArt: (payload, type) => dispatch(setArt(payload, type)),
+  setDropdown: (payload, type) => dispatch(setDropdown(payload, type)),
   //slider action
   resetSliderPositions: () => dispatch(resetSliderPositions())
 });
