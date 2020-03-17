@@ -1,0 +1,7 @@
+const HomeActionTypes = {
+  SET_LUXURY_ARRAY: "SET_LUXURY_ARRAY",
+  SET_APARTMENT_ARRAY: "SET_APARTMENT_ARRAY",
+  SET_CLASSIC_ARRAY: "SET_CLASSIC_ARRAY"
+};
+
+export default HomeActionTypes;

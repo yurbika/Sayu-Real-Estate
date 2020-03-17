@@ -22,15 +22,15 @@ import {
 } from "../../redux/inspiration/inspiration.selectors";
 
 import {
-  selectKlassikerArray,
-  selectLuxushäuserArray,
-  selectWohnungenArray
-} from "../../redux/startseite/startseite.selectors";
+  selectClassicArray,
+  selectLuxuryArray,
+  selectApartmentArray
+} from "../../redux/home/home.selectors";
 import {
-  setKlassikerArray,
-  setLuxushäuserArray,
-  setWohnungenArray
-} from "../../redux/startseite/startseite.action";
+  setClassicArray,
+  setLuxuryArray,
+  setApartmentArray
+} from "../../redux/home/home.action";
 
 //import styles
 import {
@@ -104,7 +104,7 @@ class Home extends React.Component {
               }}
             >
               <span className="first">Inspiration</span>
-              <span>Luxuary</span>
+              <span>Luxury</span>
             </InspirationContainer>
           )}
           {apartmentArray.length < 4 ? null : (
@@ -150,15 +150,15 @@ const mapStateToProps = createStructuredSelector({
   expand2: selectExpand2,
   expand3: selectExpand3,
   //home
-  classicArray: selectKlassikerArray,
-  luxuaryArray: selectLuxushäuserArray,
-  apartmentArray: selectWohnungenArray
+  classicArray: selectClassicArray,
+  luxuaryArray: selectLuxuryArray,
+  apartmentArray: selectApartmentArray
 });
 
 const mapDispatchToProps = dispatch => ({
-  setClassicArray: array => dispatch(setKlassikerArray(array)),
-  setLuxuaryArray: array => dispatch(setLuxushäuserArray(array)),
-  setApartmentArray: array => dispatch(setWohnungenArray(array))
+  setClassicArray: array => dispatch(setClassicArray(array)),
+  setLuxuaryArray: array => dispatch(setLuxuryArray(array)),
+  setApartmentArray: array => dispatch(setApartmentArray(array))
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Home);

@@ -1,7 +1,7 @@
 import SliderActionType from "./slider.types";
 
 const INITIAL_STATE = {
-  //größe abhänig vom immobilien component welches durch immo-preview mapped
+  //size of this array depends on the real-estate component
   sliderPosArray: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 };
 
