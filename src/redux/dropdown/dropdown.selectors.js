@@ -2,25 +2,25 @@ import { createSelector } from "reselect";
 
 const selectDropdown = state => state.dropdown;
 
-export const selectPreisDropdown = createSelector(
+export const selectPriceDropdown = createSelector(
   [selectDropdown],
-  dropdown => dropdown.preisDropdown
+  dropdown => dropdown.priceDropdown
 );
-export const selectBezugsartDropdown = createSelector(
+export const selectObtainingTypeDropdown = createSelector(
   [selectDropdown],
-  dropdown => dropdown.bezugsartDropdown
+  dropdown => dropdown.obtainingTypeDropdown
 );
-export const selectImmobilientypDropdown = createSelector(
+export const selectRealEstateTypeDropdown = createSelector(
   [selectDropdown],
-  dropdown => dropdown.immobilientypDropdown
+  dropdown => dropdown.realEstateTypeDropdown
 );
-export const selectZimmerDropdown = createSelector(
+export const selectRoomsDropdown = createSelector(
   [selectDropdown],
-  dropdown => dropdown.zimmerDropdown
+  dropdown => dropdown.roomsDropdown
 );
-export const selectFlächeDropdown = createSelector(
+export const selectSpaceDropdown = createSelector(
   [selectDropdown],
-  dropdown => dropdown.flächeDropdown
+  dropdown => dropdown.spaceDropdown
 );
 
 export const selectResultsDropdown = createSelector(

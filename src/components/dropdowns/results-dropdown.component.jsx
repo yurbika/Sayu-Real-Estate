@@ -48,7 +48,9 @@ const ResultsDropdown = ({
               key={ID_GENERATOR("federal-states-array-")}
               onClick={e => {
                 setSearchInput(e.currentTarget.textContent);
-                toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
+                toggleDropdown(
+                  DropdownActionTypes.TOGGLE_RESULTS_DROPDOWN_HIDDEN
+                );
               }}
             >
               {item}
@@ -64,7 +66,9 @@ const ResultsDropdown = ({
               key={ID_GENERATOR("city-locality-array-")}
               onClick={e => {
                 setSearchInput(e.currentTarget.textContent);
-                toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
+                toggleDropdown(
+                  DropdownActionTypes.TOGGLE_RESULTS_DROPDOWN_HIDDEN
+                );
               }}
             >
               {item}
@@ -80,7 +84,9 @@ const ResultsDropdown = ({
               key={ID_GENERATOR("street-postcode-locality-array-")}
               onClick={e => {
                 setSearchInput(e.currentTarget.textContent);
-                toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
+                toggleDropdown(
+                  DropdownActionTypes.TOGGLE_RESULTS_DROPDOWN_HIDDEN
+                );
               }}
             >
               {item}

@@ -1,58 +1,58 @@
 import DropdownActionTypes from "./dropdown.types";
 
 const INITIAL_STATE = {
-  preisDropdown: false,
-  bezugsartDropdown: false,
-  immobilientypDropdown: false,
-  zimmerDropdown: false,
-  flächeDropdown: false,
+  priceDropdown: false,
+  obtainingTypeDropdown: false,
+  realEstateTypeDropdown: false,
+  roomsDropdown: false,
+  spaceDropdown: false,
   resultsDropdown: false,
   pageChangerDropdown: false
 };
 
 const dropdownReducer = (state = INITIAL_STATE, action) => {
   switch (action.type) {
-    case DropdownActionTypes.TOGGLE_BEZUGSARTDROPDOWN_HIDDEN: {
-      let { bezugsartDropdown, ...otherStates } = state;
+    case DropdownActionTypes.TOGGLE_OBTAININGTYPE_DROPDOWN_HIDDEN: {
+      let { obtainingTypeDropdown, ...otherStates } = state;
       otherStates = INITIAL_STATE;
       return {
         otherStates,
-        bezugsartDropdown: !state.bezugsartDropdown
+        obtainingTypeDropdown: !state.obtainingTypeDropdown
       };
     }
-    case DropdownActionTypes.TOGGLE_FLÄCHEDROPDOWN_HIDDEN: {
-      let { flächeDropdown, ...otherStates } = state;
+    case DropdownActionTypes.TOGGLE_SPACE_DROPDOWN_HIDDEN: {
+      let { spaceDropdown, ...otherStates } = state;
       otherStates = INITIAL_STATE;
       return {
         otherStates,
-        flächeDropdown: !state.flächeDropdown
+        spaceDropdown: !state.spaceDropdown
       };
     }
-    case DropdownActionTypes.TOGGLE_IMMOBILIENTYPDROPDOWN_HIDDEN: {
-      let { immobilientypDropdown, ...otherStates } = state;
+    case DropdownActionTypes.TOGGLE_REALESTATETYPE_DROPDOWN_HIDDEN: {
+      let { realEstateTypeDropdown, ...otherStates } = state;
       otherStates = INITIAL_STATE;
       return {
         otherStates,
-        immobilientypDropdown: !state.immobilientypDropdown
+        realEstateTypeDropdown: !state.realEstateTypeDropdown
       };
     }
-    case DropdownActionTypes.TOGGLE_PREISDROPDOWN_HIDDEN: {
-      let { preisDropdown, ...otherStates } = state;
+    case DropdownActionTypes.TOGGLE_PRICE_DROPDOWN_HIDDEN: {
+      let { priceDropdown, ...otherStates } = state;
       otherStates = INITIAL_STATE;
       return {
         otherStates,
-        preisDropdown: !state.preisDropdown
+        priceDropdown: !state.priceDropdown
       };
     }
-    case DropdownActionTypes.TOGGLE_ZIMMERDROPDOWN_HIDDEN: {
-      let { zimmerDropdown, ...otherStates } = state;
+    case DropdownActionTypes.TOGGLE_ROOMS_DROPDOWN_HIDDEN: {
+      let { roomsDropdown, ...otherStates } = state;
       otherStates = INITIAL_STATE;
       return {
         otherStates,
-        zimmerDropdown: !state.zimmerDropdown
+        roomsDropdown: !state.roomsDropdown
       };
     }
-    case DropdownActionTypes.TOGGLE_RESULTS_HIDDEN: {
+    case DropdownActionTypes.TOGGLE_RESULTS_DROPDOWN_HIDDEN: {
       let { resultsDropdown, ...otherStates } = state;
       otherStates = INITIAL_STATE;
       return {
@@ -60,7 +60,7 @@ const dropdownReducer = (state = INITIAL_STATE, action) => {
         resultsDropdown: !state.resultsDropdown
       };
     }
-    case DropdownActionTypes.TOGGLE_PAGECHANGERDROPDOWN_HIDDEN: {
+    case DropdownActionTypes.TOGGLE_PAGECHANGER_DROPDOWN_HIDDEN: {
       let { pageChangerDrodpown, ...otherStates } = state;
       otherStates = INITIAL_STATE;
       return {

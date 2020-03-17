@@ -98,7 +98,7 @@ export const createLiRentMax = (
       <li
         onClick={e => {
           setInputMax(e.currentTarget.textContent);
-          toggleDropdown(DropdownActionTypes.TOGGLE_PREISDROPDOWN_HIDDEN);
+          toggleDropdown(DropdownActionTypes.TOGGLE_PRICE_DROPDOWN_HIDDEN);
         }}
         key={ID_GENERATOR("price-dropdown-li-")}
       >
@@ -111,7 +111,7 @@ export const createLiRentMax = (
     <li
       onClick={() => {
         setInputMax("");
-        toggleDropdown(DropdownActionTypes.TOGGLE_PREISDROPDOWN_HIDDEN);
+        toggleDropdown(DropdownActionTypes.TOGGLE_PRICE_DROPDOWN_HIDDEN);
       }}
       key={ID_GENERATOR("price-dropdown-li-")}
     >
@@ -199,7 +199,7 @@ export const createLiBuyMax = (
       <li
         onClick={e => {
           setInputMax(e.currentTarget.textContent);
-          toggleDropdown(DropdownActionTypes.TOGGLE_PREISDROPDOWN_HIDDEN);
+          toggleDropdown(DropdownActionTypes.TOGGLE_PRICE_DROPDOWN_HIDDEN);
         }}
         key={ID_GENERATOR("price-dropdown-li-")}
       >
@@ -212,7 +212,7 @@ export const createLiBuyMax = (
     <li
       onClick={() => {
         setInputMax("");
-        toggleDropdown(DropdownActionTypes.TOGGLE_PREISDROPDOWN_HIDDEN);
+        toggleDropdown(DropdownActionTypes.TOGGLE_PRICE_DROPDOWN_HIDDEN);
       }}
       key={ID_GENERATOR("price-dropdown-li-")}
     >

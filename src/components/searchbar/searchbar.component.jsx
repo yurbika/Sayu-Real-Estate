@@ -43,11 +43,11 @@ import {
 import FilterActionTypes from "../../redux/filter/filter.types";
 
 import {
-  selectPreisDropdown,
-  selectBezugsartDropdown,
-  selectImmobilientypDropdown,
-  selectZimmerDropdown,
-  selectFlächeDropdown,
+  selectPriceDropdown,
+  selectObtainingTypeDropdown,
+  selectRealEstateTypeDropdown,
+  selectRoomsDropdown,
+  selectSpaceDropdown,
   selectResultsDropdown
 } from "../../redux/dropdown/dropdown.selectors";
 import toggleDropdown from "../../redux/dropdown/dropdown.action";
@@ -219,7 +219,9 @@ class Searchbar extends React.Component {
                       (hits > 0 || hits === null || !!!input) &&
                       !resultsDropdown
                     ) {
-                      toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
+                      toggleDropdown(
+                        DropdownActionTypes.TOGGLE_RESULTS_DROPDOWN_HIDDEN
+                      );
                     }
                   }}
                   onFocus={() => {
@@ -237,12 +239,16 @@ class Searchbar extends React.Component {
                         DropdownActionTypes.TOGGLE_ALL_DROPDOWNS_FALSE
                       );
                     if (!!input && hits > 0 && !resultsDropdown)
-                      toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
+                      toggleDropdown(
+                        DropdownActionTypes.TOGGLE_RESULTS_DROPDOWN_HIDDEN
+                      );
                   }}
                   onKeyPress={e => {
                     checkSearchInput(e);
                     if (e.key === "Enter") {
-                      toggleDropdown(DropdownActionTypes.TOGGLE_RESULTS_HIDDEN);
+                      toggleDropdown(
+                        DropdownActionTypes.TOGGLE_RESULTS_DROPDOWN_HIDDEN
+                      );
                       toggleSearchButtonClick();
                       history.push("/real-estate");
                     }
@@ -252,7 +258,7 @@ class Searchbar extends React.Component {
                   normalButton
                   onClick={() =>
                     toggleDropdown(
-                      DropdownActionTypes.TOGGLE_BEZUGSARTDROPDOWN_HIDDEN
+                      DropdownActionTypes.TOGGLE_OBTAININGTYPE_DROPDOWN_HIDDEN
                     )
                   }
                   id="filter-button"
@@ -263,7 +269,7 @@ class Searchbar extends React.Component {
                   normalButton
                   onClick={() =>
                     toggleDropdown(
-                      DropdownActionTypes.TOGGLE_IMMOBILIENTYPDROPDOWN_HIDDEN
+                      DropdownActionTypes.TOGGLE_REALESTATETYPE_DROPDOWN_HIDDEN
                     )
                   }
                   id="filter-button"
@@ -321,7 +327,7 @@ class Searchbar extends React.Component {
                   price
                   onClick={() =>
                     toggleDropdown(
-                      DropdownActionTypes.TOGGLE_PREISDROPDOWN_HIDDEN
+                      DropdownActionTypes.TOGGLE_PRICE_DROPDOWN_HIDDEN
                     )
                   }
                   id="filter-button"
@@ -332,7 +338,7 @@ class Searchbar extends React.Component {
                   secondaryButton
                   onClick={() =>
                     toggleDropdown(
-                      DropdownActionTypes.TOGGLE_ZIMMERDROPDOWN_HIDDEN
+                      DropdownActionTypes.TOGGLE_ROOMS_DROPDOWN_HIDDEN
                     )
                   }
                   id="filter-button"
@@ -343,7 +349,7 @@ class Searchbar extends React.Component {
                   secondaryButton
                   onClick={() =>
                     toggleDropdown(
-                      DropdownActionTypes.TOGGLE_FLÄCHEDROPDOWN_HIDDEN
+                      DropdownActionTypes.TOGGLE_SPACE_DROPDOWN_HIDDEN
                     )
                   }
                   id="filter-button"
@@ -462,7 +468,7 @@ class Searchbar extends React.Component {
                           !resultsDropdown
                         ) {
                           toggleDropdown(
-                            DropdownActionTypes.TOGGLE_RESULTS_HIDDEN
+                            DropdownActionTypes.TOGGLE_RESULTS_DROPDOWN_HIDDEN
                           );
                         }
                       }}
@@ -481,14 +487,14 @@ class Searchbar extends React.Component {
                           );
                         if (!!input && hits > 0 && !resultsDropdown)
                           toggleDropdown(
-                            DropdownActionTypes.TOGGLE_RESULTS_HIDDEN
+                            DropdownActionTypes.TOGGLE_RESULTS_DROPDOWN_HIDDEN
                           );
                       }}
                       onKeyPress={e => {
                         checkSearchInput(e);
                         if (e.key === "Enter") {
                           toggleDropdown(
-                            DropdownActionTypes.TOGGLE_RESULTS_HIDDEN
+                            DropdownActionTypes.TOGGLE_RESULTS_DROPDOWN_HIDDEN
                           );
                           toggleSearchButtonClick();
                           history.push("/real-estate");
@@ -504,7 +510,7 @@ class Searchbar extends React.Component {
                       preis
                       onClick={() =>
                         toggleDropdown(
-                          DropdownActionTypes.TOGGLE_PREISDROPDOWN_HIDDEN
+                          DropdownActionTypes.TOGGLE_PRICE_DROPDOWN_HIDDEN
                         )
                       }
                       id="filter-button"
@@ -517,7 +523,7 @@ class Searchbar extends React.Component {
                         responsivButton
                         onClick={() =>
                           toggleDropdown(
-                            DropdownActionTypes.TOGGLE_BEZUGSARTDROPDOWN_HIDDEN
+                            DropdownActionTypes.TOGGLE_OBTAININGTYPE_DROPDOWN_HIDDEN
                           )
                         }
                         id="filter-button"
@@ -528,7 +534,7 @@ class Searchbar extends React.Component {
                         responsivButton
                         onClick={() =>
                           toggleDropdown(
-                            DropdownActionTypes.TOGGLE_IMMOBILIENTYPDROPDOWN_HIDDEN
+                            DropdownActionTypes.TOGGLE_REALESTATETYPE_DROPDOWN_HIDDEN
                           )
                         }
                         id="filter-button"
@@ -542,7 +548,7 @@ class Searchbar extends React.Component {
                         onClick={e => {
                           e.preventDefault();
                           toggleDropdown(
-                            DropdownActionTypes.TOGGLE_ZIMMERDROPDOWN_HIDDEN
+                            DropdownActionTypes.TOGGLE_ROOMS_DROPDOWN_HIDDEN
                           );
                         }}
                         id="filter-button"
@@ -553,7 +559,7 @@ class Searchbar extends React.Component {
                         responsivButton
                         onClick={() =>
                           toggleDropdown(
-                            DropdownActionTypes.TOGGLE_FLÄCHEDROPDOWN_HIDDEN
+                            DropdownActionTypes.TOGGLE_SPACE_DROPDOWN_HIDDEN
                           )
                         }
                         id="filter-button"
@@ -677,11 +683,11 @@ const mapStateToProps = createStructuredSelector({
   maxInput: selectMaxInput,
   searchButtonClick: selectSuchButtonClick,
   //Dropdown States
-  priceDropdown: selectPreisDropdown,
-  obtainingTypeDropdown: selectBezugsartDropdown,
-  realEstateTypeDropdown: selectImmobilientypDropdown,
-  roomsDropdown: selectZimmerDropdown,
-  spaceDropdown: selectFlächeDropdown,
+  priceDropdown: selectPriceDropdown,
+  obtainingTypeDropdown: selectObtainingTypeDropdown,
+  realEstateTypeDropdown: selectRealEstateTypeDropdown,
+  roomsDropdown: selectRoomsDropdown,
+  spaceDropdown: selectSpaceDropdown,
   resultsDropdown: selectResultsDropdown,
   //Results States
   hits: selectSuchtreffer
