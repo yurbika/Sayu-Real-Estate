@@ -3,8 +3,11 @@ import theme from "../../utils/theme";
 
 export const SliderPreviewContainer = styled.div`
   position: absolute;
-  max-width: inherit;
+  max-width: 750px;
   bottom: -155px;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
 
   img {
     width: 100%;
@@ -59,5 +62,5 @@ export const RightArrow = styled.div`
 export const LeftArrow = styled.div`
   position: absolute;
   transform: rotate(90deg);
-  left: 0;
+  left: 0px;
 `;

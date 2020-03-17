@@ -48,22 +48,22 @@ class Home extends React.Component {
       filterData({
         minInput: 300,
         maxInput: 1200,
-        obtainingType: "mieten",
-        realEstateType: "wohnung"
+        obtainingType: "rent",
+        realEstateType: "apartment"
       })["realEstateArray"]
     );
     setLuxuaryArray(
       filterData({
         minInput: 1350000,
-        obtainingType: "kaufen",
-        realEstateType: "wohnung"
+        obtainingType: "buy",
+        realEstateType: "apartment"
       })["realEstateArray"]
     );
     setApartmentArray(
       filterData({
         minInput: 1350000,
-        obtainingType: "kaufen",
-        realEstateType: "haus"
+        obtainingType: "buy",
+        realEstateType: "house"
       })["realEstateArray"]
     );
   }
@@ -99,8 +99,8 @@ class Home extends React.Component {
               realEstateArray={luxuaryArray}
               filter={{
                 minInput: 1350000,
-                obtainingsType: "kaufen",
-                realEstateType: "wohnung"
+                obtainingsType: "buy",
+                realEstateType: "apartment"
               }}
             >
               <span className="first">Inspiration</span>
@@ -114,8 +114,8 @@ class Home extends React.Component {
               realEstateArray={apartmentArray}
               filter={{
                 minInput: 1350000,
-                obtainingsType: "kaufen",
-                realEstateType: "haus"
+                obtainingsType: "buy",
+                realEstateType: "house"
               }}
             >
               <span className="first">Inspiration</span>
@@ -130,8 +130,8 @@ class Home extends React.Component {
               filter={{
                 minInput: 300,
                 maxInput: 1200,
-                obtainingsType: "mieten",
-                realEstateType: "wohnung"
+                obtainingsType: "rent",
+                realEstateType: "apartment"
               }}
             >
               <span className="first">Inspiration</span>

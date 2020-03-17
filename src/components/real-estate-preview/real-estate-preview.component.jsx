@@ -48,25 +48,25 @@ const RealEstatePreview = ({
   setPopupRealEstateID
 }) => {
   let realEstateType = "";
-  if (!!realEstate["haus"]) realEstateType = "haus";
-  else if (!!realEstate["wohnung"]) realEstateType = "wohnung";
+  if (!!realEstate["house"]) realEstateType = "house";
+  else if (!!realEstate["apartment"]) realEstateType = "apartment";
   else return null;
   return (
     <Container>
       <ImgPreviewContainer>
         <Slider
-          imgArray={[
-            realEstate[realEstateType]["bilder"]["titelbild"] +
+            imgArray={[
+            realEstate[realEstateType]["imgs"]["cover"] +
               theme.unsplash.normalResolution,
-            realEstate[realEstateType]["bilder"]["zweites"] +
+            realEstate[realEstateType]["imgs"]["two"] +
               theme.unsplash.normalResolution,
-            realEstate[realEstateType]["bilder"]["drittes"] +
+            realEstate[realEstateType]["imgs"]["three"] +
               theme.unsplash.normalResolution,
-            realEstate[realEstateType]["bilder"]["vier"] +
+            realEstate[realEstateType]["imgs"]["four"] +
               theme.unsplash.normalResolution,
-            realEstate[realEstateType]["bilder"]["fünf"] +
+            realEstate[realEstateType]["imgs"]["five"] +
               theme.unsplash.normalResolution,
-            realEstate[realEstateType]["bilder"]["sechs"] +
+            realEstate[realEstateType]["imgs"]["six"] +
               theme.unsplash.normalResolution
           ]}
           alt={realEstateType}
@@ -88,10 +88,10 @@ const RealEstatePreview = ({
         }}
       >
         <Description>
-          <Title>{realEstate[realEstateType]["titel"]}</Title>
-          <Subtitle>{realEstate[realEstateType]["untertitel"]}</Subtitle>
+          <Title>{realEstate[realEstateType]["title"]}</Title>
+          <Subtitle>{realEstate[realEstateType]["subtitle"]}</Subtitle>
           <TextContainer>
-            {realEstate[realEstateType]["kurzeBeschreibung"]}
+            {realEstate[realEstateType]["briefDescription"]}
           </TextContainer>
         </Description>
         <Footer>
@@ -99,30 +99,30 @@ const RealEstatePreview = ({
             <img src={gpsIcon} alt="Adress:" />
             <span>
               {" " +
-                realEstate[realEstateType]["adresse"]["straße"] +
+                realEstate[realEstateType]["adress"]["street"] +
                 ", " +
-                realEstate[realEstateType]["adresse"]["postleitzahl"] +
+                realEstate[realEstateType]["adress"]["postcode"] +
                 " - " +
-                realEstate[realEstateType]["adresse"]["stadt"] +
+                realEstate[realEstateType]["adress"]["city"] +
                 " - " +
-                realEstate[realEstateType]["adresse"]["bundesland"]}
+                realEstate[realEstateType]["adress"]["federalstate"]}
             </span>
           </IconContainer>
           <FooterSecondSection>
             <IconContainer>
               <img src={roomIcon} alt="Rooms:" />
-              <span>{" " + realEstate[realEstateType]["zimmer"]}</span>
+              <span>{" " + realEstate[realEstateType]["rooms"]}</span>
             </IconContainer>
             <IconContainer>
               <img src={propertyIcon} alt="Livingspace:" />
-              <span>{" " + realEstate[realEstateType]["wohnfläche"]} m²</span>
+              <span>{" " + realEstate[realEstateType]["livingspace"]} m²</span>
             </IconContainer>
             <IconContainer>
               <img src={moneyIcon} alt="Price:" />
               <span>
                 {" " +
                   thousandSeperatorDots(
-                    realEstate[realEstateType]["preis"].toString()
+                    realEstate[realEstateType]["price"].toString()
                   ) +
                   " €"}
               </span>
@@ -135,18 +135,18 @@ const RealEstatePreview = ({
           <RepsponsivFooterSecondSection>
             <ResponsivIconContainer>
               <img src={roomIcon} alt="Rooms:" />
-              <span>{" " + realEstate[realEstateType]["zimmer"]}</span>
+              <span>{" " + realEstate[realEstateType]["rooms"]}</span>
             </ResponsivIconContainer>
             <ResponsivIconContainer>
               <img src={propertyIcon} alt="Livingspace:" />
-              <span>{" " + realEstate[realEstateType]["wohnfläche"]} m²</span>
+              <span>{" " + realEstate[realEstateType]["livingspace"]} m²</span>
             </ResponsivIconContainer>
             <ResponsivIconContainer>
               <img src={moneyIcon} alt="Price:" />
               <span>
                 {" " +
                   thousandSeperatorDots(
-                    realEstate[realEstateType]["preis"].toString()
+                    realEstate[realEstateType]["price"].toString()
                   ) +
                   " €"}
               </span>
@@ -156,9 +156,9 @@ const RealEstatePreview = ({
             <img src={gpsIcon} alt="Adress:" />
             <ResponsivAdress>
               {" " +
-                realEstate[realEstateType]["adresse"]["stadt"] +
+                realEstate[realEstateType]["adress"]["city"] +
                 " - " +
-                realEstate[realEstateType]["adresse"]["bundesland"]}
+                realEstate[realEstateType]["adress"]["federalstate"]}
             </ResponsivAdress>
           </ResponsivIconContainer>
         </ResponsivFooter>

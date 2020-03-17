@@ -265,7 +265,7 @@ export const GridContainer = styled.div`
   max-width: inherit;
   display: grid;
   gap: 15px;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 180px));
+  grid-template-columns: repeat(auto-fit, minmax(100px, 210px));
   background: ${theme.colors.hslaBlack};
   border-radius: 15px;
   padding: 15px;

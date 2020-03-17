@@ -300,9 +300,7 @@ class Searchbar extends React.Component {
                     <SelectionDropdown
                       additionalStyle={"obtainingType-dropdown"}
                       responsiv
-                      children={[
-                        obtainingType === "Mieten" ? "Kaufen" : "Mieten"
-                      ]}
+                      children={[obtainingType === "Rent" ? "Buy" : "Rent"]}
                       type={FilterActionTypes.SET_OBTAININGTYPE}
                     />
                   ) : null}
@@ -312,7 +310,7 @@ class Searchbar extends React.Component {
                     <SelectionDropdown
                       additionalStyle={"house-dropdown"}
                       children={[
-                        realEstateType === "Wohnung" ? "Haus" : "Wohnung"
+                        realEstateType === "Apartment" ? "House" : "Apartment"
                       ]}
                       type={FilterActionTypes.SET_REALESTATETYPE}
                     />
@@ -607,7 +605,7 @@ class Searchbar extends React.Component {
                           <SelectionDropdown
                             additionalStyle={"responsiv-dropdown"}
                             children={[
-                              obtainingType === "Mieten" ? "Kaufen" : "Mieten"
+                              obtainingType === "Rent" ? "Buy" : "Rent"
                             ]}
                             type={FilterActionTypes.SET_OBTAININGTYPE}
                           />
@@ -618,7 +616,9 @@ class Searchbar extends React.Component {
                           <SelectionDropdown
                             additionalStyle={"responsiv-dropdown"}
                             children={[
-                              realEstateType === "Wohnung" ? "Haus" : "Wohnung"
+                              realEstateType === "Apartment"
+                                ? "House"
+                                : "Apartment"
                             ]}
                             type={FilterActionTypes.SET_REALESTATETYPE}
                           />

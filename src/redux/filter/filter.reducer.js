@@ -4,11 +4,11 @@ const INITIAL_STATE = {
   searchInput: "",
   minInput: "",
   maxInput: "",
-  obtainingType: "Mieten",
-  realEstateType: "Wohnung",
-  price: "Preis",
-  rooms: "Zimmer ab",
-  space: "Fläche ab",
+  obtainingType: "Rent",
+  realEstateType: "Apartment",
+  price: "Price",
+  rooms: "Rooms",
+  space: "Space",
   searchButtonClick: false,
   page: 1
 };

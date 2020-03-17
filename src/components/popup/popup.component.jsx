@@ -66,8 +66,8 @@ class Popup extends React.Component {
   render() {
     const { realEstate, realEstateID, togglePopup } = this.props;
     let realEstateType = "";
-    if (!!realEstate["haus"]) realEstateType = "haus";
-    else if (!!realEstate["wohnung"]) realEstateType = "wohnung";
+    if (!!realEstate["house"]) realEstateType = "house";
+    else if (!!realEstate["apartment"]) realEstateType = "apartment";
     else return null;
 
     return (
@@ -92,17 +92,17 @@ class Popup extends React.Component {
                   <SliderContainer>
                     <Slider
                       imgArray={[
-                        realEstate[realEstateType]["bilder"]["titelbild"] +
+                        realEstate[realEstateType]["imgs"]["cover"] +
                           theme.unsplash.normalResolution,
-                        realEstate[realEstateType]["bilder"]["zweites"] +
+                        realEstate[realEstateType]["imgs"]["two"] +
                           theme.unsplash.normalResolution,
-                        realEstate[realEstateType]["bilder"]["drittes"] +
+                        realEstate[realEstateType]["imgs"]["three"] +
                           theme.unsplash.normalResolution,
-                        realEstate[realEstateType]["bilder"]["vier"] +
+                        realEstate[realEstateType]["imgs"]["four"] +
                           theme.unsplash.normalResolution,
-                        realEstate[realEstateType]["bilder"]["fünf"] +
+                        realEstate[realEstateType]["imgs"]["five"] +
                           theme.unsplash.normalResolution,
-                        realEstate[realEstateType]["bilder"]["sechs"] +
+                        realEstate[realEstateType]["imgs"]["six"] +
                           theme.unsplash.normalResolution
                       ]}
                       alt={realEstateType}
@@ -112,21 +112,21 @@ class Popup extends React.Component {
                   <InfosContainer>
                     <InfosContent>
                       <HeaderSpan titleSpan>
-                        {realEstate[realEstateType]["titel"]}
+                        {realEstate[realEstateType]["title"]}
                       </HeaderSpan>
                       <IconContainer>
                         <img src={gpsIconBrown} alt="Adress:" />
                         <span>
                           {" " +
-                            realEstate[realEstateType]["adresse"]["straße"] +
+                            realEstate[realEstateType]["adress"]["street"] +
                             ", " +
-                            realEstate[realEstateType]["adresse"][
-                              "postleitzahl"
-                            ] +
+                            realEstate[realEstateType]["adress"]["postcode"] +
                             " - " +
-                            realEstate[realEstateType]["adresse"]["stadt"] +
+                            realEstate[realEstateType]["adress"]["city"] +
                             " - " +
-                            realEstate[realEstateType]["adresse"]["bundesland"]}
+                            realEstate[realEstateType]["adress"][
+                              "federalstate"
+                            ]}
                         </span>
                       </IconContainer>
                       <IconContainer>
@@ -134,7 +134,7 @@ class Popup extends React.Component {
                         <HeaderSpan price>
                           {" " +
                             thousandSeperatorDots(
-                              realEstate[realEstateType]["preis"].toString()
+                              realEstate[realEstateType]["price"].toString()
                             ) +
                             " €"}
                         </HeaderSpan>
@@ -143,20 +143,20 @@ class Popup extends React.Component {
                         <IconContainer>
                           <img src={roomIcon} alt="Rooms:" />
                           <span>
-                            {" " + realEstate[realEstateType]["zimmer"]}
+                            {" " + realEstate[realEstateType]["rooms"]}
                           </span>
                         </IconContainer>
                         <IconContainer>
                           <img src={propertyIcon} alt="Livingspace:" />
                           <span>
-                            {" " + realEstate[realEstateType]["wohnfläche"]} m²
+                            {" " + realEstate[realEstateType]["livingspace"]} m²
                           </span>
                         </IconContainer>
-                        {!!realEstate[realEstateType]["grundstück"] ? (
+                        {!!realEstate[realEstateType]["property"] ? (
                           <IconContainer>
                             <img src={areaIcon} alt="Property:" />
                             <span>
-                              {" " + realEstate[realEstateType]["grundstück"]}
+                              {" " + realEstate[realEstateType]["property"]}
                               m²
                             </span>
                           </IconContainer>
@@ -167,10 +167,8 @@ class Popup extends React.Component {
                       <IconContainer>
                         <img src={clockIcon} alt="Publishing:" />
                         <span>
-                          {"published " +
-                            realEstate[realEstateType][
-                              "vergangeneTageSeitVeröffentlichung"
-                            ] +
+                          {"Published " +
+                            realEstate[realEstateType]["publishedDaysAgo"] +
                             " Days ago"}
                         </span>
                       </IconContainer>
@@ -178,17 +176,17 @@ class Popup extends React.Component {
                   </InfosContainer>
                   <SliderPreview
                     imgArray={[
-                      realEstate[realEstateType]["bilder"]["titelbild"] +
+                      realEstate[realEstateType]["imgs"]["cover"] +
                         theme.unsplash.normalResolution,
-                      realEstate[realEstateType]["bilder"]["zweites"] +
+                      realEstate[realEstateType]["imgs"]["two"] +
                         theme.unsplash.normalResolution,
-                      realEstate[realEstateType]["bilder"]["drittes"] +
+                      realEstate[realEstateType]["imgs"]["three"] +
                         theme.unsplash.normalResolution,
-                      realEstate[realEstateType]["bilder"]["vier"] +
+                      realEstate[realEstateType]["imgs"]["four"] +
                         theme.unsplash.normalResolution,
-                      realEstate[realEstateType]["bilder"]["fünf"] +
+                      realEstate[realEstateType]["imgs"]["five"] +
                         theme.unsplash.normalResolution,
-                      realEstate[realEstateType]["bilder"]["sechs"] +
+                      realEstate[realEstateType]["imgs"]["six"] +
                         theme.unsplash.normalResolution
                     ]}
                     alt={realEstateType}
@@ -214,43 +212,45 @@ class Popup extends React.Component {
                       </GridItem>
                       <GridItem house>
                         <span>Rooms:</span>
-                        <span>{realEstate[realEstateType]["zimmer"]}</span>
+                        <span>{realEstate[realEstateType]["rooms"]}</span>
                       </GridItem>
                       <GridItem house>
                         <span>Livingspace:</span>
                         <span>
-                          {realEstate[realEstateType]["wohnfläche"]} m²
+                          {realEstate[realEstateType]["livingspace"]} m²
                         </span>
                       </GridItem>
                       <GridItem house>
                         <span>Bathrooms:</span>
-                        <span>{realEstate[realEstateType]["badezimmer"]}</span>
+                        <span>{realEstate[realEstateType]["bathrooms"]}</span>
                       </GridItem>
-                      {realEstateType === "haus" ? (
+                      {realEstateType === "house" ? (
                         <GridItem house>
                           <span>Property</span>
                           <span>
-                            {realEstate[realEstateType]["grundstück"]} m²
+                            {realEstate[realEstateType]["property"]} m²
                           </span>
                         </GridItem>
                       ) : null}
                       <GridItem house>
                         <span>Obtainingtype:</span>
                         <span>
-                          {realEstate[realEstateType]["bezugsart"]
+                          {realEstate[realEstateType]["obtainingType"]
                             .charAt(0)
                             .toUpperCase() +
-                            realEstate[realEstateType]["bezugsart"].slice(1)}
+                            realEstate[realEstateType]["obtainingType"].slice(
+                              1
+                            )}
                         </span>
                       </GridItem>
                     </GridContainer>
-                    {realEstate[realEstateType]["bezugsart"] === "kaufen" ? (
+                    {realEstate[realEstateType]["obtainingType"] === "buy" ? (
                       <GridContainer price>
                         <GridItem price>
                           <span>Price:</span>
                           <span>
                             {thousandSeperatorDots(
-                              realEstate[realEstateType]["preis"].toString()
+                              realEstate[realEstateType]["price"].toString()
                             ) + " €"}
                           </span>
                         </GridItem>
@@ -259,7 +259,7 @@ class Popup extends React.Component {
                           <span>
                             {thousandSeperatorDots(
                               Math.floor(
-                                (realEstate[realEstateType]["preis"] * 4.76) /
+                                (realEstate[realEstateType]["price"] * 4.76) /
                                   100
                               ).toString()
                             ) + " €"}
@@ -270,7 +270,7 @@ class Popup extends React.Component {
                           <span>
                             {thousandSeperatorDots(
                               Math.floor(
-                                (realEstate[realEstateType]["preis"] / 100) *
+                                (realEstate[realEstateType]["price"] / 100) *
                                   1.5
                               ).toString()
                             ) + " €"}
@@ -281,7 +281,7 @@ class Popup extends React.Component {
                           <span>
                             {thousandSeperatorDots(
                               Math.floor(
-                                (realEstate[realEstateType]["preis"] / 100) *
+                                (realEstate[realEstateType]["price"] / 100) *
                                   3.5
                               ).toString()
                             ) + " €"}
@@ -292,7 +292,7 @@ class Popup extends React.Component {
                           <span>
                             {thousandSeperatorDots(
                               Math.floor(
-                                (realEstate[realEstateType]["preis"] / 100) *
+                                (realEstate[realEstateType]["price"] / 100) *
                                   0.5
                               ).toString()
                             ) + " €"}
@@ -304,8 +304,8 @@ class Popup extends React.Component {
                   <MapContainer>
                     <PopupMap
                       pos={[
-                        realEstate[realEstateType]["adresse"]["latitude"],
-                        realEstate[realEstateType]["adresse"]["longitude"]
+                        realEstate[realEstateType]["adress"]["latitude"],
+                        realEstate[realEstateType]["adress"]["longitude"]
                       ]}
                     />
                   </MapContainer>

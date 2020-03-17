@@ -2,6 +2,7 @@ import React from "react";
 
 //utils
 import { thousandSeperatorDots } from "../input/input.utils";
+import theme from "../../utils/theme";
 
 //styles
 import {
@@ -16,28 +17,28 @@ import {
 
 const ImgPreview = ({ realEstate }) => {
   let propertyType = "";
-  if (!!realEstate["haus"]) propertyType = "haus";
-  else if (!!realEstate["wohnung"]) propertyType = "wohnung";
+  if (!!realEstate["house"]) propertyType = "house";
+  else if (!!realEstate["apartment"]) propertyType = "apartment";
   else return null;
   return (
     <ImgPreviewContainer>
       <img
         src={
-          realEstate[propertyType]["bilder"]["titelbild"] +
-          "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max"
+          realEstate[propertyType]["imgs"]["cover"] +
+          theme.unsplash.normalResolution
         }
         alt={propertyType}
       />
       <HoverContainer>
         <BriefDescription>
-          {realEstate[propertyType]["kurzeBeschreibung"]}
+          {realEstate[propertyType]["briefDescription"]}
         </BriefDescription>
         <HoverFooter>
-          <Rooms>{realEstate[propertyType]["zimmer"]} RMS.</Rooms>
-          <Area> {realEstate[propertyType]["wohnfläche"]} m²</Area>
+          <Rooms>{realEstate[propertyType]["rooms"]} RMS.</Rooms>
+          <Area> {realEstate[propertyType]["livingspace"]} m²</Area>
           <Price>
             {thousandSeperatorDots(
-              realEstate[propertyType]["preis"].toString()
+              realEstate[propertyType]["price"].toString()
             )}
             €
           </Price>
