@@ -34,21 +34,17 @@ import {
 
 //import styles
 import {
-  StartseiteContainer,
-  ContainerSuchleiste,
+  Container,
+  SearchbarContainer,
   BackgroundImageFilter,
-  StartseiteHintergrund,
-  InspirationsSection
-} from "./startseite.styles";
+  HomeBackground,
+  InspirationSectionContainer
+} from "./home.styles";
 
-class Startseite extends React.Component {
+class Home extends React.Component {
   componentDidMount() {
-    const {
-      setKlassikerArray,
-      setLuxushäuserArray,
-      setWohnungenArray
-    } = this.props;
-    setKlassikerArray(
+    const { setClassicArray, setLuxuaryArray, setApartmentArray } = this.props;
+    setClassicArray(
       filterData({
         minInput: 300,
         maxInput: 1200,
@@ -56,14 +52,14 @@ class Startseite extends React.Component {
         realEstateType: "wohnung"
       })["realEstateArray"]
     );
-    setLuxushäuserArray(
+    setLuxuaryArray(
       filterData({
         minInput: 1350000,
         obtainingType: "kaufen",
         realEstateType: "wohnung"
       })["realEstateArray"]
     );
-    setWohnungenArray(
+    setApartmentArray(
       filterData({
         minInput: 1350000,
         obtainingType: "kaufen",
@@ -76,31 +72,31 @@ class Startseite extends React.Component {
       expand1,
       expand2,
       expand3,
-      klassikerArray,
-      luxushäuserArray,
-      wohnungenArray
+      classicArray,
+      luxuaryArray,
+      apartmentArray
     } = this.props;
     return (
-      <StartseiteContainer>
+      <Container>
         <Header />
-        <ContainerSuchleiste>
+        <SearchbarContainer>
           <BackgroundImageFilter />
-          <StartseiteHintergrund />
+          <HomeBackground />
           <Searchbar>
-            <p>Finden Sie Ihre neues Zuhause</p>
-            <h1>Bereit zum Umziehen?</h1>
+            <p>Find your new Home</p>
+            <h1>Ready to Move?</h1>
           </Searchbar>
           <Button
             scrollButton
-            onClick={() => toSection("inspirations-section")}
+            onClick={() => toSection("inspiration-section")}
           />
-        </ContainerSuchleiste>
-        <InspirationsSection id="inspirations-section">
-          {luxushäuserArray.length < 4 ? null : (
+        </SearchbarContainer>
+        <InspirationSectionContainer id="inspiration-section">
+          {luxuaryArray.length < 4 ? null : (
             <InspirationContainer
               expand={expand1}
               toggleExpandButtonNum={1}
-              realEstateArray={luxushäuserArray}
+              realEstateArray={luxuaryArray}
               filter={{
                 minInput: 1350000,
                 obtainingsType: "kaufen",
@@ -108,14 +104,14 @@ class Startseite extends React.Component {
               }}
             >
               <span className="first">Inspiration</span>
-              <span>Luxushäuser</span>
+              <span>Luxuary</span>
             </InspirationContainer>
           )}
-          {wohnungenArray.length < 4 ? null : (
+          {apartmentArray.length < 4 ? null : (
             <InspirationContainer
               expand={expand2}
               toggleExpandButtonNum={2}
-              realEstateArray={wohnungenArray}
+              realEstateArray={apartmentArray}
               filter={{
                 minInput: 1350000,
                 obtainingsType: "kaufen",
@@ -123,14 +119,14 @@ class Startseite extends React.Component {
               }}
             >
               <span className="first">Inspiration</span>
-              <span>Wohnungen</span>
+              <span>Apartments</span>
             </InspirationContainer>
           )}
-          {klassikerArray.length < 4 ? null : (
+          {classicArray.length < 4 ? null : (
             <InspirationContainer
               expand={expand3}
               toggleExpandButtonNum={3}
-              realEstateArray={klassikerArray}
+              realEstateArray={classicArray}
               filter={{
                 minInput: 300,
                 maxInput: 1200,
@@ -139,12 +135,12 @@ class Startseite extends React.Component {
               }}
             >
               <span className="first">Inspiration</span>
-              <span>Klassiker</span>
+              <span>Classic</span>
             </InspirationContainer>
           )}
-        </InspirationsSection>
+        </InspirationSectionContainer>
         <Footer />
-      </StartseiteContainer>
+      </Container>
     );
   }
 }
@@ -153,16 +149,16 @@ const mapStateToProps = createStructuredSelector({
   expand1: selectExpand1,
   expand2: selectExpand2,
   expand3: selectExpand3,
-  //startseite
-  klassikerArray: selectKlassikerArray,
-  luxushäuserArray: selectLuxushäuserArray,
-  wohnungenArray: selectWohnungenArray
+  //home
+  classicArray: selectKlassikerArray,
+  luxuaryArray: selectLuxushäuserArray,
+  apartmentArray: selectWohnungenArray
 });
 
 const mapDispatchToProps = dispatch => ({
-  setKlassikerArray: array => dispatch(setKlassikerArray(array)),
-  setLuxushäuserArray: array => dispatch(setLuxushäuserArray(array)),
-  setWohnungenArray: array => dispatch(setWohnungenArray(array))
+  setClassicArray: array => dispatch(setKlassikerArray(array)),
+  setLuxuaryArray: array => dispatch(setLuxushäuserArray(array)),
+  setApartmentArray: array => dispatch(setWohnungenArray(array))
 });
 
-export default connect(mapStateToProps, mapDispatchToProps)(Startseite);
+export default connect(mapStateToProps, mapDispatchToProps)(Home);

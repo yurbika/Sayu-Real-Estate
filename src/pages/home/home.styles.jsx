@@ -1,14 +1,14 @@
 import theme from "../../utils/theme";
 import styled from "styled-components";
 
-export const StartseiteContainer = styled.div`
+export const Container = styled.div`
   position: relative;
   width: 100vw;
   min-height: 100%;
   padding-bottom: 75px;
 `;
 
-export const ContainerSuchleiste = styled.div`
+export const SearchbarContainer = styled.div`
   position: relative;
   display: flex;
   align-items: center;
@@ -26,7 +26,7 @@ export const BackgroundImageFilter = styled.div`
   opacity: 35%;
 `;
 
-export const StartseiteHintergrund = styled.div`
+export const HomeBackground = styled.div`
   position: absolute;
   height: 100%;
   width: 100%;
@@ -36,7 +36,7 @@ export const StartseiteHintergrund = styled.div`
   background-image: url(${theme.img});
 `;
 
-export const InspirationsSection = styled.div`
+export const InspirationSectionContainer = styled.div`
   display: block;
   position: relative;
   width: 100%;

@@ -18,9 +18,7 @@ import Spinner from "./components/spinner/spinner.component";
 //import styles
 import "./App.css";
 
-const Startseite = lazy(() =>
-  import("./pages/startseite/startseite.component")
-);
+const Home = lazy(() => import("./pages/home/home.component"));
 const RealEstate = lazy(() =>
   import("./pages/real-estate/real-estate.component")
 );
@@ -42,7 +40,7 @@ class App extends React.Component {
       >
         <Switch>
           <Suspense fallback={<Spinner page />}>
-            <Route exact path="/" component={Startseite} />
+            <Route exact path="/" component={Home} />
             <Route exact path="/real-estate" component={RealEstate} />
           </Suspense>
         </Switch>
