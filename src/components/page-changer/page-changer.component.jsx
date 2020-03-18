@@ -11,7 +11,7 @@ import toggleDropdown from "../../redux/dropdown/dropdown.action";
 import DropdownActionTypes from "../../redux/dropdown/dropdown.types";
 
 import { selectPage } from "../../redux/filter/filter.selectors";
-import { setDropdown } from "../../redux/filter/filter.action";
+import { setPage } from "../../redux/filter/filter.action";
 import FilterActionTypes from "../../redux/filter/filter.types";
 
 import { resetSliderPositions } from "../../redux/slider/slider.action";
@@ -27,7 +27,7 @@ class PageChanger extends React.Component {
       resetSliderPositions,
       page,
       pages,
-      setDropdown
+      setPage
     } = this.props;
     let optionsArray = [];
     for (let i = 0; i < pages; i++) {
@@ -42,7 +42,7 @@ class PageChanger extends React.Component {
             left
             scrollButton
             onClick={() => {
-              setDropdown(page - 1, FilterActionTypes.SET_PAGE);
+              setPage(page - 1);
               window.scrollTo(0, 0);
               resetSliderPositions();
             }}
@@ -84,7 +84,7 @@ class PageChanger extends React.Component {
             scrollButton
             right
             onClick={() => {
-              setDropdown(page + 1, FilterActionTypes.SET_PAGE);
+              setPage(page + 1);
               window.scrollTo(0, 0);
               resetSliderPositions();
             }}
@@ -93,7 +93,6 @@ class PageChanger extends React.Component {
           </Button>
         )}
         <Button pageChanger dropdown>
-          {/*hier fehlt noch ein typ für den dropdown*/}
           {dropdown ? (
             pages === 0 ? null : (
               <SelectionDropdown
@@ -121,7 +120,7 @@ const mapDispatchToProps = dispatch => ({
   //dropdown action
   toggleDropdown: toggle => dispatch(toggleDropdown(toggle)),
   //filter action
-  setDropdown: (payload, type) => dispatch(setDropdown(payload, type)),
+  setPage: payload => dispatch(setPage(payload)),
   //slider action
   resetSliderPositions: () => dispatch(resetSliderPositions())
 });
