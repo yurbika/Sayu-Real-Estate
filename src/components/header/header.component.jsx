@@ -14,7 +14,7 @@ import {
   ResponsiveMenu
 } from "./header.styles";
 
-const Header = ({ location }) => (
+const Header = ({ location, match }) => (
   <HeaderContainer className={location.pathname === "/" ? "home" : ""}>
     <LogoContainer to="/">
       <Logo className="logo" />
@@ -32,10 +32,8 @@ const Header = ({ location }) => (
         <span>Home</span>
       </OptionLink>
       <OptionLink
-        className={
-          location.pathname === "/real-estate" ? "aktiv real-estate" : ""
-        }
-        to="/real-estate"
+        className={match.path === "/real-estate/:id" ? "aktiv real-estate" : ""}
+        to="/real-estate/1"
       >
         <span>Real Estates</span>
       </OptionLink>
@@ -85,9 +83,9 @@ const Header = ({ location }) => (
           </OptionLink>
           <OptionLink
             className={
-              location.pathname === "/real-estate" ? "aktiv real-estate" : ""
+              match.path === "/real-estate/:id" ? "aktiv real-estate" : ""
             }
-            to="/real-estate"
+            to="/real-estate/1"
           >
             <span>Real Estate</span>
           </OptionLink>
@@ -106,5 +104,4 @@ const Header = ({ location }) => (
     </HamburgerMenu>
   </HeaderContainer>
 );
-
 export default withRouter(Header);
