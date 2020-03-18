@@ -35,6 +35,11 @@ export const clearSearchInput = () => ({
   payload: ""
 });
 
+export const setPage = payload => ({
+  type: FilterActionTypes.SET_PAGE,
+  payload: payload
+});
+
 export const resetPage = () => ({ type: FilterActionTypes.RESET_PAGE });
 
 export const setDropdown = (payload, type) => ({
