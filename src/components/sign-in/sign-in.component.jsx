@@ -8,10 +8,15 @@ const SignIn = () => (
   <form action="" className="form">
     <h2>Sign Up</h2>
     <div className="content-container">
-      <Input />
-      <Input />
-      <Input />
-      <Input />
+      <div className="input-container">
+        <Input registration name="username" required />
+        <label htmlFor="username" className="label-name">
+          <span className="content-name">Username</span>
+        </label>
+      </div>
+      <Input registration />
+      <Input registration />
+      <Input registration />
     </div>
   </form>
 );

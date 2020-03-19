@@ -14,7 +14,7 @@ const SignInAndSignUpPage = () => (
     <div className="sign-in-up-container">
       <SignIn />
     </div>
-    <Footer />
+    <Footer errorPage />
   </div>
 );
 

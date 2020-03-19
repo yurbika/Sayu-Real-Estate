@@ -2,6 +2,19 @@ import styled, { css } from "styled-components";
 import theme from "../../utils/theme";
 
 const getInputStyles = props => {
+  if (props.registration)
+    return css`
+      max-width: unset;
+      background: none;
+      padding: 0;
+      font-size: 0.8rem;
+      height: inherit;
+      width: inherit;
+      &:focus {
+        border: none;
+        border-color: none;
+      }
+    `;
   if (props.inputHomeResponsiv)
     return css`
       border-radius: 15px;
