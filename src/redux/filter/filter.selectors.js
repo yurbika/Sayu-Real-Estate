@@ -44,6 +44,11 @@ export const selectSpace = createSelector(
 
 export const selectPage = createSelector([selectFilter], filter => filter.page);
 
+export const selectTotalPages = createSelector(
+  [selectFilter],
+  filter => filter.totalPages
+);
+
 export const selectSearchButtonClick = createSelector(
   [selectFilter],
   filter => filter.searchButtonClick

@@ -42,6 +42,11 @@ export const setPage = payload => ({
 
 export const resetPage = () => ({ type: FilterActionTypes.RESET_PAGE });
 
+export const setTotalPages = num => ({
+  type: FilterActionTypes.SET_TOTAL_PAGES,
+  payload: num
+});
+
 export const setDropdown = (payload, type) => ({
   type: type,
   payload: payload

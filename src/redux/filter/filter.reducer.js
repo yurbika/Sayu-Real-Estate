@@ -10,7 +10,8 @@ const INITIAL_STATE = {
   rooms: "Rooms",
   space: "Space",
   searchButtonClick: false,
-  page: 1
+  page: 1,
+  totalPages: null
 };
 
 const filterReducer = (state = INITIAL_STATE, action) => {
@@ -59,6 +60,11 @@ const filterReducer = (state = INITIAL_STATE, action) => {
       return { ...state, page: action.payload };
     case FilterActionTypes.RESET_PAGE:
       return { ...state, page: 1 };
+    case FilterActionTypes.SET_TOTAL_PAGES:
+      return {
+        ...state,
+        totalPages: action.payload
+      };
     case FilterActionTypes.TOGGLE_SEARCHBUTTON:
       return {
         ...state,
