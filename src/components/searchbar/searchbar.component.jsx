@@ -250,7 +250,7 @@ class Searchbar extends React.Component {
                         DropdownActionTypes.TOGGLE_RESULTS_DROPDOWN_HIDDEN
                       );
                       toggleSearchButtonClick();
-                      history.push("/real-estate");
+                      history.push("/real-estate/1");
                     }
                   }}
                 />
@@ -279,7 +279,7 @@ class Searchbar extends React.Component {
                 <Button
                   searchButton
                   onClick={() => {
-                    history.push("/real-estate");
+                    history.push("/real-estate/1");
                     toggleSearchButtonClick();
                   }}
                 >
@@ -423,7 +423,7 @@ class Searchbar extends React.Component {
               <Button
                 searchButton
                 onClick={() => {
-                  history.push("/real-estate");
+                  history.push("/real-estate/1");
                   toggleSearchButtonClick();
                 }}
               >
@@ -495,7 +495,7 @@ class Searchbar extends React.Component {
                             DropdownActionTypes.TOGGLE_RESULTS_DROPDOWN_HIDDEN
                           );
                           toggleSearchButtonClick();
-                          history.push("/real-estate");
+                          history.push("/real-estate/1");
                           document
                             .getElementById("searchbarPopup")
                             .classList.remove("show");
@@ -573,7 +573,7 @@ class Searchbar extends React.Component {
                           document
                             .getElementById("searchbarPopup")
                             .classList.remove("show");
-                        else history.push("/real-estate");
+                        else history.push("/real-estate/1");
                         document.body.style.overflowY = "visible";
                         toggleSearchButtonClick();
                       }}
