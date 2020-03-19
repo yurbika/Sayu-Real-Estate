@@ -7,7 +7,7 @@ import Searchbar from "../../components/searchbar/searchbar.component";
 import Footer from "../../components/footer/footer.component";
 import Header from "../../components/header/header.component";
 
-import RealEstatePreview from "../../components/real-estate-preview/real-estate-preview.component";
+import RealEstatePreviewContainer from "../../components/real-estate-preview-container/real-estate-preview-container.component";
 
 import Popup from "../../components/popup/popup.component";
 
@@ -27,11 +27,13 @@ import {
   selectMaxInput,
   selectMinInput,
   selectPage,
+  selectTotalPages,
   selectSearchButtonClick
 } from "../../redux/filter/filter.selectors";
 
 import {
   toggleSearchButtonClick,
+  setPage,
   resetPage
 } from "../../redux/filter/filter.action";
 
@@ -39,15 +41,9 @@ import { selectPopupState } from "../../redux/popup/popup.selectors";
 
 //utils
 import { filterData } from "../../real-estate-data/real-estate-data.utils.js";
-import { ID_GENERATOR } from "../../uniqueKey.js";
 
 //styles
-import {
-  Container,
-  SearchbarContainer,
-  NoResults,
-  RealEstatePreviewContainer
-} from "./real-estate.styles";
+import { Container, SearchbarContainer, NoResults } from "./real-estate.styles";
 
 class RealEstate extends React.Component {
   state = { noResults: false };
@@ -125,7 +121,7 @@ class RealEstate extends React.Component {
       };
     } else setResults(filterData(filter).allResults);
   }
-  componentDidUpdate() {
+  componentDidUpdate(prevProps) {
     const {
       maxInput,
       minInput,
@@ -135,11 +131,20 @@ class RealEstate extends React.Component {
       rooms,
       space,
       searchButtonClick,
+      page,
       //filter action
       toggleSearchButtonClick,
       //real-estate action
-      setResults
+      setResults,
+      //props
+      history
     } = this.props;
+
+    if (page !== prevProps.page) {
+      history.push(`/real-estate/${page}`);
+      history.goForward();
+    }
+
     if (searchButtonClick) {
       let splitedStr = !!input ? input.split(/[ ,-]+/) : "";
       splitedStr = !!input ? splitedStr.filter(i => i) : "";
@@ -169,12 +174,12 @@ class RealEstate extends React.Component {
       toggleSearchButtonClick();
     }
   }
-  shouldComponentUpdate(prevProps) {
+  shouldComponentUpdate(nextProps) {
     if (
-      prevProps.results !== this.props.results ||
-      prevProps.searchButtonClick !== this.props.searchButtonClick ||
-      prevProps.page !== this.props.page ||
-      prevProps.popShow !== this.props.popShow
+      nextProps.results !== this.props.results ||
+      nextProps.searchButtonClick !== this.props.searchButtonClick ||
+      nextProps.page !== this.props.page ||
+      nextProps.popShow !== this.props.popShow
     )
       return true;
     else return false;
@@ -185,27 +190,14 @@ class RealEstate extends React.Component {
   }
 
   render() {
-    const { popShow, page, results } = this.props;
+    const { popShow, results } = this.props;
     return (
       <Container>
         <Header />
         <SearchbarContainer>
           <Searchbar noBackground additionalStyle={"real-estate"} />
           {this.state.noResults ? <NoResults>No Results</NoResults> : null}
-          <RealEstatePreviewContainer>
-            {results.map((item, index) => {
-              //if index exceeds 20, slider reducer needs to be adjusted
-              if (index >= 20 * (page - 1) && index < 20 * (page - 1) + 20)
-                return (
-                  <RealEstatePreview
-                    realEstate={item}
-                    id={index % 20}
-                    key={ID_GENERATOR("real-estate-page-")}
-                  />
-                );
-              return null;
-            })}
-          </RealEstatePreviewContainer>
+          <RealEstatePreviewContainer />
           <PageChanger pages={Math.ceil(results.length / 20)} />
         </SearchbarContainer>
         {popShow ? <Popup /> : null}
@@ -228,6 +220,7 @@ const mapStateToProps = createStructuredSelector({
   minInput: selectMinInput,
   maxInput: selectMaxInput,
   page: selectPage,
+  totalPages: selectTotalPages,
   searchButtonClick: selectSearchButtonClick,
   //popup
   popShow: selectPopupState
@@ -236,6 +229,7 @@ const mapStateToProps = createStructuredSelector({
 const mapDispatchToProps = dispatch => ({
   setResults: resultsArray => dispatch(setResults(resultsArray)),
   toggleSearchButtonClick: () => dispatch(toggleSearchButtonClick()),
+  setPage: num => dispatch(setPage(num)),
   resetPage: () => dispatch(resetPage())
 });
 

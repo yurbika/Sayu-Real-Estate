@@ -569,7 +569,7 @@ class Searchbar extends React.Component {
                       searchButton
                       responsivButton
                       onClick={() => {
-                        if (location.pathname === "/real-estate")
+                        if (location.pathname === "/real-estate/1")
                           document
                             .getElementById("searchbarPopup")
                             .classList.remove("show");
