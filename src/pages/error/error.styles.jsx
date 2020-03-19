@@ -9,7 +9,7 @@ export const Container = styled.div`
 
 export const Content = styled.div`
   min-height: 750px;
-  height: 100%;
+  height: calc(100vh - 150px);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,6 +32,7 @@ export const Content = styled.div`
   }
 
   @media (max-width: 1024px) {
+    height: 100%;
     margin-top: -75px;
   }
 `;

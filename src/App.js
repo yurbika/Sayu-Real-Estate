@@ -25,6 +25,9 @@ const Home = lazy(() => import("./pages/home/home.component"));
 const RealEstate = lazy(() =>
   import("./pages/real-estate/real-estate.component")
 );
+const SignInSignUp = lazy(() =>
+  import("./pages/sign-in-and-sign-up/sign-in-and-sign-up.component")
+);
 
 class App extends React.Component {
   render() {
@@ -46,6 +49,10 @@ class App extends React.Component {
             <Route
               path={"/real-estate/:id"}
               render={props => <RealEstate {...props} />}
+            />
+            <Route
+              path={"/registration"}
+              render={props => <SignInSignUp {...props} />}
             />
             <Route component={ErrorPage} />
           </Switch>
