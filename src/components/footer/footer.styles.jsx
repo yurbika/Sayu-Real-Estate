@@ -1,5 +1,12 @@
 import theme from "../../utils/theme";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
+
+const getAdditionalStyle = props => {
+  if (props.errorPage)
+    return css`
+      position: relative;
+    `;
+};
 
 export const FooterContainer = styled.div`
   position: absolute;
@@ -13,4 +20,5 @@ export const FooterContainer = styled.div`
   text-align: center;
   background-color: ${theme.colors.black};
   color: ${theme.colors.lightWhite};
+  ${getAdditionalStyle}
 `;
