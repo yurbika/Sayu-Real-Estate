@@ -8,14 +8,14 @@ import Footer from "../../components/footer/footer.component";
 import errorImg from "../../assets/error.png";
 
 //styles
-import "./error.styles.scss";
+import { Container, Content, TextContainer } from "./error.styles";
 
 const ErrorPage = () => (
-  <div className="container">
+  <Container>
     <Header />
-    <div className="content-container">
+    <Content>
       <img src={errorImg} alt="Error 404: " />
-      <div className="text-container">
+      <TextContainer>
         <h2>This Page is Not on the Map</h2>
         <span>
           You told your friends you weren’t bringing your phone, to try and
@@ -25,10 +25,10 @@ const ErrorPage = () => (
           the middle of a large field, that the map continues to claim is a
           local grocer.
         </span>
-      </div>
-    </div>
+      </TextContainer>
+    </Content>
     <Footer errorPage />
-  </div>
+  </Container>
 );
 
 export default ErrorPage;
