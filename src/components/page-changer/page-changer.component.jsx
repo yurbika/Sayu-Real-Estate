@@ -11,7 +11,7 @@ import toggleDropdown from "../../redux/dropdown/dropdown.action";
 import DropdownActionTypes from "../../redux/dropdown/dropdown.types";
 
 import { selectPage } from "../../redux/filter/filter.selectors";
-import { setPage } from "../../redux/filter/filter.action";
+import { setPage, setTotalPages } from "../../redux/filter/filter.action";
 import FilterActionTypes from "../../redux/filter/filter.types";
 
 import { resetSliderPositions } from "../../redux/slider/slider.action";
@@ -20,6 +20,11 @@ import { resetSliderPositions } from "../../redux/slider/slider.action";
 import { PageChangerContainer } from "./page-changer.styles";
 
 class PageChanger extends React.Component {
+  componentWillReceiveProps(nextProps) {
+    if (this.props.pages !== nextProps.pages)
+      this.props.setTotalPages(nextProps.pages);
+  }
+
   render() {
     const {
       dropdown,
@@ -29,6 +34,7 @@ class PageChanger extends React.Component {
       pages,
       setPage
     } = this.props;
+
     let optionsArray = [];
     for (let i = 0; i < pages; i++) {
       optionsArray.push(1 + i);
@@ -121,6 +127,7 @@ const mapDispatchToProps = dispatch => ({
   toggleDropdown: toggle => dispatch(toggleDropdown(toggle)),
   //filter action
   setPage: payload => dispatch(setPage(payload)),
+  setTotalPages: num => dispatch(setTotalPages(num)),
   //slider action
   resetSliderPositions: () => dispatch(resetSliderPositions())
 });
