@@ -4,6 +4,7 @@ import { connect } from "react-redux";
 
 //import component
 import Spinner from "./components/spinner/spinner.component";
+import ErrorPage from "./pages/error/error.component";
 
 //redux
 import toggleDropdown from "./redux/dropdown/dropdown.action";
@@ -39,12 +40,16 @@ class App extends React.Component {
           }
         }}
       >
-        <Switch>
-          <Suspense fallback={<Spinner page />}>
+        <Suspense fallback={<Spinner page />}>
+          <Switch>
             <Route exact path="/" component={Home} />
-            <Route path="/real-estate/:id" component={RealEstate} />
-          </Suspense>
-        </Switch>
+            <Route
+              path={"/real-estate/:id"}
+              render={props => <RealEstate {...props} />}
+            />
+            <Route component={ErrorPage} />
+          </Switch>
+        </Suspense>
       </div>
     );
   }
