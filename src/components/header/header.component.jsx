@@ -1,8 +1,17 @@
 import React from "react";
 import { withRouter } from "react-router-dom";
+import { connect } from "react-redux";
 
+//redux
+import {
+  toggleLogIn,
+  toggleSignIn
+} from "../../redux/sign-in-and-sign-up/sign-in-and-sign-up.action";
+
+//assets
 import { ReactComponent as Logo } from "../../assets/Sayu-Logo.svg";
 
+//styles
 import {
   HeaderContainer,
   LogoContainer,
@@ -14,19 +23,13 @@ import {
   ResponsiveMenu
 } from "./header.styles";
 
-const Header = ({ location, match }) => (
+const Header = ({ toggleLogIn, toggleSignIn, location, match }) => (
   <HeaderContainer className={location.pathname === "/" ? "home" : ""}>
     <LogoContainer to="/">
       <Logo className="logo" />
     </LogoContainer>
     <OptionsContainer
-      className={
-        location.pathname === "/registration"
-          ? "hidden"
-          : location.pathname === "/login"
-          ? "hidden"
-          : ""
-      }
+      className={location.pathname === "/log-in-or-sign-up" ? "hidden" : ""}
     >
       <OptionLink className={location.pathname === "/" ? "aktiv" : ""} to="/">
         <span>Home</span>
@@ -37,10 +40,16 @@ const Header = ({ location, match }) => (
       >
         <span>Real Estates</span>
       </OptionLink>
-      <OptionLink to="/registration" className="registration">
+      <OptionLink
+        to="/log-in-or-sign-up"
+        className="registration"
+        onClick={() => toggleSignIn()}
+      >
         Registration
       </OptionLink>
-      <OptionLink to="/login">Login</OptionLink>
+      <OptionLink to="/log-in-or-sign-up" onClick={() => toggleLogIn()}>
+        Log In
+      </OptionLink>
     </OptionsContainer>
     <HamburgerMenu
       onClick={() => {
@@ -64,13 +73,7 @@ const Header = ({ location, match }) => (
           document.body.style.overflowY = "visible";
         }
       }}
-      className={
-        location.pathname === "/registration"
-          ? "hidden"
-          : location.pathname === "/login"
-          ? "hidden"
-          : ""
-      }
+      className={location.pathname === "/log-in-or-sign-up" ? "hidden" : ""}
     >
       <HamburgerMenuItems id="menu-item" />
       <ResponsiveMenuContainer id="responsive-menu-container">
@@ -90,18 +93,29 @@ const Header = ({ location, match }) => (
             <span>Real Estate</span>
           </OptionLink>
           <OptionLink
-            to="/registration"
+            to="/log-in-or-sign-up"
             className="registration"
+            onClick={() => toggleSignIn()}
             responsiv={"responsiv"}
           >
             Registration
           </OptionLink>
-          <OptionLink to="/login" responsiv={"responsiv"}>
-            Login
+          <OptionLink
+            to="/log-in-or-sign-up"
+            responsiv={"responsiv"}
+            onClick={() => toggleLogIn()}
+          >
+            Log In
           </OptionLink>
         </ResponsiveMenu>
       </ResponsiveMenuContainer>
     </HamburgerMenu>
   </HeaderContainer>
 );
-export default withRouter(Header);
+
+const mapDispatchToProps = dispatch => ({
+  toggleLogIn: () => dispatch(toggleLogIn()),
+  toggleSignIn: () => dispatch(toggleSignIn())
+});
+
+export default withRouter(connect(null, mapDispatchToProps)(Header));
