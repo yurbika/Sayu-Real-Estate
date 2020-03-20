@@ -1,5 +1,5 @@
 import theme from "../../utils/theme";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const Container = styled.div`
   position: relative;
@@ -14,6 +14,15 @@ export const Container = styled.div`
   }
 `;
 
+const getAdditionalStyle = props => {
+  if (props.logIn)
+    return css`
+      h2 {
+        top: 95px;
+      }
+    `;
+};
+
 export const Form = styled.form`
   position: relative;
   height: 100%;
@@ -23,7 +32,7 @@ export const Form = styled.form`
   background-color: ${theme.colors.brown};
   box-shadow: 5px 5px 5px ${theme.colors.hslaBlack};
   border-radius: 3rem;
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -31,6 +40,10 @@ export const Form = styled.form`
     position: absolute;
     top: 35px;
   }
+  &.show {
+    display: flex;
+  }
+  ${getAdditionalStyle}
 `;
 
 export const ButtonContainer = styled.div`

@@ -51,7 +51,7 @@ class App extends React.Component {
               render={props => <RealEstate {...props} />}
             />
             <Route
-              path={"/registration"}
+              path={"/log-in-or-sign-up"}
               render={props => <SignInSignUp {...props} />}
             />
             <Route component={ErrorPage} />

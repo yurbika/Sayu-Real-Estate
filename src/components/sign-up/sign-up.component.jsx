@@ -12,10 +12,9 @@ import {
   ButtonContainer,
   InputContainer
 } from "./sign-up.styles";
-import "./sign-up.styles.scss";
 
 const SignUp = ({ history }) => (
-  <Form action="">
+  <Form action="" id="sign-up-form" className="show">
     <h2>Sign Up</h2>
     <Container>
       <InputContainer>
@@ -53,7 +52,14 @@ const SignUp = ({ history }) => (
       <Button actionButton onClick={() => history.push("/")}>
         Submit
       </Button>
-      <Button responsivButton>Cancel</Button>
+      <Button
+        responsivButton
+        onClick={() => {
+          document.getElementById("sign-up-form").classList.add("hidden");
+        }}
+      >
+        Cancel
+      </Button>
     </ButtonContainer>
   </Form>
 );
