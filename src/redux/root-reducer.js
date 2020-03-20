@@ -8,6 +8,7 @@ import homeReducer from "./home/home.reducer";
 import sliderReducer from "./slider/slider.reducer";
 import popupReducer from "./popup/popup.reducer";
 import realEstateReducer from "./real-estate/real-estate.reducer";
+import signInAndSignUpReducer from "./sign-in-and-sign-up/sign-in-and-sign-up.reducer";
 
 export default combineReducers({
   inspiration: inspirationReducer,
@@ -17,5 +18,6 @@ export default combineReducers({
   home: homeReducer,
   slider: sliderReducer,
   popup: popupReducer,
-  realEstate: realEstateReducer
+  realEstate: realEstateReducer,
+  signInAndSignUp: signInAndSignUpReducer
 });
