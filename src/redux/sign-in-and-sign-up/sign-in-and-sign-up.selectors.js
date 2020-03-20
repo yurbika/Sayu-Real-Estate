@@ -4,10 +4,10 @@ const selectSignInAndSignUp = state => state.signInAndSignUp;
 
 export const selectLogInState = createSelector(
   [selectSignInAndSignUp],
-  signInAndSignUp => signInAndSignUp.logIn
+  signInAndSignUp => signInAndSignUp.logInShow
 );
 
 export const selectSignUpState = createSelector(
   [selectSignInAndSignUp],
-  signInAndSignUp => signInAndSignUp.signUp
+  signInAndSignUp => signInAndSignUp.signUpShow
 );

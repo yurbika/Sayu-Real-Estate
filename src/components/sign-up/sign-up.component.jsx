@@ -1,9 +1,13 @@
 import React from "react";
+import { connect } from "react-redux";
 import { withRouter } from "react-router-dom";
 
 //components
 import Input from "../../components/input/input.component";
 import Button from "../../components/button/button.component";
+
+//redux
+import { toggleLogIn } from "../../redux/sign-in-and-sign-up/sign-in-and-sign-up.action";
 
 //styles
 import {
@@ -13,8 +17,8 @@ import {
   InputContainer
 } from "./sign-up.styles";
 
-const SignUp = ({ history }) => (
-  <Form action="" id="sign-up-form" className="show">
+const SignUp = ({ toggleLogIn, history }) => (
+  <Form action="" id="sign-up-form">
     <h2>Sign Up</h2>
     <Container>
       <InputContainer>
@@ -55,7 +59,7 @@ const SignUp = ({ history }) => (
       <Button
         responsivButton
         onClick={() => {
-          document.getElementById("sign-up-form").classList.add("hidden");
+          toggleLogIn();
         }}
       >
         Cancel
@@ -64,4 +68,8 @@ const SignUp = ({ history }) => (
   </Form>
 );
 
-export default withRouter(SignUp);
+const mapDispatchToProps = dispatch => ({
+  toggleLogIn: () => dispatch(toggleLogIn())
+});
+
+export default withRouter(connect(null, mapDispatchToProps)(SignUp));

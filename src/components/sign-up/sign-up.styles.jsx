@@ -32,7 +32,7 @@ export const Form = styled.form`
   background-color: ${theme.colors.brown};
   box-shadow: 5px 5px 5px ${theme.colors.hslaBlack};
   border-radius: 3rem;
-  display: none;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -40,9 +40,7 @@ export const Form = styled.form`
     position: absolute;
     top: 35px;
   }
-  &.show {
-    display: flex;
-  }
+
   ${getAdditionalStyle}
 `;
 

@@ -1,7 +1,7 @@
 import SignInAndSignUpActionTypes from "./sign-in-and-sign-up.types";
 
 const INITIAL_STATE = {
-  logInShow: false,
+  logInShow: true,
   signUpShow: false
 };
 

@@ -1,8 +1,12 @@
 import React from "react";
+import { connect } from "react-redux";
 import { withRouter } from "react-router-dom";
 
 import Input from "../../components/input/input.component";
 import Button from "../../components/button/button.component";
+
+//redux
+import { toggleSignIn } from "../../redux/sign-in-and-sign-up/sign-in-and-sign-up.action";
 
 //styles
 import {
@@ -12,8 +16,8 @@ import {
   InputContainer
 } from "../sign-up/sign-up.styles";
 
-const SignIn = ({ history }) => (
-  <Form action="" logIn id="log-in-form" className="show">
+const SignIn = ({ toggleSignIn, history }) => (
+  <Form action="" logIn id="log-in-form">
     <h2>Log In</h2>
     <Container>
       <InputContainer>
@@ -33,17 +37,15 @@ const SignIn = ({ history }) => (
       <Button actionButton onClick={() => history.push("/")}>
         Log In
       </Button>
-      <Button
-        responsivButton
-        onClick={() => {
-          document.getElementById("sign-up-form").classList.remove("show");
-          document.getElementById("login-in-form").classList.add("show");
-        }}
-      >
+      <Button responsivButton onClick={() => toggleSignIn()}>
         Registration
       </Button>
     </ButtonContainer>
   </Form>
 );
 
-export default withRouter(SignIn);
+const mapDispatchToProps = dispatch => ({
+  toggleSignIn: () => dispatch(toggleSignIn())
+});
+
+export default withRouter(connect(null, mapDispatchToProps)(SignIn));
