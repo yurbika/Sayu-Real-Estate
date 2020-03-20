@@ -21,12 +21,7 @@ const theme = {
   unsplash: {
     normalResolution:
       "&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=450&h=450&fit=crop"
-  },
-
-  suchMinWidth: "min-width: 60vw;",
-  suchMaxWidth: "max-width: 65vw;",
-
-  transitionHeight: "transition: height 0.45s ease-in"
+  }
 };
 
 export default theme;
