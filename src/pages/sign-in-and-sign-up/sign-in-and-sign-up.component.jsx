@@ -1,22 +1,36 @@
 import React from "react";
+import { connect } from "react-redux";
+import { createStructuredSelector } from "reselect";
 
 //component
-//import SignIn from "../../components/sign-in/sign-in.component";
+import SignIn from "../../components/sign-in/sign-in.component";
 import SignUp from "../../components/sign-up/sign-up.component";
 import Header from "../../components/header/header.component";
 import Footer from "../../components/footer/footer.component";
 
-//styles
-import "./sign-in-and-sign-up.styles.scss";
+//redux
+import {
+  selectLogInState,
+  selectSignUpState
+} from "../../redux/sign-in-and-sign-up/sign-in-and-sign-up.selectors";
 
-const SignInAndSignUpPage = () => (
-  <div className="container">
+//styles
+import { Container, ContentContaienr } from "./sign-in-and-sign-up.styles";
+
+const SignInAndSignUpPage = ({ logInShow, signUpShow }) => (
+  <Container>
     <Header />
-    <div className="sign-in-up-container">
-      <SignUp />
-    </div>
+    <ContentContaienr>
+      {signUpShow ? <SignUp /> : null}
+      {logInShow ? <SignIn /> : null}
+    </ContentContaienr>
     <Footer errorPage />
-  </div>
+  </Container>
 );
 
-export default SignInAndSignUpPage;
+const mapStateToProps = createStructuredSelector({
+  logInShow: selectLogInState,
+  signUpShow: selectSignUpState
+});
+
+export default connect(mapStateToProps)(SignInAndSignUpPage);
