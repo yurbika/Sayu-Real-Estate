@@ -1,22 +1,30 @@
 import React from "react";
 import { withRouter } from "react-router-dom";
 
+//components
 import Input from "../../components/input/input.component";
 import Button from "../../components/button/button.component";
 
+//styles
+import {
+  Container,
+  Form,
+  ButtonContainer,
+  InputContainer
+} from "./sign-up.styles";
 import "./sign-up.styles.scss";
 
 const SignUp = ({ history }) => (
-  <form action="" className="form">
+  <Form action="">
     <h2>Sign Up</h2>
-    <div className="content-container">
-      <div className="input-container">
+    <Container>
+      <InputContainer>
         <Input registration name="username" required />
-        <label htmlFor="username" className="label-name">
-          <span className="content-name">Username</span>
+        <label htmlFor="username">
+          <span>Username</span>
         </label>
-      </div>
-      <div className="input-container">
+      </InputContainer>
+      <InputContainer>
         <Input
           registration
           type="email"
@@ -24,30 +32,30 @@ const SignUp = ({ history }) => (
           placeholder="email"
           required
         />
-        <label htmlFor="email" className="label-name">
-          <span className="content-name">Email</span>
+        <label htmlFor="email">
+          <span>Email</span>
         </label>
-      </div>
-      <div className="input-container">
+      </InputContainer>
+      <InputContainer>
         <Input registration type="password" name="password" required />
-        <label htmlFor="password" className="label-name">
-          <span className="content-name">Password</span>
+        <label htmlFor="password">
+          <span>Password</span>
         </label>
-      </div>
-      <div className="input-container">
+      </InputContainer>
+      <InputContainer>
         <Input registration type="password" name="password" required />
-        <label htmlFor="password" className="label-name">
-          <span className="content-name">Confirm Password</span>
+        <label htmlFor="password">
+          <span>Confirm Password</span>
         </label>
-      </div>
-    </div>
-    <div className="button-container">
+      </InputContainer>
+    </Container>
+    <ButtonContainer>
       <Button actionButton onClick={() => history.push("/")}>
         Submit
       </Button>
       <Button responsivButton>Cancel</Button>
-    </div>
-  </form>
+    </ButtonContainer>
+  </Form>
 );
 
 export default withRouter(SignUp);
