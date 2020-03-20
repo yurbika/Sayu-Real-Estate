@@ -159,7 +159,11 @@ export const HamburgerMenu = styled.div`
   cursor: pointer;
   @media (max-width: 768px) {
     display: flex;
+    &.hidden{
+    display:none;
   }
+  }
+  
 `;
 
 export const ResponsiveMenu = styled.div`
