@@ -2,6 +2,7 @@
 - [Introduction](#introduction)  
 - [Set up](#setup) 
 - [Ambition](#ambition)
+- [Design](#design)
 
 </br>
 </br>
@@ -39,7 +40,10 @@ An application for real estate built with React - Redux - Styled Components - Le
 ## <div name="ambition"> 🔥 Ambition </div>
 
 <p align="center">
-"Practice makes perfect. After a long time of practicing, our work will become natrual, skillfull, swift, and steady. - Bruce Lee"</p></br>
+"Practice makes perfect. After a long time of practicing, our work will become natrual, skillfull, swift, and steady. - Bruce Lee"
+</p>
+
+</br>
 
 <p>
 This Project is about giving an insight of my profound knowledge in front-end web development/programming. For the last six months i studied the basics of html/css/scss/js/react/redux. In this period of time i created little programs for the subjects i have learned. Thinking ahead i programmed everything reusable, which became very handy in this challenge.
@@ -49,5 +53,24 @@ This Project is about giving an insight of my profound knowledge in front-end we
 
 <p>
 From creating my own real-estate-data to managing state, sayu-real-estate has everything. I started with a moodboard in adobe xd and structured a visuale plan for me. Continued with creating a data-set for the website, which contained to work with an api (unsplash). After building the sekleton of the program i started with implementing state management. To round up the project i styled everything responsiv with scss and converted to styled.components.
-  </p>
+</p>
+  
+</br>
+  
+ 
+## <div name="design"> 🔱 Design </div>
+
+<p> The Design is about understanding the fundamentals and appling them. In the process of creating the prototype, i wanted to create a modern and welcoming setup.The colours are picked in awareness of the theory of colours to build a warm and trustworthy reputation of Sayu. A fluid UI rounds everything up.</p>
+
+
+| Color          | Hex                                                                |
+| -------------- | ------------------------------------------------------------------ |
+| Light White    | ![#FFF7DE](https://via.placeholder.com/10/FFF7DE?text=+) `#FFF7DE` |
+| Brown          | ![#CCA96A](https://via.placeholder.com/10/CCA96A?text=+) `#CCA96A` |
+| Light Purple   | ![#A69FFF](https://via.placeholder.com/10/A69FFF?text=+) `#A69FFF` |
+| Dark Purple    | ![#681899](https://via.placeholder.com/10/681899?text=+) `#681899` |
+| Purple         | ![#A66ACC](https://via.placeholder.com/10/A66ACC?text=+) `#A66ACC` |
+| Black          | ![#4c4e50](https://via.placeholder.com/10/4c4e50?text=+) `#4c4e50` |
+
+
 
