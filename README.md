@@ -42,12 +42,12 @@ An application for real estate built with React - Redux - Styled Components - Le
 "Practice makes perfect. After a long time of practicing, our work will become natrual, skillfull, swift, and steady. - Bruce Lee"</p></br>
 
 <p>
-This Project is about giving an insight of my profound knowledge in front end development/programming. For the last six months i studied the basics of html/css/scss/js/react/redux. In this period of time i created little projects for the subjects i have learned. Thinking ahead i programmed everything reusable, which became very handy in this project.
+This Project is about giving an insight of my profound knowledge in front-end web development/programming. For the last six months i studied the basics of html/css/scss/js/react/redux. In this period of time i created little programs for the subjects i have learned. Thinking ahead i programmed everything reusable, which became very handy in this challenge.
 </p>
 
 </br>
 
 <p>
-From creating my own real-estate-data to managing state, this project has everything. I started with a moodboard in adobe xd and structred a visuale plan for me. Continued with creating a data-set for the website, which contained to work with an api (unsplash). After building the sekleton of the project i started with implementing state management. To round up the project i styled everything responsiv with scss and converted to styled.components.
+From creating my own real-estate-data to managing state, sayu-real-estate has everything. I started with a moodboard in adobe xd and structured a visuale plan for me. Continued with creating a data-set for the website, which contained to work with an api (unsplash). After building the sekleton of the program i started with implementing state management. To round up the project i styled everything responsiv with scss and converted to styled.components.
   </p>
 
