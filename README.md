@@ -13,6 +13,7 @@ An application for real estate built with React - Redux - Styled Components - Le
 <div align="center">
   <img alt="Logo" src="src/readme/sayu-real-estate-preview.png" />
 </div>
+
 ## 🛠 Set Up
 
 1. Install React ^16.12.0
