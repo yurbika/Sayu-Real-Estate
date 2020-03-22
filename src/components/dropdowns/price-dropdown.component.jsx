@@ -70,7 +70,7 @@ const PriceDropdown = ({
           onKeyPress={e => onlyNumberkey(e)}
         />
         <ul id="price-min">
-          {obtainingType === "Mieten"
+          {obtainingType === "Rent"
             ? createLiRentMin(10, maxInput, "max-input", setInputMin)
             : createLiBuyMin(10, maxInput, "max-input", setInputMin)}
         </ul>
@@ -94,7 +94,7 @@ const PriceDropdown = ({
           onKeyPress={e => onlyNumberkey(e)}
         />
         <ul id="price-max">
-          {obtainingType === "Mieten"
+          {obtainingType === "Rent"
             ? createLiRentMax(10, minInput, setInputMax, toggleDropdown)
             : createLiBuyMax(10, minInput, setInputMax, toggleDropdown)}
         </ul>
