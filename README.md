@@ -1,6 +1,12 @@
 # 📄 Table of Contents  
-[Introduction](#introduction)  
-[Set up](#)   
+- [Introduction](#introduction)  
+- [Set up](#setup) 
+- [Ambition](#ambition)
+
+</br>
+</br>
+</br>
+
 <div align="center" name="introduction">
   <img alt="Logo" src="src/readme/Sayu-Logo.png" width="250"/>
 </div>
@@ -14,7 +20,9 @@ An application for real estate built with React - Redux - Styled Components - Le
   <img alt="Logo" src="src/readme/sayu-real-estate-preview.png" />
 </div>
 
-## 🛠 Set Up
+</br>
+
+## <div name="setup"> 🛠 Set Up </div>
 
 1. Install React ^16.12.0
 2. Install React-Dom ^16.12.0
@@ -25,3 +33,21 @@ An application for real estate built with React - Redux - Styled Components - Le
 7. Install React-Leaflet ^2.6.1
 8. Install React-Router-Dom ^5.1.2
 9. Install Styled-Components ^4.4.1
+
+</br>
+
+## <div name="ambition"> 🔥 Ambition </div>
+
+<p align="center">
+"Practice makes perfect. After a long time of practicing, our work will become natrual, skillfull, swift, and steady. - Bruce Lee"</p></br>
+
+<p>
+This Project is about giving an insight of my profound knowledge in front end development/programming. For the last six months i studied the basics of html/css/scss/js/react/redux. In this period of time i created little projects for the subjects i have learned. Thinking ahead i programmed everything reusable, which became very handy in this project.
+</p>
+
+</br>
+
+<p>
+From creating my own real-estate-data to managing state, this project has everything. I started with a moodboard in adobe xd and structred a visuale plan for me. Continued with creating a data-set for the website, which contained to work with an api (unsplash). After building the sekleton of the project i started with implementing state management. To round up the project i styled everything responsiv with scss and converted to styled.components.
+  </p>
+
