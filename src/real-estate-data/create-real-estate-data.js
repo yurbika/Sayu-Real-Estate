@@ -3,7 +3,7 @@ let i = 1;
 while (i < 2) {
   async function test() {
     let response = await fetch(
-      `https://api.unsplash.com/search/photos?per_page=30&page=${i}&query=house&client_id=e4e8cf649e8d43ce83ed9c7f62a5196c36bad3e3546eb7906b80c77799792b27`
+      `https://api.unsplash.com/search/photos?per_page=30&page=${i}&query=house&client_id=YourAccessKey`
     );
     let data = response.json();
 
