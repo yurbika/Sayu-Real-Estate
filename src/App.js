@@ -15,10 +15,11 @@ import { togglePopup } from "./redux/popup/popup.action";
 //utils
 import {
   handleClickOutsideDropdown,
-  handleClickOutsidePopup
+  handleClickOutsidePopup,
 } from "./utils/utils";
 
 //import styles
+//test push
 import "./App.css";
 
 const Home = lazy(() => import("./pages/home/home.component"));
@@ -34,7 +35,7 @@ class App extends React.Component {
     const { toggleDropdown, togglePopup } = this.props;
     return (
       <div
-        onMouseDown={e => {
+        onMouseDown={(e) => {
           if (handleClickOutsideDropdown(e))
             toggleDropdown(DropdownActionTypes.TOGGLE_ALL_DROPDOWNS_FALSE);
           if (handleClickOutsidePopup(e)) {
@@ -48,11 +49,11 @@ class App extends React.Component {
             <Route exact path="/" component={Home} />
             <Route
               path={"/real-estate/:id"}
-              render={props => <RealEstate {...props} />}
+              render={(props) => <RealEstate {...props} />}
             />
             <Route
               path={"/log-in-or-sign-up"}
-              render={props => <SignInSignUp {...props} />}
+              render={(props) => <SignInSignUp {...props} />}
             />
             <Route component={ErrorPage} />
           </Switch>
@@ -64,9 +65,9 @@ class App extends React.Component {
 
 //Redux
 
-const mapDispatchToProps = dispatch => ({
-  toggleDropdown: toggle => dispatch(toggleDropdown(toggle)),
-  togglePopup: () => dispatch(togglePopup())
+const mapDispatchToProps = (dispatch) => ({
+  toggleDropdown: (toggle) => dispatch(toggleDropdown(toggle)),
+  togglePopup: () => dispatch(togglePopup()),
 });
 
 export default connect(null, mapDispatchToProps)(App);
