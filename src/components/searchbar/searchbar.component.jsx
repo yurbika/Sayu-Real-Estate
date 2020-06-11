@@ -11,7 +11,7 @@ import Input from "../input/input.component";
 import {
   checkInputValue,
   checkSearchInput,
-  thousandSeperatorDots
+  thousandSeperatorDots,
 } from "../input/input.utils";
 
 import Button from "../button/button.component";
@@ -30,14 +30,14 @@ import {
   selectSpace,
   selectMaxInput,
   selectMinInput,
-  selectSearchButtonClick
+  selectSearchButtonClick,
 } from "../../redux/filter/filter.selectors";
 import {
   setPrice,
   resetInputMax,
   resetInputMin,
   setSearchInput,
-  toggleSearchButtonClick
+  toggleSearchButtonClick,
 } from "../../redux/filter/filter.action";
 
 import FilterActionTypes from "../../redux/filter/filter.types";
@@ -48,7 +48,7 @@ import {
   selectRealEstateTypeDropdown,
   selectRoomsDropdown,
   selectSpaceDropdown,
-  selectResultsDropdown
+  selectResultsDropdown,
 } from "../../redux/dropdown/dropdown.selectors";
 import toggleDropdown from "../../redux/dropdown/dropdown.action";
 import DropdownActionTypes from "../../redux/dropdown/dropdown.types";
@@ -58,7 +58,7 @@ import {
   setFederalstates,
   setStreetsPostcodeLocalities,
   setCitiesLocalities,
-  setHits
+  setHits,
 } from "../../redux/results-dropdown/results.action";
 
 //styles
@@ -76,7 +76,7 @@ import {
   ButtonContainer,
   SearchbarPopupHeader,
   CloseButtonContainer,
-  CloseButton
+  CloseButton,
 } from "./searchbar.styles";
 
 /*the attribute for the buttions with the id = filter-button is only necessary for only one purpose
@@ -122,7 +122,7 @@ class Searchbar extends React.Component {
       setFederalStates,
       setStreetsPostcodeLocalities,
       setCitiesLocalities,
-      setHits
+      setHits,
     } = this.props;
     if (
       input !== prevProps.input ||
@@ -141,13 +141,13 @@ class Searchbar extends React.Component {
         minInput: `${minInput}`,
         maxInput: `${maxInput}`,
         rooms: `${rooms}`,
-        livingspace: `${space}`
+        livingspace: `${space}`,
       };
       const {
         federalStatesArray,
         citiesLocalitiesArray,
         streetsPostcodeLocalitiesArray,
-        hits
+        hits,
       } = filterData(filter);
       setHits(hits);
       setFederalStates(federalStatesArray);
@@ -192,12 +192,13 @@ class Searchbar extends React.Component {
       additionalStyle,
       history,
       location,
-      noBackground
+      noBackground,
+      ...otherprops
     } = this.props;
     //this if else is necessary for the ref distinction
     if (this.state.windowWidth > 768) {
       return (
-        <SearchbarContainer additionalStyle={additionalStyle}>
+        <SearchbarContainer additionalStyle={additionalStyle} {...otherprops}>
           <ImgContainer noBackground={noBackground}>
             <Img />
           </ImgContainer>
@@ -212,7 +213,7 @@ class Searchbar extends React.Component {
                   placeholder="Where: Place, State or Postcode"
                   deleteButton
                   value={input}
-                  onChange={e => {
+                  onChange={(e) => {
                     setSearchInput(e.target.value);
                     /*after deleting it should also trigger the closing action*/
                     if (
@@ -243,7 +244,7 @@ class Searchbar extends React.Component {
                         DropdownActionTypes.TOGGLE_RESULTS_DROPDOWN_HIDDEN
                       );
                   }}
-                  onKeyPress={e => {
+                  onKeyPress={(e) => {
                     checkSearchInput(e);
                     if (e.key === "Enter") {
                       toggleDropdown(
@@ -310,7 +311,7 @@ class Searchbar extends React.Component {
                     <SelectionDropdown
                       additionalStyle={"house-dropdown"}
                       children={[
-                        realEstateType === "Apartment" ? "House" : "Apartment"
+                        realEstateType === "Apartment" ? "House" : "Apartment",
                       ]}
                       type={FilterActionTypes.SET_REALESTATETYPE}
                     />
@@ -373,7 +374,7 @@ class Searchbar extends React.Component {
                         "2 RMS. +",
                         "3 RMS. +",
                         "4 RMS. +",
-                        "5 RMS. +"
+                        "5 RMS. +",
                       ]}
                       type={FilterActionTypes.SET_ROOMS}
                     />
@@ -389,7 +390,7 @@ class Searchbar extends React.Component {
                         "200 m² +",
                         "300 m² +",
                         "400 m² +",
-                        "500 m² +"
+                        "500 m² +",
                       ]}
                       type={FilterActionTypes.SET_SPACE}
                     />
@@ -434,7 +435,7 @@ class Searchbar extends React.Component {
               <SearchbarPopupContainer id="searchbarPopup">
                 <SearchbarPopup
                   /*if the element was a html-form*/
-                  onClick={e => {
+                  onClick={(e) => {
                     e.preventDefault();
                   }}
                 >
@@ -459,7 +460,7 @@ class Searchbar extends React.Component {
                       placeholder="Where: Place, State or Postcode"
                       deleteButton
                       value={input}
-                      onChange={e => {
+                      onChange={(e) => {
                         setSearchInput(e.target.value);
                         if (
                           (hits > 0 || hits === null || !!!input) &&
@@ -488,7 +489,7 @@ class Searchbar extends React.Component {
                             DropdownActionTypes.TOGGLE_RESULTS_DROPDOWN_HIDDEN
                           );
                       }}
-                      onKeyPress={e => {
+                      onKeyPress={(e) => {
                         checkSearchInput(e);
                         if (e.key === "Enter") {
                           toggleDropdown(
@@ -543,7 +544,7 @@ class Searchbar extends React.Component {
                     <ButtonContainer>
                       <Button
                         responsivButton
-                        onClick={e => {
+                        onClick={(e) => {
                           e.preventDefault();
                           toggleDropdown(
                             DropdownActionTypes.TOGGLE_ROOMS_DROPDOWN_HIDDEN
@@ -605,7 +606,7 @@ class Searchbar extends React.Component {
                           <SelectionDropdown
                             additionalStyle={"responsiv-dropdown"}
                             children={[
-                              obtainingType === "Rent" ? "Buy" : "Rent"
+                              obtainingType === "Rent" ? "Buy" : "Rent",
                             ]}
                             type={FilterActionTypes.SET_OBTAININGTYPE}
                           />
@@ -618,7 +619,7 @@ class Searchbar extends React.Component {
                             children={[
                               realEstateType === "Apartment"
                                 ? "House"
-                                : "Apartment"
+                                : "Apartment",
                             ]}
                             type={FilterActionTypes.SET_REALESTATETYPE}
                           />
@@ -635,7 +636,7 @@ class Searchbar extends React.Component {
                               "2 RMS. +",
                               "3 RMS. +",
                               "4 RMS. +",
-                              "5 RMS. +"
+                              "5 RMS. +",
                             ]}
                             type={FilterActionTypes.SET_ROOMS}
                           />
@@ -651,7 +652,7 @@ class Searchbar extends React.Component {
                               "200 m² +",
                               "300 m² +",
                               "400 m² +",
-                              "500 m² +"
+                              "500 m² +",
                             ]}
                             type={FilterActionTypes.SET_SPACE}
                           />
@@ -690,26 +691,26 @@ const mapStateToProps = createStructuredSelector({
   spaceDropdown: selectSpaceDropdown,
   resultsDropdown: selectResultsDropdown,
   //Results States
-  hits: selectHits
+  hits: selectHits,
 });
 
-const mapDispatchToProps = dispatch => ({
+const mapDispatchToProps = (dispatch) => ({
   //dropdown action
-  toggleDropdown: toggle => dispatch(toggleDropdown(toggle)),
+  toggleDropdown: (toggle) => dispatch(toggleDropdown(toggle)),
   //filter action
-  setPrice: price => dispatch(setPrice(price)),
+  setPrice: (price) => dispatch(setPrice(price)),
   resetInputMax: () => dispatch(resetInputMax()),
   resetInputMin: () => dispatch(resetInputMin()),
-  setSearchInput: value => dispatch(setSearchInput(value)),
+  setSearchInput: (value) => dispatch(setSearchInput(value)),
   toggleSearchButtonClick: () => dispatch(toggleSearchButtonClick()),
   //results action
-  setFederalStates: federalStatesArray =>
+  setFederalStates: (federalStatesArray) =>
     dispatch(setFederalstates(federalStatesArray)),
-  setCitiesLocalities: citiesLocalitiesArray =>
+  setCitiesLocalities: (citiesLocalitiesArray) =>
     dispatch(setCitiesLocalities(citiesLocalitiesArray)),
-  setStreetsPostcodeLocalities: streetsPostcodeLocalitiesArray =>
+  setStreetsPostcodeLocalities: (streetsPostcodeLocalitiesArray) =>
     dispatch(setStreetsPostcodeLocalities(streetsPostcodeLocalitiesArray)),
-  setHits: num => dispatch(setHits(num))
+  setHits: (num) => dispatch(setHits(num)),
 });
 
 export default withRouter(

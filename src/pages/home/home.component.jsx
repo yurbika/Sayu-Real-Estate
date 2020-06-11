@@ -18,18 +18,18 @@ import { toSection } from "../../components/button/button.utils";
 import {
   selectExpand1,
   selectExpand2,
-  selectExpand3
+  selectExpand3,
 } from "../../redux/inspiration/inspiration.selectors";
 
 import {
   selectClassicArray,
   selectLuxuryArray,
-  selectApartmentArray
+  selectApartmentArray,
 } from "../../redux/home/home.selectors";
 import {
   setClassicArray,
   setLuxuryArray,
-  setApartmentArray
+  setApartmentArray,
 } from "../../redux/home/home.action";
 
 //import styles
@@ -38,7 +38,7 @@ import {
   SearchbarContainer,
   BackgroundImageFilter,
   HomeBackground,
-  InspirationSectionContainer
+  InspirationSectionContainer,
 } from "./home.styles";
 
 class Home extends React.Component {
@@ -49,21 +49,21 @@ class Home extends React.Component {
         minInput: 300,
         maxInput: 1200,
         obtainingType: "rent",
-        realEstateType: "apartment"
+        realEstateType: "apartment",
       })["realEstateArray"]
     );
     setLuxuaryArray(
       filterData({
         minInput: 1350000,
         obtainingType: "buy",
-        realEstateType: "apartment"
+        realEstateType: "apartment",
       })["realEstateArray"]
     );
     setApartmentArray(
       filterData({
         minInput: 1350000,
         obtainingType: "buy",
-        realEstateType: "house"
+        realEstateType: "house",
       })["realEstateArray"]
     );
   }
@@ -74,7 +74,7 @@ class Home extends React.Component {
       expand3,
       classicArray,
       luxuaryArray,
-      apartmentArray
+      apartmentArray,
     } = this.props;
     return (
       <Container>
@@ -82,13 +82,14 @@ class Home extends React.Component {
         <SearchbarContainer>
           <BackgroundImageFilter />
           <HomeBackground />
-          <Searchbar>
+          <Searchbar tabIndex="0" aria-label="Find your new Home, searchbar">
             <p>Find your new Home</p>
             <h1>Ready to Move?</h1>
           </Searchbar>
           <Button
             scrollButton
             onClick={() => toSection("inspiration-section")}
+            aria-label="scroll to inspiration section"
           />
         </SearchbarContainer>
         <InspirationSectionContainer id="inspiration-section">
@@ -100,7 +101,7 @@ class Home extends React.Component {
               filter={{
                 minInput: 1350000,
                 obtainingsType: "buy",
-                realEstateType: "apartment"
+                realEstateType: "apartment",
               }}
             >
               <span className="first">Inspiration</span>
@@ -115,7 +116,7 @@ class Home extends React.Component {
               filter={{
                 minInput: 1350000,
                 obtainingsType: "buy",
-                realEstateType: "house"
+                realEstateType: "house",
               }}
             >
               <span className="first">Inspiration</span>
@@ -131,7 +132,7 @@ class Home extends React.Component {
                 minInput: 300,
                 maxInput: 1200,
                 obtainingsType: "rent",
-                realEstateType: "apartment"
+                realEstateType: "apartment",
               }}
             >
               <span className="first">Inspiration</span>
@@ -152,13 +153,13 @@ const mapStateToProps = createStructuredSelector({
   //home
   classicArray: selectClassicArray,
   luxuaryArray: selectLuxuryArray,
-  apartmentArray: selectApartmentArray
+  apartmentArray: selectApartmentArray,
 });
 
-const mapDispatchToProps = dispatch => ({
-  setClassicArray: array => dispatch(setClassicArray(array)),
-  setLuxuaryArray: array => dispatch(setLuxuryArray(array)),
-  setApartmentArray: array => dispatch(setApartmentArray(array))
+const mapDispatchToProps = (dispatch) => ({
+  setClassicArray: (array) => dispatch(setClassicArray(array)),
+  setLuxuaryArray: (array) => dispatch(setLuxuryArray(array)),
+  setApartmentArray: (array) => dispatch(setApartmentArray(array)),
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Home);

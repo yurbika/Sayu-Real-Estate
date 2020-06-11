@@ -36,7 +36,7 @@ export const HomeBackground = styled.div`
   background-image: url(${theme.img});
 `;
 
-export const InspirationSectionContainer = styled.div`
+export const InspirationSectionContainer = styled.section`
   display: block;
   position: relative;
   width: 100%;
