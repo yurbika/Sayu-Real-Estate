@@ -2,7 +2,7 @@ import theme from "../../utils/theme";
 import styled, { css } from "styled-components";
 import { Link } from "react-router-dom";
 
-export const HeaderContainer = styled.div`
+export const HeaderContainer = styled.nav`
   z-index: 2;
   height: 75px;
   width: 100%;
@@ -45,7 +45,7 @@ export const OptionsContainer = styled.div`
   }
 `;
 
-const getOptionLinkStyle = props => {
+const getOptionLinkStyle = (props) => {
   if (!props.responsiv)
     return css`
       &.registration {
@@ -159,11 +159,10 @@ export const HamburgerMenu = styled.div`
   cursor: pointer;
   @media (max-width: 768px) {
     display: flex;
-    &.hidden{
-    display:none;
+    &.hidden {
+      display: none;
+    }
   }
-  }
-  
 `;
 
 export const ResponsiveMenu = styled.div`

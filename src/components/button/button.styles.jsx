@@ -90,7 +90,7 @@ const responsivButton = css`
   max-width: 100%;
 `;
 
-const getButtonStyles = props => {
+const getButtonStyles = (props) => {
   if (props.pageChanger && props.noOpacity)
     return css`
       border: none;
@@ -114,8 +114,7 @@ const getButtonStyles = props => {
       width: 10rem;
       min-width: 6rem;
       span {
-        margin-right: 15px;
-        margin-left: 15px;
+        margin: auto 15px;
       }
       div span {
         margin-right: 0;
@@ -174,7 +173,7 @@ const getButtonStyles = props => {
           background: ${theme.colors.lightPurple};
           transition: all 0.3s ease-out;
         }
-      `
+      `,
     ];
   if (props.scrollButton) return scrollButton;
   if (props.secondaryButton && props.dropdown)
@@ -182,7 +181,7 @@ const getButtonStyles = props => {
       secondaryButton,
       css`
         z-index: -1;
-      `
+      `,
     ];
   if (props.secondaryButton) return secondaryButton;
   if (props.searchButton && props.responsivButton)
@@ -191,7 +190,7 @@ const getButtonStyles = props => {
       responsivButton,
       css`
         width: 100%;
-      `
+      `,
     ];
   if (props.searchButton) return searchButton;
   if (props.actionButton) return actionButton;
@@ -201,7 +200,7 @@ const getButtonStyles = props => {
       responsivButton,
       css`
         min-width: 100%;
-      `
+      `,
     ];
   if (props.responsivButton) return responsivButton;
   return normalButton;
@@ -230,7 +229,7 @@ export const CustomButtonContainer = styled.button`
   ${getButtonStyles}
 `;
 
-const getArrowContainerStyles = props => {
+const getArrowContainerStyles = (props) => {
   if (props.noArrow)
     return css`
       display: none;
@@ -281,7 +280,7 @@ const getArrowContainerStyles = props => {
     `;
 };
 
-const getArrowStyles = props => {
+const getArrowStyles = (props) => {
   if (props.pageChanger && props.secondary)
     return css`
       right: 25px;

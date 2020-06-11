@@ -5,7 +5,7 @@ import { connect } from "react-redux";
 //redux
 import {
   toggleLogIn,
-  toggleSignIn
+  toggleSignIn,
 } from "../../redux/sign-in-and-sign-up/sign-in-and-sign-up.action";
 
 //assets
@@ -20,12 +20,16 @@ import {
   HamburgerMenu,
   HamburgerMenuItems,
   ResponsiveMenuContainer,
-  ResponsiveMenu
+  ResponsiveMenu,
 } from "./header.styles";
 
 const Header = ({ toggleLogIn, toggleSignIn, location, match }) => (
-  <HeaderContainer className={location.pathname === "/" ? "home" : ""}>
-    <LogoContainer to="/">
+  <HeaderContainer
+    className={location.pathname === "/" ? "home" : ""}
+    tabIndex="0"
+    aria-label="Main navigation with four elements"
+  >
+    <LogoContainer to="/" tabIndex="-1">
       <Logo className="logo" />
     </LogoContainer>
     <OptionsContainer
@@ -113,9 +117,9 @@ const Header = ({ toggleLogIn, toggleSignIn, location, match }) => (
   </HeaderContainer>
 );
 
-const mapDispatchToProps = dispatch => ({
+const mapDispatchToProps = (dispatch) => ({
   toggleLogIn: () => dispatch(toggleLogIn()),
-  toggleSignIn: () => dispatch(toggleSignIn())
+  toggleSignIn: () => dispatch(toggleSignIn()),
 });
 
 export default withRouter(connect(null, mapDispatchToProps)(Header));
