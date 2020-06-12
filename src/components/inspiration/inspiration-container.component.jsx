@@ -12,7 +12,7 @@ import { toggleExpand } from "../../redux/inspiration/inspiration.action";
 //style import
 import {
   InspirationsContainer,
-  DescriptionContainer
+  DescriptionContainer,
 } from "./inspiration.styles";
 
 //as the name says this component is only to give some inspiration to use the searchbar
@@ -22,9 +22,10 @@ const InspirationContainer = ({
   expand,
   toggleExpand,
   toggleExpandButtonNum,
-  realEstateArray
+  realEstateArray,
+  ...otherProps
 }) => (
-  <InspirationsContainer>
+  <InspirationsContainer {...otherProps}>
     <DescriptionContainer>{children}</DescriptionContainer>
     <ImgsPreview expand={expand} realEstateArray={realEstateArray} />
     {expand ? null : (
@@ -35,8 +36,8 @@ const InspirationContainer = ({
   </InspirationsContainer>
 );
 
-const mapDispatchToProps = dispatch => ({
-  toggleExpand: num => dispatch(toggleExpand(num))
+const mapDispatchToProps = (dispatch) => ({
+  toggleExpand: (num) => dispatch(toggleExpand(num)),
 });
 
 export default withRouter(

@@ -38,7 +38,7 @@ export const createLiRentMin = (
     if (temp <= 0) break;
     array.push(
       <li
-        onClick={e => {
+        onClick={(e) => {
           setInputMin(e.currentTarget.textContent);
           document.getElementById(oppositeInputName).click();
           document.getElementById(oppositeInputName).focus();
@@ -96,7 +96,7 @@ export const createLiRentMax = (
     if (temp > 10000) break;
     array.push(
       <li
-        onClick={e => {
+        onClick={(e) => {
           setInputMax(e.currentTarget.textContent);
           toggleDropdown(DropdownActionTypes.TOGGLE_PRICE_DROPDOWN_HIDDEN);
         }}
@@ -146,12 +146,13 @@ export const createLiBuyMin = (
     if (temp <= 0) break;
     array.push(
       <li
-        onClick={e => {
+        onClick={(e) => {
           setInputMin(e.currentTarget.textContent);
           document.getElementById(oppositeInputName).click();
           document.getElementById(oppositeInputName).focus();
         }}
         key={ID_GENERATOR("price-dropdown-li-")}
+        tabIndex="0"
       >
         {thousandSeperatorDots(temp.toString()) + "€"}
       </li>
@@ -167,6 +168,7 @@ export const createLiBuyMin = (
         document.getElementById(oppositeInputName).focus();
       }}
       key={ID_GENERATOR("price-dropdown-li-")}
+      tabIndex="0"
     >
       0€
     </li>
@@ -197,11 +199,12 @@ export const createLiBuyMax = (
     if (temp > 1500000) break;
     array.push(
       <li
-        onClick={e => {
+        onClick={(e) => {
           setInputMax(e.currentTarget.textContent);
           toggleDropdown(DropdownActionTypes.TOGGLE_PRICE_DROPDOWN_HIDDEN);
         }}
         key={ID_GENERATOR("price-dropdown-li-")}
+        tabIndex="0"
       >
         {thousandSeperatorDots(temp.toString()) + "€"}
       </li>
@@ -215,6 +218,7 @@ export const createLiBuyMax = (
         toggleDropdown(DropdownActionTypes.TOGGLE_PRICE_DROPDOWN_HIDDEN);
       }}
       key={ID_GENERATOR("price-dropdown-li-")}
+      tabIndex="0"
     >
       Any Price
     </li>

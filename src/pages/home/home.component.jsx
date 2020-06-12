@@ -103,6 +103,8 @@ class Home extends React.Component {
                 obtainingsType: "buy",
                 realEstateType: "apartment",
               }}
+              tabIndex="0"
+              aria-label="Inspiration for Luxury real estates"
             >
               <span className="first">Inspiration</span>
               <span>Luxury</span>
@@ -118,6 +120,8 @@ class Home extends React.Component {
                 obtainingsType: "buy",
                 realEstateType: "house",
               }}
+              tabIndex="0"
+              aria-label="Inspiration for Apartments"
             >
               <span className="first">Inspiration</span>
               <span>Apartments</span>
@@ -134,6 +138,8 @@ class Home extends React.Component {
                 obtainingsType: "rent",
                 realEstateType: "apartment",
               }}
+              tabIndex="0"
+              aria-label="Inspiration for Classic real estates"
             >
               <span className="first">Inspiration</span>
               <span>Classic</span>
