@@ -54,7 +54,7 @@ const RealEstatePreview = ({
   return (
     <Container
       tabIndex="0"
-      aria-label={`Real-Estate Number: ${id + 1}`}
+      aria-label={`Real-Estate Number: ${id + 1}, has popup`}
       onKeyDown={(e) => {
         if (e.key === "Enter") {
           togglePopup();

@@ -1,4 +1,5 @@
 import React from "react";
+import ReactDOM from "react-dom";
 import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 
@@ -10,7 +11,7 @@ import PopupMap from "../../components/popup-map/popup-map.component";
 //redux imports
 import {
   selectPopupRealEstate,
-  selectPopupRealEstateID
+  selectPopupRealEstateID,
 } from "../../redux/popup/popup.selectors";
 
 import { togglePopup } from "../../redux/popup/popup.action";
@@ -50,7 +51,7 @@ import {
   InformationContainer,
   GridContainer,
   GridItem,
-  MapContainer
+  MapContainer,
 } from "./popup.styles";
 import { CloseButton } from "../searchbar/searchbar.styles";
 
@@ -63,6 +64,14 @@ import areaIcon from "../../assets/area-icon.png";
 import clockIcon from "../../assets/clock-icon.png";
 
 class Popup extends React.Component {
+  componentDidMount() {
+    this.focusDiv();
+  }
+
+  focusDiv() {
+    ReactDOM.findDOMNode(this.refs.popup).focus();
+  }
+
   render() {
     const { realEstate, realEstateID, togglePopup } = this.props;
     let realEstateType = "";
@@ -71,7 +80,12 @@ class Popup extends React.Component {
     else return null;
 
     return (
-      <PopupContainer>
+      <PopupContainer
+        autoFocus
+        tabIndex="0"
+        ref="popup"
+        aria-label="Popup open"
+      >
         <PopupContentContainer ref={popupRef}>
           <CloseButtonContainer
             className="closebutton-container"
@@ -79,11 +93,18 @@ class Popup extends React.Component {
               togglePopup();
               document.body.style.overflowY = "visible";
             }}
+            onKeyDown={(e) => {
+              if (e.key === "Enter") {
+                togglePopup();
+                document.body.style.overflowY = "visible";
+              }
+            }}
+            aria-label="close popup"
           >
             <CloseButton />
           </CloseButtonContainer>
           <AllContentContainer>
-            <Section>
+            <Section tabIndex="0" aria-label="brief-information">
               <RotateContainer>
                 <Rotate>BRIEF-INFORMATION</Rotate>
               </RotateContainer>
@@ -103,20 +124,20 @@ class Popup extends React.Component {
                         realEstate[realEstateType]["imgs"]["five"] +
                           theme.unsplash.normalResolution,
                         realEstate[realEstateType]["imgs"]["six"] +
-                          theme.unsplash.normalResolution
+                          theme.unsplash.normalResolution,
                       ]}
                       alt={realEstateType}
                       id={realEstateID}
                     />
                   </SliderContainer>
                   <InfosContainer>
-                    <InfosContent>
-                      <HeaderSpan titleSpan>
+                    <InfosContent tabIndex="0" aria-label="information">
+                      <HeaderSpan titleSpan tabIndex="0">
                         {realEstate[realEstateType]["title"]}
                       </HeaderSpan>
                       <IconContainer>
                         <img src={gpsIconBrown} alt="Adress:" />
-                        <span>
+                        <span tabIndex="0">
                           {" " +
                             realEstate[realEstateType]["adress"]["street"] +
                             ", " +
@@ -131,7 +152,7 @@ class Popup extends React.Component {
                       </IconContainer>
                       <IconContainer>
                         <img src={moneyIconBrown} alt="Price:" />
-                        <HeaderSpan price>
+                        <HeaderSpan price tabIndex="0">
                           {" " +
                             thousandSeperatorDots(
                               realEstate[realEstateType]["price"].toString()
@@ -142,20 +163,20 @@ class Popup extends React.Component {
                       <BoxInfo>
                         <IconContainer>
                           <img src={roomIcon} alt="Rooms:" />
-                          <span>
+                          <span tabIndex="0">
                             {" " + realEstate[realEstateType]["rooms"]}
                           </span>
                         </IconContainer>
                         <IconContainer>
                           <img src={propertyIcon} alt="Livingspace:" />
-                          <span>
+                          <span tabIndex="0">
                             {" " + realEstate[realEstateType]["livingspace"]} m²
                           </span>
                         </IconContainer>
                         {!!realEstate[realEstateType]["property"] ? (
                           <IconContainer>
                             <img src={areaIcon} alt="Property:" />
-                            <span>
+                            <span tabIndex="0">
                               {" " + realEstate[realEstateType]["property"]}
                               m²
                             </span>
@@ -166,7 +187,7 @@ class Popup extends React.Component {
                     <InfosFooter>
                       <IconContainer>
                         <img src={clockIcon} alt="Publishing:" />
-                        <span>
+                        <span tabIndex="0">
                           {"Published " +
                             realEstate[realEstateType]["publishedDaysAgo"] +
                             " Days ago"}
@@ -187,7 +208,7 @@ class Popup extends React.Component {
                       realEstate[realEstateType]["imgs"]["five"] +
                         theme.unsplash.normalResolution,
                       realEstate[realEstateType]["imgs"]["six"] +
-                        theme.unsplash.normalResolution
+                        theme.unsplash.normalResolution,
                     ]}
                     alt={realEstateType}
                     id={realEstateID}
@@ -195,14 +216,14 @@ class Popup extends React.Component {
                 </SliderInfoContainer>
               </Container>
             </Section>
-            <Section>
+            <Section tabIndex="0" aria-label="preview">
               <RotateContainer second>
                 <Rotate>PREVIEW</Rotate>
               </RotateContainer>
               <MainContentContainer>
                 <MainContent>
                   <InformationContainer>
-                    <GridContainer>
+                    <GridContainer tabIndex="0">
                       <GridItem house>
                         <span>Type:</span>
                         <span>
@@ -305,7 +326,7 @@ class Popup extends React.Component {
                     <PopupMap
                       pos={[
                         realEstate[realEstateType]["adress"]["latitude"],
-                        realEstate[realEstateType]["adress"]["longitude"]
+                        realEstate[realEstateType]["adress"]["longitude"],
                       ]}
                     />
                   </MapContainer>
@@ -321,11 +342,11 @@ class Popup extends React.Component {
 
 const mapStateToProps = createStructuredSelector({
   realEstate: selectPopupRealEstate,
-  realEstateID: selectPopupRealEstateID
+  realEstateID: selectPopupRealEstateID,
 });
 
-const mapDispatchToProps = dispatch => ({
-  togglePopup: () => dispatch(togglePopup())
+const mapDispatchToProps = (dispatch) => ({
+  togglePopup: () => dispatch(togglePopup()),
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Popup);
