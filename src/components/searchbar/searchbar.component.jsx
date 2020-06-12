@@ -207,6 +207,7 @@ class Searchbar extends React.Component {
             <InputContainer>
               <InputContainerRow>
                 <Input
+                  type="text"
                   inputHome
                   id="filter-button"
                   inputType="search"
@@ -291,12 +292,12 @@ class Searchbar extends React.Component {
               </InputContainerRow>
               {/*this section is only for styling purpose so the buttons can
               be placed under the first row */}
-              <InputContainerRow shadow>
-                <Input inputHome />
+              <InputContainerRow shadow tabIndex="-1">
+                <Input inputHome tabIndex="-1" />
                 {resultsDropdown && hits > 0 && input !== "" ? (
                   <ResultsDropdown additionalStyle={"results-dropdown"} />
                 ) : null}
-                <Button normalButton dropdown id="filter-button">
+                <Button normalButton dropdown id="filter-button" tabIndex="-1">
                   {obtainingTypeDropdown ? (
                     <SelectionDropdown
                       additionalStyle={"obtainingType-dropdown"}
@@ -306,7 +307,7 @@ class Searchbar extends React.Component {
                     />
                   ) : null}
                 </Button>
-                <Button normalButton dropdown id="filter-button">
+                <Button normalButton dropdown id="filter-button" tabIndex="-1">
                   {realEstateTypeDropdown ? (
                     <SelectionDropdown
                       additionalStyle={"house-dropdown"}
@@ -317,7 +318,7 @@ class Searchbar extends React.Component {
                     />
                   ) : null}
                 </Button>
-                <Button searchButton></Button>
+                <Button searchButton tabIndex="-1"></Button>
               </InputContainerRow>
               {/*second row of the search bar*/}
               <InputContainerRow>
@@ -359,13 +360,23 @@ class Searchbar extends React.Component {
               {/*this section is only for styling purpose so the buttons can
               be placed under the second row */}
 
-              <InputContainerRow shadowSecondary>
-                <Button secondaryButton dropdown id="filter-button">
+              <InputContainerRow shadowSecondary tabIndex="-1">
+                <Button
+                  secondaryButton
+                  dropdown
+                  id="filter-button"
+                  tabIndex="-1"
+                >
                   {priceDropdown ? (
                     <PriceDropdown additionalStyle={"price-dropdown"} />
                   ) : null}
                 </Button>
-                <Button secondaryButton dropdown id="filter-button">
+                <Button
+                  secondaryButton
+                  dropdown
+                  id="filter-button"
+                  tabIndex="-1"
+                >
                   {roomsDropdown ? (
                     <SelectionDropdown
                       additionalStyle={"rooms-dropdown"}
@@ -380,7 +391,12 @@ class Searchbar extends React.Component {
                     />
                   ) : null}
                 </Button>
-                <Button secondaryButton dropdown id="filter-button">
+                <Button
+                  secondaryButton
+                  dropdown
+                  id="filter-button"
+                  tabIndex="-1"
+                >
                   {spaceDropdown ? (
                     <SelectionDropdown
                       additionalStyle={"space-dropdown"}

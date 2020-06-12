@@ -9,13 +9,13 @@ import {
   selectFederalstates,
   selectStreetsPostcodeLocalities,
   selectCitiesLocalities,
-  selectHits
+  selectHits,
 } from "../../redux/results-dropdown/results.selectors";
 
 import {
   selectObtainingType,
   selectRealEstateType,
-  selectSearchInput
+  selectSearchInput,
 } from "../../redux/filter/filter.selectors";
 
 import { setSearchInput } from "../../redux/filter/filter.action";
@@ -36,17 +36,23 @@ const ResultsDropdown = ({
   streetsPostcodeLocalitiesArray,
   setSearchInput,
   toggleDropdown,
-  additionalStyle
+  additionalStyle,
+  ...otherProps
 }) => {
   return (
-    <DropdownContainer ref={dropdownRef} additionalStyle={additionalStyle}>
+    <DropdownContainer
+      ref={dropdownRef}
+      additionalStyle={additionalStyle}
+      tabIndex="0"
+    >
       {!!federalstatesArray.length ? <h4>Federal-States</h4> : null}
       {!!federalstatesArray.length ? (
         <ul>
-          {federalstatesArray.map(item => (
+          {federalstatesArray.map((item) => (
             <li
+              tabIndex="0"
               key={ID_GENERATOR("federal-states-array-")}
-              onClick={e => {
+              onClick={(e) => {
                 setSearchInput(e.currentTarget.textContent);
                 toggleDropdown(
                   DropdownActionTypes.TOGGLE_RESULTS_DROPDOWN_HIDDEN
@@ -61,10 +67,11 @@ const ResultsDropdown = ({
       {!!citiesLocalitiesArray.length ? <h4>Localities</h4> : null}
       {!!citiesLocalitiesArray.length ? (
         <ul>
-          {citiesLocalitiesArray.map(item => (
+          {citiesLocalitiesArray.map((item) => (
             <li
+              tabIndex="0"
               key={ID_GENERATOR("city-locality-array-")}
-              onClick={e => {
+              onClick={(e) => {
                 setSearchInput(e.currentTarget.textContent);
                 toggleDropdown(
                   DropdownActionTypes.TOGGLE_RESULTS_DROPDOWN_HIDDEN
@@ -79,10 +86,11 @@ const ResultsDropdown = ({
       {!!streetsPostcodeLocalitiesArray.length ? <h4>Streets</h4> : null}
       {!!streetsPostcodeLocalitiesArray.length ? (
         <ul>
-          {streetsPostcodeLocalitiesArray.map(item => (
+          {streetsPostcodeLocalitiesArray.map((item) => (
             <li
+              tabIndex="0"
               key={ID_GENERATOR("street-postcode-locality-array-")}
-              onClick={e => {
+              onClick={(e) => {
                 setSearchInput(e.currentTarget.textContent);
                 toggleDropdown(
                   DropdownActionTypes.TOGGLE_RESULTS_DROPDOWN_HIDDEN
@@ -109,12 +117,12 @@ const mapStateToProps = createStructuredSelector({
   streetsPostcodeLocalitiesArray: selectStreetsPostcodeLocalities,
   hits: selectHits,
   //Dropdown
-  resultsDropdown: selectResultsDropdown
+  resultsDropdown: selectResultsDropdown,
 });
 
-const mapDispatchToProps = dispatch => ({
-  toggleDropdown: type => dispatch(toggleDropdown(type)),
-  setSearchInput: text => dispatch(setSearchInput(text))
+const mapDispatchToProps = (dispatch) => ({
+  toggleDropdown: (type) => dispatch(toggleDropdown(type)),
+  setSearchInput: (text) => dispatch(setSearchInput(text)),
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(ResultsDropdown);
