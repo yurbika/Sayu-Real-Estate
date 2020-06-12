@@ -12,16 +12,16 @@ import {
   Area,
   Rooms,
   Price,
-  BriefDescription
+  BriefDescription,
 } from "./img-preview.styles";
 
-const ImgPreview = ({ realEstate }) => {
+const ImgPreview = ({ realEstate, tabIndex }) => {
   let propertyType = "";
   if (!!realEstate["house"]) propertyType = "house";
   else if (!!realEstate["apartment"]) propertyType = "apartment";
   else return null;
   return (
-    <ImgPreviewContainer>
+    <ImgPreviewContainer tabIndex={tabIndex}>
       <img
         src={
           realEstate[propertyType]["imgs"]["cover"] +
@@ -30,13 +30,13 @@ const ImgPreview = ({ realEstate }) => {
         alt={propertyType}
       />
       <HoverContainer>
-        <BriefDescription>
+        <BriefDescription tabIndex="0">
           {realEstate[propertyType]["briefDescription"]}
         </BriefDescription>
         <HoverFooter>
-          <Rooms>{realEstate[propertyType]["rooms"]} RMS.</Rooms>
-          <Area> {realEstate[propertyType]["livingspace"]} m²</Area>
-          <Price>
+          <Rooms tabIndex="0">{realEstate[propertyType]["rooms"]} RMS.</Rooms>
+          <Area tabIndex="0">{realEstate[propertyType]["livingspace"]} m²</Area>
+          <Price tabIndex="0">
             {thousandSeperatorDots(
               realEstate[propertyType]["price"].toString()
             )}

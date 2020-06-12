@@ -62,4 +62,12 @@ export const ImgPreviewContainer = styled.div`
   &:hover ${HoverContainer} {
     display: flex;
   }
+
+  &:focus ${HoverContainer} {
+    display: flex;
+  }
+
+  &:focus-within ${HoverContainer} {
+    display: flex;
+  }
 `;
