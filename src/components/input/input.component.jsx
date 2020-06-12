@@ -9,7 +9,7 @@ import { clearSearchInput } from "../../redux/filter/filter.action";
 //import styles
 import { InputStyled, Wrapper, ClearInputButton } from "./input.styles";
 
-const Input = props => {
+const Input = (props) => {
   if (!props.deleteButton) return <InputStyled autoComplete="off" {...props} />;
   else
     return (
@@ -19,6 +19,7 @@ const Input = props => {
           <ClearInputButton
             id="filter-button"
             onClick={() => props.clearSearchInput()}
+            aria-label="clear input"
           />
         ) : null}
       </Wrapper>
@@ -27,11 +28,11 @@ const Input = props => {
 
 const mapStateToProps = createStructuredSelector({
   //Filter States
-  input: selectSearchInput
+  input: selectSearchInput,
 });
 
-const mapDispatchToProps = dispatch => ({
-  clearSearchInput: () => dispatch(clearSearchInput())
+const mapDispatchToProps = (dispatch) => ({
+  clearSearchInput: () => dispatch(clearSearchInput()),
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Input);

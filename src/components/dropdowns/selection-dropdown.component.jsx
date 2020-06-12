@@ -23,13 +23,14 @@ const SelectionDropdown = ({
   backToTop,
   toggleDropdown,
   resetSliderPositions,
-  type
+  type,
 }) => {
   return (
     <DropdownContainer additionalStyle={additionalStyle} ref={dropdownRef}>
       <ul>
-        {children.map(child => (
+        {children.map((child) => (
           <li
+            tabIndex="0"
             key={ID_GENERATOR("SelectionDropdown-li-")}
             onClick={() => {
               setDropdown(child, type);
@@ -37,6 +38,12 @@ const SelectionDropdown = ({
               if (backToTop) {
                 window.scrollTo(0, 0);
                 resetSliderPositions();
+              }
+            }}
+            onKeyDown={(e) => {
+              if (e.key === "Enter") {
+                setDropdown(child, type);
+                toggleDropdown(DropdownActionTypes.TOGGLE_ALL_DROPDOWNS_FALSE);
               }
             }}
           >
@@ -48,11 +55,11 @@ const SelectionDropdown = ({
   );
 };
 
-const mapDispatchToProps = dispatch => ({
+const mapDispatchToProps = (dispatch) => ({
   setDropdown: (text, type) => dispatch(setDropdown(text, type)),
-  toggleDropdown: type => dispatch(toggleDropdown(type)),
+  toggleDropdown: (type) => dispatch(toggleDropdown(type)),
   //slider action
-  resetSliderPositions: () => dispatch(resetSliderPositions())
+  resetSliderPositions: () => dispatch(resetSliderPositions()),
 });
 
 export default connect(null, mapDispatchToProps)(SelectionDropdown);

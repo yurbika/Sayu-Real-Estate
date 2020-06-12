@@ -45,7 +45,9 @@ const ResultsDropdown = ({
       additionalStyle={additionalStyle}
       tabIndex="0"
     >
-      {!!federalstatesArray.length ? <h4>Federal-States</h4> : null}
+      {!!federalstatesArray.length ? (
+        <h4 tabIndex="0">Federal-States</h4>
+      ) : null}
       {!!federalstatesArray.length ? (
         <ul>
           {federalstatesArray.map((item) => (
@@ -58,13 +60,21 @@ const ResultsDropdown = ({
                   DropdownActionTypes.TOGGLE_RESULTS_DROPDOWN_HIDDEN
                 );
               }}
+              onKeyPress={(e) => {
+                if (e.key === "Enter") {
+                  setSearchInput(e.currentTarget.textContent);
+                  toggleDropdown(
+                    DropdownActionTypes.TOGGLE_RESULTS_DROPDOWN_HIDDEN
+                  );
+                }
+              }}
             >
               {item}
             </li>
           ))}
         </ul>
       ) : null}
-      {!!citiesLocalitiesArray.length ? <h4>Localities</h4> : null}
+      {!!citiesLocalitiesArray.length ? <h4 tabIndex="0">Localities</h4> : null}
       {!!citiesLocalitiesArray.length ? (
         <ul>
           {citiesLocalitiesArray.map((item) => (
@@ -77,13 +87,23 @@ const ResultsDropdown = ({
                   DropdownActionTypes.TOGGLE_RESULTS_DROPDOWN_HIDDEN
                 );
               }}
+              onKeyPress={(e) => {
+                if (e.key === "Enter") {
+                  setSearchInput(e.currentTarget.textContent);
+                  toggleDropdown(
+                    DropdownActionTypes.TOGGLE_RESULTS_DROPDOWN_HIDDEN
+                  );
+                }
+              }}
             >
               {item}
             </li>
           ))}
         </ul>
       ) : null}
-      {!!streetsPostcodeLocalitiesArray.length ? <h4>Streets</h4> : null}
+      {!!streetsPostcodeLocalitiesArray.length ? (
+        <h4 tabIndex="0">Streets</h4>
+      ) : null}
       {!!streetsPostcodeLocalitiesArray.length ? (
         <ul>
           {streetsPostcodeLocalitiesArray.map((item) => (
@@ -95,6 +115,14 @@ const ResultsDropdown = ({
                 toggleDropdown(
                   DropdownActionTypes.TOGGLE_RESULTS_DROPDOWN_HIDDEN
                 );
+              }}
+              onKeyPress={(e) => {
+                if (e.key === "Enter") {
+                  setSearchInput(e.currentTarget.textContent);
+                  toggleDropdown(
+                    DropdownActionTypes.TOGGLE_RESULTS_DROPDOWN_HIDDEN
+                  );
+                }
               }}
             >
               {item}
