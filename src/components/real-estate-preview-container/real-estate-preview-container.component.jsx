@@ -11,7 +11,7 @@ import { selectResults } from "../../redux/real-estate/real-estate.selectors";
 
 import {
   selectPage,
-  selectTotalPages
+  selectTotalPages,
 } from "../../redux/filter/filter.selectors";
 
 import { setPage } from "../../redux/filter/filter.action";
@@ -38,7 +38,12 @@ class RealEstatePreviewContainer extends React.Component {
   render() {
     const { page, results } = this.props;
     return (
-      <Container>
+      <Container
+        tabIndex="0"
+        aria-label={`List with ${
+          results.length > 20 ? 20 : results.length
+        }, elements`}
+      >
         {results.map((item, index) => {
           //if index exceeds 20, slider reducer needs to be adjusted
           if (index >= 20 * (page - 1) && index < 20 * (page - 1) + 20)
@@ -59,13 +64,13 @@ class RealEstatePreviewContainer extends React.Component {
 const mapStateToProps = createStructuredSelector({
   page: selectPage,
   totalPages: selectTotalPages,
-  results: selectResults
+  results: selectResults,
 });
 
-const mapDispatchToProps = dispatch => ({
-  setPage: num => dispatch(setPage(num)),
+const mapDispatchToProps = (dispatch) => ({
+  setPage: (num) => dispatch(setPage(num)),
   //slider action
-  resetSliderPositions: () => dispatch(resetSliderPositions())
+  resetSliderPositions: () => dispatch(resetSliderPositions()),
 });
 
 export default withRouter(

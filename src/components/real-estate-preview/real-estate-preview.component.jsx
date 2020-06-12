@@ -7,7 +7,7 @@ import Slider from "../slider/slider.component";
 import {
   togglePopup,
   setPopupRealEstate,
-  setPopupRealEstateID
+  setPopupRealEstateID,
 } from "../../redux/popup/popup.action";
 
 //utils
@@ -37,7 +37,7 @@ import {
   ResponsivFooter,
   ResponsivAdress,
   ResponsivIconContainer,
-  RepsponsivFooterSecondSection
+  RepsponsivFooterSecondSection,
 } from "./real-estate-preview.styles";
 
 const RealEstatePreview = ({
@@ -45,17 +45,28 @@ const RealEstatePreview = ({
   id,
   togglePopup,
   setPopupRealEstate,
-  setPopupRealEstateID
+  setPopupRealEstateID,
 }) => {
   let realEstateType = "";
   if (!!realEstate["house"]) realEstateType = "house";
   else if (!!realEstate["apartment"]) realEstateType = "apartment";
   else return null;
   return (
-    <Container>
+    <Container
+      tabIndex="0"
+      aria-label={`Real-Estate Number: ${id + 1}`}
+      onKeyDown={(e) => {
+        if (e.key === "Enter") {
+          togglePopup();
+          document.body.style.overflow = "hidden";
+          setPopupRealEstate(realEstate);
+          setPopupRealEstateID(id);
+        }
+      }}
+    >
       <ImgPreviewContainer>
         <Slider
-            imgArray={[
+          imgArray={[
             realEstate[realEstateType]["imgs"]["cover"] +
               theme.unsplash.normalResolution,
             realEstate[realEstateType]["imgs"]["two"] +
@@ -67,7 +78,7 @@ const RealEstatePreview = ({
             realEstate[realEstateType]["imgs"]["five"] +
               theme.unsplash.normalResolution,
             realEstate[realEstateType]["imgs"]["six"] +
-              theme.unsplash.normalResolution
+              theme.unsplash.normalResolution,
           ]}
           alt={realEstateType}
           id={id}
@@ -167,10 +178,10 @@ const RealEstatePreview = ({
   );
 };
 
-const mapDispatchToProps = dispatch => ({
+const mapDispatchToProps = (dispatch) => ({
   togglePopup: () => dispatch(togglePopup()),
-  setPopupRealEstate: realEstate => dispatch(setPopupRealEstate(realEstate)),
-  setPopupRealEstateID: num => dispatch(setPopupRealEstateID(num))
+  setPopupRealEstate: (realEstate) => dispatch(setPopupRealEstate(realEstate)),
+  setPopupRealEstateID: (num) => dispatch(setPopupRealEstateID(num)),
 });
 
 export default connect(null, mapDispatchToProps)(RealEstatePreview);
