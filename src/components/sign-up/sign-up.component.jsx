@@ -14,7 +14,7 @@ import {
   Container,
   Form,
   ButtonContainer,
-  InputContainer
+  InputContainer,
 } from "./sign-up.styles";
 
 const SignUp = ({ toggleLogIn, history }) => (
@@ -22,7 +22,7 @@ const SignUp = ({ toggleLogIn, history }) => (
     <h2>Sign Up</h2>
     <Container>
       <InputContainer>
-        <Input registration name="username" required />
+        <Input registration name="username" aria-label="username" required />
         <label htmlFor="username">
           <span>Username</span>
         </label>
@@ -45,12 +45,6 @@ const SignUp = ({ toggleLogIn, history }) => (
           <span>Password</span>
         </label>
       </InputContainer>
-      <InputContainer>
-        <Input registration type="password" name="password" required />
-        <label htmlFor="password">
-          <span>Confirm Password</span>
-        </label>
-      </InputContainer>
     </Container>
     <ButtonContainer>
       <Button actionButton onClick={() => history.push("/")}>
@@ -68,8 +62,8 @@ const SignUp = ({ toggleLogIn, history }) => (
   </Form>
 );
 
-const mapDispatchToProps = dispatch => ({
-  toggleLogIn: () => dispatch(toggleLogIn())
+const mapDispatchToProps = (dispatch) => ({
+  toggleLogIn: () => dispatch(toggleLogIn()),
 });
 
 export default withRouter(connect(null, mapDispatchToProps)(SignUp));

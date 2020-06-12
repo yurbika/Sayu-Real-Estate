@@ -13,7 +13,7 @@ import {
   Container,
   Form,
   ButtonContainer,
-  InputContainer
+  InputContainer,
 } from "../sign-up/sign-up.styles";
 
 const SignIn = ({ toggleSignIn, history }) => (
@@ -21,7 +21,13 @@ const SignIn = ({ toggleSignIn, history }) => (
     <h2>Log In</h2>
     <Container>
       <InputContainer>
-        <Input registration name="username" required />
+        <Input
+          registration
+          name="username"
+          type="text"
+          aria-label="username"
+          required
+        />
         <label htmlFor="username">
           <span>Username</span>
         </label>
@@ -44,8 +50,8 @@ const SignIn = ({ toggleSignIn, history }) => (
   </Form>
 );
 
-const mapDispatchToProps = dispatch => ({
-  toggleSignIn: () => dispatch(toggleSignIn())
+const mapDispatchToProps = (dispatch) => ({
+  toggleSignIn: () => dispatch(toggleSignIn()),
 });
 
 export default withRouter(connect(null, mapDispatchToProps)(SignIn));
