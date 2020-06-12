@@ -64,8 +64,26 @@ import areaIcon from "../../assets/area-icon.png";
 import clockIcon from "../../assets/clock-icon.png";
 
 class Popup extends React.Component {
+  constructor(props) {
+    super(props);
+    this.timeOutId = null;
+    this.onBlurHandler = this.onBlurHandler.bind(this);
+    this.onFocusHandler = this.onFocusHandler.bind(this);
+  }
+
   componentDidMount() {
     this.focusDiv();
+  }
+
+  onBlurHandler() {
+    this.timeOutId = setTimeout(() => {
+      this.props.togglePopup();
+      document.body.style.overflowY = "visible";
+    });
+  }
+
+  onFocusHandler() {
+    clearTimeout(this.timeOutId);
   }
 
   focusDiv() {
@@ -85,6 +103,8 @@ class Popup extends React.Component {
         tabIndex="0"
         ref="popup"
         aria-label="Popup open"
+        onFocus={this.onFocusHandler}
+        onBlur={this.onBlurHandler}
       >
         <PopupContentContainer ref={popupRef}>
           <CloseButtonContainer
