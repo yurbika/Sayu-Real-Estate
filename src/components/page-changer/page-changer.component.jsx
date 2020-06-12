@@ -32,7 +32,7 @@ class PageChanger extends React.Component {
       resetSliderPositions,
       page,
       pages,
-      setPage
+      setPage,
     } = this.props;
 
     let optionsArray = [];
@@ -56,7 +56,14 @@ class PageChanger extends React.Component {
             previous Page
           </Button>
         ) : (
-          <Button pageChanger noOpacity secondary left scrollButton>
+          <Button
+            pageChanger
+            noOpacity
+            secondary
+            left
+            scrollButton
+            tabIndex="-1"
+          >
             previous Page
           </Button>
         )}
@@ -76,11 +83,11 @@ class PageChanger extends React.Component {
         </Button>
 
         {page === pages ? (
-          <Button pageChanger noOpacity secondary>
+          <Button pageChanger noOpacity secondary tabIndex="-1">
             next Page
           </Button>
         ) : pages === 0 ? (
-          <Button pageChanger noOpacity secondary>
+          <Button pageChanger noOpacity secondary tabIndex="-1">
             next Page
           </Button>
         ) : (
@@ -98,7 +105,12 @@ class PageChanger extends React.Component {
             next Page
           </Button>
         )}
-        <Button pageChanger dropdown>
+        <Button
+          pageChanger
+          dropdown
+          aria-label="page changer dropdown"
+          aria-haspopup="true"
+        >
           {dropdown ? (
             pages === 0 ? null : (
               <SelectionDropdown
@@ -119,17 +131,17 @@ class PageChanger extends React.Component {
 const mapStateToProps = createStructuredSelector({
   dropdown: selectPageChangerDropdown,
   //filter
-  page: selectPage
+  page: selectPage,
 });
 
-const mapDispatchToProps = dispatch => ({
+const mapDispatchToProps = (dispatch) => ({
   //dropdown action
-  toggleDropdown: toggle => dispatch(toggleDropdown(toggle)),
+  toggleDropdown: (toggle) => dispatch(toggleDropdown(toggle)),
   //filter action
-  setPage: payload => dispatch(setPage(payload)),
-  setTotalPages: num => dispatch(setTotalPages(num)),
+  setPage: (payload) => dispatch(setPage(payload)),
+  setTotalPages: (num) => dispatch(setTotalPages(num)),
   //slider action
-  resetSliderPositions: () => dispatch(resetSliderPositions())
+  resetSliderPositions: () => dispatch(resetSliderPositions()),
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(PageChanger);

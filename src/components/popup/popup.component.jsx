@@ -155,9 +155,9 @@ class Popup extends React.Component {
                       <HeaderSpan titleSpan tabIndex="0">
                         {realEstate[realEstateType]["title"]}
                       </HeaderSpan>
-                      <IconContainer>
+                      <IconContainer tabIndex="0">
                         <img src={gpsIconBrown} alt="Adress:" />
-                        <span tabIndex="0">
+                        <span>
                           {" " +
                             realEstate[realEstateType]["adress"]["street"] +
                             ", " +
@@ -170,7 +170,7 @@ class Popup extends React.Component {
                             ]}
                         </span>
                       </IconContainer>
-                      <IconContainer>
+                      <IconContainer tabIndex="0">
                         <img src={moneyIconBrown} alt="Price:" />
                         <HeaderSpan price tabIndex="0">
                           {" " +
@@ -181,20 +181,20 @@ class Popup extends React.Component {
                         </HeaderSpan>
                       </IconContainer>
                       <BoxInfo>
-                        <IconContainer>
+                        <IconContainer tabIndex="0">
                           <img src={roomIcon} alt="Rooms:" />
                           <span tabIndex="0">
                             {" " + realEstate[realEstateType]["rooms"]}
                           </span>
                         </IconContainer>
-                        <IconContainer>
+                        <IconContainer tabIndex="0">
                           <img src={propertyIcon} alt="Livingspace:" />
                           <span tabIndex="0">
                             {" " + realEstate[realEstateType]["livingspace"]} m²
                           </span>
                         </IconContainer>
                         {!!realEstate[realEstateType]["property"] ? (
-                          <IconContainer>
+                          <IconContainer tabIndex="0">
                             <img src={areaIcon} alt="Property:" />
                             <span tabIndex="0">
                               {" " + realEstate[realEstateType]["property"]}
@@ -205,7 +205,7 @@ class Popup extends React.Component {
                       </BoxInfo>
                     </InfosContent>
                     <InfosFooter>
-                      <IconContainer>
+                      <IconContainer tabIndex="0">
                         <img src={clockIcon} alt="Publishing:" />
                         <span tabIndex="0">
                           {"Published " +
@@ -244,36 +244,36 @@ class Popup extends React.Component {
                 <MainContent>
                   <InformationContainer>
                     <GridContainer tabIndex="0">
-                      <GridItem house>
+                      <GridItem house tabIndex="0">
                         <span>Type:</span>
                         <span>
                           {realEstateType.charAt(0).toUpperCase() +
                             realEstateType.slice(1)}
                         </span>
                       </GridItem>
-                      <GridItem house>
+                      <GridItem house tabIndex="0">
                         <span>Rooms:</span>
                         <span>{realEstate[realEstateType]["rooms"]}</span>
                       </GridItem>
-                      <GridItem house>
+                      <GridItem house tabIndex="0">
                         <span>Livingspace:</span>
                         <span>
                           {realEstate[realEstateType]["livingspace"]} m²
                         </span>
                       </GridItem>
-                      <GridItem house>
+                      <GridItem house tabIndex="0">
                         <span>Bathrooms:</span>
                         <span>{realEstate[realEstateType]["bathrooms"]}</span>
                       </GridItem>
                       {realEstateType === "house" ? (
-                        <GridItem house>
+                        <GridItem house tabIndex="0">
                           <span>Property</span>
                           <span>
                             {realEstate[realEstateType]["property"]} m²
                           </span>
                         </GridItem>
                       ) : null}
-                      <GridItem house>
+                      <GridItem house tabIndex="0">
                         <span>Obtainingtype:</span>
                         <span>
                           {realEstate[realEstateType]["obtainingType"]
@@ -287,7 +287,7 @@ class Popup extends React.Component {
                     </GridContainer>
                     {realEstate[realEstateType]["obtainingType"] === "buy" ? (
                       <GridContainer price>
-                        <GridItem price>
+                        <GridItem price tabIndex="0">
                           <span>Price:</span>
                           <span>
                             {thousandSeperatorDots(
@@ -295,7 +295,7 @@ class Popup extends React.Component {
                             ) + " €"}
                           </span>
                         </GridItem>
-                        <GridItem price>
+                        <GridItem price tabIndex="0">
                           <span>Broker-Commision:</span>
                           <span>
                             {thousandSeperatorDots(
@@ -306,7 +306,7 @@ class Popup extends React.Component {
                             ) + " €"}
                           </span>
                         </GridItem>
-                        <GridItem price>
+                        <GridItem price tabIndex="0">
                           <span>Notary-Fee:</span>
                           <span>
                             {thousandSeperatorDots(
@@ -317,7 +317,7 @@ class Popup extends React.Component {
                             ) + " €"}
                           </span>
                         </GridItem>
-                        <GridItem price>
+                        <GridItem price tabIndex="0">
                           <span>Real-Estate-Transfer-Tax:</span>
                           <span>
                             {thousandSeperatorDots(
@@ -328,7 +328,7 @@ class Popup extends React.Component {
                             ) + " €"}
                           </span>
                         </GridItem>
-                        <GridItem price>
+                        <GridItem price tabIndex="0">
                           <span>Land-Register-Entry-Fee:</span>
                           <span>
                             {thousandSeperatorDots(
