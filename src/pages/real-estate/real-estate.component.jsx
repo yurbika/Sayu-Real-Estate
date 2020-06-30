@@ -28,16 +28,18 @@ import {
   selectMinInput,
   selectPage,
   selectTotalPages,
-  selectSearchButtonClick
+  selectSearchButtonClick,
 } from "../../redux/filter/filter.selectors";
 
 import {
   toggleSearchButtonClick,
   setPage,
-  resetPage
+  resetPage,
 } from "../../redux/filter/filter.action";
 
 import { selectPopupState } from "../../redux/popup/popup.selectors";
+
+import { resetSliderPositions } from "../../redux/slider/slider.action";
 
 //utils
 import { filterData } from "../../real-estate-data/real-estate-data.utils.js";
@@ -57,11 +59,11 @@ class RealEstate extends React.Component {
       realEstateType,
       input,
       rooms,
-      space
+      space,
     } = this.props;
 
     let splitedStr = !!input ? input.split(/[ ,-]+/) : "";
-    splitedStr = !!input ? splitedStr.filter(i => i) : "";
+    splitedStr = !!input ? splitedStr.filter((i) => i) : "";
 
     //input === "" => search will be set to e
     //e is the most used letter in german
@@ -72,12 +74,12 @@ class RealEstate extends React.Component {
       minInput: `${minInput}`,
       maxInput: `${maxInput}`,
       rooms: `${rooms}`,
-      livingspace: `${space}`
+      livingspace: `${space}`,
     };
     //if the search array === 0, so we have backup and not a blank page
     if (filterData(filter).allResults.length === 0) {
       this.setState({ noResults: true });
-    }
+    } else this.setState({ noResults: false });
   }
 
   componentDidMount() {
@@ -91,11 +93,11 @@ class RealEstate extends React.Component {
       rooms,
       space,
       //real-estate action
-      setResults
+      setResults,
     } = this.props;
 
     let splitedStr = !!input ? input.split(/[ ,-]+/) : "";
-    splitedStr = !!input ? splitedStr.filter(i => i) : "";
+    splitedStr = !!input ? splitedStr.filter((i) => i) : "";
 
     //input === "" => search will be set to e
     //e is the most used letter in german
@@ -106,7 +108,7 @@ class RealEstate extends React.Component {
       minInput: `${minInput}`,
       maxInput: `${maxInput}`,
       rooms: `${rooms}`,
-      livingspace: `${space}`
+      livingspace: `${space}`,
     };
     //if the search array === 0, so we have backup and not a blank page
     if (filterData(filter).allResults.length === 0) {
@@ -117,7 +119,7 @@ class RealEstate extends React.Component {
         minInput: `${minInput}`,
         maxInput: `${maxInput}`,
         rooms: `${rooms}`,
-        livingspace: `${space}`
+        livingspace: `${space}`,
       };
     } else setResults(filterData(filter).allResults);
   }
@@ -137,7 +139,7 @@ class RealEstate extends React.Component {
       //real-estate action
       setResults,
       //props
-      history
+      history,
     } = this.props;
 
     if (page !== prevProps.page) {
@@ -147,7 +149,7 @@ class RealEstate extends React.Component {
 
     if (searchButtonClick) {
       let splitedStr = !!input ? input.split(/[ ,-]+/) : "";
-      splitedStr = !!input ? splitedStr.filter(i => i) : "";
+      splitedStr = !!input ? splitedStr.filter((i) => i) : "";
 
       let filter = {
         realEstateType: `${realEstateType}`,
@@ -156,7 +158,7 @@ class RealEstate extends React.Component {
         minInput: `${minInput}`,
         maxInput: `${maxInput}`,
         rooms: `${rooms}`,
-        livingspace: `${space}`
+        livingspace: `${space}`,
       };
       //if the search array === 0, so we have backup and not a blank page
       if (filterData(filter).allResults.length === 0) {
@@ -168,9 +170,12 @@ class RealEstate extends React.Component {
           minInput: `${minInput}`,
           maxInput: `${maxInput}`,
           rooms: `${rooms}`,
-          livingspace: `${space}`
+          livingspace: `${space}`,
         };
       } else setResults(filterData(filter).allResults);
+      if (filterData(filter).allResults.length === 0) {
+        this.setState({ noResults: true });
+      } else this.setState({ noResults: false });
       toggleSearchButtonClick();
     }
   }
@@ -187,6 +192,7 @@ class RealEstate extends React.Component {
 
   componentWillUnmount() {
     this.props.resetPage();
+    this.props.resetSliderPositions();
   }
 
   render() {
@@ -223,14 +229,15 @@ const mapStateToProps = createStructuredSelector({
   totalPages: selectTotalPages,
   searchButtonClick: selectSearchButtonClick,
   //popup
-  popShow: selectPopupState
+  popShow: selectPopupState,
 });
 
-const mapDispatchToProps = dispatch => ({
-  setResults: resultsArray => dispatch(setResults(resultsArray)),
+const mapDispatchToProps = (dispatch) => ({
+  setResults: (resultsArray) => dispatch(setResults(resultsArray)),
   toggleSearchButtonClick: () => dispatch(toggleSearchButtonClick()),
-  setPage: num => dispatch(setPage(num)),
-  resetPage: () => dispatch(resetPage())
+  setPage: (num) => dispatch(setPage(num)),
+  resetPage: () => dispatch(resetPage()),
+  resetSliderPositions: () => dispatch(resetSliderPositions()),
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(RealEstate);
