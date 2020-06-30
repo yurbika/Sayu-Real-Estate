@@ -141,6 +141,7 @@ class RealEstate extends React.Component {
       //props
       history,
     } = this.props;
+    this.props.resetSliderPositions();
 
     if (page !== prevProps.page) {
       history.push(`/real-estate/${page}`);
