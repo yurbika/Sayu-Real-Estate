@@ -4,7 +4,7 @@ import { removeDots } from "../components/input/input.utils";
 
 /*this regex its like a "loop", if we use the match function 
 it starts with the first expression and goes through the whole string. And the second one and so on, if everything matches we got a hit*/
-const createRegex = splitedStr => {
+const createRegex = (splitedStr) => {
   let str = "";
   for (let i = 0; i < splitedStr.length; i++) {
     if (i === 0) str += "^(?=.*" + splitedStr[i] + ")";
@@ -46,8 +46,14 @@ export const filterData = (filter, data = REAL_ESTATE_DATA) => {
   let totalArrayLength = 0;
   let splitedStr = !!search ? search.split(/[ ,-]+/) : "";
   //removes everything empty
-  splitedStr = !!search ? splitedStr.filter(i => i) : "";
+  splitedStr = !!search ? splitedStr.filter((i) => i) : "";
   let regex = splitedStr.length > 0 ? createRegex(splitedStr) : "";
+  //checking price inputs
+  if (minInput > maxInput) {
+    let temp = minInput;
+    minInput = maxInput;
+    maxInput = temp;
+  }
   //first loop is only necessary to calculate the totalArrayLength
   for (let i in data) {
     if (!!!data[i][realEstateType]) continue;
@@ -60,7 +66,9 @@ export const filterData = (filter, data = REAL_ESTATE_DATA) => {
       federalStatesArray.length < 4 &&
       splitedStr.length > 0
     ) {
-      federalStatesArray.push(data[i][realEstateType]["adress"]["federalstate"]);
+      federalStatesArray.push(
+        data[i][realEstateType]["adress"]["federalstate"]
+      );
     }
     if (
       !citiesLocalitiesArray.includes(
@@ -162,6 +170,6 @@ export const filterData = (filter, data = REAL_ESTATE_DATA) => {
     streetsPostcodeLocalitiesArray,
     hits,
     realEstateArray,
-    allResults
+    allResults,
   };
 };
