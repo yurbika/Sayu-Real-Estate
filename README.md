@@ -13,10 +13,10 @@
   <img alt="Logo" src="src/readme/Sayu-Logo.png" width="250"/>
 </div>
 <h1 align="center">
-  <a href="https://sayu-real-estate.herokuapp.com/">sayu-real-estate.herokuapp.com - v1</a>
+  <a href="https://sayu-real-estate.netlify.app/">sayu-real-estate.netlify.app - v1</a>
 </h1>
 <p align="center">
-An application for real estate built with React - Redux - Styled Components - Leaflet - React Router Dom and hosted with <a href="https://heroku.com/" target="_blank">Heroku</a>
+An application for real estate built with React - Redux - Styled Components - Leaflet - React Router Dom and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
 </p>
 <div align="center">
   <img alt="Logo" src="src/readme/sayu-real-estate-preview.png" />
